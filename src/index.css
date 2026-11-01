@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Noto Sans JP", system-ui, sans-serif;
+  --font-jp: "Noto Sans JP", "Hiragino Sans", "Yu Gothic", sans-serif;
+  --font-jp-serif: "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif;
+
+  --color-accent: oklch(0.58 0.19 25);       /* vermilion, like a hanko stamp */
+  --color-accent-soft: oklch(0.95 0.03 25);
+}
+
+@layer base {
+  html { -webkit-tap-highlight-color: transparent; }
+  body {
+    @apply bg-stone-50 text-stone-900 antialiased dark:bg-stone-950 dark:text-stone-100;
+  }
+  /* Furigana: small, muted, never shifts line height wildly. */
+  ruby rt {
+    font-size: 0.5em;
+    font-weight: 400;
+    @apply text-stone-500 dark:text-stone-400;
+  }
+  .hide-furigana rt { visibility: hidden; }
+}
