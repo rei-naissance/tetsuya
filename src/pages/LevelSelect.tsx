@@ -8,6 +8,18 @@ const LEVEL_INFO: Record<Level, { title: string; desc: string }> = {
   N3: { title: 'Intermediate', desc: 'Everyday situations at near-natural speed. About 650 kanji, 3,750 words.' },
 }
 
+/** Shown but not open yet. */
+const COMING_LEVELS = [
+  { name: 'N2', title: 'Upper intermediate', desc: 'Newspapers, articles and natural-speed conversation. About 1,000 kanji, 6,000 words.' },
+  { name: 'N1', title: 'Advanced', desc: 'Complex writing and abstract topics in a wide range of settings. About 2,000 kanji, 10,000 words.' },
+]
+const COMING_TEXTBOOKS = [
+  { name: 'Genki', jp: 'げんき', title: 'Genki I & II', desc: 'Vocabulary, kanji and grammar lesson by lesson, following the textbook.' },
+  { name: 'Minna no Nihongo', jp: 'みんなの日本語', title: 'Shokyū I & II', desc: 'Vocabulary and grammar for each 課, following the textbook.' },
+]
+
+const card = 'relative overflow-hidden rounded-3xl border p-8'
+
 export function LevelSelect() {
   return (
     <Layout back={{ to: '/', label: 'Home' }}>
@@ -19,7 +31,7 @@ export function LevelSelect() {
           <Link
             key={level}
             to={`/${level.toLowerCase()}`}
-            className="group relative overflow-hidden rounded-3xl border border-stone-200 bg-white p-8 transition hover:-translate-y-0.5 hover:border-stone-900 hover:shadow-xl hover:shadow-stone-900/5 dark:border-stone-800 dark:bg-stone-900 dark:hover:border-stone-400"
+            className={`group ${card} border-stone-200 bg-white transition hover:-translate-y-0.5 hover:border-stone-900 hover:shadow-xl hover:shadow-stone-900/5 dark:border-stone-800 dark:bg-stone-900 dark:hover:border-stone-400`}
           >
             <span className="text-6xl font-semibold tracking-tighter">{level}</span>
             <p className="mt-6 font-medium">{LEVEL_INFO[level].title}</p>
@@ -29,7 +41,36 @@ export function LevelSelect() {
             </span>
           </Link>
         ))}
+        {COMING_LEVELS.map((c) => (
+          <ComingSoon key={c.name} title={c.title} desc={c.desc}>
+            <span className="text-6xl font-semibold tracking-tighter">{c.name}</span>
+          </ComingSoon>
+        ))}
+      </div>
+
+      <h2 className="mb-4 mt-14 text-sm font-medium uppercase tracking-widest text-stone-400">Textbooks</h2>
+      <div className="grid gap-4 sm:grid-cols-2">
+        {COMING_TEXTBOOKS.map((c) => (
+          <ComingSoon key={c.name} title={c.title} desc={c.desc}>
+            <span className="text-3xl font-semibold tracking-tight">{c.name}</span>
+            <span className="mt-1 block font-jp text-sm text-stone-400">{c.jp}</span>
+          </ComingSoon>
+        ))}
       </div>
     </Layout>
+  )
+}
+
+/** A card for something not built yet: dashed, muted, not a link. */
+function ComingSoon({ title, desc, children }: { title: string; desc: string; children: React.ReactNode }) {
+  return (
+    <div aria-disabled="true" className={`${card} cursor-default border-dashed border-stone-300 bg-transparent text-stone-400 dark:border-stone-700 dark:text-stone-600`}>
+      <div className="pr-28">{children}</div>
+      <p className="mt-6 font-medium text-stone-500">{title}</p>
+      <p className="mt-1 text-sm leading-relaxed text-stone-400 dark:text-stone-500">{desc}</p>
+      <span className="absolute right-6 top-7 rounded-full bg-stone-100 px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wider text-stone-500 dark:bg-stone-800 dark:text-stone-400">
+        Coming soon
+      </span>
+    </div>
   )
 }

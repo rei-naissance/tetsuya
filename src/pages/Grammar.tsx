@@ -1,6 +1,8 @@
 import { useMemo, useState } from 'react'
 import { Link, useLocation, useNavigate, useSearchParams } from 'react-router-dom'
-import { Button, Layout } from '../components/Layout'
+import { Actions, Button, buttonClass, Layout, Pagination, TextButton } from '../components/Layout'
+import { usePage } from '../lib/usePage'
+import { SetSizePicker } from './SectionPage'
 import { JP } from '../components/JP'
 import { loadAttempts, progressStats } from '../lib/progress'
 import type { GrammarPattern, Level } from '../lib/types'
@@ -9,6 +11,8 @@ import { cn } from '../lib/cn'
 import { DrillProgress } from './Particles'
 
 export const grammarBase = (level: Level) => `/${level.toLowerCase()}/learn/grammar`
+
+const PAGE = 30
 
 const squash = (s = '') => s.toLowerCase().replace(/[^a-z぀-ヿ㐀-鿿]/g, '')
 
@@ -31,18 +35,21 @@ export function GrammarList({ level, patterns }: { level: Level; patterns: Gramm
   const attempts = useMemo(loadAttempts, [])
   const drills = patterns.reduce((n, p) => n + p.drills.length, 0)
 
+  const found = useMemo(() => searchPatterns(patterns, query), [patterns, query])
+  const paged = usePage(found, PAGE)
+  const hasChapters = found.some((x) => x.chapter)
+  // Chapter headings are worked out per page, so a page that starts mid-chapter repeats its heading.
   const groups = useMemo(() => {
-    const found = searchPatterns(patterns, query)
     const out: { title: string; items: GrammarPattern[] }[] = []
-    for (const p of found) {
-      const title = p.chapter ? `Chapter ${p.chapter}` : found.some((x) => x.chapter) ? 'More patterns' : 'Patterns'
+    for (const p of paged.items) {
+      const title = p.chapter ? `Chapter ${p.chapter}` : hasChapters ? 'More patterns' : 'Patterns'
       const last = out[out.length - 1]
       if (last?.title === title) last.items.push(p)
       else out.push({ title, items: [p] })
     }
     return out
-  }, [patterns, query])
-  const count = groups.reduce((n, g) => n + g.items.length, 0)
+  }, [paged.items, hasChapters])
+  const count = found.length
 
   return (
     <Layout back={{ to: `/${level.toLowerCase()}`, label: level }} title={`${level} Grammar patterns`}>
@@ -52,9 +59,10 @@ export function GrammarList({ level, patterns }: { level: Level; patterns: Gramm
         {patterns.length} JLPT {level} patterns, each with its meaning, how it's formed and example sentences.
         Drills blank out the pattern in real example sentences.
       </p>
-      <div className="mt-6 flex flex-wrap gap-2">
-        <Button onClick={() => navigate(`${base}/all/drill`)} disabled={!drills}>Drill all patterns ({drills})</Button>
-      </div>
+      <Actions className="mt-6">
+        <Button onClick={() => navigate(`${base}/all/drill`)} disabled={!drills} count={drills}>Drill all</Button>
+      </Actions>
+      <div className="mt-4"><SetSizePicker /></div>
 
       <div className="sticky top-14 z-[5] -mx-4 mt-10 bg-stone-50/90 px-4 py-3 backdrop-blur sm:-mx-6 sm:px-6 dark:bg-stone-950/90">
         <input
@@ -64,14 +72,18 @@ export function GrammarList({ level, patterns }: { level: Level; patterns: Gramm
             const next = new URLSearchParams(params)
             if (e.target.value) next.set('q', e.target.value)
             else next.delete('q')
+            next.delete('p')
             setParams(next, { replace: true })
           }}
           placeholder="Search: ばかり, bakari or only"
           aria-label="Search patterns"
           className="w-full rounded-xl border border-stone-200 bg-white px-4 py-2.5 text-base outline-none placeholder:text-stone-400 focus:border-stone-900 dark:border-stone-800 dark:bg-stone-900 dark:focus:border-stone-400"
         />
-        <p className="mt-2 text-right text-xs tabular-nums text-stone-400">{count} patterns</p>
+        <p className="mt-2 text-right text-xs tabular-nums text-stone-400">
+          {count > PAGE ? `${paged.start + 1}–${paged.start + paged.items.length} of ` : ''}{count} patterns
+        </p>
       </div>
+      <div ref={paged.topRef} />
 
       {groups.map((g) => (
         <section key={g.title} className="mt-6">
@@ -103,6 +115,7 @@ export function GrammarList({ level, patterns }: { level: Level; patterns: Gramm
         </section>
       ))}
       {count === 0 && <p className="py-12 text-center text-stone-500">No patterns match.</p>}
+      <Pagination page={paged.page} pages={paged.pages} onPage={paged.setPage} />
     </Layout>
   )
 }
@@ -160,10 +173,10 @@ export function GrammarDetail({ level, patterns, pattern: p }: { level: Level; p
         {p.drills.length > 0 ? (
           <>
             <DrillProgress stats={stats} />
-            <div className="mt-4 flex flex-wrap gap-2">
-              <Button onClick={() => navigate(`${base}/${p.id}/drill`)}>{stats.seen === 0 ? 'Start' : 'Practice again'}</Button>
-              {stats.wrong > 0 && <Button variant="outline" onClick={() => navigate(`${base}/${p.id}/drill?mode=mistakes`)}>Retry mistakes ({stats.wrong})</Button>}
-            </div>
+            <Actions className="mt-4">
+              <Button onClick={() => navigate(`${base}/${p.id}/drill`)} count={p.drills.length}>{stats.seen === 0 ? 'Start' : 'Continue'}</Button>
+              {stats.wrong > 0 && <Button variant="secondary" onClick={() => navigate(`${base}/${p.id}/drill?mode=mistakes`)} count={stats.wrong}>Retry mistakes</Button>}
+            </Actions>
           </>
         ) : (
           <p className="mt-2 text-sm text-stone-500">No drill: the pattern couldn't be picked out of the example sentences.</p>
@@ -185,7 +198,7 @@ export function GrammarDetail({ level, patterns, pattern: p }: { level: Level; p
             ))}
           </div>
           {p.examples.length > examples.length && (
-            <Button variant="ghost" className="mt-4" onClick={() => setShowAll(true)}>Show all {p.examples.length}</Button>
+            <TextButton className="mt-4" onClick={() => setShowAll(true)}>Show all {p.examples.length} examples</TextButton>
           )}
         </Block>
       )}
@@ -252,10 +265,7 @@ function PlayButton({ src }: { src: string }) {
     <button
       onClick={play}
       aria-label="Play audio"
-      className={cn(
-        'grid size-9 shrink-0 place-items-center self-start rounded-full border text-xs transition',
-        state === 'playing' ? 'border-accent text-accent' : 'border-stone-300 text-stone-500 hover:border-stone-900 dark:border-stone-700',
-      )}
+      className={buttonClass('secondary', 'icon', cn('self-start', state === 'playing' && 'text-accent'))}
     >
       ▶
     </button>

@@ -35,6 +35,8 @@ export interface Question {
   keepOrder?: boolean
   /** Words from the question, shown after answering. */
   glossary?: GlossaryEntry[]
+  /** English, shown after answering. `choices` lines up with `choices` (null = none). */
+  en?: { sentence?: string; passage?: string; prompt?: string; choices?: (string | null)[] }
 }
 
 export interface GlossaryEntry {

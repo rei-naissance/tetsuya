@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { toHiragana } from 'wanakana'
-import { shuffle } from './random'
+import { CARDS_KEY, isLearning, loadCards, markKnown, MATURE, type CardState } from './srs'
 import { readJSON, removeKey, writeJSON } from './storage'
 import type { Level, Word } from './types'
 
@@ -47,47 +47,61 @@ export function useWords(level: Level): State {
 }
 
 /* ------------------------------------------------------------------ */
-/* Status: which words you're learning / already know                  */
+/* Status: from the word's flashcard (spaced repetition)               */
 /* ------------------------------------------------------------------ */
 
-export type WordStatus = 'learning' | 'known'
+export type WordStatus = 'new' | 'learning' | 'known'
 export type StatusMap = Record<string, WordStatus>
 
-const KEY = 'tetsuya:words:v1'
+/** The flashcard deck for a level's vocabulary list. Cards are keyed by word id. */
+export const wordDeck = (level: Level) => `${level}-words`
 
-export function loadStatus(): StatusMap {
-  return readJSON<StatusMap>(KEY, {})
+/** new = never studied; known = learned (interval of 3 weeks or more); learning = anything between. */
+export function wordStatus(card: CardState | undefined): WordStatus {
+  if (!card) return 'new'
+  return !isLearning(card) && card.interval >= MATURE ? 'known' : 'learning'
 }
 
-/** null clears the mark. */
-export function setStatus(id: string, status: WordStatus | null): StatusMap {
-  const all = loadStatus()
-  if (status) all[id] = status
-  else delete all[id]
-  writeJSON(KEY, all)
-  return all
+export function loadStatus(words: Word[]): StatusMap {
+  migrateMarks()
+  const cards = loadCards()
+  return Object.fromEntries(words.map((w) => [w.id, wordStatus(cards[w.id])]))
 }
 
-export function resetWordStatus(): void {
-  removeKey(KEY)
-}
-
-export function wordStats(words: Word[], status = loadStatus()) {
+export function wordStats(words: Word[], status = loadStatus(words)) {
   let learning = 0, known = 0
   for (const w of words) {
     if (status[w.id] === 'learning') learning++
     else if (status[w.id] === 'known') known++
   }
-  return { total: words.length, learning, known }
+  return { total: words.length, learning, known, fresh: words.length - learning - known }
 }
 
-export type CardSet = 'new' | 'learning'
+/** Forget a word: it goes back to new. */
+export function resetWord(id: string): void {
+  const cards = loadCards()
+  delete cards[id]
+  writeJSON(CARDS_KEY, cards)
+}
 
-/** Flashcards: the next unmarked words in list order, or the "learning" words shuffled. */
-export function pickCards(words: Word[], set: CardSet, n: number, status = loadStatus()): Word[] {
-  return set === 'new'
-    ? words.filter((w) => !status[w.id]).slice(0, n)
-    : shuffle(words.filter((w) => status[w.id] === 'learning')).slice(0, n)
+// Before flashcards used spaced repetition, words were marked by hand.
+// "Know it" becomes a learned card, "still learning" a card due now.
+const OLD_MARKS_KEY = 'tetsuya:words:v1'
+
+function migrateMarks(now = Date.now()): void {
+  const marks = readJSON<Record<string, 'learning' | 'known'>>(OLD_MARKS_KEY, {})
+  if (!Object.keys(marks).length) return
+  const cards = loadCards()
+  for (const [id, mark] of Object.entries(marks)) {
+    if (cards[id]) continue
+    cards[id] = mark === 'known' ? markKnown(now) : { ...markKnown(now), interval: 1, due: now }
+  }
+  writeJSON(CARDS_KEY, cards)
+  removeKey(OLD_MARKS_KEY)
+}
+
+export function resetWordStatus(): void {
+  removeKey(OLD_MARKS_KEY)
 }
 
 /* ------------------------------------------------------------------ */

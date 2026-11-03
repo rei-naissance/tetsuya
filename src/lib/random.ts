@@ -13,10 +13,16 @@ export function sample<T>(items: readonly T[], n: number): T[] {
 }
 
 /** Shuffle a question's choices, remapping the answer index to match. */
-export function shuffleChoices<Q extends { choices: string[]; answer: number; keepOrder?: boolean }>(q: Q): Q {
+export function shuffleChoices<Q extends {
+  choices: string[]
+  answer: number
+  keepOrder?: boolean
+  en?: { choices?: (string | null)[] }
+}>(q: Q): Q {
   if (q.keepOrder) return q
   const order = shuffle(q.choices.map((_, i) => i))
-  return { ...q, choices: order.map((i) => q.choices[i]), answer: order.indexOf(q.answer) }
+  const en = q.en?.choices ? { ...q.en, choices: order.map((i) => q.en!.choices![i]) } : q.en
+  return { ...q, choices: order.map((i) => q.choices[i]), answer: order.indexOf(q.answer), en }
 }
 
 /**

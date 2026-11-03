@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import type { Question } from '../lib/types'
 import { KINDS, SECTION_META } from '../lib/types'
 import { cn } from '../lib/cn'
@@ -11,12 +11,14 @@ const asset = (path: string) => (/^(https?:)?\//.test(path) ? path : import.meta
  * `selected` is the chosen index (or null); `reveal` switches on right/wrong
  * styling, the explanation and any listening transcript.
  */
-export function QuestionView({ q, selected, reveal, onSelect, showSection }: {
+export function QuestionView({ q, selected, reveal, onSelect, showSection, autoPlay }: {
   q: Question
   selected: number | null
   reveal: boolean
   onSelect: (i: number) => void
   showSection?: boolean
+  /** Start the listening audio as soon as the question appears. */
+  autoPlay?: boolean
 }) {
   const numbered = q.choices.every((c, i) => c === String(i + 1))
   const kind = KINDS[q.section].find((k) => k.id === q.kind)
@@ -37,15 +39,24 @@ export function QuestionView({ q, selected, reveal, onSelect, showSection }: {
           className="max-h-[45vh] overflow-y-auto rounded-2xl border border-stone-200 bg-white p-5 text-[1.05rem] leading-[2.2] dark:border-stone-800 dark:bg-stone-900"
         />
       )}
+      {reveal && q.en?.passage && (
+        <details className="group -mt-3 text-sm text-stone-500">
+          <summary className="cursor-pointer select-none hover:text-stone-900 dark:hover:text-stone-100">English translation of the passage</summary>
+          <p className="mt-2 whitespace-pre-line leading-relaxed">{q.en.passage}</p>
+        </details>
+      )}
 
-      {(q.audio || q.transcript) && <Listening key={q.id} q={q} reveal={reveal} />}
+      {(q.audio || q.transcript) && <Listening key={q.id} q={q} reveal={reveal} autoPlay={autoPlay} />}
 
       {q.image && (
         // White backing: the source pictures are line drawings on transparent/white.
         <img src={asset(q.image)} alt="Answer choices 1–4" className="mx-auto max-h-80 w-auto rounded-xl bg-white p-2" />
       )}
 
-      <JP as="p" text={q.prompt} className="text-base leading-[2.1] text-stone-600 dark:text-stone-300" />
+      <div>
+        <JP as="p" text={q.prompt} className="text-base leading-[2.1] text-stone-600 dark:text-stone-300" />
+        {reveal && q.en?.prompt && <p className="text-sm text-stone-500">{q.en.prompt}</p>}
+      </div>
 
       {q.target && (
         <JP as="p" text={q.target} className="text-[1.6rem] leading-[2.2] tracking-wide sm:text-[1.85rem]" />
@@ -83,7 +94,10 @@ export function QuestionView({ q, selected, reveal, onSelect, showSection }: {
                   >
                     {reveal && isAnswer ? '✓' : reveal && isPicked ? '✕' : i + 1}
                   </span>
-                  <JP text={choice} className="text-lg leading-relaxed" />
+                  <span className="min-w-0">
+                    <JP text={choice} className="text-lg leading-relaxed" />
+                    {reveal && q.en?.choices?.[i] && <span className="block text-sm text-stone-500">{q.en.choices[i]}</span>}
+                  </span>
                 </button>
               </li>
             )
@@ -91,24 +105,34 @@ export function QuestionView({ q, selected, reveal, onSelect, showSection }: {
         </ol>
       )}
 
-      {reveal && q.explanation && (
+      {reveal && (q.explanation || q.en?.sentence) && (
         <div className="rounded-xl bg-stone-100 px-4 py-3 text-base leading-loose text-stone-700 dark:bg-stone-900 dark:text-stone-300">
-          <JP text={q.explanation} />
+          {q.explanation && <JP text={q.explanation} />}
+          {q.en?.sentence && <p className="text-sm leading-relaxed text-stone-500">{q.en.sentence}</p>}
         </div>
       )}
 
       {reveal && q.glossary && q.glossary.length > 0 && (
-        <dl className="grid gap-x-4 gap-y-1.5 text-sm sm:grid-cols-[auto_1fr]">
-          {q.glossary.map((g) => (
-            <div key={g.word} className="contents">
-              <dt className="font-jp">
-                {g.word}
-                {g.reading && <span className="ml-1.5 text-xs text-stone-400">{g.reading}</span>}
-              </dt>
-              <dd className="mb-1 text-stone-500 sm:mb-0">{g.meaning}</dd>
-            </div>
-          ))}
-        </dl>
+        // Long lists (reading passages) start closed so the next button stays in view.
+        <details open={q.glossary.length <= 8} className="text-sm">
+          <summary className="cursor-pointer select-none text-xs font-medium uppercase tracking-widest text-stone-400 hover:text-stone-600">
+            Words ({q.glossary.length})
+          </summary>
+          <dl className="mt-3 grid gap-x-4 gap-y-1.5 sm:grid-cols-[auto_1fr]">
+            {q.glossary.map((g) => (
+              <div key={g.word} className="contents">
+                <dt lang="ja" className="font-jp">
+                  {g.word}
+                  {g.reading && <span className="ml-1.5 text-xs text-stone-400">{g.reading}</span>}
+                </dt>
+                <dd className="mb-1 text-stone-500 sm:mb-0">{g.meaning}</dd>
+              </div>
+            ))}
+          </dl>
+          <p className="mt-3 text-xs text-stone-400">
+            Meanings from <a href="https://www.edrdg.org/jmdict/j_jmdict.html" target="_blank" rel="noreferrer" className="underline underline-offset-2">JMdict</a> (EDRDG, CC BY-SA 4.0) and the exercise word lists.
+          </p>
+        </details>
       )}
     </div>
   )
@@ -149,15 +173,21 @@ function NumberedChoices({ q, selected, reveal, onSelect }: {
   )
 }
 
-function Listening({ q, reveal }: { q: Question; reveal: boolean }) {
+function Listening({ q, reveal, autoPlay }: { q: Question; reveal: boolean; autoPlay?: boolean }) {
   const [audioFailed, setAudioFailed] = useState(false)
+  const audio = useRef<HTMLAudioElement>(null)
+  // play() rather than the autoplay attribute, so a browser that blocks it
+  // just leaves the controls there instead of logging an error.
+  useEffect(() => {
+    if (autoPlay) audio.current?.play().catch(() => {})
+  }, [autoPlay])
   const hasAudio = !!q.audio && !audioFailed
   // Without audio the transcript is the only way to answer, so show it up front.
   const showTranscript = !!q.transcript && (reveal || !hasAudio)
   return (
     <div className="space-y-3">
       {hasAudio ? (
-        <audio controls preload="metadata" src={asset(q.audio!)} onError={() => setAudioFailed(true)} className="w-full" />
+        <audio ref={audio} controls preload="auto" src={asset(q.audio!)} onError={() => setAudioFailed(true)} className="w-full" />
       ) : (
         <p className="text-xs text-stone-400">
           {q.audio ? 'Audio file not found — showing the script instead.' : 'No audio for this item — read the script.'}

@@ -1,6 +1,7 @@
 import { useMemo } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import { Button, Layout, ProgressBar } from '../components/Layout'
+import { Actions, Button, Layout, ProgressBar } from '../components/Layout'
+import { SetSizePicker } from './SectionPage'
 import { JP } from '../components/JP'
 import type { ParticleData } from '../lib/learn'
 import { loadAttempts, progressStats, type ProgressStats } from '../lib/progress'
@@ -33,17 +34,17 @@ export function ParticleList({ level, data, bankCount }: { level: Level; data: P
         Particles taught side by side, the way they get confused: に vs で, まで vs までに, stacked particles like には and での.
         Each pair has a short explanation, example pairs and a drill.
       </p>
-      <p className="mt-4 rounded-xl border border-amber-300/60 bg-amber-50 px-4 py-3 text-sm text-amber-900 dark:border-amber-700/50 dark:bg-amber-950/30 dark:text-amber-200">
-        Draft: these explanations and drills were written by Claude and haven't been checked by a teacher yet.
-      </p>
 
-      <div className="mt-6 flex flex-wrap gap-2">
-        <Button onClick={() => navigate(`${base}/all/drill`)}>Drill all ({total})</Button>
+      <Actions className="mt-6">
+        <Button onClick={() => navigate(`${base}/all/drill`)} count={total}>Drill all</Button>
         {bankCount > 0 && (
-          <Button variant="outline" onClick={() => navigate(`${base}/bank/drill`)}>
-            Particle questions from the exercises ({bankCount})
+          <Button variant="secondary" onClick={() => navigate(`${base}/bank/drill`)} count={bankCount} title="Particle questions from the exercises">
+            Exercise questions
           </Button>
         )}
+      </Actions>
+      <div className="mt-4">
+        <SetSizePicker />
       </div>
 
       <div className="mt-8 space-y-3">
@@ -99,10 +100,10 @@ export function ParticleDetail({ level, contrast }: { level: Level; contrast: Pa
       <div className="mt-12 rounded-2xl border border-stone-200 bg-white p-5 dark:border-stone-800 dark:bg-stone-900">
         <p className="font-medium">Drill <span className="text-sm font-normal text-stone-400">· {contrast.drills.length} questions</span></p>
         <DrillProgress stats={stats} />
-        <div className="mt-4 flex flex-wrap gap-2">
-          <Button onClick={() => navigate(`${base}/${contrast.id}/drill`)}>{stats.seen === 0 ? 'Start' : 'Practice again'}</Button>
-          {stats.wrong > 0 && <Button variant="outline" onClick={() => navigate(`${base}/${contrast.id}/drill?mode=mistakes`)}>Retry mistakes ({stats.wrong})</Button>}
-        </div>
+        <Actions className="mt-4">
+          <Button onClick={() => navigate(`${base}/${contrast.id}/drill`)} count={contrast.drills.length}>{stats.seen === 0 ? 'Start' : 'Continue'}</Button>
+          {stats.wrong > 0 && <Button variant="secondary" onClick={() => navigate(`${base}/${contrast.id}/drill?mode=mistakes`)} count={stats.wrong}>Retry mistakes</Button>}
+        </Actions>
       </div>
     </Layout>
   )

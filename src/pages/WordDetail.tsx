@@ -1,10 +1,11 @@
 import { useState } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
-import { Layout } from '../components/Layout'
+import { Layout, TextButton } from '../components/Layout'
 import { JP } from '../components/JP'
 import type { Level, Word, WordExample } from '../lib/types'
 import { useKeys } from '../lib/useKeys'
-import { loadStatus, setStatus, type WordStatus } from '../lib/words'
+import { formatDelay, getCard, markKnown, saveCard } from '../lib/srs'
+import { resetWord, wordStatus } from '../lib/words'
 import { cn } from '../lib/cn'
 
 /** Everything known about one word, with prev/next through the list (← →). */
@@ -103,29 +104,29 @@ export function WordDetail({ level, words, word }: { level: Level; words: Word[]
   )
 }
 
+/** The word's flashcard: where it stands, and a way to skip or restart it. */
 function StatusToggle({ id }: { id: string }) {
-  const [status, setLocal] = useState<WordStatus | null>(() => loadStatus()[id] ?? null)
-  const toggle = (s: WordStatus) => {
-    const nextStatus = status === s ? null : s
-    setStatus(id, nextStatus)
-    setLocal(nextStatus)
-  }
-  const btn = (s: WordStatus, label: string, on: string) => (
-    <button
-      onClick={() => toggle(s)}
-      aria-pressed={status === s}
-      className={cn(
-        'rounded-lg border px-3 py-1.5 text-xs font-medium transition',
-        status === s ? on : 'border-stone-200 text-stone-500 hover:border-stone-400 dark:border-stone-800',
-      )}
-    >
-      {label}
-    </button>
-  )
+  const [card, setCard] = useState(() => getCard(id))
+  const status = wordStatus(card)
+  const wait = card ? card.due - Date.now() : 0
   return (
-    <div className="flex shrink-0 flex-col gap-1.5">
-      {btn('learning', 'Learning', 'border-accent bg-accent text-white')}
-      {btn('known', 'Know it', 'border-emerald-500 bg-emerald-500 text-white')}
+    <div className="flex shrink-0 flex-col items-end gap-1.5 text-right">
+      <span
+        className={cn(
+          'rounded-full px-2.5 py-0.5 text-xs font-medium',
+          status === 'known' ? 'bg-emerald-100 text-emerald-700 dark:bg-emerald-950 dark:text-emerald-300'
+          : status === 'learning' ? 'bg-accent-soft text-accent dark:bg-accent/15'
+          : 'bg-stone-100 text-stone-500 dark:bg-stone-800',
+        )}
+      >
+        {status === 'known' ? 'Learned' : status === 'learning' ? 'Learning' : 'New'}
+      </span>
+      {card && <span className="text-xs text-stone-400">{wait > 0 ? `Next review in ${formatDelay(wait)}` : 'Due now'}</span>}
+      {card ? (
+        <TextButton onClick={() => { resetWord(id); setCard(undefined) }}>Start over</TextButton>
+      ) : (
+        <TextButton onClick={() => setCard(saveCard(id, markKnown()))}>I already know this</TextButton>
+      )}
     </div>
   )
 }

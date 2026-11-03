@@ -14,6 +14,12 @@
  *                data/jlpt_n4_grammar_lessons.json
  *                data/grammar-links.json                   (hand corrections for "In this app's questions")
  *                data/particles.json                       (hand-written → public/data/particles.json)
+ *                data/dictionary.json                      (JMdict subset for the glossary, see --jmdict)
+ *                data/translations.json                    (English for question sentences, by Japanese text)
+ *
+ * Every question gets furigana (kuromoji) and a glossary of its words.
+ *   --jmdict <jmdict-eng.json>   rebuild data/dictionary.json from a jmdict-simplified release
+ *   --untranslated <file>        write the sentences still missing from translations.json
  *
  * Questions that can't be used as-is (no answer key, lost choices, missing
  * passage) are skipped and listed in the report this script prints.
@@ -22,12 +28,15 @@ import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { toHiragana } from 'wanakana'
+import { addFurigana, contentWords, loadTokenizer, lookupWord, makeDictionary } from './japanese.mjs'
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const SRC = path.join(ROOT, 'data')
 const OUT_DATA = path.join(ROOT, 'public', 'data')
 const OUT_MEDIA = path.join(ROOT, 'public', 'media')
 const LEVELS = ['n4', 'n3']
+const tokenizer = await loadTokenizer()
+const argAfter = (flag) => { const i = process.argv.indexOf(flag); return i > 0 ? process.argv[i + 1] : undefined }
 
 const PROMPTS = {
   n4: {
@@ -551,7 +560,8 @@ function buildWords(level, questions) {
         .slice(0, 3),
     }
   })
-  fs.writeFileSync(file, JSON.stringify({ level: level.toUpperCase(), words }))
+  const withRuby = words.map((w) => ({ ...w, examples: w.examples.map(rubyExample), inBank: w.inBank.map(rubyExample) }))
+  fs.writeFileSync(file, JSON.stringify({ level: level.toUpperCase(), words: withRuby }))
   return {
     total: words.length,
     detailed: words.filter((w) => w.url).length,
@@ -580,7 +590,7 @@ function blankQuestion(id, level, ja, choices, answer, why) {
 }
 
 // Particle questions already in the bank: every choice is one of these.
-const PARTICLES = new Set('は が を に で へ と も や の から まで より までに には では とは にも でも へは からは とも ほど だけ しか ばかり など か って にとって について によって として に対して ので のに ながら さえ こそ くらい ぐらい へと との での からの までの への にしか でしか とか なら ずつ'.split(' '))
+const PARTICLES = new Set('は が を に で へ と も や の から まで より までに には では とは にも でも へは からは とも ほど だけ しか ばかり など か って にとって について によって として に対して ので のに ながら さえ こそ くらい ぐらい へと との での からの までの への にしか でしか とか なら ずつ のを のが のは へも からも'.split(' '))
 const isParticleQuestion = (q) => q.section === 'grammar' && q.choices.every((c) => PARTICLES.has(c.replace(/[\s　]/g, '')))
 
 function buildParticles(byLevel) {
@@ -594,7 +604,12 @@ function buildParticles(byLevel) {
   }))
   const bank = Object.fromEntries(byLevel.map(({ level, questions }) =>
     [level.toUpperCase(), questions.filter(isParticleQuestion).map((q) => q.id)]))
-  fs.writeFileSync(file, JSON.stringify({ note: src.note, contrasts, bank }))
+  const withRuby = contrasts.map((c) => ({
+    ...c,
+    points: c.points.map((pt) => ({ ...pt, examples: pt.examples.map(rubyExample) })),
+    drills: c.drills.map(withFurigana),
+  }))
+  fs.writeFileSync(file, JSON.stringify({ note: src.note, contrasts: withRuby, bank }))
   return { contrasts: contrasts.length, drills: contrasts.reduce((n, c) => n + c.drills.length, 0), bank }
 }
 
@@ -803,7 +818,13 @@ function buildGrammar(level, questions) {
       .filter(Boolean)
   }
 
-  fs.writeFileSync(file, JSON.stringify({ level: level.toUpperCase(), patterns: patterns.map(({ pieces, ...p }) => p) }))
+  const withRuby = patterns.map(({ pieces, ...p }) => ({
+    ...p,
+    examples: p.examples.map(rubyExample),
+    inBank: p.inBank.map(rubyExample),
+    drills: p.drills.map(withFurigana),
+  }))
+  fs.writeFileSync(file, JSON.stringify({ level: level.toUpperCase(), patterns: withRuby }))
   return {
     total: patterns.length,
     lessons: patterns.filter((p) => p.title).length,
@@ -821,6 +842,97 @@ function copyIfChanged(from, to) {
   fs.mkdirSync(path.dirname(to), { recursive: true })
   fs.copyFileSync(from, to)
   return true
+}
+
+/* ------------------------------------------------------------------ */
+/* furigana, glossary, translations                                    */
+/* ------------------------------------------------------------------ */
+
+const DICT_FILE = path.join(SRC, 'dictionary.json')
+const DICT_NOTE = 'Subset of JMdict (https://www.edrdg.org/jmdict/j_jmdict.html), (c) EDRDG, CC BY-SA 4.0. '
+  + 'Regenerate with: npm run data -- --jmdict <jmdict-eng.json from github.com/scriptin/jmdict-simplified>'
+
+const rubyExample = (ex) => ({ ...ex, ja: addFurigana(tokenizer, ex.ja) })
+
+/** Furigana on every field; a kanji question keeps its tested word and choices bare. */
+function withFurigana(q) {
+  const kanji = q.section === 'kanji'
+  const f = (s, opts) => (s ? addFurigana(tokenizer, s, opts) : s)
+  return {
+    ...q,
+    prompt: f(q.prompt),
+    target: f(q.target, { skipBold: kanji }),
+    passage: f(q.passage),
+    choices: kanji ? q.choices : q.choices.map((c) => f(c)),
+    explanation: f(q.explanation),
+  }
+}
+
+const GLOSS_MAX = 12
+const GLOSS_MAX_PASSAGE = 30
+
+/**
+ * The text whose words go in the glossary. A kanji question uses the first
+ * line of its explanation: the full sentence, spelled right (its choices are
+ * wrong spellings and the next line is all kana).
+ */
+const glossaryText = (q) =>
+  q.kind === 'words' ? ''
+  : q.section === 'kanji' ? (q.explanation ?? '').split('\n')[0]
+  : [q.target, q.passage, q.explanation, ...q.choices].filter(Boolean).join('\n')
+
+/** Adds dictionary meanings for the question's words after the exercise's own list. */
+function withGlossary(q, dict) {
+  const have = new Set((q.glossary ?? []).map((g) => g.word))
+  const added = []
+  for (const { lemma, reading } of contentWords(tokenizer, glossaryText(q))) {
+    const d = lookupWord(dict, lemma, reading)
+    if (!d || have.has(lemma)) continue
+    have.add(lemma)
+    added.push({ word: lemma, reading: hasKanji(lemma) ? d.r ?? reading : undefined, meaning: d.m })
+  }
+  const max = (q.passage ? GLOSS_MAX_PASSAGE : GLOSS_MAX) - (q.glossary?.length ?? 0)
+  const glossary = [...(q.glossary ?? []), ...added.slice(0, Math.max(0, max))]
+  return glossary.length ? { ...q, glossary } : q
+}
+
+/**
+ * The sentences of a question worth translating. Kanji questions already
+ * carry English in their explanation; listening has no transcripts.
+ */
+function translatable(q) {
+  const out = {}
+  if (q.section === 'kanji' || q.section === 'listening') return out
+  if (q.kind === 'paraphrase') {
+    out.sentence = plain(q.target)
+    out.choices = q.choices.map(plain)
+  } else if (q.kind === 'usage') {
+    out.choices = q.choices.map((c, i) => (i === q.answer ? plain(c) : null))
+  } else if (q.explanation?.includes('**')) {
+    out.sentence = plain(q.explanation.split('\n').at(-1))
+  }
+  if (q.passage) out.passage = plain(q.passage)
+  if (q.section === 'reading') {
+    out.prompt = plain(q.prompt)
+    out.choices = q.choices.map(plain)
+  }
+  return out
+}
+
+/** Attaches the English we have; anything missing is collected for translating. */
+function withTranslation(q, translations, missing) {
+  const look = (ja) => {
+    if (!ja) return null
+    if (translations[ja]) return translations[ja]
+    missing.add(ja)
+    return null
+  }
+  const en = {}
+  for (const [field, ja] of Object.entries(translatable(q))) {
+    const value = Array.isArray(ja) ? ja.map(look) : look(ja)
+    if (Array.isArray(value) ? value.some(Boolean) : value) en[field] = value
+  }
+  return Object.keys(en).length ? { ...q, en } : q
 }
 
 function buildLevel(level) {
@@ -858,8 +970,6 @@ function buildLevel(level) {
   questions.push(...listening.flatMap((ex) => convertListening(level, ex, report, mediaToCopy)))
 
   fs.mkdirSync(OUT_DATA, { recursive: true })
-  const out = { level: level.toUpperCase(), version: 1, generatedFrom: 'data/', questions }
-  fs.writeFileSync(path.join(OUT_DATA, `${level}.json`), JSON.stringify(out))
   const copied = mediaToCopy.filter(([from, to]) => copyIfChanged(from, to)).length
   const words = buildWords(level, questions)
   const patterns = buildGrammar(level, questions)
@@ -869,6 +979,29 @@ function buildLevel(level) {
 
 const results = LEVELS.map(buildLevel)
 const particles = buildParticles(results)
+
+// Questions are written last: the glossary and furigana go on after the word
+// and grammar pages have searched the plain sentences.
+const jmdict = argAfter('--jmdict')
+if (jmdict) {
+  const lemmas = new Set(results.flatMap(({ questions }) =>
+    questions.flatMap((q) => contentWords(tokenizer, glossaryText(q)).map((w) => w.lemma))))
+  const dict = makeDictionary(jmdict, lemmas)
+  fs.writeFileSync(DICT_FILE, JSON.stringify({ note: DICT_NOTE, words: dict }))
+  console.log(`Dictionary: ${Object.keys(dict).length} of ${lemmas.size} words found in JMdict → data/dictionary.json`)
+}
+const dictionary = readOptional('dictionary.json').words ?? {}
+const translations = readOptional('translations.json').texts ?? {}
+const untranslated = new Set()
+for (const r of results) {
+  r.questions = r.questions.map((q) => withFurigana(withTranslation(withGlossary(q, dictionary), translations, untranslated)))
+  const out = { level: r.level.toUpperCase(), version: 1, generatedFrom: 'data/', questions: r.questions }
+  fs.writeFileSync(path.join(OUT_DATA, `${r.level}.json`), JSON.stringify(out))
+}
+const toTranslate = argAfter('--untranslated')
+if (toTranslate) fs.writeFileSync(toTranslate, JSON.stringify([...untranslated], null, 1))
+console.log(`\nTranslations: ${Object.keys(translations).length} sentences in data/translations.json, ${untranslated.size} still missing${toTranslate ? ` → ${toTranslate}` : ''}`)
+
 for (const { level, report, total, media, copied, words, patterns: grammar } of results) {
   console.log(`\n${level.toUpperCase()}: ${total} questions → public/data/${level}.json  (${media} media files, ${copied} copied)`)
   if (words) console.log(`  words       ${String(words.total).padStart(4)} → public/data/${level}-words.json  (${words.detailed} with a word page, ${words.withExamples} with example sentences)`)

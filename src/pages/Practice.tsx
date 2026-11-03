@@ -1,8 +1,9 @@
 import { useState, type ReactNode } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { Button, Centered, Layout, ProgressBar } from '../components/Layout'
+import { Actions, Button, Centered, Layout, ProgressBar } from '../components/Layout'
+import { SetSizePicker } from './SectionPage'
 import { QuestionView } from '../components/QuestionView'
-import { usePrefs } from '../lib/prefs'
+import { setCount, usePrefs } from '../lib/prefs'
 import { pickSet, progressStats, recordAttempt, type SetMode } from '../lib/progress'
 import { shuffleChoices } from '../lib/random'
 import type { Level, Question, Section } from '../lib/types'
@@ -26,7 +27,7 @@ export function Practice({ level, section, kind, pool, mode, back: backTo, title
 }) {
   const navigate = useNavigate()
   const { prefs } = usePrefs()
-  const makeSet = (m: SetMode) => pickSet(pool, prefs.setSize, m).map(shuffleChoices)
+  const makeSet = (m: SetMode) => pickSet(pool, setCount(prefs.setSize, pool.length), m).map(shuffleChoices)
   const [setMode, setSetMode] = useState(mode)
   const [set, setSet] = useState(() => makeSet(mode))
   const [index, setIndex] = useState(0)
@@ -89,11 +90,14 @@ export function Practice({ level, section, kind, pool, mode, back: backTo, title
               {stats.seen} of {stats.total} tried · {stats.right} right{stats.wrong > 0 && ` · ${stats.wrong} to retry`}
             </p>
           </div>
-          <div className="mt-10 flex flex-wrap justify-center gap-3">
-            <Button onClick={() => restart('next')}>Next set</Button>
-            {stats.wrong > 0 && <Button variant="outline" onClick={() => restart('mistakes')}>Retry mistakes ({stats.wrong})</Button>}
-            <Button variant="ghost" onClick={() => navigate(back.to)}>{backTo ? back.label : 'All types'}</Button>
+          <div className="mt-10 flex justify-center">
+            <SetSizePicker />
           </div>
+          <Actions align="center" className="mt-6">
+            <Button onClick={() => restart('next')}>Next set</Button>
+            {stats.wrong > 0 && <Button variant="secondary" onClick={() => restart('mistakes')} count={stats.wrong}>Retry mistakes</Button>}
+            <Button variant="ghost" onClick={() => navigate(back.to)}>{backTo ? back.label : 'All types'}</Button>
+          </Actions>
         </div>
       </Layout>
     )
@@ -103,14 +107,14 @@ export function Practice({ level, section, kind, pool, mode, back: backTo, title
     <Layout back={back} title={title} right={<span className="text-xs tabular-nums text-stone-400">{index + 1}/{set.length}</span>}>
       <ProgressBar value={index + (reveal ? 1 : 0)} max={set.length} />
       <div className="mt-8">
-        <QuestionView key={q.id} q={q} selected={selected} reveal={reveal} onSelect={choose} showSection={kind === 'all'} />
+        <QuestionView key={q.id} q={q} selected={selected} reveal={reveal} onSelect={choose} showSection={kind === 'all'} autoPlay />
       </div>
-      <div className="mt-8 flex h-12 items-center justify-between">
+      <Actions align="between" className="mt-8 min-h-11">
         <p className="text-sm text-stone-400">
           {reveal ? (selected === q.answer ? <span className="text-emerald-600">Correct</span> : <span className="text-rose-500">Not quite</span>) : 'Press 1–4 to answer'}
         </p>
-        {reveal && <Button onClick={next}>{index + 1 === set.length ? 'See results' : 'Next'} <span aria-hidden>→</span></Button>}
-      </div>
+        {reveal && <Button onClick={next}>{index + 1 === set.length ? 'Results' : 'Next'} <span aria-hidden>→</span></Button>}
+      </Actions>
     </Layout>
   )
 }

@@ -9,6 +9,13 @@ describe('shuffleChoices', () => {
     }
   })
 
+  it('moves choice translations with their choices', () => {
+    for (let i = 0; i < 50; i++) {
+      const q = shuffleChoices({ choices: ['a', 'b', 'c', 'd'], answer: 0, en: { choices: ['A', null, 'C', 'D'] } })
+      q.choices.forEach((c, j) => expect(q.en!.choices![j]).toBe(c === 'b' ? null : c.toUpperCase()))
+    }
+  })
+
   it('leaves keepOrder questions untouched', () => {
     const q = { choices: ['1', '2', '3', '4'], answer: 1, keepOrder: true }
     expect(shuffleChoices(q)).toBe(q)

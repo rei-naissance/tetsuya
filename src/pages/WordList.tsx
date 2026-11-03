@@ -1,9 +1,12 @@
 import { useMemo, useState } from 'react'
 import { Link, useLocation, useNavigate, useSearchParams } from 'react-router-dom'
-import { Button, Layout, ProgressBar } from '../components/Layout'
+import { Button, Chips, Layout, Pagination, ProgressBar } from '../components/Layout'
+import { usePage } from '../lib/usePage'
+import { StudyOptions } from '../components/StudyOptions'
 import { usePrefs } from '../lib/prefs'
+import { deckStats } from '../lib/srs'
 import type { Level, Word } from '../lib/types'
-import { loadStatus, searchWords, wordStats, type StatusMap } from '../lib/words'
+import { loadStatus, searchWords, wordDeck, wordStats, type StatusMap } from '../lib/words'
 import { cn } from '../lib/cn'
 
 const FILTERS = [
@@ -15,11 +18,10 @@ const FILTERS = [
 ] as const
 type Filter = (typeof FILTERS)[number]['id']
 
-const PAGE = 60
+const PAGE = 50
 
 const matches = (w: Word, f: Filter, status: StatusMap) =>
   f === 'all' ? true
-  : f === 'new' ? !status[w.id]
   : f === 'examples' ? w.examples.length + w.inBank.length > 0
   : status[w.id] === f
 
@@ -27,13 +29,16 @@ const matches = (w: Word, f: Filter, status: StatusMap) =>
 export function WordList({ level, words }: { level: Level; words: Word[] }) {
   const navigate = useNavigate()
   const location = useLocation()
-  const { prefs } = usePrefs()
+  const { limits } = usePrefs()
+  const [, setVersion] = useState(0) // bumped by custom study to recount
   const [params, setParams] = useSearchParams()
   const query = params.get('q') ?? ''
   const filter = (FILTERS.find((f) => f.id === params.get('f'))?.id ?? 'all') as Filter
-  const [shown, setShown] = useState(PAGE)
-  const status = useMemo(loadStatus, [])
+  const status = useMemo(() => loadStatus(words), [words])
   const stats = wordStats(words, status)
+  const ids = useMemo(() => words.map((w) => w.id), [words])
+  const deck = deckStats(ids, wordDeck(level), limits)
+  const toStudy = deck.due + deck.learning + deck.fresh
   const base = `/${level.toLowerCase()}/learn/vocab`
 
   const results = useMemo(
@@ -44,11 +49,11 @@ export function WordList({ level, words }: { level: Level; words: Word[] }) {
     const next = new URLSearchParams(params)
     if (value && value !== 'all') next.set(key, value)
     else next.delete(key)
+    next.delete('p') // new search or filter: back to page 1
     setParams(next, { replace: true })
-    setShown(PAGE)
   }
+  const paged = usePage(results, PAGE)
   const detailed = words.filter((w) => w.url).length
-  const unmarked = stats.total - stats.learning - stats.known
 
   return (
     <Layout back={{ to: `/${level.toLowerCase()}`, label: level }} title={`${level} Vocabulary list`}>
@@ -56,25 +61,45 @@ export function WordList({ level, words }: { level: Level; words: Word[] }) {
       <h1 className="mt-3 text-3xl font-semibold tracking-tight">Vocabulary list</h1>
       <p className="mt-2 text-stone-500">
         {words.length} words from the JLPT {level} list. {detailed} have a full word page with example sentences.
-        Mark words as you go, then drill the ones you're learning.
+        Flashcards bring each word back just before you'd forget it, Anki-style.
       </p>
 
       <div className="mt-6">
         <ProgressBar value={stats.known} max={stats.total} />
         <p className="mt-2 text-xs tabular-nums text-stone-400">
-          <span className="text-emerald-600 dark:text-emerald-400">{stats.known} known</span>
+          <span className="text-emerald-600 dark:text-emerald-400">{stats.known} learned</span>
           {' · '}<span className="text-accent">{stats.learning} learning</span>
-          {' · '}{unmarked} not marked
+          {' · '}{stats.fresh} new
         </p>
       </div>
 
-      <div className="mt-6 flex flex-wrap gap-2">
-        <Button onClick={() => navigate(`${base}/cards?set=new`)} disabled={unmarked === 0}>
-          Flashcards: {Math.min(prefs.setSize, unmarked)} new words
-        </Button>
-        <Button variant="outline" onClick={() => navigate(`${base}/cards?set=learning`)} disabled={stats.learning === 0}>
-          Review learning ({stats.learning})
-        </Button>
+      <div className="mt-6 rounded-2xl border border-stone-200 bg-white p-5 dark:border-stone-800 dark:bg-stone-900">
+        <div className="flex flex-wrap items-center justify-between gap-4">
+          <div>
+            <p className="font-medium">Flashcards</p>
+            <p className="mt-1 text-sm tabular-nums text-stone-500">
+              {toStudy === 0 ? 'All caught up for today.' : (
+                <>
+                  {deck.due > 0 && <span className="font-medium text-accent">{deck.due} due · </span>}
+                  {deck.learning > 0 && `${deck.learning} learning · `}
+                  {deck.fresh} new today
+                </>
+              )}
+            </p>
+          </div>
+          <Button onClick={() => navigate(`${base}/cards`)} disabled={toStudy === 0} count={toStudy}>
+            {toStudy === 0 ? 'Done today' : 'Study'}
+          </Button>
+        </div>
+        <details className="group mt-4 border-t border-stone-200 pt-4 dark:border-stone-800">
+          <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-sm font-medium">
+            Daily limits and custom study
+            <span className="text-stone-400 transition group-open:rotate-90" aria-hidden>›</span>
+          </summary>
+          <div className="pt-5">
+            <StudyOptions ids={ids} deck={wordDeck(level)} onChange={() => setVersion((v) => v + 1)} onAhead={(d) => navigate(`${base}/cards?ahead=${d}`)} />
+          </div>
+        </details>
       </div>
 
       <div className="sticky top-14 z-[5] -mx-4 mt-10 bg-stone-50/90 px-4 py-3 backdrop-blur sm:-mx-6 sm:px-6 dark:bg-stone-950/90">
@@ -86,29 +111,24 @@ export function WordList({ level, words }: { level: Level; words: Word[] }) {
           aria-label="Search words"
           className="w-full rounded-xl border border-stone-200 bg-white px-4 py-2.5 text-base outline-none placeholder:text-stone-400 focus:border-stone-900 dark:border-stone-800 dark:bg-stone-900 dark:focus:border-stone-400"
         />
-        <div className="mt-3 flex flex-wrap gap-1.5" role="radiogroup" aria-label="Filter">
-          {FILTERS.map((f) => (
-            <button
-              key={f.id}
-              role="radio"
-              aria-checked={filter === f.id}
-              onClick={() => update('f', f.id)}
-              className={cn(
-                'rounded-full border px-3 py-1 text-xs transition',
-                filter === f.id
-                  ? 'border-stone-900 bg-stone-900 text-white dark:border-stone-100 dark:bg-stone-100 dark:text-stone-900'
-                  : 'border-stone-200 text-stone-500 hover:border-stone-400 dark:border-stone-800',
-              )}
-            >
-              {f.label}
-            </button>
-          ))}
-          <span className="ml-auto self-center text-xs tabular-nums text-stone-400">{results.length} words</span>
+        <div className="mt-3 flex flex-wrap items-center gap-3">
+          <Chips
+            label="Filter"
+            hideLabel
+            options={FILTERS.map((f) => f.id)}
+            value={filter}
+            onChange={(f) => update('f', f)}
+            format={(id) => FILTERS.find((f) => f.id === id)!.label}
+          />
+          <span className="ml-auto text-xs tabular-nums text-stone-400">
+            {results.length > PAGE ? `${paged.start + 1}–${paged.start + paged.items.length} of ` : ''}{results.length} words
+          </span>
         </div>
       </div>
 
+      <div ref={paged.topRef} />
       <ul className="mt-2 divide-y divide-stone-200 dark:divide-stone-800">
-        {results.slice(0, shown).map((w) => (
+        {paged.items.map((w) => (
           <li key={w.id}>
             <Link
               to={`${base}/${w.id}`}
@@ -120,7 +140,7 @@ export function WordList({ level, words }: { level: Level; words: Word[] }) {
                   'size-2 shrink-0 self-center rounded-full',
                   status[w.id] === 'known' ? 'bg-emerald-500' : status[w.id] === 'learning' ? 'bg-accent' : 'bg-stone-200 dark:bg-stone-800',
                 )}
-                aria-label={status[w.id] ?? 'not marked'}
+                aria-label={status[w.id]}
               />
               <span className="font-jp text-lg">{w.word}</span>
               {w.kana && <span className="font-jp text-sm text-stone-400">{w.kana}</span>}
@@ -130,13 +150,7 @@ export function WordList({ level, words }: { level: Level; words: Word[] }) {
         ))}
       </ul>
       {results.length === 0 && <p className="py-12 text-center text-stone-500">No words match.</p>}
-      {results.length > shown && (
-        <div className="mt-6 flex justify-center">
-          <Button variant="ghost" onClick={() => setShown((n) => n + PAGE * 2)}>
-            Show more ({results.length - shown} left)
-          </Button>
-        </div>
-      )}
+      <Pagination page={paged.page} pages={paged.pages} onPage={paged.setPage} />
     </Layout>
   )
 }

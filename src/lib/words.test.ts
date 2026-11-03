@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import type { Word } from './types'
-import { pickCards, searchWords } from './words'
+import { markKnown, newCard, schedule } from './srs'
+import { searchWords, wordStatus } from './words'
 
 const w = (id: string, word: string, kana: string, romaji: string, meaning: string): Word =>
   ({ id, word, kana, romaji, meaning, examples: [], inBank: [] })
@@ -36,13 +37,11 @@ describe('searchWords', () => {
   })
 })
 
-describe('pickCards', () => {
-  it('takes the next unmarked words in list order', () => {
-    expect(pickCards(words, 'new', 2, { a: 'known' }).map((x) => x.id)).toEqual(['b', 'c'])
-  })
-
-  it('takes only words marked learning', () => {
-    const ids = pickCards(words, 'learning', 10, { a: 'learning', b: 'known', d: 'learning' }).map((x) => x.id)
-    expect(ids.sort()).toEqual(['a', 'd'])
+describe('wordStatus', () => {
+  it('is new without a card, learning in steps or short intervals, known once mature', () => {
+    expect(wordStatus(undefined)).toBe('new')
+    expect(wordStatus(newCard())).toBe('learning')
+    expect(wordStatus(schedule(newCard(), 'easy'))).toBe('learning')
+    expect(wordStatus(markKnown())).toBe('known')
   })
 })

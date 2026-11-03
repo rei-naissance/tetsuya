@@ -57,6 +57,9 @@ function ScrollToTop() {
   return null
 }
 
+/** ?ahead=N: a review-ahead session over cards due in the next N days. */
+const aheadParam = (params: URLSearchParams) => Math.max(0, Math.floor(Number(params.get('ahead')))) || undefined
+
 /** Validates the :level URL segment (n4 / n3). */
 function WithLevel({ render }: { render: (level: Level) => JSX.Element }) {
   const level = useParams().level?.toUpperCase() as Level
@@ -75,7 +78,10 @@ function SectionRoute({ level }: { level: Level }) {
   return <SectionPage level={level} section={section} questions={data.questions} />
 }
 
-/** A study session for one question type (or "all"); ?mode=mistakes replays wrong answers. */
+/**
+ * A study session for one question type (or "all"). ?mode=mistakes replays
+ * wrong answers; ?ahead=N reviews SRS cards due in the next N days.
+ */
 function Study({ level }: { level: Level }) {
   const { section, kind = ALL_KINDS } = useParams() as { section: Section; kind?: string }
   const [params] = useSearchParams()
@@ -89,20 +95,17 @@ function Study({ level }: { level: Level }) {
   if (!pool.length) return <Navigate to={sectionUrl} replace />
   // Keyed so switching type or mode starts a fresh session.
   return SRS_SECTIONS.includes(section)
-    ? <Review key={kind} level={level} section={section} kind={kind} pool={pool} />
+    ? <Review key={`${kind}-${params.get('ahead')}`} level={level} section={section} kind={kind} pool={pool} aheadDays={aheadParam(params)} />
     : <Practice key={`${kind}-${params.get('mode')}`} level={level} section={section} kind={kind} pool={pool} mode={params.get('mode') === 'mistakes' ? 'mistakes' : 'next'} />
 }
 
-/** Vocabulary list, one word (:id) or flashcards (?set=new|learning). */
+/** Vocabulary list, one word (:id) or flashcards. */
 function Words({ level, cards }: { level: Level; cards?: boolean }) {
   const { id } = useParams()
   const [params] = useSearchParams()
   const data = useWords(level)
   if (data.status !== 'ready') return <Loading level={level} error={data.status === 'error' ? data.error : undefined} />
-  if (cards) {
-    const set = params.get('set') === 'learning' ? 'learning' : 'new'
-    return <WordCards key={set} level={level} words={data.words} set={set} />
-  }
+  if (cards) return <WordCards key={params.get('ahead')} level={level} words={data.words} aheadDays={aheadParam(params)} />
   if (!id) return <WordList level={level} words={data.words} />
   const word = data.words.find((w) => w.id === id)
   if (!word) return <Navigate to={`/${level.toLowerCase()}/learn/vocab`} replace />

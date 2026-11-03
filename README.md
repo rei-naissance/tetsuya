@@ -64,6 +64,7 @@ data/                       ← source exercises (jlpt_<level>_<section>_data.js
                               plus the extra sets below)
 scripts/
   build-data.mjs            ← converts data/ → public/data + public/media
+  japanese.mjs              ← furigana (kuromoji) and JMdict glossary helpers
 public/                     ← static files; data/ and media/ inside it are generated and git-ignored
   data/n4.json, n3.json     ← question banks the app fetches at runtime
   data/n4-words.json, …     ← vocabulary lists for the word browser
@@ -86,7 +87,7 @@ src/
     random.ts               ← shuffle / sample / choice shuffling
     history.ts              ← mock-test score history
     storage.ts              ← safe localStorage JSON wrapper
-    prefs.tsx               ← furigana on/off preference
+    prefs.tsx               ← furigana, set size and new-cards-per-day preferences
     useQuestions.ts, useKeys.ts
   components/
     Layout.tsx              ← header, Button, ProgressBar
@@ -123,6 +124,14 @@ What the converter does with each section:
 | **Listening** | `jlpt_<level>_listening_data.json` + media | Answers come from the page's answer key. Picture choices show the picture with 1–4 buttons, which are never shuffled. Spoken choices (3 or 4) show only the buttons. N3 text choices are shown as text. The site's "QUESTION N" placeholder images are dropped |
 
 After answering, fill-in-the-blank questions show the completed sentence. Any glossary words from that exercise's word list that appear in the question are listed too.
+
+### Furigana, word meanings and translations
+
+These are added to every question at build time (`scripts/japanese.mjs`):
+
+- **Furigana.** The [kuromoji](https://github.com/takuyaa/kuromoji.js) tokenizer adds `{漢字|かな}` to every kanji word that has none. It skips the underlined word of a kanji question, and that word anywhere else in the sentence, and never touches kanji-question choices, so furigana can't give the answer away. A few readings kuromoji gets wrong are fixed in `READINGS` (日本 → にほん, この間 → このあいだ, 何 → なん before a counter).
+- **Word meanings.** The content words of each question are looked up in `data/dictionary.json`, a subset of [JMdict](https://www.edrdg.org/jmdict/j_jmdict.html) (© EDRDG, CC BY-SA 4.0; the app credits it under each word list). They're added after the exercise's own word list: up to 12 per question, 30 for a reading passage. To rebuild the subset, download `jmdict-eng-*.json` from [jmdict-simplified](https://github.com/scriptin/jmdict-simplified/releases) and run `npm run data -- --jmdict <file>`.
+- **Translations.** `data/translations.json` maps each Japanese sentence (markup removed) to English: the filled-in sentence for fill-in-the-blank questions, both sides of paraphrase questions, the correct sentence for usage questions, and reading passages with their questions and choices. Kanji questions already carry English in their explanations, and listening has no transcripts to translate. The translations were written by Claude and haven't been checked by a translator. `npm run data -- --untranslated <file>` writes any sentences still missing (for new or changed questions).
 
 **Question types.** Every question gets a `kind`, the JLPT question type it belongs to. The app groups practice by it (see `KINDS` in `src/lib/types.ts`):
 
@@ -181,7 +190,8 @@ The converter merges them into `public/data/<level>-grammar.json`. japanesejlpt 
       "choices": ["ので", "ために", "のに", "から"],
       "answer": 2,                         // zero-based index into choices
       "explanation": "あの人は病気ではない**のに**くすりを…",  // optional, shown after answering
-      "glossary": [{ "word": "病気", "reading": "びょうき", "meaning": "illness" }]  // optional
+      "glossary": [{ "word": "病気", "reading": "びょうき", "meaning": "illness" }],  // optional
+      "en": { "sentence": "That person isn't sick, and yet…" }  // optional: sentence, passage, prompt, choices[]
     },
     {
       "id": "n4-reading-ex1-q1",
@@ -219,30 +229,40 @@ Choices are shuffled every time a question is shown, unless `keepOrder` is set. 
 
 ## How the SRS works
 
-`src/lib/srs.ts` implements a simplified SM-2, similar to Anki:
+`src/lib/srs.ts` implements a simplified SM-2 with learning steps, like Anki. It's used by the kanji and vocabulary decks and by the vocabulary-list flashcards.
+
+- **New cards** go through learning steps inside the session: **1 min → 10 min**, then Good graduates them to **1 day**. Again goes back to the first step.
+- **Graduated cards** grow by grade:
 
 | Grade | Effect |
 |---|---|
-| **Again** | Card resets, ease −0.20, due again in 10 min, and re-queued at the end of the current session |
+| **Again** | Lapse: ease −0.20, relearning step of 10 min, then the interval restarts at 20% of what it was |
 | **Hard** | interval × 1.2, ease −0.15 |
-| **Good** | interval × ease |
+| **Good** | interval × ease; ease +0.05 if below 2.5 (so it recovers after lapses) |
 | **Easy** | interval × ease × 1.3, ease +0.15 |
 
-- New cards step through **1 day → 3 days** (Good) before multiplicative growth starts. Ease starts at 2.5 and is clamped to 1.3–3.5.
-- Each session shows **due cards first** (most overdue first), then up to **10 new cards per deck per day** (`NEW_PER_DAY`). Each question type is its own deck (`N4-kanji-reading`), and the Mixed option uses the section deck (`N4-kanji`).
-- Every question is multiple choice. A wrong answer counts as **Again**. A right answer lets you rate Hard / Good / Easy, and each button shows a preview of the next interval.
-- Keyboard: `1–4` answers. After answering, `1–4` grades and `Enter` = Good (or Continue).
+- Ease starts at 2.5 and is clamped to 1.3–3.5. A card with an interval of 21+ days counts as learned.
+- A session (`src/lib/useSrsSession.ts`) shows learning cards as their step comes due, otherwise **due reviews first** (most overdue first), then the day's new cards. When only learning cards are left, they're shown up to 20 minutes early, so a session ends once everything in it has graduated. The header shows Anki's three counts: new · learning · due.
+- **Daily limits** (Daily limits and custom study, on each flashcard section and the word list): **new cards a day** (default 10) and **reviews a day** (default 200, or No limit). Any whole number can be typed. Due reviews past the limit wait for the next day; cards already in learning steps are never held back.
+- Limits are counted **per section** (`N4-kanji`, `N4-vocabulary`, `N4-words`), shared by every question-type deck in it and by Mixed, so studying from several decks can't multiply the allowance. Counts live in `tetsuya:srs:daily:v1` and start over only when the **study day** changes, at **4 a.m.** like Anki (a late-night session stays on the same day). Changing a limit never clears them: lowering it below what you've done gives 0 left, raising it gives the difference.
+- **Custom study** (same panel, and on the finished screen): add any number of extra **new cards** or **reviews** for today only, or **review ahead**: the graduated cards due in the next N days, ignoring the limits. An early review grows the interval from the time that actually passed since the last review and never shortens it, so cramming can't push a card further out than it earned.
+- "I already know this" on a new card schedules it 30 days out.
+- Each question type is its own deck (`N4-kanji-reading`), the Mixed option uses the section deck (`N4-kanji`), and the vocabulary list is `N4-words` (new words in list order).
+- The app only shows **Again** and **Good**, the two most Anki users stick to (`GRADES` in `src/pages/Review.tsx`; the scheduler still supports Hard and Easy). Kanji and vocabulary questions are multiple choice: a wrong answer counts as Again, a right one offers Again (if you guessed) or Good. Word flashcards flip, then take either grade. Each button shows when the card comes back.
+- Keyboard: `1–4` answers; after that `1` = Again, `2`/`Space`/`Enter` = Good. `Space` also flips a word card.
+
+**Mixed shares progress** with the question types in a section: it's a shuffle of the same questions, so a question you answer in Grammar form also counts as tried in Grammar Mixed.
 
 `localStorage` keys:
 
 | Key | Contents |
 |---|---|
-| `tetsuya:srs:cards:v1` | `{ [questionId]: { ease, interval, reps, lapses, due, last } }` |
-| `tetsuya:srs:daily:v1` | New cards introduced today, per deck |
+| `tetsuya:srs:cards:v1` | `{ [questionId or wordId]: { ease, interval, reps, lapses, due, last, step?, relearn? } }` |
+| `tetsuya:srs:daily:v1` | For the current study day, per section: new cards introduced, reviews done, extra new cards and extra reviews allowed |
 | `tetsuya:mock:history:v1` | Last 50 mock-test results |
 | `tetsuya:practice:v1` | Practice history per question: times seen, times right, last answer right?, when. Also covers grammar-pattern and particle drills |
-| `tetsuya:words:v1` | Vocabulary list marks: `{ [wordId]: "learning" \| "known" }` |
-| `tetsuya:prefs:v1` | Furigana and questions-per-set preferences |
+| `tetsuya:words:v1` | Old vocabulary marks from before word flashcards used SRS. Converted to cards on first load (known → learned, learning → due), then removed |
+| `tetsuya:prefs:v1` | Furigana, questions per set (0 = all), new cards a day, reviews a day (0 = no limit) |
 
 "Reset progress" at the bottom of a level page clears all of the above except prefs.
 
@@ -250,9 +270,26 @@ Choices are shuffled every time a question is shown, unless `keepOrder` is set. 
 
 | What | Where |
 |---|---|
-| New cards per day | `NEW_PER_DAY` in `src/lib/srs.ts` |
+| Daily limits (defaults, quick picks, day start) | `NEW_PER_DAY`, `MAX_REVIEWS`, `DAY_STARTS_AT` in `src/lib/srs.ts`; `NEW_PER_DAY_PRESETS`, `MAX_REVIEWS_PRESETS` in `src/lib/prefs.tsx` |
+| Learning steps | `LEARN_STEPS`, `RELEARN_STEPS` in `src/lib/srs.ts` |
 | Practice set sizes | `SET_SIZES` in `src/lib/prefs.tsx` |
 | Question types and their labels | `KINDS` in `src/lib/types.ts` |
-| Mock test composition | `MOCK_PLAN` in `src/pages/MockTest.tsx` |
+| Mock test layout (papers, 問題, counts, minutes) | `JLPT_FORMAT` in `src/lib/mock.ts` |
 | Instructions shown per question type | `PROMPTS` in `scripts/build-data.mjs` |
 | Accent color, fonts | `@theme` block in `src/index.css` |
+| Buttons, action rows, pickers | The design-system block in `src/components/Layout.tsx` |
+
+## Design system
+
+Every action uses the shared components in `src/components/Layout.tsx`, so buttons don't drift in size or style:
+
+| Piece | Use |
+|---|---|
+| `Button` / `ButtonLink` | `variant`: **primary** (the one main action of a row), **secondary** (others beside it), **ghost** (Previous, Back). `size`: **md** (44px, min 7rem wide; every standalone action), **sm** (36px; pagination, header), **tile** (56px, two lines; grade buttons), **icon** (36px circle; play audio) |
+| `count` prop | A number inside the button ("Drill all 84") instead of a long label. Labels are short verbs: Start, Continue, Study, Retry mistakes |
+| `TextButton` | Minor actions that shouldn't compete with buttons: Submit early, I already know this, Reset progress (`tone="danger"`) |
+| `Actions` | A row of actions, primary first: `align="center"` on end screens, `"start"` in cards, `"between"` for answer footers and Previous / Next |
+| `Chips` | The one single-choice picker (questions per set, word filters) |
+| `NumberField` | A typed number with quick picks (daily limits) |
+
+Class names aren't merged, so a size or shape is never overridden with `className`; add a size to `buttonClass` instead. A few controls are purpose-built and stay their own: answer choices, the flashcard, the mock-test question grid, and the Previous / Next word links.

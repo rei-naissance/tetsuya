@@ -1,103 +1,117 @@
-import { useState } from 'react'
+import { useMemo, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { Button, Centered, Layout, ProgressBar } from '../components/Layout'
+import { Actions, Button, Layout, ProgressBar, TextButton } from '../components/Layout'
 import { JP } from '../components/JP'
+import { StudyOptions } from '../components/StudyOptions'
 import { usePrefs } from '../lib/prefs'
+import type { Limits } from '../lib/srs'
 import type { Level, Word } from '../lib/types'
 import { useKeys } from '../lib/useKeys'
-import { pickCards, setStatus, wordStats, type CardSet, type WordStatus } from '../lib/words'
+import { useSrsSession } from '../lib/useSrsSession'
+import { wordDeck, wordStats } from '../lib/words'
+import { GradeButtons, SessionCounts, SessionDone } from './Review'
 import { Example } from './WordDetail'
 
 /**
- * Flashcards from the vocabulary list: see the word, recall it, flip, then
- * mark it "still learning" or "know it". Marks show up in the word list.
+ * Vocabulary flashcards with spaced repetition: see the word, recall its
+ * reading and meaning, flip, then grade yourself. New words come in list
+ * order, up to the daily limit; due words come back on their own schedule.
+ * With `aheadDays` it reviews words due soon, early.
  */
-export function WordCards({ level, words, set: initialSet }: { level: Level; words: Word[]; set: CardSet }) {
+export function WordCards({ level, words, aheadDays }: { level: Level; words: Word[]; aheadDays?: number }) {
   const navigate = useNavigate()
-  const { prefs } = usePrefs()
-  const [set, setSet] = useState(initialSet)
-  const [cards, setCards] = useState(() => pickCards(words, initialSet, prefs.setSize))
-  const [index, setIndex] = useState(0)
-  const [flipped, setFlipped] = useState(false)
-  const [tally, setTally] = useState({ learning: 0, known: 0 })
-
-  const done = index >= cards.length
-  const w = cards[index]
+  const { limits } = usePrefs()
+  const deck = wordDeck(level)
+  const byId = useMemo(() => new Map(words.map((w) => [w.id, w])), [words])
+  const [round, setRound] = useState(0) // bumped by custom study to start a fresh session
   const list = `/${level.toLowerCase()}/learn/vocab`
 
-  const mark = (s: WordStatus) => {
+  return (
+    <Session
+      key={round}
+      words={words}
+      byId={byId}
+      deck={deck}
+      limits={limits}
+      aheadDays={aheadDays}
+      back={{ to: list, label: 'Word list' }}
+      onRestart={() => setRound((r) => r + 1)}
+      onAhead={(d) => navigate(`${list}/cards?ahead=${d}`)}
+    />
+  )
+}
+
+function Session({ words, byId, deck, limits, aheadDays, back, onRestart, onAhead }: {
+  words: Word[]
+  byId: Map<string, Word>
+  deck: string
+  limits: Limits
+  aheadDays?: number
+  back: { to: string; label: string }
+  onRestart: () => void
+  onAhead: (days: number) => void
+}) {
+  const navigate = useNavigate()
+  const ids = useMemo(() => words.map((w) => w.id), [words])
+  const s = useSrsSession(ids, deck, limits, { newOrder: true, aheadDays })
+  const [flipped, setFlipped] = useState(false)
+  const [initial] = useState(s.counts.fresh + s.counts.learning + s.counts.review)
+  const w = s.current ? byId.get(s.current) : undefined
+
+  const grade = (g: Parameters<typeof s.grade>[0]) => {
     if (!flipped) return
-    setStatus(w.id, s)
-    setTally((t) => ({ ...t, [s]: t[s] + 1 }))
+    s.grade(g)
     setFlipped(false)
-    setIndex((i) => i + 1)
-  }
-  const restart = (s: CardSet) => {
-    setSet(s)
-    setCards(pickCards(words, s, prefs.setSize))
-    setIndex(0)
-    setFlipped(false)
-    setTally({ learning: 0, known: 0 })
   }
 
   useKeys((e) => {
-    if (done) return
-    if (!flipped && (e.key === ' ' || e.key === 'Enter')) { e.preventDefault(); setFlipped(true) }
-    else if (flipped && e.key === '1') mark('learning')
-    else if (flipped && e.key === '2') mark('known')
+    if (!w) return
+    if (!flipped && (e.key === ' ' || e.key === 'Enter')) { e.preventDefault(); setFlipped(true); return }
+    if (!flipped) return
+    if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); grade('good') }
+    else if (e.key === '1') grade('again')
+    else if (e.key === '2') grade('good')
   })
 
-  const back = { to: list, label: 'Word list' }
-  const title = set === 'new' ? 'New words' : 'Learning'
-
-  if (cards.length === 0) {
-    return (
-      <Layout back={back} title={title}>
-        <Centered>{set === 'new' ? 'Every word is marked. Nice work.' : 'No words marked “learning” yet.'}</Centered>
-      </Layout>
-    )
-  }
-
-  if (done) {
+  if (!w || !s.card) {
     const stats = wordStats(words)
     return (
-      <Layout back={back} title={title}>
-        <div className="py-12 text-center">
-          <p className="text-sm uppercase tracking-widest text-stone-400">Set complete</p>
-          <p className="mt-4 text-2xl font-semibold tracking-tight">
-            <span className="text-emerald-600 dark:text-emerald-400">{tally.known} known</span>
-            <span className="text-stone-300"> · </span>
-            <span className="text-accent">{tally.learning} still learning</span>
-          </p>
+      <Layout back={back} title={aheadDays ? 'Flashcards · ahead' : 'Flashcards'}>
+        <SessionDone tally={s.tally} ids={ids}>
           <div className="mx-auto mt-8 max-w-xs">
             <ProgressBar value={stats.known} max={stats.total} />
-            <p className="mt-2 text-xs tabular-nums text-stone-400">{stats.known} of {stats.total} words known · {stats.learning} learning</p>
+            <p className="mt-2 text-xs tabular-nums text-stone-400">
+              {stats.known} of {stats.total} words learned · {stats.learning} in progress · {stats.fresh} new
+            </p>
           </div>
-          <div className="mt-10 flex flex-wrap justify-center gap-3">
-            <Button onClick={() => restart('new')}>Next new words</Button>
-            {stats.learning > 0 && <Button variant="outline" onClick={() => restart('learning')}>Review learning ({stats.learning})</Button>}
-            <Button variant="ghost" onClick={() => navigate(list)}>Word list</Button>
+          <div className="mx-auto mt-10 max-w-md rounded-2xl border border-stone-200 bg-white p-5 dark:border-stone-800 dark:bg-stone-900">
+            <StudyOptions compact ids={ids} deck={deck} onChange={onRestart} onAhead={onAhead} />
           </div>
-        </div>
+          <Actions align="center" className="mt-8">
+            <Button variant="secondary" onClick={() => navigate(back.to)}>Word list</Button>
+          </Actions>
+        </SessionDone>
       </Layout>
     )
   }
 
+  const left = s.counts.fresh + s.counts.learning + s.counts.review
   const example = w.examples[0] ?? w.inBank[0]
   return (
-    <Layout back={back} title={title} right={<span className="text-xs tabular-nums text-stone-400">{index + 1}/{cards.length}</span>}>
-      <ProgressBar value={index + (flipped ? 1 : 0)} max={cards.length} />
+    <Layout back={back} title={aheadDays ? 'Flashcards · ahead' : 'Flashcards'} right={<SessionCounts counts={s.counts} />}>
+      <ProgressBar value={Math.max(0, initial - left)} max={Math.max(initial, left)} />
 
       <button
         onClick={() => setFlipped(true)}
         disabled={flipped}
         className="mt-8 block w-full rounded-3xl border border-stone-200 bg-white px-6 py-12 text-center transition enabled:hover:border-stone-400 dark:border-stone-800 dark:bg-stone-900"
       >
-        <p className="font-jp text-5xl tracking-wide">{w.word}</p>
+        {s.isNew && <p className="mb-4 inline-block rounded-full bg-accent-soft px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wider text-accent dark:bg-accent/15">New</p>}
+        <p lang="ja" className="font-jp text-5xl tracking-wide">{w.word}</p>
         {!flipped && <p className="mt-6 text-sm text-stone-400">Reading and meaning? Tap or press Space</p>}
         {flipped && (
           <div className="mt-6 space-y-2">
-            {w.kana && <p className="font-jp text-xl text-stone-500">{w.kana}</p>}
+            {w.kana && <p lang="ja" className="font-jp text-xl text-stone-500">{w.kana}</p>}
             <p className="text-lg">{w.meaning}</p>
             {w.type && <p className="text-xs uppercase tracking-widest text-stone-400">{w.type}</p>}
           </div>
@@ -113,13 +127,14 @@ export function WordCards({ level, words, set: initialSet }: { level: Level; wor
         <JP as="p" text={`Also written ${w.spellings.join('、')}`} className="mt-6 text-center text-sm text-stone-500" />
       )}
 
-      <div className="mt-8 flex h-12 items-center justify-between gap-3">
-        <p className="text-sm text-stone-400">{flipped ? '1 still learning · 2 know it' : ''}</p>
-        {flipped && (
-          <div className="flex gap-2">
-            <Button variant="outline" onClick={() => mark('learning')}>Still learning</Button>
-            <Button onClick={() => mark('known')}>Know it</Button>
-          </div>
+      <div className="mt-8 min-h-20">
+        {flipped ? (
+          <GradeButtons card={s.card} onGrade={grade} />
+        ) : (
+          <Actions align="between">
+            <p className="text-sm text-stone-400">Space to flip</p>
+            {s.isNew && <TextButton onClick={() => s.knowIt()}>I already know this</TextButton>}
+          </Actions>
         )}
       </div>
     </Layout>

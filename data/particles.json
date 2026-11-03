@@ -5,506 +5,1919 @@
       "id": "ni-de-place",
       "level": "N4",
       "title": "に vs で for places",
-      "particles": ["に", "で"],
+      "particles": [
+        "に",
+        "で"
+      ],
       "summary": "に marks where something IS (or ends up). で marks where an action HAPPENS.",
       "points": [
         {
           "rule": "Existence and location verbs (いる, ある, 住む, 泊まる, 勤める) take に: the place is where the thing stays.",
           "examples": [
-            { "ja": "猫はいすの下**に**います。", "en": "The cat is under the chair." },
-            { "ja": "兄は大阪**に**住んでいます。", "en": "My older brother lives in Osaka." }
+            {
+              "ja": "猫はいすの下**に**います。",
+              "en": "The cat is under the chair."
+            },
+            {
+              "ja": "兄は大阪**に**住んでいます。",
+              "en": "My older brother lives in Osaka."
+            }
           ]
         },
         {
           "rule": "Action verbs (食べる, 勉強する, 働く, 遊ぶ, 買う) take で: the place is the stage where the action happens.",
           "examples": [
-            { "ja": "図書館**で**勉強します。", "en": "I study at the library." },
-            { "ja": "兄は大阪**で**働いています。", "en": "My older brother works in Osaka." }
+            {
+              "ja": "図書館**で**勉強します。",
+              "en": "I study at the library."
+            },
+            {
+              "ja": "兄は大阪**で**働いています。",
+              "en": "My older brother works in Osaka."
+            }
           ]
         },
         {
           "rule": "Events are 'happenings', so ある meaning 'take place' uses で, even though ある normally takes に.",
           "examples": [
-            { "ja": "机の上**に**本があります。", "en": "There is a book on the desk. (thing exists)" },
-            { "ja": "体育館**で**コンサートがあります。", "en": "There is a concert in the gym. (event takes place)" }
+            {
+              "ja": "机の上**に**本があります。",
+              "en": "There is a book on the desk. (thing exists)"
+            },
+            {
+              "ja": "体育館**で**コンサートがあります。",
+              "en": "There is a concert in the gym. (event takes place)"
+            }
           ]
         },
         {
           "rule": "Verbs where something ends up at a spot (置く, 書く, 座る, 入る, 止める) take に: the place is the destination.",
           "examples": [
-            { "ja": "ノート**に**名前を書いてください。", "en": "Please write your name in the notebook." },
-            { "ja": "ここ**に**車を止めないでください。", "en": "Please don't park your car here." }
+            {
+              "ja": "ノート**に**名前を書いてください。",
+              "en": "Please write your name in the notebook."
+            },
+            {
+              "ja": "ここ**に**車を止めないでください。",
+              "en": "Please don't park your car here."
+            }
           ]
         }
       ],
       "drills": [
-        { "ja": "駅の前（　　）大きいホテルがあります。", "choices": ["に", "で", "を", "へ"], "answer": 0, "why": "A building existing: ある + に." },
-        { "ja": "駅の前（　　）友達を待ちました。", "choices": ["に", "で", "を", "へ"], "answer": 1, "why": "待つ is an action happening at the place: で." },
-        { "ja": "来週、この公園（　　）お祭りがあります。", "choices": ["に", "で", "を", "が"], "answer": 1, "why": "ある here means an event takes place: で." },
-        { "ja": "このいす（　　）座ってもいいですか。", "choices": ["に", "で", "を", "と"], "answer": 0, "why": "座る: you end up on the chair, so に." },
-        { "ja": "姉は銀行（　　）勤めています。", "choices": ["に", "で", "を", "が"], "answer": 0, "why": "勤める ('be employed at') takes に, unlike 働く which takes で." },
-        { "ja": "昼ご飯は会社の食堂（　　）食べます。", "choices": ["に", "で", "を", "へ"], "answer": 1, "why": "Eating is an action: で." }
+        {
+          "ja": "駅の前（　　）大きいホテルがあります。",
+          "choices": [
+            "に",
+            "で",
+            "を",
+            "へ"
+          ],
+          "answer": 0,
+          "why": "A building existing: ある + に."
+        },
+        {
+          "ja": "駅の前（　　）友達を待ちました。",
+          "choices": [
+            "に",
+            "で",
+            "を",
+            "へ"
+          ],
+          "answer": 1,
+          "why": "待つ is an action happening at the place: で."
+        },
+        {
+          "ja": "来週、この公園（　　）お祭りがあります。",
+          "choices": [
+            "に",
+            "で",
+            "を",
+            "が"
+          ],
+          "answer": 1,
+          "why": "ある here means an event takes place: で."
+        },
+        {
+          "ja": "このいす（　　）座ってもいいですか。",
+          "choices": [
+            "に",
+            "で",
+            "を",
+            "と"
+          ],
+          "answer": 0,
+          "why": "座る: you end up on the chair, so に."
+        },
+        {
+          "ja": "姉は銀行（　　）勤めています。",
+          "choices": [
+            "に",
+            "で",
+            "を",
+            "が"
+          ],
+          "answer": 0,
+          "why": "勤める ('be employed at') takes に, unlike 働く which takes で."
+        },
+        {
+          "ja": "昼ご飯は会社の食堂（　　）食べます。",
+          "choices": [
+            "に",
+            "で",
+            "を",
+            "へ"
+          ],
+          "answer": 1,
+          "why": "Eating is an action: で."
+        }
       ]
     },
     {
       "id": "made-madeni",
       "level": "N4",
       "title": "まで vs までに",
-      "particles": ["まで", "までに"],
+      "particles": [
+        "まで",
+        "までに"
+      ],
       "summary": "まで = until: the action continues up to that point. までに = by: the action happens once, before that deadline.",
       "points": [
         {
           "rule": "まで goes with continuing actions or states (待つ, 働く, 寝る, いる).",
           "examples": [
-            { "ja": "五時**まで**図書館にいます。", "en": "I'll be at the library until five." },
-            { "ja": "雨がやむ**まで**ここで待ちましょう。", "en": "Let's wait here until the rain stops." }
+            {
+              "ja": "五時**まで**図書館にいます。",
+              "en": "I'll be at the library until five."
+            },
+            {
+              "ja": "雨がやむ**まで**ここで待ちましょう。",
+              "en": "Let's wait here until the rain stops."
+            }
           ]
         },
         {
           "rule": "までに goes with one-time actions that must be done before a deadline (出す, 帰る, 終わる, 決める).",
           "examples": [
-            { "ja": "五時**までに**帰ってください。", "en": "Please be back by five." },
-            { "ja": "金曜日**までに**レポートを出さなければなりません。", "en": "I have to hand in the report by Friday." }
+            {
+              "ja": "五時**までに**帰ってください。",
+              "en": "Please be back by five."
+            },
+            {
+              "ja": "金曜日**までに**レポートを出さなければなりません。",
+              "en": "I have to hand in the report by Friday."
+            }
           ]
         }
       ],
       "drills": [
-        { "ja": "明日（　　）この本を返してください。", "choices": ["まで", "までに", "から", "ごろ"], "answer": 1, "why": "返す happens once, before a deadline: までに." },
-        { "ja": "昨日は夜中の二時（　　）起きていました。", "choices": ["まで", "までに", "から", "に"], "answer": 0, "why": "起きている is a continuing state: まで." },
-        { "ja": "卒業する（　　）運転免許を取りたいです。", "choices": ["まで", "までに", "から", "だけ"], "answer": 1, "why": "Getting a licence is a one-time event before graduating: までに." },
-        { "ja": "バスが来る（　　）、本を読んでいました。", "choices": ["まで", "までに", "から", "より"], "answer": 0, "why": "Reading continued until the bus came: まで." },
-        { "ja": "このプールは九月（　　）泳げます。", "choices": ["まで", "までに", "から", "しか"], "answer": 0, "why": "Being able to swim continues until September: まで." }
+        {
+          "ja": "明日（　　）この本を返してください。",
+          "choices": [
+            "まで",
+            "までに",
+            "から",
+            "ごろ"
+          ],
+          "answer": 1,
+          "why": "返す happens once, before a deadline: までに."
+        },
+        {
+          "ja": "昨日は夜中の二時（　　）起きていました。",
+          "choices": [
+            "まで",
+            "までに",
+            "から",
+            "に"
+          ],
+          "answer": 0,
+          "why": "起きている is a continuing state: まで."
+        },
+        {
+          "ja": "卒業する（　　）運転免許を取りたいです。",
+          "choices": [
+            "まで",
+            "までに",
+            "から",
+            "だけ"
+          ],
+          "answer": 1,
+          "why": "Getting a licence is a one-time event before graduating: までに."
+        },
+        {
+          "ja": "バスが来る（　　）、本を読んでいました。",
+          "choices": [
+            "まで",
+            "までに",
+            "から",
+            "より"
+          ],
+          "answer": 0,
+          "why": "Reading continued until the bus came: まで."
+        },
+        {
+          "ja": "このプールは九月（　　）泳げます。",
+          "choices": [
+            "まで",
+            "までに",
+            "から",
+            "しか"
+          ],
+          "answer": 0,
+          "why": "Being able to swim continues until September: まで."
+        }
       ]
     },
     {
       "id": "ni-e-direction",
       "level": "N4",
       "title": "に vs へ, and への",
-      "particles": ["に", "へ", "への"],
+      "particles": [
+        "に",
+        "へ",
+        "への"
+      ],
       "summary": "With movement verbs に and へ are both fine. Only に works for a target that isn't a direction, and only へ can take の before a noun.",
       "points": [
         {
           "rule": "Going somewhere: に (the arrival point) and へ (the direction) are interchangeable in everyday Japanese.",
           "examples": [
-            { "ja": "来月、京都**に**行きます。", "en": "I'm going to Kyoto next month." },
-            { "ja": "来月、京都**へ**行きます。", "en": "I'm going to Kyoto next month." }
+            {
+              "ja": "来月、京都**に**行きます。",
+              "en": "I'm going to Kyoto next month."
+            },
+            {
+              "ja": "来月、京都**へ**行きます。",
+              "en": "I'm going to Kyoto next month."
+            }
           ]
         },
         {
           "rule": "A person you meet, give to, or ask is a target, not a direction: only に.",
           "examples": [
-            { "ja": "駅で先生**に**会いました。", "en": "I met my teacher at the station." },
-            { "ja": "弟**に**プレゼントをあげました。", "en": "I gave my little brother a present." }
+            {
+              "ja": "駅で先生**に**会いました。",
+              "en": "I met my teacher at the station."
+            },
+            {
+              "ja": "弟**に**プレゼントをあげました。",
+              "en": "I gave my little brother a present."
+            }
           ]
         },
         {
           "rule": "To modify a noun, add の: への works, but にの does not exist.",
           "examples": [
-            { "ja": "これは母**への**手紙です。", "en": "This is a letter to my mother." },
-            { "ja": "東京**への**電車は何時に出ますか。", "en": "What time does the train to Tokyo leave?" }
+            {
+              "ja": "これは母**への**手紙です。",
+              "en": "This is a letter to my mother."
+            },
+            {
+              "ja": "東京**への**電車は何時に出ますか。",
+              "en": "What time does the train to Tokyo leave?"
+            }
           ]
         }
       ],
       "drills": [
-        { "ja": "国の家族（　　）手紙を書きました。", "choices": ["への", "にの", "での", "を"], "answer": 0, "why": "Modifying 手紙 needs の: への. にの is not used." },
-        { "ja": "昨日、デパートで高校の友達（　　）会いました。", "choices": ["に", "へ", "で", "を"], "answer": 0, "why": "会う takes the person with に (or と). へ only shows direction." },
-        { "ja": "これは田中さん（　　）お土産です。", "choices": ["への", "に", "へ", "にの"], "answer": 0, "why": "Before a noun you need の: への." },
-        { "ja": "わからないことは先生（　　）聞いてください。", "choices": ["に", "へ", "で", "の"], "answer": 0, "why": "聞く (ask) takes the person you ask with に." }
+        {
+          "ja": "国の家族（　　）手紙を書きました。",
+          "choices": [
+            "への",
+            "にの",
+            "での",
+            "を"
+          ],
+          "answer": 0,
+          "why": "Modifying 手紙 needs の: への. にの is not used."
+        },
+        {
+          "ja": "昨日、デパートで高校の友達（　　）会いました。",
+          "choices": [
+            "に",
+            "へ",
+            "で",
+            "を"
+          ],
+          "answer": 0,
+          "why": "会う takes the person with に (or と). へ only shows direction."
+        },
+        {
+          "ja": "これは田中さん（　　）お土産です。",
+          "choices": [
+            "への",
+            "に",
+            "へ",
+            "にの"
+          ],
+          "answer": 0,
+          "why": "Before a noun you need の: への."
+        },
+        {
+          "ja": "わからないことは先生（　　）聞いてください。",
+          "choices": [
+            "に",
+            "へ",
+            "で",
+            "の"
+          ],
+          "answer": 0,
+          "why": "聞く (ask) takes the person you ask with に."
+        }
       ]
     },
     {
       "id": "wa-ga",
       "level": "N4",
       "title": "は vs が",
-      "particles": ["は", "が"],
+      "particles": [
+        "は",
+        "が"
+      ],
       "summary": "は sets the topic ('as for…'). が points at the subject, and is required with question words, inside a clause that describes a noun, and for the object of likes, skills and wants.",
       "points": [
         {
           "rule": "A question word as the subject always takes が, and so does the answer to it.",
           "examples": [
-            { "ja": "誰**が**来ましたか。", "en": "Who came?" },
-            { "ja": "田中さん**が**来ました。", "en": "Tanaka-san came." }
+            {
+              "ja": "誰**が**来ましたか。",
+              "en": "Who came?"
+            },
+            {
+              "ja": "田中さん**が**来ました。",
+              "en": "Tanaka-san came."
+            }
           ]
         },
         {
           "rule": "Inside a clause that describes a noun, the subject takes が, not は.",
           "examples": [
-            { "ja": "母**が**作ったケーキはおいしいです。", "en": "The cake my mother made is delicious." },
-            { "ja": "私**が**生まれた町は海の近くです。", "en": "The town where I was born is near the sea." }
+            {
+              "ja": "母**が**作ったケーキはおいしいです。",
+              "en": "The cake my mother made is delicious."
+            },
+            {
+              "ja": "私**が**生まれた町は海の近くです。",
+              "en": "The town where I was born is near the sea."
+            }
           ]
         },
         {
           "rule": "好き, きらい, 上手, 分かる, できる, ほしい mark what is liked or known with が.",
           "examples": [
-            { "ja": "私は犬**が**好きです。", "en": "I like dogs." },
-            { "ja": "妹は英語**が**分かります。", "en": "My younger sister understands English." }
+            {
+              "ja": "私は犬**が**好きです。",
+              "en": "I like dogs."
+            },
+            {
+              "ja": "妹は英語**が**分かります。",
+              "en": "My younger sister understands English."
+            }
           ]
         },
         {
           "rule": "X は Y が … describes Y as a feature of X: 'X has a long Y'.",
           "examples": [
-            { "ja": "象**は**鼻**が**長いです。", "en": "Elephants have long trunks." },
-            { "ja": "この店**は**ラーメン**が**有名です。", "en": "This shop is famous for its ramen." }
+            {
+              "ja": "象**は**鼻**が**長いです。",
+              "en": "Elephants have long trunks."
+            },
+            {
+              "ja": "この店**は**ラーメン**が**有名です。",
+              "en": "This shop is famous for its ramen."
+            }
           ]
         }
       ],
       "drills": [
-        { "ja": "どの人（　　）山田さんですか。", "choices": ["が", "は", "を", "の"], "answer": 0, "why": "A question word as subject (どの人) takes が." },
-        { "ja": "これは父（　　）撮った写真です。", "choices": ["が", "は", "を", "で"], "answer": 0, "why": "Subject inside a clause describing 写真: が." },
-        { "ja": "私はテニス（　　）上手ではありません。", "choices": ["が", "を", "に", "で"], "answer": 0, "why": "上手 marks the skill with が." },
-        { "ja": "A「この中でどれ（　　）一番安いですか。」", "choices": ["が", "は", "を", "も"], "answer": 0, "why": "Question word as subject: が." },
-        { "ja": "東京（　　）人が多いです。", "choices": ["は", "を", "へ", "と"], "answer": 0, "why": "Topic + feature: 東京は 人が多い ('Tokyo has a lot of people')." }
+        {
+          "ja": "どの人（　　）山田さんですか。",
+          "choices": [
+            "が",
+            "は",
+            "を",
+            "の"
+          ],
+          "answer": 0,
+          "why": "A question word as subject (どの人) takes が."
+        },
+        {
+          "ja": "これは父（　　）撮った写真です。",
+          "choices": [
+            "が",
+            "は",
+            "を",
+            "で"
+          ],
+          "answer": 0,
+          "why": "Subject inside a clause describing 写真: が."
+        },
+        {
+          "ja": "私はテニス（　　）上手ではありません。",
+          "choices": [
+            "が",
+            "を",
+            "に",
+            "で"
+          ],
+          "answer": 0,
+          "why": "上手 marks the skill with が."
+        },
+        {
+          "ja": "A「この中でどれ（　　）一番安いですか。」",
+          "choices": [
+            "が",
+            "は",
+            "を",
+            "も"
+          ],
+          "answer": 0,
+          "why": "Question word as subject: が."
+        },
+        {
+          "ja": "東京（　　）人が多いです。",
+          "choices": [
+            "は",
+            "を",
+            "へ",
+            "と"
+          ],
+          "answer": 0,
+          "why": "Topic + feature: 東京は 人が多い ('Tokyo has a lot of people')."
+        }
       ]
     },
     {
       "id": "ni-to-person",
       "level": "N4",
       "title": "に vs と with people",
-      "particles": ["に", "と"],
+      "particles": [
+        "に",
+        "と"
+      ],
       "summary": "と means 'together with': both sides take part. に points the action at one side.",
       "points": [
         {
           "rule": "話す, 相談する: と is a conversation between two people; に is you talking to them.",
           "examples": [
-            { "ja": "友達**と**話しました。", "en": "I talked with my friend." },
-            { "ja": "先生**に**話しました。", "en": "I told my teacher (about it)." }
+            {
+              "ja": "友達**と**話しました。",
+              "en": "I talked with my friend."
+            },
+            {
+              "ja": "先生**に**話しました。",
+              "en": "I told my teacher (about it)."
+            }
           ]
         },
         {
           "rule": "Things you can only do together, like 結婚する, けんかする, or 一緒に…, take と.",
           "examples": [
-            { "ja": "姉は去年、高校の同級生**と**結婚しました。", "en": "My sister married a high-school classmate last year." },
-            { "ja": "弟**と**けんかしました。", "en": "I had a fight with my little brother." }
+            {
+              "ja": "姉は去年、高校の同級生**と**結婚しました。",
+              "en": "My sister married a high-school classmate last year."
+            },
+            {
+              "ja": "弟**と**けんかしました。",
+              "en": "I had a fight with my little brother."
+            }
           ]
         },
         {
           "rule": "Actions that go one way toward a person, like 似る, 聞く, 教える or 電話する, take に.",
           "examples": [
-            { "ja": "私は父**に**似ています。", "en": "I look like my father." },
-            { "ja": "母**に**電話をかけました。", "en": "I phoned my mother." }
+            {
+              "ja": "私は父**に**似ています。",
+              "en": "I look like my father."
+            },
+            {
+              "ja": "母**に**電話をかけました。",
+              "en": "I phoned my mother."
+            }
           ]
         }
       ],
       "drills": [
-        { "ja": "来年、彼女（　　）結婚します。", "choices": ["と", "に", "を", "で"], "answer": 0, "why": "Marrying takes two people: と." },
-        { "ja": "この子は本当にお母さん（　　）似ていますね。", "choices": ["に", "と", "を", "が"], "answer": 0, "why": "似る takes に." },
-        { "ja": "道が分からなかったので、交番でおまわりさん（　　）聞きました。", "choices": ["に", "と", "を", "で"], "answer": 0, "why": "Asking someone: に." },
-        { "ja": "昨日は友達（　　）一緒に映画を見ました。", "choices": ["と", "に", "を", "へ"], "answer": 0, "why": "一緒に means 'together': と." }
+        {
+          "ja": "来年、彼女（　　）結婚します。",
+          "choices": [
+            "と",
+            "に",
+            "を",
+            "で"
+          ],
+          "answer": 0,
+          "why": "Marrying takes two people: と."
+        },
+        {
+          "ja": "この子は本当にお母さん（　　）似ていますね。",
+          "choices": [
+            "に",
+            "と",
+            "を",
+            "が"
+          ],
+          "answer": 0,
+          "why": "似る takes に."
+        },
+        {
+          "ja": "道が分からなかったので、交番でおまわりさん（　　）聞きました。",
+          "choices": [
+            "に",
+            "と",
+            "を",
+            "で"
+          ],
+          "answer": 0,
+          "why": "Asking someone: に."
+        },
+        {
+          "ja": "昨日は友達（　　）一緒に映画を見ました。",
+          "choices": [
+            "と",
+            "に",
+            "を",
+            "へ"
+          ],
+          "answer": 0,
+          "why": "一緒に means 'together': と."
+        }
       ]
     },
     {
       "id": "wo-kara-leave",
       "level": "N4",
       "title": "を vs から with 出る and 降りる",
-      "particles": ["を", "から"],
+      "particles": [
+        "を",
+        "から"
+      ],
       "summary": "With leaving verbs, を treats the place as what you leave behind, and から as the point you come out of. Often both work, but not always.",
       "points": [
         {
           "rule": "Leaving as a deliberate, finished act (leaving home, graduating) uses を. 大学を出る means 'graduate'.",
           "examples": [
-            { "ja": "毎朝七時に家**を**出ます。", "en": "I leave home at seven every morning." },
-            { "ja": "兄は去年大学**を**出ました。", "en": "My older brother graduated from university last year." }
+            {
+              "ja": "毎朝七時に家**を**出ます。",
+              "en": "I leave home at seven every morning."
+            },
+            {
+              "ja": "兄は去年大学**を**出ました。",
+              "en": "My older brother graduated from university last year."
+            }
           ]
         },
         {
           "rule": "から stresses the starting point or the movement out of somewhere: things coming out, or where something starts.",
           "examples": [
-            { "ja": "穴**から**水が出ています。", "en": "Water is coming out of the hole." },
-            { "ja": "この電車は三番線**から**出ます。", "en": "This train leaves from platform 3." }
+            {
+              "ja": "穴**から**水が出ています。",
+              "en": "Water is coming out of the hole."
+            },
+            {
+              "ja": "この電車は三番線**から**出ます。",
+              "en": "This train leaves from platform 3."
+            }
           ]
         }
       ],
       "drills": [
-        { "ja": "田中さんは三年前に大学（　　）出て、今は銀行で働いています。", "choices": ["を", "から", "に", "で"], "answer": 0, "why": "大学を出る = graduate. から would only mean physically walking out." },
-        { "ja": "蛇口（　　）お湯が出ません。", "choices": ["から", "を", "に", "で"], "answer": 0, "why": "Something coming out of a point: から." },
-        { "ja": "次の駅で電車（　　）降ります。", "choices": ["を", "に", "へ", "で"], "answer": 0, "why": "降りる takes the vehicle with を (から also works, but it isn't among the choices)." },
-        { "ja": "東京行きのバスは二番乗り場（　　）出ます。", "choices": ["から", "を", "に", "が"], "answer": 0, "why": "Where a vehicle departs from: から." }
+        {
+          "ja": "田中さんは三年前に大学（　　）出て、今は銀行で働いています。",
+          "choices": [
+            "を",
+            "から",
+            "に",
+            "で"
+          ],
+          "answer": 0,
+          "why": "大学を出る = graduate. から would only mean physically walking out."
+        },
+        {
+          "ja": "蛇口（　　）お湯が出ません。",
+          "choices": [
+            "から",
+            "を",
+            "に",
+            "で"
+          ],
+          "answer": 0,
+          "why": "Something coming out of a point: から."
+        },
+        {
+          "ja": "次の駅で電車（　　）降ります。",
+          "choices": [
+            "を",
+            "に",
+            "へ",
+            "で"
+          ],
+          "answer": 0,
+          "why": "降りる takes the vehicle with を (から also works, but it isn't among the choices)."
+        },
+        {
+          "ja": "東京行きのバスは二番乗り場（　　）出ます。",
+          "choices": [
+            "から",
+            "を",
+            "に",
+            "が"
+          ],
+          "answer": 0,
+          "why": "Where a vehicle departs from: から."
+        }
       ]
     },
     {
       "id": "ni-wo-movement",
       "level": "N4",
       "title": "に vs を with movement",
-      "particles": ["に", "を"],
+      "particles": [
+        "に",
+        "を"
+      ],
       "summary": "に marks where the movement ends. を marks the space the movement goes through, such as a road, park, sky or bridge.",
       "points": [
         {
           "rule": "Destination: 行く, 着く, 入る, 登る… take に.",
           "examples": [
-            { "ja": "朝早く山**に**登りました。", "en": "I climbed the mountain early in the morning." },
-            { "ja": "部屋**に**入ってください。", "en": "Please come into the room." }
+            {
+              "ja": "朝早く山**に**登りました。",
+              "en": "I climbed the mountain early in the morning."
+            },
+            {
+              "ja": "部屋**に**入ってください。",
+              "en": "Please come into the room."
+            }
           ]
         },
         {
           "rule": "Path: 歩く, 散歩する, 渡る, 通る, 飛ぶ, 曲がる take を for the route.",
           "examples": [
-            { "ja": "毎朝、公園**を**散歩します。", "en": "I take a walk through the park every morning." },
-            { "ja": "次の角**を**右に曲がってください。", "en": "Turn right at the next corner." },
-            { "ja": "鳥が空**を**飛んでいます。", "en": "Birds are flying in the sky." }
+            {
+              "ja": "毎朝、公園**を**散歩します。",
+              "en": "I take a walk through the park every morning."
+            },
+            {
+              "ja": "次の角**を**右に曲がってください。",
+              "en": "Turn right at the next corner."
+            },
+            {
+              "ja": "鳥が空**を**飛んでいます。",
+              "en": "Birds are flying in the sky."
+            }
           ]
         }
       ],
       "drills": [
-        { "ja": "この橋（　　）渡ると、駅が見えます。", "choices": ["を", "に", "で", "へ"], "answer": 0, "why": "Crossing a bridge: it's the path, so を." },
-        { "ja": "二つ目の信号（　　）左に曲がってください。", "choices": ["を", "に", "へ", "が"], "answer": 0, "why": "曲がる marks the corner or signal you turn at with を." },
-        { "ja": "飛行機は予定通り成田空港（　　）着きました。", "choices": ["に", "を", "で", "が"], "answer": 0, "why": "着く: the arrival point is に." },
-        { "ja": "夜、一人で暗い道（　　）歩くのは危ないです。", "choices": ["を", "に", "で", "へ"], "answer": 0, "why": "The road is the route you walk along: を." }
+        {
+          "ja": "この橋（　　）渡ると、駅が見えます。",
+          "choices": [
+            "を",
+            "に",
+            "で",
+            "へ"
+          ],
+          "answer": 0,
+          "why": "Crossing a bridge: it's the path, so を."
+        },
+        {
+          "ja": "二つ目の信号（　　）左に曲がってください。",
+          "choices": [
+            "を",
+            "に",
+            "へ",
+            "が"
+          ],
+          "answer": 0,
+          "why": "曲がる marks the corner or signal you turn at with を."
+        },
+        {
+          "ja": "飛行機は予定通り成田空港（　　）着きました。",
+          "choices": [
+            "に",
+            "を",
+            "で",
+            "が"
+          ],
+          "answer": 0,
+          "why": "着く: the arrival point is に."
+        },
+        {
+          "ja": "夜、一人で暗い道（　　）歩くのは危ないです。",
+          "choices": [
+            "を",
+            "に",
+            "で",
+            "へ"
+          ],
+          "answer": 0,
+          "why": "The road is the route you walk along: を."
+        }
       ]
     },
     {
       "id": "ni-de-time",
       "level": "N4",
       "title": "に vs で with time and amounts",
-      "particles": ["に", "で"],
+      "particles": [
+        "に",
+        "で"
+      ],
       "summary": "に marks a point in time and 'per' (frequency). で marks how long something takes, or a total amount.",
       "points": [
         {
           "rule": "Point in time: 三時に, 日曜日に. Frequency: 一日に三回, 一週間に一度.",
           "examples": [
-            { "ja": "この薬は一日**に**三回飲んでください。", "en": "Take this medicine three times a day." },
-            { "ja": "授業は九時**に**始まります。", "en": "Class starts at nine." }
+            {
+              "ja": "この薬は一日**に**三回飲んでください。",
+              "en": "Take this medicine three times a day."
+            },
+            {
+              "ja": "授業は九時**に**始まります。",
+              "en": "Class starts at nine."
+            }
           ]
         },
         {
           "rule": "Time or money needed for the whole: 三十分で, 全部で.",
           "examples": [
-            { "ja": "駅まで歩いて十分**で**行けます。", "en": "You can walk to the station in ten minutes." },
-            { "ja": "りんごとみかんで、全部**で**八百円です。", "en": "Apples and oranges, 800 yen in total." }
+            {
+              "ja": "駅まで歩いて十分**で**行けます。",
+              "en": "You can walk to the station in ten minutes."
+            },
+            {
+              "ja": "りんごとみかんで、全部**で**八百円です。",
+              "en": "Apples and oranges, 800 yen in total."
+            }
           ]
         }
       ],
       "drills": [
-        { "ja": "この仕事は一時間（　　）終わると思います。", "choices": ["で", "に", "を", "まで"], "answer": 0, "why": "The time it takes: で." },
-        { "ja": "私は一か月（　　）二回、映画を見に行きます。", "choices": ["に", "で", "を", "が"], "answer": 0, "why": "Frequency ('twice a month'): に." },
-        { "ja": "これ、三つ（　　）千円です。", "choices": ["で", "に", "を", "が"], "answer": 0, "why": "A total for the group: で." }
+        {
+          "ja": "この仕事は一時間（　　）終わると思います。",
+          "choices": [
+            "で",
+            "に",
+            "を",
+            "まで"
+          ],
+          "answer": 0,
+          "why": "The time it takes: で."
+        },
+        {
+          "ja": "私は一か月（　　）二回、映画を見に行きます。",
+          "choices": [
+            "に",
+            "で",
+            "を",
+            "が"
+          ],
+          "answer": 0,
+          "why": "Frequency ('twice a month'): に."
+        },
+        {
+          "ja": "これ、三つ（　　）千円です。",
+          "choices": [
+            "で",
+            "に",
+            "を",
+            "が"
+          ],
+          "answer": 0,
+          "why": "A total for the group: で."
+        }
       ]
     },
     {
       "id": "de-kara-material",
       "level": "N4",
       "title": "で vs から for materials",
-      "particles": ["で", "から"],
+      "particles": [
+        "で",
+        "から"
+      ],
       "summary": "Use で when you can still see the material in the product, and から when it has turned into something else.",
       "points": [
         {
           "rule": "で: the material is still visible (a wooden desk, a paper crane).",
           "examples": [
-            { "ja": "この机は木**で**作られています。", "en": "This desk is made of wood." },
-            { "ja": "紙**で**鶴を折りました。", "en": "I folded a crane out of paper." }
+            {
+              "ja": "この机は木**で**作られています。",
+              "en": "This desk is made of wood."
+            },
+            {
+              "ja": "紙**で**鶴を折りました。",
+              "en": "I folded a crane out of paper."
+            }
           ]
         },
         {
           "rule": "から: the raw material changed into the product (rice → sake, milk → butter).",
           "examples": [
-            { "ja": "日本酒は米**から**作られます。", "en": "Sake is made from rice." },
-            { "ja": "バターは牛乳**から**作ります。", "en": "Butter is made from milk." }
+            {
+              "ja": "日本酒は米**から**作られます。",
+              "en": "Sake is made from rice."
+            },
+            {
+              "ja": "バターは牛乳**から**作ります。",
+              "en": "Butter is made from milk."
+            }
           ]
         }
       ],
       "drills": [
-        { "ja": "ワインはぶどう（　　）作られます。", "choices": ["から", "で", "に", "を"], "answer": 0, "why": "Grapes turn into wine, so the material can't be seen: から." },
-        { "ja": "この人形は布（　　）できています。", "choices": ["で", "から", "に", "を"], "answer": 0, "why": "You can still see the cloth: で." },
-        { "ja": "しょうゆは大豆（　　）作られます。", "choices": ["から", "で", "に", "が"], "answer": 0, "why": "Soybeans become soy sauce: から." }
+        {
+          "ja": "ワインはぶどう（　　）作られます。",
+          "choices": [
+            "から",
+            "で",
+            "に",
+            "を"
+          ],
+          "answer": 0,
+          "why": "Grapes turn into wine, so the material can't be seen: から."
+        },
+        {
+          "ja": "この人形は布（　　）できています。",
+          "choices": [
+            "で",
+            "から",
+            "に",
+            "を"
+          ],
+          "answer": 0,
+          "why": "You can still see the cloth: で."
+        },
+        {
+          "ja": "しょうゆは大豆（　　）作られます。",
+          "choices": [
+            "から",
+            "で",
+            "に",
+            "が"
+          ],
+          "answer": 0,
+          "why": "Soybeans become soy sauce: から."
+        }
       ]
     },
     {
       "id": "to-ya",
       "level": "N4",
       "title": "と vs や in lists",
-      "particles": ["と", "や"],
+      "particles": [
+        "と",
+        "や"
+      ],
       "summary": "と lists everything. や gives a few examples and implies there is more, often with など.",
       "points": [
         {
           "rule": "と: a complete list.",
-          "examples": [{ "ja": "かばんの中に財布**と**かぎがあります。", "en": "My wallet and keys are in the bag (that's all)." }]
+          "examples": [
+            {
+              "ja": "かばんの中に財布**と**かぎがあります。",
+              "en": "My wallet and keys are in the bag (that's all)."
+            }
+          ]
         },
         {
           "rule": "や: examples from a longer list. Add など to make the 'and so on' clear.",
-          "examples": [{ "ja": "かばんの中に財布**や**かぎ**など**があります。", "en": "There are things like my wallet and keys in the bag." }]
+          "examples": [
+            {
+              "ja": "かばんの中に財布**や**かぎ**など**があります。",
+              "en": "There are things like my wallet and keys in the bag."
+            }
+          ]
         }
       ],
       "drills": [
-        { "ja": "冷蔵庫に卵（　　）牛乳などが入っています。", "choices": ["や", "と", "の", "も"], "answer": 0, "why": "など shows the list isn't complete: や." },
-        { "ja": "家族は父と母（　　）私の三人です。", "choices": ["と", "や", "の", "も"], "answer": 0, "why": "'Three people' is the complete list: と." }
+        {
+          "ja": "冷蔵庫に卵（　　）牛乳などが入っています。",
+          "choices": [
+            "や",
+            "と",
+            "の",
+            "も"
+          ],
+          "answer": 0,
+          "why": "など shows the list isn't complete: や."
+        },
+        {
+          "ja": "家族は父と母（　　）私の三人です。",
+          "choices": [
+            "と",
+            "や",
+            "の",
+            "も"
+          ],
+          "answer": 0,
+          "why": "'Three people' is the complete list: と."
+        }
       ]
     },
     {
       "id": "shika-dake",
       "level": "N4",
       "title": "しか vs だけ",
-      "particles": ["しか", "だけ"],
+      "particles": [
+        "しか",
+        "だけ"
+      ],
       "summary": "Both mean 'only'. しか always takes a negative verb and sounds like 'not enough'. だけ is neutral and takes a positive verb.",
       "points": [
         {
           "rule": "しか + negative.",
-          "examples": [{ "ja": "財布に百円**しか**ありません。", "en": "I only have 100 yen in my wallet (not much!)." }]
+          "examples": [
+            {
+              "ja": "財布に百円**しか**ありません。",
+              "en": "I only have 100 yen in my wallet (not much!)."
+            }
+          ]
         },
         {
           "rule": "だけ + positive (or negative, with a different meaning).",
-          "examples": [{ "ja": "財布に百円**だけ**あります。", "en": "I have just 100 yen in my wallet." }]
+          "examples": [
+            {
+              "ja": "財布に百円**だけ**あります。",
+              "en": "I have just 100 yen in my wallet."
+            }
+          ]
         }
       ],
       "drills": [
-        { "ja": "昨日は三時間（　　）寝られませんでした。", "choices": ["しか", "だけ", "も", "ほど"], "answer": 0, "why": "Negative verb + 'only': しか." },
-        { "ja": "ひらがな（　　）書けます。漢字はまだ書けません。", "choices": ["だけ", "しか", "ほど", "まで"], "answer": 0, "why": "Positive verb 書けます: だけ." },
-        { "ja": "この店は日曜日（　　）休みです。", "choices": ["だけ", "しか", "ほど", "より"], "answer": 0, "why": "Positive statement: だけ." }
+        {
+          "ja": "昨日は三時間（　　）寝られませんでした。",
+          "choices": [
+            "しか",
+            "だけ",
+            "も",
+            "ほど"
+          ],
+          "answer": 0,
+          "why": "Negative verb + 'only': しか."
+        },
+        {
+          "ja": "ひらがな（　　）書けます。漢字はまだ書けません。",
+          "choices": [
+            "だけ",
+            "しか",
+            "ほど",
+            "まで"
+          ],
+          "answer": 0,
+          "why": "Positive verb 書けます: だけ."
+        },
+        {
+          "ja": "この店は日曜日（　　）休みです。",
+          "choices": [
+            "だけ",
+            "しか",
+            "ほど",
+            "より"
+          ],
+          "answer": 0,
+          "why": "Positive statement: だけ."
+        }
       ]
     },
     {
       "id": "mo-numbers",
       "level": "N4",
       "title": "も after numbers",
-      "particles": ["も"],
+      "particles": [
+        "も"
+      ],
       "summary": "After an amount, も doesn't mean 'also'. It stresses that the amount is surprisingly large, or with a negative and 一, that there is none at all.",
       "points": [
         {
           "rule": "Number + も + positive = 'as many/much as'.",
-          "examples": [{ "ja": "駅で一時間**も**待ちました。", "en": "I waited a whole hour at the station." }]
+          "examples": [
+            {
+              "ja": "駅で一時間**も**待ちました。",
+              "en": "I waited a whole hour at the station."
+            }
+          ]
         },
         {
           "rule": "一 + counter + も + negative = 'not a single'.",
           "examples": [
-            { "ja": "教室には一人**も**いませんでした。", "en": "There wasn't a single person in the classroom." },
-            { "ja": "この本は一度**も**読んだことがありません。", "en": "I've never read this book, not even once." }
+            {
+              "ja": "教室には一人**も**いませんでした。",
+              "en": "There wasn't a single person in the classroom."
+            },
+            {
+              "ja": "この本は一度**も**読んだことがありません。",
+              "en": "I've never read this book, not even once."
+            }
           ]
         }
       ],
       "drills": [
-        { "ja": "財布にお金が一円（　　）ありません。", "choices": ["も", "しか", "だけ", "で"], "answer": 0, "why": "一円 + も + negative = not even one yen." },
-        { "ja": "このかばんは十万円（　　）するんですよ。高いですね。", "choices": ["も", "しか", "だけ", "で"], "answer": 0, "why": "Stressing a surprisingly large amount: も." }
+        {
+          "ja": "財布にお金が一円（　　）ありません。",
+          "choices": [
+            "も",
+            "しか",
+            "だけ",
+            "で"
+          ],
+          "answer": 0,
+          "why": "一円 + も + negative = not even one yen."
+        },
+        {
+          "ja": "このかばんは十万円（　　）するんですよ。高いですね。",
+          "choices": [
+            "も",
+            "しか",
+            "だけ",
+            "で"
+          ],
+          "answer": 0,
+          "why": "Stressing a surprisingly large amount: も."
+        }
       ]
     },
     {
       "id": "yori-hodo",
       "level": "N4",
       "title": "より vs ほど in comparisons",
-      "particles": ["より", "ほど"],
+      "particles": [
+        "より",
+        "ほど"
+      ],
       "summary": "A は B より… says A is more than B. A は B ほど…ない says A is not as … as B. ほど needs a negative.",
       "points": [
         {
           "rule": "より: plain comparison.",
-          "examples": [{ "ja": "今日は昨日**より**暑いです。", "en": "Today is hotter than yesterday." }]
+          "examples": [
+            {
+              "ja": "今日は昨日**より**暑いです。",
+              "en": "Today is hotter than yesterday."
+            }
+          ]
         },
         {
           "rule": "ほど + negative: 'not as … as'.",
-          "examples": [{ "ja": "今日は昨日**ほど**暑くないです。", "en": "Today isn't as hot as yesterday." }]
+          "examples": [
+            {
+              "ja": "今日は昨日**ほど**暑くないです。",
+              "en": "Today isn't as hot as yesterday."
+            }
+          ]
         }
       ],
       "drills": [
-        { "ja": "東京の冬は北海道の冬（　　）寒くありません。", "choices": ["ほど", "より", "まで", "だけ"], "answer": 0, "why": "Negative comparison 'not as cold as': ほど." },
-        { "ja": "バスで行くより、電車で行く方（　　）早いです。", "choices": ["が", "を", "ほど", "で"], "answer": 0, "why": "The …より …の方が pattern: 方が." },
-        { "ja": "弟は私（　　）背が高いです。", "choices": ["より", "ほど", "まで", "しか"], "answer": 0, "why": "Positive comparison: より." }
+        {
+          "ja": "東京の冬は北海道の冬（　　）寒くありません。",
+          "choices": [
+            "ほど",
+            "より",
+            "まで",
+            "だけ"
+          ],
+          "answer": 0,
+          "why": "Negative comparison 'not as cold as': ほど."
+        },
+        {
+          "ja": "バスで行くより、電車で行く方（　　）早いです。",
+          "choices": [
+            "が",
+            "を",
+            "ほど",
+            "で"
+          ],
+          "answer": 0,
+          "why": "The …より …の方が pattern: 方が."
+        },
+        {
+          "ja": "弟は私（　　）背が高いです。",
+          "choices": [
+            "より",
+            "ほど",
+            "まで",
+            "しか"
+          ],
+          "answer": 0,
+          "why": "Positive comparison: より."
+        }
+      ]
+    },
+    {
+      "id": "nominal-no",
+      "level": "N4",
+      "title": "のを, のが, のは: a verb turned into a noun",
+      "particles": [
+        "のを",
+        "のが",
+        "のは"
+      ],
+      "summary": "の after a plain verb (or an adjective) turns the whole phrase into a noun, and the usual particle follows it. The main word of the sentence decides which: を if it acts on that event, が if it's 好き, 上手, 見える and the like, は to make the event the topic.",
+      "points": [
+        {
+          "rule": "のを: the main verb does something to the event. Typical with 見る, 聞く, 待つ, 手伝う, 忘れる, やめる.",
+          "examples": [
+            {
+              "ja": "子どもたちが公園で遊んでいる**のを**見ました。",
+              "en": "I watched the children playing in the park."
+            },
+            {
+              "ja": "宿題を出す**のを**忘れてしまいました。",
+              "en": "I forgot to hand in my homework."
+            }
+          ]
+        },
+        {
+          "rule": "のが: the event is the subject of 好き, きらい, 上手, 下手, 苦手, 早い, 大変, or of 見える / 聞こえる (what you see or hear without trying).",
+          "examples": [
+            {
+              "ja": "私は料理を作る**のが**好きです。",
+              "en": "I like cooking."
+            },
+            {
+              "ja": "隣の部屋でピアノを弾いている**のが**聞こえます。",
+              "en": "I can hear someone playing the piano in the next room."
+            }
+          ]
+        },
+        {
+          "rule": "のは … です: the event comes first as the topic and the new information goes at the end: 'the one who / the thing that … is X'.",
+          "examples": [
+            {
+              "ja": "昨日電話をくれた**のは**田中さんです。",
+              "en": "The one who called me yesterday was Tanaka."
+            },
+            {
+              "ja": "日本語で一番難しい**のは**漢字です。",
+              "en": "The hardest thing about Japanese is kanji."
+            }
+          ]
+        },
+        {
+          "rule": "の or こと? With 見る, 聞く, 見える, 聞こえる, 待つ, 手伝う only の works. With できる, にする, になる and ことがある (experience) only こと works.",
+          "examples": [
+            {
+              "ja": "彼が部屋を出ていく**の**を見た。",
+              "en": "I saw him leave the room."
+            },
+            {
+              "ja": "漢字を読む**こと**ができます。",
+              "en": "I can read kanji."
+            }
+          ]
+        }
+      ],
+      "drills": [
+        {
+          "ja": "弟が部屋で泣いている（　　）聞こえました。",
+          "choices": [
+            "のが",
+            "のを",
+            "のは",
+            "のに"
+          ],
+          "answer": 0,
+          "why": "聞こえる takes what you hear as its subject, so のが. (With 聞く it would be のを.)"
+        },
+        {
+          "ja": "駅で友だちが来る（　　）待っています。",
+          "choices": [
+            "のを",
+            "のが",
+            "のは",
+            "のに"
+          ],
+          "answer": 0,
+          "why": "待つ acts on the event (waiting for the friend to come): のを."
+        },
+        {
+          "ja": "私は朝早く起きる（　　）苦手です。",
+          "choices": [
+            "のが",
+            "のを",
+            "のに",
+            "ので"
+          ],
+          "answer": 0,
+          "why": "苦手 'bad at' takes its topic with が: のが."
+        },
+        {
+          "ja": "この写真を撮った（　　）私の父です。",
+          "choices": [
+            "のは",
+            "のを",
+            "ので",
+            "のに"
+          ],
+          "answer": 0,
+          "why": "'The one who took this photo is my father': the event is the topic, のは … です."
+        },
+        {
+          "ja": "母が夕飯を作る（　　）手伝いました。",
+          "choices": [
+            "のを",
+            "のが",
+            "のは",
+            "のに"
+          ],
+          "answer": 0,
+          "why": "手伝う acts on the activity: のを."
+        },
+        {
+          "ja": "ピアノを弾く（　　）できますか。",
+          "choices": [
+            "ことが",
+            "のが",
+            "のを",
+            "ことを"
+          ],
+          "answer": 0,
+          "why": "できる only works with こと: ことができる."
+        }
       ]
     },
     {
       "id": "stacked-niwa-dewa",
       "level": "N3",
       "title": "には, では, にも, でも",
-      "particles": ["には", "では", "にも", "でも"],
+      "particles": [
+        "には",
+        "では",
+        "にも",
+        "でも"
+      ],
       "summary": "は and も can sit on top of another particle. The first particle keeps its job (place, target, means), and は adds contrast while も adds 'also' or 'even'. を and が disappear instead: you just say は or も.",
       "points": [
         {
           "rule": "には / では contrast: 'at least in X', 'as for X, (unlike others)'.",
           "examples": [
-            { "ja": "この町**には**大きい病院がありません。", "en": "This town doesn't have a big hospital (other towns do)." },
-            { "ja": "この店**では**カードが使えません。", "en": "You can't use cards at this shop." }
+            {
+              "ja": "この町**には**大きい病院がありません。",
+              "en": "This town doesn't have a big hospital (other towns do)."
+            },
+            {
+              "ja": "この店**では**カードが使えません。",
+              "en": "You can't use cards at this shop."
+            }
           ]
         },
         {
           "rule": "にも / でも: 'also' or 'even' with that role kept.",
           "examples": [
-            { "ja": "この問題は子ども**にも**分かります。", "en": "Even a child can understand this problem." },
-            { "ja": "このパンはコンビニ**でも**買えます。", "en": "You can buy this bread at convenience stores too." }
+            {
+              "ja": "この問題は子ども**にも**分かります。",
+              "en": "Even a child can understand this problem."
+            },
+            {
+              "ja": "このパンはコンビニ**でも**買えます。",
+              "en": "You can buy this bread at convenience stores too."
+            }
           ]
         },
         {
           "rule": "With を or が there is no stacking: 本を + も is just 本も, and 本を + は is just 本は.",
-          "examples": [{ "ja": "肉は食べますが、魚**は**食べません。", "en": "I eat meat, but not fish." }]
+          "examples": [
+            {
+              "ja": "肉は食べますが、魚**は**食べません。",
+              "en": "I eat meat, but not fish."
+            }
+          ]
         }
       ],
       "drills": [
-        { "ja": "日本（　　）、家の中で靴を脱ぎます。", "choices": ["では", "には", "にも", "をは"], "answer": 0, "why": "Customs in a place where people act: で + は." },
-        { "ja": "この部屋（　　）窓が一つもありません。", "choices": ["には", "では", "でも", "をも"], "answer": 0, "why": "Existence (ある / ない) in a place: に + は." },
-        { "ja": "その話は、先生（　　）言わないでください。", "choices": ["にも", "でも", "をも", "がも"], "answer": 0, "why": "Telling someone takes に; 'not even / not to the teacher either': にも." },
-        { "ja": "この料理は電子レンジ（　　）作れます。", "choices": ["でも", "にも", "をも", "には"], "answer": 0, "why": "Means of doing (で) + 'even/also': でも." }
+        {
+          "ja": "日本（　　）、家の中で靴を脱ぎます。",
+          "choices": [
+            "では",
+            "には",
+            "にも",
+            "をは"
+          ],
+          "answer": 0,
+          "why": "Customs in a place where people act: で + は."
+        },
+        {
+          "ja": "この部屋（　　）窓が一つもありません。",
+          "choices": [
+            "には",
+            "では",
+            "でも",
+            "をも"
+          ],
+          "answer": 0,
+          "why": "Existence (ある / ない) in a place: に + は."
+        },
+        {
+          "ja": "その話は、先生（　　）言わないでください。",
+          "choices": [
+            "にも",
+            "でも",
+            "をも",
+            "がも"
+          ],
+          "answer": 0,
+          "why": "Telling someone takes に; 'not even / not to the teacher either': にも."
+        },
+        {
+          "ja": "この料理は電子レンジ（　　）作れます。",
+          "choices": [
+            "でも",
+            "にも",
+            "をも",
+            "には"
+          ],
+          "answer": 0,
+          "why": "Means of doing (で) + 'even/also': でも."
+        }
       ]
     },
     {
       "id": "particle-no",
       "level": "N3",
       "title": "Particle + の before a noun",
-      "particles": ["での", "からの", "との", "までの"],
+      "particles": [
+        "での",
+        "からの",
+        "との",
+        "までの"
+      ],
       "summary": "To use a particle phrase to describe a noun, add の: 東京で + 生活 → 東京での生活. に is the exception: に + の becomes への (direction) or another word.",
       "points": [
         {
           "rule": "で, から, と, まで, へ + の: the particle keeps its meaning.",
           "examples": [
-            { "ja": "東京**での**生活にもう慣れました。", "en": "I've got used to life in Tokyo." },
-            { "ja": "友達**からの**メールを読みました。", "en": "I read the email from my friend." },
-            { "ja": "先生**との**約束を忘れていました。", "en": "I had forgotten my appointment with the teacher." },
-            { "ja": "駅**までの**道を教えてください。", "en": "Please tell me the way to the station." }
+            {
+              "ja": "東京**での**生活にもう慣れました。",
+              "en": "I've got used to life in Tokyo."
+            },
+            {
+              "ja": "友達**からの**メールを読みました。",
+              "en": "I read the email from my friend."
+            },
+            {
+              "ja": "先生**との**約束を忘れていました。",
+              "en": "I had forgotten my appointment with the teacher."
+            },
+            {
+              "ja": "駅**までの**道を教えてください。",
+              "en": "Please tell me the way to the station."
+            }
           ]
         }
       ],
       "drills": [
-        { "ja": "外国（　　）生活は大変なこともあります。", "choices": ["での", "にの", "で", "の"], "answer": 0, "why": "'Life in a foreign country': で + の." },
-        { "ja": "空港（　　）バスは一時間に一本です。", "choices": ["までの", "まで", "までに", "にの"], "answer": 0, "why": "Describing バス: まで + の." },
-        { "ja": "社長（　　）話し合いは三時からです。", "choices": ["との", "と", "にの", "での"], "answer": 0, "why": "'The discussion with the president': と + の." },
-        { "ja": "国の両親（　　）荷物が届きました。", "choices": ["からの", "から", "にの", "での"], "answer": 0, "why": "'The package from my parents': から + の." }
+        {
+          "ja": "外国（　　）生活は大変なこともあります。",
+          "choices": [
+            "での",
+            "にの",
+            "で",
+            "の"
+          ],
+          "answer": 0,
+          "why": "'Life in a foreign country': で + の."
+        },
+        {
+          "ja": "空港（　　）バスは一時間に一本です。",
+          "choices": [
+            "までの",
+            "まで",
+            "までに",
+            "にの"
+          ],
+          "answer": 0,
+          "why": "Describing バス: まで + の."
+        },
+        {
+          "ja": "社長（　　）話し合いは三時からです。",
+          "choices": [
+            "との",
+            "と",
+            "にの",
+            "での"
+          ],
+          "answer": 0,
+          "why": "'The discussion with the president': と + の."
+        },
+        {
+          "ja": "国の両親（　　）荷物が届きました。",
+          "choices": [
+            "からの",
+            "から",
+            "にの",
+            "での"
+          ],
+          "answer": 0,
+          "why": "'The package from my parents': から + の."
+        }
+      ]
+    },
+    {
+      "id": "to-combos",
+      "level": "N3",
+      "title": "との, とは, とも: と plus another particle",
+      "particles": [
+        "との",
+        "とは",
+        "とも"
+      ],
+      "summary": "と marks a partner ('with someone'). Add の to put that partner in front of a noun, は to contrast it or to define a word, and も for 'with … too' or, with a negative, 'with no one'.",
+      "points": [
+        {
+          "rule": "との: 'with X' in front of a noun. A bare と can't do this: 友達と約束 needs the の, 友達との約束.",
+          "examples": [
+            {
+              "ja": "友達**との**約束を忘れてしまった。",
+              "en": "I forgot the promise I made with a friend."
+            },
+            {
+              "ja": "日本と中国**との**関係について調べています。",
+              "en": "I'm researching relations between Japan and China."
+            }
+          ]
+        },
+        {
+          "rule": "とは: contrast ('with X, at least'), or after a word or phrase, a definition ('X means…').",
+          "examples": [
+            {
+              "ja": "兄**とは**よく話しますが、姉**とは**あまり話しません。",
+              "en": "I often talk with my older brother, but not much with my older sister."
+            },
+            {
+              "ja": "「積極的」**とは**、自分から進んで行動することです。",
+              "en": "'Sekkyokuteki' means acting on your own initiative."
+            }
+          ]
+        },
+        {
+          "rule": "とも: 'with X too'. After a question word with a negative, 'with no one'. After a number of people or things, 'all of them' (or with a negative, 'none of them').",
+          "examples": [
+            {
+              "ja": "彼は誰**とも**話さなかった。",
+              "en": "He didn't talk to anyone."
+            },
+            {
+              "ja": "姉は先生**とも**友達のように話す。",
+              "en": "My sister talks even with teachers as if they were friends."
+            },
+            {
+              "ja": "二人**とも**来ませんでした。",
+              "en": "Neither of them came."
+            }
+          ]
+        }
+      ],
+      "drills": [
+        {
+          "ja": "隣の人（　　）トラブルで、引っ越すことにした。",
+          "choices": [
+            "との",
+            "とは",
+            "とも",
+            "とに"
+          ],
+          "answer": 0,
+          "why": "'Trouble with the neighbour' links と to a noun, so it needs の: との."
+        },
+        {
+          "ja": "新しいクラスでは、まだ誰（　　）話していない。",
+          "choices": [
+            "とも",
+            "との",
+            "とは",
+            "とに"
+          ],
+          "answer": 0,
+          "why": "Question word + とも + negative: 'haven't talked with anyone'."
+        },
+        {
+          "ja": "山田さんとはよく会いますが、田中さん（　　）最近会っていません。",
+          "choices": [
+            "とは",
+            "との",
+            "とも",
+            "とを"
+          ],
+          "answer": 0,
+          "why": "Contrast with 山田さんとは: 'but with Tanaka, I haven't met lately'. とも would mean 'not with Tanaka either', which clashes with 'often meet Yamada'."
+        },
+        {
+          "ja": "三人（　　）同じ大学に合格した。",
+          "choices": [
+            "とも",
+            "との",
+            "とは",
+            "とに"
+          ],
+          "answer": 0,
+          "why": "Number of people + とも: 'all three'."
+        },
+        {
+          "ja": "「バリアフリー」（　　）、だれでも使いやすいように工夫することだ。",
+          "choices": [
+            "とは",
+            "との",
+            "とも",
+            "とに"
+          ],
+          "answer": 0,
+          "why": "A definition: X とは … ことだ."
+        }
+      ]
+    },
+    {
+      "id": "demo-four",
+      "level": "N3",
+      "title": "でも: four different words",
+      "particles": [
+        "でも"
+      ],
+      "summary": "でも looks like one word but can be four: the particle で plus も, 'even X', 'X or something', and question word + でも for 'any…'. Ask what で would be doing on its own: if the sentence still works with just で, it's で + も.",
+      "points": [
+        {
+          "rule": "で + も: で keeps its job (place, means) and も adds 'also / even'. Take away も and the sentence still works with で.",
+          "examples": [
+            {
+              "ja": "この本は図書館**でも**借りられます。",
+              "en": "You can borrow this book at the library too."
+            },
+            {
+              "ja": "電車**でも**バス**でも**行けます。",
+              "en": "You can go by train or by bus."
+            }
+          ]
+        },
+        {
+          "rule": "'Even X' or 'even if X': there's no で underneath (it comes from だ + も). Often an extreme case.",
+          "examples": [
+            {
+              "ja": "この問題は子ども**でも**分かる。",
+              "en": "Even a child can understand this problem."
+            },
+            {
+              "ja": "雨**でも**試合は行われます。",
+              "en": "The match will go ahead even if it rains."
+            }
+          ]
+        },
+        {
+          "rule": "'X or something': softens a suggestion or offer, so it isn't a strict choice.",
+          "examples": [
+            {
+              "ja": "お茶**でも**飲みませんか。",
+              "en": "Would you like some tea or something?"
+            },
+            {
+              "ja": "週末、映画**でも**見に行こうか。",
+              "en": "Shall we go see a movie or something this weekend?"
+            }
+          ]
+        },
+        {
+          "rule": "Question word + でも: 'any…'. 何でも, 誰でも, いつでも, どこでも.",
+          "examples": [
+            {
+              "ja": "分からないことがあったら、いつ**でも**聞いてください。",
+              "en": "If there's anything you don't understand, ask any time."
+            }
+          ]
+        }
+      ],
+      "drills": [
+        {
+          "ja": "簡単な料理（　　）、初めて作るときは時間がかかる。",
+          "choices": [
+            "でも",
+            "にも",
+            "とも",
+            "をも"
+          ],
+          "answer": 0,
+          "why": "'Even a simple dish': でも from だ + も."
+        },
+        {
+          "ja": "暇なら、コーヒー（　　）飲みに行きませんか。",
+          "choices": [
+            "でも",
+            "にも",
+            "とも",
+            "をも"
+          ],
+          "answer": 0,
+          "why": "A soft invitation: 'coffee or something'."
+        },
+        {
+          "ja": "この店はカード（　　）払えますか。",
+          "choices": [
+            "でも",
+            "にも",
+            "とも",
+            "をも"
+          ],
+          "answer": 0,
+          "why": "Means of paying is で; 'by card too?': で + も."
+        },
+        {
+          "ja": "彼は電車のことなら何（　　）知っている。",
+          "choices": [
+            "でも",
+            "にも",
+            "とも",
+            "をも"
+          ],
+          "answer": 0,
+          "why": "Question word + でも: 'anything'."
+        },
+        {
+          "ja": "困ったときは、いつ（　　）電話してください。",
+          "choices": [
+            "でも",
+            "にも",
+            "とも",
+            "をも"
+          ],
+          "answer": 0,
+          "why": "Question word + でも: 'any time'."
+        }
+      ]
+    },
+    {
+      "id": "mo-stacked",
+      "level": "N3",
+      "title": "にも, からも, とも, へも vs plain も",
+      "particles": [
+        "にも",
+        "からも",
+        "とも",
+        "へも"
+      ],
+      "summary": "も replaces が and を, but sits after every other particle. Dropping that particle changes who did what: 弟も means my brother did it too, while 弟にも means it was done to my brother too.",
+      "points": [
+        {
+          "rule": "も alone stands in for が or を: the word is the doer, or the thing acted on, 'too'.",
+          "examples": [
+            {
+              "ja": "弟**も**プレゼントをくれました。",
+              "en": "My younger brother gave me a present too."
+            }
+          ]
+        },
+        {
+          "rule": "にも keeps に: the receiver, the target, or the place where something is, 'too'. With a negative: 'not … either'.",
+          "examples": [
+            {
+              "ja": "弟**にも**プレゼントをあげました。",
+              "en": "I gave a present to my younger brother too."
+            },
+            {
+              "ja": "駅の近く**にも**コンビニがあります。",
+              "en": "There's a convenience store near the station too."
+            }
+          ]
+        },
+        {
+          "rule": "からも, とも, へも keep their own meaning (from, with, toward) and add 'too'.",
+          "examples": [
+            {
+              "ja": "先生**からも**手紙が来ました。",
+              "en": "A letter came from the teacher too."
+            },
+            {
+              "ja": "京都**へも**行ってみたいです。",
+              "en": "I'd like to go to Kyoto too."
+            }
+          ]
+        },
+        {
+          "rule": "Question word + particle + も + negative = 'not … anyone / anywhere'. The particle stays (誰にも, どこへも), except を and が, which disappear (何も).",
+          "examples": [
+            {
+              "ja": "昨日はどこ**へも**行きませんでした。",
+              "en": "I didn't go anywhere yesterday."
+            },
+            {
+              "ja": "このことは誰**にも**言わないでください。",
+              "en": "Please don't tell anyone about this."
+            }
+          ]
+        }
+      ],
+      "drills": [
+        {
+          "ja": "私はこの話を、まだ誰（　　）教えていません。",
+          "choices": [
+            "にも",
+            "も",
+            "でも",
+            "をも"
+          ],
+          "answer": 0,
+          "why": "教える takes the person with に, and the negative needs も: 誰にも 'not to anyone'."
+        },
+        {
+          "ja": "田中さんは英語だけでなく、中国語（　　）話せます。",
+          "choices": [
+            "も",
+            "にも",
+            "とも",
+            "からも"
+          ],
+          "answer": 0,
+          "why": "中国語 is what he speaks (を), so it becomes plain も."
+        },
+        {
+          "ja": "私のところに、父からだけでなく母（　　）手紙が届いた。",
+          "choices": [
+            "からも",
+            "にも",
+            "とも",
+            "でも"
+          ],
+          "answer": 0,
+          "why": "The letter came from mother too: から + も. The receiver is already 私のところに."
+        },
+        {
+          "ja": "東京だけでなく、大阪（　　）支店があります。",
+          "choices": [
+            "にも",
+            "とも",
+            "からも",
+            "をも"
+          ],
+          "answer": 0,
+          "why": "Where something exists is に: 'in Osaka too', にも."
+        },
+        {
+          "ja": "夏休みはどこ（　　）行かずに、家で勉強した。",
+          "choices": [
+            "へも",
+            "でも",
+            "とも",
+            "をも"
+          ],
+          "answer": 0,
+          "why": "Direction へ + も with a negative: 'didn't go anywhere'."
+        },
+        {
+          "ja": "弟はまだ一度も、友だち（　　）けんかをしたことがない。",
+          "choices": [
+            "とも",
+            "にも",
+            "からも",
+            "をも"
+          ],
+          "answer": 0,
+          "why": "You fight with someone (と); 'not even with friends': とも."
+        }
       ]
     },
     {
       "id": "compound-ni-tsuite",
       "level": "N3",
       "title": "について, に対して, によって, にとって",
-      "particles": ["について", "に対して", "によって", "にとって"],
+      "particles": [
+        "について",
+        "に対して",
+        "によって",
+        "にとって"
+      ],
       "summary": "Four common particles built from に. They look alike but answer different questions: about what? toward whom? depending on what? from whose point of view?",
       "points": [
         {
           "rule": "について = about (the topic).",
-          "examples": [{ "ja": "日本の歴史**について**レポートを書きます。", "en": "I'll write a report about Japanese history." }]
+          "examples": [
+            {
+              "ja": "日本の歴史**について**レポートを書きます。",
+              "en": "I'll write a report about Japanese history."
+            }
+          ]
         },
         {
           "rule": "に対して = toward / against (the target of an attitude or action).",
-          "examples": [{ "ja": "お客様**に対して**失礼なことを言ってはいけません。", "en": "You mustn't say rude things to customers." }]
+          "examples": [
+            {
+              "ja": "お客様**に対して**失礼なことを言ってはいけません。",
+              "en": "You mustn't say rude things to customers."
+            }
+          ]
         },
         {
           "rule": "によって = depending on / by (cause, means, or the agent of a passive).",
           "examples": [
-            { "ja": "考え方は人**によって**違います。", "en": "Ways of thinking differ from person to person." },
-            { "ja": "この絵は有名な画家**によって**描かれました。", "en": "This picture was painted by a famous artist." }
+            {
+              "ja": "考え方は人**によって**違います。",
+              "en": "Ways of thinking differ from person to person."
+            },
+            {
+              "ja": "この絵は有名な画家**によって**描かれました。",
+              "en": "This picture was painted by a famous artist."
+            }
           ]
         },
         {
           "rule": "にとって = for / from the point of view of (with judgments like 大切, 難しい).",
-          "examples": [{ "ja": "私**にとって**家族は一番大切です。", "en": "For me, family is the most important thing." }]
+          "examples": [
+            {
+              "ja": "私**にとって**家族は一番大切です。",
+              "en": "For me, family is the most important thing."
+            }
+          ]
         }
       ],
       "drills": [
-        { "ja": "国（　　）、習慣はずいぶん違います。", "choices": ["によって", "について", "にとって", "に対して"], "answer": 0, "why": "'Customs differ depending on the country': によって." },
-        { "ja": "留学生（　　）、日本の家賃は高いです。", "choices": ["にとって", "について", "によって", "に対して"], "answer": 0, "why": "A judgment from their point of view: にとって." },
-        { "ja": "環境問題（　　）みんなで話し合いました。", "choices": ["について", "にとって", "によって", "に対して"], "answer": 0, "why": "The topic of the discussion: について." },
-        { "ja": "彼は目上の人（　　）いつも丁寧に話します。", "choices": ["に対して", "にとって", "について", "によって"], "answer": 0, "why": "His attitude toward older people: に対して." }
+        {
+          "ja": "国（　　）、習慣はずいぶん違います。",
+          "choices": [
+            "によって",
+            "について",
+            "にとって",
+            "に対して"
+          ],
+          "answer": 0,
+          "why": "'Customs differ depending on the country': によって."
+        },
+        {
+          "ja": "留学生（　　）、日本の家賃は高いです。",
+          "choices": [
+            "にとって",
+            "について",
+            "によって",
+            "に対して"
+          ],
+          "answer": 0,
+          "why": "A judgment from their point of view: にとって."
+        },
+        {
+          "ja": "環境問題（　　）みんなで話し合いました。",
+          "choices": [
+            "について",
+            "にとって",
+            "によって",
+            "に対して"
+          ],
+          "answer": 0,
+          "why": "The topic of the discussion: について."
+        },
+        {
+          "ja": "彼は目上の人（　　）いつも丁寧に話します。",
+          "choices": [
+            "に対して",
+            "にとって",
+            "について",
+            "によって"
+          ],
+          "answer": 0,
+          "why": "His attitude toward older people: に対して."
+        }
       ]
     },
     {
       "id": "towa-tte",
       "level": "N3",
       "title": "とは and って for definitions",
-      "particles": ["とは", "って"],
+      "particles": [
+        "とは",
+        "って"
+      ],
       "summary": "X とは… / X って… picks out a word or thing to define or comment on: 'X means…', 'X is…'. とは is written and formal, って is spoken.",
       "points": [
         {
           "rule": "Asking or giving a meaning.",
           "examples": [
-            { "ja": "「JLPT」**とは**日本語能力試験のことです。", "en": "'JLPT' means the Japanese-Language Proficiency Test." },
-            { "ja": "「ドタキャン」**って**どういう意味？", "en": "What does 'dotakyan' mean?" }
+            {
+              "ja": "「JLPT」**とは**日本語能力試験のことです。",
+              "en": "'JLPT' means the Japanese-Language Proficiency Test."
+            },
+            {
+              "ja": "「ドタキャン」**って**どういう意味？",
+              "en": "What does 'dotakyan' mean?"
+            }
           ]
         }
       ],
       "drills": [
-        { "ja": "「エコバッグ」（　　）、買い物に持っていく自分のかばんのことです。", "choices": ["とは", "では", "には", "とも"], "answer": 0, "why": "Defining a word in writing: とは." },
-        { "ja": "ねえ、「やばい」（　　）、どういう意味？", "choices": ["って", "では", "には", "でも"], "answer": 0, "why": "Casual 'what does X mean?': って." }
+        {
+          "ja": "「エコバッグ」（　　）、買い物に持っていく自分のかばんのことです。",
+          "choices": [
+            "とは",
+            "では",
+            "には",
+            "とも"
+          ],
+          "answer": 0,
+          "why": "Defining a word in writing: とは."
+        },
+        {
+          "ja": "ねえ、「やばい」（　　）、どういう意味？",
+          "choices": [
+            "って",
+            "では",
+            "には",
+            "でも"
+          ],
+          "answer": 0,
+          "why": "Casual 'what does X mean?': って."
+        }
       ]
     }
   ]
