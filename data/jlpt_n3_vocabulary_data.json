@@ -1,0 +1,4787 @@
+[
+  {
+    "exercise_number": 1,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-vocabulary-exercise-1/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "_______ な資金は、安定した経営、さらに事業拡大できるチャンスにつながります。",
+        "choices": [
+          "豊富",
+          "贅沢",
+          "幸福",
+          "多量"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "豊富\nな資金は、安定した経営、さらに事業拡大できるチャンスにつながります。"
+      },
+      {
+        "question_number": 2,
+        "question": "シジンは真面目な時は本当に真面目なのですが、ちゃっかりした面や、_______ が好きな面もあり、それも私と似ているかもしれません。",
+        "choices": [
+          "評判",
+          "快適",
+          "確認",
+          "冗談"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "シジンは真面目な時は本当に真面目なのですが、ちゃっかりした面や、\n冗談\nが好きな面もあり、それも私と似ているかもしれません。"
+      },
+      {
+        "question_number": 3,
+        "question": "受話器を置いた大統領は、前進する _______ ができていた。",
+        "choices": [
+          "覚悟",
+          "感覚",
+          "発覚",
+          "自覚"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "受話器を置いた大統領は、前進する\n覚悟\nができていた。"
+      },
+      {
+        "question_number": 4,
+        "question": "僕はすばらしいデザインを見れば元気になるし、_______ 工程のわずかな違いにまでこだわる。",
+        "choices": [
+          "造作",
+          "製造",
+          "創造",
+          "製品"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "僕はすばらしいデザインを見れば元気になるし、\n製造\n工程のわずかな違いにまでこだわる。"
+      },
+      {
+        "question_number": 5,
+        "question": "彼がここに電話をかけてきたのは単なる _______ の一致かもしれない。",
+        "choices": [
+          "自然",
+          "天然",
+          "突然",
+          "偶然"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "彼がここに電話をかけてきたのは単なる\n偶然\nの一致かもしれない。"
+      },
+      {
+        "question_number": 6,
+        "question": "資金の _______ を突き止めれば、テロリストを突き止め、制圧することができる。",
+        "choices": [
+          "連れ",
+          "哀れ",
+          "流れ",
+          "恐れ"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "資金の\n流れ\nを突き止めれば、テロリストを突き止め、制圧することができる。"
+      },
+      {
+        "question_number": 7,
+        "question": "私は農家の長男なのですが、父が商業高校への _______ を勧めてくれたのです。",
+        "choices": [
+          "通学",
+          "進学",
+          "留学",
+          "奨学"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "私は農家の長男なのですが、父が商業高校への\n進学\nを勧めてくれたのです。"
+      },
+      {
+        "question_number": 8,
+        "question": "後輩に仕事のやり方について _______ をしました。",
+        "choices": [
+          "アイデア",
+          "アドバイス",
+          "デザイン",
+          "イメージ"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "後輩に仕事のやり方について\nアドバイス\nをしました。"
+      },
+      {
+        "question_number": 9,
+        "question": "セミナーに参加したい人は、_______ に住所、氏名、希望日を書いてください。",
+        "choices": [
+          "証明書",
+          "領収書",
+          "申込書",
+          "参考書"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "セミナーに参加したい人は、\n申込書\nに住所、氏名、希望日を書いてください。"
+      },
+      {
+        "question_number": 10,
+        "question": "私は、外国語を１日で _______ マスターしたい。",
+        "choices": [
+          "完成",
+          "完了",
+          "完全",
+          "完璧"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "私は、外国語を１日で\n完全\nマスターしたい。"
+      },
+      {
+        "question_number": 11,
+        "question": "彼が何を言っているのか、_______ わからない。",
+        "choices": [
+          "ぐっすり",
+          "すっきり",
+          "のんびり",
+          "さっぱり"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "彼が何を言っているのか、\nさっぱり\nわからない。"
+      },
+      {
+        "question_number": 12,
+        "question": "楽しみにしていたコンサートが中止になって _______ した。",
+        "choices": [
+          "はらはら",
+          "うっかり",
+          "どきどき",
+          "がっかり"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "楽しみにしていたコンサートが中止になって\nがっかり\nした。"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "資金",
+        "reading": "shikin",
+        "meaning": "funds, capital"
+      },
+      {
+        "word": "安定した",
+        "reading": "antei shita",
+        "meaning": "steady, stable, firm"
+      },
+      {
+        "word": "経営",
+        "reading": "keiei",
+        "meaning": "management, administration"
+      },
+      {
+        "word": "事業",
+        "reading": "jigyou",
+        "meaning": "enterprise, business, industry"
+      },
+      {
+        "word": "拡大",
+        "reading": "kakudai",
+        "meaning": "magnification, enlargement, expansion"
+      },
+      {
+        "word": "繋がる",
+        "reading": "tsunagaru",
+        "meaning": "to be tied together, to be connected to"
+      },
+      {
+        "word": "豊富",
+        "reading": "houfu",
+        "meaning": "abundance, wealthy, plenty"
+      },
+      {
+        "word": "贅沢",
+        "reading": "zeitaku",
+        "meaning": "luxury, extravagance"
+      },
+      {
+        "word": "幸福",
+        "reading": "koufuku",
+        "meaning": "happiness, blessedness"
+      },
+      {
+        "word": "多量",
+        "reading": "taryou",
+        "meaning": "large quantity"
+      },
+      {
+        "word": "真面目",
+        "reading": "majime",
+        "meaning": "serious, honest, earnest"
+      },
+      {
+        "word": "ちゃっかり",
+        "reading": "",
+        "meaning": "shrewd, calculating, nervy"
+      },
+      {
+        "word": "面",
+        "reading": "men",
+        "meaning": "face, mask, side"
+      },
+      {
+        "word": "評判",
+        "reading": "hyouban",
+        "meaning": "fame, reputation, popularity"
+      },
+      {
+        "word": "快適",
+        "reading": "kaiteki",
+        "meaning": "pleasant, comfortable"
+      },
+      {
+        "word": "確認",
+        "reading": "kakunin",
+        "meaning": "affirmation, confirmation"
+      },
+      {
+        "word": "冗談",
+        "reading": "joudan",
+        "meaning": "jest, joke"
+      },
+      {
+        "word": "受話器",
+        "reading": "juwaki",
+        "meaning": "telephone receiver"
+      },
+      {
+        "word": "大統領",
+        "reading": "daitouryou",
+        "meaning": "president"
+      },
+      {
+        "word": "前進",
+        "reading": "zenshin",
+        "meaning": "drive, advance, progress"
+      },
+      {
+        "word": "覚悟",
+        "reading": "kakugo",
+        "meaning": "resolution, readiness"
+      },
+      {
+        "word": "感覚",
+        "reading": "kankaku",
+        "meaning": "sense, sensation, feeling"
+      },
+      {
+        "word": "発覚",
+        "reading": "hakkaku",
+        "meaning": "detection, coming to light"
+      },
+      {
+        "word": "自覚",
+        "reading": "jikaku",
+        "meaning": "self-consciousness, self-awareness"
+      },
+      {
+        "word": "デザイン",
+        "reading": "",
+        "meaning": "design"
+      },
+      {
+        "word": "工程",
+        "reading": "koutei",
+        "meaning": "manufacturing processs, work schedule"
+      },
+      {
+        "word": "違い",
+        "reading": "chigai",
+        "meaning": "difference, discrepancy"
+      },
+      {
+        "word": "こだわる",
+        "reading": "",
+        "meaning": "to fuss over, to be particular about"
+      },
+      {
+        "word": "造作",
+        "reading": "zousa",
+        "meaning": "trouble, difficulty"
+      },
+      {
+        "word": "製造",
+        "reading": "seizou",
+        "meaning": "manufacture, production"
+      },
+      {
+        "word": "創造",
+        "reading": "souzou",
+        "meaning": "creation"
+      },
+      {
+        "word": "製品",
+        "reading": "seihin",
+        "meaning": "manufactured goods, product"
+      },
+      {
+        "word": "単なる",
+        "reading": "tannaru",
+        "meaning": "mere, simple, sheer"
+      },
+      {
+        "word": "一致",
+        "reading": "icchi",
+        "meaning": "coincidence, consistency, match"
+      },
+      {
+        "word": "自然",
+        "reading": "shizen",
+        "meaning": "naturally, spontaneously"
+      },
+      {
+        "word": "天然",
+        "reading": "tennen",
+        "meaning": "nature, spontaneity"
+      },
+      {
+        "word": "突然",
+        "reading": "totsuzen",
+        "meaning": "abrupt, sudden, unexpected"
+      },
+      {
+        "word": "偶然",
+        "reading": "guuzen",
+        "meaning": "by chance, accident, unexpectedly"
+      },
+      {
+        "word": "突き止める",
+        "reading": "tsukitomeru",
+        "meaning": "to make sure, to ascertain, to locate"
+      },
+      {
+        "word": "制圧",
+        "reading": "seiatsu",
+        "meaning": "suppression, oppression, control"
+      },
+      {
+        "word": "連れ",
+        "reading": "tsure",
+        "meaning": "companion, company"
+      },
+      {
+        "word": "哀れ",
+        "reading": "aware",
+        "meaning": "pity, sorrow, grief"
+      },
+      {
+        "word": "流れ",
+        "reading": "nagare",
+        "meaning": "stream, current, flow"
+      },
+      {
+        "word": "恐れ",
+        "reading": "osore",
+        "meaning": "fear, horror, axiety"
+      },
+      {
+        "word": "農家",
+        "reading": "nouka",
+        "meaning": "farmer, farm family"
+      },
+      {
+        "word": "長男",
+        "reading": "chounan",
+        "meaning": "eldest son"
+      },
+      {
+        "word": "商業",
+        "reading": "shougyou",
+        "meaning": "commerce, trade, business"
+      },
+      {
+        "word": "勧める",
+        "reading": "susumeru",
+        "meaning": "to recommend, to advise"
+      },
+      {
+        "word": "通学",
+        "reading": "tsuugaku",
+        "meaning": "commuting to school"
+      },
+      {
+        "word": "進学",
+        "reading": "shingaku",
+        "meaning": "entering a higher-level school (esp. going on to university)"
+      },
+      {
+        "word": "留学",
+        "reading": "ryuugaku",
+        "meaning": "studying abroad"
+      },
+      {
+        "word": "奨学",
+        "reading": "shougaku",
+        "meaning": "encouragement to study"
+      },
+      {
+        "word": "後輩",
+        "reading": "kouhai",
+        "meaning": "junior (at school or work)"
+      },
+      {
+        "word": "参加",
+        "reading": "sanka",
+        "meaning": "participation"
+      },
+      {
+        "word": "氏名",
+        "reading": "shimei",
+        "meaning": "full name"
+      },
+      {
+        "word": "希望",
+        "reading": "kibou",
+        "meaning": "hope, wish"
+      },
+      {
+        "word": "証明書",
+        "reading": "shoumeisho",
+        "meaning": "certificate"
+      },
+      {
+        "word": "領収書",
+        "reading": "ryoushuusho",
+        "meaning": "(formal) receipt"
+      },
+      {
+        "word": "申込書",
+        "reading": "moushikomisho",
+        "meaning": "application form, written application"
+      },
+      {
+        "word": "参考書",
+        "reading": "sankousho",
+        "meaning": "reference book"
+      },
+      {
+        "word": "外国語",
+        "reading": "gaikokugo",
+        "meaning": "foreign language"
+      },
+      {
+        "word": "完成",
+        "reading": "kansei",
+        "meaning": "complete, accomplishment"
+      },
+      {
+        "word": "完了",
+        "reading": "kanryou",
+        "meaning": "completion, conclusion"
+      },
+      {
+        "word": "完全",
+        "reading": "kanzen",
+        "meaning": "perfection, completeness"
+      },
+      {
+        "word": "完璧",
+        "reading": "kanpeki",
+        "meaning": "perfect, complete, flawless"
+      },
+      {
+        "word": "ぐっすり",
+        "reading": "",
+        "meaning": "sound asleep"
+      },
+      {
+        "word": "すっきり",
+        "reading": "",
+        "meaning": "clearly, refreshed"
+      },
+      {
+        "word": "のんびり",
+        "reading": "",
+        "meaning": "carefree, at leisure"
+      },
+      {
+        "word": "さっぱり",
+        "reading": "",
+        "meaning": "completely, entirely"
+      },
+      {
+        "word": "中止",
+        "reading": "chuushi",
+        "meaning": "suspension, discontinuance, interruption"
+      },
+      {
+        "word": "はらはら",
+        "reading": "",
+        "meaning": "exciting, thrilling"
+      },
+      {
+        "word": "うっかり",
+        "reading": "",
+        "meaning": "carelessly, thoughtlessly"
+      },
+      {
+        "word": "どきどき",
+        "reading": "",
+        "meaning": "throb, beat (fast)"
+      },
+      {
+        "word": "がっかり",
+        "reading": "",
+        "meaning": "feel disappointed, feel let down"
+      }
+    ]
+  },
+  {
+    "exercise_number": 2,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-vocabulary-exercise-2/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "「まったく興味ありません」彼女はきっぱり _______ 。",
+        "choices": [
+          "したがった",
+          "うたかった",
+          "ことわった",
+          "うしなった"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "「まったく興味ありません」彼女はきっぱり\nことわった\n。"
+      },
+      {
+        "question_number": 2,
+        "question": "彼が計画を _______ できないように、わたしたちはできるかぎりのことをしている。",
+        "choices": [
+          "実行",
+          "実際",
+          "事実",
+          "実地"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "彼が計画を\n実行\nできないように、わたしたちはできるかぎりのことをしている。"
+      },
+      {
+        "question_number": 3,
+        "question": "男の子が _______ をがぶりと飲んでいます。",
+        "choices": [
+          "ケーキ",
+          "クラスチック",
+          "ジュース",
+          "カー"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "男の子が\nジュース\nをがぶりと飲んでいます。"
+      },
+      {
+        "question_number": 4,
+        "question": "彼女はやがて完全に _______ じゃろうと、わしは希望を持っておる。",
+        "choices": [
+          "会計する",
+          "回復する",
+          "呼吸する",
+          "出席する"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "彼女はやがて完全に\n回復する\nじゃろうと、わしは希望を持っておる。"
+      },
+      {
+        "question_number": 5,
+        "question": "彼の叫び声で、全員が目を _______ 。",
+        "choices": [
+          "責めた",
+          "信じた",
+          "驚いた",
+          "覚ました"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "彼の叫び声で、全員が目を\n覚ました\n。"
+      },
+      {
+        "question_number": 6,
+        "question": "あなたも _______ 参加してください。",
+        "choices": [
+          "かなり",
+          "ずっと",
+          "すべて",
+          "ぜひ"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "あなたも\nぜひ\n参加してください。"
+      },
+      {
+        "question_number": 7,
+        "question": "あなたが手伝ってくれないと、考えを _______ ことができない。",
+        "choices": [
+          "成長する",
+          "故障する",
+          "集中する",
+          "整理する"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "あなたが手伝ってくれないと、考えを\n整理する\nことができない。"
+      },
+      {
+        "question_number": 8,
+        "question": "彼は、スプーンで _______ を口に運びはじめた。",
+        "choices": [
+          "サイン",
+          "スープ",
+          "セット",
+          "スピード"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "彼は、スプーンで\nスープ\nを口に運びはじめた。"
+      },
+      {
+        "question_number": 9,
+        "question": "僕は自分の主人の命令に _______ ことはできない。",
+        "choices": [
+          "さからう",
+          "しはらう",
+          "きらう",
+          "もらう"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "僕は自分の主人の命令に\nさからう\nことはできない。"
+      },
+      {
+        "question_number": 10,
+        "question": "通りには堂々たるビルが立ち並び、すでに車で _______ 。",
+        "choices": [
+          "迷惑していた",
+          "困惑していた",
+          "混乱していた",
+          "混雑していた"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "通りには堂々たるビルが立ち並び、すでに車で\n混雑していた\n。"
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 3,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-vocabulary-exercise-3/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "日本は１９４１年末に真珠湾を _______ し、翌年にはインドネシアに侵攻した。",
+        "choices": [
+          "批判",
+          "攻撃",
+          "評判",
+          "攻勢"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "日本は１９４１年末に真珠湾を\n攻撃\nし、翌年にはインドネシアに侵攻した。"
+      },
+      {
+        "question_number": 2,
+        "question": "一度見たら何もかも頭の中に記憶できる _______ があったら面白いですよね。",
+        "choices": [
+          "強力",
+          "努力",
+          "協力",
+          "能力"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "一度見たら何もかも頭の中に記憶できる\n能力\nがあったら面白いですよね。"
+      },
+      {
+        "question_number": 3,
+        "question": "製品と同じように、すごい店にするには注意をそらすものを _______ シンプルにするのが重要だ。",
+        "choices": [
+          "増して",
+          "減らして",
+          "縮めて",
+          "広げて"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "製品と同じように、すごい店にするには注意をそらすものを\n減らして\nシンプルにするのが重要だ。"
+      },
+      {
+        "question_number": 4,
+        "question": "鈴木さんはそんなに若いのに、あの子たちみんなの生活の _______ を見るなんて、すごく立派ね。",
+        "choices": [
+          "援助",
+          "賛成",
+          "設計",
+          "面倒"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "鈴木さんはそんなに若いのに、あの子たちみんなの生活の\n面倒\nを見るなんて、すごく立派ね。"
+      },
+      {
+        "question_number": 5,
+        "question": "詩人たちは数千年という歳月をかけて愛について _______ きました。",
+        "choices": [
+          "言った",
+          "話した",
+          "語って",
+          "喋った"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "詩人たちは数千年という歳月をかけて愛について\n語って\nきました。"
+      },
+      {
+        "question_number": 6,
+        "question": "インド経済は世界最速で _______ している大市場だ。",
+        "choices": [
+          "成功",
+          "成長",
+          "成績",
+          "成人"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "インド経済は世界最速で\n成長\nしている大市場だ。"
+      },
+      {
+        "question_number": 7,
+        "question": "今日の浅草寺は無人に近く、数人の観光 _______ がまばらにいるだけだ。",
+        "choices": [
+          "人",
+          "者",
+          "客",
+          "官"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "今日の浅草寺は無人に近く、数人の観光\n客\nがまばらにいるだけだ。"
+      },
+      {
+        "question_number": 8,
+        "question": "学者として、これらの伝説の史料を _______ ことはできない。",
+        "choices": [
+          "否定する",
+          "感動する",
+          "警告する",
+          "信頼する"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "学者として、これらの伝説の史料を\n否定する\nことはできない。"
+      },
+      {
+        "question_number": 9,
+        "question": "廊下の電気は、スイッチを押さなくても、人が通ると _______ につきます。",
+        "choices": [
+          "機械的",
+          "自動的",
+          "積極的",
+          "間接的"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "廊下の電気は、スイッチを押さなくても、人が通ると\n自動的\nにつきます。"
+      },
+      {
+        "question_number": 10,
+        "question": "台風により、この辺りは大きな _______ を受けた。",
+        "choices": [
+          "誤解",
+          "不満",
+          "変化",
+          "被害"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "台風により、この辺りは大きな\n被害\nを受けた。"
+      },
+      {
+        "question_number": 11,
+        "question": "将来のために、お金を _______ います。",
+        "choices": [
+          "ためて",
+          "のせて",
+          "かさねて",
+          "くわえて"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "将来のために、お金を\nためて\nいます。"
+      },
+      {
+        "question_number": 12,
+        "question": "バスとトラックが _______ して、負傷者が出た。",
+        "choices": [
+          "混雑",
+          "競争",
+          "邪魔",
+          "衝突"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "バスとトラックが\n衝突\nして、負傷者が出た。"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "年末",
+        "reading": "nenmatsu",
+        "meaning": "end-of-year"
+      },
+      {
+        "word": "真珠湾",
+        "reading": "shinjuwan",
+        "meaning": "Pearl Harbor"
+      },
+      {
+        "word": "侵攻",
+        "reading": "shinkou",
+        "meaning": "invasion"
+      },
+      {
+        "word": "批判",
+        "reading": "hihan",
+        "meaning": "criticism, judgement"
+      },
+      {
+        "word": "攻撃",
+        "reading": "kougeki",
+        "meaning": "attack, strike, offensive"
+      },
+      {
+        "word": "攻勢",
+        "reading": "kousei",
+        "meaning": "offensive (movement), aggression"
+      },
+      {
+        "word": "何もかも",
+        "reading": "nanimokamo",
+        "meaning": "just about everything"
+      },
+      {
+        "word": "記憶",
+        "reading": "kioku",
+        "meaning": "memory, recollection"
+      },
+      {
+        "word": "強力",
+        "reading": "kyouryoku",
+        "meaning": "powerful, strong"
+      },
+      {
+        "word": "努力",
+        "reading": "doryoku",
+        "meaning": "great effort, exertion"
+      },
+      {
+        "word": "協力",
+        "reading": "kyouryoku",
+        "meaning": "cooperation, collaboration"
+      },
+      {
+        "word": "能力",
+        "reading": "nouryoku",
+        "meaning": "ability, faculty"
+      },
+      {
+        "word": "注意",
+        "reading": "chuui",
+        "meaning": "caution, warning, attention"
+      },
+      {
+        "word": "重要",
+        "reading": "juuyou",
+        "meaning": "important, essential"
+      },
+      {
+        "word": "増す",
+        "reading": "masu",
+        "meaning": "to increase, to grow"
+      },
+      {
+        "word": "減らす",
+        "reading": "herasu",
+        "meaning": "to abte, to decrease"
+      },
+      {
+        "word": "縮める",
+        "reading": "chidjimeru",
+        "meaning": "to shorten, to shrink"
+      },
+      {
+        "word": "広げる",
+        "reading": "hirogeru",
+        "meaning": "to spread, to extend"
+      },
+      {
+        "word": "立派",
+        "reading": "rippa",
+        "meaning": "splendid, fine"
+      },
+      {
+        "word": "援助",
+        "reading": "enjo",
+        "meaning": "assistance, aid, support"
+      },
+      {
+        "word": "賛成",
+        "reading": "sansei",
+        "meaning": "approval, agreement"
+      },
+      {
+        "word": "設計",
+        "reading": "sekkei",
+        "meaning": "plan, design, layout"
+      },
+      {
+        "word": "面倒",
+        "reading": "mendou",
+        "meaning": "trouble, care, attention"
+      },
+      {
+        "word": "詩人",
+        "reading": "shijin",
+        "meaning": "poet"
+      },
+      {
+        "word": "歳月",
+        "reading": "saigetsu",
+        "meaning": "time, years"
+      },
+      {
+        "word": "語る",
+        "reading": "kataru",
+        "meaning": "to talk, to tell"
+      },
+      {
+        "word": "経済",
+        "reading": "keizai",
+        "meaning": "economics, business, finance"
+      },
+      {
+        "word": "最速",
+        "reading": "saisoku",
+        "meaning": "fastest"
+      },
+      {
+        "word": "成績",
+        "reading": "seiseki",
+        "meaning": "results, grades"
+      },
+      {
+        "word": "成人",
+        "reading": "seijin",
+        "meaning": "adult"
+      },
+      {
+        "word": "無人",
+        "reading": "munin",
+        "meaning": "unmanned, uninhabited"
+      },
+      {
+        "word": "観光客",
+        "reading": "kankoukyaku",
+        "meaning": "tourist"
+      },
+      {
+        "word": "学者",
+        "reading": "gakusha",
+        "meaning": "scholar"
+      },
+      {
+        "word": "伝説",
+        "reading": "densetsu",
+        "meaning": "tradition, legend"
+      },
+      {
+        "word": "史料",
+        "reading": "shiryou",
+        "meaning": "historical records, archives"
+      },
+      {
+        "word": "否定",
+        "reading": "hitei",
+        "meaning": "negation, denial"
+      },
+      {
+        "word": "感動",
+        "reading": "kandou",
+        "meaning": "being deeply moved emotionally"
+      },
+      {
+        "word": "警告",
+        "reading": "keikoku",
+        "meaning": "warning, advice"
+      },
+      {
+        "word": "信頼",
+        "reading": "shinrai",
+        "meaning": "reliance, trust"
+      },
+      {
+        "word": "機械的",
+        "reading": "kikaiteki",
+        "meaning": "mechanical"
+      },
+      {
+        "word": "自動的",
+        "reading": "jidouteki",
+        "meaning": "automatic"
+      },
+      {
+        "word": "積極的",
+        "reading": "sekkyokuteki",
+        "meaning": "positive"
+      },
+      {
+        "word": "間接的",
+        "reading": "kansetsuteki",
+        "meaning": "indirect"
+      },
+      {
+        "word": "誤解",
+        "reading": "gokai",
+        "meaning": "misunderstanding"
+      },
+      {
+        "word": "不満",
+        "reading": "fuman",
+        "meaning": "dissatisfaction, discontent"
+      },
+      {
+        "word": "変化",
+        "reading": "henka",
+        "meaning": "change, transformation"
+      },
+      {
+        "word": "被害",
+        "reading": "higai",
+        "meaning": "damage"
+      },
+      {
+        "word": "負傷者",
+        "reading": "fushousha",
+        "meaning": "casualty"
+      },
+      {
+        "word": "混雑",
+        "reading": "konzatsu",
+        "meaning": "confusion, congestion"
+      },
+      {
+        "word": "競争",
+        "reading": "kyousou",
+        "meaning": "competition, contest"
+      },
+      {
+        "word": "邪魔",
+        "reading": "jama",
+        "meaning": "hindrance, intrusion"
+      },
+      {
+        "word": "衝突",
+        "reading": "shoutotsu",
+        "meaning": "collision, conflict"
+      }
+    ]
+  },
+  {
+    "exercise_number": 4,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-vocabulary-exercise-4/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "経由",
+        "choices": [
+          "この公園の中を経由するとちょっと近道になる。",
+          "このバスは市役所を経由して駅へ向かいます。",
+          "田中さんは会社員を経由して大学に入った。",
+          "会議は昼休みを経由して午後まで続いた。"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "経由\n: このバスは市役所を\n経由\nして駅へ向かいます。"
+      },
+      {
+        "question_number": 2,
+        "question": "訪問",
+        "choices": [
+          "就職活動のために、先輩の会社を訪問しました。",
+          "友人から結婚式の招待の手紙が訪問しました。",
+          "週末はいつも家族で海を訪問しています。",
+          "突然海外旅行のチャンスが訪問しました。"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "訪問\n: 就職活動のために、先輩の会社を\n訪問\nしました。"
+      },
+      {
+        "question_number": 3,
+        "question": "滑る",
+        "choices": [
+          "船は海の上を滑るように進んだ。",
+          "山のふもとを大きな川が滑っている。",
+          "地震では地面は上下、そして横に滑る。",
+          "楽しい時は時間が早く滑るように感じる。"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "滑る\n: 船は海の上を\n滑る\nように進んだ。"
+      },
+      {
+        "question_number": 4,
+        "question": "見送る",
+        "choices": [
+          "毎日かならずメールを見送るようにしている。",
+          "何ページか見送ってみたが、難しくて分からなかった。",
+          "電車の窓から景色を見送るのが好きだ。",
+          "国に帰る友人を空港まで見送った。"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "見送る\n: 国に帰る友人を空港まで\n見送った\n。"
+      },
+      {
+        "question_number": 5,
+        "question": "受け入れる",
+        "choices": [
+          "入り口でパンフレットを受け入れてから席にお座りください。",
+          "わたしの大学では、毎年大勢の留学生を受け入れています。",
+          "チケットのお申し込みは電話で受け入れています。",
+          "最新の技術を受け入れた製品について説明してもらいました。"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "受け入れる\n: わたしの大学では、毎年大勢の留学生を\n受け入れて\nいます。"
+      },
+      {
+        "question_number": 6,
+        "question": "用事",
+        "choices": [
+          "今では携帯電話にはいろいろな用事がある。",
+          "結婚のために用事をやめる女性が大勢いる。",
+          "その部屋はあなたが使えるよう用事ができている。",
+          "ゲームをしているうちに用事を忘れてしまった。"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "用事\n: ゲームをしているうちに\n用事\nを忘れてしまった。"
+      },
+      {
+        "question_number": 7,
+        "question": "募集",
+        "choices": [
+          "授業の説明のために、新入生を一番教室に募集した。",
+          "わたしの趣味は、いろいろな国のコインを募集することです。",
+          "スピーチ大会の参加者を募集しています。",
+          "この市では週2回、ごみを募集しています。"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "募集\n: スピーチ大会の参加者を\n募集\nしています。"
+      },
+      {
+        "question_number": 8,
+        "question": "緊張",
+        "choices": [
+          "初めて雪を見て、うれしくて胸が緊張した。",
+          "夏休みは、あそびの計画がとても緊張している。",
+          "新しいパソコンは使い方が緊張していて、うまく使えない人が多い。",
+          "テレビのインタビューを受けて、とても緊張した。"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "緊張\n: テレビのインタビューを受けて、とても\n緊張\nした。"
+      },
+      {
+        "question_number": 9,
+        "question": "性格",
+        "choices": [
+          "短気の性格の人は、この仕事にはあまり向かない。",
+          "雨のせいで、今日はグランドの性格がよくない。",
+          "この車の性格は電気で走る点だ。",
+          "あの人はその日の性格で言うことが変わる。"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "性格\n: 短気の\n性格\nの人は、この仕事にはあまり向かない。"
+      },
+      {
+        "question_number": 10,
+        "question": "ゆるい",
+        "choices": [
+          "朝の電車はこんでいたが、帰りはゆるかった。",
+          "ズボンがゆるいので、ベルトをきつくしめた。",
+          "今回の旅行は荷物が少ないので、スーツケースがまだゆるい。",
+          "この家は、夫婦二人で住むなら十分ゆるいです。"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "ゆるい\n: ズボンが\nゆるい\nので、ベルトをきつくしめた。"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "経由",
+        "reading": "keiyu",
+        "meaning": "go by the way, via"
+      },
+      {
+        "word": "近道",
+        "reading": "chikamichi",
+        "meaning": "short way, shortcut"
+      },
+      {
+        "word": "市役所",
+        "reading": "shiyakusho",
+        "meaning": "municipal office, city hall"
+      },
+      {
+        "word": "会社員",
+        "reading": "kaishain",
+        "meaning": "company employee"
+      },
+      {
+        "word": "昼休み",
+        "reading": "hiruyasumi",
+        "meaning": "lunch break, noon recess"
+      },
+      {
+        "word": "訪問",
+        "reading": "houmon",
+        "meaning": "call, visit"
+      },
+      {
+        "word": "就職活動",
+        "reading": "shuushoku katsudou",
+        "meaning": "job hunting, job searching"
+      },
+      {
+        "word": "先輩",
+        "reading": "senpai",
+        "meaning": "senior (at work or school)"
+      },
+      {
+        "word": "結婚式",
+        "reading": "kekkonshiki",
+        "meaning": "marriage ceremony, wedding"
+      },
+      {
+        "word": "招待",
+        "reading": "shoutai",
+        "meaning": "invitation"
+      },
+      {
+        "word": "海外旅行",
+        "reading": "kaigai ryokou",
+        "meaning": "vacation abroad"
+      },
+      {
+        "word": "滑る",
+        "reading": "suberu",
+        "meaning": "to glide, to slide, to slip"
+      },
+      {
+        "word": "進む",
+        "reading": "susumu",
+        "meaning": "to advance, to go forward"
+      },
+      {
+        "word": "ふもと",
+        "reading": "",
+        "meaning": "the foot, the base (of a mountain)"
+      },
+      {
+        "word": "地震",
+        "reading": "jishin",
+        "meaning": "earthquake"
+      },
+      {
+        "word": "地面",
+        "reading": "jimen",
+        "meaning": "ground, earth’s surface"
+      },
+      {
+        "word": "上下",
+        "reading": "jouge",
+        "meaning": "high and low, up and down"
+      },
+      {
+        "word": "見送る",
+        "reading": "miokuru",
+        "meaning": "to see off, to send off, to escort (home)"
+      },
+      {
+        "word": "景色",
+        "reading": "keshiki",
+        "meaning": "scenery, landscape"
+      },
+      {
+        "word": "空港",
+        "reading": "kuukou",
+        "meaning": "airport"
+      },
+      {
+        "word": "受け入れる",
+        "reading": "ukeireru",
+        "meaning": "to accept, to receive"
+      },
+      {
+        "word": "パンフレット",
+        "reading": "",
+        "meaning": "brochure, pamphlet"
+      },
+      {
+        "word": "申し込み",
+        "reading": "moushikomi",
+        "meaning": "application, subscription"
+      },
+      {
+        "word": "最新",
+        "reading": "saishin",
+        "meaning": "latest, newest"
+      },
+      {
+        "word": "技術",
+        "reading": "gijutsu",
+        "meaning": "art, craft, technique"
+      },
+      {
+        "word": "用事",
+        "reading": "youji",
+        "meaning": "tasks, things to do"
+      },
+      {
+        "word": "募集",
+        "reading": "boshuu",
+        "meaning": "recruiting, taking applications"
+      },
+      {
+        "word": "新入生",
+        "reading": "shinnyuusei",
+        "meaning": "freshman, first-year student"
+      },
+      {
+        "word": "趣味",
+        "reading": "shumi",
+        "meaning": "hobby, tastes, preference"
+      },
+      {
+        "word": "大会",
+        "reading": "taikai",
+        "meaning": "tournament"
+      },
+      {
+        "word": "参加者",
+        "reading": "sankasha",
+        "meaning": "participant, entrant"
+      },
+      {
+        "word": "緊張",
+        "reading": "kinchou",
+        "meaning": "tension, nervousness"
+      },
+      {
+        "word": "胸",
+        "reading": "mune",
+        "meaning": "breast, chest"
+      },
+      {
+        "word": "性格",
+        "reading": "seikaku",
+        "meaning": "character, personality"
+      },
+      {
+        "word": "短気",
+        "reading": "tanki",
+        "meaning": "quick temper"
+      },
+      {
+        "word": "向く",
+        "reading": "muku",
+        "meaning": "to be suited to, to be fit for"
+      },
+      {
+        "word": "電気",
+        "reading": "denki",
+        "meaning": "electricity, (electric) light"
+      },
+      {
+        "word": "ゆるい",
+        "reading": "",
+        "meaning": "loose, lenient, slow"
+      }
+    ]
+  },
+  {
+    "exercise_number": 5,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-vocabulary-exercise-5/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "あした家族を公園に _______ 行くことになっている。",
+        "choices": [
+          "むけて",
+          "おこして",
+          "つれて",
+          "かえして"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "あした家族を公園に\nつれて\nいくことになっている。"
+      },
+      {
+        "question_number": 2,
+        "question": "息子から _______ に帰ったという連絡がありました。",
+        "choices": [
+          "無事",
+          "意外",
+          "穏やか",
+          "安らか"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "息子から\n無事\nに帰ったという連絡がありました。"
+      },
+      {
+        "question_number": 3,
+        "question": "空港でホストファミリーと _______ 一人になったときは、とても寂しかった。",
+        "choices": [
+          "つきあって",
+          "かかわって",
+          "まちあわせて",
+          "わかれて"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "空港でホストファミリーと\nわかれて\n一人になったときは、とても寂しかった。"
+      },
+      {
+        "question_number": 4,
+        "question": "山田さんは、よく _______ を言う面白い人です。",
+        "choices": [
+          "冗談",
+          "文句",
+          "感想",
+          "希望"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "山田さんは、よく\n冗談\nを言う面白い人です。"
+      },
+      {
+        "question_number": 5,
+        "question": "書類や本がきちんと _______ されていて、きれいな部屋ですね。",
+        "choices": [
+          "準備",
+          "世話",
+          "選択",
+          "整理"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "書類や本がきちんと\n整理\nされていて、きれいな部屋ですね。"
+      },
+      {
+        "question_number": 6,
+        "question": "薬を飲んだおかげで、もう _______ 元気になりました。",
+        "choices": [
+          "すっかり",
+          "はっきり",
+          "ぐっすり",
+          "ぴったり"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "薬を飲んだおかげで、もう\nすっかり\n元気になりました。"
+      },
+      {
+        "question_number": 7,
+        "question": "朝から何も飲んでいないので、のどが _______ です。",
+        "choices": [
+          "ぺらぺら",
+          "からから",
+          "ふらふら",
+          "ぺこぺこ"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "朝から何も飲んでいないので、のどが\nからから\nです。"
+      },
+      {
+        "question_number": 8,
+        "question": "水をやるのを忘れていたので、花が _______ しまった。",
+        "choices": [
+          "こわれて",
+          "こげて",
+          "かれて",
+          "とけて"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "水をやるのを忘れていたので、花が\nかれて\nしまった。"
+      },
+      {
+        "question_number": 9,
+        "question": "寝坊しないように、昨日は目覚まし時計を二つ _______ して寝ました。",
+        "choices": [
+          "ストップ",
+          "セット",
+          "キャンセル",
+          "スタート"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "寝坊しないように、昨日は目覚まし時計を二つ\nセット\nして寝ました。"
+      },
+      {
+        "question_number": 10,
+        "question": "銀行でドルを円に _______ した。",
+        "choices": [
+          "貯金",
+          "会計",
+          "借金",
+          "両替"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "銀行でドルを円に\n両替\nした。"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "無事",
+        "reading": "buji",
+        "meaning": "safety, peace, quietness"
+      },
+      {
+        "word": "意外",
+        "reading": "igai",
+        "meaning": "unexpected, surprising"
+      },
+      {
+        "word": "穏やか",
+        "reading": "odayaka",
+        "meaning": "calm, gentle, quiet"
+      },
+      {
+        "word": "安らか",
+        "reading": "yasuraka",
+        "meaning": "peaceful, tranquil, restful"
+      },
+      {
+        "word": "ホストファミリー",
+        "reading": "",
+        "meaning": "host family"
+      },
+      {
+        "word": "付き合う",
+        "reading": "tsukiau",
+        "meaning": "to associate with, to go out with"
+      },
+      {
+        "word": "関わる",
+        "reading": "kakawaru",
+        "meaning": "to have to do with, to be affected"
+      },
+      {
+        "word": "待ち合わせる",
+        "reading": "machiawaseru",
+        "meaning": "to rendezvous, to meet at a prearranged place and time"
+      },
+      {
+        "word": "別れる",
+        "reading": "wakareru",
+        "meaning": "to part from, to separate, to bid farewell"
+      },
+      {
+        "word": "文句",
+        "reading": "monku",
+        "meaning": "phrase, complaint"
+      },
+      {
+        "word": "感想",
+        "reading": "kansou",
+        "meaning": "impression, thoughts"
+      },
+      {
+        "word": "書類",
+        "reading": "shorui",
+        "meaning": "documents, official papers"
+      },
+      {
+        "word": "きちんと",
+        "reading": "",
+        "meaning": "accurately, neatly"
+      },
+      {
+        "word": "準備",
+        "reading": "junbi",
+        "meaning": "preparation, setup, arrangements"
+      },
+      {
+        "word": "世話",
+        "reading": "sewa",
+        "meaning": "looking after, help, aid"
+      },
+      {
+        "word": "選択",
+        "reading": "sentaku",
+        "meaning": "selection, choice, option"
+      },
+      {
+        "word": "整理",
+        "reading": "seiri",
+        "meaning": "sorting, arrangement"
+      },
+      {
+        "word": "喉",
+        "reading": "nodo",
+        "meaning": "throat"
+      },
+      {
+        "word": "はっきり",
+        "reading": "",
+        "meaning": "clearly, plainly, distinctly"
+      },
+      {
+        "word": "ぴったり",
+        "reading": "",
+        "meaning": "exactly, neatly, sharp"
+      },
+      {
+        "word": "ぺらぺら",
+        "reading": "",
+        "meaning": "fluent, fluency"
+      },
+      {
+        "word": "からから",
+        "reading": "",
+        "meaning": "dried up"
+      },
+      {
+        "word": "ふらふら",
+        "reading": "",
+        "meaning": "unsteady on one’s feet, dizzy"
+      },
+      {
+        "word": "ぺこぺこ",
+        "reading": "",
+        "meaning": "being very hungry"
+      },
+      {
+        "word": "寝坊",
+        "reading": "nebou",
+        "meaning": "sleeping in late"
+      },
+      {
+        "word": "目覚まし時計",
+        "reading": "mezamashi tokei",
+        "meaning": "alarm clock"
+      },
+      {
+        "word": "貯金",
+        "reading": "chokin",
+        "meaning": "(bank) savings"
+      },
+      {
+        "word": "会計",
+        "reading": "kaikei",
+        "meaning": "account, finance, bill"
+      },
+      {
+        "word": "借金",
+        "reading": "shakkin",
+        "meaning": "debt, loan, liabilities"
+      },
+      {
+        "word": "両替",
+        "reading": "ryougae",
+        "meaning": "change, money exchange"
+      }
+    ]
+  },
+  {
+    "exercise_number": 6,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-vocabulary-exercise-6/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "わたしは妻と一緒に",
+        "choices": [
+          "通勤して",
+          "います。",
+          "仕事に行って",
+          "勉強に行って",
+          "買い物に行って",
+          "散歩に行って"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "通勤して => 仕事に行って"
+      },
+      {
+        "question_number": 2,
+        "question": "料理を作ろうとして、油が",
+        "choices": [
+          "きれている",
+          "ことに気付いた。",
+          "少なくなった",
+          "古くなった",
+          "なくなった",
+          "熱くなった"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "きれている => なくなった"
+      },
+      {
+        "question_number": 3,
+        "question": "山田さんから",
+        "choices": [
+          "さっき",
+          "電話がありましたよ。",
+          "ずっと前に",
+          "少し前に",
+          "何回か",
+          "何回も"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "さっき => 少し前に"
+      },
+      {
+        "question_number": 4,
+        "question": "先生に",
+        "choices": [
+          "わけ",
+          "を話した。",
+          "アイディア",
+          "ルール",
+          "理由",
+          "秘密"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "わけ => 理由"
+      },
+      {
+        "question_number": 5,
+        "question": "フランス風のドレスが",
+        "choices": [
+          "流行している",
+          "。",
+          "売っている",
+          "きれいだ",
+          "はやっている",
+          "好きだ"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "流行している => はやっている"
+      },
+      {
+        "question_number": 6,
+        "question": "これらのやり方には、",
+        "choices": [
+          "共通点",
+          "があります。",
+          "悪いところ",
+          "いいところ",
+          "違うところ",
+          "同じところ"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "共通点 => 同じところ"
+      },
+      {
+        "question_number": 7,
+        "question": "相手の選手にボールを",
+        "choices": [
+          "うばわれて",
+          "しまった。",
+          "入れられて",
+          "止められて",
+          "打たれて",
+          "取られて"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "うばわれて => 取られて"
+      },
+      {
+        "question_number": 8,
+        "question": "彼は人に何を言われても",
+        "choices": [
+          "平気",
+          "だ。",
+          "気にしない",
+          "怒らない",
+          "変わらない",
+          "忘れない"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "平気 => 気にしない"
+      },
+      {
+        "question_number": 9,
+        "question": "それがこの辞書の",
+        "choices": [
+          "欠点",
+          "なんです。",
+          "すきなところ",
+          "いいところ",
+          "きらいなところ",
+          "わるいところ"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "欠点 => わるいところ"
+      },
+      {
+        "question_number": 10,
+        "question": "最近、この川は水が",
+        "choices": [
+          "へった",
+          "気がする。",
+          "多くなった",
+          "少なくなった",
+          "きれいになった",
+          "きたなくなった"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "へった => 少なくなった"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "通勤",
+        "reading": "tsuukin",
+        "meaning": "commuting to work"
+      },
+      {
+        "word": "油",
+        "reading": "abura",
+        "meaning": "oil"
+      },
+      {
+        "word": "気付く",
+        "reading": "kizuku",
+        "meaning": "to notice, to recognize, to realize"
+      },
+      {
+        "word": "切れる",
+        "reading": "kireru",
+        "meaning": "to be out of, to expire"
+      },
+      {
+        "word": "さっき",
+        "reading": "",
+        "meaning": "some time ago"
+      },
+      {
+        "word": "ずっと前に",
+        "reading": "zutto mae ni",
+        "meaning": "a long time ago"
+      },
+      {
+        "word": "何回か",
+        "reading": "nankaika",
+        "meaning": "a few times"
+      },
+      {
+        "word": "何回も",
+        "reading": "nankaimo",
+        "meaning": "time and time again"
+      },
+      {
+        "word": "訳",
+        "reading": "wake",
+        "meaning": "reason, cause"
+      },
+      {
+        "word": "流行",
+        "reading": "ryuukou",
+        "meaning": "fashion, craze, fad"
+      },
+      {
+        "word": "流行る",
+        "reading": "hayaru",
+        "meaning": "to be popular, to come into fashion"
+      },
+      {
+        "word": "共通点",
+        "reading": "kyoutsuuten",
+        "meaning": "common feature"
+      },
+      {
+        "word": "選手",
+        "reading": "senshu",
+        "meaning": "player (in game), team member"
+      },
+      {
+        "word": "奪う",
+        "reading": "ubau",
+        "meaning": "to snatch away, to dispossess"
+      },
+      {
+        "word": "平気",
+        "reading": "heiki",
+        "meaning": "coolness, calmness, composure, unconcern"
+      },
+      {
+        "word": "気にする",
+        "reading": "ki ni suru",
+        "meaning": "to mind, to care about, to worry"
+      },
+      {
+        "word": "欠点",
+        "reading": "ketten",
+        "meaning": "faults, defect, weakness"
+      },
+      {
+        "word": "減る",
+        "reading": "heru",
+        "meaning": "to decrease, to diminish"
+      }
+    ]
+  },
+  {
+    "exercise_number": 7,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-vocabulary-exercise-7/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "日課",
+        "choices": [
+          "彼はよく日課に遅刻したものだった。",
+          "彼女の日課は、朝コーヒーを一杯楽しむことだ。",
+          "遊びが増えれば、日課の時間が減ることになるだろう。",
+          "父がよく遅くまで日課をするので、母はよく文句を言う。"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "日課\n: 彼女の\n日課\nは、朝コーヒーを一杯楽しむことだ。"
+      },
+      {
+        "question_number": 2,
+        "question": "行き先",
+        "choices": [
+          "メールの行き先を間違えて、別の人に送ってしまった。",
+          "仕事中に外出するときは、必ず誰かに行き先を伝えておいてください。",
+          "道に迷ってしまったんですが、駅はこの行き先であっていますか。",
+          "この川は行き先で二つに分かれて、それぞれ別の湖に注いでいる。"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "行き先\n: 仕事中に外出するときは、必ず誰かに\n行き先\nを伝えておいてください。"
+      },
+      {
+        "question_number": 3,
+        "question": "通り過ぎる",
+        "choices": [
+          "店の看板に気づかず、いつのまにか前を通り過ぎていた。",
+          "高校生の息子がとうとう父の身長を通り過ぎた。",
+          "中村選手は山口選手を通り過ぎて、一位でゴールに入った。",
+          "夜の１０時を通り過ぎていたので、レストランは閉まっていた。"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "通り過ぎる\n: 店の看板に気づかず、いつのまにか前を\n通り過ぎて\nいた。"
+      },
+      {
+        "question_number": 4,
+        "question": "合わせる",
+        "choices": [
+          "ウイスキーに水を合わせる。",
+          "洗濯物を日に合わせて乾かす。",
+          "互いに顔を合わせるのを避ける。",
+          "日本は周りを海に合わせている。"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "合わせる\n: 互いに顔を\n合わせる\nのを避ける。"
+      },
+      {
+        "question_number": 5,
+        "question": "ころぶ",
+        "choices": [
+          "今日は疲れたので、早めにベッドにころんだ。",
+          "仕事が入ったので、旅行の計画がころんでしまった。",
+          "台風で庭の木がころんだ。",
+          "階段でころんでけがをした。"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "ころぶ\n: 階段で\nころんで\nけがをした。"
+      },
+      {
+        "question_number": 6,
+        "question": "断る",
+        "choices": [
+          "半年前にタバコを断ってから、体の調子がよくなりました。",
+          "彼は働いた会社を断ってお店を始めました。",
+          "どんなに大変でも、医者になるという夢は断らないでください。",
+          "ほかに約束があったので、パーティーの誘いを断りました。"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "断る\n: ほかに約束があったので、パーティーの誘いを\n断りました\n。"
+      },
+      {
+        "question_number": 7,
+        "question": "正直",
+        "choices": [
+          "小川さんは正直な人で、決してうそは言いません。",
+          "この商品の正直な使い方をこれから説明します。",
+          "これは正直な話なのに、だれも信じてくれません。",
+          "正直な距離は分かりませんが、１０キロぐらいだと思います。"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "正直\n: 小川さんは\n正直\nな人で、決してうそは言いません。"
+      },
+      {
+        "question_number": 8,
+        "question": "無理",
+        "choices": [
+          "必要ないものを買ってお金を無理に使ってしまった。",
+          "たった100万円で家を買うなんて無理な話だ。",
+          "無理なことに、結局彼はその試験に合格した。",
+          "お金に無理することなく、幸せな生活を送っている。"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "無理\n: たった100万円で家を買うなんて\n無理\nな話だ。"
+      },
+      {
+        "question_number": 9,
+        "question": "活動",
+        "choices": [
+          "この団体は、日本文化を紹介するために、文化教室を開くなどの活動をしている。",
+          "休みの日は、息子たちが掃除や洗濯などの活動を手伝ってくれる。",
+          "修理が終わったようで、エレベーターの活動がまた始まった。",
+          "近所でビルの建設工事が行われているので、トラックの活動が多くなった。"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "活動\n: この団体は、日本文化を紹介するために、文化教室を開くなどの\n活動\nをしている。"
+      },
+      {
+        "question_number": 10,
+        "question": "翻訳",
+        "choices": [
+          "この漢字をひらがなに翻訳してください。",
+          "長い文章を短く分かりやすい文章に翻訳するのは難しい。",
+          "この小説は十以上の言語に翻訳されている。",
+          "「生産｣はほかのことばに翻訳すれば「物を作る｣ということです。"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "翻訳\n: この小説は十以上の言語に\n翻訳\nされている。"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "日課",
+        "reading": "nikka",
+        "meaning": "daily lesson, daily work, daily routine"
+      },
+      {
+        "word": "遅刻",
+        "reading": "chikoku",
+        "meaning": "lateness, late coming"
+      },
+      {
+        "word": "増える",
+        "reading": "fueru",
+        "meaning": "to increase, to multiply"
+      },
+      {
+        "word": "行き先",
+        "reading": "ikisaki",
+        "meaning": "destination, whereabouts"
+      },
+      {
+        "word": "間違える",
+        "reading": "machigaeru",
+        "meaning": "to make a mistake, to commit an error"
+      },
+      {
+        "word": "外出",
+        "reading": "gaishutsu",
+        "meaning": "outing, trip, going out"
+      },
+      {
+        "word": "伝える",
+        "reading": "tsutaeru",
+        "meaning": "to convey, to report, to transmit, to tell"
+      },
+      {
+        "word": "道に迷う",
+        "reading": "michi ni mayou",
+        "meaning": "to lose one’s way, to get lost"
+      },
+      {
+        "word": "分かれる",
+        "reading": "wakareru",
+        "meaning": "to split, to divide, to separate"
+      },
+      {
+        "word": "それぞれ",
+        "reading": "",
+        "meaning": "each, every"
+      },
+      {
+        "word": "注ぐ",
+        "reading": "sosogu",
+        "meaning": "to pour (into), to fill"
+      },
+      {
+        "word": "通り過ぎる",
+        "reading": "toorisugiru",
+        "meaning": "to pass, to pass through"
+      },
+      {
+        "word": "看板",
+        "reading": "kanban",
+        "meaning": "sign, signboard, billboard"
+      },
+      {
+        "word": "いつのまにか",
+        "reading": "",
+        "meaning": "before one knows, before one becomes aware of"
+      },
+      {
+        "word": "とうとう",
+        "reading": "",
+        "meaning": "finally, at last"
+      },
+      {
+        "word": "一位",
+        "reading": "ichii",
+        "meaning": "first place, first rank"
+      },
+      {
+        "word": "合せる",
+        "reading": "awaseru",
+        "meaning": "to match, to join together, to combine"
+      },
+      {
+        "word": "洗濯物",
+        "reading": "sentakumono",
+        "meaning": "clothes to be washed, the washing"
+      },
+      {
+        "word": "乾かす",
+        "reading": "kawakasu",
+        "meaning": "to dry (clothes)"
+      },
+      {
+        "word": "互いに",
+        "reading": "tagai ni",
+        "meaning": "mutally, with each other"
+      },
+      {
+        "word": "顔を合せる",
+        "reading": "kao o awaseru",
+        "meaning": "to meet, to face someone"
+      },
+      {
+        "word": "避ける",
+        "reading": "sakeru",
+        "meaning": "to avoid"
+      },
+      {
+        "word": "転ぶ",
+        "reading": "korobu",
+        "meaning": "to fall down, to fall over"
+      },
+      {
+        "word": "早めに",
+        "reading": "hayame ni",
+        "meaning": "ahead of time"
+      },
+      {
+        "word": "怪我",
+        "reading": "kega",
+        "meaning": "injury, hurt"
+      },
+      {
+        "word": "断る",
+        "reading": "kotowaru",
+        "meaning": "to refuse, to reject, to turn down"
+      },
+      {
+        "word": "誘い",
+        "reading": "sasoi",
+        "meaning": "invitation, temptation"
+      },
+      {
+        "word": "正直",
+        "reading": "shoujiki",
+        "meaning": "honesty, frankness"
+      },
+      {
+        "word": "嘘",
+        "reading": "uso",
+        "meaning": "lie, falsehood"
+      },
+      {
+        "word": "距離",
+        "reading": "kyori",
+        "meaning": "distance, range"
+      },
+      {
+        "word": "無理",
+        "reading": "muri",
+        "meaning": "unreasonable, impossible, overdoing"
+      },
+      {
+        "word": "結局",
+        "reading": "kekkyoku",
+        "meaning": "after all, eventually, in the end"
+      },
+      {
+        "word": "合格",
+        "reading": "goukaku",
+        "meaning": "success, passing (exam)"
+      },
+      {
+        "word": "活動",
+        "reading": "katsudou",
+        "meaning": "action, activity"
+      },
+      {
+        "word": "団体",
+        "reading": "dantai",
+        "meaning": "organization, association"
+      },
+      {
+        "word": "文化",
+        "reading": "bunka",
+        "meaning": "culture, civilization"
+      },
+      {
+        "word": "紹介",
+        "reading": "shoukai",
+        "meaning": "introduction"
+      },
+      {
+        "word": "手伝う",
+        "reading": "tetsudau",
+        "meaning": "to help, to assist"
+      },
+      {
+        "word": "修理",
+        "reading": "shuuri",
+        "meaning": "repairing, mending"
+      },
+      {
+        "word": "近所",
+        "reading": "kinjo",
+        "meaning": "neighborhood"
+      },
+      {
+        "word": "建設工事",
+        "reading": "kensetsu kouji",
+        "meaning": "construction work"
+      },
+      {
+        "word": "翻訳",
+        "reading": "hon’yaku",
+        "meaning": "translation, deciphering"
+      },
+      {
+        "word": "文章",
+        "reading": "bunshou",
+        "meaning": "sentence, article"
+      },
+      {
+        "word": "小説",
+        "reading": "shousetsu",
+        "meaning": "novel, short story"
+      },
+      {
+        "word": "言語",
+        "reading": "gengo",
+        "meaning": "language"
+      },
+      {
+        "word": "生産",
+        "reading": "seisan",
+        "meaning": "production, manufacture"
+      }
+    ]
+  },
+  {
+    "exercise_number": 8,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-vocabulary-exercise-8/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "佐藤さんは _______ の強い人で、何度失敗してもあきらめなかった。",
+        "choices": [
+          "意志",
+          "期待",
+          "努力",
+          "希望"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "佐藤さんは\n意志\nの強い人で、何度失敗してもあきらめなかった。"
+      },
+      {
+        "question_number": 2,
+        "question": "クイズの答えが分からないので、何か _______ をください。",
+        "choices": [
+          "サイン",
+          "ヒント",
+          "ルール",
+          "サンプル"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "クイズの答えが分からないので、何か\nヒント\nをください。"
+      },
+      {
+        "question_number": 3,
+        "question": "彼は若いですが、_______ になる人です。",
+        "choices": [
+          "望み",
+          "願い",
+          "頼り",
+          "寄り"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "彼は若いですが、\n頼り\nになる人です。"
+      },
+      {
+        "question_number": 4,
+        "question": "せっかく留学したのだから、一生懸命勉強しないと _______ 。",
+        "choices": [
+          "しかたがない",
+          "もったいない",
+          "とんでもない",
+          "もうしわけない"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "せっかく留学したのだから、一生懸命勉強しないと\nもったいない\n。"
+      },
+      {
+        "question_number": 5,
+        "question": "このホテルの部屋は、いつもきちんと掃除されていて _______ だ。",
+        "choices": [
+          "上品",
+          "派手",
+          "安全",
+          "清潔"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "このホテルの部屋は、いつもきちんと掃除されていて\n清潔\nだ。"
+      },
+      {
+        "question_number": 6,
+        "question": "今夜は雨が降るそうなので、家の外に止めてあるバイクに _______ をかけた。",
+        "choices": [
+          "ケース",
+          "カバー",
+          "マスク",
+          "ラップ"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "今夜は雨が降るそうなので、家の外に止めてあるバイクに\nカバー\nをかけた。"
+      },
+      {
+        "question_number": 7,
+        "question": "彼は社長の地位を息子に _______ 、田舎暮らしを始めた。",
+        "choices": [
+          "かわって",
+          "いれて",
+          "とどけて",
+          "ゆずって"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "彼は社長の地位を息子に\nゆずって\n、田舎暮らしを始めた。"
+      },
+      {
+        "question_number": 8,
+        "question": "テレビの音が _______ 、勉強に集中できない。",
+        "choices": [
+          "うるさくて",
+          "ちいさくて",
+          "こまかくて",
+          "ふるくて"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "テレビの音が\nうるさくて\n、勉強に集中できない。"
+      },
+      {
+        "question_number": 9,
+        "question": "中身がこぼれないよう、ふたを _______ しめてください。",
+        "choices": [
+          "しっかり",
+          "はっきり",
+          "うっかり",
+          "ぐっすり"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "中身がこぼれないよう、ふたを\nしっかり\nしめてください。"
+      },
+      {
+        "question_number": 10,
+        "question": "この映画は _______ した以上に面白かった。",
+        "choices": [
+          "約束",
+          "予定",
+          "希望",
+          "期待"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "この映画は\n期待\nした以上に面白かった。"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "失敗",
+        "reading": "shippai",
+        "meaning": "failure, mistake, blunder"
+      },
+      {
+        "word": "諦める",
+        "reading": "akirameru",
+        "meaning": "to give up, to abandon"
+      },
+      {
+        "word": "意志",
+        "reading": "ishi",
+        "meaning": "will, volition, determination"
+      },
+      {
+        "word": "期待",
+        "reading": "kitai",
+        "meaning": "expectation, anticipation, hope"
+      },
+      {
+        "word": "クイズ",
+        "reading": "",
+        "meaning": "quiz"
+      },
+      {
+        "word": "望み",
+        "reading": "nozomi",
+        "meaning": "wish, desire, hope"
+      },
+      {
+        "word": "願い",
+        "reading": "negai",
+        "meaning": "desire, wish, request"
+      },
+      {
+        "word": "頼り",
+        "reading": "tayori",
+        "meaning": "reliance, dependence​"
+      },
+      {
+        "word": "寄り",
+        "reading": "yori",
+        "meaning": "having a tendency towards"
+      },
+      {
+        "word": "せっかく",
+        "reading": "",
+        "meaning": "with trouble, at great pains"
+      },
+      {
+        "word": "もったいない",
+        "reading": "",
+        "meaning": "wasteful, impious, profane"
+      },
+      {
+        "word": "とんでもない",
+        "reading": "",
+        "meaning": "unthinkable, outrageous"
+      },
+      {
+        "word": "上品",
+        "reading": "jouhin",
+        "meaning": "elegant, refined, polished"
+      },
+      {
+        "word": "派手",
+        "reading": "hade",
+        "meaning": "showy, flashy,"
+      },
+      {
+        "word": "清潔",
+        "reading": "seiketsu",
+        "meaning": "clean, hygenic, sanitary"
+      },
+      {
+        "word": "社長",
+        "reading": "shachou",
+        "meaning": "company president"
+      },
+      {
+        "word": "地位",
+        "reading": "chii",
+        "meaning": "(social) position, status"
+      },
+      {
+        "word": "田舎",
+        "reading": "inaka",
+        "meaning": "rural area, countryside"
+      },
+      {
+        "word": "暮らし",
+        "reading": "kurashi",
+        "meaning": "living, livelihood"
+      },
+      {
+        "word": "集中",
+        "reading": "shuuchuu",
+        "meaning": "concentration"
+      },
+      {
+        "word": "中身",
+        "reading": "nakami",
+        "meaning": "contents, interior"
+      },
+      {
+        "word": "こぼれる",
+        "reading": "koboreru",
+        "meaning": "to spill, to fall out of"
+      },
+      {
+        "word": "ふた",
+        "reading": "",
+        "meaning": "cover, lid"
+      },
+      {
+        "word": "しっかり",
+        "reading": "",
+        "meaning": "firmly, tightly"
+      },
+      {
+        "word": "期待",
+        "reading": "kitai",
+        "meaning": "expectation, anticipation, hope"
+      }
+    ]
+  },
+  {
+    "exercise_number": 9,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-vocabulary-exercise-09/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "この町には大きな川が _______ います。",
+        "choices": [
+          "流れて",
+          "しずんで",
+          "浮いて",
+          "こぼれて"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "この町には大きな川が\n流れて\nいます。"
+      },
+      {
+        "question_number": 2,
+        "question": "犯人が _______ に逃げている。",
+        "choices": [
+          "見事",
+          "非常",
+          "急激",
+          "必死"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "犯人が\n必死\nに逃げている。"
+      },
+      {
+        "question_number": 3,
+        "question": "昨日の試合は一点 _______ で勝つことができた。",
+        "choices": [
+          "引き",
+          "比",
+          "差",
+          "別"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "昨日の試合は一点\n差\nで勝つことができた。"
+      },
+      {
+        "question_number": 4,
+        "question": "この計算は _______ なので、コンピューターを使っても時間がかかる。",
+        "choices": [
+          "意外",
+          "重大",
+          "複雑",
+          "正常"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "この計算は\n複雑\nなので、コンピューターを使っても時間がかかる。"
+      },
+      {
+        "question_number": 5,
+        "question": "問題解決のために積極的な _______ を取る。",
+        "choices": [
+          "申込",
+          "関心",
+          "予想",
+          "手段"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "問題解決のために積極的な\n手段\nを取る。"
+      },
+      {
+        "question_number": 6,
+        "question": "大地震への備えは、生放送で _______ 家庭に伝えられた。",
+        "choices": [
+          "多",
+          "各",
+          "当",
+          "数"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "大地震への備えは、生放送で\n各\n家庭に伝えられた。"
+      },
+      {
+        "question_number": 7,
+        "question": "台風の _______ で飛行機の出発が遅れた。",
+        "choices": [
+          "効果",
+          "影響",
+          "制限",
+          "結果"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "台風の\n影響\nで飛行機の出発が遅れた。"
+      },
+      {
+        "question_number": 8,
+        "question": "皮を _______ りんごを食べました。",
+        "choices": [
+          "折って",
+          "離して",
+          "むいて",
+          "やぶって"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "皮を\nむいて\nりんごを食べました。"
+      },
+      {
+        "question_number": 9,
+        "question": "今はラッシュアワーだから、道路はあちこちで _______ している。",
+        "choices": [
+          "渋滞",
+          "緊張",
+          "障害",
+          "工事"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "今はラッシュアワーだから、道路はあちこちで\n渋滞\nしている。"
+      },
+      {
+        "question_number": 10,
+        "question": "妹は _______ 泣き出しそうな顔をしている。",
+        "choices": [
+          "そのころ",
+          "いまにも",
+          "さきほど",
+          "しばらく"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "妹は\nいまにも\n泣き出しそうな顔をしている。"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "流れる",
+        "reading": "nagareru",
+        "meaning": "to stream, to flow"
+      },
+      {
+        "word": "沈む",
+        "reading": "shizumu",
+        "meaning": "to sink, to feel depressed"
+      },
+      {
+        "word": "浮く",
+        "reading": "uku",
+        "meaning": "to float"
+      },
+      {
+        "word": "犯人",
+        "reading": "hannin",
+        "meaning": "offender, criminal"
+      },
+      {
+        "word": "逃げる",
+        "reading": "nigeru",
+        "meaning": "to escape, to run away"
+      },
+      {
+        "word": "見事",
+        "reading": "migoto",
+        "meaning": "splendid, magnificent"
+      },
+      {
+        "word": "非常",
+        "reading": "hijou",
+        "meaning": "emergency, extraordinary, unusual"
+      },
+      {
+        "word": "急激",
+        "reading": "kyuugeki",
+        "meaning": "sudden"
+      },
+      {
+        "word": "必死",
+        "reading": "hisshi",
+        "meaning": "frantic, desperate"
+      },
+      {
+        "word": "試合",
+        "reading": "shiai",
+        "meaning": "match, game, contest"
+      },
+      {
+        "word": "勝つ",
+        "reading": "katsu",
+        "meaning": "to win, to gain victory"
+      },
+      {
+        "word": "引き",
+        "reading": "hiki",
+        "meaning": "discount"
+      },
+      {
+        "word": "比",
+        "reading": "hi",
+        "meaning": "ratio, proportion"
+      },
+      {
+        "word": "差",
+        "reading": "sa",
+        "meaning": "difference, variation"
+      },
+      {
+        "word": "別",
+        "reading": "betsu",
+        "meaning": "distinction, difference"
+      },
+      {
+        "word": "計算",
+        "reading": "keisan",
+        "meaning": "calculation, forecast"
+      },
+      {
+        "word": "重大",
+        "reading": "juudai",
+        "meaning": "serious, important, grave"
+      },
+      {
+        "word": "複雑",
+        "reading": "fukuzatsu",
+        "meaning": "complex, complicated"
+      },
+      {
+        "word": "正常",
+        "reading": "seijou",
+        "meaning": "normalcy, normality"
+      },
+      {
+        "word": "問題解決",
+        "reading": "mondai kaiketsu",
+        "meaning": "problem-solving"
+      },
+      {
+        "word": "積極的",
+        "reading": "sekkyokuteki",
+        "meaning": "positive"
+      },
+      {
+        "word": "申込",
+        "reading": "moushikomi",
+        "meaning": "application, request, entry"
+      },
+      {
+        "word": "関心",
+        "reading": "kanshin",
+        "meaning": "concern, interest"
+      },
+      {
+        "word": "予想",
+        "reading": "yosou",
+        "meaning": "expectation, anticipation"
+      },
+      {
+        "word": "手段",
+        "reading": "shudan",
+        "meaning": "means, way, measure"
+      },
+      {
+        "word": "大地震",
+        "reading": "daijishin",
+        "meaning": "major earthquake"
+      },
+      {
+        "word": "備え",
+        "reading": "sonae",
+        "meaning": "preparation, provision"
+      },
+      {
+        "word": "生放送",
+        "reading": "namahousou",
+        "meaning": "live broadcast"
+      },
+      {
+        "word": "各",
+        "reading": "kaku",
+        "meaning": "each, every"
+      },
+      {
+        "word": "数",
+        "reading": "suu",
+        "meaning": "several, a number of"
+      },
+      {
+        "word": "効果",
+        "reading": "kouka",
+        "meaning": "effect, effectiveness, efficacy"
+      },
+      {
+        "word": "影響",
+        "reading": "eikyou",
+        "meaning": "influence, effect"
+      },
+      {
+        "word": "制限",
+        "reading": "seigen",
+        "meaning": "restriction, restraint"
+      },
+      {
+        "word": "結果",
+        "reading": "kekka",
+        "meaning": "result, consequence, outcome"
+      },
+      {
+        "word": "皮",
+        "reading": "kawa",
+        "meaning": "skin, pelt"
+      },
+      {
+        "word": "折る",
+        "reading": "oru",
+        "meaning": "to fold, to break"
+      },
+      {
+        "word": "離す",
+        "reading": "hanasu",
+        "meaning": "to part, to divide, to separate"
+      },
+      {
+        "word": "剥く",
+        "reading": "muku",
+        "meaning": "to peel, to skin"
+      },
+      {
+        "word": "破る",
+        "reading": "yaburu",
+        "meaning": "to tear, to smash"
+      },
+      {
+        "word": "ラッシュアワー",
+        "reading": "",
+        "meaning": "rush hour"
+      },
+      {
+        "word": "道路",
+        "reading": "douro",
+        "meaning": "road, highway"
+      },
+      {
+        "word": "渋滞",
+        "reading": "juutai",
+        "meaning": "congestion, delay, stagnation"
+      },
+      {
+        "word": "障害",
+        "reading": "shougai",
+        "meaning": "obstacle, handicap, hindrance"
+      },
+      {
+        "word": "工事",
+        "reading": "kouji",
+        "meaning": "construction work"
+      },
+      {
+        "word": "いまにも",
+        "reading": "",
+        "meaning": "at any time, soon"
+      },
+      {
+        "word": "しばらく",
+        "reading": "",
+        "meaning": "little while, short while"
+      }
+    ]
+  },
+  {
+    "exercise_number": 10,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-vocabulary-exercise-10/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "とても",
+        "choices": [
+          "おそろしい",
+          "経験をした。",
+          "たのしい",
+          "うれしい",
+          "はずかしい",
+          "こわい"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "おそろしい => こわい"
+      },
+      {
+        "question_number": 2,
+        "question": "書類をみんなで",
+        "choices": [
+          "整理した",
+          "。",
+          "数えて",
+          "片付けた",
+          "運んだ",
+          "探した"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "整理した => 片付けた"
+      },
+      {
+        "question_number": 3,
+        "question": "店の",
+        "choices": [
+          "手前",
+          "に銀行がある。",
+          "向こう側",
+          "右側",
+          "こちら側",
+          "左側"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "手前 => こちら側"
+      },
+      {
+        "question_number": 4,
+        "question": "彼には",
+        "choices": [
+          "らくな",
+          "仕事を頼んだ。",
+          "だいじな",
+          "こまかい",
+          "かんたんな",
+          "あたらしい"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "らくな => かんたんな"
+      },
+      {
+        "question_number": 5,
+        "question": "もう会議が始まっていますから、",
+        "choices": [
+          "そっと",
+          "中に入ってください。",
+          "後ろから",
+          "急いで",
+          "静かに",
+          "一人ずつ"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "そっと => 静かに"
+      },
+      {
+        "question_number": 6,
+        "question": "空",
+        "choices": [
+          "来週は忙しくて、空の火が一日もない。",
+          "あの人の話は内容が空なので、聞いてもつまらない。",
+          "林さんは忙しいみたいで、いつ行っても家が空だ。",
+          "飲み終わって空にになったビンはここに置いてください。"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "空\n: 飲み終わって\n空\nにになったビンはここに置いてください。"
+      },
+      {
+        "question_number": 7,
+        "question": "出場",
+        "choices": [
+          "朝は出場するサラリーマンで地下鉄が込み合う。",
+          "授業に出場できない場合クラスメートからノートを借りる。",
+          "怪我をしたため、大会に出場できなくなった。",
+          "雲がなくなって、富士山の姿が出場した。"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "出場\n: 怪我をしたため、大会に\n出場\nできなくなった。"
+      },
+      {
+        "question_number": 8,
+        "question": "暗記",
+        "choices": [
+          "このすばらしい景色をずっと暗記しておきたいです。",
+          "教科書に載っている文は、すべて暗記しています。",
+          "高校のクラスメートだった田中さんを暗記していますか？",
+          "借りた本をどこにしまったか、暗記していません。"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "暗記\n: 教科書に載っている文は、すべて\n暗記\nしています。"
+      },
+      {
+        "question_number": 9,
+        "question": "植える",
+        "choices": [
+          "近所の公園にいろいろな花が植えてある。",
+          "ケーキにいちごやクリームをたくさん植えた。",
+          "この空港は海に土を植えて作られた。",
+          "道に電灯を植えたので明るくなった。"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "植える:\n近所の公園にいろいろな花が\n植えて\nある。"
+      },
+      {
+        "question_number": 10,
+        "question": "体調",
+        "choices": [
+          "体調が優れないので何も食べたくない。",
+          "冷蔵庫の体調が悪くて食品があまり冷えない。",
+          "あの会社、いま経営の体調がよくない。",
+          "たくさん食べて、体調をつける。"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "体調\n:\n体調\nが優れないので何も食べたくない。"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "経験",
+        "reading": "keiken",
+        "meaning": "experience"
+      },
+      {
+        "word": "整理",
+        "reading": "seiri",
+        "meaning": "sorting, arrangement, organization"
+      },
+      {
+        "word": "数える",
+        "reading": "kazoeru",
+        "meaning": "to count, to enumerate"
+      },
+      {
+        "word": "片付ける",
+        "reading": "katazukeru",
+        "meaning": "to tidy up, to put in order"
+      },
+      {
+        "word": "手前",
+        "reading": "temae",
+        "meaning": "before"
+      },
+      {
+        "word": "向こう側",
+        "reading": "mukougawa",
+        "meaning": "other side, opposite side, other party"
+      },
+      {
+        "word": "細かい",
+        "reading": "komakai",
+        "meaning": "small, fine, minute"
+      },
+      {
+        "word": "そっと",
+        "reading": "sotto",
+        "meaning": "softly, gently, quietly, secretly"
+      },
+      {
+        "word": "空",
+        "reading": "kara",
+        "meaning": "emptiness, vacuum, blank"
+      },
+      {
+        "word": "出場",
+        "reading": "shutsujou",
+        "meaning": "(stage) appearance, participation, performance"
+      },
+      {
+        "word": "サラリーマン",
+        "reading": "",
+        "meaning": "office worker, company employee"
+      },
+      {
+        "word": "込み合う",
+        "reading": "komiau",
+        "meaning": "to be crowded, to be packed"
+      },
+      {
+        "word": "クラスメート",
+        "reading": "",
+        "meaning": "classmate"
+      },
+      {
+        "word": "雲",
+        "reading": "kumo",
+        "meaning": "cloud"
+      },
+      {
+        "word": "富士山",
+        "reading": "fujisan",
+        "meaning": "Mt Fuji"
+      },
+      {
+        "word": "暗記",
+        "reading": "anki",
+        "meaning": "memorization, learning by heart"
+      },
+      {
+        "word": "教科書",
+        "reading": "kyoukasho",
+        "meaning": "textbook"
+      },
+      {
+        "word": "植える",
+        "reading": "ueru",
+        "meaning": "to plant, to grow"
+      },
+      {
+        "word": "いちご",
+        "reading": "",
+        "meaning": "strawberry"
+      },
+      {
+        "word": "クリーム",
+        "reading": "",
+        "meaning": "cream"
+      },
+      {
+        "word": "土",
+        "reading": "tsuchi",
+        "meaning": "earth, soil, dirt"
+      },
+      {
+        "word": "電灯",
+        "reading": "dentou",
+        "meaning": "electric light"
+      },
+      {
+        "word": "体調",
+        "reading": "taichou",
+        "meaning": "physical condition"
+      },
+      {
+        "word": "優れる",
+        "reading": "sugureru",
+        "meaning": "to surpass, to excel"
+      },
+      {
+        "word": "食品",
+        "reading": "shokuhin",
+        "meaning": "foodstuff"
+      },
+      {
+        "word": "経営",
+        "reading": "keiei",
+        "meaning": "management, administration"
+      }
+    ]
+  },
+  {
+    "exercise_number": 11,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-vocabulary-exercise-11/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "昔の写真を見て、「子供のころ、この公園でよく遊んだなあ｣と _______ なった。",
+        "choices": [
+          "なつかしく",
+          "うらやましく",
+          "くやしく",
+          "はずかしく"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "昔の写真を見て、「子供のころ、この公園でよく遊んだなあ｣と\nなつかしく\nなった。"
+      },
+      {
+        "question_number": 2,
+        "question": "体の _______ が悪くて学校を休んだ。",
+        "choices": [
+          "調子",
+          "性質",
+          "態度",
+          "身分"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "体の\n調子\nが悪くて学校を休んだ。"
+      },
+      {
+        "question_number": 3,
+        "question": "会議のためあしたから一週間、部長とアメリカへ　_______ する。",
+        "choices": [
+          "出席",
+          "出勤",
+          "出張",
+          "出国"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "会議のためあしたから一週間、部長とアメリカへ\n出張\nする。"
+      },
+      {
+        "question_number": 4,
+        "question": "町を _______ していたら、山本さんに会った。",
+        "choices": [
+          "ぐらぐら",
+          "がらがら",
+          "ばらばら",
+          "ぶらぶら"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "町を\nぶらぶら\nしていたら、山本さんに会った。"
+      },
+      {
+        "question_number": 5,
+        "question": "最近、彼の新しい映画が広く _______ を集めている。",
+        "choices": [
+          "伝言",
+          "応援",
+          "注目",
+          "世話"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "最近、彼の新しい映画が広く\n注目\nを集めている。"
+      },
+      {
+        "question_number": 6,
+        "question": "山田さんは",
+        "choices": [
+          "ぜったいに",
+          "来ると思います。",
+          "すぐに",
+          "たぶん",
+          "かならず",
+          "あとから"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "山田さんは\nぜったいに\n来ると思います。=> かならず"
+      },
+      {
+        "question_number": 7,
+        "question": "そんなひどいことをされたら、怒るのが",
+        "choices": [
+          "当たり前",
+          "だ。",
+          "無駄",
+          "自由",
+          "まし",
+          "当然"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "そんなひどいことをされたら、怒るのが\n当たり前\nだ。=> 当然"
+      },
+      {
+        "question_number": 8,
+        "question": "このCDの中で一番",
+        "choices": [
+          "気に入っている",
+          "曲はこれです。",
+          "人気がある",
+          "好きな",
+          "よく覚えている",
+          "楽しい"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "このCDの中で一番\n気に入っている\n曲はこれです。=> 好きな"
+      },
+      {
+        "question_number": 9,
+        "question": "芝生の雑草を",
+        "choices": [
+          "のぞく",
+          "。",
+          "抜く",
+          "楽しむ",
+          "防ぐ",
+          "育てる"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "芝生の雑草を\nのぞく\n。=> 抜く"
+      },
+      {
+        "question_number": 10,
+        "question": "二台の車が",
+        "choices": [
+          "衝突した",
+          "。",
+          "ぶつかった",
+          "とまった",
+          "こわれた",
+          "うごいた"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "二台の車が\n衝突した\n。=> ぶつかった"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "昔",
+        "reading": "mukashi",
+        "meaning": "olden days, former"
+      },
+      {
+        "word": "懐かしい",
+        "reading": "natsukashii",
+        "meaning": "dear (old), beloved"
+      },
+      {
+        "word": "羨ましい",
+        "reading": "urayamashii",
+        "meaning": "jealous, envious"
+      },
+      {
+        "word": "恥ずかしい",
+        "reading": "hazukashii",
+        "meaning": "embarrassing, ashamed"
+      },
+      {
+        "word": "調子",
+        "reading": "choushi",
+        "meaning": "condition, state of health"
+      },
+      {
+        "word": "性質",
+        "reading": "seishitsu",
+        "meaning": "nature, disposition"
+      },
+      {
+        "word": "態度",
+        "reading": "taido",
+        "meaning": "attitude, manner"
+      },
+      {
+        "word": "身分",
+        "reading": "mibun",
+        "meaning": "social position, social status"
+      },
+      {
+        "word": "部長",
+        "reading": "buchou",
+        "meaning": "head of a section or department"
+      },
+      {
+        "word": "出席",
+        "reading": "shusseki",
+        "meaning": "to attend, to appear"
+      },
+      {
+        "word": "出勤",
+        "reading": "shukkin",
+        "meaning": "going to work, reporting to work"
+      },
+      {
+        "word": "出張",
+        "reading": "shucchou",
+        "meaning": "business trip"
+      },
+      {
+        "word": "出国",
+        "reading": "shukkoku",
+        "meaning": "departure from a country"
+      },
+      {
+        "word": "ぐらぐら",
+        "reading": "guragura",
+        "meaning": "tottering, shaking"
+      },
+      {
+        "word": "がらがら",
+        "reading": "garagara",
+        "meaning": "with a clatter, with a rattle"
+      },
+      {
+        "word": "ばらばら",
+        "reading": "barabara",
+        "meaning": "scattered, disperse"
+      },
+      {
+        "word": "ぶらぶら",
+        "reading": "burabura",
+        "meaning": "dangling heavily"
+      },
+      {
+        "word": "最近",
+        "reading": "saikin",
+        "meaning": "recently, lately"
+      },
+      {
+        "word": "集める",
+        "reading": "atsumeru",
+        "meaning": "to collect, to assemble"
+      },
+      {
+        "word": "伝言",
+        "reading": "dengon",
+        "meaning": "verbal message, word (from someone)"
+      },
+      {
+        "word": "応援",
+        "reading": "ouen",
+        "meaning": "assistance, help"
+      },
+      {
+        "word": "注目",
+        "reading": "chuumoku",
+        "meaning": "notice, attention"
+      },
+      {
+        "word": "世話",
+        "reading": "sewa",
+        "meaning": "looking after, help"
+      },
+      {
+        "word": "絶対に",
+        "reading": "zettai ni",
+        "meaning": "absolutely, unconditionally"
+      },
+      {
+        "word": "多分",
+        "reading": "tabun",
+        "meaning": "perhaps, probably"
+      },
+      {
+        "word": "必ず",
+        "reading": "kanarazu",
+        "meaning": "certainly, without fail"
+      },
+      {
+        "word": "ひどい",
+        "reading": "hidoi",
+        "meaning": "cruel, heartless"
+      },
+      {
+        "word": "怒る",
+        "reading": "okoru",
+        "meaning": "to get angry, to get mad"
+      },
+      {
+        "word": "当たり前",
+        "reading": "atarimae",
+        "meaning": "natural, reasonable"
+      },
+      {
+        "word": "無駄",
+        "reading": "muda",
+        "meaning": "futility, waste"
+      },
+      {
+        "word": "自由",
+        "reading": "jiyuu",
+        "meaning": "freedom"
+      },
+      {
+        "word": "まし",
+        "reading": "mashi",
+        "meaning": "better, preferable"
+      },
+      {
+        "word": "当然",
+        "reading": "touzen",
+        "meaning": "natural, as a matter of course"
+      },
+      {
+        "word": "気に入る",
+        "reading": "ki ni iru",
+        "meaning": "to like, to be pleased with"
+      },
+      {
+        "word": "曲",
+        "reading": "kyoku",
+        "meaning": "song, piece of music"
+      },
+      {
+        "word": "人気",
+        "reading": "ninki",
+        "meaning": "popularity, public favor"
+      },
+      {
+        "word": "覚える",
+        "reading": "oboeru",
+        "meaning": "to remember"
+      },
+      {
+        "word": "芝生",
+        "reading": "shibafu",
+        "meaning": "lawn"
+      },
+      {
+        "word": "除く",
+        "reading": "nozoku",
+        "meaning": "to remove"
+      },
+      {
+        "word": "雑草",
+        "reading": "zassou",
+        "meaning": "weed"
+      },
+      {
+        "word": "抜く",
+        "reading": "nuku",
+        "meaning": "to pull out"
+      },
+      {
+        "word": "楽しむ",
+        "reading": "tanoshimu",
+        "meaning": "to enjoy (oneself)"
+      },
+      {
+        "word": "防ぐ",
+        "reading": "fusegu",
+        "meaning": "to defend oneself"
+      },
+      {
+        "word": "育てる",
+        "reading": "sodateru",
+        "meaning": "to raise, to bring up"
+      },
+      {
+        "word": "衝突",
+        "reading": "shoutotsu",
+        "meaning": "collision, crash"
+      },
+      {
+        "word": "ぶつかる",
+        "reading": "butsukaru",
+        "meaning": "to bump into, to run into"
+      },
+      {
+        "word": "止まる",
+        "reading": "tomaru",
+        "meaning": "to stop, to come to a halt"
+      },
+      {
+        "word": "壊れる",
+        "reading": "kowareru",
+        "meaning": "to be broken, to break"
+      },
+      {
+        "word": "動く",
+        "reading": "ugoku",
+        "meaning": "to move, to stir"
+      }
+    ]
+  },
+  {
+    "exercise_number": 12,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-vocabulary-exercise-12/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "全員が自分の意見を _______ したので、会議がなかなか終わらなかった。",
+        "choices": [
+          "命令",
+          "返信",
+          "主張",
+          "注文"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "全員が自分の意見を\n主張\nしたので、会議がなかなか終わらなかった。"
+      },
+      {
+        "question_number": 2,
+        "question": "何度も断っているのに、彼に _______ 頼まれて困っています。",
+        "choices": [
+          "しつこく",
+          "きびしく",
+          "こまかく",
+          "くわしく"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "何度も断っているのに、彼に\nしつこく\n頼まれて困っています。"
+      },
+      {
+        "question_number": 3,
+        "question": "この商品は毎日1000個 _______ 売れるらしい。",
+        "choices": [
+          "前後",
+          "上下",
+          "大小",
+          "多少"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "この商品は毎日1000個\n前後\n売れるらしい。"
+      },
+      {
+        "question_number": 4,
+        "question": "いくら探しても、手袋が _______ しか見つからない。",
+        "choices": [
+          "半々",
+          "片方",
+          "反対",
+          "部分"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "いくら探しても、手袋が\n片方\nしか見つからない。"
+      },
+      {
+        "question_number": 5,
+        "question": "今度の試合はみんなで力を _______ 頑張ろう。",
+        "choices": [
+          "かさねて",
+          "あわせて",
+          "くわえて",
+          "ふやして"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "今度の試合はみんなで力を\nあわせて\n頑張ろう。"
+      },
+      {
+        "question_number": 6,
+        "question": "そろそろ",
+        "choices": [
+          "もう１０分以上待っているのに、バスがそろそろ来ない。",
+          "最近洗濯機の調子がよくなかったが、昨日そろそろ壊れた。",
+          "以前から探していた本が、そろそろ見つかった。",
+          "仕事が残っているけど、そろそろ１２時なので昼休みにしよう。"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "そろそろ => 仕事が残っているけど、そろそろ１２時なので昼休みにしよう。"
+      },
+      {
+        "question_number": 7,
+        "question": "自慢",
+        "choices": [
+          "彼女は今度のコンサートで優勝する自慢がある。",
+          "彼はゲームで負けたことがないのを自慢している。",
+          "怒りたいのを自慢して、相手の話を最後まで聞いた。",
+          "自分にどうしても自慢が持てなくて困っている。"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "自慢 => 彼はゲームで負けたことがないのを自慢している。"
+      },
+      {
+        "question_number": 8,
+        "question": "指示",
+        "choices": [
+          "「この書類、３０部コピーしておいて」と秘書に指示した。",
+          "「この作文を見ていただけませんか」と先生に指示した。",
+          "「あした映画を見に行こうよ」と友達に指示した。",
+          "「トイレはどこにありますか」と店員に指示した。"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "指示 => 「この書類、３０部コピーしておいて」と秘書に指示した。"
+      },
+      {
+        "question_number": 9,
+        "question": "報告",
+        "choices": [
+          "若者向けの新商品をテレビで報告する。",
+          "医者は彼にたばこをやめるようにと報告した。",
+          "秘書に11時までに書類を作るように報告した。",
+          "事故について詳しく警察に報告した。"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "報告 => 事故について詳しく警察に報告した。"
+      },
+      {
+        "question_number": 10,
+        "question": "見物",
+        "choices": [
+          "先生の家を見物する時、手土産は何がいい？",
+          "洋服が似合うかどうか、着て見物してみた。",
+          "一日で京都を見物することはできない。",
+          "最近、公衆電話を見物しなくなった。"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "見物 => 一日で京都を見物することはできない。"
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 13,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-vocabulary-exercise-13/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "30年後の自分が何をやっているか、_______ してみてください。",
+        "choices": [
+          "想像",
+          "確認",
+          "観察",
+          "工夫"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "30年後の自分が何をやっているか、\n想像\nしてみてください。"
+      },
+      {
+        "question_number": 2,
+        "question": "電話で _______ したチケットがやっと手に入った。",
+        "choices": [
+          "計画",
+          "準備",
+          "注文",
+          "調査"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "電話で\n注文\nしたチケットがやっと手に入った。"
+      },
+      {
+        "question_number": 3,
+        "question": "その村は小さいので、どの地図にも _______ いない。",
+        "choices": [
+          "載って",
+          "至って",
+          "登って",
+          "当って"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "その村は小さいので、どの地図にも\n載って\nいない。"
+      },
+      {
+        "question_number": 4,
+        "question": "先生に頼んでレポートの締め切りを一日だけ _______ もらった。",
+        "choices": [
+          "移して",
+          "のばして",
+          "やり直した",
+          "とりかえた"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "先生に頼んでレポートの締め切りを一日だけ\nのばして\nもらった。"
+      },
+      {
+        "question_number": 5,
+        "question": "この会社は、最新　_______ の携帯電話を発売している。",
+        "choices": [
+          "化",
+          "版",
+          "型",
+          "様"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "この会社は、最新\n型\nの携帯電話を発売している。"
+      },
+      {
+        "question_number": 6,
+        "question": "孫たちの乗った車が見えなくなるまで、大きく手を _______ 見送った。",
+        "choices": [
+          "たたいて",
+          "にぎって",
+          "さわって",
+          "ふって"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "孫たちの乗った車が見えなくなるまで、大きく手を\nふって\n見送った。"
+      },
+      {
+        "question_number": 7,
+        "question": "商品の _______ は、一週間以内に銀行でお支払いください。",
+        "choices": [
+          "現金",
+          "値段",
+          "代金",
+          "価値"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "商品の\n代金\nは、一週間以内に銀行でお支払いください。"
+      },
+      {
+        "question_number": 8,
+        "question": "ピザのおいしい店を友達が教えてくれたので、_______ 食べに行ってみた。",
+        "choices": [
+          "せっかく",
+          "さっそく",
+          "もうすぐ",
+          "なるべく"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "ピザのおいしい店を友達が教えてくれたので、\nさっそく\n食べに行ってみた。"
+      },
+      {
+        "question_number": 9,
+        "question": "大学に入ってから、異文化に対する興味が _______ 強くなった。",
+        "choices": [
+          "ますます",
+          "とうとう",
+          "だいたい",
+          "それぞれ"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "大学に入ってから、異文化に対する興味が\nますます\n強くなった。"
+      },
+      {
+        "question_number": 10,
+        "question": "優秀した選手に _______ をして記事を書いた。",
+        "choices": [
+          "スピーチ",
+          "インタビュー",
+          "メッセージ",
+          "コミュニケーション"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "優秀した選手に\nインタビュー\nをして記事を書いた。"
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 14,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-vocabulary-exercise-14/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "事故の責任を　_______ 社長は会社を辞めた。",
+        "choices": [
+          "して",
+          "とって",
+          "もって",
+          "かけて"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "事故の責任を\nもって\n社長は会社を辞めた。"
+      },
+      {
+        "question_number": 2,
+        "question": "携帯電話を　_______ トイレに落としてしまった。",
+        "choices": [
+          "めっきり",
+          "うっかり",
+          "こっそり",
+          "きちんと"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "携帯電話を\nうっかり\nトイレに落としてしまった。"
+      },
+      {
+        "question_number": 3,
+        "question": "長い間　_______ しておりますが、お元気でいらっしゃいますか？",
+        "choices": [
+          "ごぶさた",
+          "いたずら",
+          "おじぎ",
+          "ちょうだい"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "長い間\nごぶさた\nしておりますが、お元気でいらっしゃいますか？"
+      },
+      {
+        "question_number": 4,
+        "question": "兄は交通事故に　_______ 、入院してしまいました。",
+        "choices": [
+          "あって",
+          "ひいて",
+          "のって",
+          "つかまって"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "兄は交通事故に\nあって\n、入院してしまいました。"
+      },
+      {
+        "question_number": 5,
+        "question": "医者に太りすぎだから　_______ の高くない食事をしろと言われた。",
+        "choices": [
+          "カロリー",
+          "ナンバー",
+          "サービス",
+          "アイデア"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "医者に太りすぎだから\nカロリー\nの高くない食事をしろと言われた。"
+      },
+      {
+        "question_number": 6,
+        "question": "その話に深く　_______ して、泣いてしまった。",
+        "choices": [
+          "強調",
+          "理解",
+          "暗記",
+          "感動"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "その話に深く\n感動\nして、泣いてしまった。"
+      },
+      {
+        "question_number": 7,
+        "question": "_______ 子どもなので、自分の思っていることを言わないことが多い。",
+        "choices": [
+          "なつかしい",
+          "くわしい",
+          "おとなしい",
+          "さわがしい"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "おとなしい\n子どもなので、自分の思っていることを言わないことが多い。"
+      },
+      {
+        "question_number": 8,
+        "question": "僕は毎日新宿で山手線に乗り　_______ 大学に行く。",
+        "choices": [
+          "もえて",
+          "こえて",
+          "かえて",
+          "みえて"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "僕は毎日新宿で山手線に乗り\nかえて\n大学に行く。"
+      },
+      {
+        "question_number": 9,
+        "question": "五　_______ おきに木を植えました。",
+        "choices": [
+          "ページ",
+          "カーテン",
+          "テーブル",
+          "メートル"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "五\nメートル\nおきに木を植えました。"
+      },
+      {
+        "question_number": 10,
+        "question": "地球は　_______ 休みなく回っている。",
+        "choices": [
+          "常に",
+          "更に",
+          "直ちに",
+          "すぐに"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "地球は\n常に\n休みなく回っている。"
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 15,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-vocabulary-exercise-15/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "店で _______ をもらってきた。",
+        "choices": [
+          "カタログ",
+          "オーダー",
+          "レシート",
+          "セール"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "店で\nカタログ\nをもらった。"
+      },
+      {
+        "question_number": 2,
+        "question": "田中さんの服装はとても上品な _______ がする。",
+        "choices": [
+          "関心",
+          "気分",
+          "考え",
+          "感じ"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "田中さんの服装はとても上品な\n感じ\nがする。"
+      },
+      {
+        "question_number": 3,
+        "question": "森選手は、全国で一位になることを _______ にしてがんばっている。",
+        "choices": [
+          "指定",
+          "満点",
+          "一流",
+          "目標"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "森選手は、全国で一位になることを\n目標\nにしてがんばっている。"
+      },
+      {
+        "question_number": 4,
+        "question": "テストを始めますから、辞書をかばんの中に _______ ください。",
+        "choices": [
+          "ためって",
+          "とじて",
+          "しまって",
+          "たたんで"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "テストを始めますから、辞書をかばんの中に\nしまって\nください。"
+      },
+      {
+        "question_number": 5,
+        "question": "日本の若者の _______ のファッションを知りたい。",
+        "choices": [
+          "最大",
+          "最新",
+          "最中",
+          "最多"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "日本の若者の\n最新\nのファッションを知りたい。"
+      },
+      {
+        "question_number": 6,
+        "question": "いらない新聞や雑誌を重ねて、ひもで _______ 捨てた。",
+        "choices": [
+          "しばって",
+          "かこんで",
+          "しめて",
+          "あんで"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "いらない新聞や雑誌を重ねて、ひもで\nしばって\n捨てた。"
+      },
+      {
+        "question_number": 7,
+        "question": "急に用事ができたので、レストランの予約を _______ した。",
+        "choices": [
+          "チェックアウト",
+          "カット",
+          "キャンセル",
+          "オーバー"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "急に用事ができたので、レストランの予約を\nキャンセル\nした。"
+      },
+      {
+        "question_number": 8,
+        "question": "私の部屋は東 _______ だ。",
+        "choices": [
+          "沿い",
+          "向き",
+          "込み",
+          "建て"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "私の部屋は東\n向き\nだ。"
+      },
+      {
+        "question_number": 9,
+        "question": "昨日映画を見たとき、_______ して泣いてしまった。",
+        "choices": [
+          "歓迎",
+          "応援",
+          "期待",
+          "感動"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "昨日映画を見たとき、\n感動\nして泣いてしまった。"
+      },
+      {
+        "question_number": 10,
+        "question": "急いでいたので、_______ 違うバスに乗ってしまった。",
+        "choices": [
+          "ぴったり",
+          "ぐっすり",
+          "うっかり",
+          "がっかり"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "急いでいたので、\nうっかり\n違うバスに乗ってしまった。"
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 16,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-vocabulary-exercise-16/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "おじさんはコートをしっかり着こみ、別れの _______ をしました。",
+        "choices": [
+          "愛情",
+          "手帳",
+          "言語",
+          "挨拶"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "おじさんはコートをしっかり着こみ、別れの\n挨拶\nをしました。"
+      },
+      {
+        "question_number": 2,
+        "question": "部屋の扉が、 _______ よく開いた。",
+        "choices": [
+          "はげしい",
+          "つよい",
+          "いきおい",
+          "ちから"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "部屋の扉が、\nいきおい\nよく開いた。"
+      },
+      {
+        "question_number": 3,
+        "question": "彼について異常な _______ が広まっている。",
+        "choices": [
+          "うわさ",
+          "はなし",
+          "ことば",
+          "せつめい"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "彼について異常な\nうわさ\nが広まっている。"
+      },
+      {
+        "question_number": 4,
+        "question": "玄関の電気は、スイッチを押さなくても、暗くなると _______ つきます。",
+        "choices": [
+          "人工的に",
+          "自動的に",
+          "積極的に",
+          "具体的に"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "玄関の電気は、スイッチを押さなくても、暗くなると\n自動的に\nつきます。"
+      },
+      {
+        "question_number": 5,
+        "question": "「みんなで食事しましょう！」おばさんは _______ よく言った。",
+        "choices": [
+          "きもち",
+          "きげん",
+          "きぶん",
+          "きたい"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "「みんなで食事しましょう！」おばさんは\nきげん\nよく言った。"
+      },
+      {
+        "question_number": 6,
+        "question": "「愛してる」彼が _______ 。",
+        "choices": [
+          "間に合った",
+          "取り戻した",
+          "繰り返した",
+          "眺め回した"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "「愛してる」彼が\n繰り返した\n。"
+      },
+      {
+        "question_number": 7,
+        "question": "これは一昨年の _______ にパパがくれたバイクだ。",
+        "choices": [
+          "クリスマス",
+          "サービス",
+          "バッジ",
+          "グループ"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "これは一昨年の\nクリスマス\nにパパがくれたバイクだ。"
+      },
+      {
+        "question_number": 8,
+        "question": "彼女は _______ の気分で、五日間も閉じこもっていた。",
+        "choices": [
+          "最後",
+          "最高",
+          "最中",
+          "最低"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "彼女は\n最低\nの気分で、五日間も閉じこもっていた。"
+      },
+      {
+        "question_number": 9,
+        "question": "まっすぐベッドに行くんですよ。 _______ しないで。",
+        "choices": [
+          "おのみ",
+          "おせわ",
+          "おしゃべり",
+          "おかえり"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "まっすぐベッドに行くんですよ。\nおしゃべり\nしないで。"
+      },
+      {
+        "question_number": 10,
+        "question": "このチームの _______ は誰ですか？",
+        "choices": [
+          "キャンプ",
+          "キャプテン",
+          "キャッチ",
+          "キャリア"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "このチームの\nキャプテン\nは誰ですか？"
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 17,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-vocabulary-exercise-17/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "彼は左右を見まわしながら、 _______ に包まれていた。",
+        "choices": [
+          "努力",
+          "乱暴",
+          "恐怖",
+          "迷惑"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "彼は左右を見まわしながら、\n恐怖\nに包まれていた。"
+      },
+      {
+        "question_number": 2,
+        "question": "僕には、どちらが空でどちらが地なのか _______ 分からなかった。",
+        "choices": [
+          "じっと",
+          "さっぱり",
+          "たっぱり",
+          "きちんと"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "僕には、どちらが空でどちらが地なのか\nさっぱり\n分からなかった。"
+      },
+      {
+        "question_number": 3,
+        "question": "われわれの会社は _______ に合った製品を作ります。",
+        "choices": [
+          "需要",
+          "重大",
+          "研究",
+          "経験"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "われわれの会社は\n需要\nに合った製品を作ります。"
+      },
+      {
+        "question_number": 4,
+        "question": "この女は延々と _______ を続けるに違いない。",
+        "choices": [
+          "シック",
+          "セット",
+          "ストレット",
+          "スピーチ"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "この女は延々と\nスピーチ\nを続けるに違いない。"
+      },
+      {
+        "question_number": 5,
+        "question": "わたしは自分が死んだと思った。 _______ を絶する痛みだった。",
+        "choices": [
+          "見当",
+          "相当",
+          "映像",
+          "想像"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "わたしは自分が死んだと思った。\n想像\nを絶する痛みだった。"
+      },
+      {
+        "question_number": 6,
+        "question": "先生がコホンと _______ をした。",
+        "choices": [
+          "せつ",
+          "かち",
+          "せき",
+          "けち"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "先生がコホンと\nせき\nをした。"
+      },
+      {
+        "question_number": 7,
+        "question": "彼女の _______ した顔を見ると罪悪感を感じた。",
+        "choices": [
+          "がっかり",
+          "ばっちり",
+          "そっくり",
+          "こっそり"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "彼女の\nがっかり\nした顔を見ると罪悪感を感じた。"
+      },
+      {
+        "question_number": 8,
+        "question": "男の子は母親を見つけて、飛びあがるほど _______ 。",
+        "choices": [
+          "かなしかった",
+          "おそろしかった",
+          "たのしかった",
+          "うれしかった"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "男の子は母親を見つけて、飛びあがるほど\nうれしかった\n。"
+      },
+      {
+        "question_number": 9,
+        "question": "_______ ばかりしていないで勉強しなさい。",
+        "choices": [
+          "ケース",
+          "チェンジ",
+          "ゲーム",
+          "シーズン"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "ゲーム\nばかりしていないで勉強しなさい。"
+      },
+      {
+        "question_number": 10,
+        "question": "彼はゆれる通路を _______ 進んでいった。",
+        "choices": [
+          "別々に",
+          "次々に",
+          "徐々に",
+          "粉々に"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "彼はゆれる通路を\n徐々に\n進んでいった。"
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 18,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-vocabulary-exercise-18/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "直ちに私の事務所に集まるようにとみんなに _______ ください。",
+        "choices": [
+          "叫んで",
+          "言わせて",
+          "呼んで",
+          "知らせて"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "直ちに私の事務所に集まるようにとみんなに\n知らせて\nください。"
+      },
+      {
+        "question_number": 2,
+        "question": "さて、 _______ の時間です。",
+        "choices": [
+          "支配",
+          "意味",
+          "発見",
+          "出発"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "さて、\n出発\nの時間です。"
+      },
+      {
+        "question_number": 3,
+        "question": "僕はその計画の _______ が分かった。",
+        "choices": [
+          "けっかん",
+          "けっきょく",
+          "けっしん",
+          "けっせき"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "僕はその計画の\nけっかん\nが分かった。"
+      },
+      {
+        "question_number": 4,
+        "question": "あなたが彼とあんなに _______ とは思わなかった。",
+        "choices": [
+          "ひとしかった",
+          "はずかしかった",
+          "したしかった",
+          "あやしかった"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "あなたが彼とあんなに\nしたしかった\nとは思わなかった。"
+      },
+      {
+        "question_number": 5,
+        "question": "あいつは _______ も言わずにおれのカバンに手を差し出した。",
+        "choices": [
+          "一軒",
+          "一口",
+          "一言",
+          "一回"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "あいつは\n一言\nも言わずにおれのカバンに手を差し出した。"
+      },
+      {
+        "question_number": 6,
+        "question": "彼はずきんずきんと痛む頭を両手で _______ 床に倒れた。",
+        "choices": [
+          "挟んで",
+          "掴んで",
+          "悩んで",
+          "転んで"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "彼はずきんずきんと痛む頭を両手で\n掴んで\n床に倒れた。"
+      },
+      {
+        "question_number": 7,
+        "question": "彼の弟はわずかに小柄で、兄のように _______ ではない。",
+        "choices": [
+          "ハンサム",
+          "ベルト",
+          "ハンカチ",
+          "ベスト"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "彼の弟はわずかに小柄で、兄のように\nハンサム\nではない。"
+      },
+      {
+        "question_number": 8,
+        "question": "あなたはママのストレスを _______ 役には立たないよ。",
+        "choices": [
+          "乗せる",
+          "残る",
+          "増す",
+          "減らす"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "あなたはママのストレスを\n減らす\n役には立たないよ。"
+      },
+      {
+        "question_number": 9,
+        "question": "僕はずっときみと話をする機会を _______ 。",
+        "choices": [
+          "盗んでいた",
+          "望んでいた",
+          "含んでいた",
+          "微笑んでいた"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "僕はずっときみと話をする機会を\n望んでいた\n。"
+      },
+      {
+        "question_number": 10,
+        "question": "自分の _______ を話しなさい。",
+        "choices": [
+          "未来",
+          "満足",
+          "面倒",
+          "目的"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "自分の\n目的\nを話しなさい。"
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 19,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-vocabulary-exercise-19/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "これはあなた以外の誰にも _______ 仕事です。",
+        "choices": [
+          "与えられない",
+          "任せられない",
+          "会わせられない",
+          "及ばせられない"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "これはあなた以外の誰にも\n任せられない\n仕事です。"
+      },
+      {
+        "question_number": 2,
+        "question": "お席へご _______ いたします。",
+        "choices": [
+          "案内",
+          "質問",
+          "覚悟",
+          "提案"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "お席へご\n案内\nいたします。"
+      },
+      {
+        "question_number": 3,
+        "question": "ドアに _______ をかけてください。",
+        "choices": [
+          "がく",
+          "しも",
+          "かぎ",
+          "もよう"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "ドアに\nかぎ\nをかけてください。"
+      },
+      {
+        "question_number": 4,
+        "question": "わたしは彼と結婚するという _______ なあやまちを犯した。",
+        "choices": [
+          "重大",
+          "大事",
+          "健康",
+          "主要"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "わたしは彼と結婚するという\n重大\nなあやまちを犯した。"
+      },
+      {
+        "question_number": 5,
+        "question": "僕と一緒にクリスマスの _______ パーティーに行きませんか？",
+        "choices": [
+          "ケース",
+          "ダンス",
+          "チーム",
+          "ソース"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "僕と一緒にクリスマスの\nダンス\nパーティーに行きませんか？"
+      },
+      {
+        "question_number": 6,
+        "question": "それは、これまで彼が _______ ことがない苦痛だった。",
+        "choices": [
+          "失望した",
+          "参加した",
+          "経験した",
+          "訓練した"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "それは、これまで彼が\n経験した\nことがない苦痛だった。"
+      },
+      {
+        "question_number": 7,
+        "question": "うちの子は _______ 真夜中過ぎまで勉強しなければならなかった。",
+        "choices": [
+          "こわごわ",
+          "しばしば",
+          "さきざき",
+          "あつあつ"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "うちの子は\nしばしば\n真夜中過ぎまで勉強しなければならなかった。"
+      },
+      {
+        "question_number": 8,
+        "question": "別にこれは _______ ことじゃない。",
+        "choices": [
+          "まんまん",
+          "おおきな",
+          "けっして",
+          "たいした"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "別にこれは\nたいした\nことじゃない。"
+      },
+      {
+        "question_number": 9,
+        "question": "突然、誰かが _______ を切ったかのように、話し声がやんだ。",
+        "choices": [
+          "スイッチ",
+          "ジーンズ",
+          "コピー",
+          "カード"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "突然、誰かが\nスイッチ\nを切ったかのように、話し声がやんだ。"
+      },
+      {
+        "question_number": 10,
+        "question": "あなたたちを送り出す前に、安全の _______ をしておきたいです。",
+        "choices": [
+          "価値",
+          "確実",
+          "確認",
+          "具体"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "あなたたちを送り出す前に、安全の\n確認\nをしておきたいです。"
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 20,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-vocabulary-exercise-20/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "「まったく興味ありません」彼女はきっぱり _______ 。",
+        "choices": [
+          "したがった",
+          "うたかった",
+          "ことわった",
+          "うしなった"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "「まったく興味ありません」彼女はきっぱり\nことわった\n。"
+      },
+      {
+        "question_number": 2,
+        "question": "彼が計画を _______ できないように、わたしたちはできるかぎりのことをしている。",
+        "choices": [
+          "実行",
+          "実際",
+          "事実",
+          "実地"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "彼が計画を\n実行\nできないように、わたしたちはできるかぎりのことをしている。"
+      },
+      {
+        "question_number": 3,
+        "question": "男の子が _______ をがぶりと飲んでいます。",
+        "choices": [
+          "ケーキ",
+          "クラスチック",
+          "ジュース",
+          "カー"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "男の子が\nジュース\nをがぶりと飲んでいます。"
+      },
+      {
+        "question_number": 4,
+        "question": "彼女はやがて完全に _______ じゃろうと、わしは希望を持っておる。",
+        "choices": [
+          "会計する",
+          "回復する",
+          "呼吸する",
+          "出席する"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "彼女はやがて完全に\n回復する\nじゃろうと、わしは希望を持っておる。"
+      },
+      {
+        "question_number": 5,
+        "question": "彼の叫び声で、全員が目を _______ 。",
+        "choices": [
+          "責めた",
+          "信じた",
+          "驚いた",
+          "覚ました"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "彼の叫び声で、全員が目を\n覚ました\n。"
+      },
+      {
+        "question_number": 6,
+        "question": "あなたも _______ 参加してください。",
+        "choices": [
+          "かなり",
+          "ずっと",
+          "すべて",
+          "ぜひ"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "あなたも\nぜひ\n参加してください。"
+      },
+      {
+        "question_number": 7,
+        "question": "あなたが手伝ってくれないと、考えを _______ ことができない。",
+        "choices": [
+          "成長する",
+          "故障する",
+          "集中する",
+          "整理する"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "あなたが手伝ってくれないと、考えを\n整理する\nことができない。"
+      },
+      {
+        "question_number": 8,
+        "question": "彼は、スプーンで _______ を口に運びはじめた。",
+        "choices": [
+          "サイン",
+          "スープ",
+          "セット",
+          "スピード"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "彼は、スプーンで\nスープ\nを口に運びはじめた。"
+      },
+      {
+        "question_number": 9,
+        "question": "僕は自分の主人の命令に _______ ことはできない。",
+        "choices": [
+          "さからう",
+          "しはらう",
+          "きらう",
+          "もらう"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "僕は自分の主人の命令に\nさからう\nことはできない。"
+      },
+      {
+        "question_number": 10,
+        "question": "通りには堂々たるビルが立ち並び、すでに車で _______ 。",
+        "choices": [
+          "迷惑していた",
+          "困惑していた",
+          "混乱していた",
+          "混雑していた"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "通りには堂々たるビルが立ち並び、すでに車で\n混雑していた\n。"
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 21,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-vocabulary-exercise-21/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "彼は私たちを _______ んだと思うわ。",
+        "choices": [
+          "おこってる",
+          "さぼってる",
+          "かけてる",
+          "さけてる"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "彼は私たちを\nさけてる\nんだと思うわ。"
+      },
+      {
+        "question_number": 2,
+        "question": "君は今夜見せたよりはましな _______ を発揮した。",
+        "choices": [
+          "才能",
+          "可能",
+          "本能",
+          "機能"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "君は今夜見せたよりはましな\n才能\nを発揮した。"
+      },
+      {
+        "question_number": 3,
+        "question": "わたしは _______ にして優秀なる頭脳に恵まれている。",
+        "choices": [
+          "直",
+          "甘い",
+          "幸い",
+          "辛い"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "わたしは\n幸い\nにして優秀なる頭脳に恵まれている。"
+      },
+      {
+        "question_number": 4,
+        "question": "姉の結婚祝いに写真の _______ をプレゼントしようと思ってる。",
+        "choices": [
+          "カメラ",
+          "インク",
+          "アルバム",
+          "アウト"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "姉の結婚祝いに写真の\nアルバム\nをプレゼントしようと思ってる。"
+      },
+      {
+        "question_number": 5,
+        "question": "彼はお父さんについて話を聞くかけがえのない機会を _______ 失ったことを悔やんだ。",
+        "choices": [
+          "えいえんに",
+          "ちなみに",
+          "まことに",
+          "そばに"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "彼はお父さんについて話を聞くかけがえのない機会を\nえいえんに\n失ったことを悔やんだ。"
+      },
+      {
+        "question_number": 6,
+        "question": "掃除をするので、この _______ に水を入れてきてください。",
+        "choices": [
+          "ロッカー",
+          "バケツ",
+          "ブラシ",
+          "タオル"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "掃除をするので、この\nバケツ\nに水を入れてきてください。"
+      },
+      {
+        "question_number": 7,
+        "question": "お母さんはお金がなくなったことに、いつ _______ だろうか？",
+        "choices": [
+          "気付く",
+          "気に入る",
+          "気にする",
+          "気をつける"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "お母さんはお金がなくなったことに、いつ\n気付く\nだろうか？"
+      },
+      {
+        "question_number": 8,
+        "question": "_______ の後、学生たちは教室に戻ってきた。",
+        "choices": [
+          "作家",
+          "現状",
+          "休憩",
+          "強調"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "休憩\nの後、学生たちは教室に戻ってきた。"
+      },
+      {
+        "question_number": 9,
+        "question": "_______ 、こんどこそ就寝の時間じゃ。",
+        "choices": [
+          "また",
+          "さて",
+          "でも",
+          "それは"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "さて\n、こんどこそ就寝の時間じゃ。"
+      },
+      {
+        "question_number": 10,
+        "question": "彼は新しい楽観 _______ に目覚めたかのようだった。",
+        "choices": [
+          "喧嘩",
+          "結果",
+          "議論",
+          "主義"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "彼は新しい楽観\n主義\nに目覚めたかのようだった。"
+      }
+    ],
+    "vocabulary": []
+  }
+]

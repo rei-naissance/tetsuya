@@ -3,12 +3,24 @@ import { useNavigate } from 'react-router-dom'
 import { Button, Layout, ProgressBar } from '../components/Layout'
 import { QuestionView } from '../components/QuestionView'
 import { shuffleChoices } from '../lib/random'
-import { buildQueue, getCard, loadCards, markIntroduced, newCard, previewInterval, saveReview, type Grade } from '../lib/srs'
+import { buildQueue, deckId, getCard, loadCards, markIntroduced, newCard, previewInterval, saveReview, type Grade } from '../lib/srs'
 import type { Level, Question, Section } from '../lib/types'
-import { SECTION_META } from '../lib/types'
+import { ALL_KINDS, KINDS, SECTION_META } from '../lib/types'
 import { useKeys } from '../lib/useKeys'
 import { cn } from '../lib/cn'
-import { deckId } from './ModeSelect'
+
+/** Header title for a session: "Grammar · Sentence order 文の組み立て". */
+export function kindTitle(section: Section, kind: string, mistakes = false) {
+  const meta = KINDS[section].find((k) => k.id === kind)
+  return (
+    <span>
+      {SECTION_META[section].label}
+      {kind !== ALL_KINDS && meta && <> · {meta.label}</>}
+      {mistakes && ' · mistakes'}
+      <span className="ml-1.5 font-jp text-stone-400">{meta && kind !== ALL_KINDS ? meta.jp : SECTION_META[section].jp}</span>
+    </span>
+  )
+}
 
 const GRADES: { grade: Grade; label: string; tone: string }[] = [
   { grade: 'again', label: 'Again', tone: 'text-rose-600 dark:text-rose-400' },
@@ -17,10 +29,10 @@ const GRADES: { grade: Grade; label: string; tone: string }[] = [
   { grade: 'easy', label: 'Easy', tone: 'text-sky-600 dark:text-sky-400' },
 ]
 
-/** Anki-style review session for kanji / vocabulary. */
-export function Review({ level, section, pool }: { level: Level; section: Section; pool: Question[] }) {
+/** Anki-style review session for kanji / vocabulary (one deck per question type). */
+export function Review({ level, section, kind, pool }: { level: Level; section: Section; kind: string; pool: Question[] }) {
   const navigate = useNavigate()
-  const deck = deckId(level, section)
+  const deck = deckId(level, section, kind)
   const byId = useMemo(() => new Map(pool.map((q) => [q.id, q])), [pool])
 
   const [queue, setQueue] = useState(() => buildQueue(pool.map((q) => q.id), deck))
@@ -63,8 +75,8 @@ export function Review({ level, section, pool }: { level: Level; section: Sectio
     else if (wasCorrect && n >= 1 && n <= 4) grade(GRADES[n - 1].grade)
   })
 
-  const back = { to: `/${level.toLowerCase()}`, label: level }
-  const title = <span>{SECTION_META[section].label} <span className="font-jp text-stone-400">{SECTION_META[section].jp}</span></span>
+  const back = { to: `/${level.toLowerCase()}/study/${section}`, label: 'Types' }
+  const title = kindTitle(section, kind)
 
   if (!q || !card) {
     return (
@@ -79,7 +91,7 @@ export function Review({ level, section, pool }: { level: Level; section: Sectio
           </p>
           <p className="mt-1 text-sm text-stone-400">{nextDueText(pool.map((p) => p.id))}</p>
           <div className="mt-10 flex justify-center">
-            <Button variant="outline" onClick={() => navigate(back.to)}>Back to {level}</Button>
+            <Button variant="outline" onClick={() => navigate(back.to)}>All types</Button>
           </div>
         </div>
       </Layout>
@@ -92,7 +104,7 @@ export function Review({ level, section, pool }: { level: Level; section: Sectio
       <ProgressBar value={Math.max(0, done)} max={initialSize} />
       <div className="mt-8">
         {isNew && <p className="mb-4 inline-block rounded-full bg-accent-soft px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wider text-accent dark:bg-accent/15">New</p>}
-        <QuestionView key={`${q.id}-${turn}`} q={q} selected={selected} reveal={reveal} onSelect={choose} />
+        <QuestionView key={`${q.id}-${turn}`} q={q} selected={selected} reveal={reveal} onSelect={choose} showSection={kind === ALL_KINDS} />
       </div>
 
       <div className="mt-8 min-h-20">

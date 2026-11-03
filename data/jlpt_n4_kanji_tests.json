@@ -1,0 +1,4664 @@
+[
+  {
+    "page": 1,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-kanji-tests/1/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "私の【おねえさん】は医者です。",
+        "choices": [
+          "お父さん",
+          "お母さん",
+          "お姉さん",
+          "お妹さん"
+        ],
+        "translation_answer": "私のお姉さんは医者です。 | わたしの おねえさんは いしゃです。 | My older sister is a doctor."
+      },
+      {
+        "question_number": 2,
+        "question": "質問の【答え】が分かりません。",
+        "choices": [
+          "ごたえ",
+          "こさえ",
+          "こだえ",
+          "こたえ"
+        ],
+        "translation_answer": "質問の答えが分かりません。 | しつもんの こたえが わかりません。 | I don't know the answer to the question."
+      },
+      {
+        "question_number": 3,
+        "question": "テーブルの【真ん中】に花を置きました。",
+        "choices": [
+          "まんなか",
+          "まなか",
+          "またなか",
+          "しんちゅう"
+        ],
+        "translation_answer": "テーブルの真ん中に花を置きました。 | テーブルの まんなかに はなを おきました。 | I placed flowers in the middle of the table."
+      },
+      {
+        "question_number": 4,
+        "question": "毎晩、【よる】十時に寝ます。",
+        "choices": [
+          "夕",
+          "液",
+          "後",
+          "夜"
+        ],
+        "translation_answer": "毎晩、夜十時に寝ます。 | まいばん、よる じゅうじに ねます。 | I go to bed at 10 PM every night."
+      },
+      {
+        "question_number": 5,
+        "question": "庭にテントを【たて】ました。",
+        "choices": [
+          "建て",
+          "立て",
+          "設け",
+          "樹て"
+        ],
+        "translation_answer": "庭にテントを立てました。 | にわに テントを たてました。 | We set up (stood up) a tent in the garden."
+      },
+      {
+        "question_number": 6,
+        "question": "彼は日本語が【上手】です。",
+        "choices": [
+          "しょうず",
+          "じょうず",
+          "うわて",
+          "じょず"
+        ],
+        "translation_answer": "彼は日本語が上手です。 | かれは にほんごが じょうずです。 | He is skilled at Japanese."
+      },
+      {
+        "question_number": 7,
+        "question": "江戸【時代】は面白い時代です。",
+        "choices": [
+          "じたい",
+          "じだい",
+          "ぢだい",
+          "しだい"
+        ],
+        "translation_answer": "江戸時代は面白い時代です。 | えどじだいは おもしろい じだいです。 | The Edo period is an interesting era."
+      },
+      {
+        "question_number": 8,
+        "question": "旅行でたくさん【写真】を撮りました。",
+        "choices": [
+          "しゃしん",
+          "しゃじん",
+          "しやしん",
+          "さしん"
+        ],
+        "translation_answer": "旅行でたくさん写真を撮りました。 | りょこうで たくさん しゃしんを とりました。 | I took many photos on my trip."
+      },
+      {
+        "question_number": 9,
+        "question": "【おもい】荷物を持ちましょうか。",
+        "choices": [
+          "重い",
+          "重",
+          "量い",
+          "思い"
+        ],
+        "translation_answer": "重い荷物を持ちましょうか。 | おもい にもつを もちましょうか。 | Shall I carry the heavy luggage?"
+      },
+      {
+        "question_number": 10,
+        "question": "【毎朝】、コーヒーを飲みます。",
+        "choices": [
+          "めあさ",
+          "まいちょう",
+          "まいあさ",
+          "まいさ"
+        ],
+        "translation_answer": "毎朝、コーヒーを飲みます。 | まいあさ、コーヒーを のみます。 | I drink coffee every morning."
+      },
+      {
+        "question_number": 11,
+        "question": "Question 11",
+        "choices": [
+          "Submit",
+          "English",
+          "Feedback"
+        ],
+        "translation_answer": ""
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-kanji-tests/2/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "今朝は【早く】起きました。",
+        "choices": [
+          "ばやく",
+          "はやく",
+          "さやく",
+          "まやく"
+        ],
+        "translation_answer": "今朝は早く起きました。 | けさは はやく おきました。 | I woke up early this morning."
+      },
+      {
+        "question_number": 2,
+        "question": "【しょくりょうひん】の値段が上がりました。",
+        "choices": [
+          "食糧品",
+          "食品",
+          "食料品",
+          "飲料品"
+        ],
+        "translation_answer": "食料品の値段が上がりました。 | しょくりょうひんの ねだんが あがりました。 | The price of groceries has gone up."
+      },
+      {
+        "question_number": 3,
+        "question": "他に【しかた】がありませんでした。",
+        "choices": [
+          "仕方",
+          "方法",
+          "手段",
+          "仕様"
+        ],
+        "translation_answer": "他に仕方がありませんでした。 | ほかに しかたが ありませんでした。 | There was no other way / method."
+      },
+      {
+        "question_number": 4,
+        "question": "午後から【ようじ】で出かけます。",
+        "choices": [
+          "要事",
+          "洋事",
+          "用事",
+          "用字"
+        ],
+        "translation_answer": "午後から用事で出かけます。 | ごごから ようじで でかけます。 | I will go out on business (errands) from the afternoon."
+      },
+      {
+        "question_number": 5,
+        "question": "車に【注意】してください。",
+        "choices": [
+          "ちゅうい",
+          "ぢゅうい",
+          "じゅうい",
+          "ちゅい"
+        ],
+        "translation_answer": "車に注意してください。 | くるまに ちゅういしてください。 | Please pay attention to cars / watch out for cars."
+      },
+      {
+        "question_number": 6,
+        "question": "私は絵を描くのが【下手】です。",
+        "choices": [
+          "したて",
+          "しもて",
+          "へた",
+          "べた"
+        ],
+        "translation_answer": "私は絵を描くのが下手です。 | わたしは えを かくのが へたです。 | I am unskilled at drawing pictures."
+      },
+      {
+        "question_number": 7,
+        "question": "図書館で本を【借り】ました。",
+        "choices": [
+          "かり",
+          "がり",
+          "かえり",
+          "かしり"
+        ],
+        "translation_answer": "図書館で本を借りました。 | としょかんで ほんを かりました。 | I borrowed a book from the library."
+      },
+      {
+        "question_number": 8,
+        "question": "彼の名前を【おもいだせ】ません。",
+        "choices": [
+          "思出せ",
+          "憶い出せ",
+          "思い出せ",
+          "想い出せ"
+        ],
+        "translation_answer": "彼の名前を思い出せません。 | かれの なまえを おもいだせません。 | I cannot recall his name."
+      },
+      {
+        "question_number": 9,
+        "question": "彼は【工業】に興味があります。",
+        "choices": [
+          "こうぎょう",
+          "こうごう", 
+          "くぎょう",
+          "こぎょう"
+        ],
+        "translation_answer": "彼は工業に興味があります。 | かれは こうぎょうに きょうみが あります。 | He is interested in industry."
+      },
+      {
+        "question_number": 10,
+        "question": "公園は【ひろく】て、きれいです。",
+        "choices": [
+          "鉱く",
+          "広々く",
+          "拡く",
+          "広く"
+        ],
+        "translation_answer": "公園は広くて、きれいです。 | こうえんは ひろくて、きれいです。 | The park is spacious and beautiful."
+      },
+      {
+        "question_number": 11,
+        "question": "Question 11",
+        "choices": [
+          "Submit",
+          "English",
+          "Feedback"
+        ],
+        "translation_answer": ""
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-kanji-tests/3/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "【あおい】ペンを貸してください。",
+        "choices": [
+          "青色い",
+          "赤い",
+          "青い",
+          "黄色い"
+        ],
+        "translation_answer": "青いペンを貸してください。 | あおい ペンを かしてください。 | Please lend me a blue pen."
+      },
+      {
+        "question_number": 2,
+        "question": "仕事の【おわり】にもう一度電話します。",
+        "choices": [
+          "冬わり",
+          "終わり",
+          "終り",
+          "緒割"
+        ],
+        "translation_answer": "仕事の終わりにもう一度電話します。 | しごとの おわりに もういちど でんわします。 | I will call again after work."
+      },
+      {
+        "question_number": 3,
+        "question": "【ゆうべ】は早く寝ました。",
+        "choices": [
+          "夕方",
+          "晩べ",
+          "夕べ",
+          "夕日"
+        ],
+        "translation_answer": "夕べは早く寝ました。 | ゆうべは はやく ねました。 | I went to bed early last night."
+      },
+      {
+        "question_number": 4,
+        "question": "大学で【医学】を勉強しています。",
+        "choices": [
+          "いかく",
+          "いやく",
+          "いがく",
+          "えがく"
+        ],
+        "translation_answer": "大学で医学を勉強しています。 | だいがくで いがくを べんきょうしています。 | I am studying medical science at university."
+      },
+      {
+        "question_number": 5,
+        "question": "【病気】なので、学校を休みました。",
+        "choices": [
+          "ひょうき",
+          "びょき",
+          "びょうき",
+          "びょうぎ"
+        ],
+        "translation_answer": "病気なので、学校を休みました。 | びょうきなので、がっこうを やすみました。 | I was absent from school because I was sick."
+      },
+      {
+        "question_number": 6,
+        "question": "【ひる】は暖かいですが、夜は寒いです。",
+        "choices": [
+          "昼る",
+          "昼",
+          "民",
+          "晩"
+        ],
+        "translation_answer": "昼は暖かいですが、夜は寒いです。 | ひるは あたたかいですが、よるは さむいです。 | It's warm during the day (noon), but cold at night."
+      },
+      {
+        "question_number": 7,
+        "question": "【世界】には色々な国があります。",
+        "choices": [
+          "せかい",
+          "せがい",
+          "せいかい",
+          "せがえ"
+        ],
+        "translation_answer": "世界には色々な国があります。 | せかいには いろいろな くにが あります。 | There are various countries in the world."
+      },
+      {
+        "question_number": 8,
+        "question": "駅まで【自転車】で行きます。",
+        "choices": [
+          "じでんしゃ",
+          "じどうしゃ",
+          "じとうしゃ",
+          "じてんしゃ"
+        ],
+        "translation_answer": "駅まで自転車で行きます。 | えきまで じてんしゃで いきます。 | I go to the station by bike."
+      },
+      {
+        "question_number": 9,
+        "question": "次の会議は【すいようび】です。",
+        "choices": [
+          "氷曜日",
+          "推曜日",
+          "水曜目",
+          "水曜日"
+        ],
+        "translation_answer": "次の会議は水曜日です。 | つぎの かいぎは すいようびです。 | The next meeting is on Wednesday."
+      },
+      {
+        "question_number": 10,
+        "question": "この駅には【とっきゅう】も止まります。",
+        "choices": [
+          "特別急行",
+          "急行",
+          "特急",
+          "特行"
+        ],
+        "translation_answer": "この駅には特急も止まります。 | この えきには とっきゅうも とまります。 | Limited express trains also stop at this station."
+      },
+      {
+        "question_number": 11,
+        "question": "Question 11",
+        "choices": [
+          "Submit",
+          "English",
+          "Feedback"
+        ],
+        "translation_answer": ""
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-kanji-tests/4/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "この店では古い本を【売って】います。",
+        "choices": [
+          "おって",
+          "ふって",
+          "うって",
+          "えって"
+        ],
+        "translation_answer": "この店では古い本を売っています。 | この みせでは ふるい ほんを うっています。 | This shop sells old books."
+      },
+      {
+        "question_number": 2,
+        "question": "私は【ちり】が好きです。",
+        "choices": [
+          "地利",
+          "地理",
+          "地離",
+          "地裏"
+        ],
+        "translation_answer": "私は地理が好きです。 | わたしは ちりが すきです。 | I like geography."
+      },
+      {
+        "question_number": 3,
+        "question": "【昼間】は暖かいです。",
+        "choices": [
+          "ちゅうま",
+          "ひるかん",
+          "ひるま",
+          "ひまあ"
+        ],
+        "translation_answer": "昼間は暖かいです。 | ひるまは あたたかいです。 | It is warm during the daytime."
+      },
+      {
+        "question_number": 4,
+        "question": "明日は【さくぶん】のテストがあります。",
+        "choices": [
+          "作分",
+          "作文",
+          "作聞",
+          "作本"
+        ],
+        "translation_answer": "明日は作文のテストがあります。 | あしたは さくぶんの テストが あります。 | There is a composition test tomorrow."
+      },
+      {
+        "question_number": 5,
+        "question": "今日は青いシャツを【着て】います。",
+        "choices": [
+          "つけて",
+          "ぎて",
+          "ついて",
+          "きて"
+        ],
+        "translation_answer": "今日は青いシャツを着ています。 | きょうは あおい シャツを きています。 | I am wearing a blue shirt today."
+      },
+      {
+        "question_number": 6,
+        "question": "私たちはここで【わかれましょう】。",
+        "choices": [
+          "別れましょう",
+          "分かれましょう",
+          "離れましょう",
+          "決れましょう"
+        ],
+        "translation_answer": "私たちはここで別れましょう。 | わたしたちは ここで わかれましょう。 | Let's separate here."
+      },
+      {
+        "question_number": 7,
+        "question": "この店は【たべもの】が美味しいです。",
+        "choices": [
+          "食べる物",
+          "食べ物",
+          "食い物",
+          "食物"
+        ],
+        "translation_answer": "この店は食べ物が美味しいです。 | この みせは たべものが おいしいです。 | The food at this restaurant is delicious."
+      },
+      {
+        "question_number": 8,
+        "question": "もう一度【いって】ください。",
+        "choices": [
+          "話して",
+          "云って",
+          "言って",
+          "聞いて"
+        ],
+        "translation_answer": "もう一度言ってください。 | もういちど いってください。 | Please say it again."
+      },
+      {
+        "question_number": 9,
+        "question": "【朝ご飯】を食べましたか。",
+        "choices": [
+          "あさごばん",
+          "ちょうごはん",
+          "あさごはん",
+          "あさこはん"
+        ],
+        "translation_answer": "朝ご飯を食べましたか。 | あさごはんを たべましたか。 | Did you eat breakfast?"
+      },
+      {
+        "question_number": 10,
+        "question": "彼は【くち】が大きいですね。",
+        "choices": [
+          "句",
+          "古",
+          "口",
+          "工"
+        ],
+        "translation_answer": "彼は口が大きいですね。 | かれは くちが おおきいですね。 | He has a big mouth, doesn't he?"
+      },
+      {
+        "question_number": 11,
+        "question": "Question 11",
+        "choices": [
+          "Submit",
+          "English",
+          "Feedback"
+        ],
+        "translation_answer": ""
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-kanji-tests/5/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "【まいしゅう】日曜日にテニスをします。",
+        "choices": [
+          "毎集",
+          "毎秋",
+          "毎洲",
+          "毎週"
+        ],
+        "translation_answer": "毎週日曜日にテニスをします。 | まいしゅう にちようびに テニスを します。 | I play tennis every Sunday."
+      },
+      {
+        "question_number": 2,
+        "question": "これで説明は【いじょう】です。",
+        "choices": [
+          "已上",
+          "異状",
+          "異常",
+          "以上"
+        ],
+        "translation_answer": "これで説明は以上です。 | これで せつめいは いじょうです。 | That is all for the explanation (The explanation is the above and no more)."
+      },
+      {
+        "question_number": 3,
+        "question": "友達に【手紙】を書きました。",
+        "choices": [
+          "しゅがみ",
+          "てがみ",
+          "でがみ",
+          "てかみ"
+        ],
+        "translation_answer": "友達に手紙を書きました。 | ともだちに てがみを かきました。 | I wrote a letter to my friend."
+      },
+      {
+        "question_number": 4,
+        "question": "パーティーを【楽しみました】。",
+        "choices": [
+          "たなしみました",
+          "くるしみました",
+          "かなしみました",
+          "たのしみました"
+        ],
+        "translation_answer": "パーティーを楽しみました。 | パーティーを たのしみました。 | I enjoyed the party."
+      },
+      {
+        "question_number": 5,
+        "question": "プレゼントをもらって、【こころ】が暖かくなりました。",
+        "choices": [
+          "芯",
+          "情",
+          "心",
+          "沁"
+        ],
+        "translation_answer": "プレゼントをもらって、心が暖かくなりました。 | プレゼントを もらって、こころが あたたかく なりました。 | Receiving the present warmed my heart."
+      },
+      {
+        "question_number": 6,
+        "question": "私は小さい【まち】に住んでいます。",
+        "choices": [
+          "街",
+          "丁",
+          "庁",
+          "町"
+        ],
+        "translation_answer": "私は小さい町に住んでいます。 | わたしは ちいさい まちに すんでいます。 | I live in a small town."
+      },
+      {
+        "question_number": 7,
+        "question": "タクシーの【うんてんしゅ】は親切でした。",
+        "choices": [
+          "運伝手",
+          "運転手",
+          "運転守",
+          "運転主"
+        ],
+        "translation_answer": "タクシーの運転手は親切でした。 | タクシーの うんてんしゅは しんせつでした。 | The taxi driver was kind."
+      },
+      {
+        "question_number": 8,
+        "question": "カラオケで歌を【歌い】ましょう。",
+        "choices": [
+          "かたい",
+          "うだい",
+          "おたい",
+          "うたい"
+        ],
+        "translation_answer": "カラオケで歌を歌いましょう。 | カラオケで うたを うたいましょう。 | Let's sing songs at karaoke."
+      },
+      {
+        "question_number": 9,
+        "question": "この建物は【せいよう】のスタイルです。",
+        "choices": [
+          "西陽",
+          "西様",
+          "西洋",
+          "西用"
+        ],
+        "translation_answer": "この建物は西洋のスタイルです。 | この たてものは せいようの スタイルです。 | This building is in a Western style."
+      },
+      {
+        "question_number": 10,
+        "question": "月の【はじめ】に給料をもらいます。",
+        "choices": [
+          "始",
+          "元",
+          "初め",
+          "始め"
+        ],
+        "translation_answer": "月の始めに給料をもらいます。 | つきの はじめに きゅうりょうを もらいます。 | I receive my salary at the beginning of the month."
+      },
+      {
+        "question_number": 11,
+        "question": "Question 11",
+        "choices": [
+          "Submit",
+          "English",
+          "Feedback"
+        ],
+        "translation_answer": ""
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-kanji-tests/6/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "黒板の字をノートに【写して】ください。",
+        "choices": [
+          "しゃして",
+          "うづして",
+          "うつして",
+          "うつって"
+        ],
+        "translation_answer": "黒板の字をノートに写してください。 | こくばんの じを ノートに うつしてください。 | Please copy the characters on the blackboard into your notebook."
+      },
+      {
+        "question_number": 2,
+        "question": "【おとうと】は高校生です。",
+        "choices": [
+          "梯",
+          "姉",
+          "弟",
+          "第"
+        ],
+        "translation_answer": "弟は高校生です。 | おとうとは こうこうせいです。 | My younger brother is a high school student."
+      },
+      {
+        "question_number": 3,
+        "question": "【こんしゅう】の土曜日に何をしますか。",
+        "choices": [
+          "今週",
+          "近週",
+          "今集",
+          "今秋"
+        ],
+        "translation_answer": "今週の土曜日に何をしますか。 | こんしゅうの どようびに なにを しますか。 | What are you doing this Saturday?"
+      },
+      {
+        "question_number": 4,
+        "question": "デパートの一階は化粧品の【うりば】です。",
+        "choices": [
+          "売り場",
+          "売場",
+          "売処",
+          "売所"
+        ],
+        "translation_answer": "デパートの一階は化粧品の売り場です。 | デパートの いっかいは けしょうひんの うりばです。 | The first floor of the department store is the cosmetics sales floor."
+      },
+      {
+        "question_number": 5,
+        "question": "明日、六時に【おこし】てください。",
+        "choices": [
+          "起こし",
+          "探し",
+          "直し",
+          "興し"
+        ],
+        "translation_answer": "明日、六時に起こしてください。 | あした、ろくじに おこしてください。 | Please wake me up at 6 o'clock tomorrow."
+      },
+      {
+        "question_number": 6,
+        "question": "駅に何時に【着きます】か。",
+        "choices": [
+          "つきます",
+          "づきます",
+          "きます",
+          "ききます"
+        ],
+        "translation_answer": "駅に何時に着きますか。 | えきに なんじに つきますか。 | What time do you arrive at the station?"
+      },
+      {
+        "question_number": 7,
+        "question": "二に三を【足す】と五になります。",
+        "choices": [
+          "たす",
+          "あす",
+          "そくす",
+          "だす"
+        ],
+        "translation_answer": "二に三を足すと五になります。 | にに さんを たすと ごに なります。 | Adding 3 to 2 makes 5."
+      },
+      {
+        "question_number": 8,
+        "question": "そろそろ【食事】の時間です。",
+        "choices": [
+          "たべごと",
+          "しょくじ",
+          "じきじ",
+          "しょくし"
+        ],
+        "translation_answer": "そろそろ食事の時間です。 | そろそろ しょくじの じかんです。 | It's almost time for a meal."
+      },
+      {
+        "question_number": 9,
+        "question": "コーヒーを【飲みます】か。",
+        "choices": [
+          "よみます",
+          "いみます",
+          "たみます",
+          "のみます"
+        ],
+        "translation_answer": "コーヒーを飲みますか。 | コーヒーを のみますか。 | Do you drink coffee?"
+      },
+      {
+        "question_number": 10,
+        "question": "【今朝】、何をしましたか。",
+        "choices": [
+          "こんちょう",
+          "けさ",
+          "きょう",
+          "いまあさ"
+        ],
+        "translation_answer": "今朝、何をしましたか。 | けさ、なにを しましたか。 | What did you do this morning?"
+      },
+      {
+        "question_number": 11,
+        "question": "Question 11",
+        "choices": [
+          "Submit",
+          "English",
+          "Feedback"
+        ],
+        "translation_answer": ""
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-kanji-tests/7/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "【ひるやすみ】に友達とご飯を食べます。",
+        "choices": [
+          "昼休",
+          "昼休目",
+          "昼休止",
+          "昼休み"
+        ],
+        "translation_answer": "昼休みに友達とご飯を食べます。 | ひるやすみに ともだちと ごはんを たべます。 | I eat lunch with friends during the lunch break."
+      },
+      {
+        "question_number": 2,
+        "question": "【あした】、図書館へ行きます。",
+        "choices": [
+          "明目",
+          "朝",
+          "明日",
+          "明後日"
+        ],
+        "translation_answer": "明日、図書館へ行きます。 | あした、としょかんへ いきます。 | I will go to the library tomorrow."
+      },
+      {
+        "question_number": 3,
+        "question": "庭にきれいな【花】が咲いています。",
+        "choices": [
+          "は",
+          "ばな",
+          "はな",
+          "か"
+        ],
+        "translation_answer": "庭にきれいな花が咲いています。 | にわに きれいな はなが さいています。 | Beautiful flowers are blooming in the garden."
+      },
+      {
+        "question_number": 4,
+        "question": "【今夜】、一緒にご飯を食べませんか。",
+        "choices": [
+          "こんよ",
+          "こんや",
+          "いまや",
+          "こんばん"
+        ],
+        "translation_answer": "今夜、一緒にご飯を食べませんか。 | こんや、いっしょに ごはんを たべませんか。 | Would you like to have dinner together tonight?"
+      },
+      {
+        "question_number": 5,
+        "question": "質問に【答えて】ください。",
+        "choices": [
+          "こえて",
+          "とうえて",
+          "ごたえて",
+          "こたえて"
+        ],
+        "translation_answer": "質問に答えてください。 | しつもんに こたえてください。 | Please answer the question."
+      },
+      {
+        "question_number": 6,
+        "question": "【出発】の時間は午前八時です。",
+        "choices": [
+          "しゅっはつ",
+          "しゅっぱつ",
+          "しゅぱつ",
+          "じゅっぱつ"
+        ],
+        "translation_answer": "出発の時間は午前八時です。 | しゅっぱつの じかんは ごぜん はちじです。 | The departure time is 8 AM."
+      },
+      {
+        "question_number": 7,
+        "question": "【しけん】のために、たくさん勉強しました。",
+        "choices": [
+          "試研",
+          "試検",
+          "試問",
+          "試験"
+        ],
+        "translation_answer": "試験のために、たくさん勉強しました。 | しけんのために、たくさん べんきょうしました。 | I studied a lot for the exam."
+      },
+      {
+        "question_number": 8,
+        "question": "私には兄と妹がいます。三人【きょうだい】です。",
+        "choices": [
+          "姉弟",
+          "兄妹",
+          "兄弟",
+          "兄第"
+        ],
+        "translation_answer": "私には兄と妹がいます。三人兄弟です。 | わたしには あにと いもうとが います。さんにん きょうだいです。 | I have an older brother and a younger sister. We are three siblings."
+      },
+      {
+        "question_number": 9,
+        "question": "心配しないでください。【あんしん】してください。",
+        "choices": [
+          "暗心",
+          "安心",
+          "安神",
+          "案心"
+        ],
+        "translation_answer": "心配しないでください。安心してください。 | しんぱい しないでください。あんしんしてください。 | Please don't worry. Please feel relieved (rest assured)."
+      },
+      {
+        "question_number": 10,
+        "question": "【赤ちゃん】が寝ています。",
+        "choices": [
+          "あがちゃん",
+          "あかちやん",
+          "あかちん",
+          "あかちゃん"
+        ],
+        "translation_answer": "赤ちゃんが寝ています。 | あかちゃんが ねています。 | The baby is sleeping."
+      },
+      {
+        "question_number": 11,
+        "question": "Question 11",
+        "choices": [
+          "Submit",
+          "English",
+          "Feedback"
+        ],
+        "translation_answer": ""
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-kanji-tests/8/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "【そら】に飛行機が飛んでいます。",
+        "choices": [
+          "天",
+          "空",
+          "穴",
+          "究"
+        ],
+        "translation_answer": "空に飛行機が飛んでいます。 | そらに ひこうきが とんでいます。 | An airplane is flying in the sky."
+      },
+      {
+        "question_number": 2,
+        "question": "今日は風が【つよい】ですね。",
+        "choices": [
+          "強",
+          "強々い",
+          "強い",
+          "勁い"
+        ],
+        "translation_answer": "今日は風が強いですね。 | きょうは かぜが つよいですね。 | The wind is strong today, isn't it?"
+      },
+      {
+        "question_number": 3,
+        "question": "【仕事】は何時に終わりますか。",
+        "choices": [
+          "つとめ",
+          "しごと",
+          "じごと",
+          "しこと"
+        ],
+        "translation_answer": "仕事は何時に終わりますか。 | しごとは なんじに おわりますか。 | What time does your work finish?"
+      },
+      {
+        "question_number": 4,
+        "question": "旅行の【計画】を立てています。",
+        "choices": [
+          "けかく",
+          "けいかく",
+          "けいわく",
+          "けいがく"
+        ],
+        "translation_answer": "旅行の計画を立てています。 | りょこうの けいかくを たてています。 | I am making travel plans."
+      },
+      {
+        "question_number": 5,
+        "question": "祖父は先週【入院】しました。",
+        "choices": [
+          "にゅうえん",
+          "にゅいん",
+          "にゅういん",
+          "じゅいん"
+        ],
+        "translation_answer": "祖父は先週入院しました。 | そふは せんしゅう にゅういんしました。 | My grandfather was hospitalized last week."
+      },
+      {
+        "question_number": 6,
+        "question": "この【問題】は難しいです。",
+        "choices": [
+          "もんだい",
+          "もんさい",
+          "もんたい",
+          "もうだい"
+        ],
+        "translation_answer": "この問題は難しいです。 | この もんだいは むずかしいです。 | This problem is difficult."
+      },
+      {
+        "question_number": 7,
+        "question": "彼はドアの前に【たって】います。",
+        "choices": [
+          "建って",
+          "発って",
+          "立って",
+          "起って"
+        ],
+        "translation_answer": "彼はドアの前に立っています。 | かれは ドアの まえに たっています。 | He is standing in front of the door."
+      },
+      {
+        "question_number": 8,
+        "question": "このラーメンは【うまい】ですね！",
+        "choices": [
+          "上手い",
+          "美味い",
+          "甘い",
+          "巧い"
+        ],
+        "translation_answer": "このラーメンは上手いですね！ | この ラーメンは うまいですね！ | This ramen is delicious! (Note: 'umai' can also mean delicious, more casual than 'oishii')"
+      },
+      {
+        "question_number": 9,
+        "question": "風邪をひいて、【からだ】の調子が悪いです。",
+        "choices": [
+          "休",
+          "本",
+          "体",
+          "件"
+        ],
+        "translation_answer": "風邪をひいて、体の調子が悪いです。 | かぜを ひいて、からだの ちょうしが わるいです。 | I caught a cold and my body doesn't feel well."
+      },
+      {
+        "question_number": 10,
+        "question": "彼は【黒い】猫を飼っています。",
+        "choices": [
+          "くろい",
+          "こくい",
+          "くるい",
+          "ぐろい"
+        ],
+        "translation_answer": "彼は黒い猫を飼っています。 | かれは くろい ねこを かっています。 | He has a black cat."
+      },
+      {
+        "question_number": 11,
+        "question": "Question 11",
+        "choices": [
+          "Submit",
+          "English",
+          "Feedback"
+        ],
+        "translation_answer": ""
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-kanji-tests/9/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "宿題が【おわったら】、遊びましょう。",
+        "choices": [
+          "終ったら",
+          "終わったら",
+          "冬ったら",
+          "冬わったら"
+        ],
+        "translation_answer": "宿題が終わったら、遊びましょう。 | しゅくだいが おわったら、あそびましょう。 | Let's play after the homework is finished."
+      },
+      {
+        "question_number": 2,
+        "question": "この【道】をまっすぐ行ってください。",
+        "choices": [
+          "みし",
+          "どう",
+          "じ",
+          "みち"
+        ],
+        "translation_answer": "この道をまっすぐ行ってください。 | この みちを まっすぐ いってください。 | Please go straight down this road."
+      },
+      {
+        "question_number": 3,
+        "question": "結果が分かったら、すぐに【しらせます】。",
+        "choices": [
+          "服らせます",
+          "知らせます",
+          "吹らせます",
+          "拭らせます"
+        ],
+        "translation_answer": "結果が分かったら、すぐに知らせます。 | けっかが わかったら、すぐに しらせます。 | I will inform you as soon as I know the results."
+      },
+      {
+        "question_number": 4,
+        "question": "【紙】に名前を書いてください。",
+        "choices": [
+          "かみ",
+          "がみ",
+          "こみ",
+          "し"
+        ],
+        "translation_answer": "紙に名前を書いてください。 | かみに なまえを かいてください。 | Please write your name on the paper."
+      },
+      {
+        "question_number": 5,
+        "question": "この仕事は【ちから】が要ります。",
+        "choices": [
+          "方",
+          "万",
+          "刀",
+          "力"
+        ],
+        "translation_answer": "この仕事は力が要ります。 | この しごとは ちからが いります。 | This job requires strength."
+      },
+      {
+        "question_number": 6,
+        "question": "駅まで【あるき】ましょう。",
+        "choices": [
+          "起き",
+          "歩き",
+          "働き",
+          "書き"
+        ],
+        "translation_answer": "駅まで歩きましょう。 | えきまで あるきましょう。 | Let's walk to the station."
+      },
+      {
+        "question_number": 7,
+        "question": "電車がゆっくり【うごき】始めました。",
+        "choices": [
+          "働き",
+          "動き",
+          "効き",
+          "起き"
+        ],
+        "translation_answer": "電車がゆっくり動き始めました。 | でんしゃが ゆっくり うごきはじめました。 | The train slowly started to move."
+      },
+      {
+        "question_number": 8,
+        "question": "晩ご飯は【牛肉】のカレーでした。",
+        "choices": [
+          "うしにく",
+          "ぎゅうにく",
+          "ぎょうにく",
+          "ぎゅにく"
+        ],
+        "translation_answer": "晩ご飯は牛肉のカレーでした。 | ばんごはんは ぎゅうにくの カレーでした。 | Dinner was beef curry."
+      },
+      {
+        "question_number": 9,
+        "question": "公園を【とおって】帰りましょう。",
+        "choices": [
+          "渡って",
+          "通って",
+          "撮って",
+          "取って"
+        ],
+        "translation_answer": "公園を通って帰りましょう。 | こうえんを とおって かえりましょう。 | Let's go home passing through the park."
+      },
+      {
+        "question_number": 10,
+        "question": "このレストランはとても【有名】です。",
+        "choices": [
+          "ゆめい",
+          "ようめい",
+          "ゆうめい",
+          "ゆうべい"
+        ],
+        "translation_answer": "このレストランはとても有名です。 | この レストランは とても ゆうめいです。 | This restaurant is very famous."
+      },
+      {
+        "question_number": 11,
+        "question": "Question 11",
+        "choices": [
+          "Submit",
+          "English",
+          "Feedback"
+        ],
+        "translation_answer": ""
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-kanji-tests/10/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "【かいじょう】にはたくさんの人がいました。",
+        "choices": [
+          "階上",
+          "開場",
+          "会場",
+          "会所"
+        ],
+        "translation_answer": "会場にはたくさんの人がいました。 | かいじょうには たくさんの ひとが いました。 | There were many people at the venue."
+      },
+      {
+        "question_number": 2,
+        "question": "試験の日が【ちかい】です。",
+        "choices": [
+          "辺かい",
+          "近かい",
+          "辺い",
+          "近い"
+        ],
+        "translation_answer": "試験の日が近いです。 | しけんの ひが ちかいです。 | The exam day is close."
+      },
+      {
+        "question_number": 3,
+        "question": "このクラスは学生が【少ない】です。",
+        "choices": [
+          "ずくない",
+          "しょうない",
+          "つくない",
+          "すくない"
+        ],
+        "translation_answer": "このクラスは学生が少ないです。 | この クラスは がくせいが すくないです。 | There are few students in this class."
+      },
+      {
+        "question_number": 4,
+        "question": "駅で【ちず】をもらいました。",
+        "choices": [
+          "地龱",
+          "値図",
+          "池図",
+          "地図"
+        ],
+        "translation_answer": "駅で地図をもらいました。 | えきで ちずを もらいました。 | I got a map at the station."
+      },
+      {
+        "question_number": 5,
+        "question": "明日は【金曜日】です。",
+        "choices": [
+          "かねようび",
+          "きんようび",
+          "こんようび",
+          "きんようひ"
+        ],
+        "translation_answer": "明日は金曜日です。 | あしたは きんようびです。 | Tomorrow is Friday."
+      },
+      {
+        "question_number": 6,
+        "question": "旅行の【こと】は後で考えましょう。",
+        "choices": [
+          "仕",
+          "事",
+          "書",
+          "物"
+        ],
+        "translation_answer": "旅行の事は後で考えましょう。 | りょこうの ことは あとで かんがえましょう。 | Let's think about the trip (thing) later."
+      },
+      {
+        "question_number": 7,
+        "question": "昨日、【医者】に行きました。",
+        "choices": [
+          "いさ",
+          "いし",
+          "いしゃ",
+          "いしや"
+        ],
+        "translation_answer": "昨日、医者に行きました。 | きのう、いしゃに いきました。 | I went to the doctor yesterday."
+      },
+      {
+        "question_number": 8,
+        "question": "果物が好きです。【特に】りんごが好きです。",
+        "choices": [
+          "どくに",
+          "とくべつに",
+          "とこに",
+          "とくに"
+        ],
+        "translation_answer": "果物が好きです。特にりんごが好きです。 | くだものが すきです。とくに りんごが すきです。 | I like fruit. I especially like apples."
+      },
+      {
+        "question_number": 9,
+        "question": "【急行】電車に乗りました。",
+        "choices": [
+          "きゅうこう",
+          "きゅうこ",
+          "きゅこう",
+          "いそこう"
+        ],
+        "translation_answer": "急行電車に乗りました。 | きゅうこう でんしゃに のりました。 | I rode the express train."
+      },
+      {
+        "question_number": 10,
+        "question": "私の【家】は駅の近くにあります。",
+        "choices": [
+          "まち",
+          "いえ",
+          "とし",
+          "みち"
+        ],
+        "translation_answer": "私の家は駅の近くにあります。 | わたしの いえは えきの ちかくに あります。 | My house is near the station."
+      },
+      {
+        "question_number": 11,
+        "question": "Question 11",
+        "choices": [
+          "Submit",
+          "English",
+          "Feedback"
+        ],
+        "translation_answer": ""
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-kanji-tests/11/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "私の【おにいさん】は背が高いです。",
+        "choices": [
+          "兄様",
+          "兄さん",
+          "お兄さん",
+          "御兄さん"
+        ],
+        "translation_answer": "私のお兄さんは背が高いです。 | わたしの おにいさんは せが たかいです。 | My older brother is tall."
+      },
+      {
+        "question_number": 2,
+        "question": "この近くに大きい【びょういん】があります。",
+        "choices": [
+          "病院",
+          "病員",
+          "秒院",
+          "病印"
+        ],
+        "translation_answer": "この近くに大きい病院があります。 | この ちかくに おおきい びょういんが あります。 | There is a big hospital near here."
+      },
+      {
+        "question_number": 3,
+        "question": "今日は寝坊して、【おきる】のが遅かったです。",
+        "choices": [
+          "起る",
+          "起きる",
+          "超きる",
+          "起立る"
+        ],
+        "translation_answer": "今日は寝坊して、起きるのが遅かったです。 | きょうは ねぼうして、おきるのが おそかったです。 | I overslept today and got up late."
+      },
+      {
+        "question_number": 4,
+        "question": "この部屋は【明るい】です。",
+        "choices": [
+          "あかるい",
+          "あがるい",
+          "さむい",
+          "めかるい"
+        ],
+        "translation_answer": "この部屋は明るいです。 | この へやは あかるいです。 | This room is bright."
+      },
+      {
+        "question_number": 5,
+        "question": "デパートで【服】を買いました。",
+        "choices": [
+          "ぷく",
+          "ふく",
+          "ぶく",
+          "ひく"
+        ],
+        "translation_answer": "デパートで服を買いました。 | デパートで ふくを かいました。 | I bought clothes at the department store."
+      },
+      {
+        "question_number": 6,
+        "question": "山の【空気】はきれいです。",
+        "choices": [
+          "こうき",
+          "くき",
+          "くうぎ",
+          "くうき"
+        ],
+        "translation_answer": "山の空気はきれいです。 | やまの くうきは きれいです。 | The mountain air is clean."
+      },
+      {
+        "question_number": 7,
+        "question": "京都でお寺を【見物】しました。",
+        "choices": [
+          "げんぶつ",
+          "みもの",
+          "けんもつ",
+          "けんぶつ"
+        ],
+        "translation_answer": "京都でお寺を見物しました。 | きょうとで おてらを けんぶつしました。 | I went sightseeing at temples in Kyoto."
+      },
+      {
+        "question_number": 8,
+        "question": "このペンを【使って】もいいですか。",
+        "choices": [
+          "つかって",
+          "すかって",
+          "づかって",
+          "つがって"
+        ],
+        "translation_answer": "このペンを使ってもいいですか。 | この ペンを つかっても いいですか。 | May I use this pen?"
+      },
+      {
+        "question_number": 9,
+        "question": "私は東京に【すんでいます】。",
+        "choices": [
+          "住んでいます",
+          "進んでいます",
+          "宿んでいます",
+          "済んでいます"
+        ],
+        "translation_answer": "私は東京に住んでいます。 | わたしは とうきょうに すんでいます。 | I live in Tokyo."
+      },
+      {
+        "question_number": 10,
+        "question": "晩ご飯にカレーを【作り】ます。",
+        "choices": [
+          "つくり",
+          "づくり",
+          "しきり",
+          "さくり"
+        ],
+        "translation_answer": "晩ご飯にカレーを作ります。 | ばんごはんに カレーを つくります。 | I will make curry for dinner."
+      },
+      {
+        "question_number": 11,
+        "question": "Question 11",
+        "choices": [
+          "Submit",
+          "English",
+          "Feedback"
+        ],
+        "translation_answer": ""
+      }
+    ]
+  },
+  {
+    "page": 12,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-kanji-tests/12/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "【入口】はあそこです。",
+        "choices": [
+          "いりぐぢ",
+          "いりぐち",
+          "いりくち",
+          "いりくぢ"
+        ],
+        "translation_answer": "入口はあそこです。 | いりぐちは あそこです。 | The entrance is over there."
+      },
+      {
+        "question_number": 2,
+        "question": "毎日、電車で学校へ【通って】います。",
+        "choices": [
+          "とおって",
+          "かよって",
+          "がよって",
+          "つうって"
+        ],
+        "translation_answer": "毎日、電車で学校へ通っています。 | まいにち、でんしゃで がっこうへ かよっています。 | I commute to school by train every day."
+      },
+      {
+        "question_number": 3,
+        "question": "【夕飯】は何を食べますか。",
+        "choices": [
+          "せきはん",
+          "ゆうはん",
+          "ゆうばん",
+          "ゆうめし"
+        ],
+        "translation_answer": "夕飯は何を食べますか。 | ゆうはんは なにを たべますか。 | What will you eat for dinner?"
+      },
+      {
+        "question_number": 4,
+        "question": "【台風】が近づいています。",
+        "choices": [
+          "だいふう",
+          "だいふ",
+          "たいふう",
+          "たいふ"
+        ],
+        "translation_answer": "台風が近づいています。 | たいふうが ちかづいています。 | A typhoon is approaching."
+      },
+      {
+        "question_number": 5,
+        "question": "【おや】に電話をしました。",
+        "choices": [
+          "視",
+          "新",
+          "親",
+          "見"
+        ],
+        "translation_answer": "親に電話をしました。 | おやに でんわを しました。 | I called my parents."
+      },
+      {
+        "question_number": 6,
+        "question": "お腹が【空きました】。",
+        "choices": [
+          "あきました",
+          "あけました",
+          "すきました",
+          "ひらきました"
+        ],
+        "translation_answer": "お腹が空きました。 | おなかが すきました。 | My stomach became empty (I'm hungry)."
+      },
+      {
+        "question_number": 7,
+        "question": "きれいな【きもの】ですね。",
+        "choices": [
+          "着物",
+          "着衣",
+          "衣物",
+          "着者"
+        ],
+        "translation_answer": "きれいな着物ですね。 | きれいな きものですね。 | That's a beautiful kimono, isn't it?"
+      },
+      {
+        "question_number": 8,
+        "question": "友達からもらった手紙を【だいじ】にしています。",
+        "choices": [
+          "大寺",
+          "大事",
+          "大切",
+          "大治"
+        ],
+        "translation_answer": "友達からもらった手紙を大事にしています。 | ともだちから もらった てがみを だいじに しています。 | I treasure the letter I received from my friend (lit. I am treating it as important)."
+      },
+      {
+        "question_number": 9,
+        "question": "【しゃちょう】は今、会議中です。",
+        "choices": [
+          "社町",
+          "社長",
+          "社重",
+          "者長"
+        ],
+        "translation_answer": "社長は今、会議中です。 | しゃちょうは いま、かいぎちゅうです。 | The company president is in a meeting right now."
+      },
+      {
+        "question_number": 10,
+        "question": "授業を【始め】ましょう。",
+        "choices": [
+          "しまえ",
+          "おこせ",
+          "はしめ",
+          "はじめ"
+        ],
+        "translation_answer": "授業を始めましょう。 | じゅぎょうを はじめましょう。 | Let's start the class."
+      },
+      {
+        "question_number": 11,
+        "question": "Question 11",
+        "choices": [
+          "Submit",
+          "English",
+          "Feedback"
+        ],
+        "translation_answer": ""
+      }
+    ]
+  },
+  {
+    "page": 13,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-kanji-tests/13/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "このスープは少し【不味い】です。",
+        "choices": [
+          "ふみい",
+          "ますい",
+          "まづい",
+          "まずい"
+        ],
+        "translation_answer": "このスープは少し不味いです。 | この スープは すこし まずいです。 | This soup tastes a little bad."
+      },
+      {
+        "question_number": 2,
+        "question": "京都で【旅館】に泊まりました。",
+        "choices": [
+          "りょけん",
+          "りょがん",
+          "たびかん",
+          "りょかん"
+        ],
+        "translation_answer": "京都で旅館に泊まりました。 | きょうとで りょかんに とまりました。 | I stayed at a ryokan in Kyoto."
+      },
+      {
+        "question_number": 3,
+        "question": "今日の【ゆうがた】、時間がありますか。",
+        "choices": [
+          "夕形",
+          "優方",
+          "夕片",
+          "夕方"
+        ],
+        "translation_answer": "今日の夕方、時間がありますか。 | きょうの ゆうがた、じかんが ありますか。 | Do you have time this evening?"
+      },
+      {
+        "question_number": 4,
+        "question": "ここで車を【うんてん】してはいけません。",
+        "choices": [
+          "運転",
+          "運伝",
+          "運轉",
+          "運動"
+        ],
+        "translation_answer": "ここで車を運転してはいけません。 | ここで くるまを うんてんしては いけません。 | You must not drive a car here."
+      },
+      {
+        "question_number": 5,
+        "question": "【去年】、日本へ来ました。",
+        "choices": [
+          "こねん",
+          "きねん",
+          "きょねん",
+          "さくねん"
+        ],
+        "translation_answer": "去年、日本へ来ました。 | きょねん、にほんへ きました。 | I came to Japan last year."
+      },
+      {
+        "question_number": 6,
+        "question": "【八百屋】で野菜を買いました。",
+        "choices": [
+          "やおや",
+          "やおくや",
+          "やひゃくや",
+          "はっぴゃくや"
+        ],
+        "translation_answer": "八百屋で野菜を買いました。 | やおやで やさいを かいました。 | I bought vegetables at the greengrocer."
+      },
+      {
+        "question_number": 7,
+        "question": "【お茶】を飲みませんか。",
+        "choices": [
+          "おさ",
+          "おちや",
+          "おじゃ",
+          "おちゃ"
+        ],
+        "translation_answer": "お茶を飲みませんか。 | おちゃを のみませんか。 | Would you like to drink some tea?"
+      },
+      {
+        "question_number": 8,
+        "question": "どんな【えいが】が好きですか。",
+        "choices": [
+          "映話",
+          "英画",
+          "画画",
+          "映画"
+        ],
+        "translation_answer": "どんな映画が好きですか。 | どんな えいがが すきですか。 | What kind of movies do you like?"
+      },
+      {
+        "question_number": 9,
+        "question": "野菜を小さく【きります】。",
+        "choices": [
+          "斬ります",
+          "切ります",
+          "刈ります",
+          "着ります"
+        ],
+        "translation_answer": "野菜を小さく切ります。 | やさいを ちいさく きります。 | I cut the vegetables into small pieces."
+      },
+      {
+        "question_number": 10,
+        "question": "あの【とけい】は少し遅れています。",
+        "choices": [
+          "時経",
+          "時系",
+          "時計",
+          "土計"
+        ],
+        "translation_answer": "あの時計は少し遅れています。 | あの とけいは すこし おくれています。 | That clock is a little slow."
+      },
+      {
+        "question_number": 11,
+        "question": "Question 11",
+        "choices": [
+          "Submit",
+          "English",
+          "Feedback"
+        ],
+        "translation_answer": ""
+      }
+    ]
+  },
+  {
+    "page": 14,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-kanji-tests/14/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "私は子どもの時から【切手】を集めています。",
+        "choices": [
+          "きいて",
+          "きっぷ",
+          "きて",
+          "きって"
+        ],
+        "translation_answer": "私は子供の時から切手を集めています。 | わたしは こどもの ときから きってを あつめています。 | I have been collecting stamps since I was a child."
+      },
+      {
+        "question_number": 2,
+        "question": "ピアノを【ならい】たいです。",
+        "choices": [
+          "慣らい",
+          "洗い",
+          "習い",
+          "倣い"
+        ],
+        "translation_answer": "ピアノを習いたいです。 | ピアノを ならいたいです。 | I want to learn the piano."
+      },
+      {
+        "question_number": 3,
+        "question": "あなたの【きもち】が分かります。",
+        "choices": [
+          "気分",
+          "気持ち",
+          "気配",
+          "気持"
+        ],
+        "translation_answer": "あなたの気持ちが分かります。 | あなたの きもちが わかります。 | I understand your feelings."
+      },
+      {
+        "question_number": 4,
+        "question": "【夏休み】に海へ行きました。",
+        "choices": [
+          "なつやみ",
+          "なつやすみ",
+          "なつうみ",
+          "やすみ"
+        ],
+        "translation_answer": "夏休みに海へ行きました。 | なつやすみに うみへ いきました。 | I went to the sea during summer vacation."
+      },
+      {
+        "question_number": 5,
+        "question": "ビザのために【大使館】へ行きました。",
+        "choices": [
+          "たいしがん",
+          "だいしかん",
+          "たいじかん",
+          "たいしかん"
+        ],
+        "translation_answer": "ビザのために大使館へ行きました。 | ビザのために たいしかんへ いきました。 | I went to the embassy for a visa."
+      },
+      {
+        "question_number": 6,
+        "question": "それはどういう【いみ】ですか。",
+        "choices": [
+          "異見",
+          "以味",
+          "意未",
+          "意味"
+        ],
+        "translation_answer": "それはどういう意味ですか。 | それは どういう いみですか。 | What does that mean?"
+      },
+      {
+        "question_number": 7,
+        "question": "駅の前に新しい【店】ができました。",
+        "choices": [
+          "こんびに",
+          "たな",
+          "てん",
+          "みせ"
+        ],
+        "translation_answer": "駅の前に新しい店ができました。 | えきの まえに あたらしい みせが できました。 | A new shop opened in front of the station."
+      },
+      {
+        "question_number": 8,
+        "question": "【したぎ】は毎日取り替えます。",
+        "choices": [
+          "下義",
+          "私着",
+          "下服",
+          "下着"
+        ],
+        "translation_answer": "下着は毎日取り替えます。 | したぎは まいにち とりかえます。 | I change my underwear every day."
+      },
+      {
+        "question_number": 9,
+        "question": "私の【姉】は先生です。",
+        "choices": [
+          "いもうと",
+          "あに",
+          "おね",
+          "あね"
+        ],
+        "translation_answer": "私の姉は先生です。 | わたしの あねは せんせいです。 | My older sister is a teacher."
+      },
+      {
+        "question_number": 10,
+        "question": "ラジオの音を【とめ】てもらえますか。",
+        "choices": [
+          "停め",
+          "止め",
+          "泊め",
+          "留め"
+        ],
+        "translation_answer": "ラジオの音を止めてもらえますか。 | ラジオの おとを とめてもらえますか。 | Could you turn off the radio?"
+      },
+      {
+        "question_number": 11,
+        "question": "Question 11",
+        "choices": [
+          "Submit",
+          "English",
+          "Feedback"
+        ],
+        "translation_answer": ""
+      }
+    ]
+  },
+  {
+    "page": 15,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-kanji-tests/15/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "次の【にちようび】にパーティーをします。",
+        "choices": [
+          "日陽日",
+          "目曜日",
+          "日曜日",
+          "日曜目"
+        ],
+        "translation_answer": "次の日曜日にパーティーをします。 | つぎの にちようびに パーティーを します。 | We will have a party next Sunday."
+      },
+      {
+        "question_number": 2,
+        "question": "バスがバス停に【止まりました】。",
+        "choices": [
+          "おりました",
+          "とめりました",
+          "ともりました",
+          "とまりました"
+        ],
+        "translation_answer": "バスがバス停に止まりました。 | バスが バスの ていに とまりました。 | The bus stopped at the bus stop."
+      },
+      {
+        "question_number": 3,
+        "question": "【いそい】で駅へ向かいました。",
+        "choices": [
+          "急ぎ",
+          "急い",
+          "速い",
+          "早い"
+        ],
+        "translation_answer": "急いで駅へ向かいました。 | いそいで えきへ むかいました。 | I hurried towards the station."
+      },
+      {
+        "question_number": 4,
+        "question": "会議は【だいたい】一時間ぐらいです。",
+        "choices": [
+          "大替",
+          "大体",
+          "大対",
+          "大抵"
+        ],
+        "translation_answer": "会議は大体一時間ぐらいです。 | かいぎは だいたい いちじかん ぐらいです。 | The meeting is roughly about one hour."
+      },
+      {
+        "question_number": 5,
+        "question": "雨が【やんだら】、出かけましょう。",
+        "choices": [
+          "飲んだら",
+          "休んだら",
+          "止んだら",
+          "病んだら"
+        ],
+        "translation_answer": "雨が止んだら、出かけましょう。 | あめが やんだら、でかけましょう。 | Let's go out when the rain stops."
+      },
+      {
+        "question_number": 6,
+        "question": "あの白い建物は【きょうかい】です。",
+        "choices": [
+          "協会",
+          "教界",
+          "教会",
+          "強会"
+        ],
+        "translation_answer": "あの白い建物は教会です。 | あの しろい たてものは きょうかいです。 | That white building is a church."
+      },
+      {
+        "question_number": 7,
+        "question": "夏休みに家族と【旅行】します。",
+        "choices": [
+          "りょっこ",
+          "りょこ",
+          "りょぎょう",
+          "りょこう"
+        ],
+        "translation_answer": "夏休みに家族と旅行します。 | なつやすみに かぞくと りょこうします。 | I will travel with my family during summer vacation."
+      },
+      {
+        "question_number": 8,
+        "question": "仕事の【かえり】はいつも遅いです。",
+        "choices": [
+          "還り",
+          "始まり",
+          "帰り",
+          "返り"
+        ],
+        "translation_answer": "仕事の帰りはいつも遅いです。 | しごとの かえりは いつも おそいです。 | My return from work is always late."
+      },
+      {
+        "question_number": 9,
+        "question": "【あに】は私より背が高いです。",
+        "choices": [
+          "元",
+          "見",
+          "克",
+          "兄"
+        ],
+        "translation_answer": "兄は私より背が高いです。 | あには わたしより せが たかいです。 | My older brother is taller than me."
+      },
+      {
+        "question_number": 10,
+        "question": "彼女は【あかい】セーターを着ています。",
+        "choices": [
+          "赤々い",
+          "紅い",
+          "赤い",
+          "赤"
+        ],
+        "translation_answer": "彼女は赤いセーターを着ています。 | かのじょは あかい セーターを きています。 | She is wearing a red sweater."
+      },
+      {
+        "question_number": 11,
+        "question": "Question 11",
+        "choices": [
+          "Submit",
+          "English",
+          "Feedback"
+        ],
+        "translation_answer": ""
+      }
+    ]
+  },
+  {
+    "page": 16,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-kanji-tests/16/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "明日は【げつようび】です。",
+        "choices": [
+          "月曜目",
+          "目曜日",
+          "月曜日",
+          "刖曜日"
+        ],
+        "translation_answer": "明日は月曜日です。 | あしたは げつようびです。 | Tomorrow is Monday."
+      },
+      {
+        "question_number": 2,
+        "question": "毎日、【としょかん】で本を読みます。",
+        "choices": [
+          "図書官",
+          "図書館",
+          "図所館",
+          "都書簡"
+        ],
+        "translation_answer": "毎日、図書館で本を読みます。 | まいにち、としょかんで ほんを よみます。 | I read books at the library every day."
+      },
+      {
+        "question_number": 3,
+        "question": "毎朝、軽い【運動】をします。",
+        "choices": [
+          "うごどう",
+          "うんどう",
+          "うんど",
+          "ゆんどう"
+        ],
+        "translation_answer": "毎朝、軽い運動をします。 | まいあさ、かるい うんどうを します。 | I do light exercise every morning."
+      },
+      {
+        "question_number": 4,
+        "question": "もっと【かいわ】の練習がしたいです。",
+        "choices": [
+          "会話",
+          "階話",
+          "会活",
+          "開話"
+        ],
+        "translation_answer": "もっと会話の練習がしたいです。 | もっと かいわの れんしゅうが したいです。 | I want to practice conversation more."
+      },
+      {
+        "question_number": 5,
+        "question": "川で【さかな】を釣りました。",
+        "choices": [
+          "漁",
+          "魚",
+          "魯",
+          "鮭"
+        ],
+        "translation_answer": "川で魚を釣りました。 | かわで さかなを つりました。 | I caught fish in the river."
+      },
+      {
+        "question_number": 6,
+        "question": "動物園で色々な【動物】を見ました。",
+        "choices": [
+          "どうもつ",
+          "とうぶつ",
+          "どうぶつ",
+          "どうふつ"
+        ],
+        "translation_answer": "動物園で色々な動物を見ました。 | どうぶつえんで いろいろな どうぶつを みました。 | I saw various animals at the zoo."
+      },
+      {
+        "question_number": 7,
+        "question": "あなたの考えは【ただしい】と思います。",
+        "choices": [
+          "正い",
+          "正",
+          "正しい",
+          "直しい"
+        ],
+        "translation_answer": "あなたの考えは正しいと思います。 | あなたの かんがえは ただしいと おもいます。 | I think your idea is correct."
+      },
+      {
+        "question_number": 8,
+        "question": "家族は私にとって【大切】です。",
+        "choices": [
+          "だいせつ",
+          "たいせづ",
+          "たいせつ",
+          "だいじ"
+        ],
+        "translation_answer": "家族は私にとって大切です。 | かぞくは わたしにとって たいせつです。 | Family is important to me."
+      },
+      {
+        "question_number": 9,
+        "question": "父は【会社】で働いています。",
+        "choices": [
+          "かいしゃ",
+          "かいじゃ",
+          "かいさ",
+          "がいしゃ"
+        ],
+        "translation_answer": "父は会社で働いています。 | ちちは かいしゃで はたらいています。 | My father works at a company."
+      },
+      {
+        "question_number": 10,
+        "question": "この町にはたくさんの【こうじょう】があります。",
+        "choices": [
+          "工場",
+          "工状",
+          "工所",
+          "公場"
+        ],
+        "translation_answer": "この町にはたくさんの工場があります。 | この まちには たくさんの こうじょうが あります。 | There are many factories in this town."
+      },
+      {
+        "question_number": 11,
+        "question": "Question 11",
+        "choices": [
+          "Submit",
+          "English",
+          "Feedback"
+        ],
+        "translation_answer": ""
+      }
+    ]
+  },
+  {
+    "page": 17,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-kanji-tests/17/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "【銀行】でお金を下ろしました。",
+        "choices": [
+          "きんこう",
+          "ぎんごう",
+          "ぎんこう",
+          "ぎんこ"
+        ],
+        "translation_answer": "銀行でお金をおろしました。 | ぎんこうで おかねを おろしました。 | I withdrew money at the bank."
+      },
+      {
+        "question_number": 2,
+        "question": "【店員】さんに道を聞きました。",
+        "choices": [
+          "ていいん",
+          "みせいん",
+          "てんいん",
+          "てんえん"
+        ],
+        "translation_answer": "店員さんに道を聞きました。 | てんいんさんに みちを ききました。 | I asked the store clerk for directions."
+      },
+      {
+        "question_number": 3,
+        "question": "先生に【しつもん】をしました。",
+        "choices": [
+          "質聞",
+          "質問",
+          "失文",
+          "室問"
+        ],
+        "translation_answer": "先生に質問をしました。 | せんせいに しつもんを しました。 | I asked the teacher a question."
+      },
+      {
+        "question_number": 4,
+        "question": "週末が来るのが【たのしみ】です。",
+        "choices": [
+          "楽しみ",
+          "楽み",
+          "楽",
+          "快しみ"
+        ],
+        "translation_answer": "週末が来るのが楽しみです。 | しゅうまつが くるのが たのしみです。 | I am looking forward to the weekend coming."
+      },
+      {
+        "question_number": 5,
+        "question": "この店には色々な【品物】があります。",
+        "choices": [
+          "しなもの",
+          "ひんもの",
+          "しなもん",
+          "しなぶつ"
+        ],
+        "translation_answer": "この店には色々な品物があります。 | この みせには いろいろな しなものが あります。 | This shop has various goods."
+      },
+      {
+        "question_number": 6,
+        "question": "かばんを【持って】います。",
+        "choices": [
+          "もって",
+          "もづって",
+          "まって",
+          "むって"
+        ],
+        "translation_answer": "かばんを持っています。 | かばんを もっています。 | I am holding a bag."
+      },
+      {
+        "question_number": 7,
+        "question": "【教室】で授業を受けます。",
+        "choices": [
+          "きょうしつ",
+          "こうしつ",
+          "きょうしづ",
+          "きょしつ"
+        ],
+        "translation_answer": "教室で授業を受けます。 | きょうしつで じゅぎょうを うけます。 | I take classes in the classroom."
+      },
+      {
+        "question_number": 8,
+        "question": "大学で【ぶんがく】を勉強しています。",
+        "choices": [
+          "文岳",
+          "聞学",
+          "文学",
+          "文楽"
+        ],
+        "translation_answer": "大学で文学を勉強しています。 | だいがくで ぶんがくを べんきょうしています。 | I am studying literature at university."
+      },
+      {
+        "question_number": 9,
+        "question": "駅の前に新しい【たてもの】が建ちました。",
+        "choices": [
+          "建物",
+          "建者",
+          "立物",
+          "健物"
+        ],
+        "translation_answer": "駅の前に新しい建物が建ちました。 | えきの まえに あたらしい たてものが たちました。 | A new building was built in front of the station."
+      },
+      {
+        "question_number": 10,
+        "question": "この【うわぎ】は暖かいです。",
+        "choices": [
+          "外着",
+          "上着",
+          "上衣",
+          "下着"
+        ],
+        "translation_answer": "この上着は暖かいです。 | この うわぎは あたたかいです。 | This coat is warm."
+      },
+      {
+        "question_number": 11,
+        "question": "Question 11",
+        "choices": [
+          "Submit",
+          "English",
+          "Feedback"
+        ],
+        "translation_answer": ""
+      }
+    ]
+  },
+  {
+    "page": 18,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-kanji-tests/18/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "好きな【いろ】は何ですか。",
+        "choices": [
+          "免",
+          "邑",
+          "危",
+          "色"
+        ],
+        "translation_answer": "好きな色は何ですか。 | すきな いろは なんですか。 | What is your favorite color?"
+      },
+      {
+        "question_number": 2,
+        "question": "【しんぶんしゃ】の建物は駅の近くにあります。",
+        "choices": [
+          "信聞社",
+          "新聞社",
+          "新聞者",
+          "新文社"
+        ],
+        "translation_answer": "新聞社の建物は駅の近くにあります。 | しんぶんしゃの たてものは えきの ちかくに あります。 | The newspaper company building is near the station."
+      },
+      {
+        "question_number": 3,
+        "question": "会議の資料を【あつめて】ください。",
+        "choices": [
+          "隼めて",
+          "隻めて",
+          "集めて",
+          "隹めて"
+        ],
+        "translation_answer": "会議の資料を集めてください。 | かいぎの しりょうを あつめてください。 | Please collect the materials for the meeting."
+      },
+      {
+        "question_number": 4,
+        "question": "【らいしゅう】の土曜日に会いましょう。",
+        "choices": [
+          "来週",
+          "米週",
+          "氷週",
+          "求週"
+        ],
+        "translation_answer": "来週の土曜日に会いましょう。 | らいしゅうの どようびに あいましょう。 | Let's meet next Saturday."
+      },
+      {
+        "question_number": 5,
+        "question": "何か【飲み物】が欲しいですか。",
+        "choices": [
+          "よみもの",
+          "たのみもの",
+          "のみもんお",
+          "のみもの"
+        ],
+        "translation_answer": "何か飲み物が欲しいですか。 | なにか のみものが ほしいですか。 | Would you like something to drink?"
+      },
+      {
+        "question_number": 6,
+        "question": "昨日、近くで【火事】がありました。",
+        "choices": [
+          "かじ",
+          "かし",
+          "ひじ",
+          "かごと"
+        ],
+        "translation_answer": "昨日、近くで火事がありました。 | きのう、ちかくで かじが ありました。 | There was a fire nearby yesterday."
+      },
+      {
+        "question_number": 7,
+        "question": "田中さんはとても【親切】な人です。",
+        "choices": [
+          "しんせづ",
+          "しんせつ",
+          "しんぜつ",
+          "おやせつ"
+        ],
+        "translation_answer": "田中さんはとても親切な人です。 | たなかさんは とても しんせつな ひとです。 | Mr./Ms. Tanaka is a very kind person."
+      },
+      {
+        "question_number": 8,
+        "question": "駅前の【とおり】に新しい店ができました。",
+        "choices": [
+          "透り",
+          "通り",
+          "到り",
+          "通理"
+        ],
+        "translation_answer": "駅前の通りに新しい店ができました。 | えきまえの とおりに あたらしい みせが できました。 | A new shop opened on the street in front of the station."
+      },
+      {
+        "question_number": 9,
+        "question": "駅への道を【おしえて】ください。",
+        "choices": [
+          "押さえて",
+          "教えて",
+          "答えて",
+          "訓えて"
+        ],
+        "translation_answer": "駅への道を教えてください。 | えきへの みちを おしえてください。 | Please tell me the way to the station."
+      },
+      {
+        "question_number": 10,
+        "question": "駅前で【あい】ましょう。",
+        "choices": [
+          "合い",
+          "言い",
+          "会い",
+          "逢い"
+        ],
+        "translation_answer": "駅前で会いましょう。 | えきまえで あいましょう。 | Let's meet in front of the station."
+      },
+      {
+        "question_number": 11,
+        "question": "Question 11",
+        "choices": [
+          "Submit",
+          "English",
+          "Feedback"
+        ],
+        "translation_answer": ""
+      }
+    ]
+  },
+  {
+    "page": 19,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-kanji-tests/19/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "駅で友達を【待って】います。",
+        "choices": [
+          "もって",
+          "だって",
+          "まって",
+          "たって"
+        ],
+        "translation_answer": "駅で友達を待っています。 | えきで ともだちを まっています。 | I am waiting for my friend at the station."
+      },
+      {
+        "question_number": 2,
+        "question": "【目】が悪いですから、メガネを使います。",
+        "choices": [
+          "ま",
+          "もく",
+          "み",
+          "め"
+        ],
+        "translation_answer": "目が悪いですから、メガネを使います。 | めが わるいですから、メガネを つかいます。 | I have poor eyesight, so I wear glasses."
+      },
+      {
+        "question_number": 3,
+        "question": "明日は晴れると【思い】ます。",
+        "choices": [
+          "かんがえ",
+          "ねがい",
+          "おもい",
+          "しんじ"
+        ],
+        "translation_answer": "明日は晴れると思います。 | あしたは はれると おもいます。 | I think it will be sunny tomorrow."
+      },
+      {
+        "question_number": 4,
+        "question": "公園にたくさんの【鳥】がいます。",
+        "choices": [
+          "とり",
+          "ちょう",
+          "どり",
+          "たり"
+        ],
+        "translation_answer": "公園にたくさんの鳥がいます。 | こうえんに たくさんの とりが います。 | There are many birds in the park."
+      },
+      {
+        "question_number": 5,
+        "question": "【せんしゅう】のテストは難しかったです。",
+        "choices": [
+          "先週",
+          "今週",
+          "前週",
+          "先集"
+        ],
+        "translation_answer": "先週のテストは難しかったです。 | せんしゅうの テストは むずかしかったです。 | Last week's test was difficult."
+      },
+      {
+        "question_number": 6,
+        "question": "春に友達と【花見】をします。",
+        "choices": [
+          "ばなみ",
+          "はなみ",
+          "はなけん",
+          "かみ"
+        ],
+        "translation_answer": "春に友達と花見をします。 | はるに ともだちと はなみを します。 | I go flower viewing with friends in the spring."
+      },
+      {
+        "question_number": 7,
+        "question": "来年、国へ【かえる】予定です。",
+        "choices": [
+          "帰",
+          "帰る",
+          "還る",
+          "返る"
+        ],
+        "translation_answer": "来年、国へ帰る予定です。 | らいねん、くにへ かえる よていです。 | I plan to return to my country next year."
+      },
+      {
+        "question_number": 8,
+        "question": "公園にたくさんの人が【集まり】ました。",
+        "choices": [
+          "しゅうまり",
+          "あつまり",
+          "つまり",
+          "まとまり"
+        ],
+        "translation_answer": "公園にたくさんの人が集まりました。 | こうえんに たくさんの ひとが あつまりました。 | Many people gathered in the park."
+      },
+      {
+        "question_number": 9,
+        "question": "毎日、日本語を【勉強】します。",
+        "choices": [
+          "べんきょう",
+          "べんぎょう",
+          "めんきょう",
+          "べんきょ"
+        ],
+        "translation_answer": "毎日、日本語を勉強します。 | まいにち、にほんごを べんきょうします。 | I study Japanese every day."
+      },
+      {
+        "question_number": 10,
+        "question": "【すいどう】の料金を払いました。",
+        "choices": [
+          "水道",
+          "水路",
+          "推道",
+          "水通"
+        ],
+        "translation_answer": "水道の料金を払いました。 | すいどうの りょうきんを はらいました。 | I paid the water bill."
+      },
+      {
+        "question_number": 11,
+        "question": "Question 11",
+        "choices": [
+          "Submit",
+          "English",
+          "Feedback"
+        ],
+        "translation_answer": ""
+      }
+    ]
+  },
+  {
+    "page": 20,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-kanji-tests/20/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "友達と話すのは【たのしい】です。",
+        "choices": [
+          "楽しい",
+          "楽々い",
+          "楽",
+          "快しい"
+        ],
+        "translation_answer": "友達と話すのは楽しいです。 | ともだちと はなすのは たのしいです。 | Talking with friends is fun."
+      },
+      {
+        "question_number": 2,
+        "question": "彼は【えいご】が上手です。",
+        "choices": [
+          "永語",
+          "英語",
+          "英悟",
+          "映語"
+        ],
+        "translation_answer": "彼は英語が上手です。 | かれは えいごが じょうずです。 | He is good at English."
+      },
+      {
+        "question_number": 3,
+        "question": "【妹】は大学生です。",
+        "choices": [
+          "あね",
+          "いもうと",
+          "おとうと",
+          "あに"
+        ],
+        "translation_answer": "妹は大学生です。 | いもうとは だいがくせい です。 | My younger sister is a university student."
+      },
+      {
+        "question_number": 4,
+        "question": "この公園は人が【多い】です。",
+        "choices": [
+          "うい",
+          "おおい",
+          "おおえ",
+          "たい"
+        ],
+        "translation_answer": "この公園は人が多いです。 | この こうえんは ひとが おおいです。 | There are many people in this park."
+      },
+      {
+        "question_number": 5,
+        "question": "友達にお金を【貸し】ました。",
+        "choices": [
+          "けし",
+          "かせ",
+          "かし",
+          "かり"
+        ],
+        "translation_answer": "友達にお金を貸しました。 | ともだちに おかねを かしました。 | I lent money to my friend."
+      },
+      {
+        "question_number": 6,
+        "question": "先生の【はつおん】をよく聞いてください。",
+        "choices": [
+          "発声",
+          "発音",
+          "初音",
+          "発言"
+        ],
+        "translation_answer": "先生の発音をよく聞いてください。 | せんせいの はつおんを よく きいてください。 | Please listen carefully to the teacher's pronunciation."
+      },
+      {
+        "question_number": 7,
+        "question": "銀行は何時に【あき】ますか。",
+        "choices": [
+          "開き",
+          "問き",
+          "閉き",
+          "間き"
+        ],
+        "translation_answer": "銀行は何時に開きますか。 | ぎんこうは なんじに あきますか。 | What time does the bank open?"
+      },
+      {
+        "question_number": 8,
+        "question": "週末の計画を【考えます】。",
+        "choices": [
+          "かんがえます",
+          "かんじえます",
+          "かんがます",
+          "がんがえます"
+        ],
+        "translation_answer": "週末の計画を考えます。 | しゅうまつの けいかくを かんがえます。 | I am thinking about the weekend plans."
+      },
+      {
+        "question_number": 9,
+        "question": "【朝】、六時に起きます。",
+        "choices": [
+          "ちょう",
+          "あす",
+          "あさ",
+          "あざ"
+        ],
+        "translation_answer": "朝、六時に起きます。 | あさ、ろくじに おきます。 | I get up at 6 in the morning."
+      },
+      {
+        "question_number": 10,
+        "question": "【今度】の週末、何をしますか。",
+        "choices": [
+          "いまど",
+          "こんたび",
+          "こど",
+          "こんど"
+        ],
+        "translation_answer": "今度の週末、何をしますか。 | こんどの しゅうまつ、なにを しますか。 | What will you do this weekend (next coming weekend)?"
+      },
+      {
+        "question_number": 11,
+        "question": "Question 11",
+        "choices": [
+          "Submit",
+          "English",
+          "Feedback"
+        ],
+        "translation_answer": ""
+      }
+    ]
+  },
+  {
+    "page": 21,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-kanji-tests/21/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "毎朝、公園を【走ります】。",
+        "choices": [
+          "はしります",
+          "そうります",
+          "はじります",
+          "ばしります"
+        ],
+        "translation_answer": "毎朝、公園を走ります。 | まいあさ、こうえんを はしります。 | I run in the park every morning."
+      },
+      {
+        "question_number": 2,
+        "question": "みんなで【うた】を歌いましょう。",
+        "choices": [
+          "唄",
+          "詩",
+          "語",
+          "歌"
+        ],
+        "translation_answer": "みんなで歌を歌いましょう。 | みんなで うたを うたいましょう。 | Let's sing a song together."
+      },
+      {
+        "question_number": 3,
+        "question": "【春】は花がきれいです。",
+        "choices": [
+          "あき",
+          "ある",
+          "あさ",
+          "はる"
+        ],
+        "translation_answer": "春は花がきれいです。 | はるは はなが きれいです。 | Flowers are beautiful in spring."
+      },
+      {
+        "question_number": 4,
+        "question": "明日は【木曜日】です。",
+        "choices": [
+          "もくようぴ",
+          "もくようひ",
+          "もくようび",
+          "きようび"
+        ],
+        "translation_answer": "明日は木曜日です。 | あしたは もくようびです。 | Tomorrow is Thursday."
+      },
+      {
+        "question_number": 5,
+        "question": "【ふるい】写真を見つけました。",
+        "choices": [
+          "老い",
+          "古い",
+          "旧い",
+          "故い"
+        ],
+        "translation_answer": "古い写真を見つけました。 | ふるい しゃしんを みつけました。 | I found an old photo."
+      },
+      {
+        "question_number": 6,
+        "question": "何か【ご用】ですか。",
+        "choices": [
+          "ごよう",
+          "ごも",
+          "ごゆう",
+          "ごもちい"
+        ],
+        "translation_answer": "何かご用ですか。 | なにか ごようですか。 | Is there something you need? / Can I help you with something?"
+      },
+      {
+        "question_number": 7,
+        "question": "私は【音楽】を聞くのが好きです。",
+        "choices": [
+          "おんがく",
+          "おんかく",
+          "おんらく",
+          "あんがく"
+        ],
+        "translation_answer": "私は音楽を聞くのが好きです。 | わたしは おんがくを きくのが すきです。 | I like listening to music."
+      },
+      {
+        "question_number": 8,
+        "question": "大学で日本の文化を【研究】しています。",
+        "choices": [
+          "けんきょう",
+          "げんきゅう",
+          "けんぎゅう",
+          "けんきゅう"
+        ],
+        "translation_answer": "大学で日本の文化を研究しています。 | だいがくで にほんの ぶんかを けんきゅうしています。 | I am researching Japanese culture at university."
+      },
+      {
+        "question_number": 9,
+        "question": "右【て】に本を持っています。",
+        "choices": [
+          "手",
+          "才",
+          "毛",
+          "丁"
+        ],
+        "translation_answer": "右手に本を持っています。 | みぎてに ほんを もっています。 | I am holding a book in my right hand."
+      },
+      {
+        "question_number": 10,
+        "question": "窓を【開けて】ください。",
+        "choices": [
+          "ひらけて",
+          "あげて",
+          "あけて",
+          "かけて"
+        ],
+        "translation_answer": "窓を開けてください。 | まどを あけてください。 | Please open the window."
+      },
+      {
+        "question_number": 11,
+        "question": "Question 11",
+        "choices": [
+          "Submit",
+          "English",
+          "Feedback"
+        ],
+        "translation_answer": ""
+      }
+    ]
+  },
+  {
+    "page": 22,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-kanji-tests/22/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "【なつ】休みに海へ行きたいです。",
+        "choices": [
+          "受",
+          "頁",
+          "憂",
+          "夏"
+        ],
+        "translation_answer": "夏休みに海へ行きたいです。 | なつやすみに うみへ いきたいです。 | I want to go to the sea during summer vacation."
+      },
+      {
+        "question_number": 2,
+        "question": "もっと【やすい】シャツはありませんか。",
+        "choices": [
+          "易い",
+          "安",
+          "案い",
+          "安い"
+        ],
+        "translation_answer": "もっと安いシャツはありませんか。 | もっと やすい シャツは ありませんか。 | Aren't there any cheaper shirts?"
+      },
+      {
+        "question_number": 3,
+        "question": "日本語が【すこし】分かります。",
+        "choices": [
+          "少し",
+          "少々",
+          "僅し",
+          "少"
+        ],
+        "translation_answer": "日本語が少し分かります。 | にほんごが すこし わかります。 | I understand Japanese a little."
+      },
+      {
+        "question_number": 4,
+        "question": "祖父は去年【死にました】。",
+        "choices": [
+          "しにました",
+          "たにました",
+          "じにました",
+          "すにました"
+        ],
+        "translation_answer": "祖父は去年死にました。 | そふは きょねん しにました。 | My grandfather died last year."
+      },
+      {
+        "question_number": 5,
+        "question": "【新しい】靴を買いました。",
+        "choices": [
+          "あらたしい",
+          "あたらし",
+          "あたらしい",
+          "あだらしい"
+        ],
+        "translation_answer": "新しい靴を買いました。 | あたらしい くつを かいました。 | I bought new shoes."
+      },
+      {
+        "question_number": 6,
+        "question": "病気の母の【世話】をしています。",
+        "choices": [
+          "せい",
+          "せわ",
+          "せは",
+          "ぜわ"
+        ],
+        "translation_answer": "病気の母の世話をしています。 | びょうきの ははの せわを しています。 | I am taking care of my sick mother."
+      },
+      {
+        "question_number": 7,
+        "question": "母の【りょうり】はとても美味しいです。",
+        "choices": [
+          "量理",
+          "理料",
+          "料里",
+          "料理"
+        ],
+        "translation_answer": "母の料理はとても美味しいです。 | ははの りょうりは とても おいしいです。 | My mother's cooking is very delicious."
+      },
+      {
+        "question_number": 8,
+        "question": "あなたの【意見】を聞かせてください。",
+        "choices": [
+          "いぎん",
+          "いげん",
+          "いけん",
+          "いかん"
+        ],
+        "translation_answer": "あなたの意見を聞かせてください。 | あなたの いけんを きかせてください。 | Please let me hear your opinion."
+      },
+      {
+        "question_number": 9,
+        "question": "昨日、新しい本を【かいました】。",
+        "choices": [
+          "員いました",
+          "買ました",
+          "買いました",
+          "貝いました"
+        ],
+        "translation_answer": "昨日、新しい本を買いました。 | きのう、あたらしい ほんを かいました。 | I bought a new book yesterday."
+      },
+      {
+        "question_number": 10,
+        "question": "彼は【あし】が速いです。",
+        "choices": [
+          "是",
+          "足",
+          "促",
+          "兄"
+        ],
+        "translation_answer": "彼は足が速いです。 | かれは あしが はやいです。 | He is a fast runner (lit. his feet are fast)."
+      },
+      {
+        "question_number": 11,
+        "question": "Question 11",
+        "choices": [
+          "Submit",
+          "English",
+          "Feedback"
+        ],
+        "translation_answer": ""
+      }
+    ]
+  },
+  {
+    "page": 23,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-kanji-tests/23/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "パーティーの【用意】をしましょう。",
+        "choices": [
+          "ゆうい",
+          "ようえ",
+          "ようい",
+          "ようり"
+        ],
+        "translation_answer": "パーティーの用意をしましょう。 | パーティーの よういを しましょう。 | Let's make preparations for the party."
+      },
+      {
+        "question_number": 2,
+        "question": "国へ荷物を【おくり】たいです。",
+        "choices": [
+          "送り",
+          "遅り",
+          "贈り",
+          "遣り"
+        ],
+        "translation_answer": "国へ荷物を送りたいです。 | くにへ にもつを おくりたいです。 | I want to send a package to my home country."
+      },
+      {
+        "question_number": 3,
+        "question": "もっと【字】をきれいに書きたいです。",
+        "choices": [
+          "じ",
+          "あざ",
+          "し",
+          "ぢ"
+        ],
+        "translation_answer": "もっと字をきれいに書きたいです。 | もっと じを きれいに かきたいです。 | I want to write characters more neatly."
+      },
+      {
+        "question_number": 4,
+        "question": "【うみ】の水はしょっぱいです。",
+        "choices": [
+          "悔",
+          "梅",
+          "海",
+          "毎"
+        ],
+        "translation_answer": "海の水はしょっぱいです。 | うみの みずは しょっぱいです。 | Sea water is salty."
+      },
+      {
+        "question_number": 5,
+        "question": "毎朝、【新聞】を読みます。",
+        "choices": [
+          "しんぶん",
+          "じんぶん",
+          "しんふん",
+          "しんもん"
+        ],
+        "translation_answer": "毎朝、新聞を読みます。 | まいあさ、しんぶんを よみます。 | I read the newspaper every morning."
+      },
+      {
+        "question_number": 6,
+        "question": "どんな【あじ】のアイスクリームが好きですか。",
+        "choices": [
+          "昧",
+          "身",
+          "未",
+          "味"
+        ],
+        "translation_answer": "どんな味のアイスクリームが好きですか。 | どんな あじの アイスクリームが すきですか。 | What flavor of ice cream do you like?"
+      },
+      {
+        "question_number": 7,
+        "question": "お【元気】ですか。",
+        "choices": [
+          "げんけ",
+          "がんき",
+          "もとき",
+          "げんき"
+        ],
+        "translation_answer": "お元気ですか。 | おげんきですか。 | Are you well? / How are you?"
+      },
+      {
+        "question_number": 8,
+        "question": "何の【音】ですか。",
+        "choices": [
+          "おと",
+          "あと",
+          "おん",
+          "ね"
+        ],
+        "translation_answer": "何の音ですか。 | なんの おとですか。 | What sound is that?"
+      },
+      {
+        "question_number": 9,
+        "question": "【どようび】と日曜日は休みです。",
+        "choices": [
+          "杜曜日",
+          "土曜目",
+          "度曜日",
+          "土曜日"
+        ],
+        "translation_answer": "土曜日と日曜日は休みです。 | どようびと にちようびは やすみです。 | Saturday and Sunday are days off."
+      },
+      {
+        "question_number": 10,
+        "question": "今日は【特別】な日です。",
+        "choices": [
+          "とくべつ",
+          "とくべづ",
+          "どくべつ",
+          "とくへつ"
+        ],
+        "translation_answer": "今日は特別な日です。 | きょうは とくべつな ひです。 | Today is a special day."
+      },
+      {
+        "question_number": 11,
+        "question": "Question 11",
+        "choices": [
+          "Submit",
+          "English",
+          "Feedback"
+        ],
+        "translation_answer": ""
+      }
+    ]
+  },
+  {
+    "page": 24,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-kanji-tests/24/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "毎朝、【ごはん】と味噌汁を食べます。",
+        "choices": [
+          "飯",
+          "ご飯",
+          "御飯",
+          "ご食"
+        ],
+        "translation_answer": "毎朝、ご飯と味噌汁を食べます。 | まいあさ、ごはんと みそしるを たべます。 | I eat rice and miso soup every morning."
+      },
+      {
+        "question_number": 2,
+        "question": "私の【主人】は会社員です。",
+        "choices": [
+          "あるじ",
+          "しゅじん",
+          "しゅうじん",
+          "すじん"
+        ],
+        "translation_answer": "私の主人は会社員です。 | わたしの しゅじんは かいしゃいんです。 | My husband is a company employee."
+      },
+      {
+        "question_number": 3,
+        "question": "時間は【たり】ますか。",
+        "choices": [
+          "兄り",
+          "充り",
+          "足り",
+          "満り"
+        ],
+        "translation_answer": "時間は足りますか。 | じかんは たりますか。 | Is there enough time?"
+      },
+      {
+        "question_number": 4,
+        "question": "一緒に【昼ご飯】を食べませんか。",
+        "choices": [
+          "ひるごばん",
+          "ひるごはん",
+          "ひるこはん",
+          "ちゅうごはん"
+        ],
+        "translation_answer": "一緒に昼ご飯を食べませんか。 | いっしょに ひるごはんを たべませんか。 | Won't you have lunch together with me?"
+      },
+      {
+        "question_number": 5,
+        "question": "【おくじょう】から町がよく見えます。",
+        "choices": [
+          "奥上",
+          "屋状",
+          "屋上",
+          "家上"
+        ],
+        "translation_answer": "屋上から町がよく見えます。 | おくじょうから まちが よく みえます。 | You can see the town well from the rooftop."
+      },
+      {
+        "question_number": 6,
+        "question": "彼の名前を【知って】いますか。",
+        "choices": [
+          "ちって",
+          "じって",
+          "ひって",
+          "しって"
+        ],
+        "translation_answer": "彼の名前を知っていますか。 | かれの なまえを しっていますか。 | Do you know his name?"
+      },
+      {
+        "question_number": 7,
+        "question": "週末にデパートへ【買い物】に行きます。",
+        "choices": [
+          "かいもん",
+          "がいもの",
+          "かうもの",
+          "かいもの"
+        ],
+        "translation_answer": "週末にデパートへ買い物に行きます。 | しゅうまつに デパートへ かいものに いきます。 | I go shopping at the department store on weekends."
+      },
+      {
+        "question_number": 8,
+        "question": "スーパーで【にく】を買いました。",
+        "choices": [
+          "肉",
+          "宍",
+          "囚",
+          "内"
+        ],
+        "translation_answer": "スーパーで肉を買いました。 | スーパーで にくを かいました。 | I bought meat at the supermarket."
+      },
+      {
+        "question_number": 9,
+        "question": "体の調子が【わるい】です。",
+        "choices": [
+          "悪い",
+          "亞い",
+          "悪し",
+          "悪"
+        ],
+        "translation_answer": "体の調子が悪いです。 | からだの ちょうしが わるいです。 | I don't feel well (My body condition is bad)."
+      },
+      {
+        "question_number": 10,
+        "question": "窓から冷たい【かぜ】が入ってきます。",
+        "choices": [
+          "嵐",
+          "虱",
+          "風",
+          "凧"
+        ],
+        "translation_answer": "窓から冷たい風が入ってきます。 | まどから つめたい かぜが はいってきます。 | Cold wind is coming in through the window."
+      },
+      {
+        "question_number": 11,
+        "question": "Question 11",
+        "choices": [
+          "Submit",
+          "English",
+          "Feedback"
+        ],
+        "translation_answer": ""
+      }
+    ]
+  },
+  {
+    "page": 25,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-kanji-tests/25/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "私の【家族】は四人です。",
+        "choices": [
+          "かぞく",
+          "かずく",
+          "かそく",
+          "がぞく"
+        ],
+        "translation_answer": "私の家族は四人です。 | わたしの かぞくは よにんです。 | There are four people in my family."
+      },
+      {
+        "question_number": 2,
+        "question": "【秋】は涼しいです。",
+        "choices": [
+          "おき",
+          "とき",
+          "しゅう",
+          "あき"
+        ],
+        "translation_answer": "秋は涼しいです。 | あきは すずしいです。 | Autumn is cool."
+      },
+      {
+        "question_number": 3,
+        "question": "日本へ【一度】行ったことがあります。",
+        "choices": [
+          "いちど",
+          "いちご",
+          "いっと",
+          "ひとたび"
+        ],
+        "translation_answer": "日本へ一度行ったことがあります。 | にほんへ いちど いった ことが あります。 | I have been to Japan once."
+      },
+      {
+        "question_number": 4,
+        "question": "コーヒーの【代わり】に紅茶を飲みます。",
+        "choices": [
+          "かえわり",
+          "だいわり",
+          "かわり",
+          "がわり"
+        ],
+        "translation_answer": "コーヒーの代わりに紅茶を飲みます。 | コーヒーの かわりに こうちゃを のみます。 | I'll drink black tea instead of (as a substitute for) coffee."
+      },
+      {
+        "question_number": 5,
+        "question": "私は【いぬ】を飼っています。",
+        "choices": [
+          "大",
+          "太",
+          "犬",
+          "尤"
+        ],
+        "translation_answer": "私は犬を飼っています。 | わたしは いぬを かっています。 | I have a dog (as a pet)."
+      },
+      {
+        "question_number": 6,
+        "question": "この大学の【しょくどう】は安くて美味しいです。",
+        "choices": [
+          "職堂",
+          "食堂",
+          "燭堂",
+          "食道"
+        ],
+        "translation_answer": "この大学の食堂は安くて美味しいです。 | この だいがくの しょくどうは やすくて おいしいです。 | This university's canteen is cheap and delicious."
+      },
+      {
+        "question_number": 7,
+        "question": "この国の【しゃかい】は面白いです。",
+        "choices": [
+          "社交",
+          "社会",
+          "社界",
+          "者会"
+        ],
+        "translation_answer": "この国の社会は面白いです。 | この くにの しゃかいは おもしろいです。 | This country's society is interesting."
+      },
+      {
+        "question_number": 8,
+        "question": "映画はもうすぐ【はじまり】ます。",
+        "choices": [
+          "初まり",
+          "終り",
+          "始まり",
+          "止まり"
+        ],
+        "translation_answer": "映画はもうすぐ始まります。 | えいがは もうすぐ はじまります。 | The movie will begin soon."
+      },
+      {
+        "question_number": 9,
+        "question": "これもあれも【おなじ】値段です。",
+        "choices": [
+          "共じ",
+          "合じ",
+          "同し",
+          "同じ"
+        ],
+        "translation_answer": "これもあれも同じ値段です。 | これも あれも おなじ ねだんです。 | This and that are the same price."
+      },
+      {
+        "question_number": 10,
+        "question": "【かようび】に図書館へ行きます。",
+        "choices": [
+          "化曜日",
+          "火曜目",
+          "火曜日",
+          "灰曜日"
+        ],
+        "translation_answer": "火曜日に図書館へ行きます。 | かようびに としょかんへ いきます。 | I will go to the library on Tuesday."
+      },
+      {
+        "question_number": 11,
+        "question": "Question 11",
+        "choices": [
+          "Submit",
+          "English",
+          "Feedback"
+        ],
+        "translation_answer": ""
+      }
+    ]
+  },
+  {
+    "page": 26,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-kanji-tests/26/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "毎日、【漢字】を勉強しています。",
+        "choices": [
+          "かんし",
+          "かんぢ",
+          "からじ",
+          "かんじ"
+        ],
+        "translation_answer": "毎日、漢字を勉強しています。 | まいにち、かんじを べんきょうしています。 | I study kanji every day."
+      },
+      {
+        "question_number": 2,
+        "question": "このビルは去年【たて】られました。",
+        "choices": [
+          "建て",
+          "当て",
+          "立て",
+          "健て"
+        ],
+        "translation_answer": "このビルは去年建てられました。 | この ビルは きょねん たてられました。 | This building was built last year."
+      },
+      {
+        "question_number": 3,
+        "question": "新しい【じどうしゃ】を買いたいです。",
+        "choices": [
+          "自動者",
+          "自道車",
+          "自動車",
+          "地動車"
+        ],
+        "translation_answer": "新しい自動車を買いたいです。 | あたらしい じどうしゃを かいたいです。 | I want to buy a new automobile."
+      },
+      {
+        "question_number": 4,
+        "question": "【出口】はどこですか。",
+        "choices": [
+          "でぐち",
+          "でぐぢ",
+          "でくぢ",
+          "でくち"
+        ],
+        "translation_answer": "出口はどこですか。 | でぐちは どこですか。 | Where is the exit?"
+      },
+      {
+        "question_number": 5,
+        "question": "この荷物を部屋へ【運んで】ください。",
+        "choices": [
+          "はすんで",
+          "まこんで",
+          "はこんで",
+          "はこで"
+        ],
+        "translation_answer": "この荷物を部屋へ運んでください。 | この にもつを へやへ はこんでください。 | Please carry this luggage to the room."
+      },
+      {
+        "question_number": 6,
+        "question": "【正月】には家族と過ごします。",
+        "choices": [
+          "せいがつ",
+          "しょうがつ",
+          "しょうがち",
+          "まさつき"
+        ],
+        "translation_answer": "正月には家族と過ごします。 | しょうがつには かぞくと すごします。 | I spend New Year's with my family."
+      },
+      {
+        "question_number": 7,
+        "question": "先生は【研究室】にいます。",
+        "choices": [
+          "けんきゅうしつ",
+          "げんきゅうしつ",
+          "けんきゅしつ",
+          "けんきゅうじつ"
+        ],
+        "translation_answer": "先生は研究室にいます。 | せんせいは けんきゅうしつに います。 | The professor is in the laboratory/office."
+      },
+      {
+        "question_number": 8,
+        "question": "日本の【人口】はどのくらいですか。",
+        "choices": [
+          "じんぐ",
+          "じんこう",
+          "にんこう",
+          "ひとこう"
+        ],
+        "translation_answer": "日本の人口はどのくらいですか。 | にほんの じんこうは どのくらいですか。 | What is the population of Japan?"
+      },
+      {
+        "question_number": 9,
+        "question": "【明後日】、友達と会います。",
+        "choices": [
+          "あさて",
+          "みょうごにち",
+          "あさって",
+          "あさっで"
+        ],
+        "translation_answer": "明後日、友達と会います。 | あさって、ともだちと あいます。 | I will meet my friend the day after tomorrow."
+      },
+      {
+        "question_number": 10,
+        "question": "私の家は【えき】から近いです。",
+        "choices": [
+          "訳",
+          "駅",
+          "昼",
+          "択"
+        ],
+        "translation_answer": "私の家は駅から近いです。 | わたしの いえは えきから ちかいです。 | My house is close to the station."
+      },
+      {
+        "question_number": 11,
+        "question": "Question 11",
+        "choices": [
+          "Submit",
+          "English",
+          "Feedback"
+        ],
+        "translation_answer": ""
+      }
+    ]
+  },
+  {
+    "page": 27,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-kanji-tests/27/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "これは【別】のかばんです。",
+        "choices": [
+          "べん",
+          "わかれ",
+          "へつ",
+          "べつ"
+        ],
+        "translation_answer": "これは別のかばんです。 | これは べつのかばんです。 | This is a different bag."
+      },
+      {
+        "question_number": 2,
+        "question": "週末に【映画館】へ行きました。",
+        "choices": [
+          "えいがか",
+          "えがかかん",
+          "えいがかん",
+          "えいがけん"
+        ],
+        "translation_answer": "週末に映画館へ行きました。 | しゅうまつに えいがかんに いきました。 | I went to the cinema on the weekend."
+      },
+      {
+        "question_number": 3,
+        "question": "これは食べ【もの】ですか。",
+        "choices": [
+          "勿",
+          "物",
+          "者",
+          "事"
+        ],
+        "translation_answer": "これは食べ物ですか。 | これは たべものですか。 | Is this food (lit. a thing to eat)?"
+      },
+      {
+        "question_number": 4,
+        "question": "【茶色】の靴を買いました。",
+        "choices": [
+          "さいろ",
+          "ちゃいる",
+          "ちゃいろ",
+          "ちゃえろ"
+        ],
+        "translation_answer": "茶色の靴を買いました。 | ちゃいろの くつを かいました。 | I bought brown shoes."
+      },
+      {
+        "question_number": 5,
+        "question": "庭の木に【小鳥】がいます。",
+        "choices": [
+          "しょうとり",
+          "ちいとり",
+          "ことり",
+          "こどり"
+        ],
+        "translation_answer": "庭の木に小鳥がいます。 | にわの きに ことりが います。 | There is a small bird in the tree in the garden."
+      },
+      {
+        "question_number": 6,
+        "question": "【ふゆ】休みにスキーに行きます。",
+        "choices": [
+          "冬",
+          "寒",
+          "冷",
+          "終"
+        ],
+        "translation_answer": "冬休みにスキーに行きます。 | ふゆやすみに スキーに いきます。 | I will go skiing during the winter vacation."
+      },
+      {
+        "question_number": 7,
+        "question": "父は【いしゃ】です。",
+        "choices": [
+          "医者",
+          "医舎",
+          "異者",
+          "易者"
+        ],
+        "translation_answer": "父は医者です。 | ちちは いしゃです。 | My father is a doctor."
+      },
+      {
+        "question_number": 8,
+        "question": "この【町】は静かで、きれいです。",
+        "choices": [
+          "ちょう",
+          "むら",
+          "まち",
+          "まぢ"
+        ],
+        "translation_answer": "この町は静かで、きれいです。 | この まちは しずかで、きれいです。 | This town is quiet and beautiful."
+      },
+      {
+        "question_number": 9,
+        "question": "【たいふう】で電車が止まりました。",
+        "choices": [
+          "大風",
+          "待風",
+          "台風",
+          "颱風"
+        ],
+        "translation_answer": "台風で電車が止まりました。 | たいふうで でんしゃが とまりました。 | The train stopped due to the typhoon."
+      },
+      {
+        "question_number": 10,
+        "question": "母は市場の【やおや】で野菜を買います。",
+        "choices": [
+          "八百屋",
+          "八百家",
+          "八百矢",
+          "野百屋"
+        ],
+        "translation_answer": "母は市場の八百屋で野菜を買います。 | ははは いちばの やおやで やさいを かいます。 | My mother buys vegetables at the greengrocer in the market."
+      },
+      {
+        "question_number": 11,
+        "question": "Question 11",
+        "choices": [
+          "Submit",
+          "English",
+          "Feedback"
+        ],
+        "translation_answer": ""
+      }
+    ]
+  },
+  {
+    "page": 28,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-kanji-tests/28/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "【土曜日】にパーティーがあります。",
+        "choices": [
+          "かようび",
+          "どようび",
+          "もくようび",
+          "すいようび"
+        ],
+        "translation_answer": "土曜日にパーティーがあります。 | どようびに パーティーが あります。 | There is a party on Saturday."
+      },
+      {
+        "question_number": 2,
+        "question": "この町には【えいがかん】がありません。",
+        "choices": [
+          "英画館",
+          "映画館",
+          "映画官",
+          "映畫館"
+        ],
+        "translation_answer": "この町には映画館がありません。 | この まちには えいがかんが ありません。 | There is no cinema in this town."
+      },
+      {
+        "question_number": 3,
+        "question": "【かじ】の時は、すぐに電話してください。",
+        "choices": [
+          "火時",
+          "災事",
+          "火事",
+          "家事"
+        ],
+        "translation_answer": "火事の時は、すぐに電話してください。 | かじの ときは、すぐに でんわしてください。 | In case of fire, please call immediately."
+      },
+      {
+        "question_number": 4,
+        "question": "歌は【へた】ですが、歌うのは好きです。",
+        "choices": [
+          "下田",
+          "上手",
+          "下手",
+          "不手"
+        ],
+        "translation_answer": "歌は下手ですが、歌うのは好きです。 | うたは へたですが、うたうのは すきです。 | I'm unskilled at singing, but I like to sing."
+      },
+      {
+        "question_number": 5,
+        "question": "今日は早く家に【帰り】ます。",
+        "choices": [
+          "かえり",
+          "がえり",
+          "もどり",
+          "きり"
+        ],
+        "translation_answer": "今日は早く家に帰ります。 | きょうは はやく いえに かえります。 | I will return home early today."
+      },
+      {
+        "question_number": 6,
+        "question": "靴の【売り場】はどこですか。",
+        "choices": [
+          "うりどころ",
+          "うりば",
+          "うりじょう",
+          "うりま"
+        ],
+        "translation_answer": "靴の売り場はどこですか。 | くつの うりばは どこですか。 | Where is the shoe sales floor?"
+      },
+      {
+        "question_number": 7,
+        "question": "十八歳【以上】の人は入れます。",
+        "choices": [
+          "いしょう",
+          "いじょう",
+          "いじょ",
+          "いぞう"
+        ],
+        "translation_answer": "十八歳以上の人は入れます。 | じゅうはっさい いじょうの ひとは はいれます。 | People 18 years old and above can enter."
+      },
+      {
+        "question_number": 8,
+        "question": "好きな【食べ物】は何ですか。",
+        "choices": [
+          "しょくもの",
+          "たべもの",
+          "だべもの",
+          "たべもん"
+        ],
+        "translation_answer": "好きな食べ物は何ですか。 | すきな たべものは なんですか。 | What is your favorite food?"
+      },
+      {
+        "question_number": 9,
+        "question": "そのニュースはテレビで【しり】ました。",
+        "choices": [
+          "如り",
+          "矢り",
+          "智り",
+          "知り"
+        ],
+        "translation_answer": "そのニュースはテレビで知りました。 | その ニュースは テレビで しりました。 | I learned about that news on TV."
+      },
+      {
+        "question_number": 10,
+        "question": "駅で【しんぶん】を買いました。",
+        "choices": [
+          "信聞",
+          "新聞",
+          "親聞",
+          "新文"
+        ],
+        "translation_answer": "駅で新聞を買いました。 | えきで しんぶんを かいました。 | I bought a newspaper at the station."
+      },
+      {
+        "question_number": 11,
+        "question": "Question 11",
+        "choices": [
+          "Submit",
+          "English",
+          "Feedback"
+        ],
+        "translation_answer": ""
+      }
+    ]
+  },
+  {
+    "page": 29,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-kanji-tests/29/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "【兄弟】がいますか。",
+        "choices": [
+          "ぎょうだい",
+          "きょうだい",
+          "きょうたい",
+          "けいてい"
+        ],
+        "translation_answer": "兄弟がいますか。 | きょうだいが いますか。 | Do you have any siblings?"
+      },
+      {
+        "question_number": 2,
+        "question": "【口】を開けてください。",
+        "choices": [
+          "くち",
+          "こう",
+          "くし",
+          "ぐち"
+        ],
+        "translation_answer": "口を開けてください。 | くちを あけてください。 | Please open your mouth."
+      },
+      {
+        "question_number": 3,
+        "question": "水をたくさん【のんで】ください。",
+        "choices": [
+          "食んで",
+          "飲んで",
+          "住んで",
+          "呑んで"
+        ],
+        "translation_answer": "水をたくさん飲んでください。 | みずを たくさん のんでください。 | Please drink a lot of water."
+      },
+      {
+        "question_number": 4,
+        "question": "明日も【しごと】があります。",
+        "choices": [
+          "仕事",
+          "事事",
+          "私事",
+          "仕言"
+        ],
+        "translation_answer": "明日も仕事があります。 | あしたも しごとが あります。 | I have work tomorrow too."
+      },
+      {
+        "question_number": 5,
+        "question": "母が美味しいケーキを【つくって】くれました。",
+        "choices": [
+          "造って",
+          "切って",
+          "創って",
+          "作って"
+        ],
+        "translation_answer": "母が美味しいケーキを作ってくれました。 | ははが おいしい ケーキを つくってくれました。 | My mother made a delicious cake for me."
+      },
+      {
+        "question_number": 6,
+        "question": "隣の部屋から大きい【おと】がします。",
+        "choices": [
+          "音",
+          "声",
+          "楽",
+          "言"
+        ],
+        "translation_answer": "隣の部屋から大きい音がします。 | となりの へやから おおきい おとが します。 | There is a loud sound coming from the next room."
+      },
+      {
+        "question_number": 7,
+        "question": "【魚】が好きですか。",
+        "choices": [
+          "さかな",
+          "すかな",
+          "ざかな",
+          "うお"
+        ],
+        "translation_answer": "魚が好きですか。 | さかなが すきですか。 | Do you like fish?"
+      },
+      {
+        "question_number": 8,
+        "question": "これは【あたらしい】本ですか。",
+        "choices": [
+          "新い",
+          "新しい",
+          "新らしい",
+          "薪しい"
+        ],
+        "translation_answer": "これは新しい本ですか。 | これは あたらしい ほんですか。 | Is this a new book?"
+      },
+      {
+        "question_number": 9,
+        "question": "あの【みせ】でパンを買いましょう。",
+        "choices": [
+          "床",
+          "度",
+          "府",
+          "店"
+        ],
+        "translation_answer": "あの店でパンを買いましょう。 | あの みせで パンを かいましょう。 | Let's buy bread at that shop."
+      },
+      {
+        "question_number": 10,
+        "question": "バスの【運転手】さんに道を聞きました。",
+        "choices": [
+          "うんてんて",
+          "うんてんしゅ",
+          "うんでんしゅ",
+          "うんてんじゅ"
+        ],
+        "translation_answer": "バスの運転手さんに道を聞きました。 | バスの うんてんしゅさんに みちを ききました。 | I asked the bus driver for directions."
+      },
+      {
+        "question_number": 11,
+        "question": "Question 11",
+        "choices": [
+          "Submit",
+          "English",
+          "Feedback"
+        ],
+        "translation_answer": ""
+      }
+    ]
+  },
+  {
+    "page": 30,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-kanji-tests/30/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "彼は【ゆうめい】な歌手です。",
+        "choices": [
+          "有明",
+          "勇名",
+          "有名",
+          "優名"
+        ],
+        "translation_answer": "彼は有名な歌手です。 | かれは ゆうめいな かしゅです。 | He is a famous singer."
+      },
+      {
+        "question_number": 2,
+        "question": "はい、【げんき】です。ありがとうございます。",
+        "choices": [
+          "現気",
+          "元気",
+          "源気",
+          "原気"
+        ],
+        "translation_answer": "はい、元気です。ありがとうございます。 | はい、げんきです。ありがとうございます。 | Yes, I am well. Thank you."
+      },
+      {
+        "question_number": 3,
+        "question": "日本語で【会話】をしましょう。",
+        "choices": [
+          "かいわ",
+          "かいは",
+          "かえわ",
+          "がいわ"
+        ],
+        "translation_answer": "日本語で会話をしましょう。 | にほんごで かいわを しましょう。 | Let's have a conversation in Japanese."
+      },
+      {
+        "question_number": 4,
+        "question": "大切な【事】を話します。",
+        "choices": [
+          "こと",
+          "もの",
+          "じ",
+          "ごと"
+        ],
+        "translation_answer": "大切な事を話します。 | たいせつな ことを はなします。 | I will tell you something important."
+      },
+      {
+        "question_number": 5,
+        "question": "ここに【立って】ください。",
+        "choices": [
+          "たって",
+          "まって",
+          "たづって",
+          "だって"
+        ],
+        "translation_answer": "ここに立ってください。 | ここに たってください。 | Please stand here."
+      },
+      {
+        "question_number": 6,
+        "question": "【夕べ】、何をしましたか。",
+        "choices": [
+          "ゆうひ",
+          "ゆうべ",
+          "せきべ",
+          "ゆべ"
+        ],
+        "translation_answer": "夕べ、何をしましたか。 | ゆうべ、なにを しましたか。 | What did you do last night?"
+      },
+      {
+        "question_number": 7,
+        "question": "早く【びょうき】がよくなるといいですね。",
+        "choices": [
+          "疾気",
+          "病期",
+          "病基",
+          "病気"
+        ],
+        "translation_answer": "早く病気がよくなるといいですね。 | はやく びょうきが よく なると いいですね。 | I hope you get well soon."
+      },
+      {
+        "question_number": 8,
+        "question": "【うんどう】は体にいいです。",
+        "choices": [
+          "連動",
+          "運動",
+          "運働",
+          "雲動"
+        ],
+        "translation_answer": "運動は体にいいです。 | うんどうは からだに いいです。 | Exercise is good for the body."
+      },
+      {
+        "question_number": 9,
+        "question": "風邪をひいたので、【病院】へ行きました。",
+        "choices": [
+          "びょういん",
+          "びょいん",
+          "びょうえん",
+          "ひょういん"
+        ],
+        "translation_answer": "風邪をひいたので、病院へ行きました。 | かぜを ひいたので、びょういんへ いきました。 | I went to the hospital because I caught a cold."
+      },
+      {
+        "question_number": 10,
+        "question": "時間がないので、【急ぎ】ましょう。",
+        "choices": [
+          "きゅうぎ",
+          "いそき",
+          "せぎ",
+          "いそぎ"
+        ],
+        "translation_answer": "時間がないので、急ぎましょう。 | じかんがないので、いそぎましょう。 | There's no time, so let's hurry."
+      },
+      {
+        "question_number": 11,
+        "question": "Question 11",
+        "choices": [
+          "Submit",
+          "English",
+          "Feedback"
+        ],
+        "translation_answer": ""
+      }
+    ]
+  },
+  {
+    "page": 31,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-kanji-tests/31/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "週末に【映画】を見に行きます。",
+        "choices": [
+          "えいが",
+          "えいかく",
+          "えが",
+          "えいか"
+        ],
+        "translation_answer": "週末に映画を見に行きます。 | しゅうまつに えいがを みに いきます。 | I'm going to see a movie on the weekend."
+      },
+      {
+        "question_number": 2,
+        "question": "【帰り】にスーパーで買い物をします。",
+        "choices": [
+          "きり",
+          "もどり",
+          "がえり",
+          "かえり"
+        ],
+        "translation_answer": "帰りにスーパーで買い物をします。 | かえりに スーパーで かいものを します。 | I will shop at the supermarket on the way back."
+      },
+      {
+        "question_number": 3,
+        "question": "【昼】は何を食べましたか。",
+        "choices": [
+          "ひる",
+          "びる",
+          "ひろ",
+          "ちゅう"
+        ],
+        "translation_answer": "昼は何を食べましたか。 | ひるは なにを たべましたか。 | What did you eat for lunch?"
+      },
+      {
+        "question_number": 4,
+        "question": "仕事は何時に【終わり】ますか。",
+        "choices": [
+          "わおり",
+          "しまり",
+          "はじまり",
+          "おわり"
+        ],
+        "translation_answer": "仕事は何時に終わりますか。 | しごとは なんじに おわりますか。 | What time does work finish?"
+      },
+      {
+        "question_number": 5,
+        "question": "パーティーに何を【きて】いきますか。",
+        "choices": [
+          "聞いて",
+          "着て",
+          "切って",
+          "来て"
+        ],
+        "translation_answer": "パーティーに何を着ていきますか。 | パーティーに なにを きていきますか。 | What will you wear to the party?"
+      },
+      {
+        "question_number": 6,
+        "question": "冷たい【のみもの】を買いましょう。",
+        "choices": [
+          "飲見物",
+          "飲料",
+          "飲物",
+          "飲み物"
+        ],
+        "translation_answer": "冷たい飲み物を買いましょう。 | つめたい のみものを かいましょう。 | Let's buy a cold drink."
+      },
+      {
+        "question_number": 7,
+        "question": "【きんようび】の夜、映画を見に行きます。",
+        "choices": [
+          "筋曜日",
+          "今曜日",
+          "金曜日",
+          "金曜目"
+        ],
+        "translation_answer": "金曜日の夜、映画を見に行きます。 | きんようびの よる、えいがを みに いきます。 | I'm going to see a movie on Friday night."
+      },
+      {
+        "question_number": 8,
+        "question": "時間に遅れそうなので、【はしり】ましょう。",
+        "choices": [
+          "送り",
+          "足り",
+          "走り",
+          "起り"
+        ],
+        "translation_answer": "時間に遅れそうなので、走りましょう。 | じかんに おくれそうなので、はしりましょう。 | Let's run because we might be late."
+      },
+      {
+        "question_number": 9,
+        "question": "この店は野菜が【安い】です。",
+        "choices": [
+          "やつい",
+          "あすい",
+          "やすい",
+          "あんい"
+        ],
+        "translation_answer": "この店は野菜が安いです。 | この みせは やさいが やすいです。 | Vegetables are cheap at this store."
+      },
+      {
+        "question_number": 10,
+        "question": "デパートの【いりぐち】で会いましょう。",
+        "choices": [
+          "出口",
+          "入口",
+          "天ロ",
+          "人ロ"
+        ],
+        "translation_answer": "デパートの入口で会いましょう。 | デパートの いりぐちで あいましょう。 | Let's meet at the department store entrance."
+      },
+      {
+        "question_number": 11,
+        "question": "Question 11",
+        "choices": [
+          "Submit",
+          "English",
+          "Feedback"
+        ],
+        "translation_answer": ""
+      }
+    ]
+  },
+  {
+    "page": 32,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-kanji-tests/32/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "【お兄さん】は大学生ですか。",
+        "choices": [
+          "あにさん",
+          "おねえさん",
+          "おにいさん",
+          "おにいさま"
+        ],
+        "translation_answer": "お兄さんは大学生ですか。 | おにいさんは だいがくせい ですか。 | Is your older brother a university student?"
+      },
+      {
+        "question_number": 2,
+        "question": "【少し】疲れました。",
+        "choices": [
+          "ずこし",
+          "すくし",
+          "しょうし",
+          "すこし"
+        ],
+        "translation_answer": "少し疲れました。 | すこし つかれました。 | I'm a little tired."
+      },
+      {
+        "question_number": 3,
+        "question": "この【きょうしつ】は広くて明るいです。",
+        "choices": [
+          "教失",
+          "教室",
+          "京室",
+          "強室"
+        ],
+        "translation_answer": "この教室は広くて明るいです。 | この きょうしつは ひろくて あかるいです。 | This classroom is spacious and bright."
+      },
+      {
+        "question_number": 4,
+        "question": "空は【青い】です。",
+        "choices": [
+          "あおい",
+          "おおい",
+          "あうい",
+          "くろい"
+        ],
+        "translation_answer": "空は青いです。 | そらは あおいです。 | The sky is blue."
+      },
+      {
+        "question_number": 5,
+        "question": "この言葉の【発音】が難しいです。",
+        "choices": [
+          "はっおん",
+          "はつおん",
+          "はつね",
+          "はつん"
+        ],
+        "translation_answer": "この言葉の発音が難しいです。 | この ことばの はつおんが むずかしいです。 | The pronunciation of this word is difficult."
+      },
+      {
+        "question_number": 6,
+        "question": "この【かんじ】の読み方が分かりません。",
+        "choices": [
+          "感字",
+          "漢字",
+          "漢寺",
+          "漢時"
+        ],
+        "translation_answer": "この漢字の読み方が分かりません。 | この かんじの よみかたが わかりません。 | I don't know how to read this kanji."
+      },
+      {
+        "question_number": 7,
+        "question": "【でぐち】はあちらです。",
+        "choices": [
+          "で口",
+          "出口",
+          "山口",
+          "出句"
+        ],
+        "translation_answer": "出口はあちらです。 | でぐちは あちらです。 | The exit is that way."
+      },
+      {
+        "question_number": 8,
+        "question": "レストランで【しょくじ】をしましょう。",
+        "choices": [
+          "職事",
+          "食事",
+          "食時",
+          "食餌"
+        ],
+        "translation_answer": "レストランで食事をしましょう。 | レストランで しょくじを しましょう。 | Let's have a meal at the restaurant."
+      },
+      {
+        "question_number": 9,
+        "question": "道を教えてくれて、【しんせつ】ですね。",
+        "choices": [
+          "親切",
+          "新切",
+          "心切",
+          "真切"
+        ],
+        "translation_answer": "道を教えてくれて、親切ですね。 | みちを おしえてくれて、しんせつですね。 | You were kind to show me the way."
+      },
+      {
+        "question_number": 10,
+        "question": "学校で【地理】を勉強しています。",
+        "choices": [
+          "ちきゅう",
+          "ちき",
+          "ちり",
+          "じり"
+        ],
+        "translation_answer": "学校で地理を勉強しています。 | がっこうで ちりを べんきょうしています。 | I am studying geography at school."
+      },
+      {
+        "question_number": 11,
+        "question": "Question 11",
+        "choices": [
+          "Submit",
+          "English",
+          "Feedback"
+        ],
+        "translation_answer": ""
+      }
+    ]
+  },
+  {
+    "page": 33,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-kanji-tests/33/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "もうすぐ【しゅっぱつ】しますから、急いでください。",
+        "choices": [
+          "初発",
+          "出立",
+          "出発",
+          "出撥"
+        ],
+        "translation_answer": "もうすぐ出発しますから、急いでください。 | もうすぐ しゅっぱつしますから、いそいでください。 | Please hurry because we are departing soon."
+      },
+      {
+        "question_number": 2,
+        "question": "【今週】はとても忙しいです。",
+        "choices": [
+          "こんじゅう",
+          "こんすう",
+          "きんしゅう",
+          "こんしゅう"
+        ],
+        "translation_answer": "今週はとても忙しいです。 | こんしゅうは とても いそがしいです。 | I am very busy this week."
+      },
+      {
+        "question_number": 3,
+        "question": "私には【弟】が一人います。",
+        "choices": [
+          "てい",
+          "だい",
+          "おとと",
+          "おとうと"
+        ],
+        "translation_answer": "私には弟が一人います。 | わたしには おとうとが ひとり います。 | I have one younger brother."
+      },
+      {
+        "question_number": 4,
+        "question": "旅行の前に新しい【下着】を買いました。",
+        "choices": [
+          "したぎ",
+          "したき",
+          "したぢ",
+          "げぎ"
+        ],
+        "translation_answer": "旅行の前に新しい下着を買いました。 | りょこうの まえに あたらしい したぎを かいました。 | I bought new underwear before the trip."
+      },
+      {
+        "question_number": 5,
+        "question": "要らない物を【うり】たいです。",
+        "choices": [
+          "買い",
+          "売り",
+          "得り",
+          "触り"
+        ],
+        "translation_answer": "要らない物を売りたいです。 | いらない ものを うりたいです。 | I want to sell things I don't need."
+      },
+      {
+        "question_number": 6,
+        "question": "時間が【すくない】ので、急ぎましょう。",
+        "choices": [
+          "少い",
+          "小ない",
+          "少ない",
+          "少"
+        ],
+        "translation_answer": "時間が少ないので、急ぎましょう。 | じかんが すくないので、いそぎましょう。 | There is little time, so let's hurry."
+      },
+      {
+        "question_number": 7,
+        "question": "【図書館】で本を借ります。",
+        "choices": [
+          "ずしょかん",
+          "としょかん",
+          "どしょかん",
+          "とじょかん"
+        ],
+        "translation_answer": "図書館で本を借ります。 | としょかんで ほんを かります。 | I borrow books at the library."
+      },
+      {
+        "question_number": 8,
+        "question": "夏に【海】へ行きました。",
+        "choices": [
+          "うめ",
+          "かい",
+          "おみ",
+          "うみ"
+        ],
+        "translation_answer": "夏に海へ行きました。 | なつに うみへ いきました。 | I went to the sea in the summer."
+      },
+      {
+        "question_number": 9,
+        "question": "授業は何時に【始まり】ますか。",
+        "choices": [
+          "はしまり",
+          "はじまり",
+          "はぢまり",
+          "しまり"
+        ],
+        "translation_answer": "授業は何時に始まりますか。 | じゅぎょうは なんじに はじまりますか。 | What time does the class begin?"
+      },
+      {
+        "question_number": 10,
+        "question": "たくさん歩いたので、【足】が痛いです。",
+        "choices": [
+          "あし",
+          "そく",
+          "あす",
+          "し"
+        ],
+        "translation_answer": "たくさん歩いたので、足が痛いです。 | たくさん あるいたので、あしが いたいです。 | My feet hurt because I walked a lot."
+      },
+      {
+        "question_number": 11,
+        "question": "Question 11",
+        "choices": [
+          "Submit",
+          "English",
+          "Feedback"
+        ],
+        "translation_answer": ""
+      }
+    ]
+  },
+  {
+    "page": 34,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-kanji-tests/34/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "今日の【空】は青くてきれいです。",
+        "choices": [
+          "そら",
+          "から",
+          "くう",
+          "あき"
+        ],
+        "translation_answer": "今日の空は青くてきれいです。 | きょうの そらは あおくて きれいです。 | Today's sky is blue and beautiful."
+      },
+      {
+        "question_number": 2,
+        "question": "寒いので、【上着】を着てください。",
+        "choices": [
+          "うわぎ",
+          "じょうちゃく",
+          "うえぎ",
+          "うわき"
+        ],
+        "translation_answer": "寒いので、上着を着てください。 | さむいので、うわぎを きてください。 | It's cold, so please put on a coat."
+      },
+      {
+        "question_number": 3,
+        "question": "会議の時間を【知らせて】ください。",
+        "choices": [
+          "しめして",
+          "ちらして",
+          "しらせて",
+          "しらべて"
+        ],
+        "translation_answer": "会議の時間を知らせてください。 | かいぎの じかんを しらせてください。 | Please inform me of the meeting time."
+      },
+      {
+        "question_number": 4,
+        "question": "【日曜日】は休みです。",
+        "choices": [
+          "にじようび",
+          "にちようひ",
+          "にちようび",
+          "ひようび"
+        ],
+        "translation_answer": "日曜日は休みです。 | にちようびは やすみです。 | Sunday is a day off."
+      },
+      {
+        "question_number": 5,
+        "question": "この花の【色】はきれいです。",
+        "choices": [
+          "しろ",
+          "えろ",
+          "いろ",
+          "しょく"
+        ],
+        "translation_answer": "この花の色はきれいです。 | この はなの いろは きれいです。 | The color of this flower is beautiful."
+      },
+      {
+        "question_number": 6,
+        "question": "【くろい】靴を履いています。",
+        "choices": [
+          "暗い",
+          "墨い",
+          "黒い",
+          "黒"
+        ],
+        "translation_answer": "黒い靴を履いています。 | くろい くつを はいています。 | I am wearing black shoes."
+      },
+      {
+        "question_number": 7,
+        "question": "空を【とり】が飛んでいます。",
+        "choices": [
+          "島",
+          "烏",
+          "鳥",
+          "馬"
+        ],
+        "translation_answer": "空を鳥が飛んでいます。 | そらを とりが とんでいます。 | A bird is flying in the sky."
+      },
+      {
+        "question_number": 8,
+        "question": "毎朝、母が私を【起こし】ます。",
+        "choices": [
+          "おこし",
+          "なおし",
+          "うごかし",
+          "おかし"
+        ],
+        "translation_answer": "毎朝、母が私を起こします。 | まいあさ、ははが わたしを おこします。 | My mother wakes me up every morning."
+      },
+      {
+        "question_number": 9,
+        "question": "料理が【じょうず】になりたいです。",
+        "choices": [
+          "下手",
+          "高主",
+          "上図",
+          "上手"
+        ],
+        "translation_answer": "料理が上手になりたいです。 | りょうりが じょうずに なりたいです。 | I want to become skilled at cooking."
+      },
+      {
+        "question_number": 10,
+        "question": "重い箱を一人で【はこび】ました。",
+        "choices": [
+          "箱び",
+          "運び",
+          "遊び",
+          "連び"
+        ],
+        "translation_answer": "重い箱を一人で運びました。 | おもい はこを ひとりで はこびました。 | I carried the heavy box by myself."
+      },
+      {
+        "question_number": 11,
+        "question": "Question 11",
+        "choices": [
+          "Submit",
+          "English",
+          "Feedback"
+        ],
+        "translation_answer": ""
+      }
+    ]
+  },
+  {
+    "page": 35,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-kanji-tests/35/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "【ご飯】を食べましょう。",
+        "choices": [
+          "ごばん",
+          "こはん",
+          "めし",
+          "ごはん"
+        ],
+        "translation_answer": "ご飯を食べましょう。 | ごはんを たべましょう。 | Let's eat rice / a meal."
+      },
+      {
+        "question_number": 2,
+        "question": "駅で友達と【別れ】ました。",
+        "choices": [
+          "わけれ",
+          "さよなれ",
+          "わかれ",
+          "べかれ"
+        ],
+        "translation_answer": "駅で友達と別れました。 | えきで ともだちと わかれました。 | I parted ways with my friend at the station."
+      },
+      {
+        "question_number": 3,
+        "question": "昨日、母から【てがみ】が来ました。",
+        "choices": [
+          "手幼",
+          "手紙",
+          "手旨",
+          "手神"
+        ],
+        "translation_answer": "昨日、母から手紙が来ました。 | きのう、ははから てがみが きました。 | A letter came from my mother yesterday."
+      },
+      {
+        "question_number": 4,
+        "question": "父は【工場】で働いています。",
+        "choices": [
+          "こじょう",
+          "こうじょう",
+          "こうば",
+          "ごうじょう"
+        ],
+        "translation_answer": "父は工場で働いています。 | ちちは こうじょうで はたらいています。 | My father works at a factory."
+      },
+      {
+        "question_number": 5,
+        "question": "どこに【住んで】いますか。",
+        "choices": [
+          "ずんで",
+          "しんで",
+          "すんで",
+          "じんで"
+        ],
+        "translation_answer": "どこに住んでいますか。 | どこに すんでいますか。 | Where do you live?"
+      },
+      {
+        "question_number": 6,
+        "question": "【駅】で友達を待ちます。",
+        "choices": [
+          "あき",
+          "えき",
+          "えぎ",
+          "おき"
+        ],
+        "translation_answer": "駅で友達を待ちます。 | えきで ともだちを まちます。 | I will wait for my friend at the station."
+      },
+      {
+        "question_number": 7,
+        "question": "【料理】を作るのが好きです。",
+        "choices": [
+          "りょり",
+          "りょうり",
+          "どうり",
+          "りょうい"
+        ],
+        "translation_answer": "料理を作るのが好きです。 | りょうりを つくるのが すきです。 | I like cooking."
+      },
+      {
+        "question_number": 8,
+        "question": "この料理の【仕方】を知っていますか。",
+        "choices": [
+          "しがた",
+          "じかた",
+          "しほう",
+          "しかた"
+        ],
+        "translation_answer": "この料理の仕方を知っていますか。 | この りょうりの しかたを しっていますか。 | Do you know how to make this dish?"
+      },
+      {
+        "question_number": 9,
+        "question": "父の会社の【社長】に会いました。",
+        "choices": [
+          "しゃちょう",
+          "さちょう",
+          "じゃちょう",
+          "しゃじょう"
+        ],
+        "translation_answer": "父の会社の社長に会いました。 | ちちの かいしゃの しゃちょうに あいました。 | I met the president of my father's company."
+      },
+      {
+        "question_number": 10,
+        "question": "【夏】は暑いです。",
+        "choices": [
+          "なつ",
+          "か",
+          "なづ",
+          "げ"
+        ],
+        "translation_answer": "夏は暑いです。 | なつは あついです。 | Summer is hot."
+      },
+      {
+        "question_number": 11,
+        "question": "Question 11",
+        "choices": [
+          "Submit",
+          "English",
+          "Feedback"
+        ],
+        "translation_answer": ""
+      }
+    ]
+  },
+  {
+    "page": 36,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-kanji-tests/36/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "部屋に【時計】があります。",
+        "choices": [
+          "こけい",
+          "とけい",
+          "どけい",
+          "じけい"
+        ],
+        "translation_answer": "部屋に時計があります。 | へやに とけいが あります。 | There is a clock in the room."
+      },
+      {
+        "question_number": 2,
+        "question": "【りょこう】の計画を立てるのが好きです。",
+        "choices": [
+          "旅路",
+          "旅行",
+          "旅",
+          "旅程"
+        ],
+        "translation_answer": "旅行の計画を立てるのが好きです。 | りょこうの けいかくを たてるのが すきです。 | I like making travel plans."
+      },
+      {
+        "question_number": 3,
+        "question": "来週、日本語の【試験】があります。",
+        "choices": [
+          "しげん",
+          "じけん",
+          "しけん",
+          "じゅけん"
+        ],
+        "translation_answer": "来週、日本語の試験があります。 | らいしゅう、にほんごの しけんが あります。 | There is a Japanese exam next week."
+      },
+      {
+        "question_number": 4,
+        "question": "【昼休み】は十二時から一時間です。",
+        "choices": [
+          "ひるやみ",
+          "ちゅうやすみ",
+          "ひるあすみ",
+          "ひるやすみ"
+        ],
+        "translation_answer": "昼休みは十二時から一時間です。 | ひるやすみは じゅうにじから いちじかんです。 | The lunch break is one hour from 12 o'clock."
+      },
+      {
+        "question_number": 5,
+        "question": "図書館で【べんきょう】しましょう。",
+        "choices": [
+          "勉强",
+          "勉学",
+          "勉強",
+          "勉教"
+        ],
+        "translation_answer": "図書館で勉強しましょう。 | としょかんで べんきょうしましょう。 | Let's study at the library."
+      },
+      {
+        "question_number": 6,
+        "question": "今日は【風】が強いです。",
+        "choices": [
+          "ふう",
+          "かぜ",
+          "ふ",
+          "かせ"
+        ],
+        "translation_answer": "今日は風が強いです。 | きょうは かぜが つよいです。 | The wind is strong today."
+      },
+      {
+        "question_number": 7,
+        "question": "【かいもの】の前にリストを作りましょう。",
+        "choices": [
+          "買い物",
+          "買者",
+          "買物",
+          "買主"
+        ],
+        "translation_answer": "買い物の前にリストを作りましょう。 | かいものの まえに リストを つくりましょう。 | Let's make a list before shopping."
+      },
+      {
+        "question_number": 8,
+        "question": "運動は【体】にいいです。",
+        "choices": [
+          "からた",
+          "からだ",
+          "たい",
+          "てい"
+        ],
+        "translation_answer": "運動は体にいいです。 | うんどうは からだに いいです。 | Exercise is good for the body."
+      },
+      {
+        "question_number": 9,
+        "question": "一番好きな【どうぶつ】は何ですか。",
+        "choices": [
+          "働物",
+          "生物",
+          "同物",
+          "動物"
+        ],
+        "translation_answer": "一番好きな動物は何ですか。 | いちばん すきな どうぶつは なんですか。 | What is your favorite animal?"
+      },
+      {
+        "question_number": 10,
+        "question": "【しゅじん】は今、出かけています。",
+        "choices": [
+          "夫",
+          "主人",
+          "旦那",
+          "主"
+        ],
+        "translation_answer": "主人は今、出かけています。 | しゅじんは いま、でかけています。 | My husband is out now."
+      },
+      {
+        "question_number": 11,
+        "question": "Question 11",
+        "choices": [
+          "Submit",
+          "English",
+          "Feedback"
+        ],
+        "translation_answer": ""
+      }
+    ]
+  },
+  {
+    "page": 37,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-kanji-tests/37/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "電車が【すいて】いたので、座れました。",
+        "choices": [
+          "空いて",
+          "透いて",
+          "好いて",
+          "開いて"
+        ],
+        "translation_answer": "電車が空いていたので、座れました。 | でんしゃが すいていたので、すわれました。 | The train was empty, so I could sit."
+      },
+      {
+        "question_number": 2,
+        "question": "【先週】、京都へ行きました。",
+        "choices": [
+          "せんじゅう",
+          "せんしゅう",
+          "らいしゅう",
+          "さきしゅう"
+        ],
+        "translation_answer": "先週、京都へ行きました。 | せんしゅう、きょうとへ いきました。 | I went to Kyoto last week."
+      },
+      {
+        "question_number": 3,
+        "question": "駅から【かいしゃ】まで歩いて行きます。",
+        "choices": [
+          "改社",
+          "会社",
+          "会者",
+          "階社"
+        ],
+        "translation_answer": "駅から会社まで歩いて行きます。 | えきから かいしゃまで あるいて いきます。 | I walk from the station to the company."
+      },
+      {
+        "question_number": 4,
+        "question": "スープにもう少し塩を【たして】ください。",
+        "choices": [
+          "加して",
+          "足して",
+          "渡して",
+          "差して"
+        ],
+        "translation_answer": "スープにもう少し塩を足してください。 | スープに もうすこし しおを たしてください。 | Please add a little more salt to the soup."
+      },
+      {
+        "question_number": 5,
+        "question": "この【通り】は車が多いです。",
+        "choices": [
+          "とほり",
+          "とおり",
+          "とうり",
+          "どうり"
+        ],
+        "translation_answer": "この通りは車が多いです。 | この とおりは くるまが おおいです。 | There are many cars on this street."
+      },
+      {
+        "question_number": 6,
+        "question": "この町の【じんこう】は少ないです。",
+        "choices": [
+          "人口",
+          "仁口",
+          "人行",
+          "人功"
+        ],
+        "translation_answer": "この町の人口は少ないです。 | この まちの じんこうは すくないです。 | The population of this town is small."
+      },
+      {
+        "question_number": 7,
+        "question": "休みの日は趣味を【たのしんで】います。",
+        "choices": [
+          "楽んで",
+          "悲しんで",
+          "苦しんで",
+          "楽しんで"
+        ],
+        "translation_answer": "休みの日は趣味を楽しんでいます。 | やすみの ひは しゅみを たのしんでいます。 | I enjoy my hobbies on days off."
+      },
+      {
+        "question_number": 8,
+        "question": "その箱を【あけて】もいいですか。",
+        "choices": [
+          "開けて",
+          "明けて",
+          "空けて",
+          "聞けて"
+        ],
+        "translation_answer": "その箱を開けてもいいですか。 | その はこを あけても いいですか。 | May I open that box?"
+      },
+      {
+        "question_number": 9,
+        "question": "猫の【め】はきれいです。",
+        "choices": [
+          "日",
+          "見",
+          "目",
+          "自"
+        ],
+        "translation_answer": "猫の目はきれいです。 | ねこの めは きれいです。 | The cat's eyes are beautiful."
+      },
+      {
+        "question_number": 10,
+        "question": "【西洋】の文化に興味があります。",
+        "choices": [
+          "さいよう",
+          "せいゆう",
+          "せいよう",
+          "ぜいよう"
+        ],
+        "translation_answer": "西洋の文化に興味があります。 | せいようの ぶんかに きょうみが あります。 | I am interested in Western culture."
+      },
+      {
+        "question_number": 11,
+        "question": "Question 11",
+        "choices": [
+          "Submit",
+          "English",
+          "Feedback"
+        ],
+        "translation_answer": ""
+      }
+    ]
+  }
+]

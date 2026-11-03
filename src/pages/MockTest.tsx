@@ -4,24 +4,21 @@ import { Button, Layout, ProgressBar } from '../components/Layout'
 import { QuestionView } from '../components/QuestionView'
 import { bySection } from '../lib/data'
 import { saveResult, type MockResult } from '../lib/history'
-import { sample, shuffleChoices } from '../lib/random'
+import { sampleGrouped, shuffleChoices } from '../lib/random'
 import type { Level, Question, Section } from '../lib/types'
 import { SECTION_META, SECTIONS } from '../lib/types'
 import { useKeys } from '../lib/useKeys'
 import { cn } from '../lib/cn'
 
-/** Questions drawn per section. Sections with fewer questions contribute what they have. */
-export const MOCK_PLAN: Record<Section, number> = { kanji: 6, vocabulary: 6, grammar: 6, reading: 4, listening: 4 }
+/** Questions drawn per section (reading may run slightly over to keep a passage whole). */
+export const MOCK_PLAN: Record<Section, number> = { kanji: 6, vocabulary: 6, grammar: 6, reading: 6, listening: 6 }
 
 /** Rough overall pass marks (official: N4 90/180, N3 95/180, plus sectional minimums). */
 const PASS_MARK: Record<Level, number> = { N4: 0.5, N3: 0.53 }
 
 function buildTest(questions: Question[]): Question[] {
-  return SECTIONS.flatMap((s) => {
-    const picked = sample(bySection(questions, s), MOCK_PLAN[s]).map(shuffleChoices)
-    // Keep questions that share a reading passage next to each other.
-    return s === 'reading' ? picked.sort((a, b) => (a.passage ?? '').localeCompare(b.passage ?? '')) : picked
-  })
+  // Grouped sampling keeps a reading passage's questions together.
+  return SECTIONS.flatMap((s) => sampleGrouped(bySection(questions, s), MOCK_PLAN[s]).map(shuffleChoices))
 }
 
 const fmtTime = (s: number) => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`
@@ -96,7 +93,7 @@ export function MockTest({ level, questions }: { level: Level; questions: Questi
         <p className="font-jp text-sm tracking-[0.3em] text-accent">模擬試験</p>
         <h1 className="mt-3 text-3xl font-semibold tracking-tight">{level} Mock test</h1>
         <p className="mt-3 text-stone-500">
-          {planTotal} questions drawn at random from your question bank. No feedback until you submit — just like the real thing.
+          About {planTotal} questions drawn at random from your question bank. No feedback until you submit — just like the real thing.
         </p>
         <ul className="mt-8 divide-y divide-stone-200 rounded-2xl border border-stone-200 bg-white dark:divide-stone-800 dark:border-stone-800 dark:bg-stone-900">
           {plan.map(([s, n]) => (

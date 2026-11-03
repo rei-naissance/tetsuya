@@ -1,0 +1,3611 @@
+[
+  {
+    "exercise_number": 1,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-reading-exercise-1/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "この案内書の内容と合っているものはどれか。",
+        "choices": [
+          "参加しない人が山田さんに連絡しなければならない。",
+          "参加する人が山田さんに連絡しなければならない。",
+          "参加しなくても会費を払わなければならない。",
+          "参加する人が12月20日までに会費を払わなければならない。"
+        ],
+        "reading_passage": "Reading passage 1\n忘年会のご案内\n拝啓　時下ますますご健勝のこととお喜び申し上げます。\nさて、この一年を振り返り、下記により忘年会を開催いたします。ご参加くださいますようお願いいたします。\n敬具\n記\n1.\n日時： 平成25年12月28日（土）　午後15時～午後19時\n2. 場所： ミドリホテル\n東京都品川区広町1-2-3\n3.\n会費：　お一人様　5000円\n4. 担当者： 山田太郎\n5. 連絡先： 0123-456-789\n※参加を希望される方は12月20日までに弊社担当者にご連絡くださいますようお願いいたします。\n以上",
+        "correct_choice_number": 2,
+        "explanation": "この案内書の内容と合っているものはどれか。=>\n参加する人が山田さんに連絡しなければならない\n。"
+      },
+      {
+        "question_number": 2,
+        "question": "筆者が「はい」と「いいえ」を禁句にしたがる理由は何か。",
+        "choices": [
+          "相手の話を肯定しても否定してもいけないからだ。",
+          "いつも同じ返事をしたらつまらないと思われるからだ。",
+          "このような返事で会話が一瞬で終わってしまうからだ。",
+          "短すぎて、相手のことが嫌いだと思われるからだ。"
+        ],
+        "reading_passage": "Reading passage 2\n好きな人と会話をするのなら、禁句（注1）にしたい言葉がある。それは「はい」と「いいえ」だ。例えば、「海外旅行に行ったことある？」という質問に「いいえ」で返してしまうと、終わりだ。別に相手の話に肯定も否定もするな、と言っているわけではない。「はい」と「いいえ」は使わず、別の表現に言い換えてみよう。「海外旅行に行ったことある？」という質問に「行ったことはないけど行ってみたい。一番行ってみたいのは中国。万里の長城を実際に見てみたい」そう言うと、相手は興味を引かれ、会話がさらに続くことだろう。\n（注1）禁句（きんく）：使わないほうがいい言葉",
+        "correct_choice_number": 3,
+        "explanation": "筆者が「はい」と「いいえ」を禁句にしたがる理由は何か。=>\nこのような返事で会話が一瞬で終わってしまうからだ\n。"
+      },
+      {
+        "question_number": 3,
+        "question": "応募する人は、どうしなければならないか。",
+        "choices": [
+          "決められた字数で文章を縦書きで書いて送る。",
+          "連絡先などを書いた別紙を作品と一緒に送る。",
+          "作品の原稿を２部コピーして送る。",
+          "電話で問い合わせた後で作品を送る。"
+        ],
+        "reading_passage": "Reading passage 3\n第5回　日本文学館文庫大賞\n作家になる夢、叶えませんか？作家志望の方の作品募集中。\n原稿用紙50枚以上300枚以下の文章作品を募集します。小説、エッセイ、詩、童話などどれもご応募いただけます。また横書き、縦書き、どちらでもいいです。\n大賞　3名　　無料で出版\n最終締め切り　2013年7月15日\n＊氏名・年齢・郵便番号・住所・電話番号・連絡可能時間帯を書いた別紙（注1）を添えてください。\n＊作品の返却（注2）はいたしません。コピーでの応募をおすすめいたします。\n詳しくはホームページ（http://www.nihonbungakukan.co.jp）をご覧ください。\nご不明の場合は、お気軽にお問い合わせください（0120-71-5050・通話無料）。\n（注1）：別紙（べっし）：別の紙\n（注2）：返却（へんきゃく）：借りていた物や預かっていた物を返すこと",
+        "correct_choice_number": 2,
+        "explanation": "応募する人は、どうしなければならないか。=>\n連絡先などを書いた別紙を作品と一緒に送る\n。"
+      },
+      {
+        "question_number": 4,
+        "question": "メールの用件は何か。",
+        "choices": [
+          "みどり電気で、二回の説明会を開きたい。",
+          "みどり電気で、製品の説明をしたい。",
+          "丸友商事で、二回の説明会を開きたい。",
+          "丸友商事で、製品の説明をしたい。"
+        ],
+        "reading_passage": "Reading passage 4\nみどり電気の川崎さんから次のメールが届いた。\n件名：みどり電気の新製品のご説明について\n丸友商事（株）\n香川　竜　様\nメールを拝読いたしました。\n弊社の新製品にご質問をいただき、心から感謝いたします。\n早速ですが、製品の説明に伺いたいと思います。\n来週、以下のどちらかで貴社に伺わせていただきたいのですが、いかがでしょうか。\n日時：　4月17日（水）　14：00～15：00\n4月18日（木）　10：00～11：00\nご連絡をお待ちしております。\nみどり電気（株）\n川崎　裕太",
+        "correct_choice_number": 4,
+        "explanation": "メールの用件は何か。=>\n丸友商事で、製品の説明をしたい\n。"
+      },
+      {
+        "question_number": 5,
+        "question": "[3]に入る適当な言葉はどれか。",
+        "choices": [
+          "易いから",
+          "頑張っているから",
+          "頭がいいから",
+          "楽しいから"
+        ],
+        "reading_passage": "Reading passage 5\n学校では、難しい顔をしていると一生懸命に勉強していると見てくれる。[1]\n険しい表情\nをして、額に汗を流して勉強していると「偉いね」と言われる。\nしかし、これは、本当によい勉強法ではない。難しくて面白くないと感じることは、身につかないことが目に見えている。勉強は、楽しいと感じる人ほど、身につき、成績もよくなるのだ。\n中学生のころ、西岡君という友人がいった。彼は数学や理科は誰にも負けないくらい、いつも成績がよかった。そんな西岡君は、いつも楽しそうな表情をして勉強をしているのだ。難しい顔をして勉強することがよいことだと思っていた私は、[2]\nいつも不思議だった\n。数学や理科の話をすると、笑いながら教えてくれる。\nある日、西岡君に「なぜそんなに成績がいいの」と聞いてみたことがある。すると「[3]」というあっさりした返事が返ってきた。\n学生のころに聞いた言葉は、そのとき軽く聞き流していた。しかし、実際に社会に出て、仕事のできる人や頭の切れる人は、決まって「楽しんでいる人」だ。難しく険しい表情をしている人は、仕事が遅くて、質が悪い。嫌いだという感情があると、スピードが落ちて、熱心さ、集中力、根気が欠けてしまう。\n私は昔、難しい顔をしている人が頑張っている人だと思っていたが、大きな間違いだったのだ。本当に頑張って成果を発揮できる人は、楽しんでいる人なのだ。",
+        "correct_choice_number": 4,
+        "explanation": "[3]に入る適当な言葉はどれか。=>\n楽しいから"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "忘年会",
+        "reading": "bounenkai",
+        "meaning": "year-end party"
+      },
+      {
+        "word": "案内",
+        "reading": "annai",
+        "meaning": "information, guidance"
+      },
+      {
+        "word": "拝啓",
+        "reading": "haikei",
+        "meaning": "Dear (so and so)"
+      },
+      {
+        "word": "時下",
+        "reading": "jika",
+        "meaning": "nowadays"
+      },
+      {
+        "word": "ますます",
+        "reading": "",
+        "meaning": "increasingly, more and more"
+      },
+      {
+        "word": "健勝",
+        "reading": "kenshou",
+        "meaning": "good health"
+      },
+      {
+        "word": "振り返る",
+        "reading": "furikaeru",
+        "meaning": "to look back, to turn around"
+      },
+      {
+        "word": "下記",
+        "reading": "kaki",
+        "meaning": "the following"
+      },
+      {
+        "word": "開催",
+        "reading": "kaisai",
+        "meaning": "holding a meeting, open an exhibition"
+      },
+      {
+        "word": "敬具",
+        "reading": "keigu",
+        "meaning": "Sincerely yours"
+      },
+      {
+        "word": "会費",
+        "reading": "kaihi",
+        "meaning": "membership fee"
+      },
+      {
+        "word": "担当者",
+        "reading": "tantousha",
+        "meaning": "person in charge, contact (person)"
+      },
+      {
+        "word": "連絡先",
+        "reading": "renrakusaki",
+        "meaning": "contact address"
+      },
+      {
+        "word": "弊社",
+        "reading": "heisha",
+        "meaning": "our firm (company)"
+      },
+      {
+        "word": "案内書",
+        "reading": "annaisho",
+        "meaning": "guidebook, guide"
+      },
+      {
+        "word": "内容",
+        "reading": "naiyou",
+        "meaning": "subject, contents"
+      },
+      {
+        "word": "会話",
+        "reading": "kaiwa",
+        "meaning": "conversation"
+      },
+      {
+        "word": "禁句",
+        "reading": "kinku",
+        "meaning": "taboo word"
+      },
+      {
+        "word": "海外旅行",
+        "reading": "kaigai ryokou",
+        "meaning": "vacation abroad"
+      },
+      {
+        "word": "終わり",
+        "reading": "owari",
+        "meaning": "the end"
+      },
+      {
+        "word": "相手",
+        "reading": "aite",
+        "meaning": "companion, partner, other party"
+      },
+      {
+        "word": "肯定",
+        "reading": "koutei",
+        "meaning": "positive, affirmation"
+      },
+      {
+        "word": "否定",
+        "reading": "hitei",
+        "meaning": "negation, denial"
+      },
+      {
+        "word": "表現",
+        "reading": "hyougen",
+        "meaning": "expression"
+      },
+      {
+        "word": "言い換える",
+        "reading": "iikaeru",
+        "meaning": "to say in other words, to put another way"
+      },
+      {
+        "word": "万里の長城",
+        "reading": "banri no choujou",
+        "meaning": "Great Wall of China"
+      },
+      {
+        "word": "実際に",
+        "reading": "jissai ni",
+        "meaning": "practically, virtually"
+      },
+      {
+        "word": "興味",
+        "reading": "kyoumi",
+        "meaning": "interest (in something)"
+      },
+      {
+        "word": "返事",
+        "reading": "henji",
+        "meaning": "reply, answer, response"
+      },
+      {
+        "word": "つまらない",
+        "reading": "",
+        "meaning": "boring, uninteresting"
+      },
+      {
+        "word": "一瞬",
+        "reading": "isshun",
+        "meaning": "moment, instant"
+      },
+      {
+        "word": "文学",
+        "reading": "bungaku",
+        "meaning": "literature"
+      },
+      {
+        "word": "文庫",
+        "reading": "bunko",
+        "meaning": "library, book collection"
+      },
+      {
+        "word": "大賞",
+        "reading": "taishou",
+        "meaning": "big prize, first prize"
+      },
+      {
+        "word": "作家",
+        "reading": "sakka",
+        "meaning": "author, writer, novelist"
+      },
+      {
+        "word": "夢",
+        "reading": "yume",
+        "meaning": "dream"
+      },
+      {
+        "word": "叶う",
+        "reading": "kanau",
+        "meaning": "to come true (wish)"
+      },
+      {
+        "word": "志望",
+        "reading": "shibou",
+        "meaning": "wish, desire, ambition"
+      },
+      {
+        "word": "募集",
+        "reading": "boshuu",
+        "meaning": "recruiting, taking applications"
+      },
+      {
+        "word": "原稿用紙",
+        "reading": "genkouyoushi",
+        "meaning": "Japanese writing paper"
+      },
+      {
+        "word": "以上",
+        "reading": "ijou",
+        "meaning": "more than"
+      },
+      {
+        "word": "以下",
+        "reading": "ika",
+        "meaning": "not exceeding, under"
+      },
+      {
+        "word": "文章",
+        "reading": "bunshou",
+        "meaning": "sentence, article, composition"
+      },
+      {
+        "word": "作品",
+        "reading": "sakuhin",
+        "meaning": "work (book, film, composition)"
+      },
+      {
+        "word": "小説",
+        "reading": "shousetsu",
+        "meaning": "novel, short story"
+      },
+      {
+        "word": "エッセイ",
+        "reading": "",
+        "meaning": "essay"
+      },
+      {
+        "word": "詩",
+        "reading": "shi",
+        "meaning": "poem"
+      },
+      {
+        "word": "童話",
+        "reading": "douwa",
+        "meaning": "fairy-tale"
+      },
+      {
+        "word": "応募",
+        "reading": "oubo",
+        "meaning": "subscription, application"
+      },
+      {
+        "word": "横書き",
+        "reading": "yokogaki",
+        "meaning": "writing horizontally"
+      },
+      {
+        "word": "縦書き",
+        "reading": "tategaki",
+        "meaning": "vertical writing"
+      },
+      {
+        "word": "無料",
+        "reading": "muryou",
+        "meaning": "free, no charge"
+      },
+      {
+        "word": "出版",
+        "reading": "shuppan",
+        "meaning": "publication"
+      },
+      {
+        "word": "最終",
+        "reading": "saishuu",
+        "meaning": "last, final, closing"
+      },
+      {
+        "word": "締め切り",
+        "reading": "shimekiri",
+        "meaning": "deadline"
+      },
+      {
+        "word": "氏名",
+        "reading": "shimei",
+        "meaning": "full name"
+      },
+      {
+        "word": "年齢",
+        "reading": "nenrei",
+        "meaning": "age, years"
+      },
+      {
+        "word": "郵便番号",
+        "reading": "yuubinbangou",
+        "meaning": "postal code"
+      },
+      {
+        "word": "可能",
+        "reading": "kanou",
+        "meaning": "possible"
+      },
+      {
+        "word": "時間帯",
+        "reading": "jikantai",
+        "meaning": "time slot, period of time"
+      },
+      {
+        "word": "別紙",
+        "reading": "besshi",
+        "meaning": "enclosure"
+      },
+      {
+        "word": "添える",
+        "reading": "soeru",
+        "meaning": "to accompany"
+      },
+      {
+        "word": "返却",
+        "reading": "henkyaku",
+        "meaning": "return of something"
+      },
+      {
+        "word": "詳しく",
+        "reading": "kuwashiku",
+        "meaning": "in detail, fully, minitely"
+      },
+      {
+        "word": "不明",
+        "reading": "fumei",
+        "meaning": "uncertain, ambiguous"
+      },
+      {
+        "word": "気軽",
+        "reading": "kigaru",
+        "meaning": "carefree, ease"
+      },
+      {
+        "word": "問い合わせる",
+        "reading": "toiawaseru",
+        "meaning": "to enquire, to seek information"
+      },
+      {
+        "word": "通話",
+        "reading": "tsuuwa",
+        "meaning": "telephone call"
+      },
+      {
+        "word": "原稿",
+        "reading": "genkou",
+        "meaning": "manuscript, copy"
+      },
+      {
+        "word": "新製品",
+        "reading": "shinseihin",
+        "meaning": "new product"
+      },
+      {
+        "word": "説明",
+        "reading": "setsumei",
+        "meaning": "explanation"
+      },
+      {
+        "word": "拝読",
+        "reading": "haidoku",
+        "meaning": "reading"
+      },
+      {
+        "word": "心から",
+        "reading": "kokoro kara",
+        "meaning": "from the bottom of one’s heart"
+      },
+      {
+        "word": "感謝",
+        "reading": "kansha",
+        "meaning": "thanks, gratitude"
+      },
+      {
+        "word": "早速",
+        "reading": "sassoku",
+        "meaning": "at once, immediately, without delay"
+      },
+      {
+        "word": "貴社",
+        "reading": "kisha",
+        "meaning": "(your) company"
+      },
+      {
+        "word": "伺う",
+        "reading": "ukagau",
+        "meaning": "to visit, to ask, to inquire"
+      },
+      {
+        "word": "連絡",
+        "reading": "renraku",
+        "meaning": "to contact, to get in touch"
+      },
+      {
+        "word": "険しい",
+        "reading": "kewashii",
+        "meaning": "steep, stern, severe"
+      },
+      {
+        "word": "表情",
+        "reading": "hyoujou",
+        "meaning": "facial expression"
+      },
+      {
+        "word": "額",
+        "reading": "hitai",
+        "meaning": "forehead, brow"
+      },
+      {
+        "word": "汗",
+        "reading": "ase",
+        "meaning": "sweat"
+      },
+      {
+        "word": "流す",
+        "reading": "nagasu",
+        "meaning": "to shed, to pour"
+      },
+      {
+        "word": "偉い",
+        "reading": "erai",
+        "meaning": "admirable, remarkable"
+      },
+      {
+        "word": "法",
+        "reading": "hou",
+        "meaning": "law, method"
+      },
+      {
+        "word": "感じる",
+        "reading": "kajiru",
+        "meaning": "to feel, to sense"
+      },
+      {
+        "word": "成績",
+        "reading": "seiseki",
+        "meaning": "results, grades"
+      },
+      {
+        "word": "不思議",
+        "reading": "fushigi",
+        "meaning": "strange, mystery"
+      },
+      {
+        "word": "笑う",
+        "reading": "warau",
+        "meaning": "to laugh, to smile"
+      },
+      {
+        "word": "軽い",
+        "reading": "karui",
+        "meaning": "light, feeling light"
+      },
+      {
+        "word": "聞き流す",
+        "reading": "kikinagasu",
+        "meaning": "to ignore"
+      },
+      {
+        "word": "頭が切れる",
+        "reading": "atama ga kireru",
+        "meaning": "to be sharp, to be clever"
+      },
+      {
+        "word": "決まって",
+        "reading": "kimatte",
+        "meaning": "always, without fail"
+      },
+      {
+        "word": "感情",
+        "reading": "kanjou",
+        "meaning": "emotion, feelings"
+      },
+      {
+        "word": "熱心",
+        "reading": "nesshin",
+        "meaning": "zeal, enthusiasm"
+      },
+      {
+        "word": "集中力",
+        "reading": "shuuchuuryoku",
+        "meaning": "ability to concentrate"
+      },
+      {
+        "word": "根気",
+        "reading": "konki",
+        "meaning": "patience, perseverance"
+      },
+      {
+        "word": "欠ける",
+        "reading": "kakeru",
+        "meaning": "to be missing, to be lacking"
+      },
+      {
+        "word": "間違い",
+        "reading": "machigai",
+        "meaning": "mistake"
+      },
+      {
+        "word": "成果",
+        "reading": "seika",
+        "meaning": "results, fruits"
+      },
+      {
+        "word": "発揮",
+        "reading": "hakki",
+        "meaning": "show, display, demonstration"
+      }
+    ]
+  },
+  {
+    "exercise_number": 2,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-reading-exercise-2/",
+    "questions": [
+      {
+        "question_number": 3,
+        "question": "この文章の内容と合っているのはどれか。",
+        "choices": [
+          "日本人の友だちの奥さんが正月の日本料理に使うものを買ってくれた。",
+          "アメリカでも正月の日本料理が食べられるようになってびっくりした。",
+          "アメリカでは日本料理の店に行かなくても日本料理は食べられるようになった。",
+          "最近都市の中心部に住む日本人が増えるにつれ、日本料理の人気は高くなった。"
+        ],
+        "reading_passage": "Reading passage 1\nこの冬の３ヶ月間、私は会社の仕事でアメリカに行っていました。私は日本料理の店にはまったく行きませんでした。外国にいる時は、その国の料理を食べたいと思っているからです。ところが、３週間経った１２月の終わりの頃、なぜか正月は日本料理を食べたいという気持ちになってきました。日本人の友だちの奥さんに、材料はどこへ行ったら買えるのか聞いてみました。[1]\nそう\nいうのをまとめて売っているスーパーがダウンタウン注１にあるから、今から頼んでおくといいと教えてくれました。\nこれには本当にびっくりしました。１５年前、まだ学生だったころの冬休みにここへ遊びにきたとき、日本料理の店に行かなければ、正月の料理は食べられなかったのです。それが今、安い値段で簡単に買えてしまうのですから、これは大きな変化です。\n[[2]\nこの１５年の間に何があったのでしょうか\n。ここに住んでいる日本人が増えたのでしょうか。それとも、日本料理の人気が高くなったのでしょうか。どちらも正しいように思えるし、どちらも違うような気もします。とにかく、正月に日本料理が食べられたのは、嬉しいことでした。\n（注１）ダウンタウン：下町。商業地域。\n1.\nそう\nいうのとありますが、どういうものか。\n日本人の友だちの奥さんに頼んだもの\nアメリカの料理に使うもの\n正月の日本料理に使うもの\nダウンタウンのスーパーにあるもの\n2.\nこの15年の間に何があったのでしょうか\nとあるが、筆者は何に対してそう言っているか。\nアメリカのダウンタウンにスーパーができた理由\nアメリカに住んでいる日本人が増えた理由\nアメリカで日本料理の人気がますます高くなる理由\nアメリカでも日本料理の材料が簡単に買える理由",
+        "correct_choice_number": 3,
+        "explanation": "この文章の内容と合っているのはどれか。=>\nアメリカでは日本料理の店に行かなくても日本料理は食べられるようになった\n。"
+      },
+      {
+        "question_number": 4,
+        "question": "この文章の内容と合わないものはどれか。",
+        "choices": [
+          "暗い言葉は人の心に悪い影響を与えるかもしれない。",
+          "否定的な言葉を使うほど、成功の可能性が小さくなる。",
+          "「難しい」という言葉は「できない」よりすこしいい。",
+          "暗い言葉を全部排除すれば、何をしても成功できる。"
+        ],
+        "reading_passage": "Reading passage 2\n最近都市の中心部に住む日本人が増えるにつれ、日本料理の人気は高くなった。\n言葉には人の心に影響を与える力がある。暗くて否定的な言葉をあなたの中から排除（はいじょ）すれば、明るいあなたに生まれ変わる（注1）ことができる。まず、排除してもらいたい言葉は「できない」という一言だ。それを使えば使うほど、あなたの可能性はどんどん小さくなり、やろうというやる気まで小さくなる。どうしても「できない」としよう。「難しい」は少しでも可能性が残っていることを表現する言葉だ。だから、あなたの心の電気を真っ暗にすることはない。\n（注1）生まれ変わる：いままでとはまったく別人のようなすぐれた人になる。",
+        "correct_choice_number": 4,
+        "explanation": "この文章の内容と合わないものはどれか。=>\n暗い言葉を全部排除すれば、何をしても成功できる\n。"
+      },
+      {
+        "question_number": 5,
+        "question": "次の来館者のうちで、団体料金で総合文化展が観覧できないのはだれか。",
+        "choices": [
+          "東京市内の高校に通っている１７歳の娘と一緒に観覧する母親",
+          "東京市内の高校に通っている１８歳の息子と一緒に観覧する父親",
+          "東京市内の中学校に通っている１５歳の娘と一緒に観覧する母親",
+          "東京市内の小学校で働いている20歳の娘と一緒に観覧する父親"
+        ],
+        "reading_passage": "Reading passage 3\n東京国立博物館の料金・開館時間のご案内\n料金のご案内\n一般600（500）円、大学生400（300）円\n（注）（\n）内は20名以上の団体料金です。\n（注）特別展の場合は別料金となります。各特別展の案内ページをご参照ください。\n（注）高校生以下および満18歳未満，満70歳以上の方は，総合文化展について無料です。\n子どもといっしょ割引\n子ども（高校生以下および満18歳未満）と一緒に来館した入館者（子ども1名につき同伴者2名まで）は、団体料金で総合文化展を観覧できます。\n総合文化展割引パス\n総合文化展割引パス(満65～69歳限定)は、2000円(有効期限：発行から1年間)で総合文化展を何度でも観覧できます。\n（注）総合文化展割引パスは、2013年3月31日(日)で販売終了となります。発行日から1年間はご利用いただけます。\n* 資料館（図書・写真の利用）\n入館無料\n開館時間のご案内\n9:30～17:00(入館は16:30まで)\n2013年3月から12月までの特別展開催期間中の毎週金曜日は20:00まで開館します。\n*\n2013年4月から9月までの土曜、日曜、祝日、休日は18:00まで開館します。\n（注）入館は閉館の30分前まで\n* 資料館(写真・図書の利用)\n開館時間：9:30～17:00（月曜日から金曜日）\n東京国立博物館へのお問合せ\n利用案内や展示・催し物に関するお問い合わせ\n電話番号：03-5777-8600（ハローダイヤル）\nその他のお問い合わせ\n住所：〒110-8712　東京都台東区上野公園13-9　東京国立博物館\n電話番号：03-3822-1111(代表)",
+        "correct_choice_number": 4,
+        "explanation": "次の来館者のうちで、団体料金で総合文化展が観覧できないのはだれか。=>\n東京市内の小学校で働いている20歳の娘と一緒に観覧する父親"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "経つ",
+        "reading": "tatsu",
+        "meaning": "to pass, to lapse"
+      },
+      {
+        "word": "なぜか",
+        "reading": "",
+        "meaning": "somehow, for some reason"
+      },
+      {
+        "word": "正月",
+        "reading": "shougatsu",
+        "meaning": "New Year, New Year’s Day"
+      },
+      {
+        "word": "材料",
+        "reading": "zairyou",
+        "meaning": "ingredients, material"
+      },
+      {
+        "word": "まとめる",
+        "reading": "",
+        "meaning": "to put (it all) together, to collect"
+      },
+      {
+        "word": "ダウンタウン",
+        "reading": "",
+        "meaning": "downtown"
+      },
+      {
+        "word": "びっくり",
+        "reading": "",
+        "meaning": "to be surprise, to be amazed"
+      },
+      {
+        "word": "値段",
+        "reading": "nedan",
+        "meaning": "price, cost"
+      },
+      {
+        "word": "変化",
+        "reading": "henka",
+        "meaning": "change, transformation, transition"
+      },
+      {
+        "word": "増える",
+        "reading": "fueru",
+        "meaning": "to increase, to multiply"
+      },
+      {
+        "word": "人気",
+        "reading": "ninki",
+        "meaning": "popular"
+      },
+      {
+        "word": "筆者",
+        "reading": "hissha",
+        "meaning": "writer, author"
+      },
+      {
+        "word": "最近",
+        "reading": "saikin",
+        "meaning": "most recent, nowadays"
+      },
+      {
+        "word": "都市",
+        "reading": "toshi",
+        "meaning": "town, city, urban"
+      },
+      {
+        "word": "中心部",
+        "reading": "chuushinbu",
+        "meaning": "central part, heart (of a city)"
+      },
+      {
+        "word": "言葉",
+        "reading": "kotoba",
+        "meaning": "language, word, phrase"
+      },
+      {
+        "word": "影響",
+        "reading": "eikyou",
+        "meaning": "influence, effect"
+      },
+      {
+        "word": "否定的",
+        "reading": "hiteiteki",
+        "meaning": "negative"
+      },
+      {
+        "word": "与える",
+        "reading": "ataeru",
+        "meaning": "to give, to offer, to bestow"
+      },
+      {
+        "word": "排除",
+        "reading": "haijo",
+        "meaning": "exclusion, removal"
+      },
+      {
+        "word": "生まれ変わる",
+        "reading": "umarekawaru",
+        "meaning": "to be born again, to make a fresh start in life"
+      },
+      {
+        "word": "可能性",
+        "reading": "kanousei",
+        "meaning": "possibility, likelihood"
+      },
+      {
+        "word": "どんどん",
+        "reading": "",
+        "meaning": "rapidly, steadily"
+      },
+      {
+        "word": "残る",
+        "reading": "nokoru",
+        "meaning": "to remain, to be left"
+      },
+      {
+        "word": "真っ暗",
+        "reading": "makkura",
+        "meaning": "total darkness, pitch dark"
+      },
+      {
+        "word": "成功",
+        "reading": "seikou",
+        "meaning": "success, hit"
+      },
+      {
+        "word": "国立博物館",
+        "reading": "kokuritsu hakubutsukan",
+        "meaning": "national museum"
+      },
+      {
+        "word": "料金",
+        "reading": "ryoukin",
+        "meaning": "fee, charge, fare"
+      },
+      {
+        "word": "開館",
+        "reading": "kaikan",
+        "meaning": "opening a hall for that day’s business"
+      },
+      {
+        "word": "一般",
+        "reading": "ippan",
+        "meaning": "general, universal"
+      },
+      {
+        "word": "団体",
+        "reading": "dantai",
+        "meaning": "organization, association"
+      },
+      {
+        "word": "特別展",
+        "reading": "tokubetsuten",
+        "meaning": "special exhibition"
+      },
+      {
+        "word": "参照",
+        "reading": "sanshou",
+        "meaning": "reference, consultation"
+      },
+      {
+        "word": "および",
+        "reading": "",
+        "meaning": "and, as well as"
+      },
+      {
+        "word": "未満",
+        "reading": "miman",
+        "meaning": "less than, insufficient"
+      },
+      {
+        "word": "総合",
+        "reading": "sougou",
+        "meaning": "synthesis, putting together, comprehensive"
+      },
+      {
+        "word": "割引",
+        "reading": "waribiki",
+        "meaning": "discount, reduction"
+      },
+      {
+        "word": "来館",
+        "reading": "raikan",
+        "meaning": "coming to an embassy, theater, library, etc."
+      },
+      {
+        "word": "同伴者",
+        "reading": "douhansha",
+        "meaning": "companion"
+      },
+      {
+        "word": "観覧",
+        "reading": "kanran",
+        "meaning": "viewing"
+      },
+      {
+        "word": "限定",
+        "reading": "gentei",
+        "meaning": "limit, restriction"
+      },
+      {
+        "word": "有効期限",
+        "reading": "yuukoukigen",
+        "meaning": "expiration date, effective date"
+      },
+      {
+        "word": "発行",
+        "reading": "hakkou",
+        "meaning": "issue, publishing"
+      },
+      {
+        "word": "販売",
+        "reading": "hanbai",
+        "meaning": "sales, selling, marketing"
+      },
+      {
+        "word": "終了",
+        "reading": "shuuryou",
+        "meaning": "end, close"
+      },
+      {
+        "word": "利用",
+        "reading": "riyou",
+        "meaning": "use, utilization"
+      },
+      {
+        "word": "資料館",
+        "reading": "shiryoukan",
+        "meaning": "reference library, archive"
+      },
+      {
+        "word": "図書",
+        "reading": "tosho",
+        "meaning": "books"
+      },
+      {
+        "word": "展示",
+        "reading": "tenji",
+        "meaning": "exhibition, display"
+      },
+      {
+        "word": "催し物",
+        "reading": "moyoushimono",
+        "meaning": "tourist attraction, exhibit"
+      }
+    ]
+  },
+  {
+    "exercise_number": 3,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-reading-exercise-3/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "食べ合わせの悪い例として、正しいのはどれか。",
+        "choices": [
+          "うなぎとてんぷら",
+          "天ぷらと梅干",
+          "トマトと天ぷら",
+          "きゅうりとトマト"
+        ],
+        "reading_passage": "Reading passage 1\n日本には「食べ合わせ」と言う言葉がある。食べ合わせとは食事のときに一緒に食べると体にいいとか，体に悪いという組み合わせのことである。少し前の時代なら子供でも一つや二つは必ず言えるような常識だった。うっかり食べ合わせの悪いものを食べてしまって、ものすごく悪いことをしたかのように親に怒られたという人もいる。\n最も有名な例として、うなぎと梅干を一緒に食べるとよくないと言われている。天ぷらとスイカを一緒に食べるのは本当にお腹を壊す原因になるし、きゅうりとトマトはお互いの栄養を弱くしてしまうのだそうだ。(中略）\nでも、医者の友人は食べ合わせよりもっと気をつけなければならないのは薬の飲み合わせだと言っていた。ちゃんと医者の説明を聞かずにいろんな薬を一緒に飲むと、予想しない効果が現れてしまうこともあるという。実際に、それが原因で別の病気になってしまった人もいるという。最近では、もらった薬の成分表や、飲み合わせの悪いものなどを書いたものが医者からもらえるし、ネットには専門のサイトもある。",
+        "correct_choice_number": 4,
+        "explanation": "食べ合わせの悪い例として、正しいのはどれか。=>\nきゅうりとトマト"
+      },
+      {
+        "question_number": 2,
+        "question": "食べ合わせよりもっと気をつけなければならないのは薬の飲み合わせだとあるが、どうしてか。",
+        "choices": [
+          "常識として薬の飲み合わせは子どもの頃からよく知られているから。",
+          "薬の飲み合わせが悪くておなかを壊してしまうことになるから。",
+          "薬の飲み合わせが悪いと、別の病気になってしまう可能性があるから。",
+          "薬の飲み合わせの悪いものは医者しか分からないから。"
+        ],
+        "reading_passage": "Reading passage 1\n日本には「食べ合わせ」と言う言葉がある。食べ合わせとは食事のときに一緒に食べると体にいいとか，体に悪いという組み合わせのことである。少し前の時代なら子供でも一つや二つは必ず言えるような常識だった。うっかり食べ合わせの悪いものを食べてしまって、ものすごく悪いことをしたかのように親に怒られたという人もいる。\n最も有名な例として、うなぎと梅干を一緒に食べるとよくないと言われている。天ぷらとスイカを一緒に食べるのは本当にお腹を壊す原因になるし、きゅうりとトマトはお互いの栄養を弱くしてしまうのだそうだ。(中略）\nでも、医者の友人は食べ合わせよりもっと気をつけなければならないのは薬の飲み合わせだと言っていた。ちゃんと医者の説明を聞かずにいろんな薬を一緒に飲むと、予想しない効果が現れてしまうこともあるという。実際に、それが原因で別の病気になってしまった人もいるという。最近では、もらった薬の成分表や、飲み合わせの悪いものなどを書いたものが医者からもらえるし、ネットには専門のサイトもある。",
+        "correct_choice_number": 3,
+        "explanation": "食べ合わせよりもっと気をつけなければならないのは薬の飲み合わせだとあるが、どうしてか。=>\n薬の飲み合わせが悪いと、別の病気になってしまう可能性があるから\n。"
+      },
+      {
+        "question_number": 3,
+        "question": "この文章を書いた人が一番伝えたいことは何か。",
+        "choices": [
+          "食べ合わせが悪いと、お腹を壊す原因になるので気をつけたほうがいい。",
+          "薬の飲み合わせが悪いと、予想しない効果が現れてしまうこともある。",
+          "薬の飲み合わせの悪いものを書いたものは医者からもらわなければならない。",
+          "最近は、ネットには薬の飲み合わせについての専門のサイトも出てきた。"
+        ],
+        "reading_passage": "Reading passage 1\n日本には「食べ合わせ」と言う言葉がある。食べ合わせとは食事のときに一緒に食べると体にいいとか，体に悪いという組み合わせのことである。少し前の時代なら子供でも一つや二つは必ず言えるような常識だった。うっかり食べ合わせの悪いものを食べてしまって、ものすごく悪いことをしたかのように親に怒られたという人もいる。\n最も有名な例として、うなぎと梅干を一緒に食べるとよくないと言われている。天ぷらとスイカを一緒に食べるのは本当にお腹を壊す原因になるし、きゅうりとトマトはお互いの栄養を弱くしてしまうのだそうだ。(中略）\nでも、医者の友人は食べ合わせよりもっと気をつけなければならないのは薬の飲み合わせだと言っていた。ちゃんと医者の説明を聞かずにいろんな薬を一緒に飲むと、予想しない効果が現れてしまうこともあるという。実際に、それが原因で別の病気になってしまった人もいるという。最近では、もらった薬の成分表や、飲み合わせの悪いものなどを書いたものが医者からもらえるし、ネットには専門のサイトもある。",
+        "correct_choice_number": 2,
+        "explanation": "この文章を書いた人が一番伝えたいことは何か。=>\n薬の飲み合わせが悪いと、予想しない効果が現れてしまうこともある\n。"
+      },
+      {
+        "question_number": 4,
+        "question": "[1]",
+        "choices": [
+          "険しい表情",
+          "とあるが、どのような表情か。",
+          "悲しい顔",
+          "難しい顔",
+          "怒った顔",
+          "迷った顔"
+        ],
+        "reading_passage": "Reading passage 2\n学校では、難しい顔をしていると一生懸命に勉強していると見てくれる。[1]\n険しい表情\nをして、額に汗を流して勉強していると「偉いね」と言われる。\nしかし、これは、本当によい勉強法ではない。難しくて面白くないと感じることは、身につかないことが目に見えている。勉強は、楽しいと感じる人ほど、身につき、成績もよくなるのだ。\n中学生のころ、西岡君という友人がいった。彼は数学や理科は誰にも負けないくらい、いつも成績がよかった。そんな西岡君は、いつも楽しそうな表情をして勉強をしているのだ。難しい顔をして勉強することがよいことだと思っていた私は、[2]\nいつも不思議だった\n。数学や理科の話をすると、笑いながら教えてくれる。\nある日、西岡君に「なぜそんなに成績がいいの」と聞いてみたことがある。すると「[3]」というあっさりした返事が返ってきた。\n学生のころに聞いた言葉は、そのとき軽く聞き流していた。しかし、実際に社会に出て、仕事のできる人や頭の切れる人は、決まって「楽しんでいる人」だ。難しく険しい表情をしている人は、仕事が遅くて、質が悪い。嫌いだという感情があると、スピードが落ちて、熱心さ、集中力、根気が欠けてしまう。\n私は昔、難しい顔をしている人が頑張っている人だと思っていたが、大きな間違いだったのだ。本当に頑張って成果を発揮（はっき）できる人は、楽しんでいる人なのだ。",
+        "correct_choice_number": 2,
+        "explanation": "[1]険しい表情とあるが、どのような表情か。=>\n難しい顔"
+      },
+      {
+        "question_number": 5,
+        "question": "[2]",
+        "choices": [
+          "いつも不思議だった",
+          "とあるが、何を指しているか。",
+          "西岡君がクラスの中で成績が一番よかったこと",
+          "西岡君が笑いながら勉強を教えてくれたこと",
+          "成績のいい西岡君がいつも楽しそうに勉強していたこと",
+          "成績のいい西岡君が険しい表情をして勉強していたこと"
+        ],
+        "reading_passage": "Reading passage 2\n学校では、難しい顔をしていると一生懸命に勉強していると見てくれる。[1]\n険しい表情\nをして、額に汗を流して勉強していると「偉いね」と言われる。\nしかし、これは、本当によい勉強法ではない。難しくて面白くないと感じることは、身につかないことが目に見えている。勉強は、楽しいと感じる人ほど、身につき、成績もよくなるのだ。\n中学生のころ、西岡君という友人がいった。彼は数学や理科は誰にも負けないくらい、いつも成績がよかった。そんな西岡君は、いつも楽しそうな表情をして勉強をしているのだ。難しい顔をして勉強することがよいことだと思っていた私は、[2]\nいつも不思議だった\n。数学や理科の話をすると、笑いながら教えてくれる。\nある日、西岡君に「なぜそんなに成績がいいの」と聞いてみたことがある。すると「[3]」というあっさりした返事が返ってきた。\n学生のころに聞いた言葉は、そのとき軽く聞き流していた。しかし、実際に社会に出て、仕事のできる人や頭の切れる人は、決まって「楽しんでいる人」だ。難しく険しい表情をしている人は、仕事が遅くて、質が悪い。嫌いだという感情があると、スピードが落ちて、熱心さ、集中力、根気が欠けてしまう。\n私は昔、難しい顔をしている人が頑張っている人だと思っていたが、大きな間違いだったのだ。本当に頑張って成果を発揮（はっき）できる人は、楽しんでいる人なのだ。",
+        "correct_choice_number": 3,
+        "explanation": "[2]いつも不思議だったとあるが、何を指しているか。=>\n成績のいい西岡君がいつも楽しそうに勉強していたこと"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "食べ合わせ",
+        "reading": "tabeawase",
+        "meaning": "combination (of foodstuffs)"
+      },
+      {
+        "word": "組み合わせ",
+        "reading": "kumiawase",
+        "meaning": "combination"
+      },
+      {
+        "word": "時代",
+        "reading": "jidai",
+        "meaning": "period, era"
+      },
+      {
+        "word": "常識",
+        "reading": "joushiki",
+        "meaning": "common knowledge, general knowledge"
+      },
+      {
+        "word": "必ず",
+        "reading": "kanarazu",
+        "meaning": "necessarily, certainly"
+      },
+      {
+        "word": "うっかり",
+        "reading": "",
+        "meaning": "carelessly, thoughtlessly"
+      },
+      {
+        "word": "ものすごく",
+        "reading": "",
+        "meaning": "to a very great extent"
+      },
+      {
+        "word": "最も",
+        "reading": "motto mo",
+        "meaning": "most, extremely"
+      },
+      {
+        "word": "例",
+        "reading": "rei",
+        "meaning": "example, case"
+      },
+      {
+        "word": "うなぎ",
+        "reading": "",
+        "meaning": "eel"
+      },
+      {
+        "word": "梅干",
+        "reading": "umeboshi",
+        "meaning": "dried plum"
+      },
+      {
+        "word": "天ぷら",
+        "reading": "tenpura",
+        "meaning": "tempura"
+      },
+      {
+        "word": "スイカ",
+        "reading": "",
+        "meaning": "watermelon"
+      },
+      {
+        "word": "壊す",
+        "reading": "kowasu",
+        "meaning": "to break, to destroy"
+      },
+      {
+        "word": "原因",
+        "reading": "genin",
+        "meaning": "cause, origin, source"
+      },
+      {
+        "word": "お互い",
+        "reading": "otagai",
+        "meaning": "mutual, each other"
+      },
+      {
+        "word": "栄養",
+        "reading": "eiyou",
+        "meaning": "nutrition, nourishment"
+      },
+      {
+        "word": "気を付ける",
+        "reading": "ki otsukeru",
+        "meaning": "to be careful, to pay attention"
+      },
+      {
+        "word": "予想",
+        "reading": "yosou",
+        "meaning": "expectation, anticipation"
+      },
+      {
+        "word": "効果",
+        "reading": "kouka",
+        "meaning": "effect, effectiveness, result"
+      },
+      {
+        "word": "現れる",
+        "reading": "arawareru",
+        "meaning": "to apepar, to become visible"
+      },
+      {
+        "word": "成分",
+        "reading": "seibun",
+        "meaning": "ingredient, component"
+      },
+      {
+        "word": "表",
+        "reading": "hyou",
+        "meaning": "table, chart, list"
+      },
+      {
+        "word": "飲み合わせ",
+        "reading": "nomiawase",
+        "meaning": "taking multiple medications, taking medicine and certain foods together or in close proximity"
+      },
+      {
+        "word": "専門",
+        "reading": "senmon",
+        "meaning": "speciality, specialty, expert"
+      },
+      {
+        "word": "伝える",
+        "reading": "tsutaeru",
+        "meaning": "to teach, to convey, to report"
+      },
+      {
+        "word": "指す",
+        "reading": "sasu",
+        "meaning": "to indicate, to point out"
+      }
+    ]
+  },
+  {
+    "exercise_number": 4,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-reading-exercise-4/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "どうして明治時代以降、洋傘は全国に広まりましたか。",
+        "choices": [
+          "和傘より質がよいし、もっと丈夫だし",
+          "和傘より値段が安いし、作り方も簡単だし",
+          "和傘より材料が高級だし、作り方も簡単だし",
+          "和傘よりデザインがいいし、美しく見えるし"
+        ],
+        "reading_passage": "Reading passage 1\n先日、友人を訪ねて岐阜に行きました。待ち合わせの時間まで少し時間があったので古い和傘の店があったので入ってみると、「いらっしゃいませ」と元気な声で店の主人が迎えてくれました。\n和傘作りは江戸時代から続く技術で、明治時代まではどこの町にも必ず1人や2人職人（注）がいたそうです。しかし、日本に西洋文化が入ってくると、今私たちが日頃使っているような、作るのも簡単で値段も安い洋傘がいっきに全国に広まりました。\n今年の79歳になる主人の加藤さんはいま、各県に1人か2人いるかいないかという和傘職人（注）の1人です。和傘づくりをやめようと思ったことがあります。そんなある日、たまたま店の前を通りかかった外国のお客さんが「和傘は日本人の性格をとてもよくあらわしているね」と言ったのを聞いて、(1)\n「ああ、やめちゃだめだ」と、考え直した\nそうです。\n加藤さんは、「まだまだ元気だから、あと10年は大丈夫。」と笑顔を見せてくれましたが、わたしはとてもさびしい気持ちになりました。\n（注）職人：身につけた技術によって物を作り出したりする職業の人。",
+        "correct_choice_number": 2,
+        "explanation": "どうして明治時代以降、洋傘は全国に広まりましたか。=>\n和傘より値段が安いし、作り方も簡単だし"
+      },
+      {
+        "question_number": 2,
+        "question": "(1)",
+        "choices": [
+          "「ああ、やめちゃだめだ」と、考え直した",
+          "とあるが、その理由は何か。",
+          "日本では和傘職人は1人か2人しか残らないから",
+          "和傘の好きな外国人がどんどん増えてきたから",
+          "和傘作りの必要な技術はあまり高くないから",
+          "和傘作りの伝統を守り続けたいと思うから"
+        ],
+        "reading_passage": "Reading passage 1\n先日、友人を訪ねて岐阜に行きました。待ち合わせの時間まで少し時間があったので古い和傘の店があったので入ってみると、「いらっしゃいませ」と元気な声で店の主人が迎えてくれました。\n和傘作りは江戸時代から続く技術で、明治時代まではどこの町にも必ず1人や2人職人（注）がいたそうです。しかし、日本に西洋文化が入ってくると、今私たちが日頃使っているような、作るのも簡単で値段も安い洋傘がいっきに全国に広まりました。\n今年の79歳になる主人の加藤さんはいま、各県に1人か2人いるかいないかという和傘職人（注）の1人です。和傘づくりをやめようと思ったことがあります。そんなある日、たまたま店の前を通りかかった外国のお客さんが「和傘は日本人の性格をとてもよくあらわしているね」と言ったのを聞いて、(1)\n「ああ、やめちゃだめだ」と、考え直した\nそうです。\n加藤さんは、「まだまだ元気だから、あと10年は大丈夫。」と笑顔を見せてくれましたが、わたしはとてもさびしい気持ちになりました。\n（注）職人：身につけた技術によって物を作り出したりする職業の人。",
+        "correct_choice_number": 4,
+        "explanation": "(1) 「ああ、やめちゃだめだ」と、考え直したとあるが、その理由は何か。=>\n和傘作りの伝統を守り続けたいと思うから"
+      },
+      {
+        "question_number": 3,
+        "question": "本文と合っているものはどれか。",
+        "choices": [
+          "和傘作りの伝統を守るのは大切だが、難しいことだ。",
+          "和傘作りの職人はたくさんいるが、一人前のは少ない。",
+          "職人の加藤さんが和傘作りを続けるのは幸い。",
+          "職人の加藤さんは和傘作りの伝統を守るのに自信がある。"
+        ],
+        "reading_passage": "Reading passage 1\n先日、友人を訪ねて岐阜に行きました。待ち合わせの時間まで少し時間があったので古い和傘の店があったので入ってみると、「いらっしゃいませ」と元気な声で店の主人が迎えてくれました。\n和傘作りは江戸時代から続く技術で、明治時代まではどこの町にも必ず1人や2人職人（注）がいたそうです。しかし、日本に西洋文化が入ってくると、今私たちが日頃使っているような、作るのも簡単で値段も安い洋傘がいっきに全国に広まりました。\n今年の79歳になる主人の加藤さんはいま、各県に1人か2人いるかいないかという和傘職人（注）の1人です。和傘づくりをやめようと思ったことがあります。そんなある日、たまたま店の前を通りかかった外国のお客さんが「和傘は日本人の性格をとてもよくあらわしているね」と言ったのを聞いて、(1)\n「ああ、やめちゃだめだ」と、考え直した\nそうです。\n加藤さんは、「まだまだ元気だから、あと10年は大丈夫。」と笑顔を見せてくれましたが、わたしはとてもさびしい気持ちになりました。\n（注）職人：身につけた技術によって物を作り出したりする職業の人。",
+        "correct_choice_number": 1,
+        "explanation": "本文と合っているものはどれか。=>\n和傘作りの伝統を守るのは大切だが、難しいことだ\n。"
+      },
+      {
+        "question_number": 4,
+        "question": "何が[1]",
+        "choices": [
+          "日本のほうが多い",
+          "のか。",
+          "犬を散歩につれていく人",
+          "犬のフンをかたづけようとしない人",
+          "わりばしと紙袋を持っている人",
+          "フンで道を汚すことを悪いと考えている人"
+        ],
+        "reading_passage": "Reading passage 2\nフランスのパリでは犬を飼っている人が多いが、散歩につれていく犬がアパートの玄関を出たところでフンをしても、それをかたづける人はだれもいないと、パリに長く住んでいる日本人が書いています。東京の住宅地を歩いていると、私がよく見る犬の散歩には、わりばし注１と紙袋を持っている人が多いので、フンで道路を汚すことを悪いと考えている人は[1]\n日本のほうが多い\nのではないかと思います。フランスでは犬を散歩させる人がフンをかたづけるのは、掃除をする人の仕事をとってしまうのだというのが[2]\nふつうの考え\nのように思えるからです。\nしかし、その考えはおかしいと思います。町の中で犬をつれて歩くには、町の美しさを守るという気持ちが必要なのではないでしょうか。なぜかそう思ったかというと、「パリの歩道には犬のフンがとても多く、それをかたづけるためには年間7000万フラン注２（約１２億円）かかる」という新聞記事を読んだからです。そのお金はだれが出しているのでしょうか。\n（注１）わりばし：使うときに二つに割るはし。\n（注２）フラン：フランス・ベルギーなどの旧通貨単位。",
+        "correct_choice_number": 4,
+        "explanation": "何が[1]日本のほうが多いのか。=>\nフンで道を汚すことを悪いと考えている人"
+      },
+      {
+        "question_number": 5,
+        "question": "[2]",
+        "choices": [
+          "ふつうの考え",
+          "とは、ここではどんな考えか。",
+          "フンで道路を汚すことを悪いと考える必要はない",
+          "犬を散歩させる人が犬のフンをかたづける必要はない",
+          "掃除をする人が町の美しさを守る必要はない",
+          "フンをかたづけるのはお金がかかると考える必要はない"
+        ],
+        "reading_passage": "Reading passage 2\nフランスのパリでは犬を飼っている人が多いが、散歩につれていく犬がアパートの玄関を出たところでフンをしても、それをかたづける人はだれもいないと、パリに長く住んでいる日本人が書いています。東京の住宅地を歩いていると、私がよく見る犬の散歩には、わりばし注１と紙袋を持っている人が多いので、フンで道路を汚すことを悪いと考えている人は[1]\n日本のほうが多い\nのではないかと思います。フランスでは犬を散歩させる人がフンをかたづけるのは、掃除をする人の仕事をとってしまうのだというのが[2]\nふつうの考え\nのように思えるからです。\nしかし、その考えはおかしいと思います。町の中で犬をつれて歩くには、町の美しさを守るという気持ちが必要なのではないでしょうか。なぜかそう思ったかというと、「パリの歩道には犬のフンがとても多く、それをかたづけるためには年間7000万フラン注２（約１２億円）かかる」という新聞記事を読んだからです。そのお金はだれが出しているのでしょうか。\n（注１）わりばし：使うときに二つに割るはし。\n（注２）フラン：フランス・ベルギーなどの旧通貨単位。",
+        "correct_choice_number": 2,
+        "explanation": "[2] ふつうの考えとは、ここではどんな考えか。=>\n犬を散歩させる人が犬のフンをかたづける必要はない"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "先日",
+        "reading": "senjitsu",
+        "meaning": "the other day, a few days ago"
+      },
+      {
+        "word": "友人",
+        "reading": "yuujin",
+        "meaning": "friend"
+      },
+      {
+        "word": "尋ねる",
+        "reading": "tazuneru",
+        "meaning": "to visit"
+      },
+      {
+        "word": "待ち合わせ",
+        "reading": "machiawase",
+        "meaning": "appointment"
+      },
+      {
+        "word": "主人",
+        "reading": "shujin",
+        "meaning": "proprietor (of a store)"
+      },
+      {
+        "word": "迎える",
+        "reading": "mukaeru",
+        "meaning": "to welcome, to receive"
+      },
+      {
+        "word": "江戸時代",
+        "reading": "edojidai",
+        "meaning": "Edo period"
+      },
+      {
+        "word": "技術",
+        "reading": "gijutsu",
+        "meaning": "art, craft, technique"
+      },
+      {
+        "word": "明治時代",
+        "reading": "meijijidai",
+        "meaning": "Meiji period"
+      },
+      {
+        "word": "職人",
+        "reading": "shokunin",
+        "meaning": "worker, mechanic, craftsman"
+      },
+      {
+        "word": "西洋",
+        "reading": "seiyou",
+        "meaning": "the west, Western countries"
+      },
+      {
+        "word": "日頃",
+        "reading": "higoro",
+        "meaning": "normally, habitually"
+      },
+      {
+        "word": "洋傘",
+        "reading": "yougasa",
+        "meaning": "(Western-style) umbrella"
+      },
+      {
+        "word": "いっきに",
+        "reading": "",
+        "meaning": "at once"
+      },
+      {
+        "word": "全国",
+        "reading": "zenkoku",
+        "meaning": "country-wide, nation-wide"
+      },
+      {
+        "word": "広まる",
+        "reading": "hiromaru",
+        "meaning": "to spread, to be propagated"
+      },
+      {
+        "word": "各県",
+        "reading": "kakuken",
+        "meaning": "all prefectures"
+      },
+      {
+        "word": "たまたま",
+        "reading": "",
+        "meaning": "casually, unexpectedly, by chance"
+      },
+      {
+        "word": "通りかかる",
+        "reading": "toorikakaru",
+        "meaning": "to happen to pass by"
+      },
+      {
+        "word": "性格",
+        "reading": "seikaku",
+        "meaning": "character, personality"
+      },
+      {
+        "word": "あらわす",
+        "reading": "",
+        "meaning": "to reveal, to show"
+      },
+      {
+        "word": "考え直す",
+        "reading": "kangaenaosu",
+        "meaning": "to reconsider, to rethink"
+      },
+      {
+        "word": "笑顔",
+        "reading": "egao",
+        "meaning": "smiling face, smile"
+      },
+      {
+        "word": "身につける",
+        "reading": "mi ni tsukeru",
+        "meaning": "to learn, to acquire knowledge"
+      },
+      {
+        "word": "作り出す",
+        "reading": "tsukuridasu",
+        "meaning": "to manufacture, to produce"
+      },
+      {
+        "word": "以降",
+        "reading": "ikou",
+        "meaning": "on and after, thereafter, since"
+      },
+      {
+        "word": "質がいい",
+        "reading": "tachi ga ii",
+        "meaning": "good (quality)"
+      },
+      {
+        "word": "高級",
+        "reading": "koukyuu",
+        "meaning": "high class, high grade"
+      },
+      {
+        "word": "デザイン",
+        "reading": "",
+        "meaning": "design"
+      },
+      {
+        "word": "伝統",
+        "reading": "dentou",
+        "meaning": "tradition, convention"
+      },
+      {
+        "word": "守る",
+        "reading": "mamoru",
+        "meaning": "protection, defence"
+      },
+      {
+        "word": "本文",
+        "reading": "honbun",
+        "meaning": "text (of document), body (of letter)"
+      },
+      {
+        "word": "一人前",
+        "reading": "ichininmae",
+        "meaning": "becoming adult, attaining full manhood or womanhood, coming of age"
+      },
+      {
+        "word": "幸い",
+        "reading": "saiwai",
+        "meaning": "happiness, blessedness"
+      },
+      {
+        "word": "自信",
+        "reading": "jishin",
+        "meaning": "self-confidence"
+      },
+      {
+        "word": "フン",
+        "reading": "",
+        "meaning": "excrement"
+      },
+      {
+        "word": "住宅地",
+        "reading": "juutakuchi",
+        "meaning": "housing district, residential district"
+      },
+      {
+        "word": "わりばし",
+        "reading": "",
+        "meaning": "splittable chopsticks"
+      },
+      {
+        "word": "紙袋",
+        "reading": "kamibukuro",
+        "meaning": "paper bag"
+      },
+      {
+        "word": "汚す",
+        "reading": "yogosu",
+        "meaning": "to stain, to make dirty"
+      },
+      {
+        "word": "歩道",
+        "reading": "hodou",
+        "meaning": "footpath, walkway, sidewalk"
+      },
+      {
+        "word": "新聞記事",
+        "reading": "shinbunkiji",
+        "meaning": "newspaper story"
+      }
+    ]
+  },
+  {
+    "exercise_number": 5,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-reading-exercise-5/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "[1]",
+        "choices": [
+          "それ",
+          "とはどのようなことか。",
+          "人間は二つの目があること",
+          "実際に三つの目があること",
+          "多くが二つの目があると答えること",
+          "失敗を避けて、成功につなげること"
+        ],
+        "reading_passage": "Reading passage 1\nあなたの目はいくつありますか。\nもちろん「二つ」と答える人がほとんどでしょう。\nたしかにそのとおりですが、[1]\nそれ\nだけではいけないのです。失敗を避けて成功につなげるためには、三つの目を持ちましょう。\nまずは一番目の「鳥の目」です。勉強でも仕事でも、いきなり細かいところから着手（ちゃくしゅ）するのは、かしこい方法ではありません。自分の現在地が把握できないのでは、頭の整理がしにくくなり、大きなストレスの原因になります。\nだからこそ鳥の目です。鳥になり、高い位置から下の様子を把握（はあく）することから始めるのです。本であれば[2]を見ます。建築であれば設計書（せっけいしょ）を見ます。仕事であれば目的や段階などを知ります。難しく思えることも、大体の構成（こうせい）が分かると、取り組みやすく（注1）なります。\n次に「虫の目」で見ます。虫は、小さい生き物です。地に面した低い位置にいるからこそ、上からは見えなかったことが見えてくるようになります。ターゲット（注2）を絞れば、虫のように狭く深くを心がけ、徹底（てってい）するのです。\n最後に「魚の目」です。魚は、目には見えない川の流れを体全体で感じ取っています。あなたは魚の目を持ち、どの方向へ流れていくのかを読み取ります。勉強にも仕事にも流れがあります。歴史の勉強も流れを理解すれば、覚えやすく忘れにくくなります。仕事でも流れを理解すれば、取り組みやすく忘れにくくなります。\n勉強でも仕事でも使える三つの目を持ちましょう。\n（注1）取り組む：全力でする\n（注2）ターゲット：目標",
+        "correct_choice_number": 1,
+        "explanation": "[1]それとはどのようなことか。=>\n人間は二つの目があること"
+      },
+      {
+        "question_number": 2,
+        "question": "[2]に入る適当な言葉はどれか。",
+        "choices": [
+          "目次",
+          "本文",
+          "解答",
+          "索引"
+        ],
+        "reading_passage": "Reading passage 1\nあなたの目はいくつありますか。\nもちろん「二つ」と答える人がほとんどでしょう。\nたしかにそのとおりですが、[1]\nそれ\nだけではいけないのです。失敗を避けて成功につなげるためには、三つの目を持ちましょう。\nまずは一番目の「鳥の目」です。勉強でも仕事でも、いきなり細かいところから着手（ちゃくしゅ）するのは、かしこい方法ではありません。自分の現在地が把握できないのでは、頭の整理がしにくくなり、大きなストレスの原因になります。\nだからこそ鳥の目です。鳥になり、高い位置から下の様子を把握（はあく）することから始めるのです。本であれば[2]を見ます。建築であれば設計書（せっけいしょ）を見ます。仕事であれば目的や段階などを知ります。難しく思えることも、大体の構成（こうせい）が分かると、取り組みやすく（注1）なります。\n次に「虫の目」で見ます。虫は、小さい生き物です。地に面した低い位置にいるからこそ、上からは見えなかったことが見えてくるようになります。ターゲット（注2）を絞れば、虫のように狭く深くを心がけ、徹底（てってい）するのです。\n最後に「魚の目」です。魚は、目には見えない川の流れを体全体で感じ取っています。あなたは魚の目を持ち、どの方向へ流れていくのかを読み取ります。勉強にも仕事にも流れがあります。歴史の勉強も流れを理解すれば、覚えやすく忘れにくくなります。仕事でも流れを理解すれば、取り組みやすく忘れにくくなります。\n勉強でも仕事でも使える三つの目を持ちましょう。\n（注1）取り組む：全力でする\n（注2）ターゲット：目標",
+        "correct_choice_number": 1,
+        "explanation": "[2]に入る適当な言葉はどれか。=>\n目次"
+      },
+      {
+        "question_number": 3,
+        "question": "「鳥の目」、「虫の目」、「魚の目」はそれぞれ何を指しているか。",
+        "choices": [
+          "全体の把握、流れの把握、部分の把握",
+          "部分の把握、流れの把握、全体の把握",
+          "全体の把握、部分の把握、流れの把握",
+          "流れの把握、全体の把握、部分の把握"
+        ],
+        "reading_passage": "Reading passage 1\nあなたの目はいくつありますか。\nもちろん「二つ」と答える人がほとんどでしょう。\nたしかにそのとおりですが、[1]\nそれ\nだけではいけないのです。失敗を避けて成功につなげるためには、三つの目を持ちましょう。\nまずは一番目の「鳥の目」です。勉強でも仕事でも、いきなり細かいところから着手（ちゃくしゅ）するのは、かしこい方法ではありません。自分の現在地が把握できないのでは、頭の整理がしにくくなり、大きなストレスの原因になります。\nだからこそ鳥の目です。鳥になり、高い位置から下の様子を把握（はあく）することから始めるのです。本であれば[2]を見ます。建築であれば設計書（せっけいしょ）を見ます。仕事であれば目的や段階などを知ります。難しく思えることも、大体の構成（こうせい）が分かると、取り組みやすく（注1）なります。\n次に「虫の目」で見ます。虫は、小さい生き物です。地に面した低い位置にいるからこそ、上からは見えなかったことが見えてくるようになります。ターゲット（注2）を絞れば、虫のように狭く深くを心がけ、徹底（てってい）するのです。\n最後に「魚の目」です。魚は、目には見えない川の流れを体全体で感じ取っています。あなたは魚の目を持ち、どの方向へ流れていくのかを読み取ります。勉強にも仕事にも流れがあります。歴史の勉強も流れを理解すれば、覚えやすく忘れにくくなります。仕事でも流れを理解すれば、取り組みやすく忘れにくくなります。\n勉強でも仕事でも使える三つの目を持ちましょう。\n（注1）取り組む：全力でする\n（注2）ターゲット：目標",
+        "correct_choice_number": 3,
+        "explanation": "「鳥の目」、「虫の目」、「魚の目」はそれぞれ何を指しているか。=>\n全体の把握、部分の把握、流れの把握"
+      },
+      {
+        "question_number": 4,
+        "question": "この文章を書いた人が一番伝えたいことは何か。",
+        "choices": [
+          "もともと人間は二つの目があると思っている人が少なくない。",
+          "失敗を避けるために三つの目が必要だと思っている人が少ない。",
+          "勉強や仕事がうまく行くように、三つの目を持ったほうがいい。",
+          "人間の目は動物の目とのあいだに、三つの共通点がある。"
+        ],
+        "reading_passage": "Reading passage 1\nあなたの目はいくつありますか。\nもちろん「二つ」と答える人がほとんどでしょう。\nたしかにそのとおりですが、[1]\nそれ\nだけではいけないのです。失敗を避けて成功につなげるためには、三つの目を持ちましょう。\nまずは一番目の「鳥の目」です。勉強でも仕事でも、いきなり細かいところから着手（ちゃくしゅ）するのは、かしこい方法ではありません。自分の現在地が把握できないのでは、頭の整理がしにくくなり、大きなストレスの原因になります。\nだからこそ鳥の目です。鳥になり、高い位置から下の様子を把握（はあく）することから始めるのです。本であれば[2]を見ます。建築であれば設計書（せっけいしょ）を見ます。仕事であれば目的や段階などを知ります。難しく思えることも、大体の構成（こうせい）が分かると、取り組みやすく（注1）なります。\n次に「虫の目」で見ます。虫は、小さい生き物です。地に面した低い位置にいるからこそ、上からは見えなかったことが見えてくるようになります。ターゲット（注2）を絞れば、虫のように狭く深くを心がけ、徹底（てってい）するのです。\n最後に「魚の目」です。魚は、目には見えない川の流れを体全体で感じ取っています。あなたは魚の目を持ち、どの方向へ流れていくのかを読み取ります。勉強にも仕事にも流れがあります。歴史の勉強も流れを理解すれば、覚えやすく忘れにくくなります。仕事でも流れを理解すれば、取り組みやすく忘れにくくなります。\n勉強でも仕事でも使える三つの目を持ちましょう。\n（注1）取り組む：全力でする\n（注2）ターゲット：目標",
+        "correct_choice_number": 3,
+        "explanation": "この文章を書いた人が一番伝えたいことは何か。=>\n勉強や仕事がうまく行くように、三つの目を持ったほうがいい\n。"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "失敗",
+        "reading": "shippai",
+        "meaning": "failure, mistake, blunder"
+      },
+      {
+        "word": "避ける",
+        "reading": "sakeru",
+        "meaning": "to avoid, to avert"
+      },
+      {
+        "word": "成功",
+        "reading": "seikou",
+        "meaning": "success, hit"
+      },
+      {
+        "word": "つなげる",
+        "reading": "",
+        "meaning": "to tie, to fastern, to connect"
+      },
+      {
+        "word": "いきなり",
+        "reading": "",
+        "meaning": "abruptly, suddenly, all of a sudden"
+      },
+      {
+        "word": "細かい",
+        "reading": "komakai",
+        "meaning": "small, fine, minute"
+      },
+      {
+        "word": "着手",
+        "reading": "chakushu",
+        "meaning": "to start work (on), to undertake"
+      },
+      {
+        "word": "賢い",
+        "reading": "kashikoi",
+        "meaning": "wise, clever, smart"
+      },
+      {
+        "word": "方法",
+        "reading": "houhou",
+        "meaning": "method, manner, way"
+      },
+      {
+        "word": "現在地",
+        "reading": "genzaichi",
+        "meaning": "present location, current location"
+      },
+      {
+        "word": "把握",
+        "reading": "haaku",
+        "meaning": "grasp, catch, understanding"
+      },
+      {
+        "word": "整理",
+        "reading": "seiri",
+        "meaning": "sorting, organization, putting in order"
+      },
+      {
+        "word": "位置",
+        "reading": "ichi",
+        "meaning": "place, position, location"
+      },
+      {
+        "word": "様子",
+        "reading": "yousu",
+        "meaning": "state, state of affairs, aspect"
+      },
+      {
+        "word": "建築",
+        "reading": "kenchiku",
+        "meaning": "construction, architecture"
+      },
+      {
+        "word": "設計書",
+        "reading": "sekkeisho",
+        "meaning": "design specifications"
+      },
+      {
+        "word": "目的",
+        "reading": "mokuteki",
+        "meaning": "purpose, goal, aim"
+      },
+      {
+        "word": "段階",
+        "reading": "dankai",
+        "meaning": "grade, stage, steps, phase"
+      },
+      {
+        "word": "大体",
+        "reading": "daitai",
+        "meaning": "general, outline, main point"
+      },
+      {
+        "word": "構成",
+        "reading": "kousei",
+        "meaning": "organization, configuration, composition"
+      },
+      {
+        "word": "取り組む",
+        "reading": "torikumu",
+        "meaning": "to make effort, to strive for"
+      },
+      {
+        "word": "虫",
+        "reading": "mushi",
+        "meaning": "insect"
+      },
+      {
+        "word": "生き物",
+        "reading": "ikimono",
+        "meaning": "living thing, animal"
+      },
+      {
+        "word": "地",
+        "reading": "chi",
+        "meaning": "earth, ground, land"
+      },
+      {
+        "word": "面する",
+        "reading": "mensuru",
+        "meaning": "to face on, to look out on to"
+      },
+      {
+        "word": "ターゲット",
+        "reading": "",
+        "meaning": "target"
+      },
+      {
+        "word": "絞る",
+        "reading": "shiboru",
+        "meaning": "to press, to squeeze, to wring"
+      },
+      {
+        "word": "心がける",
+        "reading": "kokorogakeru",
+        "meaning": "to bear in mind, to aim to do"
+      },
+      {
+        "word": "徹底",
+        "reading": "tettei",
+        "meaning": "thoroughness, completeness"
+      },
+      {
+        "word": "全体",
+        "reading": "zentai",
+        "meaning": "whole, entirety"
+      },
+      {
+        "word": "感じ取る",
+        "reading": "kanjitoru",
+        "meaning": "to feel"
+      },
+      {
+        "word": "方向",
+        "reading": "houkou",
+        "meaning": "direction, bearing, way"
+      },
+      {
+        "word": "流れる",
+        "reading": "nagareru",
+        "meaning": "to stream, to flow"
+      },
+      {
+        "word": "読み取る",
+        "reading": "yomitoru",
+        "meaning": "to read (someone’s) mind, to read between the lines"
+      },
+      {
+        "word": "理解",
+        "reading": "rikai",
+        "meaning": "understanding, comprehension"
+      },
+      {
+        "word": "人間",
+        "reading": "ningen",
+        "meaning": "human being, man"
+      },
+      {
+        "word": "適当",
+        "reading": "tekitou",
+        "meaning": "suitable, relevant, fit"
+      },
+      {
+        "word": "目次",
+        "reading": "mokuji",
+        "meaning": "table of contents"
+      },
+      {
+        "word": "解答",
+        "reading": "kaitou",
+        "meaning": "answer, solution"
+      },
+      {
+        "word": "索引",
+        "reading": "sakuin",
+        "meaning": "index, indexes"
+      },
+      {
+        "word": "部分",
+        "reading": "bubun",
+        "meaning": "portion, section, part"
+      },
+      {
+        "word": "共通点",
+        "reading": "kyoutsuuten",
+        "meaning": "common feature"
+      },
+      {
+        "word": "騙す",
+        "reading": "damasu",
+        "meaning": "to trick, to cheat, to deceive"
+      },
+      {
+        "word": "経験",
+        "reading": "keiken",
+        "meaning": "experience"
+      },
+      {
+        "word": "人生",
+        "reading": "jinsei",
+        "meaning": "(human) life"
+      },
+      {
+        "word": "免疫",
+        "reading": "men’eki",
+        "meaning": "immunity"
+      },
+      {
+        "word": "痛手",
+        "reading": "itade",
+        "meaning": "serious wound, hard blow"
+      },
+      {
+        "word": "負う",
+        "reading": "ou",
+        "meaning": "to bear"
+      },
+      {
+        "word": "通る",
+        "reading": "tooru",
+        "meaning": "to pass"
+      },
+      {
+        "word": "関門",
+        "reading": "kanmon",
+        "meaning": "barrier, gateway"
+      },
+      {
+        "word": "損",
+        "reading": "son",
+        "meaning": "loss, disadvantage"
+      },
+      {
+        "word": "言い換える",
+        "reading": "iikaeru",
+        "meaning": "to say in other words, to put another way"
+      },
+      {
+        "word": "数少ない",
+        "reading": "kazusukunai",
+        "meaning": "few in number"
+      },
+      {
+        "word": "教訓",
+        "reading": "kyoukun",
+        "meaning": "lesson, precept"
+      },
+      {
+        "word": "得る",
+        "reading": "eru",
+        "meaning": "to get, to acquire, to obtain"
+      },
+      {
+        "word": "金額",
+        "reading": "kingaku",
+        "meaning": "amount of money"
+      },
+      {
+        "word": "授業料",
+        "reading": "jugyouryou",
+        "meaning": "tuition fee, course fee"
+      },
+      {
+        "word": "受け入れる",
+        "reading": "ukeireru",
+        "meaning": "to accept, to receive"
+      }
+    ]
+  },
+  {
+    "exercise_number": 6,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-reading-exercise-6/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "この案内によると、ふるさと村案内人としてしなくてもいいことは何か。",
+        "choices": [
+          "募集期間、7月から活動や研修に参加しなければならない",
+          "年間４回以上ボランティア養成研修に参加しなければならない",
+          "月２回以上10時～15時頃までの活動に参加しなければならない",
+          "活動費用(ボランティア保険含む)を年間1300円払わなければならない"
+        ],
+        "reading_passage": "Reading passage 1\nふるさと村案内人ボランティア募集\n東北６県の懐かしい古民家をガイドしてみませんか\nふるさと村は東北６県の１９世紀古民家７棟を移築した古民家園です。どこか懐かしい雰囲気のする古民家で、あなたも案内人として活動してみませんか？\n1・対象及び活動内容\n[1] １８歳以上の方で、自分で責任を持って活動ができ、グループの和を尊重できる方。\n[2] ボランティアの趣旨に賛同し、積極的に活動に参加できる方\n[3] ボランティア養成研修(年間４回以上)に参加できる方\n[4] 月２回以上、10時～15時頃までの活動が可能な方。\n[5] 活動費用として、年間１３００円(ボランティア保険含む)がかかります。\n２.募集人員\n約２０名\n３.募集期間\n平成２３年７月１日～８月３１日\n*活動・研修は8 月以降に随時開始の予定\n４.申し込み方法\n・申込用紙にご記入の上、みちのく公園　ふるさと村案内人事務局まで郵送で申し込みください。\n申し込み用紙に[1] 名前・年齢　[2] 住所・郵便番号　[3] 特技・趣味（例：写真撮影／日\n曜大工／旅行など）についてご記入ください。ふるさと村案内人に申し込まれた理由を\nご記入ください。\n*電話・FAXでは受け付けません\n・締め切り\n平成23 年8 月31 日\n５.お問合せ・郵送先\n〒989-1505 宮城県柴田郡川崎町大字小野字二本松５３－９\n国営みちのく杜の湖畔公園内「ふるさと村案内人」事務局(総務課)\n電話：0224-84-5991（代）",
+        "correct_choice_number": 1,
+        "explanation": "この案内によると、ふるさと村案内人としてしなくてもいいことは何か。=>\n募集期間、7月から活動や研修に参加しなければならない"
+      },
+      {
+        "question_number": 2,
+        "question": "申し込む場合は正しいものはどれか。",
+        "choices": [
+          "申し込む前に、ボランティア養成研修に参加しなければならない",
+          "申し込む前に、ふるさと村案内人事務局に電話をかけなければならない",
+          "申し込む時は、申し込み用紙に記入して郵送で送らなければならない",
+          "申し込む時は、活動費用とともに申し込み用紙を送らなければならない"
+        ],
+        "reading_passage": "Reading passage 1\nふるさと村案内人ボランティア募集\n東北６県の懐かしい古民家をガイドしてみませんか\nふるさと村は東北６県の１９世紀古民家７棟を移築した古民家園です。どこか懐かしい雰囲気のする古民家で、あなたも案内人として活動してみませんか？\n1・対象及び活動内容\n[1] １８歳以上の方で、自分で責任を持って活動ができ、グループの和を尊重できる方。\n[2] ボランティアの趣旨に賛同し、積極的に活動に参加できる方\n[3] ボランティア養成研修(年間４回以上)に参加できる方\n[4] 月２回以上、10時～15時頃までの活動が可能な方。\n[5] 活動費用として、年間１３００円(ボランティア保険含む)がかかります。\n２.募集人員\n約２０名\n３.募集期間\n平成２３年７月１日～８月３１日\n*活動・研修は8 月以降に随時開始の予定\n４.申し込み方法\n・申込用紙にご記入の上、みちのく公園　ふるさと村案内人事務局まで郵送で申し込みください。\n申し込み用紙に[1] 名前・年齢　[2] 住所・郵便番号　[3] 特技・趣味（例：写真撮影／日\n曜大工／旅行など）についてご記入ください。ふるさと村案内人に申し込まれた理由を\nご記入ください。\n*電話・FAXでは受け付けません\n・締め切り\n平成23 年8 月31 日\n５.お問合せ・郵送先\n〒989-1505 宮城県柴田郡川崎町大字小野字二本松５３－９\n国営みちのく杜の湖畔公園内「ふるさと村案内人」事務局(総務課)\n電話：0224-84-5991（代）",
+        "correct_choice_number": 3,
+        "explanation": "申し込む場合は正しいものはどれか。=>\n申し込む時は、申し込み用紙に記入して郵送で送らなければならない"
+      },
+      {
+        "question_number": 3,
+        "question": "留学生の張さんがクラス会に参加しようと思っている。何をしなければならないか。",
+        "choices": [
+          "メールでクラス会への参加を知らせて、田中さんに学生証と1000円を渡す。",
+          "メールでクラス会への参加を知らせて、田中さんに学生証を渡す。",
+          "直接に鈴木さんとクラス会への参加を知らせて、学生証と1000円を渡す。",
+          "直接に鈴木さんとクラス会への参加を知らせて、学生証を渡す。"
+        ],
+        "reading_passage": "Reading passage 2\n平成25年5月19日\n鈴木　杏子\nクラス会のお知らせ\n本学期のクラス会を、以下に書かれているとおり実施いたします。皆さんのご参加をお待ちしております。\n１．と　き　　6月2日（日）\n２．場　所　　朝日植物園\n３．日　程　　10:00　植物園の南門で集中する\n10:30　記念写真を撮る\n11:00　昼ごはんを食べる\n13:00　自由活動\n15:00　植物園の文化館で集中し、3D映画を見る\n16:30　解散・自由活動\n４．会　費　　1000円（当日お持ちください）\n５．申し込み\n今、準備中ですが、詳しい参加人数とみなさんの学生証が必要です。参加するかどうかは、ぜひ5月23日夜までにメールでお知らせください。そして、参加を確認した方は、5月24日午後１時までに学生証を直接に班長の田中さんにお渡しください。\n以上",
+        "correct_choice_number": 2,
+        "explanation": "留学生の張さんがクラス会に参加しようと思っている。何をしなければならないか。=>\nメールでクラス会への参加を知らせて、田中さんに学生証を渡す\n。"
+      },
+      {
+        "question_number": 4,
+        "question": "この文章で一番言いたいことは何か。",
+        "choices": [
+          "文章の大切な部分がよく太字で書かれている。",
+          "会話ではどこが大切な部分なのかいつも分かりにくい。",
+          "大切な部分を大きい声で話したほうがいい。",
+          "「本当は」という言葉の後は会話の大切な部分だ。"
+        ],
+        "reading_passage": "Reading passage 3\n会話では、本とは違い、どこが大切な部分なのか分かりにくいときがある。本では大切な部分が太字で書かれていたり、大きく書かれていたりしているため、見てすぐ分かる。それに対し、会話では、声の強弱（きょうじゃく）程度でしか意味の強さを表現できない。しかし、日常会話で大声で話すのは品がない。そんなときの決まり文句（注1）がある。「本当は」を使うのだ。日本には本音と建前という文化がある。どの言葉が本当の言葉なのかが分かりにくいと感じることがある。しかし、相手が真剣な表情を浮かべて「本当は」と言えば、後に続く言葉は本物だ。もし、相手が「本当は」と言ったら、本音が聞けるチャンスだ。\n（注1）決まり文句：内容がだいたい決まっている話",
+        "correct_choice_number": 4,
+        "explanation": "この文章で一番言いたいことは何か。=>\n「本当は」という言葉の後は会話の大切な部分だ\n。"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "ふるさと",
+        "reading": "",
+        "meaning": "hometown, birthplace"
+      },
+      {
+        "word": "案内人",
+        "reading": "annnainin",
+        "meaning": "(a) guide"
+      },
+      {
+        "word": "ボランティア",
+        "reading": "",
+        "meaning": "volunteer"
+      },
+      {
+        "word": "募集",
+        "reading": "boshuu",
+        "meaning": "recruiting, taking applications"
+      },
+      {
+        "word": "懐かしい",
+        "reading": "natsukashii",
+        "meaning": "dear, desired, missed"
+      },
+      {
+        "word": "民家",
+        "reading": "minka",
+        "meaning": "private house"
+      },
+      {
+        "word": "ガイド",
+        "reading": "",
+        "meaning": "tour guide"
+      },
+      {
+        "word": "世紀",
+        "reading": "seiki",
+        "meaning": "century, era"
+      },
+      {
+        "word": "棟",
+        "reading": "tou",
+        "meaning": "counter for buildings/apartments"
+      },
+      {
+        "word": "移築",
+        "reading": "ichiku",
+        "meaning": "dismantling an historic building and reconstructing it elsewhere"
+      },
+      {
+        "word": "雰囲気",
+        "reading": "fun’iki",
+        "meaning": "atmosphere, mood"
+      },
+      {
+        "word": "活動",
+        "reading": "katsudou",
+        "meaning": "action, activity"
+      },
+      {
+        "word": "対象",
+        "reading": "taishou",
+        "meaning": "target, object, subject"
+      },
+      {
+        "word": "責任",
+        "reading": "sekinin",
+        "meaning": "duty, responsibility"
+      },
+      {
+        "word": "尊重",
+        "reading": "sonchou",
+        "meaning": "respect, esteem, regard"
+      },
+      {
+        "word": "趣旨",
+        "reading": "shushi",
+        "meaning": "object, intent, aim"
+      },
+      {
+        "word": "賛同",
+        "reading": "sandou",
+        "meaning": "approval, endorsement"
+      },
+      {
+        "word": "積極的",
+        "reading": "sekkyokuteki",
+        "meaning": "positive"
+      },
+      {
+        "word": "養成",
+        "reading": "yousei",
+        "meaning": "training, development"
+      },
+      {
+        "word": "研修",
+        "reading": "kenshuu",
+        "meaning": "training"
+      },
+      {
+        "word": "可能",
+        "reading": "kanou",
+        "meaning": "possible"
+      },
+      {
+        "word": "費用",
+        "reading": "hiyou",
+        "meaning": "cost, expense"
+      },
+      {
+        "word": "保険",
+        "reading": "hoken",
+        "meaning": "insurance, guarantee"
+      },
+      {
+        "word": "募集人員",
+        "reading": "boshuujin’in",
+        "meaning": "number of people to be admitted or accepted"
+      },
+      {
+        "word": "期間",
+        "reading": "kikan",
+        "meaning": "period, term, interval"
+      },
+      {
+        "word": "随時",
+        "reading": "zuiji",
+        "meaning": "at any time, as occasion calls"
+      },
+      {
+        "word": "開始",
+        "reading": "kaishi",
+        "meaning": "start, commencement, beginning"
+      },
+      {
+        "word": "申し込み",
+        "reading": "moushikomi",
+        "meaning": "application, entry, subscription"
+      },
+      {
+        "word": "記入",
+        "reading": "kinyuu",
+        "meaning": "entry, filling in of forms"
+      },
+      {
+        "word": "事務局",
+        "reading": "jimukyoku",
+        "meaning": "secretariat, executive office"
+      },
+      {
+        "word": "郵送",
+        "reading": "yuusou",
+        "meaning": "mailing"
+      },
+      {
+        "word": "用紙",
+        "reading": "youshi",
+        "meaning": "blank form"
+      },
+      {
+        "word": "特技",
+        "reading": "tokugi",
+        "meaning": "special skill"
+      },
+      {
+        "word": "撮影",
+        "reading": "satsuei",
+        "meaning": "photographing"
+      },
+      {
+        "word": "大工",
+        "reading": "daiku",
+        "meaning": "carpenter"
+      },
+      {
+        "word": "クラス会",
+        "reading": "kurasukai",
+        "meaning": "class reunion"
+      },
+      {
+        "word": "お知らせ",
+        "reading": "oshirase",
+        "meaning": "notice, notification"
+      },
+      {
+        "word": "学期",
+        "reading": "gakki",
+        "meaning": "school term, semester"
+      },
+      {
+        "word": "実施",
+        "reading": "jisshi",
+        "meaning": "enforcement, putting into practice"
+      },
+      {
+        "word": "植物園",
+        "reading": "shokubutsuen",
+        "meaning": "botanical garden"
+      },
+      {
+        "word": "記念写真",
+        "reading": "kinenshashin",
+        "meaning": "souvenir photograph"
+      },
+      {
+        "word": "解散",
+        "reading": "kaisan",
+        "meaning": "breakup, dissolution"
+      },
+      {
+        "word": "人数",
+        "reading": "ninzuu",
+        "meaning": "the number of people"
+      },
+      {
+        "word": "学生証",
+        "reading": "gakuseishou",
+        "meaning": "student card"
+      },
+      {
+        "word": "ぜひ",
+        "reading": "",
+        "meaning": "certainly, without fail"
+      },
+      {
+        "word": "確認",
+        "reading": "kakunin",
+        "meaning": "affirmation, confirmation"
+      },
+      {
+        "word": "直接",
+        "reading": "chokusetsu",
+        "meaning": "direct, immediate"
+      },
+      {
+        "word": "班長",
+        "reading": "hanchou",
+        "meaning": "squad leader, group leader"
+      },
+      {
+        "word": "留学生",
+        "reading": "ryuugakusei",
+        "meaning": "overseas student, exchange student"
+      },
+      {
+        "word": "会話",
+        "reading": "kaiwa",
+        "meaning": "conversation"
+      },
+      {
+        "word": "太字",
+        "reading": "futoji",
+        "meaning": "boldface, bold-type, thick characters"
+      },
+      {
+        "word": "太字",
+        "reading": "kyoujaku",
+        "meaning": "strength, power"
+      },
+      {
+        "word": "程度",
+        "reading": "teido",
+        "meaning": "degree, amount"
+      },
+      {
+        "word": "日常会話",
+        "reading": "nichijou kaiwa",
+        "meaning": "daily life conversation"
+      },
+      {
+        "word": "大声",
+        "reading": "oogoe",
+        "meaning": "large voice"
+      },
+      {
+        "word": "決まり文句",
+        "reading": "kimarimonku",
+        "meaning": "set phrase"
+      },
+      {
+        "word": "本音",
+        "reading": "honne",
+        "meaning": "real intention, motive"
+      },
+      {
+        "word": "建前",
+        "reading": "tatemae",
+        "meaning": "public position or attitude"
+      },
+      {
+        "word": "真剣",
+        "reading": "shinken",
+        "meaning": "seriousness, earnestness"
+      },
+      {
+        "word": "浮かべる",
+        "reading": "ukaberu",
+        "meaning": "to float, to express, to look"
+      },
+      {
+        "word": "本物",
+        "reading": "honmono",
+        "meaning": "genuine article"
+      }
+    ]
+  },
+  {
+    "exercise_number": 7,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-reading-exercise-07/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "母は元気をなくした原因は何か。",
+        "choices": [
+          "食欲が落ちたから",
+          "体重が減ったから",
+          "腕を骨折したから",
+          "けがが治らないから"
+        ],
+        "reading_passage": "Reading Passage 1\nスポーツクラブは運動するために行くところだ。しかし、私の母にとっては、それ以上の場所であった。\n８５歳になる母は、今、スポーツクラブに通っている。実は、母は半年前に転んで腕を骨折し、それ以来すっかり元気をなくしてしまっていた。食欲が落ち、体重も減った。骨折は３週間で治ったが、腕を動かす訓練のための病院へはあまり行きたがらなかった。\nところが、そんな母がある日、友達に誘われて近くのスポーツクラブに通い始めた。すると、たった一ヶ月で全く違う人のように元気になったのだ。病院でもスポーツクラブでも、無理をせずにできるトレーニングを一人一人に考えてくれる。しかし、元気な若い人たちと同じ場所で運動したり、同じくらいの年の仲間と一緒に頑張ったりすることは、スポーツクラブだからできたのである。そして、それが母の生きる力を引き出してくれたのだろう。\nスポーツクラブは運動するだけの場所ではない。それ以上の価値があるのだ。私は、今、母の通うスポーツクラブに心から感謝している。",
+        "correct_choice_number": 3,
+        "explanation": "母は元気をなくした原因は何か。=>\n腕を骨折したから"
+      },
+      {
+        "question_number": 2,
+        "question": "母が病院ではなく、スポーツクラブで元気になれたのはなぜか。",
+        "choices": [
+          "無理をせずにできるトレーニングを自分用に作ってもらったから",
+          "若い人たちがいるところで運動したり、仲間と頑張ったりできたから",
+          "たった一ヶ月で効果が出るようなトレーニングを考えてもらったから",
+          "元気な人と仲間になったり、若い人たちと同じ運動をしたりしたから"
+        ],
+        "reading_passage": "Reading Passage 1\nスポーツクラブは運動するために行くところだ。しかし、私の母にとっては、それ以上の場所であった。\n８５歳になる母は、今、スポーツクラブに通っている。実は、母は半年前に転んで腕を骨折し、それ以来すっかり元気をなくしてしまっていた。食欲が落ち、体重も減った。骨折は３週間で治ったが、腕を動かす訓練のための病院へはあまり行きたがらなかった。\nところが、そんな母がある日、友達に誘われて近くのスポーツクラブに通い始めた。すると、たった一ヶ月で全く違う人のように元気になったのだ。病院でもスポーツクラブでも、無理をせずにできるトレーニングを一人一人に考えてくれる。しかし、元気な若い人たちと同じ場所で運動したり、同じくらいの年の仲間と一緒に頑張ったりすることは、スポーツクラブだからできたのである。そして、それが母の生きる力を引き出してくれたのだろう。\nスポーツクラブは運動するだけの場所ではない。それ以上の価値があるのだ。私は、今、母の通うスポーツクラブに心から感謝している。",
+        "correct_choice_number": 2,
+        "explanation": "母が病院ではなく、スポーツクラブで元気になれたのはなぜか。=>\n若い人たちがいるところで運動したり、仲間と頑張ったりできたから"
+      },
+      {
+        "question_number": 3,
+        "question": "この文章を書いた人は、スポーツクラブにはどんな特別な価値があると考えているか。",
+        "choices": [
+          "自分は生きる価値のある人間だと気づかせてくれる。",
+          "運動不足にならないようにしてくれる。",
+          "けがを早く治す方法を考えてくれる。",
+          "生きる力を引き出してくれる。"
+        ],
+        "reading_passage": "Reading Passage 1\nスポーツクラブは運動するために行くところだ。しかし、私の母にとっては、それ以上の場所であった。\n８５歳になる母は、今、スポーツクラブに通っている。実は、母は半年前に転んで腕を骨折し、それ以来すっかり元気をなくしてしまっていた。食欲が落ち、体重も減った。骨折は３週間で治ったが、腕を動かす訓練のための病院へはあまり行きたがらなかった。\nところが、そんな母がある日、友達に誘われて近くのスポーツクラブに通い始めた。すると、たった一ヶ月で全く違う人のように元気になったのだ。病院でもスポーツクラブでも、無理をせずにできるトレーニングを一人一人に考えてくれる。しかし、元気な若い人たちと同じ場所で運動したり、同じくらいの年の仲間と一緒に頑張ったりすることは、スポーツクラブだからできたのである。そして、それが母の生きる力を引き出してくれたのだろう。\nスポーツクラブは運動するだけの場所ではない。それ以上の価値があるのだ。私は、今、母の通うスポーツクラブに心から感謝している。",
+        "correct_choice_number": 4,
+        "explanation": "この文章を書いた人は、スポーツクラブにはどんな特別な価値があると考えているか。=>\n生きる力を引き出してくれる\n。"
+      },
+      {
+        "question_number": 4,
+        "question": "この人は本当に悲しまなければならないのは何だと言っているか。",
+        "choices": [
+          "説明会ができなくなったこと。",
+          "電車が遅れたこと。",
+          "自殺者がいること。",
+          "他人のことを考えること。"
+        ],
+        "reading_passage": "Reading Passage 2\n東京に就職活動で行った時、電車で移動中に人身事故に遭遇した。電車は送れ、会社説明会の開始も遅れた。飛び込み自殺だったらしく、周りの人に話すと、「迷惑」「自分の家で死んでほしい」という声が聞かれた。\n私は今、就職活動の真っ只中で、その厳しさを実感しているが、自殺した人もつらい事情があったのだろう。人が亡くなったことよりも、電車が遅れたことが問題視されるのは悲しい。自分のことだけでなく、他人のことを考えられる社会になってほしいと思う。",
+        "correct_choice_number": 4,
+        "explanation": "この人は本当に悲しまなければならないのは何だと言っているか。=>\n他人のことを考えること\n。"
+      },
+      {
+        "question_number": 5,
+        "question": "この政治家が言いたいことはどれか。",
+        "choices": [
+          "短いスピーチのほうが、長いものより準備に時間がかかる。",
+          "短いスピーチなら、準備をしなくてもすぐにできる。",
+          "スピーチが長ければ長いほど、準備に長い時間がかかる。",
+          "スピーチの準備時間が長ければ長いほど、人を感動させられる。"
+        ],
+        "reading_passage": "Reading Passage 3\nある政治家のスピーチを聞いて感動した一人の学生、「スピーチの準備にはどれぐらい時間がかかるのですか。」と質問した。政治家は「それはスピーチの長さによります」と答えた。学生が「今日は長いスピーチでしたから、きっと長く準備をされたんでしょうね。」というと、政治家は「そういうことではありません。いくら話してもいいのなら、今すぐできますが、５分のスピーチを頼まれたら、準備に２週間はかかるでしょう。」と答えたそうだ。",
+        "correct_choice_number": 1,
+        "explanation": "この政治家が言いたいことはどれか。=>\n短いスピーチのほうが、長いものより準備に時間がかかる\n。"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "スポーツクラブ",
+        "reading": "",
+        "meaning": "sports club"
+      },
+      {
+        "word": "運動",
+        "reading": "undou",
+        "meaning": "motion, exercise"
+      },
+      {
+        "word": "転ぶ",
+        "reading": "korobu",
+        "meaning": "to fall down, to fall over"
+      },
+      {
+        "word": "腕",
+        "reading": "ude",
+        "meaning": "arm, skill"
+      },
+      {
+        "word": "骨折",
+        "reading": "kossetsu",
+        "meaning": "bone fracture"
+      },
+      {
+        "word": "すっかり",
+        "reading": "",
+        "meaning": "all, completely, thoroughly"
+      },
+      {
+        "word": "食欲",
+        "reading": "shokuyokU",
+        "meaning": "appetite (for food)"
+      },
+      {
+        "word": "体重",
+        "reading": "taijuu",
+        "meaning": "one’s body weight"
+      },
+      {
+        "word": "減る",
+        "reading": "heru",
+        "meaning": "to decrease, to diminish"
+      },
+      {
+        "word": "動かす",
+        "reading": "ugokasu",
+        "meaning": "to move, to shift"
+      },
+      {
+        "word": "訓練",
+        "reading": "kunren",
+        "meaning": "practice, training"
+      },
+      {
+        "word": "誘う",
+        "reading": "sasou",
+        "meaning": "to invite, to ask"
+      },
+      {
+        "word": "無理",
+        "reading": "muri",
+        "meaning": "overdoing, unreasonable, impossible"
+      },
+      {
+        "word": "一人一人",
+        "reading": "hitori hitori",
+        "meaning": "one by one, each"
+      },
+      {
+        "word": "仲間",
+        "reading": "nakama",
+        "meaning": "circle of friends, fellow"
+      },
+      {
+        "word": "引き出す",
+        "reading": "hikidasu",
+        "meaning": "to pull out, to draw out"
+      },
+      {
+        "word": "価値",
+        "reading": "kachi",
+        "meaning": "value, worth, merit"
+      },
+      {
+        "word": "就職活動",
+        "reading": "shuushoku katsudou",
+        "meaning": "job hunting, job searching"
+      },
+      {
+        "word": "移動",
+        "reading": "idou",
+        "meaning": "removal, migration, movement"
+      },
+      {
+        "word": "人身事故",
+        "reading": "jinshinjiko",
+        "meaning": "traffic accident resulting in personal injury or death"
+      },
+      {
+        "word": "遭遇",
+        "reading": "souguu",
+        "meaning": "encounter"
+      },
+      {
+        "word": "会社説明会",
+        "reading": "kaisha setsumeikai",
+        "meaning": "company information session"
+      },
+      {
+        "word": "飛び込み自殺",
+        "reading": "tobikomijisatsu",
+        "meaning": "committing suicide by throwing oneself in front of an onrushing train"
+      },
+      {
+        "word": "迷惑",
+        "reading": "meiwaku",
+        "meaning": "trouble, bother, annoyance"
+      },
+      {
+        "word": "真っ只中",
+        "reading": "mattadanaka",
+        "meaning": "right in the midst of, right at the height of"
+      },
+      {
+        "word": "実感",
+        "reading": "jikkan",
+        "meaning": "feelings (actual, true)"
+      },
+      {
+        "word": "自殺",
+        "reading": "jisatsu",
+        "meaning": "suicide"
+      },
+      {
+        "word": "辛い",
+        "reading": "tsurai",
+        "meaning": "painful, bitter, heart-breaking"
+      },
+      {
+        "word": "事情",
+        "reading": "jijou",
+        "meaning": "circumstances, reasons"
+      },
+      {
+        "word": "問題視",
+        "reading": "mondaishi",
+        "meaning": "viewed as a problem"
+      },
+      {
+        "word": "自殺者",
+        "reading": "jisatsusha",
+        "meaning": "person who commits suicide"
+      },
+      {
+        "word": "他人",
+        "reading": "tanin",
+        "meaning": "another person, stranger"
+      },
+      {
+        "word": "政治家",
+        "reading": "seijika",
+        "meaning": "politician, statesman"
+      },
+      {
+        "word": "スピーチ",
+        "reading": "",
+        "meaning": "speech"
+      },
+      {
+        "word": "感動",
+        "reading": "kandou",
+        "meaning": "being deeply moved emotionally"
+      }
+    ]
+  },
+  {
+    "exercise_number": 8,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-reading-exercise-08/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "「",
+        "choices": [
+          "そういう人",
+          "」とあるが、何を指しているか。",
+          "ジョギングを始めたばかりの人",
+          "ジョギングを始めてすぐやめる人",
+          "ジョギングを苦しいと思っている人",
+          "ジョギングを楽しむことのできる人"
+        ],
+        "reading_passage": "Reading Passage 1\nジョギングは、走ることを楽しむスポーツです。せっかくジョギングを始めても、２日か３日でやめてしまう人がいます。\nそういう人\nは、走る楽しみを見つけられないまま、走ることは苦しいものだと思ってしまうのです。\n走る楽しみは、目標を少しずつ高くていくことで生まれます。例えば「２キロを１５以内で走る」という目標を決め、それに向けて計画を立てる。目標のとおり走られたら、\n次の目標\nを決める。この繰り返しが走る楽しみを生むのです。\nそれには、計画をしっかり立てることが大切です。\nこれからジョギングを始めようと思っている人\nは、次のようにするといいでしょう。まず、最初の一ヶ月は、とにかく２キロを、１キロ１０分程度の速さで走ることから始めます。これは、走るより歩くのに近い速さです。これから、初めて走る人にも難しくありません。疲れたら、歩いてもいいのです。次第に、１キロを８分、７分とスピードを上げていきます。１キロ７分の速さで走ると「歩き」よりも「走り」ひ近くなります。\n次の一ヶ月はかかる時間を気にしないで２キロを走り、次の一ヶ月は３キロを走るというように、少しずつ距離を延ばしていきます。個人差がありますので、走る距離もスピードも、自分の力に合わせて無理のない計画を立ててください。１キロ５分の速さで走り続けられたら、マラソンの大会に出る力があると言っていいでしょう。\nこのように、目標を決め、計画を立てて走ることで、ジョギングを楽しむことができるのです。",
+        "correct_choice_number": 2,
+        "explanation": "「そういう人」とあるが、何を指しているか。=>\nジョギングを始めてすぐやめる人"
+      },
+      {
+        "question_number": 2,
+        "question": "「",
+        "choices": [
+          "次の目標",
+          "」とあるが、どんな目標か。",
+          "一生懸命速いスピードで走るという目標",
+          "一生懸命長い距離を走るという目標",
+          "今までより少し高い目標",
+          "今までよりかなり高い目標"
+        ],
+        "reading_passage": "Reading Passage 1\nジョギングは、走ることを楽しむスポーツです。せっかくジョギングを始めても、２日か３日でやめてしまう人がいます。\nそういう人\nは、走る楽しみを見つけられないまま、走ることは苦しいものだと思ってしまうのです。\n走る楽しみは、目標を少しずつ高くていくことで生まれます。例えば「２キロを１５以内で走る」という目標を決め、それに向けて計画を立てる。目標のとおり走られたら、\n次の目標\nを決める。この繰り返しが走る楽しみを生むのです。\nそれには、計画をしっかり立てることが大切です。\nこれからジョギングを始めようと思っている人\nは、次のようにするといいでしょう。まず、最初の一ヶ月は、とにかく２キロを、１キロ１０分程度の速さで走ることから始めます。これは、走るより歩くのに近い速さです。これから、初めて走る人にも難しくありません。疲れたら、歩いてもいいのです。次第に、１キロを８分、７分とスピードを上げていきます。１キロ７分の速さで走ると「歩き」よりも「走り」ひ近くなります。\n次の一ヶ月はかかる時間を気にしないで２キロを走り、次の一ヶ月は３キロを走るというように、少しずつ距離を延ばしていきます。個人差がありますので、走る距離もスピードも、自分の力に合わせて無理のない計画を立ててください。１キロ５分の速さで走り続けられたら、マラソンの大会に出る力があると言っていいでしょう。\nこのように、目標を決め、計画を立てて走ることで、ジョギングを楽しむことができるのです。",
+        "correct_choice_number": 3,
+        "explanation": "「次の目標」とあるが、どんな目標か。=>\n今までより少し高い目標"
+      },
+      {
+        "question_number": 3,
+        "question": "「",
+        "choices": [
+          "これからジョギングを始めようと思っている人",
+          "」に合っているのはどのような計画だと言っているか。",
+          "まず１キロを７分で走り、次第に速度を上げ、１キロを５分で走れるようにする。",
+          "まず２キロを１０分で走り、次第に距離を延ばし、マラソンの距離が走れるようにする。",
+          "まず時間を気にせず１キロを走り、次第に距離を延ばし、３キロを走れるようにする。",
+          "まず歩くような速さで２キロを走り、次第に速度を上げ、少しずつ距離を延ばす。"
+        ],
+        "reading_passage": "Reading Passage 1\nジョギングは、走ることを楽しむスポーツです。せっかくジョギングを始めても、２日か３日でやめてしまう人がいます。\nそういう人\nは、走る楽しみを見つけられないまま、走ることは苦しいものだと思ってしまうのです。\n走る楽しみは、目標を少しずつ高くていくことで生まれます。例えば「２キロを１５以内で走る」という目標を決め、それに向けて計画を立てる。目標のとおり走られたら、\n次の目標\nを決める。この繰り返しが走る楽しみを生むのです。\nそれには、計画をしっかり立てることが大切です。\nこれからジョギングを始めようと思っている人\nは、次のようにするといいでしょう。まず、最初の一ヶ月は、とにかく２キロを、１キロ１０分程度の速さで走ることから始めます。これは、走るより歩くのに近い速さです。これから、初めて走る人にも難しくありません。疲れたら、歩いてもいいのです。次第に、１キロを８分、７分とスピードを上げていきます。１キロ７分の速さで走ると「歩き」よりも「走り」ひ近くなります。\n次の一ヶ月はかかる時間を気にしないで２キロを走り、次の一ヶ月は３キロを走るというように、少しずつ距離を延ばしていきます。個人差がありますので、走る距離もスピードも、自分の力に合わせて無理のない計画を立ててください。１キロ５分の速さで走り続けられたら、マラソンの大会に出る力があると言っていいでしょう。\nこのように、目標を決め、計画を立てて走ることで、ジョギングを楽しむことができるのです。",
+        "correct_choice_number": 4,
+        "explanation": "「これからジョギングを始めようと思っている人」に合っているのはどのような計画だと言っているか。=>\nまず歩くような速さで２キロを走り、次第に速度を上げ、少しずつ距離を延ばす\n。"
+      },
+      {
+        "question_number": 4,
+        "question": "この文章全体のテーマは、何か。",
+        "choices": [
+          "ジョギングのルール",
+          "ジョギングの楽しみ方",
+          "走ることの大切さ",
+          "走ることの難しさ"
+        ],
+        "reading_passage": "Reading Passage 1\nジョギングは、走ることを楽しむスポーツです。せっかくジョギングを始めても、２日か３日でやめてしまう人がいます。\nそういう人\nは、走る楽しみを見つけられないまま、走ることは苦しいものだと思ってしまうのです。\n走る楽しみは、目標を少しずつ高くていくことで生まれます。例えば「２キロを１５以内で走る」という目標を決め、それに向けて計画を立てる。目標のとおり走られたら、\n次の目標\nを決める。この繰り返しが走る楽しみを生むのです。\nそれには、計画をしっかり立てることが大切です。\nこれからジョギングを始めようと思っている人\nは、次のようにするといいでしょう。まず、最初の一ヶ月は、とにかく２キロを、１キロ１０分程度の速さで走ることから始めます。これは、走るより歩くのに近い速さです。これから、初めて走る人にも難しくありません。疲れたら、歩いてもいいのです。次第に、１キロを８分、７分とスピードを上げていきます。１キロ７分の速さで走ると「歩き」よりも「走り」ひ近くなります。\n次の一ヶ月はかかる時間を気にしないで２キロを走り、次の一ヶ月は３キロを走るというように、少しずつ距離を延ばしていきます。個人差がありますので、走る距離もスピードも、自分の力に合わせて無理のない計画を立ててください。１キロ５分の速さで走り続けられたら、マラソンの大会に出る力があると言っていいでしょう。\nこのように、目標を決め、計画を立てて走ることで、ジョギングを楽しむことができるのです。",
+        "correct_choice_number": 2,
+        "explanation": "この文章全体のテーマは、何か。=>\nジョギングの楽しみ方"
+      },
+      {
+        "question_number": 5,
+        "question": "このメールを出した目的は何か。",
+        "choices": [
+          "面接の場所と日時を知りたい。",
+          "ウェブログの研究をしたい。",
+          "携帯電話の番号を教えたい。",
+          "タイム・ネットワークに入社したい。"
+        ],
+        "reading_passage": "Reading Passage 2\nタイム・ネットワーク会社\n人事ご担当様\nいつもお世話になっております。\nこのたび、求人情報サイト「求職ならこちらへ」にて貴社の募集広告を拝見し、「ウェブログ設計と維持」にたいへん興味を持ちましたので、応募させていただきます。\n貴社のご要請に応じて、こちらの履歴書を添付いたしましたので、ご検討のうえ、面接の機会をいただければと心より願っております。\nなお、履歴書に現住所の電話が書いてありますけれども、現在在学中で、平日は大学に通っていますので、ご連絡をいただく際は携帯電話にお願いできますでしょうか。どうぞよろしくお願いします。\n敬具\n東京国際大学\n鈴木美和子",
+        "correct_choice_number": 4,
+        "explanation": "このメールを出した目的は何か。=>\nタイム・ネットワークに入社したい\n。"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "ジョギング",
+        "reading": "",
+        "meaning": "jogging"
+      },
+      {
+        "word": "せっかく",
+        "reading": "",
+        "meaning": "with trouble, at great pains, long-awaited"
+      },
+      {
+        "word": "楽しみ",
+        "reading": "tanoshimi",
+        "meaning": "enjoyment, pleasure"
+      },
+      {
+        "word": "苦しい",
+        "reading": "kurushii",
+        "meaning": "painful, difficult"
+      },
+      {
+        "word": "目標",
+        "reading": "mokuhyou",
+        "meaning": "objective, target"
+      },
+      {
+        "word": "以内",
+        "reading": "inai",
+        "meaning": "within, less than"
+      },
+      {
+        "word": "向ける",
+        "reading": "mukeru",
+        "meaning": "to turn towards, to point"
+      },
+      {
+        "word": "計画を立てる",
+        "reading": "keikaku o tateru",
+        "meaning": "to make plans"
+      },
+      {
+        "word": "次",
+        "reading": "tsugi",
+        "meaning": "next, following"
+      },
+      {
+        "word": "繰り返し",
+        "reading": "kurikaeshi",
+        "meaning": "repetition, cycle"
+      },
+      {
+        "word": "生む",
+        "reading": "umu",
+        "meaning": "to give birth, to deliver, to produce"
+      },
+      {
+        "word": "しっかり",
+        "reading": "",
+        "meaning": "firmly, tightly"
+      },
+      {
+        "word": "とにかく",
+        "reading": "",
+        "meaning": "anyhow, at any rate"
+      },
+      {
+        "word": "次第に",
+        "reading": "shidai ni",
+        "meaning": "gradually, in turn"
+      },
+      {
+        "word": "気にする",
+        "reading": "ki ni suru",
+        "meaning": "to mind, to care about"
+      },
+      {
+        "word": "距離",
+        "reading": "kyori",
+        "meaning": "distance, range"
+      },
+      {
+        "word": "延ばす",
+        "reading": "nobasu",
+        "meaning": "to grow long, to extend, to stretch"
+      },
+      {
+        "word": "個人差",
+        "reading": "kojinsa",
+        "meaning": "individual differences"
+      },
+      {
+        "word": "大会",
+        "reading": "taikai",
+        "meaning": "tournament"
+      },
+      {
+        "word": "人事",
+        "reading": "jinji",
+        "meaning": "personnel affairs, human resources"
+      },
+      {
+        "word": "このたび",
+        "reading": "",
+        "meaning": "at this time, this occasion, now"
+      },
+      {
+        "word": "求人",
+        "reading": "kyuujin",
+        "meaning": "offer of job (situation)"
+      },
+      {
+        "word": "求職",
+        "reading": "kyuushoku",
+        "meaning": "job hunting, searching employment"
+      },
+      {
+        "word": "貴社",
+        "reading": "kisha",
+        "meaning": "(your) company"
+      },
+      {
+        "word": "募集広告",
+        "reading": "boshuu koukoku",
+        "meaning": "recruitment advertisement"
+      },
+      {
+        "word": "拝見",
+        "reading": "haiken",
+        "meaning": "seeing, look at"
+      },
+      {
+        "word": "ウェブログ",
+        "reading": "",
+        "meaning": "weblog, blog"
+      },
+      {
+        "word": "設計",
+        "reading": "sekkei",
+        "meaning": "plan, design, layout"
+      },
+      {
+        "word": "維持",
+        "reading": "iji",
+        "meaning": "maintenance, preservation"
+      },
+      {
+        "word": "応募",
+        "reading": "oubo",
+        "meaning": "application, subscription"
+      },
+      {
+        "word": "要請",
+        "reading": "yousei",
+        "meaning": "demand, request"
+      },
+      {
+        "word": "履歴書",
+        "reading": "rirekisho",
+        "meaning": "curriculum vitae, resume"
+      },
+      {
+        "word": "添付",
+        "reading": "tenpu",
+        "meaning": "attachment, annex"
+      },
+      {
+        "word": "検討",
+        "reading": "kentou",
+        "meaning": "consideration, study"
+      },
+      {
+        "word": "面接",
+        "reading": "mensetsu",
+        "meaning": "interview"
+      },
+      {
+        "word": "機会",
+        "reading": "kikai",
+        "meaning": "chance, opportunity"
+      },
+      {
+        "word": "現住所",
+        "reading": "genjuusho",
+        "meaning": "(present) address"
+      },
+      {
+        "word": "在学",
+        "reading": "zaigaku",
+        "meaning": "(enrolled) in school"
+      },
+      {
+        "word": "平日",
+        "reading": "heijitsu",
+        "meaning": "weekday, ordinary days"
+      },
+      {
+        "word": "日時",
+        "reading": "nichiji",
+        "meaning": "date and time"
+      },
+      {
+        "word": "研究",
+        "reading": "kenkyuu",
+        "meaning": "study, research"
+      },
+      {
+        "word": "入社",
+        "reading": "nyuusha",
+        "meaning": "entry to a company"
+      }
+    ]
+  },
+  {
+    "exercise_number": 9,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-reading-exercise-09/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "「",
+        "choices": [
+          "本当にすごいと思った",
+          "」とあるが、何をすごいと思ったのか。",
+          "新幹線以外の電車が時間ぴったりに走っていること",
+          "新幹線以外の電車がかなり長い距離を走っていること",
+          "新幹線が時間ぴったりに走っていること",
+          "新幹線が速い速度で長い距離を走っていること"
+        ],
+        "reading_passage": "Reading Passage 1\n日本の電車は時刻表の通りに走ると聞いていたが、初めて新幹線に乗ったときも、駅に着く時間がぴったりだったので、驚いた。早い速度で長い距離を走っているのに、ほかの電車と同じように走られ、\n本当にすごいと思った\n。何百キロもある長い距離を遅れたり早すぎたりせずに、どうやって走っているのだろう。鉄道会社に勤めている知り合いに聞いてみた。\n聞いて驚いた\nのだが、新幹線は、停車する駅の到着時間、出発時間だけではなく、停車しない駅を通り過ぎる時間も、８時５分１５秒や８時５分３０秒のように、１５秒単位で決まっているのだそうだ。運転士は、その細かく決められた時間を守るため、いつも速度を考えながら運転している。停車駅の数キロメートル前からホームに入るまでは、コンピューターが速度を決めて運転するが、それ以上は、運転士が運転する。次の駅に着くまでの残り時間と距離をいつも意識し、頭の中でいちばん適当な速度を計算して走らせているのだそうだ。最後にホームの決まった位置に電車を止めるのも、運転士だ。\n運転士になるためには、厳しいトレーニングが必要で、特に距離と時間から適当な速度を計算する訓練をしっかり受けなければならないそうだ。新幹線が時刻表の通りに走れるのは、運転士の厳しいトレーニングのおかげなのだ。\nこの話を聞いてから、新幹線に乗ると、速度が微妙に変わるたびに、「ああ、今、運転士は適当な速度を計算して、速度を変えたんだ。」と思い、旅が以前より楽しめるようになった。",
+        "correct_choice_number": 3,
+        "explanation": "「本当にすごいと思った」とあるが、何をすごいと思ったのか。=>\n新幹線が時間ぴったりに走っていること"
+      },
+      {
+        "question_number": 2,
+        "question": "「",
+        "choices": [
+          "聞いて驚いた",
+          "」とあるが、何に驚いたのか。",
+          "到着、出発時間、駅を通り過ぎる時間が非常に細かく決められていること",
+          "到着、出発時間、駅を通り過ぎる時間が駅の時刻表に書かれていること",
+          "到着、出発時間、駅を通り過ぎる時間を知り合いが決めていたこと",
+          "到着、出発時間、駅を通り過ぎる時間をコンピューターが計算していたこと"
+        ],
+        "reading_passage": "Reading Passage 1\n日本の電車は時刻表の通りに走ると聞いていたが、初めて新幹線に乗ったときも、駅に着く時間がぴったりだったので、驚いた。早い速度で長い距離を走っているのに、ほかの電車と同じように走られ、\n本当にすごいと思った\n。何百キロもある長い距離を遅れたり早すぎたりせずに、どうやって走っているのだろう。鉄道会社に勤めている知り合いに聞いてみた。\n聞いて驚いた\nのだが、新幹線は、停車する駅の到着時間、出発時間だけではなく、停車しない駅を通り過ぎる時間も、８時５分１５秒や８時５分３０秒のように、１５秒単位で決まっているのだそうだ。運転士は、その細かく決められた時間を守るため、いつも速度を考えながら運転している。停車駅の数キロメートル前からホームに入るまでは、コンピューターが速度を決めて運転するが、それ以上は、運転士が運転する。次の駅に着くまでの残り時間と距離をいつも意識し、頭の中でいちばん適当な速度を計算して走らせているのだそうだ。最後にホームの決まった位置に電車を止めるのも、運転士だ。\n運転士になるためには、厳しいトレーニングが必要で、特に距離と時間から適当な速度を計算する訓練をしっかり受けなければならないそうだ。新幹線が時刻表の通りに走れるのは、運転士の厳しいトレーニングのおかげなのだ。\nこの話を聞いてから、新幹線に乗ると、速度が微妙に変わるたびに、「ああ、今、運転士は適当な速度を計算して、速度を変えたんだ。」と思い、旅が以前より楽しめるようになった。",
+        "correct_choice_number": 1,
+        "explanation": "「聞いて驚いた」とあるが、何に驚いたのか。=>\n到着、出発時間、駅を通り過ぎる時間が非常に細かく決められていること"
+      },
+      {
+        "question_number": 3,
+        "question": "速度を考えながら運転しているとあるが、それができるようになるためにどんな訓練を受けるか。",
+        "choices": [
+          "距離と時間から、頭の中でちょうどよい速度を計算する訓練",
+          "コンピューターで、距離と時間から適当な速度を計算すること",
+          "コンピューターが計算して決めた速度を守って、時刻表の通りに運転する訓練",
+          "正しい位置に止められるように、ホームに入るまでの速度を計算して運転する訓練"
+        ],
+        "reading_passage": "Reading Passage 1\n日本の電車は時刻表の通りに走ると聞いていたが、初めて新幹線に乗ったときも、駅に着く時間がぴったりだったので、驚いた。早い速度で長い距離を走っているのに、ほかの電車と同じように走られ、\n本当にすごいと思った\n。何百キロもある長い距離を遅れたり早すぎたりせずに、どうやって走っているのだろう。鉄道会社に勤めている知り合いに聞いてみた。\n聞いて驚いた\nのだが、新幹線は、停車する駅の到着時間、出発時間だけではなく、停車しない駅を通り過ぎる時間も、８時５分１５秒や８時５分３０秒のように、１５秒単位で決まっているのだそうだ。運転士は、その細かく決められた時間を守るため、いつも速度を考えながら運転している。停車駅の数キロメートル前からホームに入るまでは、コンピューターが速度を決めて運転するが、それ以上は、運転士が運転する。次の駅に着くまでの残り時間と距離をいつも意識し、頭の中でいちばん適当な速度を計算して走らせているのだそうだ。最後にホームの決まった位置に電車を止めるのも、運転士だ。\n運転士になるためには、厳しいトレーニングが必要で、特に距離と時間から適当な速度を計算する訓練をしっかり受けなければならないそうだ。新幹線が時刻表の通りに走れるのは、運転士の厳しいトレーニングのおかげなのだ。\nこの話を聞いてから、新幹線に乗ると、速度が微妙に変わるたびに、「ああ、今、運転士は適当な速度を計算して、速度を変えたんだ。」と思い、旅が以前より楽しめるようになった。",
+        "correct_choice_number": 1,
+        "explanation": "速度を考えながら運転しているとあるが、それができるようになるためにどんな訓練を受けるか。=>\n距離と時間から、頭の中でちょうどよい速度を計算する訓練"
+      },
+      {
+        "question_number": 4,
+        "question": "この文章を書いた人が最も言いたいことは何か。",
+        "choices": [
+          "新幹線を時間の通りに運転することができない運転士には、厳しいトレーニングが必要である。",
+          "コンピューターによる正しい速度計算が、新幹線を時刻表の通りに走らせているのだ。",
+          "厳しい訓練を受けた運転士が速度計算をしているから、新幹線は時刻表の通りに走れるのだ。",
+          "ほかの電車よりも微妙な速度の変化を楽しむことができるのが、日本の新幹線なのである。"
+        ],
+        "reading_passage": "Reading Passage 1\n日本の電車は時刻表の通りに走ると聞いていたが、初めて新幹線に乗ったときも、駅に着く時間がぴったりだったので、驚いた。早い速度で長い距離を走っているのに、ほかの電車と同じように走られ、\n本当にすごいと思った\n。何百キロもある長い距離を遅れたり早すぎたりせずに、どうやって走っているのだろう。鉄道会社に勤めている知り合いに聞いてみた。\n聞いて驚いた\nのだが、新幹線は、停車する駅の到着時間、出発時間だけではなく、停車しない駅を通り過ぎる時間も、８時５分１５秒や８時５分３０秒のように、１５秒単位で決まっているのだそうだ。運転士は、その細かく決められた時間を守るため、いつも速度を考えながら運転している。停車駅の数キロメートル前からホームに入るまでは、コンピューターが速度を決めて運転するが、それ以上は、運転士が運転する。次の駅に着くまでの残り時間と距離をいつも意識し、頭の中でいちばん適当な速度を計算して走らせているのだそうだ。最後にホームの決まった位置に電車を止めるのも、運転士だ。\n運転士になるためには、厳しいトレーニングが必要で、特に距離と時間から適当な速度を計算する訓練をしっかり受けなければならないそうだ。新幹線が時刻表の通りに走れるのは、運転士の厳しいトレーニングのおかげなのだ。\nこの話を聞いてから、新幹線に乗ると、速度が微妙に変わるたびに、「ああ、今、運転士は適当な速度を計算して、速度を変えたんだ。」と思い、旅が以前より楽しめるようになった。",
+        "correct_choice_number": 3,
+        "explanation": "この文章を書いた人が最も言いたいことは何か。=>\n厳しい訓練を受けた運転士が速度計算をしているから、新幹線は時刻表の通りに走れるのだ\n。"
+      },
+      {
+        "question_number": 5,
+        "question": "この手紙を書いた本当の目的は何か。",
+        "choices": [
+          "秋よりのあいさつ",
+          "お花見のお礼",
+          "蟹賞味会へのお誘い",
+          "原稿を郵送する知らせ"
+        ],
+        "reading_passage": "Reading Passage 2\n涼しい日が続いていますが、お元気でいらっしゃいますか。すっかりごぶさたいたしまして、申し訳ありません。\n春にはお花見にお誘いいただいて、本当にありがとうございました。楽しい三日間を過ごすことができて、嬉しかったです。\nさて、こちらでは、１０月２０日から「蟹賞味会」が行われます。本場のかにの味を味わいながら、地元独特な民族舞踊を楽しむことができます。賞味会はご存知の「金山湖」にて行います。\nもし、ご都合がよろしければ、ぜひお越しいただきたいと思います。\nまた、お便りいたします。\n追伸：先日、お願いした「新日本語能力試験N３模試」の原稿チェックが終わりましたら、郵便にてこちらにお送りください。",
+        "correct_choice_number": 3,
+        "explanation": "この手紙を書いた本当の目的は何か。=>\n蟹賞味会へのお誘い"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "時刻表",
+        "reading": "jikokuhyou",
+        "meaning": "table, chart, timetable"
+      },
+      {
+        "word": "新幹線",
+        "reading": "shinkansen",
+        "meaning": "bullet train"
+      },
+      {
+        "word": "ぴったり",
+        "reading": "",
+        "meaning": "exactly, sharp"
+      },
+      {
+        "word": "驚く",
+        "reading": "odoroku",
+        "meaning": "to be surprised, to be astonished"
+      },
+      {
+        "word": "速度",
+        "reading": "sokudo",
+        "meaning": "speed"
+      },
+      {
+        "word": "鉄道会社",
+        "reading": "tetsudougaisha",
+        "meaning": "railroad corporation"
+      },
+      {
+        "word": "知り合い",
+        "reading": "shiriai",
+        "meaning": "acquaintance"
+      },
+      {
+        "word": "停車",
+        "reading": "teisha",
+        "meaning": "stopping (train)"
+      },
+      {
+        "word": "単位",
+        "reading": "tan’i",
+        "meaning": "unit, denomination, credit (in school)"
+      },
+      {
+        "word": "運転士",
+        "reading": "untenshi",
+        "meaning": "driver, train driver"
+      },
+      {
+        "word": "細かく",
+        "reading": "komakaku",
+        "meaning": "minutely, finely"
+      },
+      {
+        "word": "停車駅",
+        "reading": "teishaeki",
+        "meaning": "stop (on a train’s route)"
+      },
+      {
+        "word": "意識",
+        "reading": "ishiki",
+        "meaning": "consciousness, awareness"
+      },
+      {
+        "word": "計算",
+        "reading": "keisan",
+        "meaning": "calculation, reckoning"
+      },
+      {
+        "word": "位置",
+        "reading": "ichi",
+        "meaning": "place, location"
+      },
+      {
+        "word": "厳しい",
+        "reading": "kibishii",
+        "meaning": "severe, strict, rigid"
+      },
+      {
+        "word": "トレーニング",
+        "reading": "",
+        "meaning": "training"
+      },
+      {
+        "word": "特に",
+        "reading": "toku ni",
+        "meaning": "particularly, especially"
+      },
+      {
+        "word": "微妙",
+        "reading": "bimyou",
+        "meaning": "delicate, sensitive, questionable"
+      },
+      {
+        "word": "本場",
+        "reading": "honba",
+        "meaning": "center, centre"
+      },
+      {
+        "word": "味わう",
+        "reading": "ajiwau",
+        "meaning": "to taste"
+      },
+      {
+        "word": "地元",
+        "reading": "jimoto",
+        "meaning": "local, home area"
+      },
+      {
+        "word": "独特",
+        "reading": "dokutoku",
+        "meaning": "peculiarity, uniqueness"
+      },
+      {
+        "word": "民族",
+        "reading": "minzoku",
+        "meaning": "people, race, nation"
+      },
+      {
+        "word": "舞踊",
+        "reading": "buyou",
+        "meaning": "dancing, dance"
+      },
+      {
+        "word": "賞味",
+        "reading": "shoumi",
+        "meaning": "relish, gusto, appreciation"
+      },
+      {
+        "word": "模試",
+        "reading": "moshi",
+        "meaning": "mock examination"
+      },
+      {
+        "word": "原稿",
+        "reading": "genkou",
+        "meaning": "manuscript, copy"
+      },
+      {
+        "word": "郵便",
+        "reading": "yuubin",
+        "meaning": "mail, postal service"
+      },
+      {
+        "word": "誘い",
+        "reading": "sasoi",
+        "meaning": "invitation"
+      }
+    ]
+  },
+  {
+    "exercise_number": 10,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-reading-exercise-10/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "「",
+        "choices": [
+          "おいしいと答えた",
+          "」のはなぜか。",
+          "においは強いが、苦くなかったから",
+          "においがあまりなくて、苦さもほとんどなかったから",
+          "苦かったが、においがあまりしなかったから",
+          "ほとんど苦くなくて、においが全くなかったから"
+        ],
+        "reading_passage": "Reading Passage 1\n最近、新しいタイプのピーマンが店に並ぶようになりました。このピーマンは、今までのものとは形も味も違っています。それまでピーマンというと、若さと強いにおいのため、子供にとっては、嫌いな野菜の一つでした。\nしかし、この新しいタイプのピーマンは、ほとんど苦くなくて、においもあまりしません。小学生に試食してもらったら、約８割が、生で食べてもおいしいと答えたそうです。子供も好きになれるピーマンの誕生です。\n実は、この新しいタイプのピーマンの研究には、１０年もかかっています。その出発点は、外国産のとうがらしです。これは日本人には辛すぎるものでしたが、偶然辛くないものが見つかったのです。その後、そのとうがらしの良い点を利用して、新しいタイプのピーマンが作られたということです。\nこの新しいタイプのピーマンが作られるまでは、親が子供にピーマンを食べさせるのは大変でした。そんな親たちも、楽になると言って喜んでいるそうです。",
+        "correct_choice_number": 2,
+        "explanation": "「おいしいと答えた」のはなぜか。=>\nにおいがあまりなくて、苦さもほとんどなかったから"
+      },
+      {
+        "question_number": 2,
+        "question": "「",
+        "choices": [
+          "出発点",
+          "」とあるが、何か出発点となったのか。",
+          "外国産のとうがらしから、偶然新しいタイプのとうがらしを作ることができたこと。",
+          "外国産のピーマンから、偶然新しいタイプのピーマンを作ることができたこと。",
+          "外国産の辛いとうがらしの中から、偶然辛くないものが見つかったこと。",
+          "外国産の辛いピーマンの中から、偶然辛くないものが見つかったこと。"
+        ],
+        "reading_passage": "Reading Passage 1\n最近、新しいタイプのピーマンが店に並ぶようになりました。このピーマンは、今までのものとは形も味も違っています。それまでピーマンというと、若さと強いにおいのため、子供にとっては、嫌いな野菜の一つでした。\nしかし、この新しいタイプのピーマンは、ほとんど苦くなくて、においもあまりしません。小学生に試食してもらったら、約８割が、生で食べてもおいしいと答えたそうです。子供も好きになれるピーマンの誕生です。\n実は、この新しいタイプのピーマンの研究には、１０年もかかっています。その出発点は、外国産のとうがらしです。これは日本人には辛すぎるものでしたが、偶然辛くないものが見つかったのです。その後、そのとうがらしの良い点を利用して、新しいタイプのピーマンが作られたということです。\nこの新しいタイプのピーマンが作られるまでは、親が子供にピーマンを食べさせるのは大変でした。そんな親たちも、楽になると言って喜んでいるそうです。",
+        "correct_choice_number": 3,
+        "explanation": "「出発点」とあるが、何か出発点となったのか。=>\n外国産の辛いとうがらしの中から、偶然辛くないものが見つかったこと\n。"
+      },
+      {
+        "question_number": 3,
+        "question": "この文章のテーマは何か。",
+        "choices": [
+          "子供も好きになれるピーマン",
+          "子供に野菜を食べさせる方法",
+          "新しいタイプのとうがらし",
+          "新しい野菜を作る研究の難しさ"
+        ],
+        "reading_passage": "Reading Passage 1\n最近、新しいタイプのピーマンが店に並ぶようになりました。このピーマンは、今までのものとは形も味も違っています。それまでピーマンというと、若さと強いにおいのため、子供にとっては、嫌いな野菜の一つでした。\nしかし、この新しいタイプのピーマンは、ほとんど苦くなくて、においもあまりしません。小学生に試食してもらったら、約８割が、生で食べてもおいしいと答えたそうです。子供も好きになれるピーマンの誕生です。\n実は、この新しいタイプのピーマンの研究には、１０年もかかっています。その出発点は、外国産のとうがらしです。これは日本人には辛すぎるものでしたが、偶然辛くないものが見つかったのです。その後、そのとうがらしの良い点を利用して、新しいタイプのピーマンが作られたということです。\nこの新しいタイプのピーマンが作られるまでは、親が子供にピーマンを食べさせるのは大変でした。そんな親たちも、楽になると言って喜んでいるそうです。",
+        "correct_choice_number": 1,
+        "explanation": "この文章のテーマは何か。=>\n子供も好きになれるピーマン"
+      },
+      {
+        "question_number": 4,
+        "question": "この文章について、正しいものはどれか。",
+        "choices": [
+          "新しい印刷機の発表をする。",
+          "新しい印刷機の説明をする。",
+          "新しい印刷機のカタログを送る。",
+          "新しい印刷機への感想を聞く。"
+        ],
+        "reading_passage": "Reading Passage 2\nカタログ送付のご案内\n拝啓\nだんだん暖かくなってまいりましたが、お元気でいらっしゃいますか。\nさて、このたび、当社では、業務用のSMA専用印刷機の新製品を開発いたしました。この製品のご紹介のカタログをEMSでお送りしましたので、お受け取りくださいますようお願いいたします。当社の業務用にぜひご検討いただければ幸いと存知ます。\n何かご不明な点がございましたら、山崎までご連絡ください。\nどうぞ、よろしくお願いいたします。\n敬具",
+        "correct_choice_number": 3,
+        "explanation": "この文章について、正しいものはどれか。=>\n新しい印刷機のカタログを送る\n。"
+      },
+      {
+        "question_number": 5,
+        "question": "この記事から、「すし一番」という大会についてどんなことがわかるか。",
+        "choices": [
+          "すしをはやく作るだけでは、優勝することができない。",
+          "参加するには、すし屋として１０年以上の経験が必要だ。",
+          "優勝者は、日本の有名なすし屋で働くことができる。",
+          "参加できるのは、日本に行ったことがない人だけである。"
+        ],
+        "reading_passage": "Reading Passage 3\nこれはある国で行われた、すしの大会についての記事である。\n先日、「すし一番」という大会が行われ、各地から集まった１５人のすし屋が、すしを作るはやさと、皿に並べたすしの全体的な美しさを競争した。\n参加者のほとんどは、１０年以上の経験がある人たちだったが、今年の優勝者は、すし屋になって５年目の２７歳の若者だった。\n優勝者には日本旅行がプレゼントされ、旅行中には、有名な日本料理店で食事をしたり、料理を作っているところを見学したりすることになっている。優勝者は、日本に初めて行くので、とてもうれしいと語った。",
+        "correct_choice_number": 1,
+        "explanation": "この記事から、「すし一番」という大会についてどんなことがわかるか。=>\nすしをはやく作るだけでは、優勝することができない\n。"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "タイプ",
+        "reading": "",
+        "meaning": "type"
+      },
+      {
+        "word": "ピーマン",
+        "reading": "",
+        "meaning": "bell pepper, green pepper"
+      },
+      {
+        "word": "形",
+        "reading": "katachi",
+        "meaning": "form, shape, figure"
+      },
+      {
+        "word": "味",
+        "reading": "aji",
+        "meaning": "flavor, taste"
+      },
+      {
+        "word": "匂い",
+        "reading": "nioi",
+        "meaning": "odor, scent, smell"
+      },
+      {
+        "word": "試食",
+        "reading": "shishoku",
+        "meaning": "sampling food"
+      },
+      {
+        "word": "約",
+        "reading": "yaku",
+        "meaning": "approximately, about"
+      },
+      {
+        "word": "割",
+        "reading": "wari",
+        "meaning": "rate, ratio, proportion"
+      },
+      {
+        "word": "生",
+        "reading": "nama",
+        "meaning": "raw, uncooked"
+      },
+      {
+        "word": "誕生",
+        "reading": "tanjou",
+        "meaning": "birth, creation, formation"
+      },
+      {
+        "word": "実は",
+        "reading": "jitsu wa",
+        "meaning": "as a matter of fact, to tell you the truth"
+      },
+      {
+        "word": "出発点",
+        "reading": "shuppatsuten",
+        "meaning": "starting point, point of departure"
+      },
+      {
+        "word": "外国産",
+        "reading": "gaikokusan",
+        "meaning": "foreign (product), of foreign manufacture"
+      },
+      {
+        "word": "とうがらし",
+        "reading": "",
+        "meaning": "chilly pepper"
+      },
+      {
+        "word": "偶然",
+        "reading": "guuzen",
+        "meaning": "by chance, unexpectedly"
+      },
+      {
+        "word": "楽",
+        "reading": "raku",
+        "meaning": "comfort, ease"
+      },
+      {
+        "word": "カタログ",
+        "reading": "",
+        "meaning": "catalog"
+      },
+      {
+        "word": "送付",
+        "reading": "soufu",
+        "meaning": "sending, forwarding"
+      },
+      {
+        "word": "業務用",
+        "reading": "gyoumuyou",
+        "meaning": "business use, business purposes"
+      },
+      {
+        "word": "専用",
+        "reading": "sen’you",
+        "meaning": "exclusive use, personal use"
+      },
+      {
+        "word": "印刷機",
+        "reading": "insatsuki",
+        "meaning": "printing press"
+      },
+      {
+        "word": "新製品",
+        "reading": "shinseihin",
+        "meaning": "new product"
+      },
+      {
+        "word": "開発",
+        "reading": "kaihatsu",
+        "meaning": "development, exploitation"
+      },
+      {
+        "word": "受け取る",
+        "reading": "uketoru",
+        "meaning": "to receive, to get"
+      },
+      {
+        "word": "当社",
+        "reading": "tousha",
+        "meaning": "this shrine, this firm"
+      },
+      {
+        "word": "記事",
+        "reading": "kiji",
+        "meaning": "article, news story, report"
+      },
+      {
+        "word": "各地",
+        "reading": "kakuchi",
+        "meaning": "every place, various places"
+      },
+      {
+        "word": "競争",
+        "reading": "kyousou",
+        "meaning": "competition, contest"
+      },
+      {
+        "word": "参加者",
+        "reading": "sankasha",
+        "meaning": "participant, entrant"
+      },
+      {
+        "word": "優勝者",
+        "reading": "yuushousha",
+        "meaning": "prize winner, victor"
+      },
+      {
+        "word": "若者",
+        "reading": "wakamono",
+        "meaning": "young man, youth, lad"
+      },
+      {
+        "word": "見学",
+        "reading": "kengaku",
+        "meaning": "study by observation"
+      }
+    ]
+  },
+  {
+    "exercise_number": 11,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-reading-exercise-11/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "ほかとは違う絵を描いた子供について、この文章を書いた人はどう言っているか。",
+        "choices": [
+          "ほかの子供と同じような絵は描きたくなかったのだろう。",
+          "そのとき最も印象的だったものをそのまま描いたのだろう。",
+          "丘から見える家や木を上手に描くことができなかったのだろう。",
+          "空を描いているうちに、紙が足りなくなってしまったのだろう。"
+        ],
+        "reading_passage": "Reading Passage 1\n市役所に、子供たちが描いた「緑の丘から見た町の景色」の絵が飾られていた。その中に一つ、ほかとは違う絵があった。ほかの絵には丘から見える家や木などが描かれているのに、その絵だけは、紙全体が青い色で塗られ、あちらこちらに白いものが描かれていた。たぶん、この絵を描いた子供は、丘の上から町を見ているうちに空の青さと流れていく雲に心をひかれていったのだろう。そして、その空の美しさを紙いっぱいに描いたのではないだろうか。",
+        "correct_choice_number": 2,
+        "explanation": "ほかとは違う絵を描いた子供について、この文章を書いた人はどう言っているか。=>\nそのとき最も印象的だったものをそのまま描いたのだろう\n。"
+      },
+      {
+        "question_number": 2,
+        "question": "このメールを見て、中田さんがまずレストランに知らせなければならないことは何か。",
+        "choices": [
+          "パーティーを行う日時とだいたいの出席者の数",
+          "パーティーで客に出す料理や飲み物などの内容",
+          "パーティーの相談をするためにレストランに行ける日",
+          "パーティーに出席することができる人の最終的な数"
+        ],
+        "reading_passage": "Reading Passage 2\n中田真澄様\n今回は、ご結婚祝いのパーティー会場に、レストラン「はな」をご予約いただき、ありがとうございました。日時とだいたいのご出席人数は伺っておりますが、一度お料理、お飲み物の内容について、ご相談したいと存じます。申し訳ございませんが、こちらにいらっしゃる日を知らせていただけないでしょうか。\nなお、最終的な人数については、パーティー当日の３日までにご連絡くださいますようお願いいたします。\nレストラン「はな」",
+        "correct_choice_number": 3,
+        "explanation": "このメールを見て、中田さんがまずレストランに知らせなければならないことは何か。=>\nパーティーの相談をするためにレストランに行ける日"
+      },
+      {
+        "question_number": 3,
+        "question": "この文章を書いた人は、「桜の木」についてどんな思い出をもっているか。",
+        "choices": [
+          "昔住んでいた町の大きな神社にあって、咲いている花の下でよく遊んだ。",
+          "２０年前は大きな木へはなかったのだが、毎年美しい花を咲かせていた。",
+          "すばらしい木だったので、一年中大勢の人が見に来てにぎやかだった。",
+          "大好きな木で、その周りでおしゃべりや読書をして時間をすごした。"
+        ],
+        "reading_passage": "Reading Passage 3\n子供のころ住んでいた町には小さな神社があって、そこには大きな桜の木が１本あった。私は、その桜の木が大好きで、よく木のそばで、友達とおしゃべりをしたり、本を読んだりした。春には毎年美しい花を咲かせるので、遠いところからも多くの人が花見に来ていた。\n引っ越してから２０年以上その町に行く機会がなかったが、先週、仕事で行くことになった。ちょうど桜の季節だったので、神社にも行ってみた。\n桜は、昔ほど美しく咲いていなくて、がっかりした。そして、花見客もあまりいなかった。よく見ると、桜の木の周りはロープで囲まれ、近くに行くことができなくなっていた。神社を掃除していた人に、その理由を聞くと、根の上を踏まれすぎて、桜が枯れそうになったからだと話してくれた。桜は根を土の中の浅いところに広げるため、根の上を踏まれると、土が固くなって呼吸ができなくなるのだそうだ。\n木のそばに行けなかったのは残念だったが、早く元気になって、また美しい花を咲かせてほしい。",
+        "correct_choice_number": 4,
+        "explanation": "この文章を書いた人は、「桜の木」についてどんな思い出をもっているか。=>\n大好きな木で、その周りでおしゃべりや読書をして時間をすごした\n。"
+      },
+      {
+        "question_number": 4,
+        "question": "「その理由」とあるが、何の理由か。",
+        "choices": [
+          "花見客が神社に来なくなった理由",
+          "ロープで桜の木を囲んでいる理由",
+          "桜の木が枯れそうになった理由",
+          "神社の庭を掃除している理由"
+        ],
+        "reading_passage": "Reading Passage 3\n子供のころ住んでいた町には小さな神社があって、そこには大きな桜の木が１本あった。私は、その桜の木が大好きで、よく木のそばで、友達とおしゃべりをしたり、本を読んだりした。春には毎年美しい花を咲かせるので、遠いところからも多くの人が花見に来ていた。\n引っ越してから２０年以上その町に行く機会がなかったが、先週、仕事で行くことになった。ちょうど桜の季節だったので、神社にも行ってみた。\n桜は、昔ほど美しく咲いていなくて、がっかりした。そして、花見客もあまりいなかった。よく見ると、桜の木の周りはロープで囲まれ、近くに行くことができなくなっていた。神社を掃除していた人に、その理由を聞くと、根の上を踏まれすぎて、桜が枯れそうになったからだと話してくれた。桜は根を土の中の浅いところに広げるため、根の上を踏まれると、土が固くなって呼吸ができなくなるのだそうだ。\n木のそばに行けなかったのは残念だったが、早く元気になって、また美しい花を咲かせてほしい。",
+        "correct_choice_number": 2,
+        "explanation": "「その理由」とあるが、何の理由か。=>\nロープで桜の木を囲んでいる理由"
+      },
+      {
+        "question_number": 5,
+        "question": "この文章を書いた人は、現在の桜の木の様子を見てどう思ったか。",
+        "choices": [
+          "近くに行けなかったのは残念だったが、掃除のためにはしかたがない。",
+          "ロープで囲むのはかわいそうだが、土を固くするためにはしかたがない。",
+          "花が少しも咲いていないので驚いたが、早くまた元気になってほしい。",
+          "昔と違っていてがっかりしたが、いつかまたすばらしい花を見せてほしい。"
+        ],
+        "reading_passage": "Reading Passage 3\n子供のころ住んでいた町には小さな神社があって、そこには大きな桜の木が１本あった。私は、その桜の木が大好きで、よく木のそばで、友達とおしゃべりをしたり、本を読んだりした。春には毎年美しい花を咲かせるので、遠いところからも多くの人が花見に来ていた。\n引っ越してから２０年以上その町に行く機会がなかったが、先週、仕事で行くことになった。ちょうど桜の季節だったので、神社にも行ってみた。\n桜は、昔ほど美しく咲いていなくて、がっかりした。そして、花見客もあまりいなかった。よく見ると、桜の木の周りはロープで囲まれ、近くに行くことができなくなっていた。神社を掃除していた人に、その理由を聞くと、根の上を踏まれすぎて、桜が枯れそうになったからだと話してくれた。桜は根を土の中の浅いところに広げるため、根の上を踏まれると、土が固くなって呼吸ができなくなるのだそうだ。\n木のそばに行けなかったのは残念だったが、早く元気になって、また美しい花を咲かせてほしい。",
+        "correct_choice_number": 4,
+        "explanation": "この文章を書いた人は、現在の桜の木の様子を見てどう思ったか。=>\n昔と違っていてがっかりしたが、いつかまたすばらしい花を見せてほしい\n。"
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 12,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-reading-exercise-12/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "この文章によると、「調査」からわかることはどれか。",
+        "choices": [
+          "最近の日本人は、魚料理を食べないで肉料理を多く食べるようになってきた。",
+          "１年前より自宅で魚料理を食べることが増えたという人は、減ったという人より多い。",
+          "魚料理に対しておいしいというイメージを持つ人は、体にいいと思う人より多い。",
+          "肉料理より魚料理のほうが体にいいという知識が、１年前よりも広がっている。"
+        ],
+        "reading_passage": "Reading Passage 1\n日本人は、魚をあまり食べなくなり、肉を食べるようになったと言われているが、実際はどうなのだろうか。\nある研究所が、料理の材料について男女約１，０００人に対して調査を行った。それによると、１年前に比べて自宅で魚料理を食べることが増えた人は２７．０％で、減ったと答えた人は（１５％より）かなり多い、魚料理のイメージは「体にいい」が８２．７％で、最も多かった。魚は健康にいいという知識が広がっているからだろう。その次は、「おいしい（７２．１％）」だった。私は、年をとればとるほど、魚が好きになると思っていたが、そうではないらしい。魚を「おいしい」と思う人が多い年齢は、６０代、２０代、３０代、５０代、４０代の順番であった。\nその結果から、日本人は最近また、魚を食べるようになってきていて、若い人にも魚好きが多いということがわかる。",
+        "correct_choice_number": 2,
+        "explanation": "この文章によると、「調査」からわかることはどれか。=>\n１年前より自宅で魚料理を食べることが増えたという人は、減ったという人より多い\n。"
+      },
+      {
+        "question_number": 2,
+        "question": "「そうではない」とあるが、「そう」とはどのようなことか。",
+        "choices": [
+          "年をとると次第に、魚が好きになる。",
+          "若い人は、あまり魚を食べたがらない。",
+          "年をとった人より、若い人のほうが魚が好きだ。",
+          "魚が好きか嫌いかは、年齢に関係がない。"
+        ],
+        "reading_passage": "Reading Passage 1\n日本人は、魚をあまり食べなくなり、肉を食べるようになったと言われているが、実際はどうなのだろうか。\nある研究所が、料理の材料について男女約１，０００人に対して調査を行った。それによると、１年前に比べて自宅で魚料理を食べることが増えた人は２７．０％で、減ったと答えた人は（１５％より）かなり多い、魚料理のイメージは「体にいい」が８２．７％で、最も多かった。魚は健康にいいという知識が広がっているからだろう。その次は、「おいしい（７２．１％）」だった。私は、年をとればとるほど、魚が好きになると思っていたが、そうではないらしい。魚を「おいしい」と思う人が多い年齢は、６０代、２０代、３０代、５０代、４０代の順番であった。\nその結果から、日本人は最近また、魚を食べるようになってきていて、若い人にも魚好きが多いということがわかる。",
+        "correct_choice_number": 1,
+        "explanation": "「そうではない」とあるが、「そう」とはどのようなことか。=>\n年をとると次第に、魚が好きになる\n。"
+      },
+      {
+        "question_number": 3,
+        "question": "この文章全体のテーマは、何か。",
+        "choices": [
+          "肉料理を食べる若者",
+          "肉好きと年齢の関係",
+          "魚料理が嫌いな若者",
+          "魚を食べるひとの増加"
+        ],
+        "reading_passage": "Reading Passage 1\n日本人は、魚をあまり食べなくなり、肉を食べるようになったと言われているが、実際はどうなのだろうか。\nある研究所が、料理の材料について男女約１，０００人に対して調査を行った。それによると、１年前に比べて自宅で魚料理を食べることが増えた人は２７．０％で、減ったと答えた人は（１５％より）かなり多い、魚料理のイメージは「体にいい」が８２．７％で、最も多かった。魚は健康にいいという知識が広がっているからだろう。その次は、「おいしい（７２．１％）」だった。私は、年をとればとるほど、魚が好きになると思っていたが、そうではないらしい。魚を「おいしい」と思う人が多い年齢は、６０代、２０代、３０代、５０代、４０代の順番であった。\nその結果から、日本人は最近また、魚を食べるようになってきていて、若い人にも魚好きが多いということがわかる。",
+        "correct_choice_number": 4,
+        "explanation": "この文章全体のテーマは、何か。=>\n魚を食べるひとの増加"
+      },
+      {
+        "question_number": 4,
+        "question": "[_______]に入る言葉として、最も適当なものはどれか。",
+        "choices": [
+          "地震でガスが使えなくなったときのために",
+          "地震で水道が使えなくなったときのために",
+          "地震で電気が使えなくなったときのために",
+          "地震でお風呂が使えなくなったときのために"
+        ],
+        "reading_passage": "Reading Passage 2\n水はとても大切です。人間は、水を飲まなければ、だいたい三日間しか生きることができない、と言われています。水は、一人に３リットルぐらいは必要です。\n地震が起こると、ガス・水道・電気が、使えなくなることがあります。[_______]、非難用品の中には、必ずミネラルウォーターなどを用意しておきましょう。\n水を用意してなかったら、なくなったりしたらどうでしょうか。阪神大震災では、給水車が来るまでに３～４日、水道が直るのに一ヶ月以上かかったところもあります。その間は、自分で水を集めることになります。\n一番いい方法は、普段から地震が起こったときのため、お風呂のお湯を流さずに溜めておくことです。",
+        "correct_choice_number": 2,
+        "explanation": "[\n_______\n]に入る言葉として、最も適当なものはどれか。=>\n地震で水道が使えなくなったときのために"
+      },
+      {
+        "question_number": 5,
+        "question": "このメールを見て、交流会に出席する人はどうしなければならないか。",
+        "choices": [
+          "地下鉄で行く場合は、朝日駅の１番出口に１２時までに行く。",
+          "地下鉄で行く場合は、「ナポリ」に直接１２時までに行く。",
+          "車で行く場合は、今週の金曜日までに田中さんに連絡する。",
+          "車で行く場合は、今週の金曜日までに「ナポリ」に連絡する。"
+        ],
+        "reading_passage": "Reading Passage 3\nこれは交流会の出席予定者に届いたメールである。\n交流会にご出席のみなさん\nこんにちは、田中です。\n今週土曜日の交流会は、「ナポリ」というイタリア料理のレストランにしました。１２時からです。\n「ナポリ」の場所ですが、地下鉄南北線の朝日駅から歩いて１０分ぐらいのところにあります。わかりにくい場所にあるので、みんなで一緒に店に向おうと思います。朝日駅の１番出口に１１時４５分に集合してください。車で直接行く人は、前日までにメールをください。\nそれでは、愉しみにしています。",
+        "correct_choice_number": 3,
+        "explanation": "このメールを見て、交流会に出席する人はどうしなければならないか。=>\n車で行く場合は、今週の金曜日までに田中さんに連絡する\n。"
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 13,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-reading-exercise-13/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "リーさんは、わかば市運動公園の運動場で、友達とサッカーをしたいと考えている。２月１１日の日曜日、午前１０時から午後２時まで利用したい。リーさんも友達もわかば市民ではない場合、１時間の利用料金はいくらか。",
+        "choices": [
+          "８００円",
+          "１，０００円",
+          "１，２００円",
+          "１，４００円"
+        ],
+        "reading_passage": "Reading Passage 1\nわかば市運動公園\nご利用案内\nわかば市運動公園、どなたでもご利用になれます！\n利用方法\n・申し込みの受付は、利用日の一ヶ月前から、電話とインターネットで行います。\n・なお、申し込みは１８歳以上の方がしてください。\n・料金は、一つのグループで運動場全体または体育館全体を利用する場合の料金です。利用当日までに受付でお支払いください。\n・わかば市民は割引料金で利用できますので、申し込みのときにお知らせください。\n・申し込みをキャンセルする場合は、早めにご連絡ください。\n３日前よりキャンセル料が発生しますので、ご注意ください。\nキャンセル料は、先日までは５０％、当日は１００％になります。\n利用時間と料金（１時間）\n＊１、２月の昼間と夜間に運動場を使用する場合は２００円ずつ割引します。\nわかば市運動公園",
+        "correct_choice_number": 3,
+        "explanation": "リーさんは、わかば市運動公園の運動場で、友達とサッカーをしたいと考えている。２月１１日の日曜日、午前１０時から午後２時まで利用したい。リーさんも友達もわかば市民ではない場合、１時間の利用料金はいくらか。=>\n１，２００円"
+      },
+      {
+        "question_number": 2,
+        "question": "わかば市運動公園の利用を申し込む場合、必ずしなければならないことは何か。",
+        "choices": [
+          "利用日の一ヶ月前までに申し込まなければならない。",
+          "１８歳以上の人が申し込まなければならない。",
+          "申し込みのときに、料金を払わなければならない。",
+          "申し込みのときに、住所を証明するものを持参しなければならない。"
+        ],
+        "reading_passage": "Reading Passage 1\nわかば市運動公園\nご利用案内\nわかば市運動公園、どなたでもご利用になれます！\n利用方法\n・申し込みの受付は、利用日の一ヶ月前から、電話とインターネットで行います。\n・なお、申し込みは１８歳以上の方がしてください。\n・料金は、一つのグループで運動場全体または体育館全体を利用する場合の料金です。利用当日までに受付でお支払いください。\n・わかば市民は割引料金で利用できますので、申し込みのときにお知らせください。\n・申し込みをキャンセルする場合は、早めにご連絡ください。\n３日前よりキャンセル料が発生しますので、ご注意ください。\nキャンセル料は、先日までは５０％、当日は１００％になります。\n利用時間と料金（１時間）\n＊１、２月の昼間と夜間に運動場を使用する場合は２００円ずつ割引します。\nわかば市運動公園",
+        "correct_choice_number": 2,
+        "explanation": "わかば市運動公園の利用を申し込む場合、必ずしなければならないことは何か。=>\n１８歳以上の人が申し込まなければならない\n。"
+      },
+      {
+        "question_number": 3,
+        "question": "この文章を書いた人は、歯を丈夫にするために最近なにをしていると言っているか。",
+        "choices": [
+          "甘いものを食べ過ぎない。",
+          "食後に歯磨きをする。",
+          "食事に長い時間をかけない。",
+          "たくさんかんで食べる。"
+        ],
+        "reading_passage": "Reading Passage 2\n歯を守るには、甘いものを食べ過ぎないことや、食後の歯磨きが大切なのはもちろんだが、かむ回数を増やす努力も重要だと聞いた。時間をかけて、何度もかむことで、あごの力が強くなり、歯も丈夫になるそうだ。\nそれで最近わたしは、ハンバーグをステーキに替えたり、りんごの皮をむかないで食べたりしている。ハンバーグなどの軟らかい食べ物は、かむ必要があまりないので、歯にいいとは言えないからだ。いろいろな工夫で、かむ回数は増やせるのだ。",
+        "correct_choice_number": 4,
+        "explanation": "この文章を書いた人は、歯を丈夫にするために最近なにをしていると言っているか。=>\nたくさんかんで食べる\n。"
+      },
+      {
+        "question_number": 4,
+        "question": "修理の人が来たとき、中村さんがしなければならないことは何か。",
+        "choices": [
+          "教室へ下田先生を呼びに行く。",
+          "印刷した紙をプリンターのところに置く。",
+          "修理の人に故障の状態を説明する。",
+          "修理の人にゼミの資料を印刷してもらう。"
+        ],
+        "reading_passage": "Reading Passage 3\n中村さん、\nおはようございます。\n昨日プリンターが故障したので、川名電気に修理を頼みました。修理の人は、１０時に来てくれるそうです。わたしは授業があるので、修理の人が来たら、プリンターの場所に案内をお願いします。\n故障の内容ですが、印刷するときに紙にインクの汚れがついてしまいます。実際に印刷した紙がプリンターのところに置いてありますから、それを修理の人に見せて説明してください。\n修理がすんだら、午後のゼミの資料を人数分用意しておいてください。\n下田",
+        "correct_choice_number": 3,
+        "explanation": "修理の人が来たとき、中村さんがしなければならないことは何か。=>\n修理の人に故障の状態を説明する\n。"
+      },
+      {
+        "question_number": 5,
+        "question": "このお知らせでは、利用者にどうするように言っているか。",
+        "choices": [
+          "本もCDも整理期間が終わってから窓口に返す。",
+          "本もCDも整理期間中は図書館ポストに入れる。",
+          "整理期間中、本は窓口に返し、CDは整理期間が終わってから窓口に返す。",
+          "整理期間中、本は図書館ポストに入れ、CDは整理期間は終わってから窓口に返す。"
+        ],
+        "reading_passage": "Reading Passage 4\nこれは図書館からのお知らせである。\nふじ図書館をご利用の皆様へ\nいつもふじ図書館を利用していただき、ありがとうございます。\n本、CDの整理を以下の日程で行います。この整理期間中は、図書館は休館いたします。ご注意ください。\n１２月９日（月）～１２月１２日（木）\n休館中は窓口での返却はできません。本は入り口横にある返却用の図書館ポストに入れてください。CDについては、ポストの利用はできませんので、１２月１３日以降、窓口にお返しください。\nご協力をお願いいたします。\n１１月２９日\nふじ図書館",
+        "correct_choice_number": 4,
+        "explanation": "このお知らせでは、利用者にどうするように言っているか。=>\n整理期間中、本は図書館ポストに入れ、CDは整理期間は終わってから窓口に返す\n。"
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 14,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-reading-exercise-14/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "「",
+        "choices": [
+          "それ",
+          "」とあるが、何のことか。",
+          "散歩の途中で見た、花が咲いている家",
+          "昔住んでいた家によく似ている家",
+          "子どものころ、自分が住んでいた家",
+          "昔一緒によく遊んだ明子ちゃんの家"
+        ],
+        "reading_passage": "Reading Passage 1\nわたしは、家の近くを毎日散歩していますが、今日はいつもと違う道を歩いてみました。ぶらぶら歩いていると、どこからか花のいいにおいがしてきました。知っている香りなのに、それがどんな花なのか思い出せませんでした。でも、そのとき自然に、昔住んでいた家のことを思い出しました。\n「\nそれ\n」は、田舎の、広い庭がある家でした。祖父と祖母も一緒に住んでいて、にぎやかな毎日でした。隣の家の明子ちゃんという女の子と、家の裏にある山に行ったり、近くの川に行ったりして、よく一緒に遊びました。「\nなつかしい思い出\n」です。\nどうしてあの時、昔住んでいた家のことを思い出したのか、わたしは不思議でした。家に帰ってから、昔の写真や祖父、祖母の写真を見ながら、しばらく考えました。そして、昔住んでいた家の庭には、春になると、白くて小さな、かわいい花がたくさん咲いていたことを思い出しました。その花は、今日道を歩いていたときの、あの花と同じ香りだったのです。",
+        "correct_choice_number": 3,
+        "explanation": "「それ」とあるが、何のことか。=>\n子どものころ、自分が住んでいた家"
+      },
+      {
+        "question_number": 2,
+        "question": "「",
+        "choices": [
+          "なつかしい思い出",
+          "」とあるが、例えばどんな思い出だと言っているか。",
+          "隣の家の広い庭によく行った。",
+          "祖父と祖母がよく遊びに来た。",
+          "庭で明子ちゃんと花を見た。",
+          "友達と一緒に山や川で遊んだ。"
+        ],
+        "reading_passage": "Reading Passage 1\nわたしは、家の近くを毎日散歩していますが、今日はいつもと違う道を歩いてみました。ぶらぶら歩いていると、どこからか花のいいにおいがしてきました。知っている香りなのに、それがどんな花なのか思い出せませんでした。でも、そのとき自然に、昔住んでいた家のことを思い出しました。\n「\nそれ\n」は、田舎の、広い庭がある家でした。祖父と祖母も一緒に住んでいて、にぎやかな毎日でした。隣の家の明子ちゃんという女の子と、家の裏にある山に行ったり、近くの川に行ったりして、よく一緒に遊びました。「\nなつかしい思い出\n」です。\nどうしてあの時、昔住んでいた家のことを思い出したのか、わたしは不思議でした。家に帰ってから、昔の写真や祖父、祖母の写真を見ながら、しばらく考えました。そして、昔住んでいた家の庭には、春になると、白くて小さな、かわいい花がたくさん咲いていたことを思い出しました。その花は、今日道を歩いていたときの、あの花と同じ香りだったのです。",
+        "correct_choice_number": 4,
+        "explanation": "「なつかしい思い出」とあるが、例えばどんな思い出だと言っているか。=>\n友達と一緒に山や川で遊んだ\n。"
+      },
+      {
+        "question_number": 3,
+        "question": "この文章を書いた人は、散歩のときに昔住んでいた家のことを思い出したのはなぜだと考えているか。",
+        "choices": [
+          "昔住んでいた家の庭に咲いていたのと同じ花の香りがしたから",
+          "昔住んでいた家の庭に咲いていたのと同じ白い花を見たから",
+          "昔住んでいた家の近くの道に咲いていたのと同じ花の香りがしたから",
+          "昔住んでいた家の近くに咲いていたのと同じ白い花を見たから"
+        ],
+        "reading_passage": "Reading Passage 1\nわたしは、家の近くを毎日散歩していますが、今日はいつもと違う道を歩いてみました。ぶらぶら歩いていると、どこからか花のいいにおいがしてきました。知っている香りなのに、それがどんな花なのか思い出せませんでした。でも、そのとき自然に、昔住んでいた家のことを思い出しました。\n「\nそれ\n」は、田舎の、広い庭がある家でした。祖父と祖母も一緒に住んでいて、にぎやかな毎日でした。隣の家の明子ちゃんという女の子と、家の裏にある山に行ったり、近くの川に行ったりして、よく一緒に遊びました。「\nなつかしい思い出\n」です。\nどうしてあの時、昔住んでいた家のことを思い出したのか、わたしは不思議でした。家に帰ってから、昔の写真や祖父、祖母の写真を見ながら、しばらく考えました。そして、昔住んでいた家の庭には、春になると、白くて小さな、かわいい花がたくさん咲いていたことを思い出しました。その花は、今日道を歩いていたときの、あの花と同じ香りだったのです。",
+        "correct_choice_number": 1,
+        "explanation": "この文章を書いた人は、散歩のときに昔住んでいた家のことを思い出したのはなぜだと考えているか。=>\n昔住んでいた家の庭に咲いていたのと同じ花の香りがしたから"
+      },
+      {
+        "question_number": 4,
+        "question": "ピーターさんは、明日の１２月１４日（土）に友達と三人で「レストラン泉」に行こうと思い、特別ランチコースBを三人分予約していた。友達一人が行けなくなったので、今日のうちに一人分をキャンセルしたい。キャンセルりょうはどうなるか。",
+        "choices": [
+          "３，５００円を払う",
+          "３，５００円の２０％を払う",
+          "４，０００円を払う",
+          "４，０００円の２０％を払う"
+        ],
+        "reading_passage": "Reading Passage 2\n*** ABCクレジットカード社員のみな様へ ***\nABCクレジットカードをお持ちの方に、１２月１日～１２月２１日までの３週間、レストラン特別価格メニューをご用意いたしました。\n・ご予約は、各店に直接お電話ください。\n・ご予約時に、ABCクレジットカード会員であることをお知らせください。\n・キャンセル料は、ご利用日の４日前までは無料、３日前から前日までは２０％、当日１００％となります。｛森王駅近くのお店｝\n（１）「レストラン泉」森王１－１－７　代一ビル１０階　電話　０９－３３４０－１２１２\nきれいな景色を見ながら、おいしいフランス料理が楽しめます。\n「値段」\n特別ランチコースA　２，８００円　（平日）　３，３００円（　土日）\n特別ランチコースB　３，５００円　（平日）　４，０００円（　土日）\n「定休日」　水曜日\n「交通」　森王駅から徒歩８分\n（２）「さくら屋」　森王３－１－５　電話　０９－３２５４－４４５６\nてんぷら、さしみなど、様々な種類の定食をご用意しています。\n「値段」　特別ランチ　２，０００円　（平日）　２，５００円　（土日）\n「定休日」　　水曜日\n「交通」　森王駅から徒歩５分\n（３）「すし大海」　森王　１－１３－２０　電話　０９－３２５４－１１９８\n近海で捕れた新鮮な魚で作ったすしをお楽しみください。\n「値段」　特別ランチ　２，０００円　（平日）　２，４００円　（土日）\n「定休日」　　月曜日\n「交通」　森王駅から徒歩３分\n（４）「ふじ」　森王　５－１５－１１　電話　０９－３５４８－４７８２\n和食の専門店。日替わり全国各地の料理が楽しめます。\n「値段」　特別ランチ　２，７００円　（平日）　３，０００円　（土日）\n「定休日」　　木曜日\n「交通」　森王駅から徒歩１５分",
+        "correct_choice_number": 4,
+        "explanation": "ピーターさんは、明日の１２月１４日（土）に友達と三人で「レストラン泉」に行こうと思い、特別ランチコースBを三人分予約していた。友達一人が行けなくなったので、今日のうちに一人分をキャンセルしたい。キャンセルりょうはどうなるか。=>\n４，０００円の２０％を払う"
+      },
+      {
+        "question_number": 5,
+        "question": "ベンさんは、１２月１６日（月）に友達と一緒に昼ごはんを食べに行こうと思っている。和食が食べられるお店で、森王駅から歩いて１０分以内のところがいい。ベンさんの希望に合うのはどのレストランか。",
+        "choices": [
+          "（１）",
+          "（２）",
+          "（３）",
+          "（４）"
+        ],
+        "reading_passage": "Reading Passage 2\n*** ABCクレジットカード社員のみな様へ ***\nABCクレジットカードをお持ちの方に、１２月１日～１２月２１日までの３週間、レストラン特別価格メニューをご用意いたしました。\n・ご予約は、各店に直接お電話ください。\n・ご予約時に、ABCクレジットカード会員であることをお知らせください。\n・キャンセル料は、ご利用日の４日前までは無料、３日前から前日までは２０％、当日１００％となります。｛森王駅近くのお店｝\n（１）「レストラン泉」森王１－１－７　代一ビル１０階　電話　０９－３３４０－１２１２\nきれいな景色を見ながら、おいしいフランス料理が楽しめます。\n「値段」\n特別ランチコースA　２，８００円　（平日）　３，３００円（　土日）\n特別ランチコースB　３，５００円　（平日）　４，０００円（　土日）\n「定休日」　水曜日\n「交通」　森王駅から徒歩８分\n（２）「さくら屋」　森王３－１－５　電話　０９－３２５４－４４５６\nてんぷら、さしみなど、様々な種類の定食をご用意しています。\n「値段」　特別ランチ　２，０００円　（平日）　２，５００円　（土日）\n「定休日」　　水曜日\n「交通」　森王駅から徒歩５分\n（３）「すし大海」　森王　１－１３－２０　電話　０９－３２５４－１１９８\n近海で捕れた新鮮な魚で作ったすしをお楽しみください。\n「値段」　特別ランチ　２，０００円　（平日）　２，４００円　（土日）\n「定休日」　　月曜日\n「交通」　森王駅から徒歩３分\n（４）「ふじ」　森王　５－１５－１１　電話　０９－３５４８－４７８２\n和食の専門店。日替わり全国各地の料理が楽しめます。\n「値段」　特別ランチ　２，７００円　（平日）　３，０００円　（土日）\n「定休日」　　木曜日\n「交通」　森王駅から徒歩１５分",
+        "correct_choice_number": 2,
+        "explanation": "ベンさんは、１２月１６日（月）に友達と一緒に昼ごはんを食べに行こうと思っている。和食が食べられるお店で、森王駅から歩いて１０分以内のところがいい。ベンさんの希望に合うのはどのレストランか。=>\n（２）"
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 15,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-reading-exercise-15/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "それ",
+        "choices": [
+          "とあるが、何のことか。",
+          "歴史の教科書",
+          "ピラミッドの壁画",
+          "一通の手紙",
+          "壁画の写真"
+        ],
+        "reading_passage": "ある中学生から私のところに一通の手紙が寄せられた。その内容は、「歴史の教科書に壁画の写真が出ていて、ピラミッドの壁画と紹介されているのだが、\nそれ\nで正しいのだろうか」というものだった。\nさっそくその教科書を見て\n驚いた\n。載せられている写真は、そのピラミッドとはなんの関係もない、千数百年も後の時代につくられた王墓の壁画であったのだ。\nこれは、たいへんな間違いである。何がたいへんな間違いなのか。千数百年の時代の隔たりが問題なのではない。もっと\n根本的に重要な問題\nがある。それは、ピラミッドの中には絵が描かれていないという事実が、まったく無視されていることである。\nそもそも、クフ王の大ピラミッドなどの第四王朝までのピラミッドには、壁画も文字も描かれていない。第五王朝末期のウナス王のピラミッドになって、ようやくピラミッド内部にピラミッド・テキストといわれるヒエログリフが刻まれるようになるのだが、それでも絵が描かれることはなかった。すなわち、あらゆる時代を通じて、ピラミッドの壁に絵が描かれることは、いっさいなかったのである。",
+        "correct_choice_number": 2,
+        "explanation": "それとあるが、何のことか。=>\nピラミッドの壁画"
+      },
+      {
+        "question_number": 2,
+        "question": "この文章を書いた人はなぜ驚いたか。",
+        "choices": [
+          "中学生から一通の手紙が寄せられたから",
+          "千数百年も後の時代につくられた王墓の壁画の写真を見たから",
+          "歴史の教科書に壁画の写真が出ていたから",
+          "教科書に載せられている写真は、ピラミッドとはなんの関係もないから"
+        ],
+        "reading_passage": "ある中学生から私のところに一通の手紙が寄せられた。その内容は、「歴史の教科書に壁画の写真が出ていて、ピラミッドの壁画と紹介されているのだが、\nそれ\nで正しいのだろうか」というものだった。\nさっそくその教科書を見て\n驚いた\n。載せられている写真は、そのピラミッドとはなんの関係もない、千数百年も後の時代につくられた王墓の壁画であったのだ。\nこれは、たいへんな間違いである。何がたいへんな間違いなのか。千数百年の時代の隔たりが問題なのではない。もっと\n根本的に重要な問題\nがある。それは、ピラミッドの中には絵が描かれていないという事実が、まったく無視されていることである。\nそもそも、クフ王の大ピラミッドなどの第四王朝までのピラミッドには、壁画も文字も描かれていない。第五王朝末期のウナス王のピラミッドになって、ようやくピラミッド内部にピラミッド・テキストといわれるヒエログリフが刻まれるようになるのだが、それでも絵が描かれることはなかった。すなわち、あらゆる時代を通じて、ピラミッドの壁に絵が描かれることは、いっさいなかったのである。",
+        "correct_choice_number": 4,
+        "explanation": "この文章を書いた人はなぜ驚いたか。=>\n教科書に載せられている写真は、ピラミッドとはなんの関係もないから"
+      },
+      {
+        "question_number": 3,
+        "question": "「根本的に重要な問題」とあるが、何が根本的に重要な問題だと言っているか。",
+        "choices": [
+          "千数百年の時代の隔たり",
+          "ピラミッドの中には絵が描かれていないこと",
+          "ピラミッドの重要さがまったく無視されていること",
+          "ピラミッドの中には絵が描かれていないという事実が、まったく無視されていること"
+        ],
+        "reading_passage": "ある中学生から私のところに一通の手紙が寄せられた。その内容は、「歴史の教科書に壁画の写真が出ていて、ピラミッドの壁画と紹介されているのだが、\nそれ\nで正しいのだろうか」というものだった。\nさっそくその教科書を見て\n驚いた\n。載せられている写真は、そのピラミッドとはなんの関係もない、千数百年も後の時代につくられた王墓の壁画であったのだ。\nこれは、たいへんな間違いである。何がたいへんな間違いなのか。千数百年の時代の隔たりが問題なのではない。もっと\n根本的に重要な問題\nがある。それは、ピラミッドの中には絵が描かれていないという事実が、まったく無視されていることである。\nそもそも、クフ王の大ピラミッドなどの第四王朝までのピラミッドには、壁画も文字も描かれていない。第五王朝末期のウナス王のピラミッドになって、ようやくピラミッド内部にピラミッド・テキストといわれるヒエログリフが刻まれるようになるのだが、それでも絵が描かれることはなかった。すなわち、あらゆる時代を通じて、ピラミッドの壁に絵が描かれることは、いっさいなかったのである。",
+        "correct_choice_number": 4,
+        "explanation": "「根本的に重要な問題」とあるが、何が根本的に重要な問題だと言っているか。=>\nピラミッドの中には絵が描かれていないという事実が、まったく無視されていること"
+      },
+      {
+        "question_number": 4,
+        "question": "正しいのはどれか。",
+        "choices": [
+          "あらゆる時代を通じて、ピラミッドの壁に絵が描かれていない",
+          "ウナス王のピラミッドには、ヒエログリフが刻まれていない",
+          "クフ王のピラミッドには、ヒエログリフが刻まれている",
+          "第五王朝末期になって、ようやくピラミッド内部に絵が描かれるようになる"
+        ],
+        "reading_passage": "ある中学生から私のところに一通の手紙が寄せられた。その内容は、「歴史の教科書に壁画の写真が出ていて、ピラミッドの壁画と紹介されているのだが、\nそれ\nで正しいのだろうか」というものだった。\nさっそくその教科書を見て\n驚いた\n。載せられている写真は、そのピラミッドとはなんの関係もない、千数百年も後の時代につくられた王墓の壁画であったのだ。\nこれは、たいへんな間違いである。何がたいへんな間違いなのか。千数百年の時代の隔たりが問題なのではない。もっと\n根本的に重要な問題\nがある。それは、ピラミッドの中には絵が描かれていないという事実が、まったく無視されていることである。\nそもそも、クフ王の大ピラミッドなどの第四王朝までのピラミッドには、壁画も文字も描かれていない。第五王朝末期のウナス王のピラミッドになって、ようやくピラミッド内部にピラミッド・テキストといわれるヒエログリフが刻まれるようになるのだが、それでも絵が描かれることはなかった。すなわち、あらゆる時代を通じて、ピラミッドの壁に絵が描かれることは、いっさいなかったのである。",
+        "correct_choice_number": 1,
+        "explanation": "正しいのはどれか。=>\nあらゆる時代を通じて、ピラミッドの壁に絵が描かれていない"
+      },
+      {
+        "question_number": 5,
+        "question": "「___１___」に入る最も適当なものはどれか。",
+        "choices": [
+          "行って",
+          "行わせて",
+          "行われて",
+          "行わせられて"
+        ],
+        "reading_passage": "確かに、言語学習には「音読」が有効と言われ、英語の授業では音読が日々「___１___」います。しかし、なぜ「声に出して読む」ことが必要なのかを学習者に説明していないことが多いため、往々にして「ただ声に出しているだけ」になってしまい、そのため、思ったより効果が出ないケースもあるようです。さらに言うと「声に出す練習」だけで話せるようにはおそらくはなりません。「___２___」、「音読」から、「朗読」という次のステップへ移行する必要がある、と考えているのです。音読と朗読の最大の違いは、朗読が「聞き手」を意識して行う「___３___」という点です。朗読は、私の考えでは「インプット」です。「自主トレ」と言ってもいいでしょう。それに対して、朗読は、文字「___４___」の意味での「アウトプット」です。聞き手がどんな人なのか、その人に向けて、どんな表現で、どんな方法で伝えるのか、をよく考えた「___５___」声に出すのが、私の考える英語朗読です。",
+        "correct_choice_number": 3,
+        "explanation": "「\n___1___\n」に入る最も適当なものはどれか。=>\n行われて"
+      },
+      {
+        "question_number": 6,
+        "question": "「___２___」に入る最も適当なものはどれか。",
+        "choices": [
+          "というわけ",
+          "そういうわけで",
+          "といことは",
+          "そういうのは"
+        ],
+        "reading_passage": "確かに、言語学習には「音読」が有効と言われ、英語の授業では音読が日々「___１___」います。しかし、なぜ「声に出して読む」ことが必要なのかを学習者に説明していないことが多いため、往々にして「ただ声に出しているだけ」になってしまい、そのため、思ったより効果が出ないケースもあるようです。さらに言うと「声に出す練習」だけで話せるようにはおそらくはなりません。「___２___」、「音読」から、「朗読」という次のステップへ移行する必要がある、と考えているのです。音読と朗読の最大の違いは、朗読が「聞き手」を意識して行う「___３___」という点です。朗読は、私の考えでは「インプット」です。「自主トレ」と言ってもいいでしょう。それに対して、朗読は、文字「___４___」の意味での「アウトプット」です。聞き手がどんな人なのか、その人に向けて、どんな表現で、どんな方法で伝えるのか、をよく考えた「___５___」声に出すのが、私の考える英語朗読です。",
+        "correct_choice_number": 2,
+        "explanation": "「\n___2___\n」に入る最も適当なものはどれか。=>\nそういうわけで"
+      },
+      {
+        "question_number": 7,
+        "question": "「___３___」に入る最も適当なものはどれか。",
+        "choices": [
+          "ものだ",
+          "はずだ",
+          "ことだ",
+          "一方だ"
+        ],
+        "reading_passage": "確かに、言語学習には「音読」が有効と言われ、英語の授業では音読が日々「___１___」います。しかし、なぜ「声に出して読む」ことが必要なのかを学習者に説明していないことが多いため、往々にして「ただ声に出しているだけ」になってしまい、そのため、思ったより効果が出ないケースもあるようです。さらに言うと「声に出す練習」だけで話せるようにはおそらくはなりません。「___２___」、「音読」から、「朗読」という次のステップへ移行する必要がある、と考えているのです。音読と朗読の最大の違いは、朗読が「聞き手」を意識して行う「___３___」という点です。朗読は、私の考えでは「インプット」です。「自主トレ」と言ってもいいでしょう。それに対して、朗読は、文字「___４___」の意味での「アウトプット」です。聞き手がどんな人なのか、その人に向けて、どんな表現で、どんな方法で伝えるのか、をよく考えた「___５___」声に出すのが、私の考える英語朗読です。",
+        "correct_choice_number": 1,
+        "explanation": "「\n___3___\n」に入る最も適当なものはどれか。=>\nものだ"
+      },
+      {
+        "question_number": 8,
+        "question": "「___４___」に入る最も適当なものはどれか。",
+        "choices": [
+          "どおり",
+          "くらい",
+          "がたい",
+          "ながら"
+        ],
+        "reading_passage": "確かに、言語学習には「音読」が有効と言われ、英語の授業では音読が日々「___１___」います。しかし、なぜ「声に出して読む」ことが必要なのかを学習者に説明していないことが多いため、往々にして「ただ声に出しているだけ」になってしまい、そのため、思ったより効果が出ないケースもあるようです。さらに言うと「声に出す練習」だけで話せるようにはおそらくはなりません。「___２___」、「音読」から、「朗読」という次のステップへ移行する必要がある、と考えているのです。音読と朗読の最大の違いは、朗読が「聞き手」を意識して行う「___３___」という点です。朗読は、私の考えでは「インプット」です。「自主トレ」と言ってもいいでしょう。それに対して、朗読は、文字「___４___」の意味での「アウトプット」です。聞き手がどんな人なのか、その人に向けて、どんな表現で、どんな方法で伝えるのか、をよく考えた「___５___」声に出すのが、私の考える英語朗読です。",
+        "correct_choice_number": 1,
+        "explanation": "「\n___4___\n」に入る最も適当なものはどれか。=>\nどおり"
+      },
+      {
+        "question_number": 9,
+        "question": "「___５___」に入る最も適当なものはどれか。",
+        "choices": [
+          "せいで",
+          "ことで",
+          "うえで",
+          "もので"
+        ],
+        "reading_passage": "確かに、言語学習には「音読」が有効と言われ、英語の授業では音読が日々「___１___」います。しかし、なぜ「声に出して読む」ことが必要なのかを学習者に説明していないことが多いため、往々にして「ただ声に出しているだけ」になってしまい、そのため、思ったより効果が出ないケースもあるようです。さらに言うと「声に出す練習」だけで話せるようにはおそらくはなりません。「___２___」、「音読」から、「朗読」という次のステップへ移行する必要がある、と考えているのです。音読と朗読の最大の違いは、朗読が「聞き手」を意識して行う「___３___」という点です。朗読は、私の考えでは「インプット」です。「自主トレ」と言ってもいいでしょう。それに対して、朗読は、文字「___４___」の意味での「アウトプット」です。聞き手がどんな人なのか、その人に向けて、どんな表現で、どんな方法で伝えるのか、をよく考えた「___５___」声に出すのが、私の考える英語朗読です。",
+        "correct_choice_number": 3,
+        "explanation": "「\n___5___\n」に入る最も適当なものはどれか。=>\nうえで"
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 16,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-reading-exercise-16/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "この文章全体のテーマは、何か。",
+        "choices": [
+          "英語の勉強方法",
+          "朗読の練習方法",
+          "朗読の練習用素材の選び方",
+          "英語勉強のモチベーションの探し方"
+        ],
+        "reading_passage": "まず、「何度読んでも飽きない」もの、というのが第一条件です。そのためには、「興味のあるもの」「好きなもの」を選ぶといいでしょう。自分が詳しく理解しているジャンルの文章は、たとえマニアックでも専門用語が満載でも、「自分のもの」にすることができ、生き生きと読むことができるものです。\n加えて、「自分に合ったもの」かどうかも意識しましょう。例えば、おじいさんの一人語りの体験談は、２０代の女性にとっては身近に感じにくく、理解しづらいかもしれません。また、スピーチなどを使う場合は、「話者を尊敬できる」「内容に共感できる」ものにするといいでしょう。そうでないと途中で嫌になりますし、納得していないものは「伝えよう」という気持ちにもなれません。\n物語の朗読の場合、時代や文化背景がわかりやすいものの方が、映像を頭に描く作業が容易です。私がセミナーなどで日本文学の英訳をよく朗読するのは、日本人である私にとって、最も視覚化しやすく、伝えやすい素材だからです。なお、子供向けの物語の中でも、絵本などの「もともと絵が付いている」文章は、視覚化の訓練にはあまり適さないので、絵が少ない作品を選ぶといいでしょう。",
+        "correct_choice_number": 3,
+        "explanation": "この文章全体のテーマは、何か。=>\n朗読の練習用素材の選び方"
+      },
+      {
+        "question_number": 2,
+        "question": "「___１___」に入る最も適当なものはどれか。",
+        "choices": [
+          "でて",
+          "あった",
+          "いて",
+          "して"
+        ],
+        "reading_passage": "自前製作のドラマは私も初めてでしたが、余裕が「___１___」とてもよかったです。多くのドラマでは、台本が出てからその週に放送される２回分を撮影します。撮影して３～４日後に放送する「___２___」こともあり、本当に撮影ができる人じゃないと間に合わないシステムです。台本をもらってそれを熟知する「___３___」大変なのに、それにプラスして感情など、すべてのことを表現しなければならない「___４___」、とても難しい状況なんです。俳優やスタッフの徹夜作業も当たり前という環境でやってきましたが、今回は、明日、明後日に放送されるものを撮影している「___５___」ので、演じるキャラクターをより深く分析でき、より集中して役作りもできましたね。現場でも監督や俳優がいろいろアイデアを出し合って、それがとてもよかったと思います。",
+        "correct_choice_number": 2,
+        "explanation": "「\n___1___\n」に入る最も適当なものはどれか。=>\nあった"
+      },
+      {
+        "question_number": 3,
+        "question": "「___２___」に入る最も適当なものはどれか。",
+        "choices": [
+          "ように",
+          "ような",
+          "のように",
+          "のような"
+        ],
+        "reading_passage": "自前製作のドラマは私も初めてでしたが、余裕が「___１___」とてもよかったです。多くのドラマでは、台本が出てからその週に放送される２回分を撮影します。撮影して３～４日後に放送する「___２___」こともあり、本当に撮影ができる人じゃないと間に合わないシステムです。台本をもらってそれを熟知する「___３___」大変なのに、それにプラスして感情など、すべてのことを表現しなければならない「___４___」、とても難しい状況なんです。俳優やスタッフの徹夜作業も当たり前という環境でやってきましたが、今回は、明日、明後日に放送されるものを撮影している「___５___」ので、演じるキャラクターをより深く分析でき、より集中して役作りもできましたね。現場でも監督や俳優がいろいろアイデアを出し合って、それがとてもよかったと思います。",
+        "correct_choice_number": 2,
+        "explanation": "「\n___2___\n」に入る最も適当なものはどれか。=>\nような"
+      },
+      {
+        "question_number": 4,
+        "question": "「___３___」に入る最も適当なものはどれか。",
+        "choices": [
+          "くらい",
+          "どころか",
+          "ばかりに",
+          "だけでも"
+        ],
+        "reading_passage": "自前製作のドラマは私も初めてでしたが、余裕が「___１___」とてもよかったです。多くのドラマでは、台本が出てからその週に放送される２回分を撮影します。撮影して３～４日後に放送する「___２___」こともあり、本当に撮影ができる人じゃないと間に合わないシステムです。台本をもらってそれを熟知する「___３___」大変なのに、それにプラスして感情など、すべてのことを表現しなければならない「___４___」、とても難しい状況なんです。俳優やスタッフの徹夜作業も当たり前という環境でやってきましたが、今回は、明日、明後日に放送されるものを撮影している「___５___」ので、演じるキャラクターをより深く分析でき、より集中して役作りもできましたね。現場でも監督や俳優がいろいろアイデアを出し合って、それがとてもよかったと思います。",
+        "correct_choice_number": 4,
+        "explanation": "「\n___3___\n」に入る最も適当なものはどれか。=>\nだけでも"
+      },
+      {
+        "question_number": 5,
+        "question": "「___４___」に入る最も適当なものはどれか。",
+        "choices": [
+          "ため",
+          "もの",
+          "はず",
+          "こそ"
+        ],
+        "reading_passage": "自前製作のドラマは私も初めてでしたが、余裕が「___１___」とてもよかったです。多くのドラマでは、台本が出てからその週に放送される２回分を撮影します。撮影して３～４日後に放送する「___２___」こともあり、本当に撮影ができる人じゃないと間に合わないシステムです。台本をもらってそれを熟知する「___３___」大変なのに、それにプラスして感情など、すべてのことを表現しなければならない「___４___」、とても難しい状況なんです。俳優やスタッフの徹夜作業も当たり前という環境でやってきましたが、今回は、明日、明後日に放送されるものを撮影している「___５___」ので、演じるキャラクターをより深く分析でき、より集中して役作りもできましたね。現場でも監督や俳優がいろいろアイデアを出し合って、それがとてもよかったと思います。",
+        "correct_choice_number": 1,
+        "explanation": "「\n___4___\n」に入る最も適当なものはどれか。=>\nため"
+      },
+      {
+        "question_number": 6,
+        "question": "「___５___」に入る最も適当なものはどれか。",
+        "choices": [
+          "わけだった",
+          "わけがなかった",
+          "わけではなかった",
+          "わけにはいかなかった"
+        ],
+        "reading_passage": "自前製作のドラマは私も初めてでしたが、余裕が「___１___」とてもよかったです。多くのドラマでは、台本が出てからその週に放送される２回分を撮影します。撮影して３～４日後に放送する「___２___」こともあり、本当に撮影ができる人じゃないと間に合わないシステムです。台本をもらってそれを熟知する「___３___」大変なのに、それにプラスして感情など、すべてのことを表現しなければならない「___４___」、とても難しい状況なんです。俳優やスタッフの徹夜作業も当たり前という環境でやってきましたが、今回は、明日、明後日に放送されるものを撮影している「___５___」ので、演じるキャラクターをより深く分析でき、より集中して役作りもできましたね。現場でも監督や俳優がいろいろアイデアを出し合って、それがとてもよかったと思います。",
+        "correct_choice_number": 3,
+        "explanation": "「\n___5___\n」に入る最も適当なものはどれか。=>\nわけではなかった"
+      },
+      {
+        "question_number": 7,
+        "question": "正しくないのはどれか。",
+        "choices": [
+          "軍人役を演じたから、外見的に強く見なければならなかった",
+          "特殊戦司令部チーム長という役を演じたけど、筋肉をつけなかった",
+          "強靭な印象を与えるために、ダイエットしていた",
+          "ナイフを使用して戦うため、剣術訓練を行った"
+        ],
+        "reading_passage": "軍人役を任されてまず思ったことは、外見的に強く見せなければならないということでした。ユ・シジンは特殊戦司令部チーム長という役どころですから、まずは筋肉をつけるしかありません。また、強靭な印象を与えるために、ダイエットも並行していました。ロープ降下訓練、アクション訓練、射撃訓練、アルファチームとしての集団戦の訓練などさまざまな訓練を行いました。ナイフを使用して戦うため、剣術訓練を一番熱心にやりましたね。",
+        "correct_choice_number": 2,
+        "explanation": "正しくないのはどれか。=>\n特殊戦司令部チーム長という役を演じたけど、筋肉をつけなかった"
+      }
+    ],
+    "vocabulary": []
+  }
+]

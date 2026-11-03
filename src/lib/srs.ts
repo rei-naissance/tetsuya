@@ -102,6 +102,10 @@ const DAILY_KEY = 'tetsuya:srs:daily:v1'
 /** Max brand-new cards introduced per deck per day. */
 export const NEW_PER_DAY = 10
 
+/** One deck per question type ("N4-kanji-reading"); the mixed deck is "N4-kanji". */
+export const deckId = (level: string, section: string, kind: string) =>
+  kind === 'all' ? `${level}-${section}` : `${level}-${section}-${kind}`
+
 type CardMap = Record<string, CardState>
 interface Daily { date: string; introduced: Record<string, number> }
 

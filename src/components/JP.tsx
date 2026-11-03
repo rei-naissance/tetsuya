@@ -37,5 +37,5 @@ function parse(text: string, key = 'k'): ReactNode[] {
 }
 
 export function JP({ text, className, as: Tag = 'span' }: { text: string; className?: string; as?: 'span' | 'p' | 'div' | 'h2' }) {
-  return <Tag className={cn('font-jp whitespace-pre-line', className)}>{parse(text)}</Tag>
+  return <Tag lang="ja" className={cn('font-jp whitespace-pre-line', className)}>{parse(text)}</Tag>
 }

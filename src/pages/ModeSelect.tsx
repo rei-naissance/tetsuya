@@ -1,18 +1,19 @@
 import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Centered, Layout } from '../components/Layout'
-import { bySection } from '../lib/data'
+import { byKind, bySection } from '../lib/data'
 import { clearHistory, loadHistory } from '../lib/history'
-import { deckStats, resetSrs } from '../lib/srs'
+import { progressStats, resetAttempts, type ProgressStats } from '../lib/progress'
+import { deckId, deckStats, resetSrs } from '../lib/srs'
 import type { Level, Section } from '../lib/types'
-import { SECTION_META, SECTIONS, SRS_SECTIONS } from '../lib/types'
+import { KINDS, SECTION_META, SECTIONS, SRS_SECTIONS } from '../lib/types'
 import { useQuestions } from '../lib/useQuestions'
+import { resetWordStatus, useWords, wordStats } from '../lib/words'
 import { cn } from '../lib/cn'
-
-export const deckId = (level: Level, section: Section) => `${level}-${section}`
 
 export function ModeSelect({ level }: { level: Level }) {
   const data = useQuestions(level)
+  const words = useWords(level)
   const [version, setVersion] = useState(0) // bumped to recompute stats after a reset
   const lastMock = loadHistory(level)[0]
   const base = `/${level.toLowerCase()}`
@@ -22,14 +23,23 @@ export function ModeSelect({ level }: { level: Level }) {
     return Object.fromEntries(
       SECTIONS.map((s) => {
         const ids = bySection(data.questions, s).map((q) => q.id)
-        return [s, { count: ids.length, srs: SRS_SECTIONS.includes(s) ? deckStats(ids, deckId(level, s)) : null }]
+        if (!SRS_SECTIONS.includes(s)) return [s, { count: ids.length, srs: null, practice: progressStats(ids) }]
+        // SRS decks are per question type; add them up for the section card.
+        const srs = KINDS[s]
+          .map((k) => deckStats(byKind(data.questions, s, k.id).map((q) => q.id), deckId(level, s, k.id)))
+          .reduce((a, b) => ({ due: a.due + b.due, fresh: a.fresh + b.fresh, learned: a.learned + b.learned, total: a.total + b.total }))
+        return [s, { count: ids.length, srs, practice: null }]
       }),
-    ) as Record<Section, { count: number; srs: ReturnType<typeof deckStats> | null }>
+    ) as Record<Section, { count: number; srs: ReturnType<typeof deckStats> | null; practice: ProgressStats | null }>
   }, [data, level, version])
 
+  const vocab = useMemo(() => (words.status === 'ready' ? wordStats(words.words) : null), [words, version])
+
   const reset = () => {
-    if (!confirm('Reset ALL spaced-repetition progress and mock-test history (both levels)? This cannot be undone.')) return
+    if (!confirm('Reset ALL spaced-repetition progress, practice history, word marks and mock-test history (both levels)? This cannot be undone.')) return
     resetSrs()
+    resetAttempts()
+    resetWordStatus()
     clearHistory()
     setVersion((n) => n + 1)
   }
@@ -71,7 +81,7 @@ export function ModeSelect({ level }: { level: Level }) {
           <h2 className="mb-4 mt-12 text-sm font-medium uppercase tracking-widest text-stone-400">Practice by section</h2>
           <div className="grid gap-3 sm:grid-cols-2">
             {SECTIONS.map((s) => {
-              const { count, srs } = stats[s]
+              const { count, srs, practice } = stats[s]
               const empty = count === 0
               const nothingToDo = srs && srs.due + srs.fresh === 0
               return (
@@ -99,7 +109,7 @@ export function ModeSelect({ level }: { level: Level }) {
                             {srs.fresh > 0 && `${srs.fresh} new`}
                           </>
                         )
-                      ) : `${count} questions`}
+                      ) : practice && practice.seen > 0 ? `${practice.seen} of ${count} tried · ${practice.right} right` : `${count} questions`}
                     </p>
                   </div>
                   {srs && !empty && (
@@ -112,6 +122,23 @@ export function ModeSelect({ level }: { level: Level }) {
             })}
           </div>
 
+          <h2 className="mb-4 mt-12 text-sm font-medium uppercase tracking-widest text-stone-400">Learn</h2>
+          <div className="grid gap-3 sm:grid-cols-2">
+            {vocab && (
+              <LearnCard to={`${base}/learn/vocab`} jp="単語" label="Vocabulary list">
+                {vocab.known + vocab.learning > 0
+                  ? `${vocab.known} of ${vocab.total} known · ${vocab.learning} learning`
+                  : `${vocab.total} words · examples, flashcards`}
+              </LearnCard>
+            )}
+            <LearnCard to={`${base}/learn/grammar`} jp="文型" label="Grammar patterns">
+              Meaning, form, examples, drills
+            </LearnCard>
+            <LearnCard to={`${base}/learn/particles`} jp="助詞" label="Particles">
+              に vs で, まで vs までに, には…
+            </LearnCard>
+          </div>
+
           <div className="mt-16 flex justify-center">
             <button onClick={reset} className="text-xs text-stone-400 underline-offset-4 hover:text-rose-500 hover:underline">
               Reset progress
@@ -120,5 +147,20 @@ export function ModeSelect({ level }: { level: Level }) {
         </>
       )}
     </Layout>
+  )
+}
+
+function LearnCard({ to, jp, label, children }: { to: string; jp: string; label: string; children: React.ReactNode }) {
+  return (
+    <Link
+      to={to}
+      className="flex items-center gap-4 rounded-2xl border border-stone-200 bg-white p-5 transition hover:border-stone-900 dark:border-stone-800 dark:bg-stone-900 dark:hover:border-stone-400"
+    >
+      <span className="grid size-12 shrink-0 place-items-center rounded-xl bg-accent-soft font-jp-serif text-lg text-accent dark:bg-accent/15">{jp}</span>
+      <div className="min-w-0 flex-1">
+        <p className="font-medium">{label}</p>
+        <p className="truncate font-jp text-sm text-stone-500">{children}</p>
+      </div>
+    </Link>
   )
 }

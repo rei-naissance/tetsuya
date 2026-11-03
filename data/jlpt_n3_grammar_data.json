@@ -1,0 +1,5050 @@
+[
+  {
+    "exercise_number": 1,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-grammar-exercise-1/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "二度とあの部屋に入らないと約束しろ _______ 言われたけど、僕は約束しなかった。",
+        "choices": [
+          "を",
+          "って",
+          "のを",
+          "だ"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "二度とあの部屋に入らないと約束しろ\nって\n言われたけど、僕は約束しなかった。"
+      },
+      {
+        "question_number": 2,
+        "question": "私は何百回もこの手紙を読み返した。そして読み返す　_______ たまらなく哀しい気持になった。",
+        "choices": [
+          "うちに",
+          "はじめに",
+          "たびに",
+          "だけに"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "私は何百回もこの手紙を読み返した。そして読み返す\nたびに\nたまらなく哀しい気持になった。"
+      },
+      {
+        "question_number": 3,
+        "question": "本を読んでいたら、　_______ 五時間も経ってしまった。",
+        "choices": [
+          "そろそろ",
+          "だんだん",
+          "ようやく",
+          "いつの間にか"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "本を読んでいたら、\nいつの間にか\n五時間も経ってしまった。"
+      },
+      {
+        "question_number": 4,
+        "question": "ふたりはそれから３０年あまり、死がふたりを分かつまで幸せな結婚生活を送る　_______ 。",
+        "choices": [
+          "ことだ",
+          "ことになった",
+          "ことにした",
+          "ようになった"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "ふたりはそれから３０年あまり、死がふたりを分かつまで幸せな結婚生活を送る\nことになった\n。"
+      },
+      {
+        "question_number": 5,
+        "question": "彼女が蛇口をあけ、僕の傷ついた前腕を氷　_______ 冷たい水の下へ導いた。",
+        "choices": [
+          "のように",
+          "みたいに",
+          "のときに",
+          "そうに"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "彼女が蛇口をあけ、僕の傷ついた前腕を氷\nのように\n冷たい水の下へ導いた。"
+      },
+      {
+        "question_number": 6,
+        "question": "まさかあのふたり　_______ なにかあったと言いたいんじゃないだろうな！",
+        "choices": [
+          "の間と",
+          "の間の",
+          "の間に",
+          "の間で"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "まさかあのふたり\nの間に\nなにかあったと言いたいんじゃないだろうな！"
+      },
+      {
+        "question_number": 7,
+        "question": "鍵はお客様のお部屋のテーブルの上に　_______ 。",
+        "choices": [
+          "ございます",
+          "いらっしゃいます",
+          "いる",
+          "おります"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "鍵はお客様のお部屋のテーブルの上に\nございます\n。"
+      },
+      {
+        "question_number": 8,
+        "question": "あなた　_______ ちょっと内密で話したいことがあるのですが…",
+        "choices": [
+          "だけ",
+          "だけで",
+          "だけを",
+          "だけに"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "あなた\nだけに\nちょっと内密で話したいことがあるのですが…"
+      },
+      {
+        "question_number": 9,
+        "question": "勉強して、ある程度日本が話せる　_______ 日本語の授業がおもしろくなった。",
+        "choices": [
+          "ことができるまで",
+          "ことができてから",
+          "ようになるまで",
+          "ようになってから"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "勉強して、ある程度日本が話せる\nようになってから\n日本語の授業がおもしろくなった。"
+      },
+      {
+        "question_number": 10,
+        "question": "A社の商品が腰の痛みにどのくらい効果が　_______ 詳しく知りたい。",
+        "choices": [
+          "あるのかによって",
+          "あるのかについて",
+          "あるのかどうかによって",
+          "あるのかどうかについて"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "A社の商品が腰の痛みにどのくらい効果が\nあるのかについて\n詳しく知りたい。"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "二度と",
+        "reading": "nido to",
+        "meaning": "never again (with negative verb)"
+      },
+      {
+        "word": "約束",
+        "reading": "yakusoku",
+        "meaning": "promise, appointment"
+      },
+      {
+        "word": "読み返す",
+        "reading": "yomikaesu",
+        "meaning": "to reread, to read again"
+      },
+      {
+        "word": "たまらない",
+        "reading": "",
+        "meaning": "intolerable, unbearable"
+      },
+      {
+        "word": "哀しい",
+        "reading": "kanashii",
+        "meaning": "sad, sorrowful"
+      },
+      {
+        "word": "気持",
+        "reading": "kimochi",
+        "meaning": "feeling, sensation, mood"
+      },
+      {
+        "word": "経つ",
+        "reading": "tatsu",
+        "meaning": "to pass, to elapse"
+      },
+      {
+        "word": "そろそろ",
+        "reading": "",
+        "meaning": "soon"
+      },
+      {
+        "word": "ようやく",
+        "reading": "",
+        "meaning": "finally, at last"
+      },
+      {
+        "word": "いつの間にか",
+        "reading": "itsunomanika",
+        "meaning": "before one knows, before one becomes aware of"
+      },
+      {
+        "word": "死",
+        "reading": "shi",
+        "meaning": "death"
+      },
+      {
+        "word": "分かつ",
+        "reading": "wakatsu",
+        "meaning": "to divide, to separate"
+      },
+      {
+        "word": "幸せ",
+        "reading": "shiawase",
+        "meaning": "happiness, good fortune, luck"
+      },
+      {
+        "word": "結婚生活",
+        "reading": "kekkon seikatsu",
+        "meaning": "married life"
+      },
+      {
+        "word": "送る",
+        "reading": "okuru",
+        "meaning": "to send, to spend (time)"
+      },
+      {
+        "word": "蛇口",
+        "reading": "jaguchi",
+        "meaning": "faucet, tap"
+      },
+      {
+        "word": "傷つく",
+        "reading": "kizutsuku",
+        "meaning": "to be wounded, to be injured"
+      },
+      {
+        "word": "前腕",
+        "reading": "maeude",
+        "meaning": "forearm"
+      },
+      {
+        "word": "氷",
+        "reading": "koori",
+        "meaning": "ice"
+      },
+      {
+        "word": "導く",
+        "reading": "michibiku",
+        "meaning": "to guide, to lead, to show the way"
+      },
+      {
+        "word": "まさか",
+        "reading": "",
+        "meaning": "by no means"
+      },
+      {
+        "word": "鍵",
+        "reading": "kagi",
+        "meaning": "key, lock"
+      },
+      {
+        "word": "お客様",
+        "reading": "okyakusama",
+        "meaning": "guest, visitor, customer"
+      },
+      {
+        "word": "内密",
+        "reading": "naimitsu",
+        "meaning": "privacy, secrecy"
+      },
+      {
+        "word": "程度",
+        "reading": "teido",
+        "meaning": "degree, amount"
+      },
+      {
+        "word": "商品",
+        "reading": "shouhin",
+        "meaning": "commodity, goods, merchandise"
+      },
+      {
+        "word": "腰",
+        "reading": "koshi",
+        "meaning": "back, lower back, hips"
+      },
+      {
+        "word": "痛み",
+        "reading": "itami",
+        "meaning": "pain, ache, sore"
+      },
+      {
+        "word": "効果",
+        "reading": "kouka",
+        "meaning": "effect, effectiveness, result"
+      },
+      {
+        "word": "詳しく",
+        "reading": "kuwashiku",
+        "meaning": "in detail, fully, at length"
+      }
+    ]
+  },
+  {
+    "exercise_number": 2,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-grammar-exercise-2/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "あなたのお父さんもきっと彼を助けた _______ 。",
+        "choices": [
+          "による",
+          "にすぎない",
+          "に違いない",
+          "には限らない"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "あなたのお父さんもきっと彼を助けた\nに違いない\n。"
+      },
+      {
+        "question_number": 2,
+        "question": "表紙 _______ 、この演目はシェイクスピアの「真夏の夜の夢」で、上演されたのは三十四年ほど前だ。",
+        "choices": [
+          "にしては",
+          "によると",
+          "にかけて",
+          "に関する"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "表紙\nによると\n、この演目はシェイクスピアの「真夏の夜の夢」で、上演されたのは三十四年ほど前だ。"
+      },
+      {
+        "question_number": 3,
+        "question": "きみは十八歳になる。これは大事なことだ。法律的に成人になる _______ から。",
+        "choices": [
+          "という",
+          "ものだ",
+          "ことだ",
+          "わけだ"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "きみは十八歳になる。これは大事なことだ。法律的に成人になる\nわけだ\nから。"
+      },
+      {
+        "question_number": 4,
+        "question": "多くの賞金を得るために、彼は自分の妻 _______ 多くの同志を売りました。",
+        "choices": [
+          "にむけて",
+          "をはじめ",
+          "につれて",
+          "とともに"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "多くの賞金を得るために、彼は自分の妻\nをはじめ\n多くの同志を売りました。"
+      },
+      {
+        "question_number": 5,
+        "question": "これに _______ 会社のイメージは著しく傷ついた。",
+        "choices": [
+          "によって",
+          "になって",
+          "にとって",
+          "について"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "これに\nによって\n会社のイメージは著しく傷ついた。"
+      },
+      {
+        "question_number": 6,
+        "question": "鈴木はその場で目をつぶり、気を _______ のか、ゆっくりと大きく息をついた。",
+        "choices": [
+          "静めようとした",
+          "静めようとしている",
+          "静めるようにしている",
+          "静めるようにした"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "鈴木はその場で目をつぶり、気を\n静めようとしている\nのか、ゆっくりと大きく息をついた。"
+      },
+      {
+        "question_number": 7,
+        "question": "サユリ _______ 名前の学生は北島サユリひとりしかいなかった。",
+        "choices": [
+          "という",
+          "といって",
+          "というと",
+          "というのは"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "サユリ\nという\n名前の学生は北島サユリひとりしかいなかった。"
+      },
+      {
+        "question_number": 8,
+        "question": "彼女は自分の子供はこっそり家を抜け出すということは知らなかった _______ 。",
+        "choices": [
+          "つもりだ",
+          "ように",
+          "らしい",
+          "ものだ"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "彼女は自分の子供はこっそり家を抜け出すということは知らなかった\nらしい\n。"
+      },
+      {
+        "question_number": 9,
+        "question": "みんな、ビジネスマン _______ 話をしていた。私が聞いたこともない頭文字が並んだ略語とか、そんなものが聞こえたよ。",
+        "choices": [
+          "ような",
+          "っぱなし",
+          "らしい",
+          "っぽい"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "みんな、ビジネスマン\nっぽい\n話をしていた。私が聞いたこともない頭文字が並んだ略語とか、そんなものが聞こえたよ。"
+      },
+      {
+        "question_number": 10,
+        "question": "ハードウエアと同じようにソフトウエアも、専門家だけでなく一般 _______ にも販売すべきだと僕は考えた。",
+        "choices": [
+          "向き",
+          "向け",
+          "に向き",
+          "に向け"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "ハードウエアと同じようにソフトウエアも、専門家だけでなく一般\n向け\nにも販売すべきだと僕は考えた。"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "きっと",
+        "reading": "",
+        "meaning": "surely, undoubtedly"
+      },
+      {
+        "word": "助ける",
+        "reading": "tasukeru",
+        "meaning": "to help, to save, to rescue"
+      },
+      {
+        "word": "表紙",
+        "reading": "hyoushi",
+        "meaning": "front cover, binding"
+      },
+      {
+        "word": "演目",
+        "reading": "enmoku",
+        "meaning": "musical program"
+      },
+      {
+        "word": "真夏",
+        "reading": "manatsu",
+        "meaning": "midsummer"
+      },
+      {
+        "word": "夢",
+        "reading": "yume",
+        "meaning": "dream"
+      },
+      {
+        "word": "上演",
+        "reading": "jouen",
+        "meaning": "performance, staging"
+      },
+      {
+        "word": "人類",
+        "reading": "jinrui",
+        "meaning": "mankind, humanity"
+      },
+      {
+        "word": "新た",
+        "reading": "arata",
+        "meaning": "new, fresh, novel"
+      },
+      {
+        "word": "地球",
+        "reading": "chikyuu",
+        "meaning": "the earth"
+      },
+      {
+        "word": "惑星",
+        "reading": "wakusei",
+        "meaning": "planet"
+      },
+      {
+        "word": "加える",
+        "reading": "kuwaeru",
+        "meaning": "to add, to append"
+      },
+      {
+        "word": "繰り返す",
+        "reading": "kurikaesu",
+        "meaning": "to repeat, to do something over again"
+      },
+      {
+        "word": "現状",
+        "reading": "genjou",
+        "meaning": "present condition, existing state"
+      },
+      {
+        "word": "人口",
+        "reading": "jinkou",
+        "meaning": "population"
+      },
+      {
+        "word": "人間",
+        "reading": "ningen",
+        "meaning": "human being, man"
+      },
+      {
+        "word": "増える",
+        "reading": "fueru",
+        "meaning": "to increase, to multiply"
+      },
+      {
+        "word": "多く",
+        "reading": "ooku",
+        "meaning": "many, much, largely, abundantly"
+      },
+      {
+        "word": "賞金",
+        "reading": "shoukin",
+        "meaning": "prize, monetary award"
+      },
+      {
+        "word": "著しく",
+        "reading": "",
+        "meaning": "considerably; remarkably"
+      },
+      {
+        "word": "得る",
+        "reading": "eru",
+        "meaning": "to get, to acquire, to obtain"
+      },
+      {
+        "word": "妻",
+        "reading": "tsuma",
+        "meaning": "wife"
+      },
+      {
+        "word": "同志",
+        "reading": "doushi",
+        "meaning": "comrade, same mind"
+      },
+      {
+        "word": "横になる",
+        "reading": "yoko ni naru",
+        "meaning": "to lie down"
+      },
+      {
+        "word": "つぶる",
+        "reading": "",
+        "meaning": "to close the eyes"
+      },
+      {
+        "word": "気を静める",
+        "reading": "ki o shizumeru",
+        "meaning": "to becalm one’s feelings, to compose oneself"
+      },
+      {
+        "word": "息",
+        "reading": "iki",
+        "meaning": "breath, breathing"
+      },
+      {
+        "word": "こっそり",
+        "reading": "",
+        "meaning": "stealthily, secretly"
+      },
+      {
+        "word": "抜け出す",
+        "reading": "nukedasu",
+        "meaning": "to slip out, to sneak away"
+      },
+      {
+        "word": "ビジネスマン",
+        "reading": "",
+        "meaning": "businessman"
+      },
+      {
+        "word": "頭文字",
+        "reading": "kashiramoji",
+        "meaning": "initials, first letter of a word"
+      },
+      {
+        "word": "並ぶ",
+        "reading": "narabu",
+        "meaning": "to line up"
+      },
+      {
+        "word": "略語",
+        "reading": "ryakugo",
+        "meaning": "abbreviation"
+      },
+      {
+        "word": "ハードウエア",
+        "reading": "",
+        "meaning": "hardware"
+      },
+      {
+        "word": "ソフトウエア",
+        "reading": "",
+        "meaning": "software"
+      },
+      {
+        "word": "専門家",
+        "reading": "senmonka",
+        "meaning": "specialist"
+      },
+      {
+        "word": "一般",
+        "reading": "ippan",
+        "meaning": "general, universal"
+      },
+      {
+        "word": "販売",
+        "reading": "hanbai",
+        "meaning": "sales, selling, marketing"
+      }
+    ]
+  },
+  {
+    "exercise_number": 3,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-grammar-exercise-3/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "いま、あれやこれや面倒なことを考えるのはよそう。明日 _______ わ。",
+        "choices": [
+          "考えればいい",
+          "考えればよかった",
+          "考えるといい",
+          "考えられる"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "いま、あれやこれや面倒なことを考えるのはよそう。明日\n考えればいい\nわ。"
+      },
+      {
+        "question_number": 2,
+        "question": "昨日はどこまで話した _______ ？",
+        "choices": [
+          "かしら",
+          "かい",
+          "かな",
+          "っけ"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "昨日はどこまで話した\nっけ\n？"
+      },
+      {
+        "question_number": 3,
+        "question": "健康体の男なら前線に出る _______ だろうと私も思いました。",
+        "choices": [
+          "べき",
+          "がち",
+          "もの",
+          "わけ"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "健康体の男なら前線に出る\nべき\nだろうと私も思いました。"
+      },
+      {
+        "question_number": 4,
+        "question": "子供たちが学校から帰って _______ 、お菓子を隠してしまいましょう。",
+        "choices": [
+          "きたうちに",
+          "くるうちに",
+          "こないうちに",
+          "きていないうちに"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "子供たちが学校から帰って\nこないうちに\n、お菓子を隠してしまいましょう。"
+      },
+      {
+        "question_number": 5,
+        "question": "旧市街へ向かおう。答えがある _______ おそらくそこだ。",
+        "choices": [
+          "といっても",
+          "としたら",
+          "として",
+          "とたん"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "旧市街へ向かおう。答えがある\nとしたら\nおそらくそこだ。"
+      },
+      {
+        "question_number": 6,
+        "question": "わたしの耳に、噴水 _______ 水音が聞こえてきた。",
+        "choices": [
+          "のような",
+          "のように",
+          "らしい",
+          "みたい"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "わたしの耳に、噴水\nのような\n水音が聞こえてきた。"
+      },
+      {
+        "question_number": 7,
+        "question": "それを _______ 、アミが信じられないと言いたげな顔でタクミのほうを向き、呆然と見つめた。",
+        "choices": [
+          "聞いたら",
+          "聞いてはじめて",
+          "聞いたとたん",
+          "聞いたとき"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "それを\n聞いたとたん\n、アミが信じられないと言いたげな顔でタクミのほうを向き、呆然と見つめた。"
+      },
+      {
+        "question_number": 8,
+        "question": "入る許可がないよ。誰かに見つかったら、それ _______ 大変よ。",
+        "choices": [
+          "こそ",
+          "なのに",
+          "たび",
+          "かぎり"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "入る許可がないよ。誰かに見つかったら、それ\nこそ\n大変よ。"
+      },
+      {
+        "question_number": 9,
+        "question": "明日嵐のコンサートに行く。パパの _______ いい席が手に入った。",
+        "choices": [
+          "ともに",
+          "ため",
+          "せいで",
+          "おかげで"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "明日嵐のコンサートに行く。パパの\nおかげで\nいい席が手に入った。"
+      },
+      {
+        "question_number": 10,
+        "question": "彼は目を大きく見開いた _______ 、寝返りを打った。",
+        "choices": [
+          "まま",
+          "がち",
+          "すでに",
+          "だらけ"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "彼は目を大きく見開いた\nまま\n、寝返りを打った。"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "あれやこれや",
+        "reading": "",
+        "meaning": "this and that"
+      },
+      {
+        "word": "面倒",
+        "reading": "mendou",
+        "meaning": "trouble, difficulty, care"
+      },
+      {
+        "word": "健康体",
+        "reading": "kenkoutai",
+        "meaning": "healthy body"
+      },
+      {
+        "word": "前線",
+        "reading": "zensen",
+        "meaning": "front line"
+      },
+      {
+        "word": "隠す",
+        "reading": "kakusu",
+        "meaning": "to hide, to conceal"
+      },
+      {
+        "word": "旧市街",
+        "reading": "kyuushigai",
+        "meaning": "the old town"
+      },
+      {
+        "word": "向かう",
+        "reading": "mukau",
+        "meaning": "to face, to go towards"
+      },
+      {
+        "word": "答え",
+        "reading": "kotae",
+        "meaning": "response, reply, answer"
+      },
+      {
+        "word": "おそらく",
+        "reading": "",
+        "meaning": "perhaps, likely, probably"
+      },
+      {
+        "word": "噴水",
+        "reading": "funsui",
+        "meaning": "water fountain"
+      },
+      {
+        "word": "水音",
+        "reading": "mizuoto",
+        "meaning": "sound of water"
+      },
+      {
+        "word": "信じる",
+        "reading": "shinjiru",
+        "meaning": "to believe"
+      },
+      {
+        "word": "呆然",
+        "reading": "bouzen",
+        "meaning": "dumbfounded, in blank amazement"
+      },
+      {
+        "word": "見つめる",
+        "reading": "mitsumeru",
+        "meaning": "to stare at, to gaze at"
+      },
+      {
+        "word": "許可",
+        "reading": "kyoka",
+        "meaning": "permission, approval"
+      },
+      {
+        "word": "見つかる",
+        "reading": "mitsukaru",
+        "meaning": "to be found, to be discovered"
+      },
+      {
+        "word": "コンサート",
+        "reading": "",
+        "meaning": "concert"
+      },
+      {
+        "word": "手に入る",
+        "reading": "te ni hairu",
+        "meaning": "to obtain, to come into possession of"
+      },
+      {
+        "word": "見開く",
+        "reading": "mihiraku",
+        "meaning": "to open one’s eyes"
+      },
+      {
+        "word": "寝返りを打つ",
+        "reading": "negaeri o utsu",
+        "meaning": "to turn over in one’s sleep"
+      }
+    ]
+  },
+  {
+    "exercise_number": 4,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-grammar-exercise-4/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "用心しろよ。誰かに見られたら、おれ _______ きみも縛り首になるぞ。",
+        "choices": [
+          "どころか",
+          "どころでなく",
+          "ばかりに",
+          "ばかりか"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "用心しろよ。誰かに見られたら、おれ\nばかりか\nきみも縛り首になるぞ。"
+      },
+      {
+        "question_number": 2,
+        "question": "おれは _______ 、あいつに会えて嬉しいと思った。",
+        "choices": [
+          "生まれ初めたら",
+          "生まれて初めて",
+          "生まれて初めたら",
+          "生まれ初めて"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "おれは\n生まれて初めて\n、あいつに会えて嬉しいと思った。"
+      },
+      {
+        "question_number": 3,
+        "question": "どんなにすばらしいごちそうだったか、とても口では言えない _______ ですよ。",
+        "choices": [
+          "くらい",
+          "ほど",
+          "ぎみ",
+          "がち"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "どんなにすばらしいごちそうだったか、とても口では言えない\nくらい\nですよ。"
+      },
+      {
+        "question_number": 4,
+        "question": "わたしは地球外生命 _______ 本を書いています。",
+        "choices": [
+          "にとって",
+          "に対して",
+          "によって",
+          "に関する"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "わたしは地球外生命\nに関する\n本を書いています。"
+      },
+      {
+        "question_number": 5,
+        "question": "それは奇妙な屋敷だった。 _______ 、とても屋敷には見えない。",
+        "choices": [
+          "それでも",
+          "やはり",
+          "むしろ",
+          "かわりに"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "それは奇妙な屋敷だった。\nむしろ\n、とても屋敷には見えない。"
+      },
+      {
+        "question_number": 6,
+        "question": "A社の製品は、機能的にはたいした _______ が、B製品ほど複雑で高価でもなかった。",
+        "choices": [
+          "ものはない",
+          "ことはない",
+          "ものだ",
+          "ことだ"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "A社の製品は、機能的にはたいした\nことはない\nが、B製品ほど複雑で高価でもなかった。"
+      },
+      {
+        "question_number": 7,
+        "question": "われわれが母なる自然 _______ 犯した罪は桁違いに増えている。",
+        "choices": [
+          "に対して",
+          "に反して",
+          "に比べて",
+          "にかわって"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "われわれが母なる自然に\n対して\n犯した罪は桁違いに増えている。"
+      },
+      {
+        "question_number": 8,
+        "question": "絵を描き、絵 _______ 暮らすことで、私は神聖なるときめきの形と色、音を体験するのです。",
+        "choices": [
+          "最中に",
+          "うちに",
+          "の中に",
+          "と共に"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "絵を描き、絵\nと共に\n暮らすことで、私は神聖なるときめきの形と色、音を体験するのです。"
+      },
+      {
+        "question_number": 9,
+        "question": "どうやら下での論争は終わった _______ ね。",
+        "choices": [
+          "らしい",
+          "よう",
+          "みたい",
+          "そう"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "どうやら下での論争は終わった\nみたい\nね。"
+      },
+      {
+        "question_number": 10,
+        "question": "「ちょっと待ってください」の _______ 「少々お待ちください」を使うとさらに丁寧な言い回しになります。",
+        "choices": [
+          "かわりに",
+          "かわって",
+          "かかわって",
+          "わりに"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "「ちょっと待ってください」の\nかわりに\n「少々お待ちください」を使うとさらに丁寧な言い回しになります。"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "用心",
+        "reading": "youjin",
+        "meaning": "care, precaution, caution"
+      },
+      {
+        "word": "縛り首",
+        "reading": "shibarikubi",
+        "meaning": "(death by) hanging"
+      },
+      {
+        "word": "嬉しい",
+        "reading": "ureshii",
+        "meaning": "happy, glad, pleasant"
+      },
+      {
+        "word": "おかしな",
+        "reading": "",
+        "meaning": "ridiculous, odd"
+      },
+      {
+        "word": "地球外生命",
+        "reading": "chikyuugai seimei",
+        "meaning": "extraterrestrial life, ET"
+      },
+      {
+        "word": "奇妙",
+        "reading": "kimyou",
+        "meaning": "strange, queer, curious"
+      },
+      {
+        "word": "屋敷",
+        "reading": "yashiki",
+        "meaning": "residence, estate, mansion"
+      },
+      {
+        "word": "製品",
+        "reading": "seihin",
+        "meaning": "manufactured goods, finished goods, product"
+      },
+      {
+        "word": "機能的",
+        "reading": "kinouteki",
+        "meaning": "functional, efficient"
+      },
+      {
+        "word": "大した",
+        "reading": "taishita",
+        "meaning": "considerable, great, significant"
+      },
+      {
+        "word": "複雑",
+        "reading": "fukuzatsu",
+        "meaning": "complex, complicated"
+      },
+      {
+        "word": "高価",
+        "reading": "kouka",
+        "meaning": "high price"
+      },
+      {
+        "word": "自然",
+        "reading": "shizen",
+        "meaning": "nature, spontaneity, naturally"
+      },
+      {
+        "word": "犯す",
+        "reading": "okasu",
+        "meaning": "to commit (crime), to violate"
+      },
+      {
+        "word": "罪",
+        "reading": "tsumi",
+        "meaning": "crime, sin"
+      },
+      {
+        "word": "桁違い",
+        "reading": "ketachigai",
+        "meaning": "off by a digit, incomparable"
+      },
+      {
+        "word": "とっぴ",
+        "reading": "",
+        "meaning": "offbeat; wild; extraordinary​"
+      },
+      {
+        "word": "返事",
+        "reading": "henji",
+        "meaning": "reply"
+      },
+      {
+        "word": "どうやら",
+        "reading": "",
+        "meaning": "it seems like, it appears that"
+      },
+      {
+        "word": "論争",
+        "reading": "ronsou",
+        "meaning": "dispute, controversy"
+      },
+      {
+        "word": "丁寧",
+        "reading": "teinei",
+        "meaning": "polite; courteous"
+      },
+      {
+        "word": "言い回し",
+        "reading": "iimawashi",
+        "meaning": "expression; phraseology"
+      }
+    ]
+  },
+  {
+    "exercise_number": 5,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-grammar-exercise-5/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "この町は無人島かと思う _______ 静かで、世の中との接点をもたず独立している。",
+        "choices": [
+          "ごろ",
+          "はず",
+          "ほど",
+          "など"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "この町は無人島かと思う\nほど\n静かで、世の中との接点をもたず独立している。"
+      },
+      {
+        "question_number": 2,
+        "question": "弱い者には、毅然と _______ やさしい態度で接するのですよ。",
+        "choices": [
+          "しながらも",
+          "してから",
+          "しつづけて",
+          "してはじめて"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "弱い者には、毅然と\nしながらも\nやさしい態度で接するのですよ。"
+      },
+      {
+        "question_number": 3,
+        "question": "医者は血 _______ のタオルを取り、私の手首をぎゅっとしばって血を止め傷口を消毒した。",
+        "choices": [
+          "ぎみ",
+          "どころ",
+          "だらけ",
+          "ばかり"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "医者は血\nだらけ\nのタオルを取り、私の手首をぎゅっとしばって血を止め傷口を消毒した。"
+      },
+      {
+        "question_number": 4,
+        "question": "僕は彼女と二人 _______ で歩くのも初めてだし、こんなに長く話をするのも初めてだった。",
+        "choices": [
+          "だけ",
+          "きり",
+          "かけ",
+          "かた"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "僕は彼女と二人\nきり\nで歩くのも初めてだし、こんなに長く話をするのも初めてだった。"
+      },
+      {
+        "question_number": 5,
+        "question": "彼女はひと口も _______ ダイニングルームを後にし、裏のポーチへ出ていった。",
+        "choices": [
+          "食べなくて",
+          "食べないで",
+          "食べないように",
+          "食べずに"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "彼女はひと口も\n食べずに\nダイニングルームを後にし、裏のポーチへ出ていった。"
+      },
+      {
+        "question_number": 6,
+        "question": "知って _______ 、われわれにはわれわれの手立てがある。",
+        "choices": [
+          "とおり",
+          "のとおり",
+          "とおりに",
+          "のとおりに"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "知って\nのとおり\n、われわれにはわれわれの手立てがある。"
+      },
+      {
+        "question_number": 7,
+        "question": "「ママが新しいおもちゃを買ってあげるよ」と彼女は息子を元気づける _______ 言った。",
+        "choices": [
+          "つもり",
+          "つもりに",
+          "つもりだ",
+          "つもりで"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "「ママが新しいおもちゃを買ってあげるよ」と彼女は息子を元気づける\nつもりで\n言った。"
+      },
+      {
+        "question_number": 8,
+        "question": "彼女は双子の息子たちの区別がつく _______ 。",
+        "choices": [
+          "ようだ",
+          "ことになった",
+          "らしくなった",
+          "ようになった"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "彼女は双子の息子たちの区別がつく\nようになった\n。"
+      },
+      {
+        "question_number": 9,
+        "question": "彼はよろこび _______ おそろしい叫びをもらした。",
+        "choices": [
+          "のため",
+          "のおかげで",
+          "のあまり",
+          "のせいで"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "彼はよろこび\nのあまり\nおそろしい叫びをもらした。"
+      },
+      {
+        "question_number": 10,
+        "question": "「これを食べてもいいですか」女の子がためらい _______ 聞いた。",
+        "choices": [
+          "がちに",
+          "ふり",
+          "ように",
+          "ぜに"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "「これを食べてもいいですか」女の子がためらい\nがちに\n聞いた。"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "町",
+        "reading": "machi",
+        "meaning": "town, block, neighborhood"
+      },
+      {
+        "word": "無人島",
+        "reading": "mujintou",
+        "meaning": "unpopulated island"
+      },
+      {
+        "word": "接点",
+        "reading": "setten",
+        "meaning": "point of contact, tangent point, contact"
+      },
+      {
+        "word": "独立",
+        "reading": "dokuritsu",
+        "meaning": "independence"
+      },
+      {
+        "word": "弱い者",
+        "reading": "yowai mono",
+        "meaning": "weak person, the weak"
+      },
+      {
+        "word": "毅然",
+        "reading": "kizen",
+        "meaning": "fortitude, firmness, resolution"
+      },
+      {
+        "word": "優しい",
+        "reading": "yasashii",
+        "meaning": "tender, kind, gentle"
+      },
+      {
+        "word": "態度",
+        "reading": "taido",
+        "meaning": "attitude, manner, behavior"
+      },
+      {
+        "word": "接する",
+        "reading": "sessuru",
+        "meaning": "to come in contact with, to touch, to receive (visitors)"
+      },
+      {
+        "word": "血",
+        "reading": "chi",
+        "meaning": "blood"
+      },
+      {
+        "word": "タオル",
+        "reading": "",
+        "meaning": "(hand) towel"
+      },
+      {
+        "word": "手首",
+        "reading": "tekubi",
+        "meaning": "wrist"
+      },
+      {
+        "word": "ぎゅっと",
+        "reading": "",
+        "meaning": "hard, tightly"
+      },
+      {
+        "word": "縛る",
+        "reading": "shibaru",
+        "meaning": "to tie, to bind"
+      },
+      {
+        "word": "傷口",
+        "reading": "kizuguchi",
+        "meaning": "wound"
+      },
+      {
+        "word": "消毒",
+        "reading": "shoudoku",
+        "meaning": "disinfection, sterilization"
+      },
+      {
+        "word": "ひと口",
+        "reading": "hitokuchi",
+        "meaning": "mouthful, bite"
+      },
+      {
+        "word": "ダイニングルーム",
+        "reading": "",
+        "meaning": "dining room"
+      },
+      {
+        "word": "裏",
+        "reading": "ura",
+        "meaning": "rear, back"
+      },
+      {
+        "word": "ポーチ",
+        "reading": "",
+        "meaning": "porch"
+      },
+      {
+        "word": "手立て",
+        "reading": "tedate",
+        "meaning": "means, method"
+      },
+      {
+        "word": "元気づける",
+        "reading": "genki zukeru",
+        "meaning": "to cheer up"
+      },
+      {
+        "word": "双子",
+        "reading": "futago",
+        "meaning": "twins"
+      },
+      {
+        "word": "区別がつく",
+        "reading": "kubetsu ga tsuku",
+        "meaning": "to tell X from Y, to distinguish"
+      },
+      {
+        "word": "喜び",
+        "reading": "yorokobi",
+        "meaning": "joy, delight, pleasure"
+      },
+      {
+        "word": "恐ろしい",
+        "reading": "osoroshii",
+        "meaning": "terrible, dreadful"
+      },
+      {
+        "word": "叫び",
+        "reading": "sakebi",
+        "meaning": "shout, scream, outcry"
+      },
+      {
+        "word": "ためらい",
+        "reading": "",
+        "meaning": "faltering, hesitation"
+      }
+    ]
+  },
+  {
+    "exercise_number": 6,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-grammar-exercise-6/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "彼はよく飲んでいて、酔うと彼女を殴る _______ 。",
+        "choices": [
+          "ことだった",
+          "ことがあった",
+          "ことにした",
+          "ことになっていた"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "彼はよく飲んでいて、酔うと彼女を殴る\nことがあった\n。"
+      },
+      {
+        "question_number": 2,
+        "question": "これは意見 _______ むしろ質問であり、その証拠に、彼は私の目を見つめながら答えを待っていた。",
+        "choices": [
+          "というより",
+          "というのは",
+          "というと",
+          "ということで"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "これは意見\nというより\nむしろ質問であり、その証拠に、彼は私の目を見つめながら答えを待っていた。"
+      },
+      {
+        "question_number": 3,
+        "question": "あなた _______ マフラーを編みたいのに私には毛糸がない。",
+        "choices": [
+          "のために",
+          "のたびに",
+          "のせいで",
+          "のおかげで"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "あなた\nのために\nマフラーを編みたいのに私には毛糸がない。"
+      },
+      {
+        "question_number": 4,
+        "question": "一体なぜなのか、最高の専門家で _______ 説明のしようがないのだ。",
+        "choices": [
+          "ずつ",
+          "はず",
+          "でも",
+          "さえ"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "一体なぜなのか、最高の専門家で\nさえ\n説明のしようがないのだ。"
+      },
+      {
+        "question_number": 5,
+        "question": "その質問にはどう _______ かわかりません。",
+        "choices": [
+          "答えてもいい",
+          "答えたらいい",
+          "答えるならいい",
+          "答えようとする"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "その質問にはどう\n答えたらいい\nかわかりません。"
+      },
+      {
+        "question_number": 6,
+        "question": "彼は低い声で　_______　　_______　…★… _______　話しかけた。",
+        "choices": [
+          "がちに",
+          "向かって",
+          "変な男に",
+          "遠慮"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "彼は低い声で遠慮がちに\n変な男に\n向かって話しかけた。"
+      },
+      {
+        "question_number": 7,
+        "question": "私は恥ずかしがり屋だから、　_______　　_______　…★… _______　できないよ。",
+        "choices": [
+          "なんて",
+          "会社のトップ",
+          "になる",
+          "あなたのように"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "私は恥ずかしがり屋だから、あなたのように会社のトップ\nになる\nなんてできないよ。"
+      },
+      {
+        "question_number": 8,
+        "question": "日本語は　_______　　_______　…★… _______　が出ます。",
+        "choices": [
+          "難しい",
+          "ほど",
+          "難しければ",
+          "やる気"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "日本語は難しければ難しい\nほど\nやる気が出ます。"
+      },
+      {
+        "question_number": 9,
+        "question": "天然資源は減っているのに、需要は急増している。　_______　　_______　…★… _______　。",
+        "choices": [
+          "になる",
+          "困難",
+          "一方だ",
+          "清浄な水の入手は"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "天然資源は減っているのに、需要は急増している。清浄な水の入手は困難\nになる\n一方だ。"
+      },
+      {
+        "question_number": 10,
+        "question": "_______　　_______　…★… _______　、近くの視界がずっとぼやけている。",
+        "choices": [
+          "ほどに",
+          "耐えがたい",
+          "頭痛は",
+          "なっていて"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "頭痛は耐えがたい\nほどに\nなっていて、近くの視界がずっとぼやけている。"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "酔う",
+        "reading": "you",
+        "meaning": "to get drunk, to become intoxicated"
+      },
+      {
+        "word": "殴る",
+        "reading": "naguru",
+        "meaning": "to strike, to hit"
+      },
+      {
+        "word": "意見",
+        "reading": "iken",
+        "meaning": "opinion, view"
+      },
+      {
+        "word": "むしろ",
+        "reading": "",
+        "meaning": "rather, instead"
+      },
+      {
+        "word": "質問",
+        "reading": "shitsumon",
+        "meaning": "question, inquiry"
+      },
+      {
+        "word": "証拠",
+        "reading": "shouko",
+        "meaning": "evidence, proof"
+      },
+      {
+        "word": "見つめる",
+        "reading": "mitsumeru",
+        "meaning": "to stare at, to gaze at"
+      },
+      {
+        "word": "マフラー",
+        "reading": "",
+        "meaning": "muffler, scarf"
+      },
+      {
+        "word": "編む",
+        "reading": "amu",
+        "meaning": "to knit, to braid"
+      },
+      {
+        "word": "毛糸",
+        "reading": "keito",
+        "meaning": "knitting wool"
+      },
+      {
+        "word": "一体",
+        "reading": "ittai",
+        "meaning": "the heck…, in the world…"
+      },
+      {
+        "word": "最高",
+        "reading": "saikou",
+        "meaning": "highest, supreme"
+      },
+      {
+        "word": "専門家",
+        "reading": "senmonka",
+        "meaning": "specialist"
+      },
+      {
+        "word": "説明",
+        "reading": "setsumei",
+        "meaning": "explanation"
+      },
+      {
+        "word": "変",
+        "reading": "hen",
+        "meaning": "strange, odd"
+      },
+      {
+        "word": "遠慮",
+        "reading": "enryo",
+        "meaning": "diffidence, restraint, reserve"
+      },
+      {
+        "word": "恥ずかしがり屋",
+        "reading": "hazukashigariya",
+        "meaning": "shy person"
+      },
+      {
+        "word": "やる気",
+        "reading": "yaruki",
+        "meaning": "willingness, eagerness"
+      },
+      {
+        "word": "天然資源",
+        "reading": "tennenshigen",
+        "meaning": "natural resources"
+      },
+      {
+        "word": "減る",
+        "reading": "heru",
+        "meaning": "to decrease"
+      },
+      {
+        "word": "需要",
+        "reading": "juyou",
+        "meaning": "demand, request"
+      },
+      {
+        "word": "急増",
+        "reading": "kyuuzou",
+        "meaning": "explosion, surge"
+      },
+      {
+        "word": "困難",
+        "reading": "konnan",
+        "meaning": "difficulty, distress"
+      },
+      {
+        "word": "清浄",
+        "reading": "seijou",
+        "meaning": "pure, clean, purity"
+      },
+      {
+        "word": "入手",
+        "reading": "nyuushu",
+        "meaning": "obtaining, coming to hand"
+      },
+      {
+        "word": "視界",
+        "reading": "shikai",
+        "meaning": "field of vision"
+      },
+      {
+        "word": "ぼやける",
+        "reading": "",
+        "meaning": "to become dim, to become blurred"
+      },
+      {
+        "word": "頭痛",
+        "reading": "zutsuu",
+        "meaning": "headache"
+      },
+      {
+        "word": "耐える",
+        "reading": "taeru",
+        "meaning": "to bear, to stand, to put up with"
+      }
+    ]
+  },
+  {
+    "exercise_number": 7,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-grammar-exercise-7/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "気づかない _______ ご近所の方々に不快な思いをさせる行動をとりました。",
+        "choices": [
+          "うえで",
+          "さいちゅうに",
+          "なかで",
+          "うちに"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "気づかない\nうちに\nご近所の方々に不快な思いをさせる行動をとりました。"
+      },
+      {
+        "question_number": 2,
+        "question": "ヘリコプターはごうおん _______ 地面に衝突した。",
+        "choices": [
+          "となると",
+          "と共に",
+          "と言うのに",
+          "ところで"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "ヘリコプターはごうおん\nと共に\n地面に衝突した。"
+      },
+      {
+        "question_number": 3,
+        "question": "彼女が、テーブルの下で弟の足をけろうとしたが、 _______ 僕をけってしまった。",
+        "choices": [
+          "どうしても",
+          "たびに",
+          "代わりに",
+          "せめて"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "彼女が、テーブルの下で弟の足をけろうとしたが、\n代わりに\n僕をけってしまった。"
+      },
+      {
+        "question_number": 4,
+        "question": "でも、あの人のことは？ああ、どれほどあの人を探した _______ 。眠れぬ長い夜毎に、なん度あの人の名を呼んだ _______ 。",
+        "choices": [
+          "こと/こと",
+          "ことか/ことか",
+          "ことに/ことに",
+          "ことだ/ことだ"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "でも、あの人のことは？ああ、どれほどあの人を探した\nことか\n。眠れぬ長い夜ごとに、なん度あの人の名を呼んだ\nことか\n。"
+      },
+      {
+        "question_number": 5,
+        "question": "やりたくない _______ だろう。頭がおかしくなるくらいやりたいよ。",
+        "choices": [
+          "わけがない",
+          "わけではない",
+          "わけにはいかない",
+          "わけ"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "やりたくない\nわけがない\nだろう。頭がおかしくなるくらいやりたいよ。"
+      },
+      {
+        "question_number": 6,
+        "question": "僕 _______ は、偉大な彫刻の持つ真の力をはじめて教えてくれたのが「ダヴィッド像」だった。",
+        "choices": [
+          "において",
+          "にかけて",
+          "にとって",
+          "について"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "僕\nにとって\nは、偉大な彫刻の持つ真の力をはじめて教えてくれたのが「ダヴィッド像」だった。"
+      },
+      {
+        "question_number": 7,
+        "question": "学生の数が減った _______ 、食堂の灯はいつもの半分しかついていなかった。",
+        "choices": [
+          "せいで",
+          "しだい",
+          "うえで",
+          "ついでに"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "学生の数が減った\nせいで\n、食堂の灯はいつもの半分しかついていなかった。"
+      },
+      {
+        "question_number": 8,
+        "question": "彼はいつものように、気に入らない情報は知らない _______ 。",
+        "choices": [
+          "ふりをした",
+          "ようとした",
+          "ことにした",
+          "ふりになった"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "彼はいつものように、気に入らない情報は知らない\nふりをした\n。"
+      },
+      {
+        "question_number": 9,
+        "question": "お金持ちになれば幸せ _______ とは限らない。",
+        "choices": [
+          "になる",
+          "になれる",
+          "になろう",
+          "になっている"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "お金持ちになれば幸せ\nになれる\nとは限らない。"
+      },
+      {
+        "question_number": 10,
+        "question": "近頃のイタリアでは、たとえつまらない仕事 _______ 、職を見つけるのは容易ではない。",
+        "choices": [
+          "も",
+          "であっても",
+          "ではなくても",
+          "でも"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "近頃のイタリアでは、たとえつまらない仕事\nでも\n、職を見つけるのは容易ではない。"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "一生",
+        "reading": "isshou",
+        "meaning": "whole life, a lifetime"
+      },
+      {
+        "word": "倍",
+        "reading": "bai",
+        "meaning": "twice, double, -folds, times"
+      },
+      {
+        "word": "目撃",
+        "reading": "mokugeki",
+        "meaning": "to observe, to witness"
+      },
+      {
+        "word": "ヘリコプター",
+        "reading": "",
+        "meaning": "helicopter"
+      },
+      {
+        "word": "轟音",
+        "reading": "gouon",
+        "meaning": "thunderous roar, roaring sound"
+      },
+      {
+        "word": "地面",
+        "reading": "jimen",
+        "meaning": "ground, earth’s surface"
+      },
+      {
+        "word": "衝突",
+        "reading": "shoutotsu",
+        "meaning": "collision, conflict"
+      },
+      {
+        "word": "蹴る",
+        "reading": "keru",
+        "meaning": "to kick"
+      },
+      {
+        "word": "探す",
+        "reading": "sagasu",
+        "meaning": "to search, to seek"
+      },
+      {
+        "word": "眠る",
+        "reading": "nemuru",
+        "meaning": "to sleep"
+      },
+      {
+        "word": "夜毎",
+        "reading": "yogoto",
+        "meaning": "every night, nightly"
+      },
+      {
+        "word": "おかしい",
+        "reading": "",
+        "meaning": "strange, funny"
+      },
+      {
+        "word": "偉大",
+        "reading": "idai",
+        "meaning": "greatness"
+      },
+      {
+        "word": "彫刻",
+        "reading": "choukoku",
+        "meaning": "carving, engraving"
+      },
+      {
+        "word": "数",
+        "reading": "kazu",
+        "meaning": "number, amount"
+      },
+      {
+        "word": "灯",
+        "reading": "akari",
+        "meaning": "light, glow, brightness"
+      },
+      {
+        "word": "半分",
+        "reading": "hanban",
+        "meaning": "half"
+      },
+      {
+        "word": "気に入る",
+        "reading": "ki ni iru",
+        "meaning": "to be pleased with, to suit"
+      },
+      {
+        "word": "情報",
+        "reading": "jouhou",
+        "meaning": "news, gossip, information"
+      },
+      {
+        "word": "金持ち",
+        "reading": "kanemochi",
+        "meaning": "rich person"
+      },
+      {
+        "word": "幸せ",
+        "reading": "shiawase",
+        "meaning": "happiness, good fortune"
+      },
+      {
+        "word": "近頃",
+        "reading": "chikagoro",
+        "meaning": "lately, recently"
+      },
+      {
+        "word": "つまらない",
+        "reading": "",
+        "meaning": "boring, uninteresting"
+      },
+      {
+        "word": "職",
+        "reading": "shoku",
+        "meaning": "employment"
+      },
+      {
+        "word": "見つける",
+        "reading": "mitsukeru",
+        "meaning": "to discover, to find"
+      },
+      {
+        "word": "容易",
+        "reading": "youi",
+        "meaning": "easy, simple"
+      }
+    ]
+  },
+  {
+    "exercise_number": 8,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-grammar-exercise-8/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "高木は車の後ろから首を伸ばし、渋滞の原因を _______ 。",
+        "choices": [
+          "見きわめようになった",
+          "見きわめようにした",
+          "見きわめようとした",
+          "見きわめるようにした"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "高木は車の後ろから首を伸ばし、渋滞の原因を\n見きわめようとした\n。"
+      },
+      {
+        "question_number": 2,
+        "question": "鍵をかけておけ。誰も出入りさせない _______ 。わかったな。",
+        "choices": [
+          "べき",
+          "ように",
+          "はず",
+          "ことに"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "鍵をかけておけ。誰も出入りさせない\nように\n。わかったな。"
+      },
+      {
+        "question_number": 3,
+        "question": "彼が何かを漏らしたとしても、そうする _______ やったんじゃないと思う。",
+        "choices": [
+          "つもりで",
+          "いがい",
+          "わけで",
+          "ため"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "彼が何かを漏らしたとしても、そうする\nつもりで\nやったんじゃないと思う。"
+      },
+      {
+        "question_number": 4,
+        "question": "まずはその大きな道路から離れる _______ 。",
+        "choices": [
+          "よう",
+          "もの",
+          "ものだ",
+          "ことだ"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "まずはその大きな道路から離れる\nことだ\n。"
+      },
+      {
+        "question_number": 5,
+        "question": "生命を脅かされる状況 _______ 銃の使用が許されることになってる。",
+        "choices": [
+          "としては",
+          "においては",
+          "にとっては",
+          "にかんしては"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "生命を脅かされる状況\nにおいては\n銃の使用が許されることになってる。"
+      },
+      {
+        "question_number": 6,
+        "question": "図像学の研究者 _______ 、人間の意識に一瞬で恐怖を与えうるイメージがほんのわずかしかないのを私は知っている。",
+        "choices": [
+          "には",
+          "として",
+          "にとって",
+          "による"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "図像学の研究者\nとして\n、人間の意識に一瞬で恐怖を与えうるイメージがほんのわずかしかないのを私は知っている。"
+      },
+      {
+        "question_number": 7,
+        "question": "食堂には先生の姿はなかった。授業中でない _______ 、たぶん職員室だろう。",
+        "choices": [
+          "ながら",
+          "ところで",
+          "といっても",
+          "としたら"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "食堂には先生の姿はなかった。授業中でない\nとしたら\n、たぶん職員室だろう。"
+      },
+      {
+        "question_number": 8,
+        "question": "昨日赤ちゃんが眠っている _______ わたしたちが家を掃除した。",
+        "choices": [
+          "あいだは",
+          "あいだに",
+          "あいだで",
+          "あいだと"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "昨日赤ちゃんが眠っている\nあいだに\nわたしたちが家を掃除した。"
+      },
+      {
+        "question_number": 9,
+        "question": "私が手にしたその物体は、大きさ _______ 驚くほど重く感じられた。",
+        "choices": [
+          "のわりに",
+          "のように",
+          "のせいで",
+          "のくせに"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "私が手にしたその物体は、大きさ\nのわりに\n驚くほど重く感じられた。"
+      },
+      {
+        "question_number": 10,
+        "question": "この戦争 _______ 、ともあれすべては落ち着くところに落ち着くだろう。",
+        "choices": [
+          "さえ終われば",
+          "さえ終わったら",
+          "だけ終われば",
+          "だけ終わったら"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "この戦争\nさえ終われば\n、ともあれすべては落ち着くところに落ち着くだろう。"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "首",
+        "reading": "kubi",
+        "meaning": "neck, head"
+      },
+      {
+        "word": "伸ばす",
+        "reading": "nobasu",
+        "meaning": "to grow long, to lengthen, to stretch"
+      },
+      {
+        "word": "渋滞",
+        "reading": "juutai",
+        "meaning": "congestion, delay, stagnation"
+      },
+      {
+        "word": "原因",
+        "reading": "gen’in",
+        "meaning": "cause, origin, source"
+      },
+      {
+        "word": "見極める",
+        "reading": "mikiwameru",
+        "meaning": "to see through, to make sure of"
+      },
+      {
+        "word": "出入り",
+        "reading": "deiri",
+        "meaning": "in and out"
+      },
+      {
+        "word": "漏らす",
+        "reading": "morasu",
+        "meaning": "to let leak, to reveal"
+      },
+      {
+        "word": "任せる",
+        "reading": "makaseru",
+        "meaning": "to entrust, to leave to"
+      },
+      {
+        "word": "守る",
+        "reading": "mamoru",
+        "meaning": "to protect, to guard"
+      },
+      {
+        "word": "持ち上がる",
+        "reading": "mochiagaru",
+        "meaning": "to happen, to occur"
+      },
+      {
+        "word": "道路",
+        "reading": "douro",
+        "meaning": "road; highway"
+      },
+      {
+        "word": "離れる",
+        "reading": "hanareru",
+        "meaning": "to be separated; to be apart; to be distant; to leave"
+      },
+      {
+        "word": "生命",
+        "reading": "seimei",
+        "meaning": "life, existence"
+      },
+      {
+        "word": "脅かす",
+        "reading": "odokasu",
+        "meaning": "to threaten, to menace"
+      },
+      {
+        "word": "状況",
+        "reading": "joukyou",
+        "meaning": "state of affairs, situation, circumstances"
+      },
+      {
+        "word": "銃",
+        "reading": "juu",
+        "meaning": "gun, rifle"
+      },
+      {
+        "word": "使用",
+        "reading": "shiyou",
+        "meaning": "use, application, utilization"
+      },
+      {
+        "word": "許す",
+        "reading": "yurusu",
+        "meaning": "to permit, to allow, to approve"
+      },
+      {
+        "word": "図像学",
+        "reading": "zuzougaku",
+        "meaning": "iconography"
+      },
+      {
+        "word": "研究者",
+        "reading": "kenkyuusha",
+        "meaning": "researcher"
+      },
+      {
+        "word": "人間",
+        "reading": "ningen",
+        "meaning": "human being, man"
+      },
+      {
+        "word": "意識",
+        "reading": "ishiki",
+        "meaning": "consciousness, awareness"
+      },
+      {
+        "word": "一瞬",
+        "reading": "isshun",
+        "meaning": "moment, instant"
+      },
+      {
+        "word": "恐怖",
+        "reading": "kyoufu",
+        "meaning": "fear, dread, dismay"
+      },
+      {
+        "word": "与える",
+        "reading": "ataeru",
+        "meaning": "to give, to offer, to bestow"
+      },
+      {
+        "word": "イメージ",
+        "reading": "",
+        "meaning": "image"
+      },
+      {
+        "word": "わずか",
+        "reading": "",
+        "meaning": "little, small quantity"
+      },
+      {
+        "word": "姿",
+        "reading": "sugata",
+        "meaning": "figure, shape, appearance"
+      },
+      {
+        "word": "授業中",
+        "reading": "jugyouchuu",
+        "meaning": "while in class"
+      },
+      {
+        "word": "職員室",
+        "reading": "shokuinshitsu",
+        "meaning": "staff room"
+      },
+      {
+        "word": "掃除",
+        "reading": "souji",
+        "meaning": "cleaning, sweeping"
+      },
+      {
+        "word": "手にする",
+        "reading": "te ni suru",
+        "meaning": "to hold (in one’s hand)"
+      },
+      {
+        "word": "物体",
+        "reading": "buttai",
+        "meaning": "body, object"
+      },
+      {
+        "word": "驚く",
+        "reading": "odoroku",
+        "meaning": "to be surprised, to be astonished"
+      },
+      {
+        "word": "戦争",
+        "reading": "sensou",
+        "meaning": "war"
+      },
+      {
+        "word": "ともあれ",
+        "reading": "",
+        "meaning": "anyhow, in any case"
+      },
+      {
+        "word": "落ち着く",
+        "reading": "ochitsuku",
+        "meaning": "to calm down, to settle down"
+      }
+    ]
+  },
+  {
+    "exercise_number": 9,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-grammar-exercise-09/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "僕は大学が嫌だった　_______　。ただ、学費を払って面白くもない講義を受けるのが嫌だったのだ。",
+        "choices": [
+          "わけではない",
+          "わけだ",
+          "わけがない",
+          "わけにはいかない"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "僕は大学が嫌だった\nわけではない\n。ただ、学費を払って面白くもない講義を受けるのが嫌だったのだ。"
+      },
+      {
+        "question_number": 2,
+        "question": "私はあなたの特質がうらやましいよ。あなたは現実に直面することをいとわず、私のようにそこから　_______　。",
+        "choices": [
+          "逃げないようになっている",
+          "逃げようとしている",
+          "逃げようとしない",
+          "逃げずにはいられない"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "私はあなたの特質がうらやましいよ。あなたは現実に直面することをいとわず、私のようにそこから\n逃げようとしない\n。"
+      },
+      {
+        "question_number": 3,
+        "question": "資源をめぐる争いで、両国の関係はますます悪化する_______　。",
+        "choices": [
+          "ばかりだ",
+          "ところだ",
+          "すぎる",
+          "ぎみだ"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "資源をめぐる争いで、両国の関係はますます悪化する\nばかりだ\n。"
+      },
+      {
+        "question_number": 4,
+        "question": "１６日夜から１７日未明　_______　関東地域の広い範囲で雪が降った。",
+        "choices": [
+          "において",
+          "にかわり",
+          "によって",
+          "にかけて"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "１６日夜から１７日未明\nにかけて\n関東地域の広い範囲で雪が降った。"
+      },
+      {
+        "question_number": 5,
+        "question": "あのときは、違う対応が　_______　なと思う。あのころは自分が父親になるというのが想像できなくて、きちんと向き合うことができなかったんだ。",
+        "choices": [
+          "できるならよかった",
+          "できればよかった",
+          "できるとよかった",
+          "できたらよかった"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "あのときは、違う対応が\nできればよかった\nなと思う。あのころは自分が父親になるというのが想像できなくて、きちんと向き合うことができなかったんだ。"
+      },
+      {
+        "question_number": 6,
+        "question": "実家がパン屋だったので、わたしは休みの日も親に店の掃除などを　_______　ことが多く、友達とほとんど遊べなかった。",
+        "choices": [
+          "手伝える",
+          "手伝われる",
+          "手伝わせる",
+          "手伝わされる"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "実家がパン屋だったので、わたしは休みの日も親に店の掃除などを\n手伝わされる\nことが多く、友達とほとんど遊べなかった。"
+      },
+      {
+        "question_number": 7,
+        "question": "さあ、早く。フェンスを飛び越えられない　_______　老け込んではいないでしょう？",
+        "choices": [
+          "ごろ",
+          "がち",
+          "ほど",
+          "くらい"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "さあ、早く。フェンスを飛び越えられない\nほど\n老け込んではいないでしょう？"
+      },
+      {
+        "question_number": 8,
+        "question": "ありがたい　_______　東京の町は広く、どれだけ歩いても歩き尽くすということはなかった。",
+        "choices": [
+          "ことに",
+          "ものに",
+          "ついでに",
+          "ように"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "ありがたい\nことに\n東京の町は広く、どれだけ歩いても歩き尽くすということはなかった。"
+      },
+      {
+        "question_number": 9,
+        "question": "彼が大学　_______　高校さえも卒業していない。",
+        "choices": [
+          "ばかりか",
+          "どころか",
+          "ばかりに",
+          "どころではなく"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "彼が大学\nどころか\n高校さえも卒業していない。"
+      },
+      {
+        "question_number": 10,
+        "question": "父親にこんな口のきき方を　_______　よ。不敬というものだ。",
+        "choices": [
+          "したべきではない",
+          "しべきではない",
+          "するべきではない",
+          "すべきではない"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "父親にこんな口のきき方を\nすべきではない\nよ。不敬というものだ。"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "嫌",
+        "reading": "iya",
+        "meaning": "disagreeable, detestable"
+      },
+      {
+        "word": "学費",
+        "reading": "gakuhi",
+        "meaning": "tuition, school expenses"
+      },
+      {
+        "word": "払う",
+        "reading": "harau",
+        "meaning": "to pay"
+      },
+      {
+        "word": "講義",
+        "reading": "kougi",
+        "meaning": "lecture"
+      },
+      {
+        "word": "受ける",
+        "reading": "ukeru",
+        "meaning": "to receive, to accept"
+      },
+      {
+        "word": "特質",
+        "reading": "tokushitsu",
+        "meaning": "characteristic, feature, special quality"
+      },
+      {
+        "word": "うらやましい",
+        "reading": "",
+        "meaning": "envious, jealous, enviable"
+      },
+      {
+        "word": "現実",
+        "reading": "genjitsu",
+        "meaning": "reality"
+      },
+      {
+        "word": "直面",
+        "reading": "chokumen",
+        "meaning": "confrontation"
+      },
+      {
+        "word": "いとう",
+        "reading": "",
+        "meaning": "to dislike, to hate, to grudge (doing)"
+      },
+      {
+        "word": "逃げる",
+        "reading": "nigeru",
+        "meaning": "to escape, to run away"
+      },
+      {
+        "word": "資源",
+        "reading": "shigen",
+        "meaning": "resources"
+      },
+      {
+        "word": "争い",
+        "reading": "arasoi",
+        "meaning": "dispute, quarrel"
+      },
+      {
+        "word": "両国",
+        "reading": "ryoukoku",
+        "meaning": "both countries"
+      },
+      {
+        "word": "関係",
+        "reading": "kankei",
+        "meaning": "relation, connection"
+      },
+      {
+        "word": "ますます",
+        "reading": "",
+        "meaning": "increasingly, more and more"
+      },
+      {
+        "word": "悪化",
+        "reading": "akka",
+        "meaning": "deterioration, growing worse, corruption"
+      },
+      {
+        "word": "未明",
+        "reading": "mimei",
+        "meaning": "early dawn, gray of morning"
+      },
+      {
+        "word": "関東",
+        "reading": "kantou",
+        "meaning": "Kantou (eastern half of Japan)"
+      },
+      {
+        "word": "地域",
+        "reading": "chiiki",
+        "meaning": "area, region"
+      },
+      {
+        "word": "範囲",
+        "reading": "han’i",
+        "meaning": "extent, scope"
+      },
+      {
+        "word": "対応",
+        "reading": "taiou",
+        "meaning": "interaction, correspondence, dealing with"
+      },
+      {
+        "word": "父親",
+        "reading": "chichioya",
+        "meaning": "father"
+      },
+      {
+        "word": "想像",
+        "reading": "souzou",
+        "meaning": "imagination, guess"
+      },
+      {
+        "word": "きちんと",
+        "reading": "",
+        "meaning": "precisely, accurately"
+      },
+      {
+        "word": "向き合う",
+        "reading": "mukiau",
+        "meaning": "to be opposite, to face each other"
+      },
+      {
+        "word": "実家",
+        "reading": "jikka",
+        "meaning": "(one’s parents) home"
+      },
+      {
+        "word": "パン屋",
+        "reading": "pan’ya",
+        "meaning": "bakery"
+      },
+      {
+        "word": "フェンス",
+        "reading": "",
+        "meaning": "fence"
+      },
+      {
+        "word": "飛び越える",
+        "reading": "tobikoeru",
+        "meaning": "to jump over, to clear"
+      },
+      {
+        "word": "老け込む",
+        "reading": "fukekomu",
+        "meaning": "to age, to become old"
+      },
+      {
+        "word": "卒業",
+        "reading": "sotsugyou",
+        "meaning": "graduation, completion (of a course)"
+      },
+      {
+        "word": "不敬",
+        "reading": "fukei",
+        "meaning": "disrespect"
+      }
+    ]
+  },
+  {
+    "exercise_number": 10,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-grammar-exercise-10/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "どんな犠牲を払おうと、彼との約束を破る　_______　。",
+        "choices": [
+          "わけだ",
+          "わけにはいかない",
+          "ないわけではない",
+          "わけではない"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "どんな犠牲を払おうと、彼との約束を破る\nわけにはいかない\n。"
+      },
+      {
+        "question_number": 2,
+        "question": "山田さんは鉄道が大好きで、列車の写真を撮る　_______　、どこへでも行く。",
+        "choices": [
+          "ためなら",
+          "ためで",
+          "からなら",
+          "からで"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "山田さんは鉄道が大好きで、列車の写真を撮る\nためなら\n、どこへでも行く。"
+      },
+      {
+        "question_number": 3,
+        "question": "ふたりの関係はいつも大嵐のようでした。ふたりの性格が性格ですから、　_______　ほど多くのけんかをしたのです。",
+        "choices": [
+          "数え切る",
+          "数え切った",
+          "数え切れない",
+          "数え切れる"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "ふたりの関係はいつも大嵐のようでした。ふたりの性格が性格ですから、\n数え切れない\nほど多くのけんかをしたのです。"
+      },
+      {
+        "question_number": 4,
+        "question": "彼女と結婚する気はなかったし、結婚しても幸せになれず、すぐに分かれた　_______　。",
+        "choices": [
+          "もの",
+          "べきだ",
+          "だろう",
+          "はずだ"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "彼女と結婚する気はなかったし、結婚しても幸せになれず、すぐに分かれた\nはずだ\n。"
+      },
+      {
+        "question_number": 5,
+        "question": "犯人たち　_______　、一人じゃないのですね？",
+        "choices": [
+          "といって",
+          "とは",
+          "というと",
+          "というのは"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "犯人たち\nというのは\n、一人じゃないのですね？"
+      },
+      {
+        "question_number": 6,
+        "question": "最近仕事が忙しく、食事の時間が不規則になり　_______　だ。",
+        "choices": [
+          "がち",
+          "がたい",
+          "がる",
+          "やすい"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "最近仕事が忙しく、食事の時間が不規則になり\nがち\nだ。"
+      },
+      {
+        "question_number": 7,
+        "question": "君、そんな妙な目つきで僕を見ないでほしい　_______　ね。",
+        "choices": [
+          "こと",
+          "ことだ",
+          "もの",
+          "ものだ"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "君、そんな妙な目つきで僕を見ないでほしい\nものだ\nね。"
+      },
+      {
+        "question_number": 8,
+        "question": "人には長所_______　あれば、短所_______　ある。",
+        "choices": [
+          "も/も",
+          "と/と",
+          "や/や",
+          "とか/とか"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "人には長所\nも\nあれば、短所\nも\nある。"
+      },
+      {
+        "question_number": 9,
+        "question": "私が部屋に入ったとき彼は水を飲んでいた。その顔の蒼さが、水を　_______　ことを示していた。",
+        "choices": [
+          "飲まずにはいけなかった",
+          "飲まずにはいられなかった",
+          "飲まずにはならなかった",
+          "飲まずにはだめだった"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "私が部屋に入ったとき彼は水を飲んでいた。その顔の蒼さが、水を\n飲まずにはいられなかった\nことを示していた。"
+      },
+      {
+        "question_number": 10,
+        "question": "中村はホテルの部屋に閉じこもり、プロトタイプをいじって　_______　いた。",
+        "choices": [
+          "だけ",
+          "だらけ",
+          "ばかり",
+          "まみれ"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "中村はホテルの部屋に閉じこもり、プロトタイプをいじって\nばかり\nいた。"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "犠牲",
+        "reading": "gisei",
+        "meaning": "victim, sacrifice, scapegoat"
+      },
+      {
+        "word": "破る",
+        "reading": "yaburu",
+        "meaning": "to tear, to violate, to break, to destroy"
+      },
+      {
+        "word": "鉄道",
+        "reading": "tetsudou",
+        "meaning": "railroad"
+      },
+      {
+        "word": "列車",
+        "reading": "ressha",
+        "meaning": "train (ordinary)"
+      },
+      {
+        "word": "関係",
+        "reading": "kankei",
+        "meaning": "relation, connection"
+      },
+      {
+        "word": "大嵐",
+        "reading": "ooarashi",
+        "meaning": "raging storm"
+      },
+      {
+        "word": "性格",
+        "reading": "seikaku",
+        "meaning": "character, personality"
+      },
+      {
+        "word": "喧嘩",
+        "reading": "kenka",
+        "meaning": "quarrel, brawl, fight"
+      },
+      {
+        "word": "数える",
+        "reading": "kazoeru",
+        "meaning": "to count, to enumerate"
+      },
+      {
+        "word": "分かれる",
+        "reading": "wakareru",
+        "meaning": "to split, to separate, to divide"
+      },
+      {
+        "word": "犯人",
+        "reading": "hannin",
+        "meaning": "offender, criminal"
+      },
+      {
+        "word": "不規則",
+        "reading": "fukisoku",
+        "meaning": "irregularity, unsteadiness"
+      },
+      {
+        "word": "妙",
+        "reading": "myou",
+        "meaning": "strange, unusual"
+      },
+      {
+        "word": "目つき",
+        "reading": "metsuki",
+        "meaning": "look, expression of the eyes"
+      },
+      {
+        "word": "長所",
+        "reading": "chousho",
+        "meaning": "strong point, merit, virtue"
+      },
+      {
+        "word": "短所",
+        "reading": "tansho",
+        "meaning": "defect, demerit, weak point, disadvantage"
+      },
+      {
+        "word": "閉じこもる",
+        "reading": "tojikomoru",
+        "meaning": "to seclude oneself, to shut oneself away"
+      },
+      {
+        "word": "プロトタイプ",
+        "reading": "",
+        "meaning": "prototype"
+      },
+      {
+        "word": "いじる",
+        "reading": "",
+        "meaning": "to touch, to tamper with, to grope about, to feel for something"
+      }
+    ]
+  },
+  {
+    "exercise_number": 11,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-grammar-exercise-11/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "子供のころに祖母が作ってくれたワンピースを、_______　_______　…★… _______　いる。",
+        "choices": [
+          "着られなくなった",
+          "大切に持って",
+          "今でも",
+          "体が大きくなって"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "子供のころに祖母が作ってくれたワンピースを、体が大きくなって着られなくなった\n今でも\n大切に持っている。"
+      },
+      {
+        "question_number": 2,
+        "question": "庭の芝生中に、　_______　_______　…★… _______　兵士や、痛手を負って動けなくなった兵士が、倒れ伏していた。",
+        "choices": [
+          "歩くことも",
+          "できない",
+          "それ以上",
+          "疲れきって"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "庭の芝生中に、疲れきってそれ以上\n歩くことも\nできない兵士や、痛手を負って動けなくなった兵士が、倒れ伏していた。"
+      },
+      {
+        "question_number": 3,
+        "question": "友達がけがで入院したと聞き、あわてて　_______　_______　…★… _______　元気で安心した。",
+        "choices": [
+          "病院に行って",
+          "思って",
+          "みると",
+          "いたよりも"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "友達がけがで入院したと聞き、あわてて病院に行ってみると\n思って\nいたよりも元気で安心した。"
+      },
+      {
+        "question_number": 4,
+        "question": "食糧と衣類　_______　_______　…★… _______　価格はつりあがった。",
+        "choices": [
+          "不足",
+          "するほど",
+          "すれば",
+          "が"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "食糧と衣類が不足\nすれば\nするほど価格はつりあがった。"
+      },
+      {
+        "question_number": 5,
+        "question": "あいつは知りすぎるくらい知っていやがる。　_______　_______　…★… _______　。",
+        "choices": [
+          "ことはない",
+          "何もかも",
+          "知らない",
+          "らしい"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "あいつは知りすぎるくらい知っていやがる。何もかも知らない\nことはない\nらしい。"
+      },
+      {
+        "question_number": 6,
+        "question": "私はこの付近の大きい家を全部とうさして、　_______　_______　…★… _______　来歴を調べた。",
+        "choices": [
+          "住んでいる",
+          "ついでに",
+          "家族の",
+          "そこに"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "私はこの付近の大きい家を全部とうさして、ついでにそこに\n住んでいる\n家族の来歴を調べた。"
+      },
+      {
+        "question_number": 7,
+        "question": "樫の木も相当の老樹だが、それでもこの屋敷の　_______　_______　…★… _______　。",
+        "choices": [
+          "まだ若い",
+          "くらべたら",
+          "といえる",
+          "年代に"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "樫の木も相当の老樹だが、それでもこの屋敷の年代にくらべたら\nまだ若い\nといえる。"
+      },
+      {
+        "question_number": 8,
+        "question": "_______　_______　…★… _______　窓の外の光はいかにも秋らしいやわらかな物静かな色に変化していった。",
+        "choices": [
+          "つれて",
+          "深まる",
+          "に",
+          "午後が"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "午後が深まる\nに\nつれて窓の外の光はいかにも秋らしいやわらかな物静かな色に変化していった。"
+      },
+      {
+        "question_number": 9,
+        "question": "仕事から帰って、娘に笑顔で_______　_______　…★… _______　幸せだといつも思う。",
+        "choices": [
+          "わたしは本当に",
+          "「おかえり。」と言われると",
+          "娘がいる",
+          "こんなかわいい"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "仕事から帰って、娘に笑顔で「おかえり」と言われるとこんなかわいい\n娘がいる\nわたしは本当に幸せだといつも思う。"
+      },
+      {
+        "question_number": 10,
+        "question": "今の子供達　_______　_______　…★… _______　とアメリカの学者が主張している。",
+        "choices": [
+          "時間の",
+          "にとって",
+          "無駄だ",
+          "暗記は"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "今の子供達にとって暗記は\n時間の\n無駄だとアメリカの学者が主張している。"
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 12,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-grammar-exercise-12/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "A 「私はどうすればいいんですか、具体的に？」",
+        "choices": [
+          "B 「まず第一は相手を助けたいと思う　_______　。第二に正直になる　_______　。」",
+          "こそ/こそ",
+          "べき/べき",
+          "こと/こと",
+          "もの/もの"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "A 「私はどうすればいいんですか、具体的に？」B 「まず第一は相手を助けたいと思う\nこと\n。第二に正直になること。」"
+      },
+      {
+        "question_number": 2,
+        "question": "この上はじっと辛抱して、どんなことになるか待つ　_______　のだよ。",
+        "choices": [
+          "ことはない",
+          "わけがない",
+          "しかない",
+          "はずがない"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "この上はじっと辛抱して、どんなことになるか待つ\nしかない\nのだよ。"
+      },
+      {
+        "question_number": 3,
+        "question": "彼を逮捕　_______　、容疑者として留置するつもりです。",
+        "choices": [
+          "次第",
+          "し次第",
+          "する次第",
+          "して次第"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "彼を逮捕\nし次第\n、容疑者として留置するつもりです。"
+      },
+      {
+        "question_number": 4,
+        "question": "合格できる_______　、一生懸命勉強しようと思っています。",
+        "choices": [
+          "ように",
+          "すえに",
+          "うえに",
+          "そうに"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "合格できる\nように\n、一生懸命勉強しようと思っています。"
+      },
+      {
+        "question_number": 5,
+        "question": "私は　_______　の戸口へ二歩で飛んでいった。",
+        "choices": [
+          "開けぽい",
+          "開けぱなし",
+          "開けっぽい",
+          "開けっぱなし"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "私は\n開けっぱなし\nの戸口へ二歩で飛んでいった。"
+      },
+      {
+        "question_number": 6,
+        "question": "家を建てる　_______　、とてもおかしな場所を選んだように思えた。",
+        "choices": [
+          "にしては",
+          "としては",
+          "にしても",
+          "にたいして"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "家を建てる\nにしては\n、とてもおかしな場所を選んだように思えた。"
+      },
+      {
+        "question_number": 7,
+        "question": "怪物は小さい　_______　牛のように力が強かった。",
+        "choices": [
+          "くせに",
+          "ために",
+          "ばかりに",
+          "ことに"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "怪物は小さい\nくせに\n牛のように力が強かった。"
+      },
+      {
+        "question_number": 8,
+        "question": "友人とけんかをしてしまった。仲直りしたいが、謝っても許してくれない。どうしたら_______　分からない。",
+        "choices": [
+          "いいと",
+          "いいのか",
+          "よくて",
+          "よくても"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "友人とけんかをしてしまった。仲直りしたいが、謝っても許してくれない。どうしたら\nいいのか\n分からない。"
+      },
+      {
+        "question_number": 9,
+        "question": "驚いた　_______　、町の様子が１０年前に比べ、すっかり変わってしまった。",
+        "choices": [
+          "ことに",
+          "ことだ",
+          "ことで",
+          "ことな"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "驚いた\nことに\n、町の様子が１０年前に比べ、すっかり変わってしまった。"
+      },
+      {
+        "question_number": 10,
+        "question": "ハードウエアとソフトウエアを統合した製品が売れなかった　_______　、僕らは考え方を根本的に見直さなければならなくなっていた。",
+        "choices": [
+          "から",
+          "からには",
+          "ことから",
+          "からいうと"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "ハードウエアとソフトウエアを統合した製品が売れなかった\nことから\n、僕らは考え方を根本的に見直さなければならなくなっていた。"
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 13,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-grammar-exercise-13/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "３０歳　_______　多くの人にとって人生の節目である。",
+        "choices": [
+          "という",
+          "というと",
+          "ということは",
+          "というのは"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "３０歳\nというのは\n多くの人にとって人生の節目である。"
+      },
+      {
+        "question_number": 2,
+        "question": "子供の頃、よく祖母に「男_______　男になりなさい」と言われた。",
+        "choices": [
+          "ような",
+          "そうな",
+          "らしい",
+          "みたいな"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "子供の頃、よく祖母に「男\nらしい\n男になりなさい」と言われた。"
+      },
+      {
+        "question_number": 3,
+        "question": "木村さんに招待状を書いて、日曜のディナーにお招きし、直接お礼を申し上げられる　_______　ください。",
+        "choices": [
+          "ようにして",
+          "ようになって",
+          "ようとして",
+          "ようとなって"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "木村さんに招待状を書いて、日曜のディナーにお招きし、直接お礼を申し上げられる\nようにして\nください。"
+      },
+      {
+        "question_number": 4,
+        "question": "母親　「今、お菓子を買った子がタケルくん？」",
+        "choices": [
+          "子供　「ちがうよ。あそこで泣いて、お菓子を　_______　子だよ。」",
+          "欲しい",
+          "欲しがっている",
+          "欲しそうな",
+          "欲しがってみる"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "母親　「今、お菓子を買った子がタケルくん？」子供　「ちがうよ。あそこで泣いて、お菓子を\n欲しがっている\n子だよ。」"
+      },
+      {
+        "question_number": 5,
+        "question": "これが嘘なら地獄に　_______　。彼は本当に墓場に行きかけています。そしてあなたの他には誰も彼を救うことはできないのです！",
+        "choices": [
+          "落ちたらかまわない",
+          "落ちるとかまわない",
+          "落ちてもかまわない",
+          "落ちてかまわない"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "これが嘘なら地獄に\n落ちてもかまわない\n。彼は本当に墓場に行きかけています。そしてあなたの他には誰も彼を救うことはできないのです！"
+      },
+      {
+        "question_number": 6,
+        "question": "最近発売されている液晶テレビは薄い_______　、高品質だ。",
+        "choices": [
+          "うえに",
+          "うえで",
+          "うえは",
+          "うえでは"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "最近発売されている液晶テレビは薄い\nうえに\n、高品質だ。"
+      },
+      {
+        "question_number": 7,
+        "question": "別に隠すつもりはありませんが、いまこの忙しい捜査 _______　、ながながと込み入った説明をしてはいられませんからね。",
+        "choices": [
+          "のうちに",
+          "の上に",
+          "の最中に",
+          "の間に"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "別に隠すつもりはありませんが、いまこの忙しい捜査\nの最中に\n、ながながと込み入った説明をしてはいられませんからね。"
+      },
+      {
+        "question_number": 8,
+        "question": "この子は、もっとも簡単な質問にも答えられ _______　。",
+        "choices": [
+          "そうにない",
+          "そうもない",
+          "ようにない",
+          "ようもない"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "この子は、もっとも簡単な質問にも答えられ\nそうもない\n。"
+      },
+      {
+        "question_number": 9,
+        "question": "真珠を金庫へしまってくれたまえ。そして _______　偽造事件の書類を出してくれたまえ。",
+        "choices": [
+          "ついでに",
+          "たびに",
+          "ところで",
+          "かわりに"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "真珠を金庫へしまってくれたまえ。そして\nついでに\n偽造事件の書類を出してくれたまえ。"
+      },
+      {
+        "question_number": 10,
+        "question": "田中は上司 _______　人間 _______　モデルになるような人物ではない。わかりやすくて皆がまねしたいと思うような人物でもない。",
+        "choices": [
+          "にしても/にしても",
+          "としても/としても",
+          "としたら/としたら",
+          "といっても/といっても"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "田中は上司\nとしても\n人間\nとしても\nモデルになるような人物ではない。わかりやすくて皆がまねしたいと思うような人物でもない。"
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 14,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-grammar-exercise-14/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "われわれはここで待っていますよ。奥の部屋へいって _______　なさい。",
+        "choices": [
+          "調べごらん",
+          "調べてごらん",
+          "調べてみて",
+          "調べてみたら"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "われわれはここで待っていますよ。奥の部屋へいって\n調べてごらん\nなさい。"
+      },
+      {
+        "question_number": 2,
+        "question": "弟　「お父さん、どこにいるか知らない？」",
+        "choices": [
+          "兄　「さっき部屋にいたけど、忙しそうだったよ。」",
+          "弟　「そうか。じゃあ今は_______　。進学のこと、相談したかったんだけど。」",
+          "話しかけないほうがよさそうだな",
+          "話しかけなくてもよさそうだな",
+          "話しかけないほうがいいそうだな",
+          "話しかけなくてもいいそうだな"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "弟　「お父さん、どこにいるか知らない？」兄　「さっき部屋にいたけど、忙しそうだったよ。」弟　「そうか。じゃあ今は\n話しかけないほうがよさそうだな\n。進学のこと、相談したかったんだけど。」"
+      },
+      {
+        "question_number": 3,
+        "question": "この花は、土が乾いたら水をやる必要があるが、_______　。水が多いと根が腐ってしまう。",
+        "choices": [
+          "やらなくていいのがいい",
+          "やってやるのもよくない",
+          "やりすぎるのもよくない",
+          "やらないでおくのがいい"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "この花は、土が乾いたら水をやる必要があるが、\nやりすぎるのもよくない\n。水が多いと根が腐ってしまう。"
+      },
+      {
+        "question_number": 4,
+        "question": "私、あの方に夢中になっているのよ。あの方は、私がこれまで会った人たちと全然ちがうんです _______　。",
+        "choices": [
+          "こと",
+          "もの",
+          "こそ",
+          "わけ"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "私、あの方に夢中になっているのよ。あの方は、私がこれまで会った人たちと全然ちがうんです\nもの\n。"
+      },
+      {
+        "question_number": 5,
+        "question": "あの人は父親には似ていない _______　だけは確かに申し上げることができます。",
+        "choices": [
+          "って",
+          "という",
+          "というの",
+          "ということ"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "あの人は父親には似ていない\nということ\nだけは確かに申し上げることができます。"
+      },
+      {
+        "question_number": 6,
+        "question": "ふたりはすぐに駆けだし早く家へはいりたい _______　話すひまもないほどでした。",
+        "choices": [
+          "あまり",
+          "くらい",
+          "ばかりに",
+          "ながらも"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "ふたりはすぐに駆けだし早く家へはいりたい\nばかりに\n話すひまもないほどでした。"
+      },
+      {
+        "question_number": 7,
+        "question": "あの子は頭がよくて積極的で、私が見たなかで一番意志が強いんだ。昔の自分を見ている _______　ね。",
+        "choices": [
+          "ような気がする",
+          "ように気がする",
+          "ような気になる",
+          "ように気になる"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "あの子は頭がよくて積極的で、私が見たなかで一番意志が強いんだ。昔の自分を見ている\nような気がする\nね。"
+      },
+      {
+        "question_number": 8,
+        "question": "もしあの人たちが沼に落ちた _______　、今では上っているよ。",
+        "choices": [
+          "にすると",
+          "にしたら",
+          "にしては",
+          "にしても"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "もしあの人たちが沼に落ちた\nにしても\n、今では上っているよ。"
+      },
+      {
+        "question_number": 9,
+        "question": "彼はちっとも眠いとは思わなかったどころか、目がさえて、少し興奮 _______　だった。",
+        "choices": [
+          "ぎみ",
+          "きり",
+          "がち",
+          "がたい"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "彼はちっとも眠いとは思わなかったどころか、目がさえて、少し興奮\nぎみ\nだった。"
+      },
+      {
+        "question_number": 10,
+        "question": "子供の頃、テストの成績が悪くてよく母に_______　。",
+        "choices": [
+          "叱ることだ",
+          "叱せたものだ",
+          "叱られることだ",
+          "叱られたものだ"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "子供の頃、テストの成績が悪くてよく母に\n叱られたものだ\n。"
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 15,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-grammar-exercise-15/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "雨の_______　、せっかく植えた苗が水に流された。",
+        "choices": [
+          "ように",
+          "うえに",
+          "せいで",
+          "おかげで"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "雨の\nせいで\n、せっかく植えた苗が水に流された。"
+      },
+      {
+        "question_number": 2,
+        "question": "女１　「日曜日はいつも何をしていますか。」",
+        "choices": [
+          "女２　「本を_______　しています。」",
+          "読んだり",
+          "読んだから",
+          "読んで",
+          "読んでから"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "女１「日曜日はいつも何をしていますか。」女２「本を\n読んだり\nしています。」"
+      },
+      {
+        "question_number": 3,
+        "question": "締め切りまであと一週間しかない。のんびりし_______　。",
+        "choices": [
+          "てもかまわない",
+          "てはすまない",
+          "てはたまらない",
+          "てはいられない"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "締め切りまであと一週間しかない。のんびりし\nてはいられない\n。"
+      },
+      {
+        "question_number": 4,
+        "question": "今度の試合に勝てる_______　一生懸命頑張ります。",
+        "choices": [
+          "ために",
+          "ように",
+          "ことに",
+          "みたいに"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "今度の試合に勝てる\nように\n一生懸命頑張ります。"
+      },
+      {
+        "question_number": 5,
+        "question": "男１　「山田は？」",
+        "choices": [
+          "男２　「夕方、遊びに行った_______　、まだ帰ってないよ。」",
+          "きり",
+          "だけ",
+          "しか",
+          "きる"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "男１「山田は？」男２「夕方、遊びに行った\nきり\n、まだ帰ってないよ。」"
+      },
+      {
+        "question_number": 6,
+        "question": "内田　「高田さんがしている指輪、すごく高そうだよね。」",
+        "choices": [
+          "森山　「いや、高い指輪だったら、会社に_______　だよ。",
+          "してこないはず",
+          "しにこないはず",
+          "してこないつもり",
+          "しにこないつもり"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "内田「高田さんがしている指輪、すごく高そうだよね。」森山「いや、高い指輪だったら、会社に\nしてこないはず\nだよ。"
+      },
+      {
+        "question_number": 7,
+        "question": "鈴木選手は、試合前は腹痛を起こす_______　緊張したそうだ。",
+        "choices": [
+          "ごろ",
+          "つもり",
+          "ように",
+          "くらい"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "鈴木選手は、試合前は腹痛を起こす\nくらい\n緊張したそうだ。"
+      },
+      {
+        "question_number": 8,
+        "question": "地震の際には、エレベーターを使わない_______　。",
+        "choices": [
+          "ようとする",
+          "ようにする",
+          "ようと思う",
+          "ようになる"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "地震の際には、エレベーターを使わない\nようにする\n。"
+      },
+      {
+        "question_number": 9,
+        "question": "暑い日が続いているが、この暑さは、今週末_______　続くそうだ。",
+        "choices": [
+          "ごろは",
+          "ぐらいまで",
+          "ごろよりも",
+          "ぐらいに"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "暑い日が続いているが、この暑さは、今週末\nぐらいまで\n続くそうだ。"
+      },
+      {
+        "question_number": 10,
+        "question": "スーパーに、トマトのジャムという珍しいものがあった。ジャムは甘いから、トマトのすっぱさが苦手なわたしにも_______　と思って、買ってみた。",
+        "choices": [
+          "食べるかもしれない",
+          "食べられるかもしれない",
+          "食べるようになった",
+          "食べられるようになった"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "スーパーに、トマトのジャムという珍しいものがあった。ジャムは甘いから、トマトのすっぱさが苦手なわたしにも\n食べられるかもしれない\nと思って、買ってみた。"
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 16,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-grammar-exercise-16/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "息子は_______　_______　…★… _______　で、全然勉強しようとしない。",
+        "choices": [
+          "遊んで",
+          "友達と",
+          "悪い",
+          "ばかり"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "息子は悪い友達と\n遊んで\nばかりで、全然勉強しようとしない。"
+      },
+      {
+        "question_number": 2,
+        "question": "今日の夕飯は_______　_______　…★… _______　ことになった。",
+        "choices": [
+          "姉が作る",
+          "風を引いた",
+          "かわって",
+          "母に"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "今日の夕飯は風を引いた母に\nかわって\n姉が作ることになった。"
+      },
+      {
+        "question_number": 3,
+        "question": "兄は歌が_______　_______　…★… _______　放さない。",
+        "choices": [
+          "くせに",
+          "持つと",
+          "下手な",
+          "マイクを"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "兄は歌が下手なくせに\nマイクを\n持つと放さない。"
+      },
+      {
+        "question_number": 4,
+        "question": "父はいつも、「何も_______　_______　…★… _______　ほうがいい。」と言っている。",
+        "choices": [
+          "チャレンジして",
+          "失敗した",
+          "しないで",
+          "いるより"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "父はいつも、「何もしないでいるより\nチャレンジして\n失敗したほうがいい。」と言っている。"
+      },
+      {
+        "question_number": 5,
+        "question": "それは _______ _______ …★…",
+        "choices": [
+          "_______",
+          "わね。",
+          "おく",
+          "ほめ言葉",
+          "受け取って",
+          "として"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "それはほめ言葉として\n受け取って\nおくわね。"
+      },
+      {
+        "question_number": 6,
+        "question": "A　「じゃあ、あしたはコンサート会場の入り口に５時に集まりませんか。」",
+        "choices": [
+          "B　「コンサートは７時からですから、みんな_______　_______　…★… _______　と思いますよ。」",
+          "早く",
+          "開いていない",
+          "まだ",
+          "行っても"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "A「じゃあ、あしたはコンサート会場の入り口に５時に集まりませんか。」B「コンサートは７時からですから、みんな早く行っても\nまだ\n開いていないと思いますよ。」"
+      },
+      {
+        "question_number": 7,
+        "question": "男１　「来週、試合_______　_______　…★… _______　んですか。」",
+        "choices": [
+          "男２　「すみません。」",
+          "何をやっていた",
+          "練習に来ないで",
+          "なのに",
+          "ちょっとも"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "「来週、試合なのにちょっとも\n練習に来ないで\n何をやっていたんですか。」男２「すみません。」"
+      },
+      {
+        "question_number": 8,
+        "question": "私のこと、怒ってる？お願いだから",
+        "choices": [
+          "、________ ________",
+          "…★…",
+          "_______",
+          "。",
+          "を",
+          "怒らないで",
+          "のこと",
+          "わたし"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "私のこと、怒ってる？お願いだから、私のこと\nを\n怒らないで。"
+      },
+      {
+        "question_number": 9,
+        "question": "昨日_______　_______　…★… _______　から、一緒に行きませんか。",
+        "choices": [
+          "レストランが",
+          "ある",
+          "ばかりの",
+          "オープンした"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "昨日オープンしたばかりの\nレストランが\nあるから、一緒に行きませんか。"
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 17,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-grammar-exercise-17/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "女１　「あれ、財布がない。」",
+        "choices": [
+          "女２　「え、本当ですか。」",
+          "女１　「あ、ありました、ありました。」",
+          "女２　「もう、びっくり_______　よ。でも、よかったですね。」",
+          "させないでください",
+          "させてください",
+          "させないことにしてください",
+          "させることにしてください"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "女１「あれ、財布がない。」女２「え、本当ですか。」女１「あ、ありました、ありました。」女２「もう、びっくり\nさせないでください\nよ。でも、よかったですね。」"
+      },
+      {
+        "question_number": 2,
+        "question": "来週の遠足ですが、集合時間は９時です。遅れる場合は、_______　学校に連絡してください。",
+        "choices": [
+          "全く",
+          "必ず",
+          "非常に",
+          "決して"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "来週の遠足ですが、集合時間は９時です。遅れる場合は、\n必ず\n学校に連絡してください。"
+      },
+      {
+        "question_number": 3,
+        "question": "理屈の _______ は同社は必ずうまくいくはずだった。。",
+        "choices": [
+          "だけで",
+          "うえに",
+          "もとに",
+          "うえで"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "理屈の\nうえで\nは同社は必ずうまくいくはずだった。"
+      },
+      {
+        "question_number": 4,
+        "question": "問題は、わたしたちがどちらの方角へ向かうべきか _______ だ。",
+        "choices": [
+          "というもの",
+          "ということ",
+          "という",
+          "というわけ"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "問題は、わたしたちがどちらの方角へ向かうべきか\nということ\nだ。"
+      },
+      {
+        "question_number": 5,
+        "question": "このお菓子は小麦粉と卵と砂糖_______　できています。バターや牛乳は使っていません。」",
+        "choices": [
+          "ほどが",
+          "ほどで",
+          "だけが",
+          "だけで"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "このお菓子は小麦粉と卵と砂糖\nだけで\nできています。バターや牛乳は使っていません。"
+      },
+      {
+        "question_number": 6,
+        "question": "女　「社長、何をお飲みに_______　か。」",
+        "choices": [
+          "男　「じゃ、コーヒーで。」",
+          "です",
+          "いたします",
+          "なります",
+          "いただきます"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "女「社長、何をお飲みに\nなります\nか」男「じゃ、コーヒーで」"
+      },
+      {
+        "question_number": 7,
+        "question": "うちには３歳の娘がいるので、間違って_______　、薬は子供の手の届かないところに置いています。",
+        "choices": [
+          "飲み終わらないように",
+          "飲み終わらないようで",
+          "飲んでしまわないように",
+          "飲んでしまわないようで"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "うちには３歳の娘がいるので、間違って\n飲んでしまわないように\n、薬は子供の手の届かないところに置いています。"
+      },
+      {
+        "question_number": 8,
+        "question": "参加ご希望の方はメール_______　４月１８日までにご連絡ください。",
+        "choices": [
+          "でも",
+          "にて",
+          "には",
+          "にも"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "参加ご希望の方はメール\nにて\n４月１８日までにご連絡ください。"
+      },
+      {
+        "question_number": 9,
+        "question": "まだ仕事が終わっていないので、帰る_______　。",
+        "choices": [
+          "ほかはない",
+          "ほどのことではない",
+          "わけではない",
+          "わけにはいかない"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "まだ仕事が終わっていないので、帰る\nわけにはいかない\n。"
+      },
+      {
+        "question_number": 10,
+        "question": "学生　「先生、ご相談したいことがあるのですが、授業の後、先生の研究室に_______　よろしいでしょうか。」",
+        "choices": [
+          "先生　「はい、いいですよ。」",
+          "来られても",
+          "いらっしゃっても",
+          "うかがっても",
+          "行かれても"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "学生「先生、ご相談したいことがあるのですが、授業の後、先生の研究室に\nうかがっても\nよろしいでしょうか」先生「はい、いいですよ」"
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 18,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-grammar-exercise-18/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "この仕事は大変な_______　給料が安い。",
+        "choices": [
+          "わりに",
+          "かわりに",
+          "くせに",
+          "せいで"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "この仕事は大変な\nわりに\n給料が安い。"
+      },
+      {
+        "question_number": 2,
+        "question": "この数年、テレビで放送しているアニメの番組が多_______　ような気がする。",
+        "choices": [
+          "できる",
+          "かぎる",
+          "すぎる",
+          "がちだ"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "この数年、テレビで放送しているアニメの番組が多\nすぎる\nような気がする。"
+      },
+      {
+        "question_number": 3,
+        "question": "女１　「あと３０分 _______ ありませんょ。」",
+        "choices": [
+          "女２　「これも買いたい、あれも買いたい。時間が足りないわ。」",
+          "だけ",
+          "しか",
+          "もう",
+          "まだ"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "女１「あと３０分\nしか\nありませんょ。」女２「これも買いたい、あれも買いたい。時間が足りそうにないわ。」"
+      },
+      {
+        "question_number": 4,
+        "question": "初級クラスの学生には、分かり_______　例文で文法を説明する。",
+        "choices": [
+          "ように",
+          "にくい",
+          "ために",
+          "やすい"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "初級クラスの学生には、分かり\nやすい\n例文で文法を説明する。"
+      },
+      {
+        "question_number": 5,
+        "question": "不景気_______　、就職難という問題が目立ってきた。",
+        "choices": [
+          "に",
+          "では",
+          "には",
+          "で"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "不景気\nで\n、就職難という問題が目立ってきた。"
+      },
+      {
+        "question_number": 6,
+        "question": "１月２０日 _______ 指定口座にお振込みください。",
+        "choices": [
+          "までは",
+          "までに",
+          "までも",
+          "までにも"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "１月２０日\nまでに\n指定口座にお振込みください。"
+      },
+      {
+        "question_number": 7,
+        "question": "ＵＰＳはダラスの冷蔵流通センターを中心 _______ その企業のシステムを再設計した。",
+        "choices": [
+          "か",
+          "で",
+          "は",
+          "に"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "ＵＰＳはダラスの冷蔵流通センターを中心\nに\nその企業のシステムを再設計した。"
+      },
+      {
+        "question_number": 8,
+        "question": "先月からギターを始めたが、なかなかうまく弾けない。どんな練習を_______　上手になれるのだろうか。",
+        "choices": [
+          "したら",
+          "したのに",
+          "するより",
+          "することは"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "先月からギターを始めたが、なかなかうまく弾けない。どんな練習を\nしたら\n上手になれるのだろうか。"
+      },
+      {
+        "question_number": 9,
+        "question": "１９９７年から１９９９年 _______ 収益は着実に伸びていった。",
+        "choices": [
+          "において",
+          "にかんして",
+          "にかけて",
+          "にかわって"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "１９９７年から１９９９年\nにかけて\n収益は着実に伸びていった。"
+      },
+      {
+        "question_number": 10,
+        "question": "これは否定し _______ 事実だ！",
+        "choices": [
+          "がち",
+          "にくい",
+          "だらけ",
+          "がたい"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "これは否定し\nがたい\n事実だ！"
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 19,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-grammar-exercise-19/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "ご契約に_______　、必ずこちらの注意事項をお読みください。",
+        "choices": [
+          "対しては",
+          "比べては",
+          "従っては",
+          "際しては"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "ご契約に\n際しては\n、必ずこちらの注意事項をお読みください。"
+      },
+      {
+        "question_number": 2,
+        "question": "男１　「体の具合はどうですか。」",
+        "choices": [
+          "男２　「昨日から急に咳が止まらなくなり、呼吸するで　_______　苦しくなりました。",
+          "こそ",
+          "さえ",
+          "だけ",
+          "のみ"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "男１「体の具合はどうですか。」男２「昨日から急に咳が止まらなくなり、呼吸するで\nさえ\n苦しくなりました。"
+      },
+      {
+        "question_number": 3,
+        "question": "昨日の夜はとても疲れていたので、夕飯のあと、電気 _______ 消さないでソファで寝てしまった。",
+        "choices": [
+          "も",
+          "と",
+          "が",
+          "で"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "昨日の夜はとても疲れていたので、夕飯のあと、電気\nも\n消さないでソファで寝てしまった。"
+      },
+      {
+        "question_number": 4,
+        "question": "あの人は_______　短気だ。しかし、悪い人ではない。",
+        "choices": [
+          "いまにも",
+          "少しも",
+          "すぐに",
+          "たしかに"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "あの人は\nたしかに\n短気だ。しかし、悪い人ではない。"
+      },
+      {
+        "question_number": 5,
+        "question": "留学する_______　、留学ビザの申請が必要だ。",
+        "choices": [
+          "だけ",
+          "と",
+          "なら",
+          "とは"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "留学する\nなら\n、留学ビザの申請が必要だ。"
+      },
+      {
+        "question_number": 6,
+        "question": "「１」に入る最も適当なものはどれか。",
+        "choices": [
+          "寂しくなるです",
+          "寂しかったでしょう",
+          "寂しくないです",
+          "寂しくなかったです"
+        ],
+        "reading_passage": "一人暮らしをしている人で、ペットとして犬や猫を飼う人が増えています。かれらの場合、うちに帰れば孤独な世界が持っています。でも、ペットがいれば「１」。ペットはかけがえのない存在なのです。いっしょにお風呂に入ることもあるし、部屋で遊ぶこともあります。つまり、大切なパートナーなのです。\n「２」、ある調査でこんなことが分かりました。２０代の女性を対象に、「結婚したら、今いるペットはどうするのか」「３」、ほとんどが一緒に連れて行くと答えたそうです。そして、連れて行けないなら\n結婚しないかもしれないという人も少なくなかったそうです。例えば、一緒に「４」彼のマンションがペット禁止なので、結婚する「５」迷っているなどという女性もいたらしいです。",
+        "correct_choice_number": 3,
+        "explanation": "「１」に入る最も適当なものはどれか。=>\n寂しくないです"
+      },
+      {
+        "question_number": 7,
+        "question": "「２」に入る最も適当なものはどれか。",
+        "choices": [
+          "はじめに",
+          "ところで",
+          "あるいは",
+          "そのうち"
+        ],
+        "reading_passage": "一人暮らしをしている人で、ペットとして犬や猫を飼う人が増えています。かれらの場合、うちに帰れば孤独な世界が持っています。でも、ペットがいれば「１」。ペットはかけがえのない存在なのです。いっしょにお風呂に入ることもあるし、部屋で遊ぶこともあります。つまり、大切なパートナーなのです。\n「２」、ある調査でこんなことが分かりました。２０代の女性を対象に、「結婚したら、今いるペットはどうするのか」「３」、ほとんどが一緒に連れて行くと答えたそうです。そして、連れて行けないなら\n結婚しないかもしれないという人も少なくなかったそうです。例えば、一緒に「４」彼のマンションがペット禁止なので、結婚する「５」迷っているなどという女性もいたらしいです。",
+        "correct_choice_number": 2,
+        "explanation": "「２」に入る最も適当なものはどれか。=>\nところで"
+      },
+      {
+        "question_number": 8,
+        "question": "「３」に入る最も適当なものはどれか。",
+        "choices": [
+          "と聞いても",
+          "と聞くことに",
+          "と聞いたばかり",
+          "と聞いたところ"
+        ],
+        "reading_passage": "一人暮らしをしている人で、ペットとして犬や猫を飼う人が増えています。かれらの場合、うちに帰れば孤独な世界が持っています。でも、ペットがいれば「１」。ペットはかけがえのない存在なのです。いっしょにお風呂に入ることもあるし、部屋で遊ぶこともあります。つまり、大切なパートナーなのです。\n「２」、ある調査でこんなことが分かりました。２０代の女性を対象に、「結婚したら、今いるペットはどうするのか」「３」、ほとんどが一緒に連れて行くと答えたそうです。そして、連れて行けないなら\n結婚しないかもしれないという人も少なくなかったそうです。例えば、一緒に「４」彼のマンションがペット禁止なので、結婚する「５」迷っているなどという女性もいたらしいです。",
+        "correct_choice_number": 4,
+        "explanation": "「３」に入る最も適当なものはどれか。=>\nと聞いたところ"
+      },
+      {
+        "question_number": 9,
+        "question": "「４」に入る最も適当なものはどれか。",
+        "choices": [
+          "住むことになる",
+          "住むようにする",
+          "住むことがある",
+          "住んでみるはずの"
+        ],
+        "reading_passage": "一人暮らしをしている人で、ペットとして犬や猫を飼う人が増えています。かれらの場合、うちに帰れば孤独な世界が持っています。でも、ペットがいれば「１」。ペットはかけがえのない存在なのです。いっしょにお風呂に入ることもあるし、部屋で遊ぶこともあります。つまり、大切なパートナーなのです。\n「２」、ある調査でこんなことが分かりました。２０代の女性を対象に、「結婚したら、今いるペットはどうするのか」「３」、ほとんどが一緒に連れて行くと答えたそうです。そして、連れて行けないなら\n結婚しないかもしれないという人も少なくなかったそうです。例えば、一緒に「４」彼のマンションがペット禁止なので、結婚する「５」迷っているなどという女性もいたらしいです。",
+        "correct_choice_number": 1,
+        "explanation": "「４」に入る最も適当なものはどれか。=>\n住むことになる"
+      },
+      {
+        "question_number": 10,
+        "question": "「５」に入る最も適当なものはどれか。",
+        "choices": [
+          "つもり",
+          "ように",
+          "かどうか",
+          "ために"
+        ],
+        "reading_passage": "一人暮らしをしている人で、ペットとして犬や猫を飼う人が増えています。かれらの場合、うちに帰れば孤独な世界が持っています。でも、ペットがいれば「１」。ペットはかけがえのない存在なのです。いっしょにお風呂に入ることもあるし、部屋で遊ぶこともあります。つまり、大切なパートナーなのです。\n「２」、ある調査でこんなことが分かりました。２０代の女性を対象に、「結婚したら、今いるペットはどうするのか」「３」、ほとんどが一緒に連れて行くと答えたそうです。そして、連れて行けないなら\n結婚しないかもしれないという人も少なくなかったそうです。例えば、一緒に「４」彼のマンションがペット禁止なので、結婚する「５」迷っているなどという女性もいたらしいです。",
+        "correct_choice_number": 3,
+        "explanation": "「５」に入る最も適当なものはどれか。=>\nかどうか"
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 20,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-grammar-exercise-20/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "今回の試験は合格した_______　、点数はあまりよくないと思う。",
+        "choices": [
+          "にしては",
+          "にしても",
+          "にしても",
+          "によると"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "今回の試験は合格した\nにしても\n、点数はあまりよくないと思う。"
+      },
+      {
+        "question_number": 2,
+        "question": "女１　「今、何してんの？」",
+        "choices": [
+          "女２　「ちょうど宿題が終わった_______　なんだ。」",
+          "ところ",
+          "もの",
+          "こと",
+          "くらい"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "女１「今、何してんの？」女２「ちょうど宿題が終わった\nところ\nなんだ。」"
+      },
+      {
+        "question_number": 3,
+        "question": "あの新任の先生、顔つき_______　、怖そうね。",
+        "choices": [
+          "からこそ",
+          "としても",
+          "としたら",
+          "からして"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "あの新任の先生、顔つき\nからして\n、怖そうね。"
+      },
+      {
+        "question_number": 4,
+        "question": "弟は以前から_______　いたゲームソフトを買ってもらって喜んでいる。",
+        "choices": [
+          "ほしがって",
+          "はんして",
+          "もとづいて",
+          "ほしくて"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "弟は以前から\nほしがって\nいたゲームソフトを買ってもらって喜んでいる。"
+      },
+      {
+        "question_number": 5,
+        "question": "女１　「あの人の名前、山田さんだよね。」",
+        "choices": [
+          "女２　「違うよ。前田さんだよ。さっき教えた　_______　どうして忘れちゃうの？」",
+          "あとなのに",
+          "あとだから",
+          "ばかりなのに",
+          "ばかりだから"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "女１「あの人の名前、山田さんだよね。」女２「違うよ。前田さんだよ。さっき教えた\nばかりなのに\nどうして忘れちゃうの？」"
+      },
+      {
+        "question_number": 6,
+        "question": "父もわたしも、今日はかさがなくても_______　_______　…★… _______　が、雨に降られてしまった。",
+        "choices": [
+          "だろう",
+          "と思って",
+          "大丈夫",
+          "出かけた"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "父もわたしも、今日はかさがなくても大丈夫だろう\nと思って\n出かけたが、雨に降られてしまった。"
+      },
+      {
+        "question_number": 7,
+        "question": "コンタクトレンズや_______　_______　…★… _______　の結果をまとめた。",
+        "choices": [
+          "眼鏡",
+          "アンケート調査",
+          "に関する",
+          "の使用"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "コンタクトレンズや眼鏡の使用\nに関する\nアンケート調査の結果をまとめた。"
+      },
+      {
+        "question_number": 8,
+        "question": "女１　「昨日の映画、どうだった？」",
+        "choices": [
+          "女２　「これ_______　_______　…★… _______　見たことがないよ。」",
+          "映画は",
+          "ほど",
+          "今まで",
+          "面白い"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "女１「昨日の映画、どうだった？」女２「これほど面白い\n映画は\n今まで見たことがないよ。」"
+      },
+      {
+        "question_number": 9,
+        "question": "_______　_______　…★… _______　では、今の会社の実像がよく見えてくる。",
+        "choices": [
+          "をはじめとする",
+          "教育の",
+          "小学校",
+          "場"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "小学校をはじめとする\n教育の\n場では、今の会社の実像がよく見えてくる。"
+      },
+      {
+        "question_number": 10,
+        "question": "女１　「今度のさよならパーティーで、みんなで歌う歌は、これでいいですか。」",
+        "choices": [
+          "女２　「すみません。この歌は好きなんですが、少しむずかしいです_______　_______　…★… _______　してほしいです。」",
+          "の",
+          "ほか",
+          "に",
+          "から"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "女１「今度のさよならパーティーで、みんなで歌う歌は、これでいいですか。」女２「すみません。この歌は好きなんですが、少しむずかしいですからほか\nの\nにしてほしいです。」"
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 21,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-grammar-exercise-21/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "みなさん、これから二週間の農家生活を_______　ください。",
+        "choices": [
+          "お楽しみ",
+          "ご楽しみ",
+          "楽しみなさり",
+          "楽しまれ"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 2,
+        "question": "成功できるか_______　は、本人の努力によるものだ。",
+        "choices": [
+          "こうか",
+          "そうか",
+          "どんな",
+          "どうか"
+        ],
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 3,
+        "question": "女１　「来月、大阪に出張するんだけど、いいホテル、知らない？」",
+        "choices": [
+          "女２　「駅の近くで_______　、一つ、知ってるよ。」",
+          "よくないと",
+          "なくてもいいと",
+          "よくなければ",
+          "なくてもよければ"
+        ],
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 4,
+        "question": "雨が早く止む_______　ですね。",
+        "choices": [
+          "たらいい",
+          "といい",
+          "ばいい",
+          "とよかった"
+        ],
+        "correct_choice_number": 2
+      },
+      {
+        "question_number": 5,
+        "question": "女１　「ちょっと_______　ますが、東京駅へはどう行ったらいいでしょうか。」",
+        "choices": [
+          "女２　「この道をまっすく行って、交差点を右に曲がってください。」",
+          "うかがい",
+          "お目にかかり",
+          "頂戴し",
+          "かしこまり"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 6,
+        "question": "「１」に入る最も適当なものはどれか。",
+        "choices": [
+          "入っている",
+          "入れてある",
+          "入っておく",
+          "入れておく"
+        ],
+        "reading_passage": "最近は、飲み物は大きなペットボトルで買ってきた、冷蔵庫「１」人が多い。皆さんは飲み終わったら、そのボトルをどうしているのだろうか。今は、リサイクルの「２」に、普通のゴミとは別に集めている地域が多い。最近の新聞社の調査によれば、８割の人がリサイクルに出しているそうだ。\n「３」、リサイクルされて、何に利用されているかご存知だろうか。ペットボトルはビンと違って、洗ってもう一度使われる「４」。衣類や文房具などの素材、原料になっているのだ。つまり、まったく、「５」、別の商品になってお店で売られているのである。しかし、それがリサイクルで作られた商品だとわかって買う人は少ない。同じ新聞社の調査によると、３割に過ぎないそうだ。",
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 7,
+        "question": "「２」に入る最も適当なものはどれか。",
+        "choices": [
+          "ため",
+          "わけ",
+          "つもり",
+          "こと"
+        ],
+        "reading_passage": "最近は、飲み物は大きなペットボトルで買ってきた、冷蔵庫「１」人が多い。皆さんは飲み終わったら、そのボトルをどうしているのだろうか。今は、リサイクルの「２」に、普通のゴミとは別に集めている地域が多い。最近の新聞社の調査によれば、８割の人がリサイクルに出しているそうだ。\n「３」、リサイクルされて、何に利用されているかご存知だろうか。ペットボトルはビンと違って、洗ってもう一度使われる「４」。衣類や文房具などの素材、原料になっているのだ。つまり、まったく、「５」、別の商品になってお店で売られているのである。しかし、それがリサイクルで作られた商品だとわかって買う人は少ない。同じ新聞社の調査によると、３割に過ぎないそうだ。",
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 8,
+        "question": "「３」に入る最も適当なものはどれか。",
+        "choices": [
+          "もちろん",
+          "たとえば",
+          "それでは",
+          "そのほか"
+        ],
+        "reading_passage": "最近は、飲み物は大きなペットボトルで買ってきた、冷蔵庫「１」人が多い。皆さんは飲み終わったら、そのボトルをどうしているのだろうか。今は、リサイクルの「２」に、普通のゴミとは別に集めている地域が多い。最近の新聞社の調査によれば、８割の人がリサイクルに出しているそうだ。\n「３」、リサイクルされて、何に利用されているかご存知だろうか。ペットボトルはビンと違って、洗ってもう一度使われる「４」。衣類や文房具などの素材、原料になっているのだ。つまり、まったく、「５」、別の商品になってお店で売られているのである。しかし、それがリサイクルで作られた商品だとわかって買う人は少ない。同じ新聞社の調査によると、３割に過ぎないそうだ。",
+        "correct_choice_number": 3
+      },
+      {
+        "question_number": 9,
+        "question": "「４」に入る最も適当なものはどれか。",
+        "choices": [
+          "というのだ",
+          "ということになる",
+          "ということだ",
+          "ということはない"
+        ],
+        "reading_passage": "最近は、飲み物は大きなペットボトルで買ってきた、冷蔵庫「１」人が多い。皆さんは飲み終わったら、そのボトルをどうしているのだろうか。今は、リサイクルの「２」に、普通のゴミとは別に集めている地域が多い。最近の新聞社の調査によれば、８割の人がリサイクルに出しているそうだ。\n「３」、リサイクルされて、何に利用されているかご存知だろうか。ペットボトルはビンと違って、洗ってもう一度使われる「４」。衣類や文房具などの素材、原料になっているのだ。つまり、まったく、「５」、別の商品になってお店で売られているのである。しかし、それがリサイクルで作られた商品だとわかって買う人は少ない。同じ新聞社の調査によると、３割に過ぎないそうだ。",
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 10,
+        "question": "「５」に入る最も適当なものはどれか。",
+        "choices": [
+          "場所を変えて",
+          "姿を変えて",
+          "値段を変えて",
+          "品質を変えて"
+        ],
+        "reading_passage": "最近は、飲み物は大きなペットボトルで買ってきた、冷蔵庫「１」人が多い。皆さんは飲み終わったら、そのボトルをどうしているのだろうか。今は、リサイクルの「２」に、普通のゴミとは別に集めている地域が多い。最近の新聞社の調査によれば、８割の人がリサイクルに出しているそうだ。\n「３」、リサイクルされて、何に利用されているかご存知だろうか。ペットボトルはビンと違って、洗ってもう一度使われる「４」。衣類や文房具などの素材、原料になっているのだ。つまり、まったく、「５」、別の商品になってお店で売られているのである。しかし、それがリサイクルで作られた商品だとわかって買う人は少ない。同じ新聞社の調査によると、３割に過ぎないそうだ。",
+        "correct_choice_number": 2
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 22,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-grammar-exercise-22/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "女１　「山頂まであと２時間もありますけど、大丈夫ですか。」",
+        "choices": [
+          "女２　「ええいくら歩い　_______　平気ですよ。",
+          "ては",
+          "ても",
+          "でも",
+          "たら"
+        ],
+        "correct_choice_number": 2
+      },
+      {
+        "question_number": 2,
+        "question": "マスコミの報道_______　、インドの自動車市場は急速に成長しているそうだ。",
+        "choices": [
+          "によると",
+          "によって",
+          "により",
+          "になって"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 3,
+        "question": "詳しく調べた_______　、事件の報告書を作成する。",
+        "choices": [
+          "最中",
+          "上は",
+          "ほど",
+          "上で"
+        ],
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 4,
+        "question": "山口　「すみませんが、この書類を広田さんに渡して_______　。お願いします。",
+        "choices": [
+          "北川　「いいですよ。」",
+          "おいてあげますよ",
+          "おこうと思えますか",
+          "おいてもらえませんか",
+          "おこうと思いませんよ"
+        ],
+        "correct_choice_number": 3
+      },
+      {
+        "question_number": 5,
+        "question": "女１　「沖縄旅行はどうだった？」",
+        "choices": [
+          "女２　「海が青くて、料理もおいしくて、最高だったよ。」",
+          "女１　「いいなあ。わたしも　_______　一度行ってみたいなあ。」",
+          "いつのまにか",
+          "いつ",
+          "いつでも",
+          "いつか"
+        ],
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 6,
+        "question": "昨日動物園に行ったら、先月_______　_______　…★… _______　見ることができました。",
+        "choices": [
+          "生まれた",
+          "ライオンの",
+          "ばかりの",
+          "赤ちゃんを"
+        ],
+        "correct_choice_number": 2
+      },
+      {
+        "question_number": 7,
+        "question": "男１　「辞書を_______　_______　…★… _______　ことができますか。」",
+        "choices": [
+          "男２　「ええ、大丈夫です。」",
+          "日本語の",
+          "読む",
+          "使わずに",
+          "小説を"
+        ],
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 8,
+        "question": "庭に植えたスイカは、これまでなかなか_______　_______　…★… _______　今年になっておいしいのができた。",
+        "choices": [
+          "あきらめないで",
+          "ようやく",
+          "うまく育てなかったが",
+          "毎年チャレンジしていたら"
+        ],
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 9,
+        "question": "母の誕生日に_______　_______　…★… _______　贈った。",
+        "choices": [
+          "編んで",
+          "心を",
+          "セーターを",
+          "込めて"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 10,
+        "question": "最近、子供がピアノを習いたいと言い出した。わたしは、子供が_______　_______　…★… _______　と思っている。",
+        "choices": [
+          "したい",
+          "やりたい",
+          "やらせて",
+          "と思うことは"
+        ],
+        "correct_choice_number": 3
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 23,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-grammar-exercise-23/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "これ_______　の傷で、大騒ぎすることはないよ。",
+        "choices": [
+          "ほど",
+          "より",
+          "ぐらい",
+          "こそ"
+        ],
+        "correct_choice_number": 3
+      },
+      {
+        "question_number": 2,
+        "question": "ガソリンの値段が高くなった。毎日車を運転するわたし_______　これは大きな問題だ。",
+        "choices": [
+          "では",
+          "からは",
+          "にとって",
+          "によって"
+        ],
+        "correct_choice_number": 3
+      },
+      {
+        "question_number": 3,
+        "question": "男１　「昨日からずっと頭が痛いんですが、どこかいい病院を知りませんか。」",
+        "choices": [
+          "男２　「そうですねえ。A病院に行って_______　。」",
+          "みさせてください",
+          "みてもいいでしょうか",
+          "みさせてほしいのですが",
+          "みたらどうでしょう"
+        ],
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 4,
+        "question": "妹　「お兄ちゃん、もう６時過ぎたよ。暗く_______　帰ろうよ。」",
+        "choices": [
+          "兄　「そうだね。」",
+          "なるときで",
+          "ならないうちに",
+          "なるまえ",
+          "ならないあいだ"
+        ],
+        "correct_choice_number": 2
+      },
+      {
+        "question_number": 5,
+        "question": "国籍や性別_______　差別は許せない。",
+        "choices": [
+          "までの",
+          "による",
+          "のような",
+          "とする"
+        ],
+        "correct_choice_number": 2
+      },
+      {
+        "question_number": 6,
+        "question": "あの美術館は曜日_______　_______　…★… _______　窓口で確認したほうがいいよ。",
+        "choices": [
+          "閉まる時間",
+          "違うから",
+          "によって",
+          "が"
+        ],
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 7,
+        "question": "男１　「昨日宝くじを買ったんです。」",
+        "choices": [
+          "男２　「もし_______　_______　…★… _______　、何に使いますか。」",
+          "一千万円の",
+          "当たった",
+          "賞金が",
+          "としたら"
+        ],
+        "correct_choice_number": 2
+      },
+      {
+        "question_number": 8,
+        "question": "学生　「田中先生はいらっしゃいますか。」",
+        "choices": [
+          "秘書　「今、ほかの学生と話して_______　_______　…★… _______　ください。」",
+          "すこし",
+          "から",
+          "待って",
+          "いらっしゃいます"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 9,
+        "question": "自分で野菜を作ってみて、おいしい野菜を育てる_______　_______　…★… _______　わかりました。",
+        "choices": [
+          "ことが",
+          "大変な",
+          "ことか",
+          "どんなに"
+        ],
+        "correct_choice_number": 2
+      },
+      {
+        "question_number": 10,
+        "question": "川名寺は桜が_______　_______　…★… _______　秋の景色もすばらしいです。",
+        "choices": [
+          "桜だけでなく",
+          "ことで",
+          "有名ですが",
+          "きれいな"
+        ],
+        "correct_choice_number": 4
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 24,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-grammar-exercise-24/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "最近のトイレって立ち上がると、自動で水が流れる　_______　。",
+        "choices": [
+          "にきまっている",
+          "ことにしている",
+          "ものになっている",
+          "ようになっている"
+        ],
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 2,
+        "question": "田中さんは家に来る　_______　プレゼントを持ってきます。",
+        "choices": [
+          "うちに",
+          "たびに",
+          "ごとに",
+          "とおりに"
+        ],
+        "correct_choice_number": 2
+      },
+      {
+        "question_number": 3,
+        "question": "朝は曇っていたが、　_______　晴れてきて、午後には快晴になった。",
+        "choices": [
+          "次第に",
+          "かわりに",
+          "なかなか",
+          "ために"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 4,
+        "question": "この映画は大人には面白くても、子供には　_______　分からないのだ。",
+        "choices": [
+          "いまにも",
+          "さっぱり",
+          "ぜひ",
+          "なるべく"
+        ],
+        "correct_choice_number": 2
+      },
+      {
+        "question_number": 5,
+        "question": "年を取るに　_______　目も耳も悪くなってきました。",
+        "choices": [
+          "ついて",
+          "対して",
+          "とって",
+          "つれて"
+        ],
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 6,
+        "question": "社員「ヨシダ電機の木村さんからお電話です」",
+        "choices": [
+          "部長「またかよ。いないということに　_______　くれ」",
+          "しておいて",
+          "なっておいて",
+          "してもらって",
+          "なってもらって"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 7,
+        "question": "この番組に　_______　ご意見、ご感想をお寄せください。",
+        "choices": [
+          "ついた",
+          "つく",
+          "つきの",
+          "ついての"
+        ],
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 8,
+        "question": "仕事が忙しいので今は話し　_______　ください。",
+        "choices": [
+          "終わらないで",
+          "すぎないで",
+          "かけないで",
+          "止まないで"
+        ],
+        "correct_choice_number": 3
+      },
+      {
+        "question_number": 9,
+        "question": "先輩　「大学生活で困ったことがあったら、授業のこと　_______　相談してくださいね。」",
+        "choices": [
+          "なら",
+          "くらい",
+          "でも何でも",
+          "さえ"
+        ],
+        "correct_choice_number": 3
+      },
+      {
+        "question_number": 10,
+        "question": "インターネットで注文したセーターは、実際に着てみるまでサイズが　_______　が、ちょうどよかった。",
+        "choices": [
+          "合わなかった",
+          "合うかどうか知らなかった",
+          "合わないかもしれない",
+          "合うか不安だった"
+        ],
+        "correct_choice_number": 4
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 25,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-grammar-exercise-25/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "田中「何してるの？」",
+        "choices": [
+          "中野「友達が来る　_______　を待っているのよ。」",
+          "の",
+          "こと",
+          "ところ",
+          "ばかり"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 2,
+        "question": "彼は全科目　_______　優秀な成績を獲得した。",
+        "choices": [
+          "に関して",
+          "について",
+          "に対して",
+          "にわたって"
+        ],
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 3,
+        "question": "この学校は成績に　_______　クラスを決めます。",
+        "choices": [
+          "もとに",
+          "もとづいて",
+          "ともに",
+          "こたえて"
+        ],
+        "correct_choice_number": 2
+      },
+      {
+        "question_number": 4,
+        "question": "この画家の描く絵はまるで写真の　_______　。",
+        "choices": [
+          "ようだ",
+          "らしい",
+          "みたいだ",
+          "そうだ"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 5,
+        "question": "そばは、ラーメンやスパゲッティ　_______　カロリーが低い。",
+        "choices": [
+          "通して",
+          "によって",
+          "にくらべて",
+          "として"
+        ],
+        "correct_choice_number": 3
+      },
+      {
+        "question_number": 6,
+        "question": "ただいま、この番組　_______　　_______　…★… _______　ご要望を募集しております。",
+        "choices": [
+          "皆様の",
+          "に対する",
+          "ご意見や",
+          "視聴者の"
+        ],
+        "correct_choice_number": 3
+      },
+      {
+        "question_number": 7,
+        "question": "すみませんが、あした配達してもらいたいんですけど…」",
+        "choices": [
+          "「申し訳ありませんが、翌日配達の受付は　_______　　_______　…★… _______　おりまして…」",
+          "4時",
+          "と",
+          "まで",
+          "なって"
+        ],
+        "correct_choice_number": 2
+      },
+      {
+        "question_number": 8,
+        "question": "営業成績に　_______　　_______　…★… _______　決めましょう。",
+        "choices": [
+          "どうか",
+          "基づいて",
+          "上げるか",
+          "給料を"
+        ],
+        "correct_choice_number": 3
+      },
+      {
+        "question_number": 9,
+        "question": "必ず　_______　　_______　…★… _______　すっかり忘れていた。",
+        "choices": [
+          "ことを",
+          "会議の資料の",
+          "今日中に",
+          "作らなくてはいけない"
+        ],
+        "correct_choice_number": 2
+      },
+      {
+        "question_number": 10,
+        "question": "学者　_______　　_______　…★… _______　違います。",
+        "choices": [
+          "に対する",
+          "温暖化",
+          "意見が",
+          "によって"
+        ],
+        "correct_choice_number": 1
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 26,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-grammar-exercise-26/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "買った_____なのに、ボタンが取れそうだ。どうしたらいいか。",
+        "choices": [
+          "ばかり",
+          "こと",
+          "ところ",
+          "場合"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 2,
+        "question": "「皆さんは、インターネットに40年以上の歴史があることを　____　か？」",
+        "choices": [
+          "知ります",
+          "ご存じです",
+          "存じしています",
+          "知っていないのです"
+        ],
+        "correct_choice_number": 2
+      },
+      {
+        "question_number": 3,
+        "question": "せっかく試合に勝てそうだったのに負けてしまって残念で　_______　。",
+        "choices": [
+          "とどまる",
+          "すぎる",
+          "たまる",
+          "たまらない"
+        ],
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 4,
+        "question": "夕方ケーキ屋に行ったら、ほとんど売り切れていて、チョコレートケーキとチーズケーキが一個　____　が残っていなかった。",
+        "choices": [
+          "ずつだけ",
+          "ずつばかり",
+          "ずつの",
+          "ずつしか"
+        ],
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 5,
+        "question": "今日（　　）ちょうど締め切りまで70日になりました。",
+        "choices": [
+          "を",
+          "で",
+          "に",
+          "が"
+        ],
+        "correct_choice_number": 2
+      },
+      {
+        "question_number": 6,
+        "question": "「___１___」に入る最も適当なものはどれか。",
+        "choices": [
+          "ながらいます",
+          "ないはずがありません",
+          "つつあります",
+          "ないであります"
+        ],
+        "reading_passage": "今「プロボノ」が流行し「___１___」。「プロボノ」とは仕事で身につけたさまざまな専門の知識などを使って、NPO（非営利団体）などでボランティアをする「___２___」です。忙しい職業人がなぜ「プロボノ」に参加するのでしょうか。もともとボランティアに興味があったり、決して出会うことのないような人との出会いを求めたり、いつもと異なる仕事をしたかったりなど動機はさまざまです。会社も歓迎しています。「プロボノ」を「___３___」社員が能力を高めることが結局は会社の「___４___」にもなると考えているからです。仕事の「___５___」使う能力は限られています。違う仕事をすることで思いがけない能力が引き出されたり、発想力が増強されたりするのを歓迎しているのです。NPOにもボランティアにも会社にもいい「プロボノ」がますます盛んになることは間違いないでしょう。",
+        "correct_choice_number": 3
+      },
+      {
+        "question_number": 7,
+        "question": "「___２___」に入る最も適当なものはどれか。",
+        "choices": [
+          "わけ",
+          "こと",
+          "もの",
+          "はず"
+        ],
+        "reading_passage": "今「プロボノ」が流行し「___１___」。「プロボノ」とは仕事で身につけたさまざまな専門の知識などを使って、NPO（非営利団体）などでボランティアをする「___２___」です。忙しい職業人がなぜ「プロボノ」に参加するのでしょうか。もともとボランティアに興味があったり、決して出会うことのないような人との出会いを求めたり、いつもと異なる仕事をしたかったりなど動機はさまざまです。会社も歓迎しています。「プロボノ」を「___３___」社員が能力を高めることが結局は会社の「___４___」にもなると考えているからです。仕事の「___５___」使う能力は限られています。違う仕事をすることで思いがけない能力が引き出されたり、発想力が増強されたりするのを歓迎しているのです。NPOにもボランティアにも会社にもいい「プロボノ」がますます盛んになることは間違いないでしょう。",
+        "correct_choice_number": 2
+      },
+      {
+        "question_number": 8,
+        "question": "「___３___」に入る最も適当なものはどれか。",
+        "choices": [
+          "通る",
+          "通った",
+          "通って",
+          "通して"
+        ],
+        "reading_passage": "今「プロボノ」が流行し「___１___」。「プロボノ」とは仕事で身につけたさまざまな専門の知識などを使って、NPO（非営利団体）などでボランティアをする「___２___」です。忙しい職業人がなぜ「プロボノ」に参加するのでしょうか。もともとボランティアに興味があったり、決して出会うことのないような人との出会いを求めたり、いつもと異なる仕事をしたかったりなど動機はさまざまです。会社も歓迎しています。「プロボノ」を「___３___」社員が能力を高めることが結局は会社の「___４___」にもなると考えているからです。仕事の「___５___」使う能力は限られています。違う仕事をすることで思いがけない能力が引き出されたり、発想力が増強されたりするのを歓迎しているのです。NPOにもボランティアにも会社にもいい「プロボノ」がますます盛んになることは間違いないでしょう。",
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 9,
+        "question": "「___４___」に入る最も適当なものはどれか。",
+        "choices": [
+          "ため",
+          "おかげ",
+          "せい",
+          "から"
+        ],
+        "reading_passage": "今「プロボノ」が流行し「___１___」。「プロボノ」とは仕事で身につけたさまざまな専門の知識などを使って、NPO（非営利団体）などでボランティアをする「___２___」です。忙しい職業人がなぜ「プロボノ」に参加するのでしょうか。もともとボランティアに興味があったり、決して出会うことのないような人との出会いを求めたり、いつもと異なる仕事をしたかったりなど動機はさまざまです。会社も歓迎しています。「プロボノ」を「___３___」社員が能力を高めることが結局は会社の「___４___」にもなると考えているからです。仕事の「___５___」使う能力は限られています。違う仕事をすることで思いがけない能力が引き出されたり、発想力が増強されたりするのを歓迎しているのです。NPOにもボランティアにも会社にもいい「プロボノ」がますます盛んになることは間違いないでしょう。",
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 10,
+        "question": "「___５___」に入る最も適当なものはどれか。",
+        "choices": [
+          "上で",
+          "下で",
+          "上は",
+          "下は"
+        ],
+        "reading_passage": "今「プロボノ」が流行し「___１___」。「プロボノ」とは仕事で身につけたさまざまな専門の知識などを使って、NPO（非営利団体）などでボランティアをする「___２___」です。忙しい職業人がなぜ「プロボノ」に参加するのでしょうか。もともとボランティアに興味があったり、決して出会うことのないような人との出会いを求めたり、いつもと異なる仕事をしたかったりなど動機はさまざまです。会社も歓迎しています。「プロボノ」を「___３___」社員が能力を高めることが結局は会社の「___４___」にもなると考えているからです。仕事の「___５___」使う能力は限られています。違う仕事をすることで思いがけない能力が引き出されたり、発想力が増強されたりするのを歓迎しているのです。NPOにもボランティアにも会社にもいい「プロボノ」がますます盛んになることは間違いないでしょう。",
+        "correct_choice_number": 1
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 27,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-grammar-exercise-27/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "あれ？事務所にだれもいない？今日は　_______　。",
+        "choices": [
+          "平日じゃなかったっけ",
+          "平日のはずだったのに",
+          "平日のはずだったっけ",
+          "平日じゃないはずなのに"
+        ],
+        "correct_choice_number": 2
+      },
+      {
+        "question_number": 2,
+        "question": "幼稚園の入園を申し込む　_______　、どんな資料が必要になりますか。",
+        "choices": [
+          "には",
+          "というのは",
+          "では",
+          "というのに"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 3,
+        "question": "相手が悪いのだからこちらからあやまる　_______　。",
+        "choices": [
+          "ことだ",
+          "ことになっている",
+          "ことがある",
+          "ことはない"
+        ],
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 4,
+        "question": "彼氏と大げんかして、お前とはもう別れたい　_______　言われた。",
+        "choices": [
+          "とまで",
+          "にまで",
+          "までと",
+          "までに"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 5,
+        "question": "森さんが飼っている魚は、とてもきれいな色　_______　している。",
+        "choices": [
+          "に",
+          "を",
+          "で",
+          "が"
+        ],
+        "correct_choice_number": 2
+      },
+      {
+        "question_number": 6,
+        "question": "親　_______　子供ほど大切なものはありません。",
+        "choices": [
+          "に対して",
+          "にとって",
+          "について",
+          "によって"
+        ],
+        "correct_choice_number": 2
+      },
+      {
+        "question_number": 7,
+        "question": "「午後から２階の会議室を　_______　いいでしょうか」",
+        "choices": [
+          "使ってくださっても",
+          "お使いしても",
+          "使っていただいても",
+          "使わせていただいても"
+        ],
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 8,
+        "question": "まだ若いつもりだったのに、電車で席を　_______　ショックだった。",
+        "choices": [
+          "ゆずって",
+          "ゆずられても",
+          "ゆずられて",
+          "ゆずっては"
+        ],
+        "correct_choice_number": 3
+      },
+      {
+        "question_number": 9,
+        "question": "長く学校を休んだので勉強が遅れ　_______　です。",
+        "choices": [
+          "っぽい",
+          "ずくめ",
+          "げ",
+          "がち"
+        ],
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 10,
+        "question": "「これ　_______　の風邪だったら、一日でも休んでいれば治りますよ。」",
+        "choices": [
+          "だけ",
+          "ほど",
+          "ぐらい",
+          "しか"
+        ],
+        "correct_choice_number": 3
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 28,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-grammar-exercise-28/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "一度ぐらい　_______　　_______　…★… _______　ですよ。",
+        "choices": [
+          "って",
+          "失敗した",
+          "ことはない",
+          "あきらめる"
+        ],
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 2,
+        "question": "あそこで　_______　　_______　…★… _______　は山田さんです。",
+        "choices": [
+          "テレビ",
+          "見ている",
+          "を",
+          "人"
+        ],
+        "correct_choice_number": 2
+      },
+      {
+        "question_number": 3,
+        "question": "そぼは　_______　　_______　…★… _______　こともあります。",
+        "choices": [
+          "高い山に",
+          "元気で",
+          "年の割に",
+          "のぼる"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 4,
+        "question": "北海道に住んでいた時、雪のため、　_______　　_______　…★… _______　ことはよくあった。",
+        "choices": [
+          "にも",
+          "出よう",
+          "外に",
+          "出られなかった"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 6,
+        "question": "お店ではどんな　_______　　_______　…★… _______　なりません。",
+        "choices": [
+          "敬語を",
+          "使わなければ",
+          "に対しても",
+          "お客"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 7,
+        "question": "家族　_______　　_______　…★… _______　だけです。",
+        "choices": [
+          "は",
+          "女",
+          "母",
+          "で"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 8,
+        "question": "あの店は味も　_______　　_______　…★… _______　安くはない。",
+        "choices": [
+          "いい",
+          "かわりに",
+          "値段も",
+          "雰囲気も"
+        ],
+        "correct_choice_number": 2
+      },
+      {
+        "question_number": 9,
+        "question": "最近は　_______　　_______　…★… _______　レストランでのマナーが悪い。",
+        "choices": [
+          "ばかりか",
+          "親",
+          "子供",
+          "までも"
+        ],
+        "correct_choice_number": 2
+      },
+      {
+        "question_number": 10,
+        "question": "先生　「調べた結果を説明するときは、　_______　　_______　…★… _______　なります。",
+        "choices": [
+          "わかりやすく",
+          "示しながら",
+          "表やグラフを",
+          "説明すると"
+        ],
+        "correct_choice_number": 4
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 29,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n3-grammar-exercise-29/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "「君は暑さ　_______　弱いでしょ。今日は外出するのをやめておこう。」",
+        "choices": [
+          "「それはだめ。せっかくのゴールデンウィークなんだから。」",
+          "で",
+          "が",
+          "を",
+          "に"
+        ],
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 2,
+        "question": "このマンションは、駅に近い　_______　価格が高い。",
+        "choices": [
+          "ために",
+          "ように",
+          "によって",
+          "おかげで"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 3,
+        "question": "子供のとき、よくこの川で遊んだ　_______　です。",
+        "choices": [
+          "ところ",
+          "こと",
+          "もの",
+          "ものだ"
+        ],
+        "correct_choice_number": 3
+      },
+      {
+        "question_number": 4,
+        "question": "A「このチョコレートは星の形　_______　していて、可愛いですね。」",
+        "choices": [
+          "B「へえ、ほんとうだ。」",
+          "を",
+          "が",
+          "に",
+          "と"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 5,
+        "question": "久しぶりに実家に帰ったが、隣のおばあちゃんはもう８０歳近いということを　_______　ほど元気だった。",
+        "choices": [
+          "感じられる",
+          "感じられない",
+          "感じさせる",
+          "感じさせない"
+        ],
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 6,
+        "question": "リンさんはうれしさの　_______　泣き出してしまった。",
+        "choices": [
+          "あまり",
+          "のこり",
+          "わけて",
+          "おかげ"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 7,
+        "question": "木村　「山田さんのそのネックレスがかわいいですね、どこで買ったんですか？」",
+        "choices": [
+          "山田　「ああ、これは　_______　、自分で作ったんです。」",
+          "買わなくて",
+          "買ったんじゃなくて",
+          "買うものではなく",
+          "買ったものじゃない"
+        ],
+        "correct_choice_number": 2
+      },
+      {
+        "question_number": 8,
+        "question": "ピアノを練習している　_______　、上手になりました。",
+        "choices": [
+          "あいだに",
+          "うちに",
+          "場合に",
+          "ところに"
+        ],
+        "correct_choice_number": 2
+      },
+      {
+        "question_number": 9,
+        "question": "海外旅行は無理だとしても温泉　_______　行きたいわ。",
+        "choices": [
+          "ぐらい",
+          "ほど",
+          "しか",
+          "ばかり"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 10,
+        "question": "ニュースで聞いたのですが、来年タクシーの運賃が上げされるという　_______　ですよ。",
+        "choices": [
+          "もの",
+          "ところ",
+          "こと",
+          "はず"
+        ],
+        "correct_choice_number": 3
+      }
+    ],
+    "vocabulary": []
+  }
+]

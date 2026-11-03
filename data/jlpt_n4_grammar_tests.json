@@ -1,0 +1,4293 @@
+[
+  {
+    "page": 1,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-grammar-tests/1/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "A: その 傘 、かわいいですね。 B: ありがとう。 誕生日 に 母 が 買 って ( [...] ) んです。",
+        "choices": [
+          "くれた",
+          "くれます",
+          "あげた",
+          "もらった"
+        ],
+        "answer": "くれた"
+      },
+      {
+        "question_number": 2,
+        "question": "彼女 はいつもおしゃれで、モデル ( [...] ) の 服 を 着 ています。",
+        "choices": [
+          "らしい",
+          "よう",
+          "風",
+          "みたい"
+        ],
+        "answer": "風"
+      },
+      {
+        "question_number": 3,
+        "question": "私 が 案内 の 山田 ( [...] ) 。",
+        "choices": [
+          "でなります",
+          "でいらっしゃいます",
+          "でございます",
+          "でいたします"
+        ],
+        "answer": "でございます"
+      },
+      {
+        "question_number": 4,
+        "question": "もっと 早 く 寝 れ ( [...] ) 。 今日 はとても 眠 い。",
+        "choices": [
+          "てよかった",
+          "たらどうですか",
+          "ばよかった",
+          "なくてもいい"
+        ],
+        "answer": "ばよかった"
+      },
+      {
+        "question_number": 5,
+        "question": "忘 れない ( [...] ) 、メモします。",
+        "choices": [
+          "に",
+          "ため",
+          "ように",
+          "ので"
+        ],
+        "answer": "ように"
+      },
+      {
+        "question_number": 6,
+        "question": "明日 、 雨 の ( [...] ) 、 旅行 には 行 きません。",
+        "choices": [
+          "ばあいを",
+          "ばあいは",
+          "ばあいから",
+          "ばあいで"
+        ],
+        "answer": "ばあいは"
+      },
+      {
+        "question_number": 7,
+        "question": "A: 少々 ( [...] ) 。 私 が 確認 します。",
+        "choices": [
+          "お待ってください",
+          "お待ちください",
+          "お待たせるください",
+          "お待ちしてください"
+        ],
+        "answer": "お待ちください"
+      },
+      {
+        "question_number": 8,
+        "question": "時間 があれ ( [...] ) 、 映画 を 見 に 行 きたいです。",
+        "choices": [
+          "たら",
+          "と",
+          "ば",
+          "なら"
+        ],
+        "answer": "ば"
+      },
+      {
+        "question_number": 9,
+        "question": "A: 昨日 の 夜 、 何 をしていましたか。 B: 図書館 で 本 を ( [...] ) いました。",
+        "choices": [
+          "読んだ",
+          "読み",
+          "読んで",
+          "読む"
+        ],
+        "answer": "読んで"
+      },
+      {
+        "question_number": 10,
+        "question": "A: あの 店 の 前 に 人 がたくさんいますね。 B: ええ、きっと 人気 の 店 ( [...] ) ですよ。",
+        "choices": [
+          "のよう",
+          "ようこと",
+          "そうです",
+          "のような"
+        ],
+        "answer": "のよう"
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-grammar-tests/2/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "日本語が ( [...] ) 上手になっていますね。",
+        "choices": [
+          "どんどん",
+          "早い",
+          "ぜんぜん",
+          "速い"
+        ],
+        "answer": "どんどん"
+      },
+      {
+        "question_number": 2,
+        "question": "宿題 は ( [...] ) 終 わりました。",
+        "choices": [
+          "ぜんぜん",
+          "ほとんど",
+          "あまり",
+          "なかなか"
+        ],
+        "answer": "ほとんど"
+      },
+      {
+        "question_number": 3,
+        "question": "A: 風邪 をひいたみたいです。 B: 薬 を 飲 んで、 早 く 寝 ( [...] ) 。",
+        "choices": [
+          "てどうですか",
+          "ればどうですか",
+          "るとどうですか",
+          "たらどうですか"
+        ],
+        "answer": "たらどうですか"
+      },
+      {
+        "question_number": 4,
+        "question": "( [...] ) 雨 が 降 ったら、ピクニックは 行 きません。",
+        "choices": [
+          "でも",
+          "そして",
+          "もし",
+          "から"
+        ],
+        "answer": "もし"
+      },
+      {
+        "question_number": 5,
+        "question": "彼 が 明日 来 ない ( [...] ) は、 本当 ですか。",
+        "choices": [
+          "と聞いた",
+          "と言って",
+          "だから",
+          "ということ"
+        ],
+        "answer": "ということ"
+      },
+      {
+        "question_number": 6,
+        "question": "明日 の 天気 が 良 いか ( [...] ) 心配 です。",
+        "choices": [
+          "どうか",
+          "でも",
+          "何",
+          "から"
+        ],
+        "answer": "どうか"
+      },
+      {
+        "question_number": 7,
+        "question": "あなたに 会 え ( [...] ) です。",
+        "choices": [
+          "たらどう",
+          "てほしい",
+          "かった",
+          "てよかった"
+        ],
+        "answer": "てよかった"
+      },
+      {
+        "question_number": 8,
+        "question": "先生、このレポートを 見 て ( [...] ) 。",
+        "choices": [
+          "くださいでした",
+          "くださるなんか",
+          "くださいませんか",
+          "くださるか"
+        ],
+        "answer": "くださいませんか"
+      },
+      {
+        "question_number": 9,
+        "question": "彼 はたくさん 勉強 しましたから、 試験 に 合格 する ( [...] ) 。",
+        "choices": [
+          "筈らしいです",
+          "外します",
+          "はずです",
+          "筈ばしょです"
+        ],
+        "answer": "はずです"
+      },
+      {
+        "question_number": 10,
+        "question": "先生 の 荷物 を 運 ん ( [...] ) 。",
+        "choices": [
+          "でしまっています",
+          "でしました",
+          "でさしあげます",
+          "でしてあげない"
+        ],
+        "answer": "でさしあげます"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-grammar-tests/3/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "彼女 は 野菜 を 全然 食 べないで、 肉 ( [...] ) 食 べています。",
+        "choices": [
+          "ばかり",
+          "しか",
+          "こと",
+          "ほど"
+        ],
+        "answer": "ばかり"
+      },
+      {
+        "question_number": 2,
+        "question": "A: 週末 は 何 を しますか。 B: 買 い 物 に 行 くこと ( [...] ) 家 で ゆっくりすること ( [...] ) をよくします。",
+        "choices": [
+          "ので",
+          "とか",
+          "たり",
+          "でも"
+        ],
+        "answer": "とか"
+      },
+      {
+        "question_number": 3,
+        "question": "A: あの 子 、 新 しいおもちゃを ( [...] ) みたいだね。 B: うん、ずっと 見 てるから。",
+        "choices": [
+          "欲しいそうだ",
+          "欲しがっている",
+          "欲しくない",
+          "欲しそう"
+        ],
+        "answer": "欲しがっている"
+      },
+      {
+        "question_number": 4,
+        "question": "これからもっと 暑 く ( [...] ) でしょう。",
+        "choices": [
+          "なるので",
+          "なってなる",
+          "なっていく",
+          "ならなくて"
+        ],
+        "answer": "なっていく"
+      },
+      {
+        "question_number": 5,
+        "question": "来週 の 土曜日 は、 友達 と 映画 を 見 に 行 く ( [...] ) 。",
+        "choices": [
+          "予定です",
+          "ようです",
+          "はずです",
+          "そうです"
+        ],
+        "answer": "予定です"
+      },
+      {
+        "question_number": 6,
+        "question": "先生 が 親切 に 教 え ( [...] ) 。",
+        "choices": [
+          "くださいました",
+          "て教え",
+          "てくださいました",
+          "るくださいた"
+        ],
+        "answer": "てくださいました"
+      },
+      {
+        "question_number": 7,
+        "question": "昨日 から ( [...] ) 雨 が 降 っています。",
+        "choices": [
+          "ずっと",
+          "全然に",
+          "毎晩で",
+          "もうすぐ"
+        ],
+        "answer": "ずっと"
+      },
+      {
+        "question_number": 8,
+        "question": "長 い 間 待 って、 ( [...] ) バスが 来 ました。",
+        "choices": [
+          "すべて",
+          "まだ",
+          "または",
+          "やっと"
+        ],
+        "answer": "やっと"
+      },
+      {
+        "question_number": 9,
+        "question": "妹 は 海 外 旅行 に ( [...] ) 。",
+        "choices": [
+          "行きたがって",
+          "行きたいです",
+          "行きたがっている",
+          "行きたがる"
+        ],
+        "answer": "行きたがっている"
+      },
+      {
+        "question_number": 10,
+        "question": "窓 が ( [...] ) 。 誰 か 開 けましたか。",
+        "choices": [
+          "開けるいます",
+          "開いています",
+          "開けました",
+          "開くです"
+        ],
+        "answer": "開いています"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-grammar-tests/4/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "このシステムは、データをグラフ ( [...] ) することができます。",
+        "choices": [
+          "化",
+          "的",
+          "らしい",
+          "よる"
+        ],
+        "answer": "化"
+      },
+      {
+        "question_number": 2,
+        "question": "この 映画 はとてもおもしろい ( [...] ) 。",
+        "choices": [
+          "と思る",
+          "と思います",
+          "に思います",
+          "を思いますか"
+        ],
+        "answer": "と思います"
+      },
+      {
+        "question_number": 3,
+        "question": "このボタンを ( [...] ) 、 電気 が 消 えます。",
+        "choices": [
+          "おすと",
+          "おしと",
+          "おしると",
+          "おしてと"
+        ],
+        "answer": "おすと"
+      },
+      {
+        "question_number": 4,
+        "question": "ちょっと 手伝 っ ( [...] ) んですが、いいですか。",
+        "choices": [
+          "てください",
+          "てほしい",
+          "てあげたい",
+          "てみたい"
+        ],
+        "answer": "てほしい"
+      },
+      {
+        "question_number": 5,
+        "question": "財布 の 中 に、 百円 ( [...] ) ありません。",
+        "choices": [
+          "のみを",
+          "しか",
+          "はず",
+          "だけだ"
+        ],
+        "answer": "しか"
+      },
+      {
+        "question_number": 6,
+        "question": "A: ねぇ、このペン、ちょっと ( [...] ) くれない？ B: うん、いいよ。",
+        "choices": [
+          "貸し",
+          "貸したの",
+          "貸して",
+          "貸す"
+        ],
+        "answer": "貸して"
+      },
+      {
+        "question_number": 7,
+        "question": "雨 が 降 っているのに、 傘 を ( [...] ) 出かけました。",
+        "choices": [
+          "持っていません",
+          "持たないで",
+          "持たない",
+          "持たなかった"
+        ],
+        "answer": "持たないで"
+      },
+      {
+        "question_number": 8,
+        "question": "部屋 を 出 る 時 は、 電気 を ( [...] ) 。",
+        "choices": [
+          "消えてください",
+          "消しください",
+          "消してください",
+          "消えます"
+        ],
+        "answer": "消してください"
+      },
+      {
+        "question_number": 9,
+        "question": "このケーキはとてもおいしいです。 ( [...] ) 、 見 た 目 もきれいです。",
+        "choices": [
+          "それに",
+          "しかし",
+          "だから",
+          "そんなに"
+        ],
+        "answer": "それに"
+      },
+      {
+        "question_number": 10,
+        "question": "元気 でよく 笑 う。それが 子供 ( [...] ) ところだ。",
+        "choices": [
+          "みたいに",
+          "のように",
+          "らしい",
+          "そうに"
+        ],
+        "answer": "らしい"
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-grammar-tests/5/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "バスに ( [...] ) 学 校 へ 行 きます。",
+        "choices": [
+          "乗る",
+          "乗った",
+          "乗って",
+          "乗ります"
+        ],
+        "answer": "乗って"
+      },
+      {
+        "question_number": 2,
+        "question": "A: バス、まだかなあ。 B: うん、 ( [...] ) ね。",
+        "choices": [
+          "なかなか来ました",
+          "ぜんぜん来る",
+          "なかなか来ない",
+          "なかなか来る"
+        ],
+        "answer": "なかなか来ない"
+      },
+      {
+        "question_number": 3,
+        "question": "彼 は ( [...] ) 図書館 へ行きます。",
+        "choices": [
+          "毎日な",
+          "毎日で",
+          "毎日の",
+          "毎日のように"
+        ],
+        "answer": "毎日のように"
+      },
+      {
+        "question_number": 4,
+        "question": "夏休 みに 北海道 へ ( [...] ) と 思 います。",
+        "choices": [
+          "行けなっちゃ",
+          "行こう",
+          "行きます",
+          "行きましょう"
+        ],
+        "answer": "行こう"
+      },
+      {
+        "question_number": 5,
+        "question": "金曜日 ( [...] ) 図書館 に 本 を 返 さなければなりません。",
+        "choices": [
+          "までに",
+          "まだに",
+          "までと",
+          "までが"
+        ],
+        "answer": "までに"
+      },
+      {
+        "question_number": 6,
+        "question": "さっき ごはんを 食 べた ( [...] ) なのに、もう お 腹 が 空 きました。",
+        "choices": [
+          "度に",
+          "ばかり",
+          "まず",
+          "為に"
+        ],
+        "answer": "ばかり"
+      },
+      {
+        "question_number": 7,
+        "question": "明日 は 友達 と 一緒 に 昼ご飯 を ( [...] ) と 思 っています。",
+        "choices": [
+          "食べます",
+          "食べて",
+          "食べた",
+          "食べよう"
+        ],
+        "answer": "食べよう"
+      },
+      {
+        "question_number": 8,
+        "question": "明日 の 午後 ３ 時 に、そちらへ ( [...] ) 。",
+        "choices": [
+          "参ります",
+          "いたします",
+          "存じます",
+          "いただきます"
+        ],
+        "answer": "参ります"
+      },
+      {
+        "question_number": 9,
+        "question": "この 店 では、 ( [...] ) テーブルに 水 が 置 いてあります。",
+        "choices": [
+          "各",
+          "各の",
+          "それぞれ",
+          "毎に"
+        ],
+        "answer": "各"
+      },
+      {
+        "question_number": 10,
+        "question": "病気 が 早 く 治 ります ( [...] ) 。",
+        "choices": [
+          "と祈っています",
+          "ように祈っています",
+          "為に祈っています",
+          "を祈してる"
+        ],
+        "answer": "ように祈っています"
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-grammar-tests/6/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "A: 今 、 昼 ご 飯 を ( [...] ) ところです。",
+        "choices": [
+          "食べた",
+          "食べて",
+          "食事する",
+          "食べます"
+        ],
+        "answer": "食べた"
+      },
+      {
+        "question_number": 2,
+        "question": "この歌を ( [...] ) 。",
+        "choices": [
+          "知らない人いない",
+          "知ってない人はいない",
+          "知りません人はいない",
+          "知らない人はいない"
+        ],
+        "answer": "知らない人はいない"
+      },
+      {
+        "question_number": 3,
+        "question": "A: 昨日 はたくさん 勉強 しました。 B: ( [...] ) 、今日のテストはよくできましたか。",
+        "choices": [
+          "だけでも",
+          "それに",
+          "しかし",
+          "それで"
+        ],
+        "answer": "それで"
+      },
+      {
+        "question_number": 4,
+        "question": "先生 はもうこの 本 を ( [...] ) か。",
+        "choices": [
+          "お読みになりました",
+          "読んでくださるました",
+          "読みになると",
+          "お読みになりたですか"
+        ],
+        "answer": "お読みになりました"
+      },
+      {
+        "question_number": 5,
+        "question": "納豆 は 体 にいいと ( [...] ) 。",
+        "choices": [
+          "言っているです",
+          "言うみたいです",
+          "言うそうです",
+          "言われています"
+        ],
+        "answer": "言われています"
+      },
+      {
+        "question_number": 6,
+        "question": "僕 ( [...] ) は 明日 、 公園 へ行きます。",
+        "choices": [
+          "の",
+          "ら",
+          "に",
+          "を"
+        ],
+        "answer": "ら"
+      },
+      {
+        "question_number": 7,
+        "question": "ここでタバコを ( [...] ) ください。",
+        "choices": [
+          "吸いませんで",
+          "吸わなくて",
+          "吸わないで",
+          "吸うないで"
+        ],
+        "answer": "吸わないで"
+      },
+      {
+        "question_number": 8,
+        "question": "そろそろ 宿題 をやら ( [...] ) 。",
+        "choices": [
+          "なくて",
+          "ないと",
+          "なくても",
+          "なければ"
+        ],
+        "answer": "ないと"
+      },
+      {
+        "question_number": 9,
+        "question": "田中 さんは 人前 で 話 すのをとても ( [...] ) 。",
+        "choices": [
+          "恥ずかしい",
+          "恥ずかしかった",
+          "恥ずかしところだ",
+          "恥ずかしがる"
+        ],
+        "answer": "恥ずかしがる"
+      },
+      {
+        "question_number": 10,
+        "question": "もし 雨 が ( [...] ) 、 試合 は 中止 です。",
+        "choices": [
+          "降ったら",
+          "降りてかな",
+          "降るように",
+          "降ってある"
+        ],
+        "answer": "降ったら"
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-grammar-tests/7/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "財布 の 中 にはお 金 が ( [...] ) です。",
+        "choices": [
+          "すこしもない",
+          "ぜんぜんあります",
+          "すこしもあります",
+          "すこしあるない"
+        ],
+        "answer": "すこしもない"
+      },
+      {
+        "question_number": 2,
+        "question": "このお 祭 りは 一 年 ( [...] ) 行 われます。",
+        "choices": [
+          "ごとで",
+          "ごとに",
+          "ごとも",
+          "ごとは"
+        ],
+        "answer": "ごとに"
+      },
+      {
+        "question_number": 3,
+        "question": "A: この 薬 を ( [...] ) なければなりませんか。 B: はい、 一日 に 三回 飲 んでください。",
+        "choices": [
+          "飲む",
+          "飲み",
+          "飲ま",
+          "飲んで"
+        ],
+        "answer": "飲ま"
+      },
+      {
+        "question_number": 4,
+        "question": "この 写真 を ( [...] ) 昔 のことを 思 い 出 します。",
+        "choices": [
+          "見るだけが",
+          "見るし",
+          "見るだけで",
+          "見るだけを"
+        ],
+        "answer": "見るだけで"
+      },
+      {
+        "question_number": 5,
+        "question": "公園 で 遊 んでいたら、 ( [...] ) 雨 が 降 ってきた。",
+        "choices": [
+          "急に",
+          "全然",
+          "急で",
+          "急とき"
+        ],
+        "answer": "急に"
+      },
+      {
+        "question_number": 6,
+        "question": "テレビの 音 をもう少し ( [...] ) 。",
+        "choices": [
+          "小さくしてください",
+          "小さくなります",
+          "小さいです",
+          "小さいしてください"
+        ],
+        "answer": "小さくしてください"
+      },
+      {
+        "question_number": 7,
+        "question": "A: 昨日 、 怖 い 夢 を 見 たんだ。 B: へえ、 ( [...] ) 夢 は 嫌 だね。",
+        "choices": [
+          "そんな",
+          "こんな",
+          "どんな",
+          "それ"
+        ],
+        "answer": "そんな"
+      },
+      {
+        "question_number": 8,
+        "question": "作文 を 書 いた 後 で、 間違 い ( [...] ) 。",
+        "choices": [
+          "を気がつきました",
+          "に気分がつきました",
+          "で気がつきました",
+          "に気がつきました"
+        ],
+        "answer": "に気がつきました"
+      },
+      {
+        "question_number": 9,
+        "question": "このレストランは 安 い ( [...] ) 、 味 もいいです。",
+        "choices": [
+          "て",
+          "し",
+          "だり",
+          "では"
+        ],
+        "answer": "し"
+      },
+      {
+        "question_number": 10,
+        "question": "A: 明日 の 天気 は 晴 れる ( [...] ) 。",
+        "choices": [
+          "ましょうか",
+          "のかしら",
+          "つもりだ",
+          "なさい"
+        ],
+        "answer": "のかしら"
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-grammar-tests/8/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "日本 には 美 しい 場所 がたくさんあります。 ( [...] ) 、 京都 や 北海道 です。",
+        "choices": [
+          "しかし",
+          "それに",
+          "たとえば",
+          "だから"
+        ],
+        "answer": "たとえば"
+      },
+      {
+        "question_number": 2,
+        "question": "荷物 を ( [...] ) 。",
+        "choices": [
+          "お持ちします",
+          "持ちにます",
+          "お持つです",
+          "お尾たせします"
+        ],
+        "answer": "お持ちします"
+      },
+      {
+        "question_number": 3,
+        "question": "A: すみません、この 言葉 は 分 かりません。「 大切 」とは？ B: それは「とても 大事 だ」 ( [...] ) です。",
+        "choices": [
+          "は意味",
+          "という意味",
+          "を意味です",
+          "という意味だ"
+        ],
+        "answer": "という意味"
+      },
+      {
+        "question_number": 4,
+        "question": "私 は「ポチ」 ( [...] ) 犬 を 飼 っています。",
+        "choices": [
+          "という",
+          "と言たい",
+          "とあって",
+          "とか"
+        ],
+        "answer": "という"
+      },
+      {
+        "question_number": 5,
+        "question": "A: この 新 しいシステムの 使 い 方 がよくわかりません。 B: では、 私 が ( [...] ) 。",
+        "choices": [
+          "ご説明いたします",
+          "ご説明になります",
+          "説明いただきます",
+          "説明してあります"
+        ],
+        "answer": "ご説明いたします"
+      },
+      {
+        "question_number": 6,
+        "question": "あの 子 は 今 にも 泣 き ( [...] ) です。",
+        "choices": [
+          "ます",
+          "らしい",
+          "て",
+          "そう"
+        ],
+        "answer": "そう"
+      },
+      {
+        "question_number": 7,
+        "question": "富士山 は 日本 で 一番 美 しい 山 ( [...] ) 。",
+        "choices": [
+          "言う",
+          "言っていました",
+          "とされている",
+          "言えば"
+        ],
+        "answer": "とされている"
+      },
+      {
+        "question_number": 8,
+        "question": "( [...] ) 野菜 をたくさん 食 べるようにしています。",
+        "choices": [
+          "ぜんぜん",
+          "なるほど",
+          "なるべく",
+          "たぶん"
+        ],
+        "answer": "なるべく"
+      },
+      {
+        "question_number": 9,
+        "question": "田中 部長 は 会議室 に ( [...] ) か。",
+        "choices": [
+          "おります",
+          "ございます",
+          "いらっしゃって",
+          "いらっしゃいます"
+        ],
+        "answer": "いらっしゃいます"
+      },
+      {
+        "question_number": 10,
+        "question": "明日 、 天気 がいい ( [...] ) なあ。",
+        "choices": [
+          "といい",
+          "から",
+          "ので",
+          "らしい"
+        ],
+        "answer": "といい"
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-grammar-tests/9/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "レポートを 書 き ( [...] ) 、 早 く 出 してください。",
+        "choices": [
+          "終わると",
+          "終ったば",
+          "終わったら",
+          "終わりますから"
+        ],
+        "answer": "終わったら"
+      },
+      {
+        "question_number": 2,
+        "question": "A: 隣 の 部屋 から 音楽 が ( [...] ) ね。 B: ええ、少しうるさいですね。",
+        "choices": [
+          "聞きます",
+          "聞こえるです",
+          "聞いたの",
+          "聞こえます"
+        ],
+        "answer": "聞こえます"
+      },
+      {
+        "question_number": 3,
+        "question": "週末 は 時々 映画 を 見 に 行 く ( [...] ) 。",
+        "choices": [
+          "ものです",
+          "ことをあります",
+          "ことにします",
+          "ことがあります"
+        ],
+        "answer": "ことがあります"
+      },
+      {
+        "question_number": 4,
+        "question": "この 窓 から 海 ( [...] ) 。",
+        "choices": [
+          "が見る",
+          "を見させてきます",
+          "が見られます",
+          "をあります"
+        ],
+        "answer": "が見られます"
+      },
+      {
+        "question_number": 5,
+        "question": "チーズは 牛乳 ( [...] ) 作 られます。",
+        "choices": [
+          "から",
+          "を",
+          "に",
+          "で"
+        ],
+        "answer": "から"
+      },
+      {
+        "question_number": 6,
+        "question": "空 が 暗 くなって、 雨 が ( [...] ) だしました。",
+        "choices": [
+          "降り",
+          "降った",
+          "降って",
+          "降る"
+        ],
+        "answer": "降り"
+      },
+      {
+        "question_number": 7,
+        "question": "赤ちゃんが 歩 き ( [...] ) 。",
+        "choices": [
+          "始まらなかった",
+          "始めて",
+          "始めに",
+          "始めました"
+        ],
+        "answer": "始めました"
+      },
+      {
+        "question_number": 8,
+        "question": "健康 になる ( [...] ) 、 毎日 ジョギングをしています。",
+        "choices": [
+          "ばあい",
+          "あいだに",
+          "ために",
+          "そろそろ"
+        ],
+        "answer": "ために"
+      },
+      {
+        "question_number": 9,
+        "question": "A: 道 がとても 濡 れていますね。 B: ええ、 夜中 に 雨 が ( [...] ) です。",
+        "choices": [
+          "降りましたみたい",
+          "降ったみたい",
+          "降るみない",
+          "降ってみたい"
+        ],
+        "answer": "降ったみたい"
+      },
+      {
+        "question_number": 10,
+        "question": "明日 、 暇 ( [...] ) ？",
+        "choices": [
+          "な",
+          "かい",
+          "です",
+          "だい"
+        ],
+        "answer": "かい"
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-grammar-tests/10/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "こんな 難 しい 問題 は、先生 ( [...] ) わからないかもしれない。",
+        "choices": [
+          "で",
+          "だけ",
+          "にも",
+          "に"
+        ],
+        "answer": "にも"
+      },
+      {
+        "question_number": 2,
+        "question": "毎日 漢字 を 勉強 する ( [...] ) 。",
+        "choices": [
+          "ようにほしい",
+          "ほしい",
+          "ようにしたい",
+          "ようにしてほしい"
+        ],
+        "answer": "ようにしてほしい"
+      },
+      {
+        "question_number": 3,
+        "question": "このスープは 変 な 味 ( [...] ) しますね。",
+        "choices": [
+          "が",
+          "と",
+          "に",
+          "で"
+        ],
+        "answer": "が"
+      },
+      {
+        "question_number": 4,
+        "question": "りんごやバナナ、 ( [...] ) みかんも買いました。",
+        "choices": [
+          "他にも",
+          "他だけ",
+          "他から",
+          "他の"
+        ],
+        "answer": "他にも"
+      },
+      {
+        "question_number": 5,
+        "question": "明日 から 毎日 ジョギングする ( [...] ) 。",
+        "choices": [
+          "ことにしました",
+          "ことになりました",
+          "ことをしました",
+          "ことがあります"
+        ],
+        "answer": "ことにしました"
+      },
+      {
+        "question_number": 6,
+        "question": "あそこに 有名 なお 寺 が ( [...] ) 。 行 ってみましょうか。",
+        "choices": [
+          "見ない",
+          "願います",
+          "見えます",
+          "明けます"
+        ],
+        "answer": "見えます"
+      },
+      {
+        "question_number": 7,
+        "question": "この 旅行 にはパスポート ( [...] ) です。",
+        "choices": [
+          "を必要です",
+          "必要",
+          "が要るです",
+          "が必要"
+        ],
+        "answer": "が必要"
+      },
+      {
+        "question_number": 8,
+        "question": "先生 に 日本語 を 教 えて ( [...] ) 。",
+        "choices": [
+          "ございました",
+          "くだせました",
+          "もらいました",
+          "願いしました"
+        ],
+        "answer": "もらいました"
+      },
+      {
+        "question_number": 9,
+        "question": "明日 は ( [...] ) 晴 れるでしょう。",
+        "choices": [
+          "なかなか",
+          "もし",
+          "きっと",
+          "ぜんぜん"
+        ],
+        "answer": "きっと"
+      },
+      {
+        "question_number": 10,
+        "question": "山田 さんは 昨日 、 病気 だったみたいだけど、 今日 は ( [...] ) らしいよ。",
+        "choices": [
+          "元気",
+          "元気な",
+          "元気だ",
+          "元気で"
+        ],
+        "answer": "元気"
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-grammar-tests/11/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "A: 道 に 迷 ってしまいました。 B: 交番 で 聞 い ( [...] ) ですよ。",
+        "choices": [
+          "たらいい",
+          "たばかり",
+          "てみます",
+          "ていい"
+        ],
+        "answer": "たらいい"
+      },
+      {
+        "question_number": 2,
+        "question": "料理 を 作 る 前 に、 ( [...] ) 手 を 洗 いましょう。",
+        "choices": [
+          "まず",
+          "はじめにを",
+          "さきでも",
+          "いちばんて"
+        ],
+        "answer": "まず"
+      },
+      {
+        "question_number": 3,
+        "question": "コンピューターを ( [...] ) 、この 店 がいいですよ。 安 いですから。",
+        "choices": [
+          "買いに",
+          "買ってなら",
+          "買いますなら",
+          "買うなら"
+        ],
+        "answer": "買うなら"
+      },
+      {
+        "question_number": 4,
+        "question": "田中 さんが 来週 から 旅行 に 行 く ( [...] ) 。",
+        "choices": [
+          "をききました",
+          "とききました",
+          "にききました",
+          "でききました"
+        ],
+        "answer": "とききました"
+      },
+      {
+        "question_number": 5,
+        "question": "この 問題 について、もっと 話 し 合 う ( [...] ) 。",
+        "choices": [
+          "必要があった",
+          "必要だ",
+          "必要です",
+          "必要がある"
+        ],
+        "answer": "必要がある"
+      },
+      {
+        "question_number": 6,
+        "question": "A: 最近 、 日本語 の 勉強 が 楽 しくなって ( [...] ) 。 B: それは 良 かったですね！",
+        "choices": [
+          "きまし",
+          "いった",
+          "きた",
+          "いきます"
+        ],
+        "answer": "きた"
+      },
+      {
+        "question_number": 7,
+        "question": "A: あの 店 は 今日 開 いてる ( [...] ) 。 B: 確 かめてみよう。",
+        "choices": [
+          "ますか",
+          "かな",
+          "かのう",
+          "ては"
+        ],
+        "answer": "かな"
+      },
+      {
+        "question_number": 8,
+        "question": "この 漢字 は 小 さくて、ちょっと ( [...] ) です。",
+        "choices": [
+          "読んでにくい",
+          "読まにくい",
+          "読みにくい",
+          "読むにくい"
+        ],
+        "answer": "読みにくい"
+      },
+      {
+        "question_number": 9,
+        "question": "試験 はとても 難 しかった。 ( [...] ) 最後 までがんばった。",
+        "choices": [
+          "それでも",
+          "それでは",
+          "それで",
+          "それに"
+        ],
+        "answer": "それでも"
+      },
+      {
+        "question_number": 10,
+        "question": "来月 から 新 しい 会社 で ( [...] ) ことになりました。",
+        "choices": [
+          "働いて",
+          "働きます",
+          "働く",
+          "働いた"
+        ],
+        "answer": "働く"
+      }
+    ]
+  },
+  {
+    "page": 12,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-grammar-tests/12/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "A: この 重 い 荷物 を ( [...] ) か。 B: はい、 大丈夫 です。やってみます。",
+        "choices": [
+          "持[も]つます",
+          "持てます",
+          "持[も]ちすぎる",
+          "持[も]たれます"
+        ],
+        "answer": "持てます"
+      },
+      {
+        "question_number": 2,
+        "question": "18 歳 ( [...] ) の 方 は、この 映画 を 見 ることができません。",
+        "choices": [
+          "な",
+          "より",
+          "以下",
+          "までに"
+        ],
+        "answer": "以下"
+      },
+      {
+        "question_number": 3,
+        "question": "このケーキは 母 に ( [...] ) 。",
+        "choices": [
+          "作って",
+          "作ったる",
+          "作られました",
+          "作るだった"
+        ],
+        "answer": "作られました"
+      },
+      {
+        "question_number": 4,
+        "question": "長 い 間 探 していましたが、 ( [...] ) 新 しい 家 が 見 つかりました。",
+        "choices": [
+          "とうとう",
+          "直ぐに",
+          "ついにに",
+          "やっとと"
+        ],
+        "answer": "とうとう"
+      },
+      {
+        "question_number": 5,
+        "question": "先生 は 生徒 たちに、もっと 静 かにする ( [...] ) 。",
+        "choices": [
+          "ように言いました",
+          "ことに言いました",
+          "かた言いました",
+          "ようにしました"
+        ],
+        "answer": "ように言いました"
+      },
+      {
+        "question_number": 6,
+        "question": "パーティーのために、 料理 がたくさん ( [...] ) 。",
+        "choices": [
+          "作りなさい",
+          "作ってあります",
+          "食べました",
+          "作っています"
+        ],
+        "answer": "作ってあります"
+      },
+      {
+        "question_number": 7,
+        "question": "朝 ８ 時 ( [...] ) 、 必 ず 会 社 にいます。",
+        "choices": [
+          "では",
+          "には",
+          "へは",
+          "しか"
+        ],
+        "answer": "には"
+      },
+      {
+        "question_number": 8,
+        "question": "彼 がそんなことを 言 う ( [...] ) 。",
+        "choices": [
+          "はずがない",
+          "はずがいない",
+          "はずがいい",
+          "はずがこない"
+        ],
+        "answer": "はずがない"
+      },
+      {
+        "question_number": 9,
+        "question": "A: 彼 はいつも 遅刻 するんだ。 B: ( [...] ) 人は 困 るね。",
+        "choices": [
+          "そんなの",
+          "そんの",
+          "そう",
+          "そういう"
+        ],
+        "answer": "そういう"
+      },
+      {
+        "question_number": 10,
+        "question": "このマフラーは 毛 糸 ( [...] ) 。",
+        "choices": [
+          "で作ります",
+          "を作ります",
+          "に作ります",
+          "へ作ります"
+        ],
+        "answer": "で作ります"
+      }
+    ]
+  },
+  {
+    "page": 13,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-grammar-tests/13/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "京 都 は 日 本 の 古 い 町 ( [...] ) 。",
+        "choices": [
+          "の一つだ",
+          "の一つが",
+          "の一つに",
+          "の一つで"
+        ],
+        "answer": "の一つだ"
+      },
+      {
+        "question_number": 2,
+        "question": "A: この 映画 、どうだった？ B: うーん、 ( [...] ) おもしろくなかったよ。",
+        "choices": [
+          "あまりです",
+          "そんな",
+          "そんなに",
+          "とてもで"
+        ],
+        "answer": "そんなに"
+      },
+      {
+        "question_number": 3,
+        "question": "店員 ：お 探 しの 品物 は、こちらに ( [...] ) 。",
+        "choices": [
+          "います",
+          "いらしゃいます",
+          "なさいます",
+          "ございます"
+        ],
+        "answer": "ございます"
+      },
+      {
+        "question_number": 4,
+        "question": "毎日 練習 すれば、ピアノが 上手 にひける ( [...] ) と 思 います。",
+        "choices": [
+          "ように なる",
+          "ようとある",
+          "ように行く",
+          "ことになりた"
+        ],
+        "answer": "ように なる"
+      },
+      {
+        "question_number": 5,
+        "question": "そんなに ( [...] ) なくてもいいですよ。 時間 は まだ ありますから。",
+        "choices": [
+          "急ぐ",
+          "急が",
+          "急",
+          "急ぎ"
+        ],
+        "answer": "急が"
+      },
+      {
+        "question_number": 6,
+        "question": "納豆 は 体 にいい ( [...] ) 。",
+        "choices": [
+          "とかんがえさせらるいます",
+          "とかんがえるいます",
+          "をかんがえられています",
+          "とかんがえられています"
+        ],
+        "answer": "とかんがえられています"
+      },
+      {
+        "question_number": 7,
+        "question": "このテーブルは木 ( [...] ) 。",
+        "choices": [
+          "を作っています",
+          "にできています",
+          "からできています",
+          "でできています"
+        ],
+        "answer": "でできています"
+      },
+      {
+        "question_number": 8,
+        "question": "毎日 、 友達 に 長 く ( [...] ) 、 嫌 です。",
+        "choices": [
+          "待たくれて",
+          "待った",
+          "待たさる",
+          "待たせられて"
+        ],
+        "answer": "待たせられて"
+      },
+      {
+        "question_number": 9,
+        "question": "このテストで80 点 ( [...] ) 取 れば、 次 のクラスに 進 めます。",
+        "choices": [
+          "以上に",
+          "以下で",
+          "以上",
+          "以下と"
+        ],
+        "answer": "以上"
+      },
+      {
+        "question_number": 10,
+        "question": "天気 が ( [...] ) 暖 かく なってきました。",
+        "choices": [
+          "だんだん",
+          "まだまだ",
+          "もうもう",
+          "どうとう"
+        ],
+        "answer": "だんだん"
+      }
+    ]
+  },
+  {
+    "page": 14,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-grammar-tests/14/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "パーティーには ( [...] ) 学生 が 来 ました。",
+        "choices": [
+          "何人から",
+          "何人で",
+          "何人か",
+          "何人まで"
+        ],
+        "answer": "何人か"
+      },
+      {
+        "question_number": 2,
+        "question": "ここは 危 ないから、 ( [...] ) 。",
+        "choices": [
+          "入るな",
+          "入ろう",
+          "入って",
+          "入るね"
+        ],
+        "answer": "入るな"
+      },
+      {
+        "question_number": 3,
+        "question": "宿題 を ( [...] ) 、テレビを 見 ました。",
+        "choices": [
+          "する後に",
+          "する前と",
+          "して後から",
+          "した後で"
+        ],
+        "answer": "した後で"
+      },
+      {
+        "question_number": 4,
+        "question": "この薬は６時間 ( [...] ) 飲んでください。",
+        "choices": [
+          "おいて",
+          "おきに",
+          "ごとの",
+          "おき"
+        ],
+        "answer": "おきに"
+      },
+      {
+        "question_number": 5,
+        "question": "私 が 料理 をしている ( [...] ) 、 電話 が 鳴 りました。",
+        "choices": [
+          "あいだもとき",
+          "あいだに",
+          "あいだこと",
+          "あいだが"
+        ],
+        "answer": "あいだに"
+      },
+      {
+        "question_number": 6,
+        "question": "A: この 公園 の ( [...] ) は 驚 くほどですね。",
+        "choices": [
+          "大きさ",
+          "大きこと",
+          "大きいさ",
+          "大きみ"
+        ],
+        "answer": "大きさ"
+      },
+      {
+        "question_number": 7,
+        "question": "値段 が 高 く ( [...] ) 、このカメラが 欲 しいです。",
+        "choices": [
+          "たら",
+          "のに",
+          "ても",
+          "ので"
+        ],
+        "answer": "ても"
+      },
+      {
+        "question_number": 8,
+        "question": "私 は 日本語 ( [...] ) の 外国語 は 話 せません。",
+        "choices": [
+          "だから",
+          "の中で",
+          "について",
+          "以外"
+        ],
+        "answer": "以外"
+      },
+      {
+        "question_number": 9,
+        "question": "このレストランは 人気 があります。 ( [...] ) 、 少 し 値段 が 高 いです。",
+        "choices": [
+          "そろそろ",
+          "そんなに",
+          "しか",
+          "だが"
+        ],
+        "answer": "だが"
+      },
+      {
+        "question_number": 10,
+        "question": "先生 は 週末 、よくテニスを ( [...] ) 。",
+        "choices": [
+          "くれますか",
+          "なりますか",
+          "でございますか",
+          "なさいますか"
+        ],
+        "answer": "なさいますか"
+      }
+    ]
+  },
+  {
+    "page": 15,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-grammar-tests/15/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "鉛筆 、 ( [...] ) ボールペンで書いてください。",
+        "choices": [
+          "そして",
+          "しかし",
+          "ですが",
+          "または"
+        ],
+        "answer": "または"
+      },
+      {
+        "question_number": 2,
+        "question": "この 本 は 字 が 大 きくて、とても 読 み ( [...] ) です。",
+        "choices": [
+          "すぎます",
+          "なさい",
+          "やすい",
+          "そうに"
+        ],
+        "answer": "やすい"
+      },
+      {
+        "question_number": 3,
+        "question": "A: 今日 は 暇 ですね。 B: ええ。じゃあ、 映画 ( [...] ) 見 ませんか。",
+        "choices": [
+          "には",
+          "でも",
+          "から",
+          "しか"
+        ],
+        "answer": "でも"
+      },
+      {
+        "question_number": 4,
+        "question": "このレポートは 間違 いが多かったので、 ( [...] ) 直 しました。",
+        "choices": [
+          "書く",
+          "書いて",
+          "書き",
+          "書いた"
+        ],
+        "answer": "書き"
+      },
+      {
+        "question_number": 5,
+        "question": "宿題 を ( [...] ) くれてありがとう。",
+        "choices": [
+          "手伝い",
+          "手伝う",
+          "手伝って",
+          "手伝った"
+        ],
+        "answer": "手伝って"
+      },
+      {
+        "question_number": 6,
+        "question": "私 は 音楽 を ( [...] ) 勉強 します。",
+        "choices": [
+          "聞いたながら",
+          "聞きながら",
+          "聞きに",
+          "聞くながら"
+        ],
+        "answer": "聞きながら"
+      },
+      {
+        "question_number": 7,
+        "question": "お 客 さんが 来 る 前 に、ビールを 冷蔵庫 に ( [...] ) おきます。",
+        "choices": [
+          "入って",
+          "入れる",
+          "入れて",
+          "入れます"
+        ],
+        "answer": "入れて"
+      },
+      {
+        "question_number": 8,
+        "question": "早く 寝 ( [...] ) 。 明日 も 早 いですよ。",
+        "choices": [
+          "なさい",
+          "あげます",
+          "ください",
+          "なから"
+        ],
+        "answer": "なさい"
+      },
+      {
+        "question_number": 9,
+        "question": "一生懸命 勉強 した ( [...] ) 試験 はあまりよくありませんでした。",
+        "choices": [
+          "だった",
+          "から",
+          "かもしれない",
+          "のに"
+        ],
+        "answer": "のに"
+      },
+      {
+        "question_number": 10,
+        "question": "郵便局 は 銀行 と 駅 の ( [...] ) にあります。",
+        "choices": [
+          "中",
+          "ここ",
+          "間",
+          "前"
+        ],
+        "answer": "間"
+      }
+    ]
+  },
+  {
+    "page": 16,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-grammar-tests/16/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "天気 予報 によると、 明日 は 雨 が 降 る ( [...] ) 。",
+        "choices": [
+          "そうです",
+          "そです",
+          "つもりです",
+          "はずです"
+        ],
+        "answer": "そうです"
+      },
+      {
+        "question_number": 2,
+        "question": "すみません、 写真 を 撮 って ( [...] ) 。",
+        "choices": [
+          "くれませんだ",
+          "くれるないか",
+          "もらってか",
+          "くれませんか"
+        ],
+        "answer": "くれませんか"
+      },
+      {
+        "question_number": 3,
+        "question": "寒 いのに、 窓 を 開 けた ( [...] ) 寝 てしまいました。",
+        "choices": [
+          "ままへ",
+          "ように",
+          "ままを",
+          "まま"
+        ],
+        "answer": "まま"
+      },
+      {
+        "question_number": 4,
+        "question": "A: もしもし、 今 、 何 をしていますか。 B: あ、ちょうど ごはんを 食 べている ( [...] ) です。",
+        "choices": [
+          "ばかりで",
+          "ばかり",
+          "ばしょ",
+          "ところ"
+        ],
+        "answer": "ところ"
+      },
+      {
+        "question_number": 5,
+        "question": "この 問題 は 子 ども ( [...] ) 分 かります。",
+        "choices": [
+          "しか",
+          "にも",
+          "でも",
+          "では"
+        ],
+        "answer": "でも"
+      },
+      {
+        "question_number": 6,
+        "question": "すみません、この 荷物 が 重 いんですが、ちょっと ( [...] ) いただけませんか。",
+        "choices": [
+          "手伝うか",
+          "手伝う",
+          "手伝って",
+          "手伝います"
+        ],
+        "answer": "手伝って"
+      },
+      {
+        "question_number": 7,
+        "question": "あの 荷物 はとても 重 そうだ。一人で 運 ぶのは 無理 だ ( [...] ) 。",
+        "choices": [
+          "とみえる",
+          "にみえる",
+          "からみえる",
+          "がみえる"
+        ],
+        "answer": "とみえる"
+      },
+      {
+        "question_number": 8,
+        "question": "もう 夜 の10 時 ですが、 弟 は ( [...] ) 勉強しています。",
+        "choices": [
+          "だから",
+          "そして",
+          "しかし",
+          "まだ"
+        ],
+        "answer": "まだ"
+      },
+      {
+        "question_number": 9,
+        "question": "A: 最近 、 元気 そうですね。なにか 特別 なことをしていますか。 B: はい、 毎日 野菜 をたくさん ( [...] ) 。",
+        "choices": [
+          "食べますようにしています",
+          "食べることにいます",
+          "食べるようしています",
+          "食べるようにしています"
+        ],
+        "answer": "食べるようにしています"
+      },
+      {
+        "question_number": 10,
+        "question": "社長 はオフィスに ( [...] ) か。",
+        "choices": [
+          "おります",
+          "いらっしゃいます",
+          "ございます",
+          "いられます"
+        ],
+        "answer": "いらっしゃいます"
+      }
+    ]
+  },
+  {
+    "page": 17,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-grammar-tests/17/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "彼女 は 親切 な ( [...] ) 、 頭 もいいです。",
+        "choices": [
+          "ではなく",
+          "だが",
+          "だから",
+          "だけでなく"
+        ],
+        "answer": "だけでなく"
+      },
+      {
+        "question_number": 2,
+        "question": "駅 で 友達 を２ 時間 ( [...] ) 待 ちました。",
+        "choices": [
+          "へ",
+          "から",
+          "も"
+        ],
+        "answer": "も"
+      },
+      {
+        "question_number": 3,
+        "question": "明日 は 晴 れるの ( [...] ) 。",
+        "choices": [
+          "ではない",
+          "だろうか",
+          "ではないか",
+          "でしょう"
+        ],
+        "answer": "だろうか"
+      },
+      {
+        "question_number": 4,
+        "question": "パーティーには ( [...] ) 人が 集 まった。",
+        "choices": [
+          "少ないくない",
+          "少なくません",
+          "少なくない",
+          "少なな"
+        ],
+        "answer": "少なくない"
+      },
+      {
+        "question_number": 5,
+        "question": "友達 が お 金 に 困 っていたので、 少 し ( [...] ) 。",
+        "choices": [
+          "貸[か]していただきました",
+          "貸[か]していっらしゃいます",
+          "貸してあげました",
+          "貸[か]してございます"
+        ],
+        "answer": "貸してあげました"
+      },
+      {
+        "question_number": 6,
+        "question": "このケーキは300 円 ( [...] ) 買 えます。",
+        "choices": [
+          "に",
+          "で",
+          "が",
+          "を"
+        ],
+        "answer": "で"
+      },
+      {
+        "question_number": 7,
+        "question": "明日 は 雨 が ( [...] ) 。 傘 を 持 っていきましょう。",
+        "choices": [
+          "ふるでしょう",
+          "降りましょう",
+          "降るです",
+          "降ったでしょう"
+        ],
+        "answer": "ふるでしょう"
+      },
+      {
+        "question_number": 8,
+        "question": "この 映画 は あまり ( [...] ) です。",
+        "choices": [
+          "おもしろくです",
+          "おもしろくない",
+          "おもしろかった",
+          "おもしろい"
+        ],
+        "answer": "おもしろくない"
+      },
+      {
+        "question_number": 9,
+        "question": "母 は 子 どもに 荷物 を ( [...] ) 。",
+        "choices": [
+          "持たせました",
+          "持たせて",
+          "持たします",
+          "持ちました"
+        ],
+        "answer": "持たせました"
+      },
+      {
+        "question_number": 10,
+        "question": "彼 は３時間もテレビを 見 ( [...] ) 。",
+        "choices": [
+          "続いています",
+          "続けています",
+          "続けるです",
+          "続けでした"
+        ],
+        "answer": "続けています"
+      }
+    ]
+  },
+  {
+    "page": 18,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-grammar-tests/18/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "この 着物 は 素敵 ですね。 少 し 着 て ( [...] ) もいいですか。",
+        "choices": [
+          "みよう",
+          "みて",
+          "みた",
+          "みる"
+        ],
+        "answer": "みて"
+      },
+      {
+        "question_number": 2,
+        "question": "A: ああ、テーブルの 上 のケーキ、ぜんぶ ( [...] ) しまいましたね。 B: はい、すみません。おいしそうで…。",
+        "choices": [
+          "食べた",
+          "食べる",
+          "食べます",
+          "食べて"
+        ],
+        "answer": "食べて"
+      },
+      {
+        "question_number": 3,
+        "question": "A: すみません、この 漢字 の 読 み 方 を 教 えて ( [...] ) 。",
+        "choices": [
+          "くれせんか",
+          "あげません",
+          "いただけませんか",
+          "ございませんか"
+        ],
+        "answer": "いただけませんか"
+      },
+      {
+        "question_number": 4,
+        "question": "すみません、 駅 への行き 方 を 教 えてほしい ( [...] ) 。",
+        "choices": [
+          "なのでは",
+          "だから",
+          "んだけど",
+          "もある"
+        ],
+        "answer": "んだけど"
+      },
+      {
+        "question_number": 5,
+        "question": "A: この 説明 、わかりましたか。 B: いいえ、 ( [...] ) わかりませんでした。",
+        "choices": [
+          "ぜんぜん",
+          "よくない",
+          "とても",
+          "だいたい"
+        ],
+        "answer": "ぜんぜん"
+      },
+      {
+        "question_number": 6,
+        "question": "コーヒー ( [...] ) お 茶 ( [...] ) 、どちらでもいいですよ。",
+        "choices": [
+          "だけ",
+          "しか",
+          "には",
+          "でも"
+        ],
+        "answer": "でも"
+      },
+      {
+        "question_number": 7,
+        "question": "このボタンを ( [...] ) ！",
+        "choices": [
+          "降なせ",
+          "きせ",
+          "押せ",
+          "聞くせ"
+        ],
+        "answer": "押せ"
+      },
+      {
+        "question_number": 8,
+        "question": "A: 田中 さん、 映画 はもう 始 まりましたか。 B: いいえ、ちょうど 今 から 始 まる ( [...] ) です。",
+        "choices": [
+          "ところ",
+          "すっと",
+          "ばかり",
+          "ときいる"
+        ],
+        "answer": "ところ"
+      },
+      {
+        "question_number": 9,
+        "question": "田中 さんは 明日 のパーティーに ( [...] ) かもしれません。",
+        "choices": [
+          "来ません",
+          "来る",
+          "来て",
+          "来ます"
+        ],
+        "answer": "来る"
+      },
+      {
+        "question_number": 10,
+        "question": "私 は 速 く ( [...] ) ことができます。",
+        "choices": [
+          "泳ぎ",
+          "泳いで",
+          "泳いだ",
+          "泳ぐ"
+        ],
+        "answer": "泳ぐ"
+      }
+    ]
+  },
+  {
+    "page": 19,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-grammar-tests/19/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "雪 で 山 が ( [...] ) になりました。",
+        "choices": [
+          "真っ白く",
+          "真っ白で",
+          "真っ白",
+          "真っ白い"
+        ],
+        "answer": "真っ白"
+      },
+      {
+        "question_number": 2,
+        "question": "ドア が ( [...] ) 。",
+        "choices": [
+          "開けています",
+          "開きました",
+          "開けました",
+          "開きますでした"
+        ],
+        "answer": "開きました"
+      },
+      {
+        "question_number": 3,
+        "question": "このレストラン ( [...] ) 、 禁煙 です。",
+        "choices": [
+          "のを",
+          "での",
+          "から",
+          "では"
+        ],
+        "answer": "では"
+      },
+      {
+        "question_number": 4,
+        "question": "先生 に 作文 を 見 ( [...] ) 。",
+        "choices": [
+          "てさしくれました",
+          "もらいました",
+          "ていただきました",
+          "てくだいました"
+        ],
+        "answer": "ていただきました"
+      },
+      {
+        "question_number": 5,
+        "question": "この 部屋 がもっと ( [...] ) 、いいですね。",
+        "choices": [
+          "広いなって",
+          "広いければ",
+          "広みたい",
+          "広ければ"
+        ],
+        "answer": "広ければ"
+      },
+      {
+        "question_number": 6,
+        "question": "A: 駅 まで 遠 いですね。 送 りましょうか。 B: ありがとう。でも、 大丈夫 です。 父 が 車 で 迎 えに 来 て ( [...] ) ことになっていますから。",
+        "choices": [
+          "くれる",
+          "あげる",
+          "もらう",
+          "くれて"
+        ],
+        "answer": "くれる"
+      },
+      {
+        "question_number": 7,
+        "question": "このカフェは、ちょっと 昔 のヨーロッパ ( [...] ) ですね。",
+        "choices": [
+          "より",
+          "風",
+          "様",
+          "風な"
+        ],
+        "answer": "風"
+      },
+      {
+        "question_number": 8,
+        "question": "こちらが 新 しいメニュー ( [...] ) 。",
+        "choices": [
+          "でございます",
+          "てございますた",
+          "でいたします",
+          "でいらっしゃいます"
+        ],
+        "answer": "でございます"
+      },
+      {
+        "question_number": 9,
+        "question": "あんなことを 言 わなけれ ( [...] ) 。",
+        "choices": [
+          "ばよかった",
+          "ばでした",
+          "たらよかった",
+          "ばいいでした"
+        ],
+        "answer": "ばよかった"
+      },
+      {
+        "question_number": 10,
+        "question": "みんなに 聞 こえる ( [...] ) 、もっと大きな 声 で話してください。",
+        "choices": [
+          "のに",
+          "ため",
+          "ように",
+          "なら"
+        ],
+        "answer": "ように"
+      }
+    ]
+  },
+  {
+    "page": 20,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-grammar-tests/20/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "何 か 問題 の ( [...] ) 、すぐに 先生 に 言 ってください。",
+        "choices": [
+          "ばあいで",
+          "ばあいは",
+          "ばあいを",
+          "ばあいから"
+        ],
+        "answer": "ばあいは"
+      },
+      {
+        "question_number": 2,
+        "question": "A: どうぞ、こちらのパンフレットを ( [...] ) 。",
+        "choices": [
+          "お取りください",
+          "お取りしてください",
+          "お取らせるください",
+          "お取ってください"
+        ],
+        "answer": "お取りください"
+      },
+      {
+        "question_number": 3,
+        "question": "このボタンを 押 せ ( [...] ) 、ドアが 開 きますよ。",
+        "choices": [
+          "なら",
+          "ので",
+          "と",
+          "ば"
+        ],
+        "answer": "ば"
+      },
+      {
+        "question_number": 4,
+        "question": "子供 の 時 、私 は 京都 に 住 んで ( [...] ) 。",
+        "choices": [
+          "いました",
+          "います",
+          "ある",
+          "いたです"
+        ],
+        "answer": "いました"
+      },
+      {
+        "question_number": 5,
+        "question": "A: 山田 さんは 昨日 から 顔色 が 悪 いですね。 B: はい、 病気 ( [...] ) です。 早 く 元気 になるといいですね。",
+        "choices": [
+          "のよう",
+          "そうか",
+          "ようすぎる",
+          "のらしい"
+        ],
+        "answer": "のよう"
+      },
+      {
+        "question_number": 6,
+        "question": "A: 今日 は 仕事 がたくさんありますね。 B: ええ。これを ( [...] ) 片付 けて、 早 く 帰 りましょう。",
+        "choices": [
+          "たぶん",
+          "どんどん",
+          "だんだん",
+          "ときどき"
+        ],
+        "answer": "どんどん"
+      },
+      {
+        "question_number": 7,
+        "question": "ここの学生は ( [...] ) スマートフォンを持っています。",
+        "choices": [
+          "ほとんど",
+          "なかなか",
+          "ぜんぜん",
+          "あまり"
+        ],
+        "answer": "ほとんど"
+      },
+      {
+        "question_number": 8,
+        "question": "漢字 が 覚 えられないなら、 毎日 少 しずつ 練習 し ( [...] ) ？",
+        "choices": [
+          "ましたどう",
+          "ればどう",
+          "たらどう",
+          "たといい"
+        ],
+        "answer": "たらどう"
+      },
+      {
+        "question_number": 9,
+        "question": "A: ( [...] ) 100万円あったら、何をしたいですか。 B: 世界旅行 をしたいです。",
+        "choices": [
+          "だから",
+          "もし",
+          "それから",
+          "なぜ"
+        ],
+        "answer": "もし"
+      },
+      {
+        "question_number": 10,
+        "question": "「 大 丈 夫 」 ( [...] ) は、「 問題 ない」と 同 じ 意味 です。",
+        "choices": [
+          "言えば",
+          "ということ",
+          "だこと",
+          "という"
+        ],
+        "answer": "ということ"
+      }
+    ]
+  },
+  {
+    "page": 21,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-grammar-tests/21/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "彼 が 本当 のことを 言 っているか ( [...] ) 、 私 にはわかりません。",
+        "choices": [
+          "どうか",
+          "なぜ",
+          "何",
+          "どこ"
+        ],
+        "answer": "どうか"
+      },
+      {
+        "question_number": 2,
+        "question": "あの 映画 を 見 ( [...] ) 。とても 面白 かったです。",
+        "choices": [
+          "たかったです",
+          "てよかった",
+          "てしまいました",
+          "ばよかった"
+        ],
+        "answer": "てよかった"
+      },
+      {
+        "question_number": 3,
+        "question": "A: 会議室 は少し 暑 いですね。 B: ええ。すみません、 窓 を ( [...] ) くださいませんか。",
+        "choices": [
+          "開け",
+          "開けて",
+          "開ける",
+          "開けよう"
+        ],
+        "answer": "開けて"
+      },
+      {
+        "question_number": 4,
+        "question": "このケーキは 有名 なシェフが 作 ったから、おいしい ( [...] ) 。",
+        "choices": [
+          "そうなにはずです",
+          "筈ところ",
+          "はずです",
+          "らしいはずです"
+        ],
+        "answer": "はずです"
+      },
+      {
+        "question_number": 5,
+        "question": "おじいさんに 駅 までの 道 を 教 え ( [...] ) 。",
+        "choices": [
+          "てさしあげない",
+          "てさしあげました",
+          "てしまいました",
+          "てさしむかいました"
+        ],
+        "answer": "てさしあげました"
+      },
+      {
+        "question_number": 6,
+        "question": "弟 は 宿題 をしないで、 漫画 ( [...] ) 読 んでいます。",
+        "choices": [
+          "ばかり",
+          "みたい",
+          "ほど",
+          "しか"
+        ],
+        "answer": "ばかり"
+      },
+      {
+        "question_number": 7,
+        "question": "A: パーティーに 何 を 持 って 行 きましょうか。 B: パン ( [...] ) ケーキ ( [...] ) はどうですか。",
+        "choices": [
+          "とか",
+          "たり",
+          "ので",
+          "しか"
+        ],
+        "answer": "とか"
+      },
+      {
+        "question_number": 8,
+        "question": "うちの 猫 は、いつも 外 へ ( [...] ) 。",
+        "choices": [
+          "行きたがっています",
+          "行っているはずです",
+          "行ってほしいです",
+          "行きたそうです"
+        ],
+        "answer": "行きたがっています"
+      },
+      {
+        "question_number": 9,
+        "question": "このお 弁当 を ( [...] ) いきます。",
+        "choices": [
+          "買って",
+          "買います",
+          "買った",
+          "買う"
+        ],
+        "answer": "買って"
+      },
+      {
+        "question_number": 10,
+        "question": "A: 会議 は 何時 に 始 まる ( [...] ) 。 B: 午後 3 時 からの ( [...] ) 。",
+        "choices": [
+          "そうですか",
+          "つもりですか",
+          "はずですか",
+          "予定ですか"
+        ],
+        "answer": "予定ですか"
+      }
+    ]
+  },
+  {
+    "page": 22,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-grammar-tests/22/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "先生 が 私 の 荷物 を 持 っ ( [...] ) 。",
+        "choices": [
+          "てくださった",
+          "ていたたく",
+          "てくださないました",
+          "てもらった"
+        ],
+        "answer": "てくださった"
+      },
+      {
+        "question_number": 2,
+        "question": "これが 今 迄 で ( [...] ) おいしいケーキです。",
+        "choices": [
+          "いつも後",
+          "全て",
+          "ずっと",
+          "もうすぐ"
+        ],
+        "answer": "ずっと"
+      },
+      {
+        "question_number": 3,
+        "question": "難 しい 試験 でしたが、 ( [...] ) 合格 できました。",
+        "choices": [
+          "いつも",
+          "やっと",
+          "ぜんぜん",
+          "だいぶ"
+        ],
+        "answer": "やっと"
+      },
+      {
+        "question_number": 4,
+        "question": "A: 田中 さん、ずっとショーウインドーの 中 のカメラを 見 ていますね。 B: ええ、あの 新 しいカメラをとても ( [...] ) みたいです。",
+        "choices": [
+          "欲しい",
+          "欲しいそう",
+          "欲しがっている",
+          "欲しそう"
+        ],
+        "answer": "欲しがっている"
+      },
+      {
+        "question_number": 5,
+        "question": "A: あ、 電気 が ( [...] ) よ。 誰 か 消 し 忘 れましたか。 B: 本当 だ。 私 が 消 します。",
+        "choices": [
+          "点けるいます",
+          "点くです",
+          "ついています",
+          "つけました"
+        ],
+        "answer": "ついています"
+      },
+      {
+        "question_number": 6,
+        "question": "あの 人気 の 小説 を ( [...] ) そうです。",
+        "choices": [
+          "映画化します",
+          "映画の",
+          "映画になる",
+          "映画化する"
+        ],
+        "answer": "映画化する"
+      },
+      {
+        "question_number": 7,
+        "question": "A: 明日 の 天気 はどうでしょうか。 B: たぶん、 雨 が 降 る ( [...] ) 。",
+        "choices": [
+          "と思います",
+          "と思いますだ",
+          "と思うでした",
+          "に思います"
+        ],
+        "answer": "と思います"
+      },
+      {
+        "question_number": 8,
+        "question": "まっすぐ ( [...] ) 、 駅 の 前 に 出 ます。",
+        "choices": [
+          "いきと",
+          "いくと",
+          "いくか",
+          "いってと"
+        ],
+        "answer": "いくと"
+      },
+      {
+        "question_number": 9,
+        "question": "パーティーに 是非 来 ( [...] ) です。",
+        "choices": [
+          "てあげる",
+          "てみたい",
+          "てほしい",
+          "てくれる"
+        ],
+        "answer": "てほしい"
+      },
+      {
+        "question_number": 10,
+        "question": "A: この 問題 の 答 え、だれが 知 っていますか。 B: 田中 さんしか ( [...] ) よ。",
+        "choices": [
+          "知る",
+          "知りません",
+          "知っています",
+          "知ります"
+        ],
+        "answer": "知りません"
+      }
+    ]
+  },
+  {
+    "page": 23,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-grammar-tests/23/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "お母さん、お 皿 を 洗 って ( [...] ) ？ 疲 れたんだ。",
+        "choices": [
+          "くれない",
+          "くれないだ",
+          "くれてば",
+          "くれるない"
+        ],
+        "answer": "くれない"
+      },
+      {
+        "question_number": 2,
+        "question": "( [...] ) ください。 大丈夫 ですから。",
+        "choices": [
+          "心配しないで",
+          "心配しません",
+          "心配しなく",
+          "心配しないて"
+        ],
+        "answer": "心配しないで"
+      },
+      {
+        "question_number": 3,
+        "question": "弟 が 窓 を ( [...] ) 。",
+        "choices": [
+          "開けま",
+          "開けました",
+          "開けますでした",
+          "開きました"
+        ],
+        "answer": "開けました"
+      },
+      {
+        "question_number": 4,
+        "question": "A: 新 しい 先生 はどう？ B: とても 親切 だよ。 ( [...] ) 、 教 え 方 も 上手 だ。",
+        "choices": [
+          "すると",
+          "なので",
+          "だが",
+          "それに"
+        ],
+        "answer": "それに"
+      },
+      {
+        "question_number": 5,
+        "question": "今日 は 暖 かくて、 春 ( [...] ) 天気 ですね。",
+        "choices": [
+          "らしい",
+          "そうな",
+          "そうです",
+          "みたい"
+        ],
+        "answer": "らしい"
+      },
+      {
+        "question_number": 6,
+        "question": "はしを ( [...] ) ごはんを 食 べます。",
+        "choices": [
+          "使って",
+          "使います",
+          "使う",
+          "使いて"
+        ],
+        "answer": "使って"
+      },
+      {
+        "question_number": 7,
+        "question": "この 問題 は ( [...] ) 分かりません。",
+        "choices": [
+          "どんな",
+          "たくさん",
+          "なかなか",
+          "だんだん"
+        ],
+        "answer": "なかなか"
+      },
+      {
+        "question_number": 8,
+        "question": "( [...] ) 、 夏 になるとこのお 祭 りがあります。",
+        "choices": [
+          "毎年のように",
+          "毎年の",
+          "毎年です",
+          "毎年みたい"
+        ],
+        "answer": "毎年のように"
+      },
+      {
+        "question_number": 9,
+        "question": "A: お 昼 ごはん、どうしますか。 B: 新 しいレストランで ( [...] ) と 思 います。",
+        "choices": [
+          "食事",
+          "行なう",
+          "食べよう",
+          "食べます"
+        ],
+        "answer": "食べよう"
+      },
+      {
+        "question_number": 10,
+        "question": "レポート は 来週 の 月曜日 ( [...] ) 出 してください。",
+        "choices": [
+          "までに",
+          "までから",
+          "まだに",
+          "はず"
+        ],
+        "answer": "までに"
+      }
+    ]
+  },
+  {
+    "page": 24,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-grammar-tests/24/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "A: 駅 に 着 いた ( [...] ) ですか。 B: はい、そうです。",
+        "choices": [
+          "すっかり",
+          "時に",
+          "ばかり",
+          "やっと"
+        ],
+        "answer": "ばかり"
+      },
+      {
+        "question_number": 2,
+        "question": "A: ちょっと 疲 れましたね。 B: そうですね。あの 喫茶店 でコーヒーでも ( [...] ) か。",
+        "choices": [
+          "飲めば",
+          "飲んで",
+          "飲んだり",
+          "飲もう"
+        ],
+        "answer": "飲もう"
+      },
+      {
+        "question_number": 3,
+        "question": "A: こちらが 先生 のお 手紙 ですか。 B: はい。では、 ( [...] ) 。",
+        "choices": [
+          "いたします",
+          "拝見します",
+          "いたしております",
+          "おります"
+        ],
+        "answer": "拝見します"
+      },
+      {
+        "question_number": 4,
+        "question": "このグループには、 ( [...] ) 国 の 人 がいます。",
+        "choices": [
+          "各",
+          "全て",
+          "各の",
+          "どの"
+        ],
+        "answer": "各"
+      },
+      {
+        "question_number": 5,
+        "question": "明日 の 旅行 が 楽 しいものになります ( [...] ) 。",
+        "choices": [
+          "ように祈っています",
+          "為に祈っています",
+          "と祈してます",
+          "から祈っています"
+        ],
+        "answer": "ように祈っています"
+      },
+      {
+        "question_number": 6,
+        "question": "A: あ、バスが ( [...] ) ところですよ。 B: そうですか。 残念 ですね。",
+        "choices": [
+          "行き",
+          "行って",
+          "行こう",
+          "行った"
+        ],
+        "answer": "行った"
+      },
+      {
+        "question_number": 7,
+        "question": "この 公園 には、 綺麗 じゃない ( [...] ) 。",
+        "choices": [
+          "花ない",
+          "花はなかった",
+          "花はいない",
+          "花はない"
+        ],
+        "answer": "花はない"
+      },
+      {
+        "question_number": 8,
+        "question": "A: 昨日 は 大雨 でしたね。 B: はい。 ( [...] ) 、サッカーの 試合 は 中止 になりました。",
+        "choices": [
+          "または",
+          "それで",
+          "のに",
+          "だが"
+        ],
+        "answer": "それで"
+      },
+      {
+        "question_number": 9,
+        "question": "社長 が 明日 の 予定 について ( [...] ) 。",
+        "choices": [
+          "お話しになります",
+          "話すになります",
+          "お話すになる",
+          "話してにくださいます"
+        ],
+        "answer": "お話しになります"
+      },
+      {
+        "question_number": 10,
+        "question": "このお 寺 は 千年 前 に ( [...] ) と 言 われています。",
+        "choices": [
+          "建てられた",
+          "建てられる",
+          "建てた",
+          "建てられて"
+        ],
+        "answer": "建てられた"
+      }
+    ]
+  },
+  {
+    "page": 25,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-grammar-tests/25/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "彼 ( [...] ) は 映画 を 見 ています。",
+        "choices": [
+          "ら",
+          "に",
+          "たち",
+          "る"
+        ],
+        "answer": "ら"
+      },
+      {
+        "question_number": 2,
+        "question": "A: ちょっと 出 かけてきます。 B: 危 ないですから、 一人 で 行 ( [...] ) 。",
+        "choices": [
+          "かなかった",
+          "ないで",
+          "なくて",
+          "きません"
+        ],
+        "answer": "ないで"
+      },
+      {
+        "question_number": 3,
+        "question": "A: もう 帰 るの？ B: うん、早く 寝 ( [...] ) 、 明日 朝 早 いから。",
+        "choices": [
+          "ないと",
+          "なければ",
+          "なくて",
+          "なくても"
+        ],
+        "answer": "ないと"
+      },
+      {
+        "question_number": 4,
+        "question": "子供 が 注射 を 見 て、とても ( [...] ) 。",
+        "choices": [
+          "怖い",
+          "怖がっている",
+          "怖がったり",
+          "怖がったいる"
+        ],
+        "answer": "怖がっている"
+      },
+      {
+        "question_number": 5,
+        "question": "薬 を ( [...] ) 、きっと 良 くなりますよ。",
+        "choices": [
+          "飲むば",
+          "飲んだら",
+          "飲みないが",
+          "飲んでが"
+        ],
+        "answer": "飲んだら"
+      },
+      {
+        "question_number": 6,
+        "question": "A: この 問題 、 分 かりましたか。 B: いいえ、 ( [...] ) でした。",
+        "choices": [
+          "すこしも分かりません",
+          "ぜんぜん分かります",
+          "すこしも分かる",
+          "すこし分かりました"
+        ],
+        "answer": "すこしも分かりません"
+      },
+      {
+        "question_number": 7,
+        "question": "バスは5 分 ( [...] ) 来 ます。",
+        "choices": [
+          "ごとの",
+          "ごとまで",
+          "ごとに",
+          "ごとから"
+        ],
+        "answer": "ごとに"
+      },
+      {
+        "question_number": 8,
+        "question": "A: 明日 も 学校 へ ( [...] ) なければなりませんか。 B: いいえ、 明日 は 休 みですよ。",
+        "choices": [
+          "行き",
+          "行く",
+          "行って",
+          "行か"
+        ],
+        "answer": "行か"
+      },
+      {
+        "question_number": 9,
+        "question": "このボタンを ( [...] ) 電気 がつきます。",
+        "choices": [
+          "押すだけを",
+          "押すみたい",
+          "押すだけで",
+          "押すために"
+        ],
+        "answer": "押すだけで"
+      },
+      {
+        "question_number": 10,
+        "question": "A: 大丈夫 ですか。 顔色 が 悪 いですよ。 B: ちょっと 気分 が…。さっきまで 元気 だったのに、 ( [...] ) 頭 が 痛 くなりました。",
+        "choices": [
+          "ゆっくり",
+          "いつも",
+          "急に",
+          "だいたい"
+        ],
+        "answer": "急に"
+      }
+    ]
+  },
+  {
+    "page": 26,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-grammar-tests/26/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "もっと ( [...] ) ために、 説明 を 変 えました。",
+        "choices": [
+          "易しくなった",
+          "易しくする",
+          "易しくするの",
+          "易しくします"
+        ],
+        "answer": "易しくする"
+      },
+      {
+        "question_number": 2,
+        "question": "( [...] ) ことをしないでください。",
+        "choices": [
+          "どう",
+          "そんな",
+          "それ",
+          "どんな"
+        ],
+        "answer": "そんな"
+      },
+      {
+        "question_number": 3,
+        "question": "A: どうしたの？ 元気 がないね。 B: 財布 がないこと ( [...] ) んだ。",
+        "choices": [
+          "を今気があるいた",
+          "に今気がつきました",
+          "から今気がついた",
+          "に今気がついた"
+        ],
+        "answer": "に今気がついた"
+      },
+      {
+        "question_number": 4,
+        "question": "週末 は 買 い 物 に 行 く ( [...] ) 、 友達 に 会 う ( [...] ) 、 映画 も 見 ます。",
+        "choices": [
+          "し",
+          "です",
+          "は",
+          "て"
+        ],
+        "answer": "し"
+      },
+      {
+        "question_number": 5,
+        "question": "A: この 本 は 彼 にとって 面白 い ( [...] ) 。",
+        "choices": [
+          "のかしら",
+          "なさい",
+          "ましょう",
+          "ください"
+        ],
+        "answer": "のかしら"
+      },
+      {
+        "question_number": 6,
+        "question": "A: 週末 、何をしましょうか。 B: 運動 するのはどうですか。 ( [...] ) 、 公園 でジョギングをするとか。",
+        "choices": [
+          "なので",
+          "たとえば",
+          "だが",
+          "すると"
+        ],
+        "answer": "たとえば"
+      },
+      {
+        "question_number": 7,
+        "question": "後 でこちらから ( [...] ) 。",
+        "choices": [
+          "お電話します",
+          "お電話ください",
+          "ご電話します",
+          "お電話になります"
+        ],
+        "answer": "お電話します"
+      },
+      {
+        "question_number": 8,
+        "question": "このマークは「ここに 自転車 を 止 めるな」 ( [...] ) です。",
+        "choices": [
+          "の意味で",
+          "である意味",
+          "という意味",
+          "といる意味"
+        ],
+        "answer": "という意味"
+      },
+      {
+        "question_number": 9,
+        "question": "「となりのトトロ」 ( [...] ) 映画 を 見 たことがありますか。",
+        "choices": [
+          "と聞く",
+          "と思う",
+          "のよう",
+          "という"
+        ],
+        "answer": "という"
+      },
+      {
+        "question_number": 10,
+        "question": "お 客 さま、 会場 の 入 口 まで ( [...] ) 。",
+        "choices": [
+          "案内して遣ります",
+          "ご案内になります",
+          "ご案内致します",
+          "ご案内下さいます"
+        ],
+        "answer": "ご案内致します"
+      }
+    ]
+  },
+  {
+    "page": 27,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-grammar-tests/27/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "この 古 い 建物 は 倒 れ ( [...] ) ですね。",
+        "choices": [
+          "ます",
+          "られる",
+          "なさい",
+          "そう"
+        ],
+        "answer": "そう"
+      },
+      {
+        "question_number": 2,
+        "question": "なっとうは、 体 にいい 食 べ 物 だ ( [...] ) 。",
+        "choices": [
+          "と言います",
+          "と言えば",
+          "とされている",
+          "と言って"
+        ],
+        "answer": "とされている"
+      },
+      {
+        "question_number": 3,
+        "question": "( [...] ) 早 く 来 てください。",
+        "choices": [
+          "どんどん",
+          "やっと",
+          "なるべく",
+          "きっと"
+        ],
+        "answer": "なるべく"
+      },
+      {
+        "question_number": 4,
+        "question": "A: 社長 はもう 事務所 に ( [...] ) か。 B: はい、 先 ほど 見 えました。",
+        "choices": [
+          "まいりました",
+          "くださいます",
+          "いらっしゃいました",
+          "ございますか"
+        ],
+        "answer": "いらっしゃいました"
+      },
+      {
+        "question_number": 5,
+        "question": "明日 の 旅行 、 晴 れる ( [...] ) ですね。",
+        "choices": [
+          "らしい",
+          "のに",
+          "といい",
+          "そうです"
+        ],
+        "answer": "といい"
+      },
+      {
+        "question_number": 6,
+        "question": "A: この 料理 を 作 り ( [...] ) 、みんなで 食 べましょう。 B: はい、 楽 しみです！",
+        "choices": [
+          "終わったら",
+          "終わるうちに",
+          "終わってそうに",
+          "終わるため"
+        ],
+        "answer": "終わったら"
+      },
+      {
+        "question_number": 7,
+        "question": "鳥 の 声 がよく ( [...] ) 。 静 かな 朝 だ。",
+        "choices": [
+          "聞こえるます",
+          "聞いている",
+          "聞こえる",
+          "聞こえでした"
+        ],
+        "answer": "聞こえる"
+      },
+      {
+        "question_number": 8,
+        "question": "忙 しいので、 朝 ごはんを 食 べない ( [...] ) 。",
+        "choices": [
+          "ことになります",
+          "はずです",
+          "ものでした",
+          "ことがあります"
+        ],
+        "answer": "ことがあります"
+      },
+      {
+        "question_number": 9,
+        "question": "この 公園 では、夏の 夜 になると、 美 しいホタルが ( [...] ) ことがあります。",
+        "choices": [
+          "見させる",
+          "見られる",
+          "見せる",
+          "見て"
+        ],
+        "answer": "見られる"
+      },
+      {
+        "question_number": 10,
+        "question": "紙 は 木 ( [...] ) 作 られます。",
+        "choices": [
+          "を",
+          "に",
+          "から",
+          "で"
+        ],
+        "answer": "から"
+      }
+    ]
+  },
+  {
+    "page": 28,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-grammar-tests/28/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "彼女 は 急 に 歌 を ( [...] ) だしました。",
+        "choices": [
+          "歌った",
+          "歌って",
+          "歌う",
+          "歌い"
+        ],
+        "answer": "歌い"
+      },
+      {
+        "question_number": 2,
+        "question": "雨 が 降 り ( [...] ) 。",
+        "choices": [
+          "終わりました",
+          "たいです",
+          "始めました",
+          "続けました"
+        ],
+        "answer": "始めました"
+      },
+      {
+        "question_number": 3,
+        "question": "試験 に 合格 する ( [...] ) 、毎日 一生懸命 勉強 しています。",
+        "choices": [
+          "やっぱり",
+          "ちっとも",
+          "ばかり",
+          "ために"
+        ],
+        "answer": "ために"
+      },
+      {
+        "question_number": 4,
+        "question": "A: 田中 さん、 今日 は 早 く 帰 りましたね。 B: ええ、 家 で 見 たいテレビ 番組 が ( [...] ) ですよ。",
+        "choices": [
+          "みたい",
+          "ありますみたい",
+          "あるみたい",
+          "あったみらない"
+        ],
+        "answer": "あるみたい"
+      },
+      {
+        "question_number": 5,
+        "question": "A: この 映画 、 見 た？ B: うん。 面白 かった ( [...] ) ？",
+        "choices": [
+          "です",
+          "だい",
+          "かい",
+          "だ"
+        ],
+        "answer": "かい"
+      },
+      {
+        "question_number": 6,
+        "question": "週末 ( [...] ) 学校へ行かなければなりません。",
+        "choices": [
+          "にも",
+          "から",
+          "で",
+          "だけ"
+        ],
+        "answer": "にも"
+      },
+      {
+        "question_number": 7,
+        "question": "部屋 の 中 ではタバコを 吸 わない ( [...] ) です。",
+        "choices": [
+          "ないようにほしい",
+          "ようにしたくない",
+          "ようにしないでほしい",
+          "ようにしてほしい"
+        ],
+        "answer": "ようにしてほしい"
+      },
+      {
+        "question_number": 8,
+        "question": "隣 の 部屋 から 変 な 音 ( [...] ) します。",
+        "choices": [
+          "が",
+          "や",
+          "に",
+          "と"
+        ],
+        "answer": "が"
+      },
+      {
+        "question_number": 9,
+        "question": "A: このクラスは 楽 しいですか。 B: はい、 ( [...] ) いい 先 生 がたくさんいます。",
+        "choices": [
+          "他で",
+          "他は",
+          "他にも",
+          "他の"
+        ],
+        "answer": "他にも"
+      },
+      {
+        "question_number": 10,
+        "question": "A: どの 色 にしますか。 B: うーん、 赤 いのを 買 う ( [...] ) 。",
+        "choices": [
+          "はずです",
+          "ことにします",
+          "ことになります",
+          "ことがあります"
+        ],
+        "answer": "ことにします"
+      }
+    ]
+  },
+  {
+    "page": 29,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-grammar-tests/29/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "A: 今日 は 天気 が 悪 いですね。 B: はい、 遠 くの 景色 が あまり ( [...] ) 。",
+        "choices": [
+          "みえらない",
+          "見ます",
+          "見えません",
+          "見えます"
+        ],
+        "answer": "見えません"
+      },
+      {
+        "question_number": 2,
+        "question": "もっと 練習 ( [...] ) だと思います。",
+        "choices": [
+          "を要る",
+          "する",
+          "が必要",
+          "に必要"
+        ],
+        "answer": "が必要"
+      },
+      {
+        "question_number": 3,
+        "question": "兄 に 宿題 を 手伝 って ( [...] ) 。",
+        "choices": [
+          "いっらしゃいました",
+          "もらいました",
+          "さがしました",
+          "ございました"
+        ],
+        "answer": "もらいました"
+      },
+      {
+        "question_number": 4,
+        "question": "田中 さんは ( [...] ) 約束 を 守 ると 思 います。",
+        "choices": [
+          "どうぞ",
+          "きっと",
+          "ぜひ",
+          "ぜんぜん"
+        ],
+        "answer": "きっと"
+      },
+      {
+        "question_number": 5,
+        "question": "A: 明日 の 天気 はどうかな。 B: ニュースによると、 ( [...] ) らしいよ。",
+        "choices": [
+          "雨",
+          "雨で",
+          "雨と",
+          "雨の"
+        ],
+        "answer": "雨"
+      },
+      {
+        "question_number": 6,
+        "question": "もっと日本語が上手に 話 せ ( [...] ) なあ。",
+        "choices": [
+          "たい",
+          "たらいい",
+          "てほしい",
+          "そうです"
+        ],
+        "answer": "たらいい"
+      },
+      {
+        "question_number": 7,
+        "question": "A: 旅行 の 準備 をしましょう。 B: はい。 ( [...] ) 、どこへ 行 くか 決 めましょう。",
+        "choices": [
+          "つぎにに",
+          "まず",
+          "さいしょと",
+          "いちばんが"
+        ],
+        "answer": "まず"
+      },
+      {
+        "question_number": 8,
+        "question": "A: 来週 、 京都 へ 旅行 するつもりです。 B: 京都 へ ( [...] ) 、 金閣寺 は 絶対 に 見 た 方 がいいですよ。",
+        "choices": [
+          "行くなら",
+          "行ってなら",
+          "行きに",
+          "行きなら"
+        ],
+        "answer": "行くなら"
+      },
+      {
+        "question_number": 9,
+        "question": "A: 駅 の 前 に 新 しいレストランができた ( [...] ) んだけど、 本当 ？ B: うん、 昨日 開店 したらしいよ。",
+        "choices": [
+          "のをきいた",
+          "がきいた",
+          "らしいときいた",
+          "ときいた"
+        ],
+        "answer": "ときいた"
+      },
+      {
+        "question_number": 10,
+        "question": "熱 が 下 がらないので、もう 一度 病院 へ ( [...] ) 必要 があります。",
+        "choices": [
+          "行く",
+          "行きます",
+          "行って",
+          "行き"
+        ],
+        "answer": "行く"
+      }
+    ]
+  },
+  {
+    "page": 30,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-grammar-tests/30/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "A: 寒 いですね。だんだん 雪 が 強 く 降 って ( [...] ) 。 B: ええ、 早 く 家 に 帰 りましょう。",
+        "choices": [
+          "きる",
+          "きました",
+          "いきます",
+          "きって"
+        ],
+        "answer": "きました"
+      },
+      {
+        "question_number": 2,
+        "question": "A: 田中 さんはもう 家 に 帰 った ( [...] ) 。 B: まだ 会社 にいるかもしれませんね。",
+        "choices": [
+          "かな",
+          "ました",
+          "こと",
+          "まし"
+        ],
+        "answer": "かな"
+      },
+      {
+        "question_number": 3,
+        "question": "先生 の 説明 は 早 すぎるので、 ( [...] ) です。",
+        "choices": [
+          "分からにくい",
+          "分かってにくい",
+          "分かりにくい",
+          "分かるにくい"
+        ],
+        "answer": "分かりにくい"
+      },
+      {
+        "question_number": 4,
+        "question": "A: このアパートは 駅 から 遠 いですよ。 B: ( [...] ) 、この 部屋 は 静 かだからここにします。",
+        "choices": [
+          "すると",
+          "だから",
+          "それでも",
+          "そして"
+        ],
+        "answer": "それでも"
+      },
+      {
+        "question_number": 5,
+        "question": "残念 ですが、 明日 のパーティーには ( [...] ) ことになりました。",
+        "choices": [
+          "行って",
+          "行きました",
+          "行かない",
+          "行きます"
+        ],
+        "answer": "行かない"
+      },
+      {
+        "question_number": 6,
+        "question": "A: この 料理 は 辛 いですか。 B: いいえ、そんなに 辛 くないので、 子 どもでも ( [...] ) よ。",
+        "choices": [
+          "食べれこと",
+          "食べるのいい",
+          "食べくない",
+          "食べられます"
+        ],
+        "answer": "食べられます"
+      },
+      {
+        "question_number": 7,
+        "question": "この 店 では、 千 円 ( [...] ) でランチが 食 べられます。",
+        "choices": [
+          "より",
+          "以下",
+          "上",
+          "下"
+        ],
+        "answer": "以下"
+      },
+      {
+        "question_number": 8,
+        "question": "私 は 先生 ( [...] ) 褒 められました。",
+        "choices": [
+          "で",
+          "に",
+          "ところ",
+          "なかなか"
+        ],
+        "answer": "に"
+      },
+      {
+        "question_number": 9,
+        "question": "A: 試験 に 何回 も 落 ちました。 B: でも、 ( [...] ) できましたね。おめでとうございます。",
+        "choices": [
+          "ついにを",
+          "いつもは",
+          "とうとう",
+          "やっとで"
+        ],
+        "answer": "とうとう"
+      },
+      {
+        "question_number": 10,
+        "question": "母 は 私 に、 宿題 をちゃんとする ( [...] ) 。",
+        "choices": [
+          "ようにした",
+          "ため言った",
+          "ようが言った",
+          "ように言った"
+        ],
+        "answer": "ように言った"
+      }
+    ]
+  },
+  {
+    "page": 31,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-grammar-tests/31/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "A: あれ、 部屋 の 電気 が ( [...] ) ね。 B: ああ、 母 が 掃除 のために 付 けたんですよ。",
+        "choices": [
+          "つけてあります",
+          "付けるでした",
+          "付きた",
+          "付けています"
+        ],
+        "answer": "つけてあります"
+      },
+      {
+        "question_number": 2,
+        "question": "彼 ( [...] ) この 話 はまだしていません。",
+        "choices": [
+          "には",
+          "では",
+          "へは",
+          "から"
+        ],
+        "answer": "には"
+      },
+      {
+        "question_number": 3,
+        "question": "A: この 問題 、 難 しいですか。 B: いいえ、こんなに 簡単 な 問題 が 分 からない ( [...] ) 。",
+        "choices": [
+          "ながありませんでした",
+          "はずがありません",
+          "はずがまらいません",
+          "ばずをありません"
+        ],
+        "answer": "はずがありません"
+      },
+      {
+        "question_number": 4,
+        "question": "私は ( [...] ) 映画 があまり 好 きじゃない。",
+        "choices": [
+          "どんなの",
+          "どうな",
+          "そういう",
+          "どんなに"
+        ],
+        "answer": "そういう"
+      },
+      {
+        "question_number": 5,
+        "question": "日本 では、 米 ( [...] ) お 酒 を 作 ります。",
+        "choices": [
+          "で",
+          "を",
+          "に",
+          "へ"
+        ],
+        "answer": "で"
+      },
+      {
+        "question_number": 6,
+        "question": "これは私が 好 きな 本 ( [...] ) 。",
+        "choices": [
+          "で一つです",
+          "の一つます",
+          "を一つです",
+          "の一つです"
+        ],
+        "answer": "の一つです"
+      },
+      {
+        "question_number": 7,
+        "question": "( [...] ) たくさん食べられないよ。",
+        "choices": [
+          "どんな",
+          "ぜんぜん",
+          "そんなに",
+          "そんなの"
+        ],
+        "answer": "そんなに"
+      },
+      {
+        "question_number": 8,
+        "question": "A: 受付 はどこに ( [...] ) 。 B: あちらにございます。",
+        "choices": [
+          "しりますか",
+          "いらしますか",
+          "いらっしゃいますか",
+          "ございますか"
+        ],
+        "answer": "ございますか"
+      },
+      {
+        "question_number": 9,
+        "question": "日本 に 来 てから、 少 しずつ 日本語 がわかる ( [...] ) 。",
+        "choices": [
+          "ように なたら",
+          "ことになるが",
+          "ように なりました",
+          "ようにあった"
+        ],
+        "answer": "ように なりました"
+      },
+      {
+        "question_number": 10,
+        "question": "明日 は 早 く ( [...] ) なくてもいいです。 学校 は 休 みです。",
+        "choices": [
+          "起きて",
+          "起き",
+          "起きる",
+          "起こさ"
+        ],
+        "answer": "起き"
+      }
+    ]
+  },
+  {
+    "page": 32,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-grammar-tests/32/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "昔 、この 建物 は お寺 だった ( [...] ) 。",
+        "choices": [
+          "に考えられています",
+          "と考えるいます",
+          "と考えられています",
+          "を考えられています"
+        ],
+        "answer": "と考えられています"
+      },
+      {
+        "question_number": 2,
+        "question": "このケーキは 卵 と 牛乳 と 小麦粉 ( [...] ) 。",
+        "choices": [
+          "を作られています",
+          "に作られています",
+          "でできています",
+          "から作ります"
+        ],
+        "answer": "でできています"
+      },
+      {
+        "question_number": 3,
+        "question": "子供 の 時 、 嫌 いな 野菜 を 母 に ( [...] ) 。",
+        "choices": [
+          "食べほうだ",
+          "食べたがあった",
+          "食べさせられました",
+          "食べさせます"
+        ],
+        "answer": "食べさせられました"
+      },
+      {
+        "question_number": 4,
+        "question": "会議 は2時間 ( [...] ) かかるかもしれません。",
+        "choices": [
+          "以上に",
+          "以上だ",
+          "以上より",
+          "以上"
+        ],
+        "answer": "以上"
+      },
+      {
+        "question_number": 5,
+        "question": "弟 は ( [...] ) 背 が 高 く なりました。",
+        "choices": [
+          "少しなる",
+          "なるべく",
+          "ときどき",
+          "だんだん"
+        ],
+        "answer": "だんだん"
+      },
+      {
+        "question_number": 6,
+        "question": "本屋 で ( [...] ) 本 を 買 いました。",
+        "choices": [
+          "何冊に",
+          "何冊で",
+          "何冊か",
+          "何冊から"
+        ],
+        "answer": "何冊か"
+      },
+      {
+        "question_number": 7,
+        "question": "A: 図書館 では 大声 で 話 してはいけませんか。 B: はい、そうです。 図書館 では ( [...] ) 。",
+        "choices": [
+          "話して",
+          "話す",
+          "話そう",
+          "話すな"
+        ],
+        "answer": "話すな"
+      },
+      {
+        "question_number": 8,
+        "question": "晩 ごはん ( [...] ) 、 薬 を 飲 んでください。",
+        "choices": [
+          "あとが",
+          "の後で",
+          "を後へ",
+          "に後で"
+        ],
+        "answer": "の後で"
+      },
+      {
+        "question_number": 9,
+        "question": "この 通 りには、１０メートル ( [...] ) 店 があります。",
+        "choices": [
+          "おきに",
+          "おきで",
+          "ずつ",
+          "おいて"
+        ],
+        "answer": "おきに"
+      },
+      {
+        "question_number": 10,
+        "question": "夏休 みの ( [...] ) 、 家族 と 旅行 しました。",
+        "choices": [
+          "あいだで",
+          "あいだと",
+          "ときと",
+          "あいだに"
+        ],
+        "answer": "あいだに"
+      }
+    ]
+  },
+  {
+    "page": 33,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-grammar-tests/33/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "A: この 橋 の ( [...] ) はどのくらいですか。",
+        "choices": [
+          "長み",
+          "長さ",
+          "長いこと",
+          "長いさ"
+        ],
+        "answer": "長さ"
+      },
+      {
+        "question_number": 2,
+        "question": "雨 が 降 っ ( [...] ) 、 試合 はあります。",
+        "choices": [
+          "ので",
+          "て",
+          "ても",
+          "のに"
+        ],
+        "answer": "ても"
+      },
+      {
+        "question_number": 3,
+        "question": "土曜日 ( [...] ) は、 毎日 学校 があります。",
+        "choices": [
+          "以外",
+          "ごろ",
+          "だけ",
+          "なので"
+        ],
+        "answer": "以外"
+      },
+      {
+        "question_number": 4,
+        "question": "A: テスト、どうだった？ B: 一生懸命 勉強 したんだ。 ( [...] ) 、 難 しくてあまりできなかったよ。",
+        "choices": [
+          "だから",
+          "だが",
+          "それで",
+          "それに"
+        ],
+        "answer": "だが"
+      },
+      {
+        "question_number": 5,
+        "question": "A: 先生 は 何 を ( [...] ) いますか。 B: お 手紙 を 書 いていらっしゃるようですよ。",
+        "choices": [
+          "なさって",
+          "なって",
+          "なして",
+          "ならって"
+        ],
+        "answer": "なさって"
+      },
+      {
+        "question_number": 6,
+        "question": "バス、 ( [...] ) 電車 でそこへ行けます。",
+        "choices": [
+          "または",
+          "そして",
+          "しかし",
+          "でも"
+        ],
+        "answer": "または"
+      },
+      {
+        "question_number": 7,
+        "question": "A: この 新 しいアプリはどうですか。 B: とても 使 い ( [...] ) ですよ。",
+        "choices": [
+          "そうに",
+          "ながら",
+          "すぎます",
+          "やすい"
+        ],
+        "answer": "やすい"
+      },
+      {
+        "question_number": 8,
+        "question": "ちょっと 疲 れましたね。コーヒー ( [...] ) 飲 みましょうか。",
+        "choices": [
+          "しか",
+          "について",
+          "なので",
+          "でも"
+        ],
+        "answer": "でも"
+      },
+      {
+        "question_number": 9,
+        "question": "A: 先生 、この 作文 でいいですか。 B: うーん、 間違 いがいくつかありますね。もう 一度 書 き ( [...] ) 。",
+        "choices": [
+          "直しください",
+          "直してください",
+          "直すください",
+          "直したください"
+        ],
+        "answer": "直してください"
+      },
+      {
+        "question_number": 10,
+        "question": "A: 駅までの 道 を 教 えて ( [...] ) ありがとう。 B: いいえ、どういたしまして。",
+        "choices": [
+          "くれるて",
+          "くれて",
+          "あげて",
+          "もらい"
+        ],
+        "answer": "くれて"
+      }
+    ]
+  },
+  {
+    "page": 34,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-grammar-tests/34/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "友達 は 電話 で ( [...] ) 歩 いています。",
+        "choices": [
+          "話すことが",
+          "話したながら",
+          "話しながら",
+          "話すながら"
+        ],
+        "answer": "話しながら"
+      },
+      {
+        "question_number": 2,
+        "question": "引越 しの 前 に、 古 い 本 を ( [...] ) おきます。",
+        "choices": [
+          "売っる",
+          "売ります",
+          "売る",
+          "売って"
+        ],
+        "answer": "売って"
+      },
+      {
+        "question_number": 3,
+        "question": "A: 先生 、この 問題 がわかりません。 B: よく 聞 いて、もう 一度 考 え ( [...] ) 。",
+        "choices": [
+          "なさい",
+          "なから",
+          "ください",
+          "みる"
+        ],
+        "answer": "なさい"
+      },
+      {
+        "question_number": 4,
+        "question": "彼 はたくさん 練習 した ( [...] ) 、 試合 に 勝 てませんでした。",
+        "choices": [
+          "または",
+          "のに",
+          "そとに",
+          "さっき"
+        ],
+        "answer": "のに"
+      },
+      {
+        "question_number": 5,
+        "question": "子供 たちが 寝 ている ( [...] ) に、 私 は 本 を 読 みます。",
+        "choices": [
+          "問",
+          "後",
+          "間",
+          "前"
+        ],
+        "answer": "間"
+      },
+      {
+        "question_number": 6,
+        "question": "田中 さんは 来月 結婚 する ( [...] ) 。",
+        "choices": [
+          "そうです",
+          "かもしれません",
+          "でしょう",
+          "だそうです"
+        ],
+        "answer": "そうです"
+      },
+      {
+        "question_number": 7,
+        "question": "A: この 問題 が分かりません。 B: もう 一度 ( [...] ) くれませんか。",
+        "choices": [
+          "教えて",
+          "教える",
+          "教えたの",
+          "教え"
+        ],
+        "answer": "教えて"
+      },
+      {
+        "question_number": 8,
+        "question": "彼 は 帽子 を 被 った ( [...] ) 部屋 に 入 りました。",
+        "choices": [
+          "ように",
+          "まま",
+          "ままへ",
+          "ままを"
+        ],
+        "answer": "まま"
+      },
+      {
+        "question_number": 9,
+        "question": "A: 田中 さん、少しお 話 できますか。 B: すみません、 今 、レポートを 書 いている ( [...] ) なんです。あとでいいですか。",
+        "choices": [
+          "ことと",
+          "ところ",
+          "つもりだ",
+          "はずが"
+        ],
+        "answer": "ところ"
+      },
+      {
+        "question_number": 10,
+        "question": "A: 明日 は 雨 ですよ。 行 きますか。 B: はい。 雨 ( [...] ) 行 きます。",
+        "choices": [
+          "では",
+          "にも",
+          "から",
+          "でも"
+        ],
+        "answer": "でも"
+      }
+    ]
+  },
+  {
+    "page": 35,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-grammar-tests/35/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "ホテル 駅 までタクシーを 呼 んで ( [...] ) 。",
+        "choices": [
+          "いただけませんか",
+          "いただくの",
+          "いただけません",
+          "いただきますか"
+        ],
+        "answer": "いただけませんか"
+      },
+      {
+        "question_number": 2,
+        "question": "A: 雨 が 降 りそうですか。 B: ええ、 空 が 暗 いですから、もうすぐ 降 る ( [...] ) ね。",
+        "choices": [
+          "降るそうです",
+          "とみえます",
+          "降るらしいです",
+          "降るかもしれません"
+        ],
+        "answer": "とみえます"
+      },
+      {
+        "question_number": 3,
+        "question": "A: 雨 は 止 みましたか。 B: いいえ、 ( [...] ) 降 っていますよ。",
+        "choices": [
+          "から",
+          "まだ",
+          "でも",
+          "とても"
+        ],
+        "answer": "まだ"
+      },
+      {
+        "question_number": 4,
+        "question": "A: 山田 さん、 最近 会議 に 遅 れませんね。 B: ええ、できるだけ ( [...] ) 。",
+        "choices": [
+          "遅れませんようにしています",
+          "遅れないようしています",
+          "遅れないようにいます",
+          "遅れないようにしています"
+        ],
+        "answer": "遅れないようにしています"
+      },
+      {
+        "question_number": 5,
+        "question": "先生 が ( [...] ) ことをよく 覚 えています。",
+        "choices": [
+          "お言になった",
+          "申した",
+          "言った",
+          "おっしゃった"
+        ],
+        "answer": "おっしゃった"
+      },
+      {
+        "question_number": 6,
+        "question": "あのレストランは、 味 が ( [...] ) 値段 も 安 いです。",
+        "choices": [
+          "いいだけで",
+          "いいだけでなく",
+          "いいではなく",
+          "いいだけ"
+        ],
+        "answer": "いいだけでなく"
+      },
+      {
+        "question_number": 7,
+        "question": "弟 は 昨日 、 本 を３ 冊 ( [...] ) 読 みました。",
+        "choices": [
+          "へ",
+          "ま",
+          "も",
+          "や"
+        ],
+        "answer": "も"
+      },
+      {
+        "question_number": 8,
+        "question": "彼 はどうして 返事 をくれないの ( [...] ) 。",
+        "choices": [
+          "だろうか",
+          "かしら",
+          "かな",
+          "だろう"
+        ],
+        "answer": "だろうか"
+      },
+      {
+        "question_number": 9,
+        "question": "彼 が 読 んだ 本 の 数 は ( [...] ) だろう。",
+        "choices": [
+          "少なくないだ",
+          "少なくない",
+          "少なくです",
+          "少ないじゃない"
+        ],
+        "answer": "少なくない"
+      },
+      {
+        "question_number": 10,
+        "question": "弟 が このゲームの やり 方 を 知 らないので、 私 が ( [...] ) 。",
+        "choices": [
+          "教[おし]えてございます",
+          "教[おし]えて習います",
+          "教えてあげます",
+          "教[おし]えていただきました"
+        ],
+        "answer": "教えてあげます"
+      }
+    ]
+  },
+  {
+    "page": 36,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-grammar-tests/36/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "この 仕事 は 二人 ( [...] ) やりました。",
+        "choices": [
+          "を",
+          "と",
+          "で",
+          "に"
+        ],
+        "answer": "で"
+      },
+      {
+        "question_number": 2,
+        "question": "A: 田中 さんは 毎日 3 時間 しか 寝 ていないそうです。 B: それは 大変 ( [...] ) 。 体 が 心配 ですね。",
+        "choices": [
+          "がいますね",
+          "でもいいですか",
+          "できる",
+          "でしょう"
+        ],
+        "answer": "でしょう"
+      },
+      {
+        "question_number": 3,
+        "question": "私 は 週末 、あまり ( [...] ) 。",
+        "choices": [
+          "勉強しません",
+          "勉強してです",
+          "勉強します",
+          "勉強した"
+        ],
+        "answer": "勉強しません"
+      },
+      {
+        "question_number": 4,
+        "question": "先生 は 学生 に 言葉 の 意味 を ( [...] ) います。",
+        "choices": [
+          "調べさせて",
+          "調べさして",
+          "調べ",
+          "調べられて"
+        ],
+        "answer": "調べさせて"
+      },
+      {
+        "question_number": 5,
+        "question": "彼 は 朝 から 何 時間 もゲームを ( [...] ) 。",
+        "choices": [
+          "遊んで続けています",
+          "遊び始めています",
+          "遊び続けています",
+          "遊び直しています"
+        ],
+        "answer": "遊び続けています"
+      },
+      {
+        "question_number": 6,
+        "question": "この 店 のラーメンは 本当 に 美味 しいらしいよ。 一緒 に 食 べに 行 って ( [...] ) ？",
+        "choices": [
+          "みた",
+          "みたり",
+          "みろよう",
+          "みない"
+        ],
+        "answer": "みない"
+      },
+      {
+        "question_number": 7,
+        "question": "A: どうしたんですか。 B: 電車 の 中 で 財布 を ( [...] ) しまいました。",
+        "choices": [
+          "なくして",
+          "失くします",
+          "失くした",
+          "失くす"
+        ],
+        "answer": "なくして"
+      },
+      {
+        "question_number": 8,
+        "question": "A: あのう、 窓 を 開 けて ( [...] ) 。ちょっと 暑 いですから。",
+        "choices": [
+          "いただいかもしれません",
+          "いただけませんか",
+          "あげません",
+          "やめませんか"
+        ],
+        "answer": "いただけませんか"
+      },
+      {
+        "question_number": 9,
+        "question": "A: この 宿題 、 難 しい ( [...] ) 、 少 し 手伝 ってくれない？ B: いいよ。どこが 分 からないの？",
+        "choices": [
+          "けれどもだ",
+          "んだけど",
+          "ですから",
+          "なのに"
+        ],
+        "answer": "んだけど"
+      },
+      {
+        "question_number": 10,
+        "question": "お 金 が ( [...] ) ありません。",
+        "choices": [
+          "ぜんぜん",
+          "かなり",
+          "ぜんぶ",
+          "とても"
+        ],
+        "answer": "ぜんぜん"
+      }
+    ]
+  },
+  {
+    "page": 37,
+    "url": "https://www.japanesejlpt.com/learn-japanese/jlpt-n4-grammar-tests/37/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "A: 週末 、どこかへ 行 きたいね。 B: うん。 山 ( [...] ) 海 ( [...] ) 、どこへでも 行 こう！",
+        "choices": [
+          "だけ",
+          "しか",
+          "でも",
+          "たら"
+        ],
+        "answer": "でも"
+      },
+      {
+        "question_number": 2,
+        "question": "A: 危 ない！そこから ( [...] ) ！ B: え？どうしたんですか。",
+        "choices": [
+          "逃げろ",
+          "逃げます",
+          "逃げれ",
+          "逃げてだ"
+        ],
+        "answer": "逃げろ"
+      },
+      {
+        "question_number": 3,
+        "question": "A: 昼 ごはんはもう 食 べましたか。 B: いいえ、これから 食 べる ( [...] ) なんです。",
+        "choices": [
+          "きっと",
+          "ところ",
+          "もいる",
+          "ばかり"
+        ],
+        "answer": "ところ"
+      },
+      {
+        "question_number": 4,
+        "question": "A: 明日 の 天気 は どうでしょうか。 B: そうですね。 雨 が ( [...] ) かもしれません。",
+        "choices": [
+          "降る",
+          "降って",
+          "降ります",
+          "降りますた"
+        ],
+        "answer": "降る"
+      },
+      {
+        "question_number": 5,
+        "question": "彼女 は おいしいパンを ( [...] ) ことができます。",
+        "choices": [
+          "作った",
+          "作り",
+          "作る",
+          "作って"
+        ],
+        "answer": "作る"
+      },
+      {
+        "question_number": 6,
+        "question": "電気 が 消 えて、 部屋 の 中 は ( [...] ) になった。",
+        "choices": [
+          "真っ暗",
+          "真っ暗い",
+          "真っ暗を",
+          "真っ暗で"
+        ],
+        "answer": "真っ暗"
+      },
+      {
+        "question_number": 7,
+        "question": "雨 が ( [...] ) 。",
+        "choices": [
+          "降っています",
+          "降ったいます",
+          "降るいます",
+          "降り"
+        ],
+        "answer": "降っています"
+      },
+      {
+        "question_number": 8,
+        "question": "バス ( [...] ) 間 に 合 わないから、タクシーで行こう。",
+        "choices": [
+          "から",
+          "には",
+          "では",
+          "のを"
+        ],
+        "answer": "では"
+      },
+      {
+        "question_number": 9,
+        "question": "先生 に 作文 を 直 し ( [...] ) 。",
+        "choices": [
+          "ていただきました",
+          "なおしてさしあげました",
+          "なおしてくださりました",
+          "なおしにいただきました"
+        ],
+        "answer": "ていただきました"
+      },
+      {
+        "question_number": 10,
+        "question": "もし、とても ( [...] ) 、 少 し 休 んでください。",
+        "choices": [
+          "眠ければ",
+          "眠いけど",
+          "眠いければ",
+          "眠くると"
+        ],
+        "answer": "眠ければ"
+      }
+    ]
+  }
+]

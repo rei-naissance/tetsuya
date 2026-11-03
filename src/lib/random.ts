@@ -13,7 +13,29 @@ export function sample<T>(items: readonly T[], n: number): T[] {
 }
 
 /** Shuffle a question's choices, remapping the answer index to match. */
-export function shuffleChoices<Q extends { choices: string[]; answer: number }>(q: Q): Q {
+export function shuffleChoices<Q extends { choices: string[]; answer: number; keepOrder?: boolean }>(q: Q): Q {
+  if (q.keepOrder) return q
   const order = shuffle(q.choices.map((_, i) => i))
   return { ...q, choices: order.map((i) => q.choices[i]), answer: order.indexOf(q.answer) }
+}
+
+/**
+ * Picks roughly `n` questions, treating each `group` (e.g. a reading passage
+ * and its questions) as one unit: whole groups are drawn at random and their
+ * questions stay together in their original order.
+ */
+export function sampleGrouped<Q extends { id: string; group?: string }>(items: readonly Q[], n: number): Q[] {
+  const groups = new Map<string, Q[]>()
+  for (const q of items) {
+    const key = q.group ?? q.id
+    groups.set(key, [...(groups.get(key) ?? []), q])
+  }
+  const out: Q[] = []
+  for (const group of shuffle([...groups.values()])) {
+    if (out.length >= n) break
+    // Don't let one long group overshoot the target by much.
+    if (out.length > 0 && out.length + group.length > n + 2) continue
+    out.push(...group)
+  }
+  return out
 }

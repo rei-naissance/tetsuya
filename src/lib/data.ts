@@ -1,5 +1,5 @@
 import type { Level, LevelData, Question, Section } from './types'
-import { SECTIONS } from './types'
+import { ALL_KINDS, SECTIONS } from './types'
 
 const cache = new Map<Level, Promise<Question[]>>()
 
@@ -25,6 +25,11 @@ export function loadQuestions(level: Level): Promise<Question[]> {
 
 export function bySection(questions: Question[], section: Section): Question[] {
   return questions.filter((q) => q.section === section)
+}
+
+/** One question type of a section, or the whole section for "all". */
+export function byKind(questions: Question[], section: Section, kind: string): Question[] {
+  return bySection(questions, section).filter((q) => kind === ALL_KINDS || q.kind === kind)
 }
 
 /** Drops malformed entries (with a console warning) rather than crashing the UI. */

@@ -1,0 +1,6702 @@
+[
+  {
+    "exercise_number": 1,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n4-vocabulary-exercise-1/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "日本では、はる·なつ·あき·ふゆの四つの _______ があります。",
+        "choices": [
+          "てんき",
+          "きぶん",
+          "きおん",
+          "きせつ"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "日本では、はる·なつ·あき·ふゆの四つの\nきせつ\nがあります。"
+      },
+      {
+        "question_number": 2,
+        "question": "きのうならったことをもう _______ しまいました。",
+        "choices": [
+          "わすれて",
+          "すてて",
+          "なくして",
+          "とって"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "きのうならったことをもう\nわすれて\nしまいました。"
+      },
+      {
+        "question_number": 3,
+        "question": "シャツのうりばは、このうえの３がいです。あの _______ でいってください。",
+        "choices": [
+          "ドア",
+          "タクシー",
+          "サンダル",
+          "エスカレーター"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "シャツのうりばは、このうえの３がいです。あの\nエスカレーター\nでいってください。"
+      },
+      {
+        "question_number": 4,
+        "question": "あまり勉強しなかったので、テストのてんが _______ です。",
+        "choices": [
+          "しんぱい",
+          "きけん",
+          "あんぜん",
+          "あんしん"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "あまり勉強しなかったので、テストのてんが\nしんぱい\nです。"
+      },
+      {
+        "question_number": 5,
+        "question": "おもしろいえいがだと聞いたので、_______ みたいです。",
+        "choices": [
+          "たぶん",
+          "そんなに",
+          "ぜひ",
+          "きゅうに"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "おもしろいえいがだと聞いたので、\nぜひ\nみたいです。"
+      },
+      {
+        "question_number": 6,
+        "question": "たかださんは _______ をしながらだいがくにかよっています。",
+        "choices": [
+          "オートバイ",
+          "デパート",
+          "アルバイト",
+          "カレンダー"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "たかださんは\nアルバイト\nをしながらだいがくにかよっています。"
+      },
+      {
+        "question_number": 7,
+        "question": "はなこさんは白いスカートと _______ をはいています。",
+        "choices": [
+          "セーター",
+          "ハンカチ",
+          "サンダル",
+          "オーバー"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "はなこさんは白いスカートと\nサンダル\nをはいています。"
+      },
+      {
+        "question_number": 8,
+        "question": "父はとうきょうへ行くと、いつも _______ をかってきてくれます。",
+        "choices": [
+          "おまつり",
+          "おれい",
+          "おみやげ",
+          "おいわい"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "父はとうきょうへ行くと、いつも\nおみやげ\nをかってきてくれます。"
+      },
+      {
+        "question_number": 9,
+        "question": "あのあたらしい _______ はデパートです。",
+        "choices": [
+          "アパート",
+          "ホテル",
+          "プール",
+          "ビル"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "あのあたらしい\nビル\nはデパートです。"
+      },
+      {
+        "question_number": 10,
+        "question": "じゅぎょうがおわってから、まいにち、ピンポンの _______ をします。",
+        "choices": [
+          "しゅみ",
+          "うんどう",
+          "れんしゅう",
+          "しゅうかん"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "じゅぎょうがおわってから、まいにち、ピンポンの\nれんしゅう\nをします。"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "春",
+        "reading": "haru",
+        "meaning": "spring"
+      },
+      {
+        "word": "夏",
+        "reading": "natsu",
+        "meaning": "summer"
+      },
+      {
+        "word": "秋",
+        "reading": "aki",
+        "meaning": "autumn, fall"
+      },
+      {
+        "word": "冬",
+        "reading": "fuyu",
+        "meaning": "winter"
+      },
+      {
+        "word": "天気",
+        "reading": "tenki",
+        "meaning": "weather"
+      },
+      {
+        "word": "気分",
+        "reading": "kibun",
+        "meaning": "feeling, mood"
+      },
+      {
+        "word": "気温",
+        "reading": "kion",
+        "meaning": "atmospheric temperature"
+      },
+      {
+        "word": "季節",
+        "reading": "kisetsu",
+        "meaning": "season"
+      },
+      {
+        "word": "捨てる",
+        "reading": "suteru",
+        "meaning": "to throw away"
+      },
+      {
+        "word": "無くす",
+        "reading": "nakusu",
+        "meaning": "to lose something"
+      },
+      {
+        "word": "取る",
+        "reading": "toru",
+        "meaning": "to take, to pick up"
+      },
+      {
+        "word": "シャツ",
+        "reading": "",
+        "meaning": "shirt"
+      },
+      {
+        "word": "売り場",
+        "reading": "uriba",
+        "meaning": "place where things are sold"
+      },
+      {
+        "word": "ドア",
+        "reading": "",
+        "meaning": "door"
+      },
+      {
+        "word": "タクシー",
+        "reading": "",
+        "meaning": "taxi"
+      },
+      {
+        "word": "サンダル",
+        "reading": "",
+        "meaning": "sandal"
+      },
+      {
+        "word": "エスカレーター",
+        "reading": "",
+        "meaning": "escalator"
+      },
+      {
+        "word": "勉強",
+        "reading": "benkyou",
+        "meaning": "study, diligence"
+      },
+      {
+        "word": "テスト",
+        "reading": "",
+        "meaning": "test"
+      },
+      {
+        "word": "点",
+        "reading": "ten",
+        "meaning": "mark, point"
+      },
+      {
+        "word": "心配",
+        "reading": "shinpai",
+        "meaning": "worry"
+      },
+      {
+        "word": "危険",
+        "reading": "kiken",
+        "meaning": "danger, peril"
+      },
+      {
+        "word": "安全",
+        "reading": "anzen",
+        "meaning": "safety, security"
+      },
+      {
+        "word": "安心",
+        "reading": "anshin",
+        "meaning": "relief, piece of mind"
+      },
+      {
+        "word": "面白い",
+        "reading": "omoshiroi",
+        "meaning": "interesting, amusing"
+      },
+      {
+        "word": "たぶん",
+        "reading": "",
+        "meaning": "perhaps, probably"
+      },
+      {
+        "word": "そんなに",
+        "reading": "",
+        "meaning": "so much, so"
+      },
+      {
+        "word": "ぜひ",
+        "reading": "",
+        "meaning": "certainly, without fail"
+      },
+      {
+        "word": "きゅうに",
+        "reading": "",
+        "meaning": "suddenly, abruptly"
+      },
+      {
+        "word": "オートバイ",
+        "reading": "",
+        "meaning": "motorcycle"
+      },
+      {
+        "word": "デパート",
+        "reading": "",
+        "meaning": "department store"
+      },
+      {
+        "word": "アルバイト",
+        "reading": "",
+        "meaning": "part-time job"
+      },
+      {
+        "word": "カレンダー",
+        "reading": "",
+        "meaning": "calendar"
+      },
+      {
+        "word": "スカート",
+        "reading": "",
+        "meaning": "skirt"
+      },
+      {
+        "word": "セーター",
+        "reading": "",
+        "meaning": "sweater, jumper"
+      },
+      {
+        "word": "ハンカチ",
+        "reading": "",
+        "meaning": "handkerchief"
+      },
+      {
+        "word": "サンダル",
+        "reading": "",
+        "meaning": "sandal"
+      },
+      {
+        "word": "オーバー",
+        "reading": "",
+        "meaning": "overcoat"
+      },
+      {
+        "word": "お祭り",
+        "reading": "omatsuri",
+        "meaning": "festival, feast"
+      },
+      {
+        "word": "お礼",
+        "reading": "orei",
+        "meaning": "thanking, expression of gratitude"
+      },
+      {
+        "word": "お土産",
+        "reading": "omiyage",
+        "meaning": "present, souvenir"
+      },
+      {
+        "word": "お祝い",
+        "reading": "oiwai",
+        "meaning": "congratulation, celebration"
+      },
+      {
+        "word": "アパート",
+        "reading": "",
+        "meaning": "apartment, apartment building"
+      },
+      {
+        "word": "ホテル",
+        "reading": "",
+        "meaning": "hotel"
+      },
+      {
+        "word": "プール",
+        "reading": "",
+        "meaning": "swimming pool"
+      },
+      {
+        "word": "ビル",
+        "reading": "",
+        "meaning": "building"
+      },
+      {
+        "word": "授業",
+        "reading": "jugyou",
+        "meaning": "lesson, class work"
+      },
+      {
+        "word": "終わる",
+        "reading": "owaru",
+        "meaning": "to finish, to end"
+      },
+      {
+        "word": "ピンポン",
+        "reading": "",
+        "meaning": "table tennis"
+      },
+      {
+        "word": "趣味",
+        "reading": "shumi",
+        "meaning": "hobby, tastes"
+      },
+      {
+        "word": "運動",
+        "reading": "undou",
+        "meaning": "motion, exercise"
+      },
+      {
+        "word": "練習",
+        "reading": "renshuu",
+        "meaning": "practice"
+      },
+      {
+        "word": "習慣",
+        "reading": "shuukan",
+        "meaning": "custom, habit"
+      }
+    ]
+  },
+  {
+    "exercise_number": 2,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n4-vocabulary-exercise-2/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "雨がやっと _______ 。",
+        "choices": [
+          "とまりました",
+          "やみました",
+          "しまりました",
+          "あきました"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "雨がやっと\nやみました\n。"
+      },
+      {
+        "question_number": 2,
+        "question": "つぎのえきでおりて、バスに _______ ください。",
+        "choices": [
+          "かわって",
+          "のりかえて",
+          "ひっこして",
+          "とりかえて"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "つぎのえきでおりて、バスに\nのりかえて\nください。"
+      },
+      {
+        "question_number": 3,
+        "question": "えきからここまでバスでいちじかんで _______ 。",
+        "choices": [
+          "できます",
+          "かかります",
+          "とおれます",
+          "こられます"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "えきからここまでバスでいちじかんで\nこられます\n。"
+      },
+      {
+        "question_number": 4,
+        "question": "うちには _______ こどもがいて、いつもにぎやかです。",
+        "choices": [
+          "ひくい",
+          "わかい",
+          "ほそい",
+          "ちいさい"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "うちには\nちいさい\nこどもがいて、いつもにぎやかです。"
+      },
+      {
+        "question_number": 5,
+        "question": "たなかさんのしゅみは _______ をすることです。",
+        "choices": [
+          "バレーボール",
+          "カメラ",
+          "タクシー",
+          "ニュース"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "たなかさんのしゅみは\nバレーボール\nをすることです。"
+      },
+      {
+        "question_number": 6,
+        "question": "どこかであかんぼうのなく _______ がします。",
+        "choices": [
+          "みみ",
+          "こえ",
+          "おと",
+          "くち"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "どこかであかんぼうのなく\nこえ\nがします。"
+      },
+      {
+        "question_number": 7,
+        "question": "わたしはじてんしゃを _______ もっています。",
+        "choices": [
+          "にだい",
+          "にさい",
+          "にほん",
+          "にまい"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "わたしはじてんしゃを\nにだい\nもっています。"
+      },
+      {
+        "question_number": 8,
+        "question": "今年、大学に入学することができて、とても _______ です。",
+        "choices": [
+          "おいしかった",
+          "たのしかった",
+          "うれしかった",
+          "ただしかった"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "今年、大学に入学することができて、とても\nうれしかった\nです。"
+      },
+      {
+        "question_number": 9,
+        "question": "みちをおしえてもらったので、 _______ をいいました。",
+        "choices": [
+          "おれい",
+          "おかげ",
+          "おいわい",
+          "おだいじに"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "みちをおしえてもらったので、\nおれい\nをいいました。"
+      },
+      {
+        "question_number": 10,
+        "question": "わたしのうちへも _______ あそびにきてください。",
+        "choices": [
+          "いちど",
+          "いっこ",
+          "いちばん",
+          "いっけん"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "わたしのうちへも\nいちど\nあそびにきてください。"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "やっと",
+        "reading": "",
+        "meaning": "at last, at length"
+      },
+      {
+        "word": "止まる",
+        "reading": "tomaru",
+        "meaning": "to stop, to halt"
+      },
+      {
+        "word": "止む",
+        "reading": "yamu",
+        "meaning": "to cease, to be over"
+      },
+      {
+        "word": "閉まる",
+        "reading": "shimaru",
+        "meaning": "to be shut, to be closed"
+      },
+      {
+        "word": "開く",
+        "reading": "aku",
+        "meaning": "to open"
+      },
+      {
+        "word": "次",
+        "reading": "tsugi",
+        "meaning": "next"
+      },
+      {
+        "word": "下りる",
+        "reading": "oriru",
+        "meaning": "to descend"
+      },
+      {
+        "word": "バス",
+        "reading": "",
+        "meaning": "bus"
+      },
+      {
+        "word": "変わる",
+        "reading": "kawaru",
+        "meaning": "to change, to be transformed"
+      },
+      {
+        "word": "乗り換える",
+        "reading": "norikaeru",
+        "meaning": "to transfer (train), to change (bus)"
+      },
+      {
+        "word": "引っ越す",
+        "reading": "hikkosu",
+        "meaning": "to move (house)"
+      },
+      {
+        "word": "取り替える",
+        "reading": "torikaeru",
+        "meaning": "to exchange, to replace"
+      },
+      {
+        "word": "賑やか",
+        "reading": "nigiyaka",
+        "meaning": "bustling, busy"
+      },
+      {
+        "word": "低い",
+        "reading": "hikui",
+        "meaning": "low"
+      },
+      {
+        "word": "若い",
+        "reading": "wakai",
+        "meaning": "young"
+      },
+      {
+        "word": "細い",
+        "reading": "hosoi",
+        "meaning": "thin, slender"
+      },
+      {
+        "word": "小さい",
+        "reading": "chiisai",
+        "meaning": "small, little"
+      },
+      {
+        "word": "バレーボール",
+        "reading": "",
+        "meaning": "volleyball"
+      },
+      {
+        "word": "カメラ",
+        "reading": "",
+        "meaning": "camera"
+      },
+      {
+        "word": "ニュース",
+        "reading": "",
+        "meaning": "news"
+      },
+      {
+        "word": "どこか",
+        "reading": "",
+        "meaning": "somewhere"
+      },
+      {
+        "word": "赤ん坊",
+        "reading": "akanbou",
+        "meaning": "baby"
+      },
+      {
+        "word": "泣く",
+        "reading": "naku",
+        "meaning": "to cry"
+      },
+      {
+        "word": "耳",
+        "reading": "mimi",
+        "meaning": "ear"
+      },
+      {
+        "word": "声",
+        "reading": "koe",
+        "meaning": "voice"
+      },
+      {
+        "word": "音",
+        "reading": "oto",
+        "meaning": "sound, noise"
+      },
+      {
+        "word": "自転車",
+        "reading": "jitensha",
+        "meaning": "bicycle"
+      },
+      {
+        "word": "持つ",
+        "reading": "motsu",
+        "meaning": "to possess"
+      },
+      {
+        "word": "今年",
+        "reading": "kotoshi",
+        "meaning": "this year"
+      },
+      {
+        "word": "大学",
+        "reading": "daigaku",
+        "meaning": "university, college"
+      },
+      {
+        "word": "入学",
+        "reading": "nyuugaku",
+        "meaning": "entry to school or university"
+      },
+      {
+        "word": "美味しい",
+        "reading": "oishii",
+        "meaning": "delicious, tasty"
+      },
+      {
+        "word": "楽しい",
+        "reading": "tanoshii",
+        "meaning": "enjoyable, fun"
+      },
+      {
+        "word": "嬉しい",
+        "reading": "ureshii",
+        "meaning": "happy, glad"
+      },
+      {
+        "word": "正しい",
+        "reading": "tadashii",
+        "meaning": "right, correct"
+      },
+      {
+        "word": "道",
+        "reading": "michi",
+        "meaning": "street, way"
+      },
+      {
+        "word": "教える",
+        "reading": "oshieru",
+        "meaning": "to teach, to inform"
+      }
+    ]
+  },
+  {
+    "exercise_number": 3,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n4-vocabulary-exercise-3/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "いとうさんはしごとがおおくて _______ のようです。",
+        "choices": [
+          "あそびすぎ",
+          "はたらきすぎ",
+          "やすみすぎ",
+          "つとめすぎ"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "いとうさんはしごとがおおくて\nはたらきすぎ\nのようです。"
+      },
+      {
+        "question_number": 2,
+        "question": "うちのちかくにほんやが _______ あります。",
+        "choices": [
+          "二けん",
+          "二さつ",
+          "二ほん",
+          "二かい"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "うちのちかくにほんやが\n二けん\nあります。"
+      },
+      {
+        "question_number": 3,
+        "question": "わたしは日本に来てから _______ このいえにすんでいます。",
+        "choices": [
+          "もっと",
+          "きっと",
+          "ずっと",
+          "やっと"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "わたしは日本に来てから\nずっと\nこのいえにすんでいます。"
+      },
+      {
+        "question_number": 4,
+        "question": "このみずうみの _______ はどのくらいですか。",
+        "choices": [
+          "ふかさ",
+          "あつさ",
+          "さむさ",
+          "おもさ"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "このみずうみの\nふかさ\nはどのくらいですか。"
+      },
+      {
+        "question_number": 5,
+        "question": "あねは _______ になって、びょういんではたらいています。",
+        "choices": [
+          "かんごふ",
+          "せんせい",
+          "けいかん",
+          "サラリーマン"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "あねは\nかんごふ\nになって、びょういんではたらいています。"
+      },
+      {
+        "question_number": 6,
+        "question": "おなかがすいていたので、れいぞうこの中の食べ物を _______ 食べてしましました。",
+        "choices": [
+          "すっかり",
+          "びっくり",
+          "ぐっすり",
+          "はっきり"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "おなかがすいていたので、れいぞうこの中の食べ物を\nすっかり\n食べてしましました。"
+      },
+      {
+        "question_number": 7,
+        "question": "きのうみたえいがはとても _______ です。",
+        "choices": [
+          "うれしかった",
+          "にがかった",
+          "よわかった",
+          "こわかった"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "きのうみたえいがはとても\nこわかった\nです。"
+      },
+      {
+        "question_number": 8,
+        "question": "もうおそいから、_______ かえりましょう。",
+        "choices": [
+          "そろそろ",
+          "だんだん",
+          "ときどき",
+          "とうとう"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "もうおそいから、\nそろそろ\nかえりましょう。"
+      },
+      {
+        "question_number": 9,
+        "question": "わたしの先生はたいへん _______ です。",
+        "choices": [
+          "すずしい",
+          "みじかい",
+          "ただしい",
+          "きびしい"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "わたしの先生はたいへん\nきびしい\nです。"
+      },
+      {
+        "question_number": 10,
+        "question": "やさしいしつもんにこたえられなくて、とても _______ 。",
+        "choices": [
+          "はずかしかったです",
+          "すばらしかったです",
+          "すごかったです",
+          "めずらしかったです"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "やさしいしつもんにこたえられなくて、とても\nはずかしかったです\n。"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "仕事",
+        "reading": "shigoto",
+        "meaning": "work, job"
+      },
+      {
+        "word": "多い",
+        "reading": "ooi",
+        "meaning": "many, numerous"
+      },
+      {
+        "word": "遊ぶ",
+        "reading": "asobu",
+        "meaning": "to play, to enjoy oneself"
+      },
+      {
+        "word": "働く",
+        "reading": "hataraku",
+        "meaning": "to work"
+      },
+      {
+        "word": "休む",
+        "reading": "yasumu",
+        "meaning": "to rest"
+      },
+      {
+        "word": "努める",
+        "reading": "tsutomeru",
+        "meaning": "to endeavor, to try"
+      },
+      {
+        "word": "本屋",
+        "reading": "honya",
+        "meaning": "bookstore, bookshop"
+      },
+      {
+        "word": "住む",
+        "reading": "sumu",
+        "meaning": "to live, to reside"
+      },
+      {
+        "word": "もっと",
+        "reading": "",
+        "meaning": "more, even more"
+      },
+      {
+        "word": "きっと",
+        "reading": "",
+        "meaning": "surely, undoubtedly"
+      },
+      {
+        "word": "ずっと",
+        "reading": "",
+        "meaning": "the whole time, all along"
+      },
+      {
+        "word": "湖",
+        "reading": "mizuumi",
+        "meaning": "lake"
+      },
+      {
+        "word": "深い",
+        "reading": "fukai",
+        "meaning": "deep, profound"
+      },
+      {
+        "word": "寒い",
+        "reading": "samui",
+        "meaning": "cold"
+      },
+      {
+        "word": "重い",
+        "reading": "omoi",
+        "meaning": "heavy"
+      },
+      {
+        "word": "病院",
+        "reading": "byouin",
+        "meaning": "hospital"
+      },
+      {
+        "word": "看護婦",
+        "reading": "kangofu",
+        "meaning": "(female) nurse"
+      },
+      {
+        "word": "警官",
+        "reading": "keikan",
+        "meaning": "policeman"
+      },
+      {
+        "word": "サラリーマン",
+        "reading": "",
+        "meaning": "office worker, company employee"
+      },
+      {
+        "word": "お腹が空く",
+        "reading": "onaka ga suku",
+        "meaning": "to become hungry"
+      },
+      {
+        "word": "冷蔵庫",
+        "reading": "reizouko",
+        "meaning": "refrigerator"
+      },
+      {
+        "word": "食べ物",
+        "reading": "tabemono",
+        "meaning": "food"
+      },
+      {
+        "word": "すっかり",
+        "reading": "",
+        "meaning": "all, completely"
+      },
+      {
+        "word": "びっくり",
+        "reading": "",
+        "meaning": "to be surprise, to be amazed"
+      },
+      {
+        "word": "ぐっすり",
+        "reading": "",
+        "meaning": "sound asleep, fast asleep"
+      },
+      {
+        "word": "はっきり",
+        "reading": "",
+        "meaning": "clearly, plainly"
+      },
+      {
+        "word": "苦い",
+        "reading": "nigai",
+        "meaning": "bitter"
+      },
+      {
+        "word": "弱い",
+        "reading": "yowai",
+        "meaning": "weak"
+      },
+      {
+        "word": "怖い",
+        "reading": "kowai",
+        "meaning": "scary, frightening"
+      },
+      {
+        "word": "遅い",
+        "reading": "osoi",
+        "meaning": "slow, late (at night)"
+      },
+      {
+        "word": "そろそろ",
+        "reading": "",
+        "meaning": "soon"
+      },
+      {
+        "word": "だんだん",
+        "reading": "",
+        "meaning": "gradually"
+      },
+      {
+        "word": "ときどき",
+        "reading": "",
+        "meaning": "sometimes, at times"
+      },
+      {
+        "word": "とうとう",
+        "reading": "",
+        "meaning": "finally, at last"
+      },
+      {
+        "word": "涼しい",
+        "reading": "suzushii",
+        "meaning": "cool (of weather), refreshing"
+      },
+      {
+        "word": "短い",
+        "reading": "mijikai",
+        "meaning": "short"
+      },
+      {
+        "word": "厳しい",
+        "reading": "kibishii",
+        "meaning": "severe, strict"
+      },
+      {
+        "word": "易しい",
+        "reading": "yasashii",
+        "meaning": "easy, simple"
+      },
+      {
+        "word": "質問",
+        "reading": "shitsumon",
+        "meaning": "question, inquiry"
+      },
+      {
+        "word": "答える",
+        "reading": "kotaeru",
+        "meaning": "to answer, to reply"
+      },
+      {
+        "word": "恥ずかしい",
+        "reading": "hazukashii",
+        "meaning": "ashamed, embarrassed"
+      },
+      {
+        "word": "素晴らしい",
+        "reading": "subarashii",
+        "meaning": "wonderful, splendid"
+      },
+      {
+        "word": "凄い",
+        "reading": "sugoi",
+        "meaning": "amazing, great"
+      },
+      {
+        "word": "珍しい",
+        "reading": "mezurashii",
+        "meaning": "unusual, rare"
+      }
+    ]
+  },
+  {
+    "exercise_number": 4,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n4-vocabulary-exercise-4/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "きょうしつのかべにきれいなえが _______ あります。",
+        "choices": [
+          "のせて",
+          "かけて",
+          "おいて",
+          "つけて"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "きょうしつのかべにきれいなえが\nかけて\nあります。"
+      },
+      {
+        "question_number": 2,
+        "question": "この川のみずはのんでも _______ か。",
+        "choices": [
+          "すみません",
+          "だいじょうぶです",
+          "まにあいます",
+          "できません"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "この川のみずはのんでも\nだいじょうぶです\nか。"
+      },
+      {
+        "question_number": 3,
+        "question": "あしたべんきょうするかんじを　_______ しておいてください。",
+        "choices": [
+          "けいけん",
+          "よしゅう",
+          "はんたい",
+          "ふくしゅう"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "あしたべんきょうするかんじを\nよしゅう\nしておいてください。"
+      },
+      {
+        "question_number": 4,
+        "question": "あのかわは _______ だから、あそこでおよいではいけません。",
+        "choices": [
+          "あんぜん",
+          "きけん",
+          "さかん",
+          "じゅうぶん"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "あのかわは\nきけん\nだから、あそこでおよいではいけません。"
+      },
+      {
+        "question_number": 5,
+        "question": "たばこを　_______ ほうがいいとともだちにいわれました。",
+        "choices": [
+          "おわった",
+          "しめた",
+          "とまった",
+          "やめた"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "たばこを\nやめた\nほうがいいとともだちにいわれました。"
+      },
+      {
+        "question_number": 6,
+        "question": "わたしの国はやきゅうが _______ です。",
+        "choices": [
+          "ねっしん",
+          "さかん",
+          "じゅうぶん",
+          "じょうぶ"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "わたしの国はやきゅうが\nさかん\nです。"
+      },
+      {
+        "question_number": 7,
+        "question": "やまだ「おにいさんのびょうきはよくなりましたか。」",
+        "choices": [
+          "たなか「はい、_______ 。」",
+          "おげんきで",
+          "おかげさまで",
+          "ごめんなさい",
+          "ごめんください"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "やまだ「おにいさんのびょうきはよくなりましたか。」たなか「はい、\nおかげさまで\n。」"
+      },
+      {
+        "question_number": 8,
+        "question": "だれでもテストを _______ のはすきではありません。",
+        "choices": [
+          "とる",
+          "もつ",
+          "うける",
+          "ひろう"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "だれでもテストを\nうける\nのはすきではありません。"
+      },
+      {
+        "question_number": 9,
+        "question": "_______ でじどうしゃにガソリンをいれました。",
+        "choices": [
+          "ガソリンコート",
+          "ガソリンテーブル",
+          "ガソリンスタンド",
+          "ガソリンプール"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "ガソリンスタンド\nでじどうしゃにガソリンをいれました。"
+      },
+      {
+        "question_number": 10,
+        "question": "きのうからからだのぐあいが _______ 。",
+        "choices": [
+          "いやです",
+          "いたいです",
+          "きらいです",
+          "わるいです"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "きのうからからだのぐあいが\nわるいです\n。"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "教室",
+        "reading": "kyoushitsu",
+        "meaning": "classroom"
+      },
+      {
+        "word": "壁",
+        "reading": "kabe",
+        "meaning": "wall"
+      },
+      {
+        "word": "綺麗",
+        "reading": "kirei",
+        "meaning": "beautiful, pretty"
+      },
+      {
+        "word": "絵",
+        "reading": "e",
+        "meaning": "painting, drawing"
+      },
+      {
+        "word": "乗せる",
+        "reading": "noseru",
+        "meaning": "to place on"
+      },
+      {
+        "word": "掛ける",
+        "reading": "kakeru",
+        "meaning": "to hang, to hoist"
+      },
+      {
+        "word": "置く",
+        "reading": "oku",
+        "meaning": "to put, to place"
+      },
+      {
+        "word": "付ける",
+        "reading": "tsukeru",
+        "meaning": "to attach, to add"
+      },
+      {
+        "word": "間に合う",
+        "reading": "maniau",
+        "meaning": "to be in time for"
+      },
+      {
+        "word": "経験",
+        "reading": "keiken",
+        "meaning": "experience"
+      },
+      {
+        "word": "予習",
+        "reading": "yoshuu",
+        "meaning": "preparation for a lesson"
+      },
+      {
+        "word": "反対",
+        "reading": "hantai",
+        "meaning": "opposition"
+      },
+      {
+        "word": "復習",
+        "reading": "fukushuu",
+        "meaning": "review, revision"
+      },
+      {
+        "word": "盛ん",
+        "reading": "sakan",
+        "meaning": "popular, prosperous"
+      },
+      {
+        "word": "十分",
+        "reading": "juubun",
+        "meaning": "plenty, enough"
+      },
+      {
+        "word": "煙草",
+        "reading": "tabako",
+        "meaning": "tobacco, cigarettes"
+      },
+      {
+        "word": "止める",
+        "reading": "yameru",
+        "meaning": "to end, to stop"
+      },
+      {
+        "word": "国",
+        "reading": "kuni",
+        "meaning": "country"
+      },
+      {
+        "word": "野球",
+        "reading": "yakyuu",
+        "meaning": "baseball"
+      },
+      {
+        "word": "熱心",
+        "reading": "nesshin",
+        "meaning": "zeal, enthusiasm"
+      },
+      {
+        "word": "丈夫",
+        "reading": "joubu",
+        "meaning": "healthy, robust"
+      },
+      {
+        "word": "病気",
+        "reading": "byouki",
+        "meaning": "illness, disease"
+      },
+      {
+        "word": "受ける",
+        "reading": "ukeru",
+        "meaning": "to receive, to accept"
+      },
+      {
+        "word": "拾う",
+        "reading": "hirou",
+        "meaning": "to pick up, to find"
+      },
+      {
+        "word": "自動車",
+        "reading": "jidousha",
+        "meaning": "automobile"
+      },
+      {
+        "word": "身体",
+        "reading": "karada",
+        "meaning": "body, health"
+      },
+      {
+        "word": "具合",
+        "reading": "guai",
+        "meaning": "condition, state"
+      },
+      {
+        "word": "痛い",
+        "reading": "itai",
+        "meaning": "painful, sore"
+      },
+      {
+        "word": "嫌い",
+        "reading": "kirai",
+        "meaning": "dislike, hate"
+      },
+      {
+        "word": "悪い",
+        "reading": "warui",
+        "meaning": "bad, poor"
+      }
+    ]
+  },
+  {
+    "exercise_number": 5,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n4-vocabulary-exercise-5/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "わたしはでんきやでテレビを _______ もらいました。",
+        "choices": [
+          "ならんで",
+          "なおって",
+          "なおして",
+          "ならって"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "わたしはでんきやでテレビを\nなおして\nもらいました。"
+      },
+      {
+        "question_number": 2,
+        "question": "これはさとうせんせいがわたしに _______ ほんです。",
+        "choices": [
+          "くださった",
+          "さしあげた",
+          "いただいた",
+          "なさった"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "これはさとうせんせいがわたしに\nくださった\nほんです。"
+      },
+      {
+        "question_number": 3,
+        "question": "たなかさんがにゅういんしたので、_______ に行きました。",
+        "choices": [
+          "おみまい",
+          "おいわい",
+          "おまつり",
+          "あいさつ"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "たなかさんがにゅういんしたので、\nおみまい\nに行きました。"
+      },
+      {
+        "question_number": 4,
+        "question": "うちのテレビはふるいので、 _______ こしょうします。",
+        "choices": [
+          "ぜんぜん",
+          "たいへん",
+          "よく",
+          "なかなか"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "うちのテレビはふるいので、\nよく\nこしょうします。"
+      },
+      {
+        "question_number": 5,
+        "question": "ゆうべはこわい _______ をみて、よくねむれませんでした。",
+        "choices": [
+          "うそ",
+          "かがみ",
+          "はなし",
+          "ゆめ"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "ゆうべはこわい\nゆめ\nをみて、よくねむれませんでした。"
+      },
+      {
+        "question_number": 6,
+        "question": "あつかったら、どうぞうわぎを _______ ください。",
+        "choices": [
+          "はずして",
+          "むいて",
+          "すてて",
+          "ぬいで"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "あつかったら、どうぞうわぎを\nぬいで\nください。"
+      },
+      {
+        "question_number": 7,
+        "question": "わたしはくだものがすきです。 _______ りんごがだいすきです。",
+        "choices": [
+          "とくに",
+          "はっきり",
+          "すっかり",
+          "ほとんど"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "わたしはくだものがすきです。\nとくに\nりんごがだいすきです。"
+      },
+      {
+        "question_number": 8,
+        "question": "おとうとさんのびょうきがなおるように _______ います。",
+        "choices": [
+          "あやまって",
+          "こまって",
+          "みつかって",
+          "いのって"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "おとうとさんのびょうきがなおるように\nいのって\nいます。"
+      },
+      {
+        "question_number": 9,
+        "question": "_______ があったら、また日本へ行きたいです。",
+        "choices": [
+          "りゆう",
+          "ばあい",
+          "きかい",
+          "げんいん"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "きかい\nがあったら、また日本へ行きたいです。"
+      },
+      {
+        "question_number": 10,
+        "question": "あたらしいいえにだんだん _______ きました。",
+        "choices": [
+          "はじまって",
+          "おぼえて",
+          "なれて",
+          "すんで"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "あたらしいいえにだんだん\nなれて\nきました。"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "電気屋",
+        "reading": "denkiya",
+        "meaning": "electric appliance store"
+      },
+      {
+        "word": "テレビ",
+        "reading": "",
+        "meaning": "television, TV"
+      },
+      {
+        "word": "並ぶ",
+        "reading": "narabu",
+        "meaning": "to line up, to stand up in a line"
+      },
+      {
+        "word": "直る",
+        "reading": "naoru",
+        "meaning": "to get mended, to be repaired"
+      },
+      {
+        "word": "直す",
+        "reading": "naosu",
+        "meaning": "to fix, to repair"
+      },
+      {
+        "word": "習う",
+        "reading": "narau",
+        "meaning": "to learn"
+      },
+      {
+        "word": "入院",
+        "reading": "nyuuin",
+        "meaning": "hospitalization"
+      },
+      {
+        "word": "お見舞い",
+        "reading": "omimai",
+        "meaning": "calling on someone who is ill"
+      },
+      {
+        "word": "挨拶",
+        "reading": "aisatsu",
+        "meaning": "greeting, salution"
+      },
+      {
+        "word": "故障",
+        "reading": "koshou",
+        "meaning": "break-down, failure"
+      },
+      {
+        "word": "ぜんぜん",
+        "reading": "",
+        "meaning": "not at all"
+      },
+      {
+        "word": "たいへん",
+        "reading": "",
+        "meaning": "very, greatly"
+      },
+      {
+        "word": "よく",
+        "reading": "",
+        "meaning": "frequently, often"
+      },
+      {
+        "word": "なかなか",
+        "reading": "",
+        "meaning": "very, considerably"
+      },
+      {
+        "word": "夕べ",
+        "reading": "yuube",
+        "meaning": "last night"
+      },
+      {
+        "word": "眠る",
+        "reading": "nemuru",
+        "meaning": "to sleep"
+      },
+      {
+        "word": "嘘",
+        "reading": "uso",
+        "meaning": "lie, falsehood"
+      },
+      {
+        "word": "鏡",
+        "reading": "kagami",
+        "meaning": "mirror"
+      },
+      {
+        "word": "夢",
+        "reading": "yume",
+        "meaning": "dream"
+      },
+      {
+        "word": "上着",
+        "reading": "uwagi",
+        "meaning": "coat, jacket"
+      },
+      {
+        "word": "外す",
+        "reading": "hazusu",
+        "meaning": "to remove, to take off"
+      },
+      {
+        "word": "剥く",
+        "reading": "muku",
+        "meaning": "to peel, to skin"
+      },
+      {
+        "word": "脱ぐ",
+        "reading": "nugu",
+        "meaning": "to take off (clothes)"
+      },
+      {
+        "word": "とくに",
+        "reading": "",
+        "meaning": "particularly, especially"
+      },
+      {
+        "word": "ほとんど",
+        "reading": "",
+        "meaning": "mostly, almost"
+      },
+      {
+        "word": "謝る",
+        "reading": "ayamaru",
+        "meaning": "to apologize"
+      },
+      {
+        "word": "困る",
+        "reading": "komaru",
+        "meaning": "to be troubled, to be worried"
+      },
+      {
+        "word": "見つかる",
+        "reading": "mitsukaru",
+        "meaning": "to be found, to be discovered"
+      },
+      {
+        "word": "祈る",
+        "reading": "inoru",
+        "meaning": "to pray, to wish"
+      },
+      {
+        "word": "理由",
+        "reading": "riyuu",
+        "meaning": "reason, motive"
+      },
+      {
+        "word": "場合",
+        "reading": "baai",
+        "meaning": "case, situation"
+      },
+      {
+        "word": "機会",
+        "reading": "kikai",
+        "meaning": "chance, opportunity"
+      },
+      {
+        "word": "原因",
+        "reading": "gen’in",
+        "meaning": "cause, origin"
+      },
+      {
+        "word": "始まる",
+        "reading": "hajimaru",
+        "meaning": "to begin"
+      },
+      {
+        "word": "覚える",
+        "reading": "oboeru",
+        "meaning": "to remember, to recollect"
+      },
+      {
+        "word": "慣れる",
+        "reading": "nareru",
+        "meaning": "to grow accustomed to"
+      }
+    ]
+  },
+  {
+    "exercise_number": 6,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n4-vocabulary-exercise-6/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "がくせいたちはきょうしつでやまだせんせいににほんごを _______ います。",
+        "choices": [
+          "ならって",
+          "つくって",
+          "おぼえて",
+          "べんきょうして"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "がくせいたちはきょうしつでやまだせんせいににほんごを\nならって\nいます。"
+      },
+      {
+        "question_number": 2,
+        "question": "この学校の _______ では学生はきょうしつのそうじをしなければなりません。",
+        "choices": [
+          "りゆう",
+          "きそく",
+          "ほうりつ",
+          "しゅうかん"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "この学校の\nきそく\nでは学生はきょうしつのそうじをしなければなりません。"
+      },
+      {
+        "question_number": 3,
+        "question": "どのてぶくろがいちばんねだんが _______ 。",
+        "choices": [
+          "ひくいですか",
+          "すくないですか",
+          "ちいさいですか",
+          "やすいですか"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "どのてぶくろがいちばんねだんが\nやすいですか\n。"
+      },
+      {
+        "question_number": 4,
+        "question": "まちださんはせんせいに「おはようございます。」と _______ しました。",
+        "choices": [
+          "しょうかい",
+          "あいさつ",
+          "はいけん",
+          "れんらく"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "まちださんはせんせいに「おはようございます。」と\nあいさつ\nしました。"
+      },
+      {
+        "question_number": 5,
+        "question": "_______ べんきょうしたので、このあいだのテストは１００てんでした。",
+        "choices": [
+          "まじめに",
+          "そんなに",
+          "だいじに",
+          "たいせつに"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "まじめに\nべんきょうしたので、このあいだのテストは１００てんでした。"
+      },
+      {
+        "question_number": 6,
+        "question": "みちでお金を _______ ので、こうばんにとどけました。",
+        "choices": [
+          "すてた",
+          "とった",
+          "ひろった",
+          "つかまえた"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "みちでお金を\nひろった\nので、こうばんにとどけました。"
+      },
+      {
+        "question_number": 7,
+        "question": "そのかいぎに _______ するためには１０じのひこうきにのらなければなりません。",
+        "choices": [
+          "しゅっせき",
+          "しっぱい",
+          "じゅんび",
+          "しょうかい"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "そのかいぎに\nしゅっせき\nするためには１０じのひこうきにのらなければなりません。"
+      },
+      {
+        "question_number": 8,
+        "question": "たなか「さいきん母のぐあいがよくないんですよ。」さとう「それは _______ 。」",
+        "choices": [
+          "ざんねんですね",
+          "おめでとうございます",
+          "しんぱいですね",
+          "だいじょうぶですね"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "たなか「さいきん母のぐあいがよくないんですよ。」さとう「それは\nしんぱいですね\n。」"
+      },
+      {
+        "question_number": 9,
+        "question": "じかんがかかりましたが、_______ おわりました。",
+        "choices": [
+          "そろそろ",
+          "やっと",
+          "ちっとも",
+          "なかなか"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "じかんがかかりましたが、\nやっと\nおわりました。"
+      },
+      {
+        "question_number": 10,
+        "question": "レストランは５かいにあります。_______ で行ったほうがいいですよ。",
+        "choices": [
+          "オートバイ",
+          "エレベーター",
+          "スーツケース",
+          "タクシー"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "レストランは５かいにあります。\nエレベーター\nで行ったほうがいいですよ。"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "掃除",
+        "reading": "souji",
+        "meaning": "cleaning, sweeping"
+      },
+      {
+        "word": "規則",
+        "reading": "kisoku",
+        "meaning": "rules, regulations"
+      },
+      {
+        "word": "法律",
+        "reading": "houritsu",
+        "meaning": "law"
+      },
+      {
+        "word": "手袋",
+        "reading": "tebukuro",
+        "meaning": "glove, mitten"
+      },
+      {
+        "word": "値段",
+        "reading": "nedan",
+        "meaning": "price, cost"
+      },
+      {
+        "word": "紹介",
+        "reading": "shoukai",
+        "meaning": "introduction"
+      },
+      {
+        "word": "拝見",
+        "reading": "haiken",
+        "meaning": "seeing, look at"
+      },
+      {
+        "word": "連絡",
+        "reading": "renraku",
+        "meaning": "contacting, getting in touch"
+      },
+      {
+        "word": "この間",
+        "reading": "kono aida",
+        "meaning": "lately, recently"
+      },
+      {
+        "word": "真面目",
+        "reading": "majime",
+        "meaning": "serious, earnest"
+      },
+      {
+        "word": "大事",
+        "reading": "daiji",
+        "meaning": "important, valuable"
+      },
+      {
+        "word": "大切",
+        "reading": "taisetsu",
+        "meaning": "important, worthy of care"
+      },
+      {
+        "word": "交番",
+        "reading": "kouban",
+        "meaning": "police box"
+      },
+      {
+        "word": "捕まえる",
+        "reading": "tsukamaeru",
+        "meaning": "to catch, to arrest"
+      },
+      {
+        "word": "会議",
+        "reading": "kaigi",
+        "meaning": "meeting, conference"
+      },
+      {
+        "word": "飛行機",
+        "reading": "hikouki",
+        "meaning": "airplane"
+      },
+      {
+        "word": "出席",
+        "reading": "shusseki",
+        "meaning": "attendance, presence"
+      },
+      {
+        "word": "失敗",
+        "reading": "shippai",
+        "meaning": "failure, mistake"
+      },
+      {
+        "word": "準備",
+        "reading": "junbi",
+        "meaning": "preparation, arrangements"
+      },
+      {
+        "word": "最近",
+        "reading": "saikin",
+        "meaning": "nowadays, most recent"
+      },
+      {
+        "word": "残念",
+        "reading": "zannen",
+        "meaning": "bad luck, regret"
+      },
+      {
+        "word": "レストラン",
+        "reading": "",
+        "meaning": "restaurant"
+      },
+      {
+        "word": "スーツケース",
+        "reading": "",
+        "meaning": "suitcase"
+      }
+    ]
+  },
+  {
+    "exercise_number": 7,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n4-vocabulary-exercise-7/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "このくつはあのくつより _______ です。",
+        "choices": [
+          "はきわるい",
+          "はきやすい",
+          "はきやさしい",
+          "はきほしい"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "このくつはあのくつより\nはきやすい\nです。"
+      },
+      {
+        "question_number": 2,
+        "question": "あねは母にかおがよく _______ います。",
+        "choices": [
+          "あって",
+          "にて",
+          "うつして",
+          "つたえて"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "あねは母にかおがよく\nにて\nいます。"
+      },
+      {
+        "question_number": 3,
+        "question": "たなかさんはいつも _______ ことばを　つかいます。",
+        "choices": [
+          "ふべんな",
+          "ざんねんな",
+          "ていねいな",
+          "ねっしんな"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "たなかさんはいつも\nていねいな\nことばをつかいます。"
+      },
+      {
+        "question_number": 4,
+        "question": "わたしはやまださんににもつをもって _______ 。",
+        "choices": [
+          "あげました",
+          "もらいました",
+          "くれました",
+          "やりました"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "わたしはやまださんににもつをもって\nもらいました\n。"
+      },
+      {
+        "question_number": 5,
+        "question": "いそがないで、_______ やってください。",
+        "choices": [
+          "はっきり",
+          "うっかり",
+          "ゆっくり",
+          "すっかり"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "いそがないで、\nゆっくり\nやってください。"
+      },
+      {
+        "question_number": 6,
+        "question": "レストランにぼうしを _______ しまいました。",
+        "choices": [
+          "おちて",
+          "かぶって",
+          "とって",
+          "わすれて"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "レストランにぼうしを\nわすれて\nしまいました。"
+      },
+      {
+        "question_number": 7,
+        "question": "てんぷらとすしとすきやきの _______ でどれがいちばんたべたいですか。",
+        "choices": [
+          "ほど",
+          "あいだ",
+          "うち",
+          "くらい"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "てんぷらとすしとすきやきの\nうち\nでどれがいちばんたべたいですか。"
+      },
+      {
+        "question_number": 8,
+        "question": "やまだ「ごはんもうすこしいかがですか。」たなか「いいえ、もう _______ 。」",
+        "choices": [
+          "じょうぶです",
+          "ざんねんです",
+          "けっこうです",
+          "しつれいです"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "やまだ「ごはんもうすこしいかがですか。」たなか「いいえ、もう\nけっこうです\n。」"
+      },
+      {
+        "question_number": 9,
+        "question": "やまださんは「ただいま。」といって、うちにもどりました。やまださんのおくさんは「 _______ 。」といってやまださんをむかえました。",
+        "choices": [
+          "いらっしゃい",
+          "しつれいします",
+          "ごめんください",
+          "おかえりなさい"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "やまださんは「ただいま。」といって、うちにもどりました。やまださんのおくさんは「\nおかえりなさい\n。」といってやまださんをむかえました。"
+      },
+      {
+        "question_number": 10,
+        "question": "おゆが _______ から、おちゃをいれましょう。",
+        "choices": [
+          "あいた",
+          "わいた",
+          "できた",
+          "やけた"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "おゆが\nわいた\nから、おちゃをいれましょう。"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "靴",
+        "reading": "kutsu",
+        "meaning": "shoes, footwear"
+      },
+      {
+        "word": "履く",
+        "reading": "haku",
+        "meaning": "to put on (or wear) lower-body clothing"
+      },
+      {
+        "word": "顔",
+        "reading": "kao",
+        "meaning": "face (person)"
+      },
+      {
+        "word": "合う",
+        "reading": "au",
+        "meaning": "to fit, to match"
+      },
+      {
+        "word": "似る",
+        "reading": "niru",
+        "meaning": "to resemble, to be similar"
+      },
+      {
+        "word": "伝える",
+        "reading": "tsutaeru",
+        "meaning": "to convey, to report"
+      },
+      {
+        "word": "言葉",
+        "reading": "kotoba",
+        "meaning": "word, phrase"
+      },
+      {
+        "word": "不便",
+        "reading": "fuben",
+        "meaning": "inconvenience"
+      },
+      {
+        "word": "丁寧",
+        "reading": "teinei",
+        "meaning": "polite, courteous"
+      },
+      {
+        "word": "荷物",
+        "reading": "nimotsu",
+        "meaning": "luggage, baggage"
+      },
+      {
+        "word": "急ぐ",
+        "reading": "isogu",
+        "meaning": "to hurry, to rush"
+      },
+      {
+        "word": "うっかり",
+        "reading": "",
+        "meaning": "carelessly, thoughtlessly"
+      },
+      {
+        "word": "ゆっくり",
+        "reading": "",
+        "meaning": "slowly, at ease"
+      },
+      {
+        "word": "迎える",
+        "reading": "mukaeru",
+        "meaning": "to go out to meet, to welcome"
+      },
+      {
+        "word": "お湯",
+        "reading": "oyu",
+        "meaning": "hot water"
+      },
+      {
+        "word": "沸く",
+        "reading": "waku",
+        "meaning": "to boil, to grow hot"
+      },
+      {
+        "word": "焼ける",
+        "reading": "yakeru",
+        "meaning": "to burn, to be roasted"
+      }
+    ]
+  },
+  {
+    "exercise_number": 8,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n4-vocabulary-exercise-08/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "電車の中でさわがないでください。",
+        "choices": [
+          "電車の中でものをたべないでください。",
+          "電車の中でうるさくしないでください。",
+          "電車の中でたばこをすわないでください。",
+          "電車の中できたなくしないでください。"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "電車の中でさわがないでください。=>\n電車の中でうるさくしないでください\n。"
+      },
+      {
+        "question_number": 2,
+        "question": "ぼくはのりものがだいすきです。",
+        "choices": [
+          "まんがやしょうせつがだいすきです。",
+          "デパートやスーパーがだいすきです。",
+          "テニスやサッカーがだいすきです。",
+          "ひこうきやふねがだいすきです。"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "ぼくはのりものがだいすきです。=>\nひこうきやふねがだいすきです\n。"
+      },
+      {
+        "question_number": 3,
+        "question": "父はらいしゅうたいいんします。",
+        "choices": [
+          "父は来週外国に行きます。",
+          "父はらいしゅう外国からかえってきます。",
+          "父はらいしゅうびょういんにいきます。",
+          "父はらいしゅうびょういんからかえってきます。"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "父はらいしゅうたいいんします。=>\n父はらいしゅうびょういんからかえってきます\n。"
+      },
+      {
+        "question_number": 4,
+        "question": "このきかいにさわるときけんです。",
+        "choices": [
+          "このきかいはあぶないです。",
+          "このきかいはかわいいです。",
+          "このきかいはきびしいです。",
+          "このきかいはさびしいです。"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "このきかいにさわるときけんです。=>\nこのきかいはあぶないです\n。"
+      },
+      {
+        "question_number": 5,
+        "question": "ここはみなとです。",
+        "choices": [
+          "ここはちかてつにのったりおりたりするところです。",
+          "ここはふねにのったりおりたりするところです。",
+          "ここはひこうきにのったりおりたりするところです。",
+          "ここはタクシーにのったりおりたりするところです。"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "ここはみなとです。=>\nここはふねにのったりおりたりするところです\n。"
+      },
+      {
+        "question_number": 6,
+        "question": "しょうらいのけいかくをみんなではなしました。",
+        "choices": [
+          "いままでのけいかくをみんなではなしました。",
+          "さいごのけいかくをみんなではなしました。",
+          "さいしょのけいかくをみんなではなしました。",
+          "これからのけいかくをみんなではなしました。"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "しょうらいのけいかくをみんなではなしました。=>\nこれからのけいかくをみんなではなしました\n。"
+      },
+      {
+        "question_number": 7,
+        "question": "名前を書いたかどうか、もういちどチェックしてください。",
+        "choices": [
+          "もういちどさがしてしてください。",
+          "もういちどしまってしてください。",
+          "もういちどしらべてしてください。",
+          "もういちどたずねてしてください。"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "名前を書いたかどうか、もういちどチェックしてください。=>\nもういちどしらべてしてください\n。"
+      },
+      {
+        "question_number": 8,
+        "question": "ここはすべりやすいのできをつけてください。",
+        "choices": [
+          "ここはあるきにくいです。",
+          "ここはきこえにくいです。",
+          "ここはゆれにくいです。",
+          "ここはみえにくいです。"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "ここはすべりやすいのできをつけてください。=>\nここはあるきにくいです\n。"
+      },
+      {
+        "question_number": 9,
+        "question": "てがよごれています。",
+        "choices": [
+          "てがうすいです。",
+          "てがきたないです。",
+          "てがきれいです。",
+          "てがつめたいです。"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "てがよごれています。=>\nてがきたないです\n。"
+      },
+      {
+        "question_number": 10,
+        "question": "すずきさんは小さいじが見えないようです。",
+        "choices": [
+          "すずきさんはかがみをわすれてしまいました。",
+          "すずきさんはめがねをわすれてしまいました。",
+          "すずきさんはでんとうをわすれてしまいました。",
+          "すずきさんはじてんをわすれてしまいました。"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "すずきさんは小さいじが見えないようです。=>\nすずきさんはめがねをわすれてしまいました\n。"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "騒ぐ",
+        "reading": "sawagu",
+        "meaning": "to make noise, to be noisy"
+      },
+      {
+        "word": "うるさい",
+        "reading": "",
+        "meaning": "noisy, loud"
+      },
+      {
+        "word": "吸う",
+        "reading": "suu",
+        "meaning": "to smoke, to breathe in"
+      },
+      {
+        "word": "汚い",
+        "reading": "kitanai",
+        "meaning": "dirty, unclean"
+      },
+      {
+        "word": "乗り物",
+        "reading": "norimono",
+        "meaning": "vehicle"
+      },
+      {
+        "word": "小説",
+        "reading": "shousetsu",
+        "meaning": "novel"
+      },
+      {
+        "word": "スーパー",
+        "reading": "",
+        "meaning": "supermarket"
+      },
+      {
+        "word": "テニス",
+        "reading": "",
+        "meaning": "tennis"
+      },
+      {
+        "word": "サッカー",
+        "reading": "",
+        "meaning": "soccer"
+      },
+      {
+        "word": "船",
+        "reading": "fune",
+        "meaning": "ship, boat"
+      },
+      {
+        "word": "来週",
+        "reading": "raishuu",
+        "meaning": "next week"
+      },
+      {
+        "word": "退院",
+        "reading": "taiin",
+        "meaning": "leaving hospital, discharge from hospital"
+      },
+      {
+        "word": "外国",
+        "reading": "gaikoku",
+        "meaning": "foreign country"
+      },
+      {
+        "word": "機械",
+        "reading": "kikai",
+        "meaning": "machine, mechanism"
+      },
+      {
+        "word": "触る",
+        "reading": "sawaru",
+        "meaning": "to touch, to feel"
+      },
+      {
+        "word": "危険",
+        "reading": "kiken",
+        "meaning": "danger, peril"
+      },
+      {
+        "word": "危ない",
+        "reading": "abunai",
+        "meaning": "dangerous, risky"
+      },
+      {
+        "word": "可愛い",
+        "reading": "kawaii",
+        "meaning": "cute, adorable"
+      },
+      {
+        "word": "寂しい",
+        "reading": "sabishii",
+        "meaning": "lonely, lonesome"
+      },
+      {
+        "word": "港",
+        "reading": "minato",
+        "meaning": "harbor, port"
+      },
+      {
+        "word": "地下鉄",
+        "reading": "chikatetsu",
+        "meaning": "underground train, subway"
+      },
+      {
+        "word": "将来",
+        "reading": "shourai",
+        "meaning": "future"
+      },
+      {
+        "word": "計画",
+        "reading": "keikaku",
+        "meaning": "plan, project"
+      },
+      {
+        "word": "最後",
+        "reading": "saigo",
+        "meaning": "last, end"
+      },
+      {
+        "word": "最初",
+        "reading": "saisho",
+        "meaning": "beginning, first"
+      },
+      {
+        "word": "チェック",
+        "reading": "",
+        "meaning": "check"
+      },
+      {
+        "word": "探す",
+        "reading": "sagasu",
+        "meaning": "to search, to seek"
+      },
+      {
+        "word": "調べる",
+        "reading": "shiraberu",
+        "meaning": "to check up, to examine"
+      },
+      {
+        "word": "尋ねる",
+        "reading": "tazuneru",
+        "meaning": "to ask, to enquire"
+      },
+      {
+        "word": "滑る",
+        "reading": "suberu",
+        "meaning": "to glide, to slide"
+      },
+      {
+        "word": "気を付ける",
+        "reading": "ki o tsukeru",
+        "meaning": "to be careful, to pay attention"
+      },
+      {
+        "word": "聞こえる",
+        "reading": "kikoeru",
+        "meaning": "to be heard"
+      },
+      {
+        "word": "揺れる",
+        "reading": "yureru",
+        "meaning": "to shake, to sway"
+      },
+      {
+        "word": "見える",
+        "reading": "mieru",
+        "meaning": "to be seen"
+      },
+      {
+        "word": "汚れる",
+        "reading": "yogoreru",
+        "meaning": "to get dirty, to become dirty"
+      },
+      {
+        "word": "薄い",
+        "reading": "usui",
+        "meaning": "thin, pale"
+      },
+      {
+        "word": "冷たい",
+        "reading": "tsumetai",
+        "meaning": "cold (to the touch)"
+      },
+      {
+        "word": "眼鏡",
+        "reading": "megane",
+        "meaning": "glasses, spectacles"
+      },
+      {
+        "word": "電灯",
+        "reading": "dentou",
+        "meaning": "electric light"
+      },
+      {
+        "word": "辞典",
+        "reading": "jiten",
+        "meaning": "dictionary"
+      }
+    ]
+  },
+  {
+    "exercise_number": 9,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n4-vocabulary-exercise-09/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "おどろく",
+        "choices": [
+          "うけつけに大きないぬがいたので、おどろいてしまいました。",
+          "日本のけいざいがおどろいてもののねだんが高くなります。",
+          "空がおどろいて雨がふりました。",
+          "わたしにはおどろいているしゅみがあります。"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "おどろく\n: うけつけに大きないぬがいたので、\nおどろいて\nしまいました。"
+      },
+      {
+        "question_number": 2,
+        "question": "いただく",
+        "choices": [
+          "子どもからネクタイをいただきました。",
+          "父からはとけいをいただきませんでした。",
+          "先生にじしょをいただきました。",
+          "あついうちにスープをいただいてください。"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "いただく\n: 先生にじしょを\nいただきました\n。"
+      },
+      {
+        "question_number": 3,
+        "question": "げんき",
+        "choices": [
+          "わたしはあしがげんきです。",
+          "この車はとてもげんきにはしります。",
+          "このくすりをのめばげんきになります。",
+          "わたしのかいしゃはとてもげんきです。"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "げんき\n: このくすりをのめば\nげんき\nになります。"
+      },
+      {
+        "question_number": 4,
+        "question": "かまいません",
+        "choices": [
+          "A「おいしいこうちゃ、ごちそうさまでした。」B「かまいませんよ。」",
+          "A「ここにすわってもいいですか。」B「かまいませんよ。」",
+          "A「ではまたあした。」B「かまいませんよ。」",
+          "A「よくいらっしゃいました。」B「かまいませんよ。」"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "かまいません\n: A「ここにすわってもいいですか。」B「\nかまいません\nよ。」"
+      },
+      {
+        "question_number": 5,
+        "question": "だめ",
+        "choices": [
+          "あしたはだめです。よていがあります。",
+          "わたしのだめがやっとなおりました。",
+          "きのうは時間をだめにつかってしまった。",
+          "テレビを買おうとしたら、あと２０００円だめだった。"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "だめ\n: あしたは\nだめ\nです。よていがあります。"
+      },
+      {
+        "question_number": 6,
+        "question": "いたす",
+        "choices": [
+          "わたしはらいねん日本へいたします。",
+          "ひこうきのよやくはわたしがいたします。",
+          "先生はなつやすみにりょこうをいたしますか。",
+          "もう少しれんしゅうをいたしてください。"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "いたす\n: ひこうきのよやくはわたしが\nいたします\n。"
+      },
+      {
+        "question_number": 7,
+        "question": "しめる",
+        "choices": [
+          "きょうかしょをしめてください。",
+          "めをしめてください。",
+          "ラジオをしめてください。",
+          "ドアをしめてください。"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "しめる\n: ドアを\nしめて\nください。"
+      },
+      {
+        "question_number": 8,
+        "question": "こしょう",
+        "choices": [
+          "わたしの車はこしょうしています。",
+          "田中さんはせきが出てこしょうしています。",
+          "きょうあの店はこしょうしています。",
+          "このふとんはこしょうしています。"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "こしょう\n: わたしの車は\nこしょう\nしています。"
+      },
+      {
+        "question_number": 9,
+        "question": "ねっしん",
+        "choices": [
+          "雨がねっしんにふっていました。",
+          "つかれていたので、ねっしんにねました。",
+          "びょうきがねっしんによくなりました。",
+          "学生はねっしんにかいわのれんしゅうをしました。"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "ねっしん\n: 学生は\nねっしん\nにかいわのれんしゅうをしました。"
+      },
+      {
+        "question_number": 10,
+        "question": "プレゼント",
+        "choices": [
+          "あねがけっこんしたので、しんせつをプレゼントした。",
+          "おっとのたんじょうびにとけいをプレゼントした。",
+          "そつぎょうしきの日に先生にあいさつをプレゼントした。",
+          "入院している友達にあんせんをプレゼントした。"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "プレゼント\n: おっとのたんじょうびにとけいを\nプレゼント\nした。"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "驚く",
+        "reading": "odoroku",
+        "meaning": "to be surprised, to be astonished"
+      },
+      {
+        "word": "受付",
+        "reading": "uketsuke",
+        "meaning": "reception desk, information desk"
+      },
+      {
+        "word": "経済",
+        "reading": "keizai",
+        "meaning": "economics, finance"
+      },
+      {
+        "word": "頂く",
+        "reading": "itadaku",
+        "meaning": "to receive, to get"
+      },
+      {
+        "word": "ネクタイ",
+        "reading": "",
+        "meaning": "necktie"
+      },
+      {
+        "word": "辞書",
+        "reading": "jisho",
+        "meaning": "dictionary"
+      },
+      {
+        "word": "スープ",
+        "reading": "",
+        "meaning": "soup"
+      },
+      {
+        "word": "会社",
+        "reading": "kaisha",
+        "meaning": "company, corporation"
+      },
+      {
+        "word": "予定",
+        "reading": "yotei",
+        "meaning": "plans, schedule"
+      },
+      {
+        "word": "来年",
+        "reading": "rainen",
+        "meaning": "next year"
+      },
+      {
+        "word": "予約",
+        "reading": "yoyaku",
+        "meaning": "reservation, booking"
+      },
+      {
+        "word": "夏休み",
+        "reading": "natsuyasumi",
+        "meaning": "summer vacation"
+      },
+      {
+        "word": "旅行",
+        "reading": "ryokou",
+        "meaning": "travel, trip"
+      },
+      {
+        "word": "閉める",
+        "reading": "shimeru",
+        "meaning": "to close, to shut"
+      },
+      {
+        "word": "教科書",
+        "reading": "kyoukasho",
+        "meaning": "textbook"
+      },
+      {
+        "word": "席",
+        "reading": "seki",
+        "meaning": "seat"
+      },
+      {
+        "word": "布団",
+        "reading": "futon",
+        "meaning": "futon (Japanese-style mattress)"
+      },
+      {
+        "word": "熱心",
+        "reading": "nesshin",
+        "meaning": "zeal, enthusiasm"
+      },
+      {
+        "word": "疲れる",
+        "reading": "tsukareru",
+        "meaning": "to get tired"
+      },
+      {
+        "word": "プレゼント",
+        "reading": "",
+        "meaning": "present, gift"
+      },
+      {
+        "word": "結婚",
+        "reading": "kekkon",
+        "meaning": "marriage"
+      },
+      {
+        "word": "親切",
+        "reading": "shinsetsu",
+        "meaning": "kindness, gentleness"
+      },
+      {
+        "word": "夫",
+        "reading": "otto",
+        "meaning": "husband"
+      },
+      {
+        "word": "卒業式",
+        "reading": "sotsugyoushiki",
+        "meaning": "graduation ceremony"
+      }
+    ]
+  },
+  {
+    "exercise_number": 10,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n4-vocabulary-exercise-10/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "バスがゆっくり _______ を上がってきた。",
+        "choices": [
+          "かべ",
+          "いし",
+          "えだ",
+          "さか"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "バスがゆっくり\nさか\nを上がってきた。"
+      },
+      {
+        "question_number": 2,
+        "question": "このとしょかんは7時まで _______ することができます。",
+        "choices": [
+          "したく",
+          "りよう",
+          "しょうち",
+          "せいかつ"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "このとしょかんは7時まで\nりよう\nすることができます。"
+      },
+      {
+        "question_number": 3,
+        "question": "つよいかぜで大きな木のえだが _______ しまった。",
+        "choices": [
+          "おれて",
+          "こわれて",
+          "たおれて",
+          "やぶれて"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "つよいかぜで大きな木のえだが\nおれて\nしまった。"
+      },
+      {
+        "question_number": 4,
+        "question": "ゆうべおそくまでしょうせつを読んでいたから、けさは _______ 。",
+        "choices": [
+          "ねむい",
+          "すごい",
+          "さびしい",
+          "うるさい"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "ゆうべおそくまでしょうせつを読んでいたから、けさは\nねむい\n。"
+      },
+      {
+        "question_number": 5,
+        "question": "あしたテストがあります。_______ 、こんやはテレビを見ないで勉強します。",
+        "choices": [
+          "けれども",
+          "しかし",
+          "それから",
+          "だから"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "あしたテストがあります。\nだから\n、こんやはテレビを見ないで勉強します。"
+      },
+      {
+        "question_number": 6,
+        "question": "５時にあう _______ したのに友だちは 来ませんでした。",
+        "choices": [
+          "よしゅう",
+          "よやく",
+          "よほう",
+          "やくそく"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "５時にあう\nやくそく\nしたのに友だちは来ませんでした。"
+      },
+      {
+        "question_number": 7,
+        "question": "わるいことをしたら、「ごめんなさい。」と _______ いけませんよ。",
+        "choices": [
+          "はなさなければ",
+          "おもわなければ",
+          "あやまらなければ",
+          "うかがわなければ"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "わるいことをしたら、「ごめんなさい。」と\nあやまらなければ\nいけませんよ。"
+      },
+      {
+        "question_number": 8,
+        "question": "だれがいちばん先にできるが、みんなで _______ しませんか。",
+        "choices": [
+          "きゅうこう",
+          "しょうたい",
+          "しゅうかん",
+          "きょうそう"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "だれがいちばん先にできるが、みんなで\nきょうそう\nしませんか。"
+      },
+      {
+        "question_number": 9,
+        "question": "じこであたまを _______ ので、びょういんにはこばれた。",
+        "choices": [
+          "つつんだ",
+          "うった",
+          "おこした",
+          "やめた"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "じこであたまを\nうった\nので、びょういんにはこばれた。"
+      },
+      {
+        "question_number": 10,
+        "question": "パーディーの _______ はこのビルの５かいです。",
+        "choices": [
+          "かいがん",
+          "こうどう",
+          "かいじょう",
+          "こうじょう"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "パーディーの\nかいじょう\nはこのビルの５かいです。"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "壁",
+        "reading": "kabe",
+        "meaning": "wall"
+      },
+      {
+        "word": "石",
+        "reading": "ishi",
+        "meaning": "stone, gem"
+      },
+      {
+        "word": "枝",
+        "reading": "eda",
+        "meaning": "branch, bough"
+      },
+      {
+        "word": "坂",
+        "reading": "saka",
+        "meaning": "slope, hill"
+      },
+      {
+        "word": "図書館",
+        "reading": "toshokan",
+        "meaning": "library"
+      },
+      {
+        "word": "支度",
+        "reading": "shitaku",
+        "meaning": "preparation, arrangements"
+      },
+      {
+        "word": "利用",
+        "reading": "riyou",
+        "meaning": "use, utilization"
+      },
+      {
+        "word": "承知",
+        "reading": "shouchi",
+        "meaning": "consent, acceptance"
+      },
+      {
+        "word": "生活",
+        "reading": "seikatsu",
+        "meaning": "living, life"
+      },
+      {
+        "word": "折れる",
+        "reading": "oreru",
+        "meaning": "to break, to give in"
+      },
+      {
+        "word": "壊れる",
+        "reading": "kowareru",
+        "meaning": "to be broken"
+      },
+      {
+        "word": "倒れる",
+        "reading": "taoreru",
+        "meaning": "to fall, to collapse"
+      },
+      {
+        "word": "破れる",
+        "reading": "yabureru",
+        "meaning": "to get torn"
+      },
+      {
+        "word": "眠い",
+        "reading": "nemui",
+        "meaning": "sleepy, drowsy"
+      },
+      {
+        "word": "予報",
+        "reading": "yohou",
+        "meaning": "forecast, prediction"
+      },
+      {
+        "word": "約束",
+        "reading": "yakusoku",
+        "meaning": "promise, appointment"
+      },
+      {
+        "word": "思う",
+        "reading": "omou",
+        "meaning": "to think, to consider"
+      },
+      {
+        "word": "伺う",
+        "reading": "ukagau",
+        "meaning": "to ask, to visit"
+      },
+      {
+        "word": "急行",
+        "reading": "kyuukou",
+        "meaning": "express, moving at high speed"
+      },
+      {
+        "word": "招待",
+        "reading": "shoutai",
+        "meaning": "invitation"
+      },
+      {
+        "word": "競争",
+        "reading": "kyousou",
+        "meaning": "to compete"
+      },
+      {
+        "word": "事故",
+        "reading": "jiko",
+        "meaning": "accident, incident"
+      },
+      {
+        "word": "運ぶ",
+        "reading": "hakobu",
+        "meaning": "to carry, to transport"
+      },
+      {
+        "word": "包む",
+        "reading": "tsutsumu",
+        "meaning": "to wrap up, to pack"
+      },
+      {
+        "word": "打つ",
+        "reading": "utsu",
+        "meaning": "to hit"
+      },
+      {
+        "word": "起こす",
+        "reading": "okosu",
+        "meaning": "to cause, to wake someone"
+      },
+      {
+        "word": "海岸",
+        "reading": "kaigan",
+        "meaning": "coast, beach"
+      },
+      {
+        "word": "行動",
+        "reading": "koudou",
+        "meaning": "action, conduct"
+      },
+      {
+        "word": "会場",
+        "reading": "kaijou",
+        "meaning": "assembly hall, meeting place"
+      },
+      {
+        "word": "工場",
+        "reading": "koujou",
+        "meaning": "factory, mill"
+      }
+    ]
+  },
+  {
+    "exercise_number": 11,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n4-vocabulary-exercise-11/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "大きいこえで はなして いたら、「_______ 。」とちゅういされてしまいました。",
+        "choices": [
+          "うるさい",
+          "あぶない",
+          "がんばって",
+          "しっかり"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "大きいこえではなしていたら、「\nうるさい\n。」とちゅういされてしまいました。"
+      },
+      {
+        "question_number": 2,
+        "question": "かんたんなしごとなので、一日で _______ です。",
+        "choices": [
+          "いっぱい",
+          "すっかり",
+          "てきとう",
+          "じゅうぶん"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "かんたんなしごとなので、一日で\nじゅうぶん\nです。"
+      },
+      {
+        "question_number": 3,
+        "question": "ゆうびんきょくに _______ かえります。",
+        "choices": [
+          "やんで",
+          "よんで",
+          "よって",
+          "やって"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "ゆうびんきょくに\nよって\nかえります。"
+      },
+      {
+        "question_number": 4,
+        "question": "かれはきょうは来ないと言っていましたが、_______ 来ませんでしたね。",
+        "choices": [
+          "すっかり",
+          "やっばり",
+          "はっきり",
+          "ぶっくり"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "かれはきょうは来ないと言っていましたが、\nやっばり\n来ませんでしたね。"
+      },
+      {
+        "question_number": 5,
+        "question": "_______ 、へんだなあ。コンビューターがうごかない。",
+        "choices": [
+          "あの",
+          "おや",
+          "そう",
+          "はい"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "おや\n、へんだなあ。コンビューターがうごかない。"
+      },
+      {
+        "question_number": 6,
+        "question": "しごとをきめるとき、父と母に _______ 。",
+        "choices": [
+          "いけんしました",
+          "おこないました",
+          "くらべました",
+          "そうだんしました"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "しごとをきめるとき、父と母に\nそうだんしました\n。"
+      },
+      {
+        "question_number": 7,
+        "question": "先生、きのうのしゅくだいです。いま、_______ いいですか。",
+        "choices": [
+          "あげても",
+          "くれても",
+          "だしても",
+          "とっても"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "先生、きのうのしゅくだいです。いま、\nだしても\nいいですか。"
+      },
+      {
+        "question_number": 8,
+        "question": "友だちが来るので、テーブルに 花を _______ 。",
+        "choices": [
+          "かたづけました",
+          "おくりました",
+          "かけました",
+          "かざりました"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "友だちが来るので、テーブルに花を\nかざりました\n。"
+      },
+      {
+        "question_number": 9,
+        "question": "たのしかった休みがあしたで _______ おわります。",
+        "choices": [
+          "だんだん",
+          "とうとう",
+          "どんどん",
+          "いろいろ"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "たのしかった休みがあしたで\nとうとう\nおわります。"
+      },
+      {
+        "question_number": 10,
+        "question": "このむらではおもにこめを _______ しています。",
+        "choices": [
+          "せいさん",
+          "けんぶつ",
+          "たいいん",
+          "はつおん"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "このむらではおもにこめを\nせいさん\nしています。"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "大きい",
+        "reading": "ookii",
+        "meaning": "big"
+      },
+      {
+        "word": "声",
+        "reading": "koe",
+        "meaning": "voice"
+      },
+      {
+        "word": "注意",
+        "reading": "chuui",
+        "meaning": "attention, warning"
+      },
+      {
+        "word": "うるさい",
+        "reading": "urusai",
+        "meaning": "noisy, loud"
+      },
+      {
+        "word": "危ない",
+        "reading": "abunai",
+        "meaning": "dangerous"
+      },
+      {
+        "word": "頑張る",
+        "reading": "ganbaru",
+        "meaning": "to do your best"
+      },
+      {
+        "word": "しっかり",
+        "reading": "shikkari",
+        "meaning": "tightly (holding on)"
+      },
+      {
+        "word": "簡単",
+        "reading": "kantan",
+        "meaning": "easy"
+      },
+      {
+        "word": "仕事",
+        "reading": "shigoto",
+        "meaning": "job"
+      },
+      {
+        "word": "いっぱい",
+        "reading": "ippai",
+        "meaning": "full"
+      },
+      {
+        "word": "すっかり",
+        "reading": "sukkari",
+        "meaning": "all, completely, entirely"
+      },
+      {
+        "word": "適当",
+        "reading": "tekitou",
+        "meaning": "suitable, proper"
+      },
+      {
+        "word": "十分",
+        "reading": "juubun",
+        "meaning": "enough, sufficient"
+      },
+      {
+        "word": "郵便局",
+        "reading": "yuubinkyoku",
+        "meaning": "post office"
+      },
+      {
+        "word": "帰る",
+        "reading": "kaeru",
+        "meaning": "to return"
+      },
+      {
+        "word": "止む",
+        "reading": "yamu",
+        "meaning": "to cease, to stop"
+      },
+      {
+        "word": "寄る",
+        "reading": "yoru",
+        "meaning": "to stop by, to drop by"
+      },
+      {
+        "word": "やっぱり",
+        "reading": "yappari",
+        "meaning": "just as one thought, as expected"
+      },
+      {
+        "word": "はっきり",
+        "reading": "hakkiri",
+        "meaning": "clearly, plainly"
+      },
+      {
+        "word": "変",
+        "reading": "hen",
+        "meaning": "strange"
+      },
+      {
+        "word": "コンピューター",
+        "reading": "conpyuutaa",
+        "meaning": "computer"
+      },
+      {
+        "word": "動く",
+        "reading": "ugoku",
+        "meaning": "to operate, to work, to move"
+      },
+      {
+        "word": "決める",
+        "reading": "kimeru",
+        "meaning": "to decide"
+      },
+      {
+        "word": "意見",
+        "reading": "iken",
+        "meaning": "opinion"
+      },
+      {
+        "word": "行う",
+        "reading": "okonau",
+        "meaning": "to perform, to carry out"
+      },
+      {
+        "word": "比べる",
+        "reading": "kuraberu",
+        "meaning": "to compare"
+      },
+      {
+        "word": "相談",
+        "reading": "soudan",
+        "meaning": "consult, discuss, ask somebody for advice"
+      },
+      {
+        "word": "宿題",
+        "reading": "shukudai",
+        "meaning": "homework"
+      },
+      {
+        "word": "花",
+        "reading": "hana",
+        "meaning": "flower"
+      },
+      {
+        "word": "片付ける",
+        "reading": "katazukeru",
+        "meaning": "to tidy up, to put in order"
+      },
+      {
+        "word": "送る",
+        "reading": "okuru",
+        "meaning": "to send"
+      },
+      {
+        "word": "かける",
+        "reading": "kakeru",
+        "meaning": "to hang"
+      },
+      {
+        "word": "飾る",
+        "reading": "kazaru",
+        "meaning": "to decorate"
+      },
+      {
+        "word": "楽しい",
+        "reading": "tanoshii",
+        "meaning": "fun"
+      },
+      {
+        "word": "終わる",
+        "reading": "owaru",
+        "meaning": "to end"
+      },
+      {
+        "word": "だんだん",
+        "reading": "dandan",
+        "meaning": "gradually, little by little"
+      },
+      {
+        "word": "とうとう",
+        "reading": "toutou",
+        "meaning": "finally, at last"
+      },
+      {
+        "word": "どんどん",
+        "reading": "dondon",
+        "meaning": "continuously, one after another"
+      },
+      {
+        "word": "いろいろ",
+        "reading": "iroiro",
+        "meaning": "various, all sorts of"
+      },
+      {
+        "word": "村",
+        "reading": "mura",
+        "meaning": "village"
+      },
+      {
+        "word": "主に",
+        "reading": "omo ni",
+        "meaning": "mainly, primarily"
+      },
+      {
+        "word": "米",
+        "reading": "kome",
+        "meaning": "rice"
+      },
+      {
+        "word": "生産",
+        "reading": "seisan",
+        "meaning": "production, manufacture"
+      },
+      {
+        "word": "見物",
+        "reading": "kenbutsu",
+        "meaning": "sightseeing"
+      },
+      {
+        "word": "退院",
+        "reading": "taiin",
+        "meaning": "leaving hospital"
+      },
+      {
+        "word": "発音",
+        "reading": "hatsuon",
+        "meaning": "pronunciation"
+      }
+    ]
+  },
+  {
+    "exercise_number": 12,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n4-vocabulary-exercise-12/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "すずきさん、ちょっとやせましたね。",
+        "choices": [
+          "すずきさん、ちょっとほそくなりました。",
+          "すずきさん、ちょっとはじめになりました。",
+          "すずきさん、ちょっとうつくしくなりました。",
+          "すずきさん、ちょっとじょうぶになりました。"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "すずきさん、ちょっとやせましたね。=>\nすずきさん、ちょっとほそくなりました\n。"
+      },
+      {
+        "question_number": 2,
+        "question": "わたしはりゅうがくのけいけんがあります。",
+        "choices": [
+          "わたしはりゅうがくのためにべんきょうします。",
+          "わたしはりゅうがくをしたいとおもいます。",
+          "わたしはりゅうがくをしたことがあります。",
+          "わたしはりゅうがくをするよていです。"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "わたしはりゅうがくのけいけんがあります。=>\nわたしはりゅうがくをしたことがあります\n。"
+      },
+      {
+        "question_number": 3,
+        "question": "先生はクラスに来なかったわけを聞きました。",
+        "choices": [
+          "先生はいつクラスに来なかったのかたずねました。",
+          "先生はだれがクラスに来なかったのかたずねました。",
+          "先生はどのぐらいクラスに来なかったのかたずねました。",
+          "先生はどうしてクラスに来なかったのかたずねました。"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "先生はクラスに来なかったわけを聞きました。=>\n先生はどうしてクラスに来なかったのかたずねました\n。"
+      },
+      {
+        "question_number": 4,
+        "question": "たなかさんのおくさんにすぐれんらくしてください。",
+        "choices": [
+          "たなかさんのおくさんにすぐつたえてください。",
+          "たなかさんのおくさんにすぐたずねてください。",
+          "たなかさんのおくさんにすぐきいてください。",
+          "たなかさんのおくさんにすぐとどけてください。"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "たなかさんのおくさんにすぐれんらくしてください。=>\nたなかさんのおくさんにすぐつたえてください\n。"
+      },
+      {
+        "question_number": 5,
+        "question": "まずこのしごとをしてください。",
+        "choices": [
+          "いっしょうけんめいこのしごとをしてください。",
+          "はじめにこのしごとをしてください。",
+          "なるべくこのしごとをしてください。",
+          "しっかりこのしごとをしてください。"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "まずこのしごとをしてください。=>\nはじめにこのしごとをしてください\n。"
+      },
+      {
+        "question_number": 6,
+        "question": "わたしはおがわさんにあやまりました。",
+        "choices": [
+          "わたしはおがわさんに「おめでとうございます。」と言いました。",
+          "わたしはおがわさんに「それは　いけませんね。」と言いました。",
+          "わたしはおがわさんに「おかげさまで。」と言いました。",
+          "わたしはおがわさんに「ごめんなさい。」と言いました。"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "わたしはおがわさんにあやまりました。=>\nわたしはおがわさんに「ごめんなさい。」と言いました\n。"
+      },
+      {
+        "question_number": 7,
+        "question": "じをていねいに書きなさい。",
+        "choices": [
+          "まんなかにじを書きなさい。",
+          "きれいにじを書きなさい。",
+          "おおきくじを書きなさい。",
+          "いそいでじを書きなさい。"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "じをていねいに書きなさい。=>\nきれいにじを書きなさい\n。"
+      },
+      {
+        "question_number": 8,
+        "question": "あさの電車はこんでいます。",
+        "choices": [
+          "あさの電車には人がたくさんいます。",
+          "あさの電車には人があまりいません。",
+          "あさの電車はなかなかきません。",
+          "あさの電車はすぐにきます。"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "あさの電車はこんでいます。=>\nあさの電車には人がたくさんいます\n。"
+      },
+      {
+        "question_number": 9,
+        "question": "いっしょうけんめいこのこうぎを聞いています。",
+        "choices": [
+          "はっきりとこのこうぎを聞いています。",
+          "てきとうにこのこうぎを聞いています。",
+          "ねっしんにこのこうぎを聞いています。",
+          "ゆっくりとこのこうぎを聞いています。"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "いっしょうけんめいこのこうぎを聞いています。=>\nねっしんにこのこうぎを聞いています\n。"
+      },
+      {
+        "question_number": 10,
+        "question": "おかしはひとつものこっていません。",
+        "choices": [
+          "おかしはすこししかありません。",
+          "おかしはぜんぶおいてありません。",
+          "おかしはすこしだけおいてありません。",
+          "おかしはぜんぶ食べてしまいました。"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "おかしはひとつものこっていません。=>\nおかしはぜんぶ食べてしまいました\n。"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "痩せる",
+        "reading": "yaseru",
+        "meaning": "to become thin, to lose weight"
+      },
+      {
+        "word": "細い",
+        "reading": "hosoi",
+        "meaning": "thin, slender"
+      },
+      {
+        "word": "始め",
+        "reading": "hajime",
+        "meaning": "beginning, start"
+      },
+      {
+        "word": "美しい",
+        "reading": "utsukushii",
+        "meaning": "beautiful"
+      },
+      {
+        "word": "丈夫",
+        "reading": "joubu",
+        "meaning": "healthy, robust"
+      },
+      {
+        "word": "留学",
+        "reading": "ryuugaku",
+        "meaning": "studying abroad"
+      },
+      {
+        "word": "経験",
+        "reading": "keiken",
+        "meaning": "experience"
+      },
+      {
+        "word": "勉強",
+        "reading": "benkyou",
+        "meaning": "study"
+      },
+      {
+        "word": "思う",
+        "reading": "omou",
+        "meaning": "to think"
+      },
+      {
+        "word": "クラス",
+        "reading": "kurasu",
+        "meaning": "class"
+      },
+      {
+        "word": "わけ",
+        "reading": "wake",
+        "meaning": "reason"
+      },
+      {
+        "word": "聞く",
+        "reading": "kiku",
+        "meaning": "to ask"
+      },
+      {
+        "word": "尋ねる",
+        "reading": "tazuneru",
+        "meaning": "to ask, to enquire"
+      },
+      {
+        "word": "誰",
+        "reading": "dare",
+        "meaning": "who"
+      },
+      {
+        "word": "どうして",
+        "reading": "doushite",
+        "meaning": "why"
+      },
+      {
+        "word": "おくさん",
+        "reading": "okusan",
+        "meaning": "wife"
+      },
+      {
+        "word": "すぐ",
+        "reading": "sugu",
+        "meaning": "right away"
+      },
+      {
+        "word": "連絡",
+        "reading": "renraku",
+        "meaning": "contact"
+      },
+      {
+        "word": "伝える",
+        "reading": "tsutaeru",
+        "meaning": "to convey; to tell"
+      },
+      {
+        "word": "届ける",
+        "reading": "todokeru",
+        "meaning": "to deliver, to send"
+      },
+      {
+        "word": "まず",
+        "reading": "mazu",
+        "meaning": "first"
+      },
+      {
+        "word": "はじめに",
+        "reading": "hajime ni",
+        "meaning": "first, at first"
+      },
+      {
+        "word": "なるべく",
+        "reading": "narubeku",
+        "meaning": "as much as possible, if possible"
+      },
+      {
+        "word": "しっかり",
+        "reading": "shikkari",
+        "meaning": "tightly, firmly"
+      },
+      {
+        "word": "いっしょうけんめい",
+        "reading": "isshou kenmei",
+        "meaning": "very hard, with utmost effort"
+      },
+      {
+        "word": "謝る",
+        "reading": "ayamaru",
+        "meaning": "to apologize"
+      },
+      {
+        "word": "それはいけませんね",
+        "reading": "sore wa ikemasen ne",
+        "meaning": "that’s too bad"
+      },
+      {
+        "word": "丁寧",
+        "reading": "teinei",
+        "meaning": "careful, thorough"
+      },
+      {
+        "word": "急ぐ",
+        "reading": "isogu",
+        "meaning": "to hurry, to rush"
+      },
+      {
+        "word": "混む",
+        "reading": "komu",
+        "meaning": "to be crowded, to be packed"
+      },
+      {
+        "word": "なかなか",
+        "reading": "nakanaka",
+        "meaning": "fairly, quite"
+      },
+      {
+        "word": "講義",
+        "reading": "kougi",
+        "meaning": "lecture"
+      },
+      {
+        "word": "はっきり",
+        "reading": "hakkiri",
+        "meaning": "clearly, plainly"
+      },
+      {
+        "word": "適当",
+        "reading": "tekitou",
+        "meaning": "suitable, proper"
+      },
+      {
+        "word": "熱心",
+        "reading": "nesshin",
+        "meaning": "zealous, enthusiastic"
+      },
+      {
+        "word": "ゆっくり",
+        "reading": "yukkuri",
+        "meaning": "slowly"
+      },
+      {
+        "word": "お菓子",
+        "reading": "okashi",
+        "meaning": "sweets, candy"
+      },
+      {
+        "word": "全部",
+        "reading": "zenbu",
+        "meaning": "all"
+      }
+    ]
+  },
+  {
+    "exercise_number": 13,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n4-vocabulary-exercise-13/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "へんじ",
+        "choices": [
+          "テレビのへんじがきこえません。",
+          "へんじをだれにかりますか。",
+          "へんじをすぐにおこなってしまいました。",
+          "名前をよびましたがへんじがありませんでした。"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "へんじ => 名前をよびましたがへんじがありませんでした。"
+      },
+      {
+        "question_number": 2,
+        "question": "そだてる",
+        "choices": [
+          "たいせつにそだてていた花がさきました。",
+          "このりょうりはおいしくなるまで、よくそだてました。",
+          "なんどもなおしてさくぶんをそだてました。",
+          "じが小さくて見えないので、もうすこしそだててください。"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "そだてる => たいせつにそだてていた花がさきました。"
+      },
+      {
+        "question_number": 3,
+        "question": "すてる",
+        "choices": [
+          "おきゃくさんが来るので、へやをきれいにすててください。",
+          "ここにいらないものをすててください。",
+          "じゅぎょうでつかう本をかばんにすててください。",
+          "ひどいことを言うのはすててください。"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "すてる => ここにいらないものをすててください。"
+      },
+      {
+        "question_number": 4,
+        "question": "さむい",
+        "choices": [
+          "さむいタオルでかおをふきました。",
+          "なつはさむいビールがおいしいですね。",
+          "あの人はさむいです。やさしくありません。",
+          "きょうはとくにさむいですね。"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "さむい => きょうはとくにさむいですね。"
+      },
+      {
+        "question_number": 5,
+        "question": "さびしい",
+        "choices": [
+          "ねぼうしてしまってさびしかったです。",
+          "きょうはさびしいからセーターをきます。",
+          "ひとりですんでいるので、ときどきさびしくなります。",
+          "このへやはそうじをしていないので、さびしいです。"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "さびしい => ひとりですんでいるので、ときどきさびしくなります。"
+      },
+      {
+        "question_number": 6,
+        "question": "かたづける",
+        "choices": [
+          "毎日かおをかたづけなさい。",
+          "毎日へやをかたづけなさい。",
+          "毎日カーテンをかたづけなさい。",
+          "毎日きょうみをかたづけなさい。"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "かたづける => 毎日へやをかたづけなさい。"
+      },
+      {
+        "question_number": 7,
+        "question": "すると",
+        "choices": [
+          "きのうは天気がよくなかったです。すると、わたしはテニスをしませんでした。",
+          "なんかいも聞きました。すると、わかりませんでした。",
+          "ボタンをおしました。すると、ドアがあきました。",
+          "あしたしけんをします。すると、よくべんきょうしてください。"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "すると => ボタンをおしました。すると、ドアがあきました。"
+      },
+      {
+        "question_number": 8,
+        "question": "たいてい",
+        "choices": [
+          "日よう日はたいていスポ－ツをしています。",
+          "きょうはたいてい天気がよかったです。",
+          "このごろさとうさんにはたいていあっていません。",
+          "日本語がたいてい上手になりましたね。"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "たいてい => 日よう日はたいていスポ－ツをしています。"
+      },
+      {
+        "question_number": 9,
+        "question": "したく",
+        "choices": [
+          "このホテルにはよやくのしたくがあります。",
+          "かんじのしゅくだいはぜんぶしたくしました。",
+          "しょくじのしたくはもうできました。",
+          "けいざいをよくするためのしたくをかんがえましょう。"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "したく => しょくじのしたくはもうできました。"
+      },
+      {
+        "question_number": 10,
+        "question": "わかす",
+        "choices": [
+          "あついシャワーをわかしています。",
+          "このにくはよくわかしてからたべてください。",
+          "おゆをわかしてコーヒーをのみましょう。",
+          "へやがひえてきたので、ストーブをわかしてください。"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "わかす => おゆをわかしてコーヒーをのみましょう。"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "返事",
+        "reading": "henji",
+        "meaning": "reply"
+      },
+      {
+        "word": "聞こえる",
+        "reading": "kikoeru",
+        "meaning": "to be heard"
+      },
+      {
+        "word": "借りる",
+        "reading": "kariru",
+        "meaning": "to borrow"
+      },
+      {
+        "word": "すぐに",
+        "reading": "sugu ni",
+        "meaning": "immediately"
+      },
+      {
+        "word": "行う",
+        "reading": "okonau",
+        "meaning": "to perform, to carry out"
+      },
+      {
+        "word": "呼ぶ",
+        "reading": "yobu",
+        "meaning": "to call"
+      },
+      {
+        "word": "育てる",
+        "reading": "sodateru",
+        "meaning": "to raise, to bring up"
+      },
+      {
+        "word": "大切",
+        "reading": "taisetsu",
+        "meaning": "important"
+      },
+      {
+        "word": "咲く",
+        "reading": "saku",
+        "meaning": "to bloom, to blossom"
+      },
+      {
+        "word": "何度も",
+        "reading": "nando mo",
+        "meaning": "many times over"
+      },
+      {
+        "word": "直す",
+        "reading": "naosu",
+        "meaning": "to fix"
+      },
+      {
+        "word": "作文",
+        "reading": "sakubun",
+        "meaning": "writing (an essay), composition"
+      },
+      {
+        "word": "捨てる",
+        "reading": "suteru",
+        "meaning": "to throw away"
+      },
+      {
+        "word": "お客さん",
+        "reading": "okyakusan",
+        "meaning": "customer"
+      },
+      {
+        "word": "部屋",
+        "reading": "heya",
+        "meaning": "room"
+      },
+      {
+        "word": "きれい",
+        "reading": "kirei",
+        "meaning": "pretty, beautiful"
+      },
+      {
+        "word": "要る",
+        "reading": "iru",
+        "meaning": "to need"
+      },
+      {
+        "word": "授業",
+        "reading": "jugyou",
+        "meaning": "lesson, class work"
+      },
+      {
+        "word": "ひどい",
+        "reading": "hidoi",
+        "meaning": "cruel, heartless"
+      },
+      {
+        "word": "寒い",
+        "reading": "samui",
+        "meaning": "cold"
+      },
+      {
+        "word": "タオル",
+        "reading": "taoru",
+        "meaning": "towel"
+      },
+      {
+        "word": "拭く",
+        "reading": "fuku",
+        "meaning": "to wipe, to dry"
+      },
+      {
+        "word": "夏",
+        "reading": "natsu",
+        "meaning": "summer"
+      },
+      {
+        "word": "ビール",
+        "reading": "biiru",
+        "meaning": "beer"
+      },
+      {
+        "word": "優しい",
+        "reading": "yasashii",
+        "meaning": "kind"
+      },
+      {
+        "word": "とくに",
+        "reading": "toku ni",
+        "meaning": "especially"
+      },
+      {
+        "word": "寂しい",
+        "reading": "sabishii",
+        "meaning": "lonely"
+      },
+      {
+        "word": "寝坊",
+        "reading": "nebou",
+        "meaning": "sleeping in late"
+      },
+      {
+        "word": "セーター",
+        "reading": "seetaa",
+        "meaning": "sweater"
+      },
+      {
+        "word": "ときどき",
+        "reading": "tokidoki",
+        "meaning": "sometimes"
+      },
+      {
+        "word": "掃除",
+        "reading": "souji",
+        "meaning": "cleaning, sweeping"
+      },
+      {
+        "word": "片付ける",
+        "reading": "katazukeru",
+        "meaning": "to tidy up, to put in order"
+      },
+      {
+        "word": "顔",
+        "reading": "kao",
+        "meaning": "face"
+      },
+      {
+        "word": "カーテン",
+        "reading": "kaaten",
+        "meaning": "curtain"
+      },
+      {
+        "word": "興味",
+        "reading": "kyoumi",
+        "meaning": "interest (in something)"
+      },
+      {
+        "word": "すると",
+        "reading": "suru to",
+        "meaning": "thereupon, hereupon"
+      },
+      {
+        "word": "テニス",
+        "reading": "tenisu",
+        "meaning": "tennis"
+      },
+      {
+        "word": "何回も",
+        "reading": "nankai mo",
+        "meaning": "time and time again, many times"
+      },
+      {
+        "word": "ボタン",
+        "reading": "botan",
+        "meaning": "button"
+      },
+      {
+        "word": "押す",
+        "reading": "osu",
+        "meaning": "to push"
+      },
+      {
+        "word": "試験",
+        "reading": "shiken",
+        "meaning": "exam"
+      },
+      {
+        "word": "たいてい",
+        "reading": "taitei",
+        "meaning": "mostly, usually"
+      },
+      {
+        "word": "スポーツ",
+        "reading": "supootsu",
+        "meaning": "sport"
+      },
+      {
+        "word": "この頃",
+        "reading": "kono goro",
+        "meaning": "recently, these days"
+      },
+      {
+        "word": "上手",
+        "reading": "jouzu",
+        "meaning": "skillful, good (at)"
+      },
+      {
+        "word": "日本語",
+        "reading": "nihongo",
+        "meaning": "Japanese language"
+      },
+      {
+        "word": "支度",
+        "reading": "shitaku",
+        "meaning": "preparation"
+      },
+      {
+        "word": "予約",
+        "reading": "yoyaku",
+        "meaning": "reservation, appointment"
+      },
+      {
+        "word": "食事",
+        "reading": "shokuji",
+        "meaning": "meal"
+      },
+      {
+        "word": "経済",
+        "reading": "keizai",
+        "meaning": "economy"
+      },
+      {
+        "word": "考える",
+        "reading": "kangeru",
+        "meaning": "to think"
+      },
+      {
+        "word": "沸かす",
+        "reading": "wakasu",
+        "meaning": "to boil, to heat"
+      },
+      {
+        "word": "シャワー",
+        "reading": "shawaa",
+        "meaning": "shower"
+      },
+      {
+        "word": "肉",
+        "reading": "niku",
+        "meaning": "meat"
+      },
+      {
+        "word": "お湯",
+        "reading": "oyu",
+        "meaning": "hot water"
+      },
+      {
+        "word": "コーヒー",
+        "reading": "koohii",
+        "meaning": "coffee"
+      },
+      {
+        "word": "冷える",
+        "reading": "hieru",
+        "meaning": "to grow cold, to get chilly"
+      },
+      {
+        "word": "ストーブ",
+        "reading": "sutoobu",
+        "meaning": "stove"
+      }
+    ]
+  },
+  {
+    "exercise_number": 14,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n4-vocabulary-exercise-14/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "一ヶ月50000円 _______ のへやをかりたいです。",
+        "choices": [
+          "いか",
+          "いがい",
+          "いせん",
+          "いっばい"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "一ヶ月50000円\nいか\nのへやをかりたいです。"
+      },
+      {
+        "question_number": 2,
+        "question": "このみちはせまい。_______ 、車がおおくてあぶない。",
+        "choices": [
+          "だから",
+          "すると",
+          "それに",
+          "じゃあ"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "このみちはせまい。\nそれに\n、車がおおくてあぶない。"
+      },
+      {
+        "question_number": 3,
+        "question": "_______ たくさん食べても、すぐにおなかがすいてしまいます。",
+        "choices": [
+          "いくら",
+          "いかが",
+          "どうして",
+          "どんな"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "いくら\nたくさん食べても、すぐにおなかがすいてしまいます。"
+      },
+      {
+        "question_number": 4,
+        "question": "この川はとても _______ からきけんです。",
+        "choices": [
+          "あさい",
+          "ふかい",
+          "ひくい",
+          "たかい"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "この川はとても\nふかい\nからきけんです。"
+      },
+      {
+        "question_number": 5,
+        "question": "母にしなれてほんとうに _______ です。",
+        "choices": [
+          "うるさかった",
+          "かなしかった",
+          "きびしかった",
+          "つまらなかった"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "母にしなれてほんとうに\nかなしかった\nです。"
+      },
+      {
+        "question_number": 6,
+        "question": "むすめはそとであそぶより、ひとりで _______ をするのがすきです。",
+        "choices": [
+          "プ－ル",
+          "ゲ－ム",
+          "ス－ツ",
+          "ル－ル"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "むすめはそとであそぶより、ひとりで\nゲ－ム\nをするのがすきです。"
+      },
+      {
+        "question_number": 7,
+        "question": "あにとせの高さを _______ 。",
+        "choices": [
+          "まけました",
+          "わかれました",
+          "くらべました",
+          "つかまえました"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "あにとせの高さを\nくらべました\n。"
+      },
+      {
+        "question_number": 8,
+        "question": "友だちににっきを見られてとても _______ 。",
+        "choices": [
+          "にがかった",
+          "ねむかった",
+          "はずかしかった",
+          "よろしかった"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "友だちににっきを見られてとても\nはずかしかった\n。"
+      },
+      {
+        "question_number": 9,
+        "question": "わたしはやまもとさんにりょこうの _______ をもらいました。",
+        "choices": [
+          "おみやげ",
+          "おみまい",
+          "おまつり",
+          "おいわい"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "わたしはやまもとさんにりょこうの\nおみやげ\nをもらいました。"
+      },
+      {
+        "question_number": 10,
+        "question": "このとおりは、よるくらくて _______ 。",
+        "choices": [
+          "いたい",
+          "こわい",
+          "よわい",
+          "かなしい"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "このとおりは、よるくらくて\nこわい\n。"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "一ヶ月",
+        "reading": "ikkagetsu",
+        "meaning": "one month"
+      },
+      {
+        "word": "借りる",
+        "reading": "kariru",
+        "meaning": "to rent, to borrow"
+      },
+      {
+        "word": "以下",
+        "reading": "ika",
+        "meaning": "not exceeding, and below"
+      },
+      {
+        "word": "以外",
+        "reading": "igai",
+        "meaning": "with the exception of, excepting"
+      },
+      {
+        "word": "以前",
+        "reading": "izen",
+        "meaning": "ago, before"
+      },
+      {
+        "word": "道",
+        "reading": "michi",
+        "meaning": "road"
+      },
+      {
+        "word": "狭い",
+        "reading": "semai",
+        "meaning": "narrow, confined"
+      },
+      {
+        "word": "危ない",
+        "reading": "abunai",
+        "meaning": "dangerous"
+      },
+      {
+        "word": "それに",
+        "reading": "sore ni",
+        "meaning": "besides, in addition"
+      },
+      {
+        "word": "お腹が空く",
+        "reading": "onaka ga suku",
+        "meaning": "to become hungry"
+      },
+      {
+        "word": "いくら〜ても",
+        "reading": "ikura~temo",
+        "meaning": "no matter how"
+      },
+      {
+        "word": "危険",
+        "reading": "kiken",
+        "meaning": "danger, peril"
+      },
+      {
+        "word": "浅い",
+        "reading": "asai",
+        "meaning": "shallow"
+      },
+      {
+        "word": "深い",
+        "reading": "fukai",
+        "meaning": "deep, profound"
+      },
+      {
+        "word": "低い",
+        "reading": "hikui",
+        "meaning": "low"
+      },
+      {
+        "word": "高い",
+        "reading": "takai",
+        "meaning": "high, expensive"
+      },
+      {
+        "word": "うるさい",
+        "reading": "urusai",
+        "meaning": "loud, noisy"
+      },
+      {
+        "word": "悲しい",
+        "reading": "kanashii",
+        "meaning": "sad, sorrowful"
+      },
+      {
+        "word": "厳しい",
+        "reading": "kibishii",
+        "meaning": "severe, strict"
+      },
+      {
+        "word": "つまらない",
+        "reading": "tsumaranai",
+        "meaning": "boring, tedious"
+      },
+      {
+        "word": "娘",
+        "reading": "musume",
+        "meaning": "daughter"
+      },
+      {
+        "word": "外",
+        "reading": "soto",
+        "meaning": "outside"
+      },
+      {
+        "word": "遊ぶ",
+        "reading": "asobu",
+        "meaning": "to play"
+      },
+      {
+        "word": "一人で",
+        "reading": "hitori de",
+        "meaning": "alone, by oneself"
+      },
+      {
+        "word": "プール",
+        "reading": "puuru",
+        "meaning": "swimming pool"
+      },
+      {
+        "word": "ゲーム",
+        "reading": "geemu",
+        "meaning": "game"
+      },
+      {
+        "word": "スーツ",
+        "reading": "suutsu",
+        "meaning": "suit (clothing)"
+      },
+      {
+        "word": "ルール",
+        "reading": "ruuru",
+        "meaning": "rule"
+      },
+      {
+        "word": "背が高い",
+        "reading": "se ga takai",
+        "meaning": "tall (of a person)"
+      },
+      {
+        "word": "負ける",
+        "reading": "makeru",
+        "meaning": "to lose"
+      },
+      {
+        "word": "別れる",
+        "reading": "wakareru",
+        "meaning": "to part, to part with"
+      },
+      {
+        "word": "比べる",
+        "reading": "kuraberu",
+        "meaning": "to compare"
+      },
+      {
+        "word": "捕まえる",
+        "reading": "tsukamaeru",
+        "meaning": "to catch, to arrest"
+      },
+      {
+        "word": "日記",
+        "reading": "nikki",
+        "meaning": "diary, journal"
+      },
+      {
+        "word": "苦い",
+        "reading": "nigai",
+        "meaning": "bitter"
+      },
+      {
+        "word": "眠い",
+        "reading": "nemui",
+        "meaning": "sleepy, drowsy"
+      },
+      {
+        "word": "恥ずかしい",
+        "reading": "hazukashii",
+        "meaning": "embarrassing, ashamed"
+      },
+      {
+        "word": "よろしい",
+        "reading": "yoroshii",
+        "meaning": "good, all right"
+      },
+      {
+        "word": "旅行",
+        "reading": "ryokou",
+        "meaning": "trip, travel"
+      },
+      {
+        "word": "お土産",
+        "reading": "omiyage",
+        "meaning": "present, souvenir"
+      },
+      {
+        "word": "お見舞い",
+        "reading": "omimai",
+        "meaning": "calling on someone who is ill"
+      },
+      {
+        "word": "お祭り",
+        "reading": "omatsuri",
+        "meaning": "festival, feast"
+      },
+      {
+        "word": "お祝い",
+        "reading": "oiwai",
+        "meaning": "celebration, congratulation"
+      },
+      {
+        "word": "通り",
+        "reading": "toori",
+        "meaning": "street, way"
+      },
+      {
+        "word": "暗い",
+        "reading": "kurai",
+        "meaning": "dark"
+      },
+      {
+        "word": "痛い",
+        "reading": "itai",
+        "meaning": "painful, sore"
+      },
+      {
+        "word": "怖い",
+        "reading": "kowai",
+        "meaning": "scary, frightening"
+      },
+      {
+        "word": "弱い",
+        "reading": "yowai",
+        "meaning": "weak"
+      }
+    ]
+  },
+  {
+    "exercise_number": 15,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n4-vocabulary-exercise-15/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "こんやおもしろいテレビの _______ はありますか。",
+        "choices": [
+          "よやく",
+          "ばんぐみ",
+          "タイプ",
+          "スクリーン"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "こんやおもしろいテレビの\nばんぐみ\nはありますか。"
+      },
+      {
+        "question_number": 2,
+        "question": "おなかがすきましたね。_______ しょくじに行きませんか。",
+        "choices": [
+          "だんだん",
+          "そろそろ",
+          "なかなか",
+          "どうどう"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "おなかがすきましたね。\nそろそろ\nしょくじに行きませんか。"
+      },
+      {
+        "question_number": 3,
+        "question": "よく聞こえないので、_______ 大きいこえで話してください。",
+        "choices": [
+          "なるべく",
+          "なかなか",
+          "ずいぶん",
+          "そんなに"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "よく聞こえないので、\nなるべく\n大きいこえで話してください。"
+      },
+      {
+        "question_number": 4,
+        "question": "山に木を _______ 。",
+        "choices": [
+          "つけました",
+          "とめました",
+          "さげました",
+          "うえました"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "山に木を\nうえました\n。"
+      },
+      {
+        "question_number": 5,
+        "question": "わたしは _______ パンがすきです。",
+        "choices": [
+          "おそい",
+          "ふかい",
+          "やさしい",
+          "やわらかい"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "わたしは\nやわらかい\nパンがすきです。"
+      },
+      {
+        "question_number": 6,
+        "question": "このみちはよるきけんです。",
+        "choices": [
+          "このみちはよるべんりです。",
+          "このみちはよるあぶないです。",
+          "このみちはよるさびしいです。",
+          "このみちはよるにぎやかです。"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "このみちはよるきけんです。—>\nこのみちはよるあぶないです\n。"
+      },
+      {
+        "question_number": 7,
+        "question": "どうぶつをいじめてはいけません。",
+        "choices": [
+          "どうぶつをたいせつにしてください。",
+          "どうぶつをあんぜんにしてください。",
+          "どうぶつをつかまえてください。",
+          "どうぶつをすててください。"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "どうぶつをいじめてはいけません。—>\nどうぶつをたいせつにしてください\n。"
+      },
+      {
+        "question_number": 8,
+        "question": "このへやにはいしゃとかんごふいがいは入らないでください。",
+        "choices": [
+          "このへやにはだれが入ってもいいです。",
+          "このへやにはだれも入ってはいけません。",
+          "このへやにはいしゃとかんごふは入ってはいけません。",
+          "このへやにはいしゃとかんごふは入ってもいいです。"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "このへやにはいしゃとかんごふいがいは入らないでください。—>\nこのへやにはいしゃとかんごふは入ってもいいです\n。"
+      },
+      {
+        "question_number": 9,
+        "question": "ゆうべのコンサートはすばらしかったです。",
+        "choices": [
+          "ゆうべはとてもたのしいえいがを見ました。",
+          "ゆうべはとてもりっぱなきょうかいを見ました。",
+          "ゆうべはとてもうつくしいおんがくを聞きました。",
+          "ゆうべはとてもおもしろいほうそうを聞きました。"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "ゆうべのコンサートはすばらしかったです。—>\nゆうべはとてもうつくしいおんがくを聞きました\n。"
+      },
+      {
+        "question_number": 10,
+        "question": "日本語をべんきょうするつもりです。",
+        "choices": [
+          "日本語をべんきょうするよていです。",
+          "日本語をべんきょうするはずです。",
+          "日本語をべんきょうするそうです。",
+          "日本語をべんきょうすることができます。"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "日本語をべんきょうするつもりです。—>\n日本語をべんきょうするよていです\n。"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "今夜",
+        "reading": "konya",
+        "meaning": "tonight"
+      },
+      {
+        "word": "面白い",
+        "reading": "omoshiroi",
+        "meaning": "interesting"
+      },
+      {
+        "word": "予約",
+        "reading": "yoyaku",
+        "meaning": "reservation"
+      },
+      {
+        "word": "番組",
+        "reading": "bangumi",
+        "meaning": "program (e.g. TV)"
+      },
+      {
+        "word": "タイプ",
+        "reading": "taipu",
+        "meaning": "type"
+      },
+      {
+        "word": "スクリーン",
+        "reading": "sukuriin",
+        "meaning": "screen"
+      },
+      {
+        "word": "食事",
+        "reading": "shokuji",
+        "meaning": "meal"
+      },
+      {
+        "word": "だんだん",
+        "reading": "dandan",
+        "meaning": "gradually, little by little"
+      },
+      {
+        "word": "そろそろ",
+        "reading": "sorosoro",
+        "meaning": "soon, before long"
+      },
+      {
+        "word": "なかなか",
+        "reading": "nakanak",
+        "meaning": "very, considerably"
+      },
+      {
+        "word": "どうどう",
+        "reading": "doudou",
+        "meaning": "boldly, grandly"
+      },
+      {
+        "word": "聞こえる",
+        "reading": "kikoeru",
+        "meaning": "to be heard"
+      },
+      {
+        "word": "声",
+        "reading": "koe",
+        "meaning": "voice"
+      },
+      {
+        "word": "なるべく",
+        "reading": "narubeku",
+        "meaning": "as much as possible"
+      },
+      {
+        "word": "ずいぶん",
+        "reading": "zuibun",
+        "meaning": "very, extremely"
+      },
+      {
+        "word": "つける",
+        "reading": "tsukeru",
+        "meaning": "to turn on"
+      },
+      {
+        "word": "止める",
+        "reading": "tomeru",
+        "meaning": "to stop, to turn off"
+      },
+      {
+        "word": "下げる",
+        "reading": "sageru",
+        "meaning": "to lower, to bring down"
+      },
+      {
+        "word": "植える",
+        "reading": "ueru",
+        "meaning": "to grow, to plant"
+      },
+      {
+        "word": "パン",
+        "reading": "pan",
+        "meaning": "bread"
+      },
+      {
+        "word": "遅い",
+        "reading": "osoi",
+        "meaning": "late (in the day)"
+      },
+      {
+        "word": "深い",
+        "reading": "fukai",
+        "meaning": "deep, profound"
+      },
+      {
+        "word": "優しい",
+        "reading": "yasashii",
+        "meaning": "kind"
+      },
+      {
+        "word": "柔らかい",
+        "reading": "yawarakai",
+        "meaning": "soft, tender"
+      },
+      {
+        "word": "危険",
+        "reading": "kiken",
+        "meaning": "danger"
+      },
+      {
+        "word": "夜",
+        "reading": "yoru",
+        "meaning": "night"
+      },
+      {
+        "word": "便利",
+        "reading": "benri",
+        "meaning": "convenient"
+      },
+      {
+        "word": "危ない",
+        "reading": "abunai",
+        "meaning": "dangerous"
+      },
+      {
+        "word": "寂しい",
+        "reading": "sabishii",
+        "meaning": "lonely, lonesome"
+      },
+      {
+        "word": "賑やか",
+        "reading": "nigiyaka",
+        "meaning": "bustling, busy"
+      },
+      {
+        "word": "動物",
+        "reading": "doubutsu",
+        "meaning": "animal"
+      },
+      {
+        "word": "いじめる",
+        "reading": "ijimeru",
+        "meaning": "to bully, to torment"
+      },
+      {
+        "word": "大切にする",
+        "reading": "taisetsu ni suru",
+        "meaning": "to cherish, to treasure"
+      },
+      {
+        "word": "安全",
+        "reading": "anzen",
+        "meaning": "safety, security"
+      },
+      {
+        "word": "捕まえる",
+        "reading": "tsukamaeru",
+        "meaning": "to catch, to arrest"
+      },
+      {
+        "word": "捨てる",
+        "reading": "suteru",
+        "meaning": "to throw away"
+      },
+      {
+        "word": "医者",
+        "reading": "isha",
+        "meaning": "doctor"
+      },
+      {
+        "word": "看護婦",
+        "reading": "kangofu",
+        "meaning": "nurse"
+      },
+      {
+        "word": "以外",
+        "reading": "igai",
+        "meaning": "with the exception of, excepting"
+      },
+      {
+        "word": "昨夜",
+        "reading": "sakuya",
+        "meaning": "last night"
+      },
+      {
+        "word": "コンサート",
+        "reading": "konsaato",
+        "meaning": "concert"
+      },
+      {
+        "word": "素晴らしい",
+        "reading": "subarashii",
+        "meaning": "wonderful, splendid"
+      },
+      {
+        "word": "立派",
+        "reading": "rippa",
+        "meaning": "splendid, fine"
+      },
+      {
+        "word": "教会",
+        "reading": "kyoukai",
+        "meaning": "church"
+      },
+      {
+        "word": "美しい",
+        "reading": "utsukushii",
+        "meaning": "beautiful"
+      },
+      {
+        "word": "音楽",
+        "reading": "ongaku",
+        "meaning": "music"
+      },
+      {
+        "word": "放送",
+        "reading": "housou",
+        "meaning": "broadcast"
+      }
+    ]
+  },
+  {
+    "exercise_number": 16,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n4-vocabulary-exercise-16/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "かいだんがぬれています。_______ ので、ちゅういしてください。",
+        "choices": [
+          "おちやすい",
+          "うごきやすい",
+          "すべりやすい",
+          "たおれやすい"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "かいだんがぬれています。\nすべりやすい\nので、ちゅういしてください。"
+      },
+      {
+        "question_number": 2,
+        "question": "やさいは _______ きってください。",
+        "choices": [
+          "こまかく",
+          "ぬるく",
+          "せまく",
+          "きびしく"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "やさいは\nこまかく\nきってください。"
+      },
+      {
+        "question_number": 3,
+        "question": "日本のぶんかについて _______ を書きました。",
+        "choices": [
+          "ワ－プロ",
+          "チェック",
+          "パソコン",
+          "レポ－ト"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "日本のぶんかについて\nレポ－ト\nを書きました。"
+      },
+      {
+        "question_number": 4,
+        "question": "ほんやの _______ で3000円はらった。",
+        "choices": [
+          "スクリーン",
+          "ワープロ",
+          "レポート",
+          "レジ"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "ほんやの\nレジ\nで3000円はらった。"
+      },
+      {
+        "question_number": 5,
+        "question": "_______ ですが、あしたのパーティーには出られません。",
+        "choices": [
+          "むり",
+          "いや",
+          "ざんねん",
+          "ずいぶん"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "ざんねん\nですが、あしたのパーティーには出られません。"
+      },
+      {
+        "question_number": 6,
+        "question": "おおい",
+        "choices": [
+          "日本にはおおい外国人がすんでいます。",
+          "ここは車がおおくてあぶないです。",
+          "きょうはおおくつかれました。",
+          "わたしにはおおいのこどもがいてたいへんです。"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "おおい => ここは車がおおくてあぶないです。"
+      },
+      {
+        "question_number": 7,
+        "question": "いけん",
+        "choices": [
+          "つかいかたがよくわかるように、いけんをしてください。",
+          "あの人から「ありがとう。」といけんを言われました。",
+          "このことばのいけんをしらべました。",
+          "みんなの前でわたしのいけんを言いました。"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "いけん => みんなの前でわたしのいけんを言いました。"
+      },
+      {
+        "question_number": 8,
+        "question": "よやく",
+        "choices": [
+          "月へ行くことはわたしのよやくのゆめです。",
+          "みんなでごはんを食べるので、レストランをよやくしました。",
+          "毎日1時間べんきょうすると母によやくしました。",
+          "月よう日はかいものに行くよやくです。"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "よやく => みんなでごはんを食べるので、レストランをよやくしました。"
+      },
+      {
+        "question_number": 9,
+        "question": "むかえる",
+        "choices": [
+          "ひるがよるをむかえました。",
+          "えきからタクシーを むかえました。",
+          "友だちをむかえにくうこうへいきました。",
+          "パソコンをむかえてメールを書いています。"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "むかえる => 友だちをむかえにくうこうへいきました。"
+      },
+      {
+        "question_number": 10,
+        "question": "そうだん",
+        "choices": [
+          "べんきょうのしかたを先生にそうだんしました。",
+          "かんじがわからないので、じしょにそうだんしました。",
+          "つぎの電車が何時かえきいんにそうだんしました。",
+          "すきなえいがについて友だちにそうだんしました。"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "そうだん => べんきょうのしかたを先生にそうだんしました。"
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 17,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n4-vocabulary-exercise-17/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "へやの _______ をつけて、あたたかくします。",
+        "choices": [
+          "だんぼう",
+          "でんとう",
+          "どうぐ",
+          "れいぼう"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "へやの\nだんぼう\nをつけて、あたたかくします。"
+      },
+      {
+        "question_number": 2,
+        "question": "先生「みなさん、きょうは _______ 話があります。」",
+        "choices": [
+          "ひつような",
+          "しんせつな",
+          "だいじな",
+          "ねっしんな"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "先生「みなさん、きょうは\nだいじ\nな話があります。」"
+      },
+      {
+        "question_number": 3,
+        "question": "このにくはかたいので、よく _______ 食べてください。",
+        "choices": [
+          "かんで",
+          "こんで",
+          "のんで",
+          "やんで"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "このにくはかたいので、よく\nかんで\n食べてください。"
+      },
+      {
+        "question_number": 4,
+        "question": "とうきょうの _______ にちいさないえをかいました。",
+        "choices": [
+          "こうがい",
+          "こうこう",
+          "こうどう",
+          "こくさい"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "とうきょうの\nこうがい\nにちいさないえをかいました。"
+      },
+      {
+        "question_number": 5,
+        "question": "やすむ人はでんわでわたしに _______ してください。",
+        "choices": [
+          "あんない",
+          "れんらく",
+          "しょうかい",
+          "よしゅう"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "やすむ人はでんわでわたしに\nれんらく\nしてください。"
+      },
+      {
+        "question_number": 6,
+        "question": "たなか「あしたのパーティーですが、ちょっと行けなくなってしましました。」",
+        "choices": [
+          "さとう「そうですか、それは _______ ですね。」",
+          "さかん",
+          "ふべん",
+          "ざんねん",
+          "しつれい"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "たなか「あしたのパーティーですが、ちょっと行けなくなってしましました。」さとう「そうですか、それは\nざんねん\nですね。」"
+      },
+      {
+        "question_number": 7,
+        "question": "毎日 _______ ふくしゅうしてください。",
+        "choices": [
+          "けっして",
+          "かならず",
+          "ぜんぜん",
+          "たいてい"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "毎日\nかならず\nふくしゅうしてください。"
+      },
+      {
+        "question_number": 8,
+        "question": "このくすりはとても _______ のみにくいです。",
+        "choices": [
+          "うまくて",
+          "こわくて",
+          "にがくて",
+          "よわくて"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "このくすりはとても\nにがくて\nのみにくいです。"
+      },
+      {
+        "question_number": 9,
+        "question": "かいぎの時間は、はがき _______ 電話でおしらせします。",
+        "choices": [
+          "けれど",
+          "すると",
+          "それで",
+          "または"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "かいぎの時間は、はがき\nまたは\n電話でおしらせします。"
+      },
+      {
+        "question_number": 10,
+        "question": "こちらにいらっしゃる _______ があったら、ぜひおよりください。",
+        "choices": [
+          "きかい",
+          "きそく",
+          "きぶん",
+          "きんじょ"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "こちらにいらっしゃる\nきかい\nがあったら、ぜひおよりください。"
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 18,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n4-vocabulary-exercise-18/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "むかしはきょういくをうけられる人は多くありませんでした。",
+        "choices": [
+          "むかしは多くの人が学校へいけませんでした。",
+          "むかしは多くの人が会社へいけませんでした。",
+          "むかしは多くの人がおいわいをもらえませんでした。",
+          "むかしは多くの入がおみまいをもらえませんでした。"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "むかしはきょういくをうけられる人は多くありませんでした。=>\nむかしは多くの人が学校へいけませんでした\n。"
+      },
+      {
+        "question_number": 2,
+        "question": "やくそくの時間にまにあいませんでした。",
+        "choices": [
+          "やくそくの時間をわすれました。",
+          "やくそくの時間をかえました。",
+          "やくそくの時間にもどりました。",
+          "やくそくの時間におくれました。"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "やくそくの時間にまにあいませんでした。=>\nやくそくの時間におくれました\n。"
+      },
+      {
+        "question_number": 3,
+        "question": "うけつけで「お名前とごじゅうしょを書いてください。」と言われました。",
+        "choices": [
+          "うけつけで名前とつとめているところを書きました。",
+          "うけつけで名前とすんでいるところを書きました。",
+          "うけつけで名前とうまれた日を書きました。",
+          "うけつけで名前とうまれた国を書きました。"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "うけつけで「お名前とごじゅうしょを書いてください。」と言われました。=>\nうけつけで名前とすんでいるところを書きました\n。"
+      },
+      {
+        "question_number": 4,
+        "question": "たなかさんはひっこしがしゅみだそうです。",
+        "choices": [
+          "たなかさんはいろいろなところにいえがあります。",
+          "たなかさんはいろいろなところにすむのがすきです。",
+          "たなかさんはいろいろなところに出かけるのがすきです。",
+          "たなかさんはいろいろなところに行ったことがあります。"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "たなかさんはひっこしがしゅみだそうです。=>\nたなかさんはいろいろなところにすむのがすきです\n。"
+      },
+      {
+        "question_number": 5,
+        "question": "サッカーがさかんになりました。",
+        "choices": [
+          "サッカーをする人がふえました。",
+          "サッカーをする人がへりました。",
+          "サッカーがまじめになりました。",
+          "サッカーがつまらなくなりました。"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "サッカーがさかんになりました。=>\nサッカーをする人がふえました\n。"
+      },
+      {
+        "question_number": 6,
+        "question": "このもんだいはまちがえやすい。",
+        "choices": [
+          "このもんだいはまちがえる人が少ししかいない。",
+          "このもんだいはまちがえる人がぜんぜんいない。",
+          "このもんだいはまちがえる人が多い。",
+          "このもんだいはまちがえる人が少ない。"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "このもんだいはまちがえやすい。=>\nこのもんだいはまちがえる人が多い\n。"
+      },
+      {
+        "question_number": 7,
+        "question": "病院にいきました。",
+        "choices": [
+          "えを見に行きました。",
+          "くるまをかりに行きました。",
+          "くすりをとりに行きました。",
+          "かみのけをきりに行きました。"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "病院にいきました。=>\nくすりをとりに行きました\n。"
+      },
+      {
+        "question_number": 8,
+        "question": "きのうのしゅくだいはかんたんでした。",
+        "choices": [
+          "きのうのしゅくだいはたいへんでした。",
+          "きのうのしゅくだいはふくざつでした。",
+          "きのうのしゅくだいはやさしかったです。",
+          "きのうのしゅくだいはむずかしかったです。"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "きのうのしゅくだいはかんたんでした。=>\nきのうのしゅくだいはやさしかったです\n。"
+      },
+      {
+        "question_number": 9,
+        "question": "あのレストランはいつもすいています。",
+        "choices": [
+          "あのレストランはいつもたべものがおいしいです。",
+          "あのレストランはいつもてんいんがしんせつです。",
+          "あのレストランはいつもねだんが高いです。",
+          "あのレストランはいつもきゃくが少ないです。"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "あのレストランはいつもすいています。=>\nあのレストランはいつもきゃくが少ないです\n。"
+      },
+      {
+        "question_number": 10,
+        "question": "すいている電車が来ました。",
+        "choices": [
+          "ひとがすこしものっていない電車が来ました。",
+          "ひとがたくさんのっている電車が来ました。",
+          "のっているひとがすくない電車が来ました。",
+          "のっているひとがいない電車が来ました。"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "すいている電車が来ました。=>\nのっているひとがすくない電車が来ました\n。"
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 19,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n4-vocabulary-exercise-19/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "せんたく",
+        "choices": [
+          "しょくじのあとに、はをせんたくします。",
+          "日よう日に シャツとズボンをせんたくします。",
+          "毎日へやをせんたくします。",
+          "こんばんはかみをせんたくします。"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "せんたく => 日よう日にシャツとズボンをせんたくします。"
+      },
+      {
+        "question_number": 2,
+        "question": "どんどん",
+        "choices": [
+          "えいがを見てどんどんわらいました。",
+          "休みの日はどんどんねています。",
+          "あかちゃんはどんどん大きくなります。",
+          "オートバイがどんどんはやいです。"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "どんどん => あかちゃんはどんどん大きくなります。"
+      },
+      {
+        "question_number": 3,
+        "question": "とうとう",
+        "choices": [
+          "しょくじのあとでとうとうおちゃをおねがいします。",
+          "新聞のじはとうとうこまかいです。",
+          "とうとうしけんの日が来ました。",
+          "わからなかったら、とうとうじしょを見てください。"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "とうとう => とうとうしけんの日が来ました。"
+      },
+      {
+        "question_number": 4,
+        "question": "きびしい",
+        "choices": [
+          "このパンはきびしくて食べられません。",
+          "わたしはきびしいペンをつかっています。",
+          "このおちゃはきびしくておいしいです。",
+          "社長はきびしい人です。"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "きびしい => 社長はきびしい人です。"
+      },
+      {
+        "question_number": 5,
+        "question": "おれい",
+        "choices": [
+          "先生がにゅういんなさったので、おれいをもっていきました。",
+          "プレゼントをもらったので、おれいを言いました。",
+          "友だちが来たのでばんごはんにおれいをつくりました。",
+          "すずきさんにそつぎょうのおれいをあげました。"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "おれい => プレゼントをもらったので、おれいを言いました。"
+      },
+      {
+        "question_number": 6,
+        "question": "よろこぶ",
+        "choices": [
+          "先生におあいできるので、わたしはとてもよろこびます。",
+          "プレゼントをもらって、いもうとはとてもよろこんでいます。",
+          "このハイキングはほんとうによろこんでいますね。",
+          "友だちのいえでよろこぶ時間をすごしました。"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "よろこぶ => プレゼントをもらって、いもうとはとてもよろこんでいます。"
+      },
+      {
+        "question_number": 7,
+        "question": "しっかり",
+        "choices": [
+          "このテレビはしっかりふるい。",
+          "あの子は小さいけれどもしっかりしている。",
+          "テストのためにしっかりにじゅんびした。",
+          "あのひとは時間にしっかりとしている。"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "しっかり => あの子は小さいけれどもしっかりしている。"
+      },
+      {
+        "question_number": 8,
+        "question": "あやまる",
+        "choices": [
+          "こまったときにはすぐにあやまってください。",
+          "友だちにおくりものをもらったので、あやまりました。",
+          "てつだってもらったときにはかならずあやまってください。",
+          "しらない人の足をふんでしまったので、あやまりました。"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "あやまる => しらない人の足をふんでしまったので、あやまりました。"
+      },
+      {
+        "question_number": 9,
+        "question": "げんいん",
+        "choices": [
+          "12さいいじょうの子どもがこのクラスのげんいんになれます。",
+          "あたらしいかいしゃでしごとのげんいんをおしえてもらいました。",
+          "けいさつはじこのげんいんをしらべています。",
+          "この木をげんいんにしていすをつくりましょう。"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "げんいん => けいさつはじこのげんいんをしらべています。"
+      },
+      {
+        "question_number": 10,
+        "question": "きびしい",
+        "choices": [
+          "たなか先生はきびしいふくをきています。",
+          "たなか先生はきびしい字を書きます。",
+          "たなか先生はきびしいかおをしています。",
+          "たなか先生はきびしいいぬをもっています。"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "きびしい => たなか先生はきびしいかおをしています。"
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 20,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n4-vocabulary-exercise-20/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "7時にレストランを _______ してあります。",
+        "choices": [
+          "ごちそう",
+          "よしゅう",
+          "やくそく",
+          "よやく"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "7時にレストランを\nよやく\nしてあります。"
+      },
+      {
+        "question_number": 2,
+        "question": "車のかぎはきのう _______ ここにありました。",
+        "choices": [
+          "きゅうに",
+          "じゆうに",
+          "たしかに",
+          "じょうぶに"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "車のかぎはきのう\nたしかに\nここにありました。"
+      },
+      {
+        "question_number": 3,
+        "question": "わたしは日本のぶんがくに _______ があります。",
+        "choices": [
+          "けいざい",
+          "きょうみ",
+          "ねっしん",
+          "せいじ"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "わたしは日本のぶんがくに\nきょうみ\nがあります。"
+      },
+      {
+        "question_number": 4,
+        "question": "すみませんが、たなかさんのでんわばんごうを _______ ください。",
+        "choices": [
+          "かけて",
+          "おしえて",
+          "こたえて",
+          "せつめいして"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "すみませんが、たなかさんのでんわばんごうを\nおしえて\nください。"
+      },
+      {
+        "question_number": 5,
+        "question": "「ケンさんはほんとうに日本語がじょうずですね。」「いえ、_______でもありません。」",
+        "choices": [
+          "ほんとう",
+          "それほど",
+          "ほとんど",
+          "なるほど"
+        ],
+        "correct_choice_number": 2,
+        "explanation": "「ケンさんはほんとうに日本語がじょうずですね。」「いえ、\nそれほど\nでもありません。」"
+      },
+      {
+        "question_number": 6,
+        "question": "わたしがとうきょうにいったとき、山川さんが _______ してくれた。",
+        "choices": [
+          "あんない",
+          "うんどう",
+          "けんぶつ",
+          "よてい"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "わたしがとうきょうにいったとき、山川さんが\nあんない\nしてくれた。"
+      },
+      {
+        "question_number": 7,
+        "question": "きむらくんと _______ して、けがをしてしまった。",
+        "choices": [
+          "けんか",
+          "けいけん",
+          "しょうち",
+          "しょうかい"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "きむらくんと\nけんか\nして、けがをしてしまった。"
+      },
+      {
+        "question_number": 8,
+        "question": "わたしの国はアジアの国々との _______ がさかんです。",
+        "choices": [
+          "かがく",
+          "けいけん",
+          "ぼうえき",
+          "よしゅう"
+        ],
+        "correct_choice_number": 3,
+        "explanation": "わたしの国はアジアの国々との\nぼうえき\nがさかんです。"
+      },
+      {
+        "question_number": 9,
+        "question": "むずかしいもんだいでしたが、_______ こたえがわかりました。",
+        "choices": [
+          "もうすぐ",
+          "なかなか",
+          "ちっとも",
+          "やっと"
+        ],
+        "correct_choice_number": 4,
+        "explanation": "むずかしいもんだいでしたが、\nやっと\nこたえがわかりました。"
+      },
+      {
+        "question_number": 10,
+        "question": "車が _______ 、うごかなくなってしましました。",
+        "choices": [
+          "こしょうして",
+          "うんてんして",
+          "うんどうして",
+          "しっぱいして"
+        ],
+        "correct_choice_number": 1,
+        "explanation": "車が\nこしょうして\n、うごかなくなってしましました。"
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 21,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n4-vocabulary-exercise-21/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "わからないことばは じじょで _______ ください。",
+        "choices": [
+          "よんで",
+          "きめて",
+          "しらべて",
+          "くらべて"
+        ],
+        "correct_choice_number": 3
+      },
+      {
+        "question_number": 2,
+        "question": "このテストは７０てん _______ とるとそつぎょうできます。",
+        "choices": [
+          "いか",
+          "いがい",
+          "いじょう",
+          "いない"
+        ],
+        "correct_choice_number": 3
+      },
+      {
+        "question_number": 3,
+        "question": "らいねんのカレンダーをへやの _______ にかけました。",
+        "choices": [
+          "かべ",
+          "もん",
+          "たたみ",
+          "おくじょう"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 4,
+        "question": "大きなにもつをはこんで _______ がいたくなった。",
+        "choices": [
+          "うで",
+          "のど",
+          "ひげ",
+          "みみ"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 5,
+        "question": "べんきょうしている人の _______ になりますから、しずかにしてください。",
+        "choices": [
+          "けんか",
+          "じゃま",
+          "だめ",
+          "いや"
+        ],
+        "correct_choice_number": 2
+      },
+      {
+        "question_number": 6,
+        "question": "父はるすです。",
+        "choices": [
+          "父は出かけています。",
+          "父はいそがしいです。",
+          "父はうちにいます。",
+          "父はねています。"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 7,
+        "question": "そのニュースを聞いてびっくりしました。",
+        "choices": [
+          "そのニュースを聞いてよろこびました。",
+          "そのニュースを聞いておもいだしました。",
+          "そのニュースを聞いてわかりました。",
+          "そのニュースを聞いておどろきました。"
+        ],
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 8,
+        "question": "ここはすばらしいえを見せるところです。",
+        "choices": [
+          "ここはびじゅつかんです。",
+          "ここはどうぶつえんです。",
+          "ここはとしょかんです。",
+          "ここはたいしかんです。"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 9,
+        "question": "あした先生のおたくにうかがいます。",
+        "choices": [
+          "あした先生のおたくにいらっしゃいます。",
+          "あした先生のおたくにかえります。",
+          "あした先生のおたくにまいります。",
+          "あした先生のおたくにみえます。"
+        ],
+        "correct_choice_number": 3
+      },
+      {
+        "question_number": 10,
+        "question": "こどもはおとうさんにしかられました。",
+        "choices": [
+          "こどもはおとうさんにわらわれました。",
+          "こどもはおとうさんにほめられました。",
+          "こどもはおとうさんにそだてられました。",
+          "こどもはおとうさんにおこられました。"
+        ],
+        "correct_choice_number": 4
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 22,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n4-vocabulary-exercise-22/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "日本ではほんとんど一日中テレビの _______ がある。",
+        "choices": [
+          "きせつ",
+          "ほうりつ",
+          "ほうそう",
+          "きそく"
+        ],
+        "correct_choice_number": 3
+      },
+      {
+        "question_number": 2,
+        "question": "かぜで _______ がいたい。",
+        "choices": [
+          "のど",
+          "こえ",
+          "ひげ",
+          "かみ"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 3,
+        "question": "たいふうでまどガラスが _______ 、あぶないです。",
+        "choices": [
+          "われて",
+          "よごれて",
+          "ふんで",
+          "おれて"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 4,
+        "question": "へやに入ると、 _______ にいすがおいてありました。",
+        "choices": [
+          "うら",
+          "あと",
+          "あいだ",
+          "すみ"
+        ],
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 5,
+        "question": "_______ なりますから、いりぐちににもつをおかないでください。",
+        "choices": [
+          "あんぜんに",
+          "じゃまに",
+          "じゅうに",
+          "むりに"
+        ],
+        "correct_choice_number": 2
+      },
+      {
+        "question_number": 6,
+        "question": "いくら",
+        "choices": [
+          "いくらちゅういしてもしずかになりません。",
+          "いくらちゅういしたらしずかになりましたか。",
+          "ちゅういしてもいくらしずかになりません。",
+          "ちゅういしたらいくらしずかになりました。"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 7,
+        "question": "ちゅうし",
+        "choices": [
+          "あした雨だったらしあいはちゅうしします。",
+          "あの人は会社をちゅうしして大学にいくらしい。",
+          "けんこうによくないのでたばこをすうのはちゅうしします。",
+          "バスがちゅうしして学校におくれた。"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 8,
+        "question": "きかい",
+        "choices": [
+          "ざんねんですが、その日はべつのきかいがあります。",
+          "わたしは日本のれきしにきかいがあります。",
+          "両親は外国へいったきかいがありません。",
+          "近くに来るきかいがあったら、ぜひあそびに来てください。"
+        ],
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 9,
+        "question": "あんぜん",
+        "choices": [
+          "このまちはよるもあんぜんです。",
+          "にちようびはいつもいえであんぜんにしています。",
+          "このきかいはあんぜんてきにつかってください。",
+          "わたしはげんきですから、あんぜんしてください。"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 10,
+        "question": "さしあげる",
+        "choices": [
+          "つまにピアノをさしあげました。",
+          "先生にケーキをさしあげました。",
+          "とりにむしをさしあげました。",
+          "花に水をさしあげました。"
+        ],
+        "correct_choice_number": 2
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 23,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n4-vocabulary-exercise-23/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "えいがの _______ を２まいかいました。",
+        "choices": [
+          "イベント",
+          "サービス",
+          "ステレオ",
+          "チケット"
+        ],
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 2,
+        "question": "わたしたちのけっこんは父に _______ 。",
+        "choices": [
+          "はんたいされました",
+          "しょうたいされました",
+          "しょうかいされました",
+          "きょういくされました"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 3,
+        "question": "あしたのパーティーは、どんなのみものを _______ しましょうか。",
+        "choices": [
+          "しんぱい",
+          "しょうたい",
+          "しゅっせき",
+          "じゅんび"
+        ],
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 4,
+        "question": "だいじなうでどけいがこわれてしまいました。_______ 、とてもお金がかかりました。",
+        "choices": [
+          "かえしたら",
+          "すてたら",
+          "なおしたら",
+          "見つけたら"
+        ],
+        "correct_choice_number": 3
+      },
+      {
+        "question_number": 5,
+        "question": "きのうは母のたんじょうびだったので、_______ にくつをあげました。",
+        "choices": [
+          "あいさつ",
+          "おいわい",
+          "おまつり",
+          "おみまい"
+        ],
+        "correct_choice_number": 2
+      },
+      {
+        "question_number": 6,
+        "question": "このガラスのにんぎょうはこわれやすいので、 _______ ください。",
+        "choices": [
+          "うつらないで",
+          "さわらないで",
+          "のこらないで",
+          "まわらないで"
+        ],
+        "correct_choice_number": 2
+      },
+      {
+        "question_number": 7,
+        "question": "子どもが _______ をこわしてしまった。",
+        "choices": [
+          "ぐあい",
+          "やくそく",
+          "おもちゃ",
+          "ぶどう"
+        ],
+        "correct_choice_number": 3
+      },
+      {
+        "question_number": 8,
+        "question": "きょうのおまつりはたいふうのため _______ します。",
+        "choices": [
+          "ちゅうし",
+          "しょうかい",
+          "ちゅうしゃ",
+          "しょうち"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 9,
+        "question": "でんきだいは毎月ぎんこうで _______ ください。",
+        "choices": [
+          "出して",
+          "とどけて",
+          "はらって",
+          "出かけて"
+        ],
+        "correct_choice_number": 3
+      },
+      {
+        "question_number": 10,
+        "question": "うちを出るとき、「 _______ 。」といいます。",
+        "choices": [
+          "おはようございます",
+          "いってまいります",
+          "おかえりなさい",
+          "ただいま"
+        ],
+        "correct_choice_number": 2
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 24,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n4-vocabulary-exercise-24/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "たなかさんは、毎日 _______ にけんきゅうをしている。",
+        "choices": [
+          "あんしん",
+          "ざんねん",
+          "しんぱい",
+          "ねっしん"
+        ],
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 2,
+        "question": "わたしの車は日本 _______ です。",
+        "choices": [
+          "いん",
+          "がわ",
+          "せい",
+          "だい"
+        ],
+        "correct_choice_number": 3
+      },
+      {
+        "question_number": 3,
+        "question": "５ _______ おきに木をうえました。",
+        "choices": [
+          "ページ",
+          "カーテン",
+          "テーブル",
+          "メートル"
+        ],
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 4,
+        "question": "これからはコンピューターの _______ をもつ人がひつようになるだろう。",
+        "choices": [
+          "ぎじゅつ",
+          "せつめい",
+          "ぼうえき",
+          "ゆしゅつ"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 5,
+        "question": "「いま、ファックスをおくってもいいですか。」「ええ、_______ 。」",
+        "choices": [
+          "おだいじに",
+          "こちらこそ",
+          "かまいません",
+          "しつれいします"
+        ],
+        "correct_choice_number": 3
+      },
+      {
+        "question_number": 6,
+        "question": "１ばんのへや、または２ばんのへやにいってください。",
+        "choices": [
+          "１ばんのへやにいってから、２ばんのへやにいってください。",
+          "１ばんのへやにいく前に、２ばんのへやにいってください。",
+          "１ばんのへやか２ばんのへやにいってください。",
+          "１ばんのへやと２ばんのへやにいってください。"
+        ],
+        "correct_choice_number": 3
+      },
+      {
+        "question_number": 7,
+        "question": "どうぞえんりょなくめしあがってください。",
+        "choices": [
+          "どうぞたくさんめしあがってください。",
+          "どうぞえんりょしながらめしあがってください。",
+          "どうぞゆっくりめしあがってください。",
+          "どうぞよろこんでめしあがってください。"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 8,
+        "question": "よる１２時に電話がかかってきたのでびっくりしました。",
+        "choices": [
+          "よる１２時に電話がかかってきたのでおこりました。",
+          "よる１２時に電話がかかってきたのでおどろきました。",
+          "よる１２時に電話がかかってきたのでこまりました。",
+          "よる１２時に電話がかかってきたのでなきました。"
+        ],
+        "correct_choice_number": 2
+      },
+      {
+        "question_number": 9,
+        "question": "わたしはやまださんにおれいをいいました。",
+        "choices": [
+          "わたしはやまださんに「おめでとうございます」といいました。",
+          "わたしはやまださんに「ありがとうございます」といいました。",
+          "わたしはやまださんに「おまたせしました」といいました。",
+          "わたしはやまださんに「ごめんください。」といいました。"
+        ],
+        "correct_choice_number": 2
+      },
+      {
+        "question_number": 10,
+        "question": "あした5時に来るのはむりです。",
+        "choices": [
+          "あさいた5時に来ることにします。",
+          "あした5時に来なければなりません。",
+          "あした5時に来られません。",
+          "あした5時に来るようにします。"
+        ],
+        "correct_choice_number": 3
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 25,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n4-vocabulary-exercise-25/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "さむくなったのでそろそろ _______ がほしいですね。",
+        "choices": [
+          "ゆしゅつ",
+          "れいぼう",
+          "ゆにゅう",
+          "だんぼう"
+        ],
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 2,
+        "question": "あしたはしけんですから、_______ はやく来てください。",
+        "choices": [
+          "なるほど",
+          "なるべく",
+          "それほど",
+          "そんなに"
+        ],
+        "correct_choice_number": 2
+      },
+      {
+        "question_number": 3,
+        "question": "このまちには、ほんやは _______ しかありません。",
+        "choices": [
+          "いちだい",
+          "いちど",
+          "いっけん",
+          "いっこ"
+        ],
+        "correct_choice_number": 3
+      },
+      {
+        "question_number": 4,
+        "question": "わたしは毎朝 さんぽするのが _______ です。",
+        "choices": [
+          "しゅうかん",
+          "れんしゅう",
+          "せいかつ",
+          "きょうみ"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 5,
+        "question": "あたらしい _______ を２だいかいました。",
+        "choices": [
+          "オーバー",
+          "ガソリン",
+          "ステーキ",
+          "パソコン"
+        ],
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 6,
+        "question": "てきとう",
+        "choices": [
+          "このきせつはとてもてきとうでよくねむれます。",
+          "せんそうは人びとのせいかつにてきとうではありません。",
+          "わかい人にてきとうするホテルをしょうかいしてください。",
+          "日本についてしらべるのにてきとうな本はありませんか。"
+        ],
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 7,
+        "question": "おかげさまで",
+        "choices": [
+          "Ａ「ごめんなさい。」Ｂ「いいえ、おかげさまで。」",
+          "Ａ「おげんきですか。」Ｂ「ええ、おかげさまで。」",
+          "Ａ「それは いけませんね。」Ｂ「ええ、おかげさまで。」",
+          "Ａ「ありがとうございました。」Ｂ「いいえ、おかげさまで。」"
+        ],
+        "correct_choice_number": 2
+      },
+      {
+        "question_number": 8,
+        "question": "しかる",
+        "choices": [
+          "「もうだいじょうぶですか。」としかられました。",
+          "「よくがんばりましたね。」としかられました。",
+          "「もっとまじめにやりなさい。」としかられました。",
+          "「いっしょにしらべましょう。」としかられました。"
+        ],
+        "correct_choice_number": 3
+      },
+      {
+        "question_number": 9,
+        "question": "じゅんび",
+        "choices": [
+          "パーティーのじゅんびができました。",
+          "車のこしょりのじゅんびがまだできません。",
+          "空気がかわいているので、火事のじゅんびをします。",
+          "きょうならったかんじのじゅんびをもういちどいえでします。"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 10,
+        "question": "うまい",
+        "choices": [
+          "わたしのおとうとはすうがくがうまくありません。",
+          "きょうははれて、けしきがうまいです。",
+          "わたしのパソコンはいつもうまいです。",
+          "わたしはピアノがうまくありません。"
+        ],
+        "correct_choice_number": 4
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 26,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n4-vocabulary-exercise-26/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "わたしは _______ をしながら、大学でべんきょうしています。",
+        "choices": [
+          "アルバイト",
+          "サービス",
+          "チェック",
+          "テキスト"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 2,
+        "question": "さいふはつくえの _______ の中にあります。",
+        "choices": [
+          "おしいれ",
+          "ひきだし",
+          "カーテン",
+          "ベル"
+        ],
+        "correct_choice_number": 2
+      },
+      {
+        "question_number": 3,
+        "question": "じしんでいえが _______ います。",
+        "choices": [
+          "ゆれて",
+          "きえて",
+          "にげて",
+          "まわって"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 4,
+        "question": "ことばはぶんかとふかい _______ があると言われています。",
+        "choices": [
+          "はいかん",
+          "けいけん",
+          "かんけい",
+          "そんけい"
+        ],
+        "correct_choice_number": 3
+      },
+      {
+        "question_number": 5,
+        "question": "今年しけんに _______ しても、また来年がんばります。",
+        "choices": [
+          "しつれい",
+          "しっぱい",
+          "しゅっせき",
+          "しょうたい"
+        ],
+        "correct_choice_number": 2
+      },
+      {
+        "question_number": 6,
+        "question": "ずっと日本にすむつもりです。 _______ 今、日本語をべんきょうしています。",
+        "choices": [
+          "では",
+          "けれど",
+          "それで",
+          "たとえば"
+        ],
+        "correct_choice_number": 3
+      },
+      {
+        "question_number": 7,
+        "question": "きのうはじこで でんしゃが _______ たいへんでした。",
+        "choices": [
+          "おくれて",
+          "おわって",
+          "いそいで",
+          "まにあって"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 8,
+        "question": "このビルの _______ からうみが見えます。",
+        "choices": [
+          "かいがん",
+          "おくじょう",
+          "じゅうしょ",
+          "くうこう"
+        ],
+        "correct_choice_number": 2
+      },
+      {
+        "question_number": 9,
+        "question": "外国語の本を日本語に _______ する。",
+        "choices": [
+          "あんない",
+          "えんりょ",
+          "はんたい",
+          "ほんやく"
+        ],
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 10,
+        "question": "新しいじしょをつかってみたけれど、あまり _______ 。",
+        "choices": [
+          "かたづけなかった",
+          "とりかえなかった",
+          "きをつけなかった",
+          "やくにたたなかった"
+        ],
+        "correct_choice_number": 4
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 27,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n4-vocabulary-exercise-27/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "むすめのにゅうがくしきがありました。",
+        "choices": [
+          "むすめがけっこんしました。",
+          "むすめがそつぎょうしました。",
+          "むすめが大学生になりました。",
+          "むすめが社会人になりました。"
+        ],
+        "correct_choice_number": 3
+      },
+      {
+        "question_number": 2,
+        "question": "日本語はほとんどわすれてしまいました。",
+        "choices": [
+          "日本語はなにもおぼえていません。",
+          "日本語はすこししかおぼえていません。",
+          "日本語はぜんぶわすれてしまいました。",
+          "日本語はすっかりわすれてしまいました。"
+        ],
+        "correct_choice_number": 2
+      },
+      {
+        "question_number": 3,
+        "question": "ひさしぶりに山田さんにあいました。",
+        "choices": [
+          "よく山田さんにあっていました。",
+          "ときどき山田さんにあっていました。",
+          "何時間か山田さんにあっていませんでした。",
+          "何年も山田さんにあっていませんでした。"
+        ],
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 4,
+        "question": "友だちをむかえにくうこうへ行きました。",
+        "choices": [
+          "くうこうで友だちにあいました。",
+          "くうこうで友だちをおくりました。",
+          "くうこうで友だちを見ました。",
+          "くうこうで友だちとわかれました。"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 5,
+        "question": "ひとりでぜんぶ食べるのはむりです。",
+        "choices": [
+          "ひとりでぜんぶたべられます。",
+          "ひとりでぜんぶたべさせます。",
+          "ひとりでぜんぶたべられません。",
+          "ひとりでぜんぶたべさせません。"
+        ],
+        "correct_choice_number": 3
+      },
+      {
+        "question_number": 6,
+        "question": "とうきょうはこうつうがべんりです。",
+        "choices": [
+          "とうきょうはス－パ－やデパ－トがたくさんあります。",
+          "とうきょうはたくさんの国の人がせいかつしあています。",
+          "とうきょうはバスやちかてつがたくさんはしっています。",
+          "とうきょうは駅のそばにたくさんのアパ－トがあります。"
+        ],
+        "correct_choice_number": 3
+      },
+      {
+        "question_number": 7,
+        "question": "きのうやまもとさんをたずねました。",
+        "choices": [
+          "きのうやまもとさんのしつもんにこたえました。",
+          "きのうやまもとさんのいえに行きました。",
+          "きのうやまもとさんのしごとをてつだいました。",
+          "きのうやまもとさんのつごうを聞きました。"
+        ],
+        "correct_choice_number": 2
+      },
+      {
+        "question_number": 8,
+        "question": "きびしいじだいはもうすぎました。",
+        "choices": [
+          "じゆうなじだいでした。",
+          "しずかなじだいでした。",
+          "にぎやかなじだいでした。",
+          "たいへんなじだいでした。"
+        ],
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 9,
+        "question": "Ａ「あしたしょくじに行きませんか。」",
+        "choices": [
+          "Ｂ「あしたはちょっと。」",
+          "あしたは行けます。",
+          "あしたはかまいません。",
+          "あしたはだいじょうぶです。",
+          "あしたはだめです。"
+        ],
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 10,
+        "question": "たまにうんどうします。",
+        "choices": [
+          "うんどうはなにもしていません。",
+          "うんどうはいちどもしていません。",
+          "うんどうはほとんどしていません。",
+          "うんどうはぜんぜんしていません。"
+        ],
+        "correct_choice_number": 3
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 28,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n4-vocabulary-exercise-28/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "おとうとはわたしより _______ がつよいです。",
+        "choices": [
+          "あたま",
+          "げんき",
+          "せなか",
+          "ちから"
+        ],
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 2,
+        "question": "このにくは _______ のでうまくきれない。",
+        "choices": [
+          "めずらしい",
+          "うつくしい",
+          "かたい",
+          "あまい"
+        ],
+        "correct_choice_number": 3
+      },
+      {
+        "question_number": 3,
+        "question": "２に３を _______ と５になる。",
+        "choices": [
+          "たす",
+          "ひく",
+          "けす",
+          "やく"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 4,
+        "question": "_______ でんわがありましたよ。",
+        "choices": [
+          "さっき",
+          "ちっとも",
+          "もうすぐ",
+          "ほとんど"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 5,
+        "question": "ぎんこうを _______ するときには、このカードをもっていきます。",
+        "choices": [
+          "うけつけ",
+          "ちゅうい",
+          "はいけい",
+          "りよう"
+        ],
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 6,
+        "question": "こんしゅうのつぎは _______ です。",
+        "choices": [
+          "さらいしゅう",
+          "さいらいしゅう",
+          "らいしゅう",
+          "せんしゅう"
+        ],
+        "correct_choice_number": 3
+      },
+      {
+        "question_number": 7,
+        "question": "このへんは _______ ですみやすいですよ。",
+        "choices": [
+          "あんぜん",
+          "ふくざつ",
+          "しんぱい",
+          "ひつよう"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 8,
+        "question": "わたしは _______ で一日3時間はたらいています。",
+        "choices": [
+          "ステレオ",
+          "テキスト",
+          "アクセサリー",
+          "パートタイム"
+        ],
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 9,
+        "question": "わたしのしゅみはりょうりです。たいていはおいしくできますが、たまに _______ します。",
+        "choices": [
+          "けいかく",
+          "しっぱい",
+          "せいこう",
+          "せいさん"
+        ],
+        "correct_choice_number": 2
+      },
+      {
+        "question_number": 10,
+        "question": "_______ けれど、しごとがあるからねられません。",
+        "choices": [
+          "すごい",
+          "ひどい",
+          "ねむい",
+          "こわい"
+        ],
+        "correct_choice_number": 3
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 29,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n4-vocabulary-exercise-29/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "はずかしい",
+        "choices": [
+          "かんたんなもんだいをまちがえて、はずかしいです。",
+          "かぞくに会えなくて、はずかしいです。",
+          "ピアノがひけるようになって、はずかしいです。",
+          "見たいばんぐみがなくて、はずかしいです。"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 2,
+        "question": "かしこまりました",
+        "choices": [
+          "Ａ「こうちゃを二つ、おねがいします。」Ｂ「はい、かしこまりました。」",
+          "Ａ「あいつので、まどをあけてもいいですか。」Ｂ「はい、かしこまりました。」",
+          "Ａ「先生、もういちどいってください。」Ｂ「はい、かしこまりました。」",
+          "Ａ「こたえがわかりましたか。」Ｂ「はい、かしこまりました。」"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 3,
+        "question": "ねつ",
+        "choices": [
+          "ねつがあるので、学校をやすみました。",
+          "このへやのねつはどのぐらいですか。",
+          "このおちゃはねつが高すぎて飲めません。",
+          "駅のちかくは人がたくさんいて、ねつがいっぱいです。"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 4,
+        "question": "ゆっくり",
+        "choices": [
+          "もっとゆっくりにはなしてください。",
+          "もっとゆっくりとはなしてください。",
+          "もっとゆっくりをはなしてください。",
+          "もっとゆっくりではなしてください。"
+        ],
+        "correct_choice_number": 2
+      },
+      {
+        "question_number": 5,
+        "question": "まじめ",
+        "choices": [
+          "きょうはまじめな天気で空がきれいです。",
+          "さとうを入れないで、まじめなコーヒーを飲みました。",
+          "子どもたちは先生の話をまじめに聞いています。",
+          "駅はこの道をまじめにいったところにあります。"
+        ],
+        "correct_choice_number": 3
+      },
+      {
+        "question_number": 6,
+        "question": "あのはなしはうそです。",
+        "choices": [
+          "あのはなしはたいせつです。",
+          "あのはなしはたいせつではありません。",
+          "あのはなしはほんとうです。",
+          "あのはなしはほんとうではありません。"
+        ],
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 7,
+        "question": "ずっとそとにいたので、からだがひえてしまいました。",
+        "choices": [
+          "そとはあつかったです。",
+          "そとはくらかったです。",
+          "そとはさむかったです。",
+          "そとはあかるかったです。"
+        ],
+        "correct_choice_number": 3
+      },
+      {
+        "question_number": 8,
+        "question": "どろぼうにさいふをぬすまれました。",
+        "choices": [
+          "どろぼうがさいふをひろってくれました。",
+          "どろぼうがさいふをとりかえていきました。",
+          "どろぼうがさいふをもらってくれました。",
+          "どろぼうがさいふをとっていきました。"
+        ],
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 9,
+        "question": "そろそろしょくじにしましょう。",
+        "choices": [
+          "そろそろごはんを食べましょう。",
+          "そろそろしつれいしましょう。",
+          "そろそろおふろに入りましょう。",
+          "そろそろねましょう。"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 10,
+        "question": "ごごからこうぎにしゅっせきします。",
+        "choices": [
+          "ごごから大学で先生とかいぎをします。",
+          "ごごから大学で先生の話を聞きます。",
+          "ごごから会社で社長とかいぎをします。",
+          "ごごから会社で社長の話を聞きます。"
+        ],
+        "correct_choice_number": 2
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 30,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n4-vocabulary-exercise-30/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "にわにきれいな花を _______ 。",
+        "choices": [
+          "うえましょう",
+          "かえましょう",
+          "きりましょう",
+          "とりましょう"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 2,
+        "question": "このじしょは、かんじを しらべる ときに とても _______ 。",
+        "choices": [
+          "おしえます",
+          "さがします",
+          "てつだいます",
+          "やくにたちます"
+        ],
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 3,
+        "question": "ここにおいたはずなのですが、かぎが _______ 。",
+        "choices": [
+          "おちません",
+          "おとしません",
+          "みつけません",
+          "みつかりません"
+        ],
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 4,
+        "question": "けっこんしきにだれを _______ しましょうか。",
+        "choices": [
+          "しょうらい",
+          "しょうち",
+          "しょうたい",
+          "しょうかい"
+        ],
+        "correct_choice_number": 3
+      },
+      {
+        "question_number": 5,
+        "question": "じぶんのかおを _______ で見ました。",
+        "choices": [
+          "ふとん",
+          "たたみ",
+          "かがみ",
+          "すいどう"
+        ],
+        "correct_choice_number": 3
+      },
+      {
+        "question_number": 6,
+        "question": "どうぶつえんでは、_______ どうぶつをみることができます。",
+        "choices": [
+          "つまらない",
+          "はずかしい",
+          "めずらしい",
+          "やわらかい"
+        ],
+        "correct_choice_number": 3
+      },
+      {
+        "question_number": 7,
+        "question": "これは彼らの問題よ。わたしたちが何を言おうと _______ ないわ。",
+        "choices": [
+          "かんけい",
+          "かんしん",
+          "かんじ",
+          "かんそう"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 8,
+        "question": "きみの心を動かすような _______ はいつ現れるのかね。",
+        "choices": [
+          "ひとびと",
+          "じょせい",
+          "じんせい",
+          "にんげん"
+        ],
+        "correct_choice_number": 2
+      },
+      {
+        "question_number": 9,
+        "question": "どうせわかることだから、隠さないで本当の姿を _______ から見せてしまえばいい。",
+        "choices": [
+          "さいきん",
+          "さいこう",
+          "さいしょ",
+          "さいしゅう"
+        ],
+        "correct_choice_number": 3
+      },
+      {
+        "question_number": 10,
+        "question": "ショーンは顔色を _______ 。",
+        "choices": [
+          "きえた",
+          "あえた",
+          "みえた",
+          "かえた"
+        ],
+        "correct_choice_number": 4
+      }
+    ],
+    "vocabulary": []
+  },
+  {
+    "exercise_number": 31,
+    "url": "https://japanesetest4you.com/japanese-language-proficiency-test-jlpt-n4-vocabulary-exercise-31/",
+    "questions": [
+      {
+        "question_number": 1,
+        "question": "けしきのいいところでおべんとうを食べました。",
+        "choices": [
+          "きれいな花がおいてあるレストランで食べました。",
+          "きれいな山やもりが見えるこうえんで食べました。",
+          "きれいなしゃしんがかけてあるへやで食べました。",
+          "きれいなつくえやいすがあるきょうしつで食べました。"
+        ],
+        "correct_choice_number": 2
+      },
+      {
+        "question_number": 2,
+        "question": "ほかの人のいけんを聞いてみましょう。",
+        "choices": [
+          "ほかの人が何を見ているか聞いてみましょう。",
+          "ほかの人が何をかえているか聞いてみましょう。",
+          "ほかの人が何をかんがえているか聞いてみましょう。",
+          "ほかの人が何をおこなっているか聞いてみましょう。"
+        ],
+        "correct_choice_number": 3
+      },
+      {
+        "question_number": 3,
+        "question": "わたしはかみをきってきました。",
+        "choices": [
+          "わたしはりょうかんへ行きました。",
+          "わたしはとこやへ行きました。",
+          "わたしはこうじょうへ行きました。",
+          "わたしはけいさつへ行きました。"
+        ],
+        "correct_choice_number": 2
+      },
+      {
+        "question_number": 4,
+        "question": "わたしはかちょうのかわりにかいぎにいきました。",
+        "choices": [
+          "わたしとかちょうはかいぎにいきました。",
+          "わたしとかちょうはかいぎにいきませんでした。",
+          "わたしはかいぎにいきましたが、かちょうはいきませんでした。",
+          "わたしはかいぎにいきませんでしたが、かちょうはいきました。"
+        ],
+        "correct_choice_number": 3
+      },
+      {
+        "question_number": 5,
+        "question": "社長のかわりに田中さんがパーティーにでました。",
+        "choices": [
+          "社長はパーティーにでました。",
+          "社長はパーティーにでませんでした。",
+          "社長も田中さんもパーティーにでました。",
+          "社長も田中さんもパーティーにでませんでした。"
+        ],
+        "correct_choice_number": 2
+      },
+      {
+        "question_number": 6,
+        "question": "びょういんでさわいではいけません。",
+        "choices": [
+          "びょういんでいそいではいけません。",
+          "びょういんでさわってはいけません。",
+          "びょういんでさんぽしてはいけません。",
+          "びょういんでうるさくしてはいけません。"
+        ],
+        "correct_choice_number": 4
+      },
+      {
+        "question_number": 7,
+        "question": "すずきさんはかならず来ると思います。",
+        "choices": [
+          "すずきさんはきっと来ます。",
+          "すずきさんはたまに来ます。",
+          "すずきさんはまっすぐ来ます。",
+          "すずきさんはゆっくり来ます。"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 8,
+        "question": "じろうはあかんぼうです。",
+        "choices": [
+          "じろうは生まれて３か月です。",
+          "じろうは来年小学校に入ります。",
+          "じろうは今年中学校に入ります。",
+          "じろうは今年大学をそつぎょうします。"
+        ],
+        "correct_choice_number": 1
+      },
+      {
+        "question_number": 9,
+        "question": "わたしはその人にあいさつしました。",
+        "choices": [
+          "わたしはその人に「それはよかったですね。」と言いました。",
+          "わたしはその人に「どうぞおすわりください。」と言いました。",
+          "わたしはその人に「おはようございます。」と言いました。",
+          "わたしはその人に「もういっぱいいかがですか。」と言いました。"
+        ],
+        "correct_choice_number": 3
+      },
+      {
+        "question_number": 10,
+        "question": "日がくれました。",
+        "choices": [
+          "空がはれました。",
+          "空がくもりました。",
+          "空がくらくなりました。",
+          "空があかるくなりました。"
+        ],
+        "correct_choice_number": 3
+      }
+    ],
+    "vocabulary": []
+  }
+]

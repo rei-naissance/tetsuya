@@ -3,3 +3,7 @@ dist
 *.log
 .DS_Store
 *.tsbuildinfo
+
+# Generated from data/ by scripts/build-data.mjs
+public/data/
+public/media/
