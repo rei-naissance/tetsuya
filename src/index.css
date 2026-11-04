@@ -49,31 +49,40 @@
 }
 
 @layer components {
+  /*
+   * Every gap, empty or filled, is one inline box of text: it sits on the
+   * sentence's own baseline, so it lines up with the characters around it
+   * and keeps its place when the answer appears. (A flex box takes its
+   * baseline from its first child, or from its bottom edge when it's empty,
+   * which made gaps ride high or low.) An empty blank holds a zero-width
+   * space so it has a baseline too.
+   */
   .gap {
     --gap: var(--gap-0);
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.35em;
-    min-width: 1.7em;
-    height: 1.45em;
+    display: inline-block;
+    min-width: 1.5em;
     margin: 0 0.15em;
-    padding: 0 0.45em;
+    padding: 0 0.4em;
     border: 1px solid color-mix(in oklch, var(--gap) 50%, transparent);
-    border-radius: 0.45em;
+    border-radius: 0.4em;
     background: color-mix(in oklch, var(--gap) 10%, transparent);
     color: var(--gap);
+    line-height: 1.3;
+    text-align: center;
+    text-indent: 0;
+    vertical-align: baseline;
+    white-space: nowrap;
+    transition: opacity 150ms, background-color 150ms;
+  }
+  /* Numbers and ★: small, bold, in the UI font. */
+  .gap-label, .gap-num {
     font-family: var(--font-sans);
     font-size: 0.8em;
     font-weight: 600;
     font-variant-numeric: tabular-nums;
-    line-height: 1;
-    vertical-align: 0.12em;
-    white-space: nowrap;
-    transition: opacity 150ms, background-color 150ms;
   }
   /* ★ is one of the slots in a sentence-order row, so it's as wide as the blanks beside it. */
-  .gap[data-kind='blank'], .gap[data-kind='star'] { min-width: 3.2em; }
+  .gap[data-kind='blank'], .gap[data-kind='star'] { min-width: 2.8em; }
   .gap[data-kind='star'] { --gap: var(--color-accent); }
   .gap[data-n='1'] { --gap: var(--gap-1); }
   .gap[data-n='2'] { --gap: var(--gap-2); }
@@ -82,7 +91,7 @@
   .gap[data-n='5'] { --gap: var(--gap-5); }
   .gap[data-active] { background: var(--gap); border-color: var(--gap); color: var(--gap-on); }
   .gap[data-muted] { opacity: 0.6; }
-  .gap-num { font-size: 0.85em; opacity: 0.8; }
+  .gap-num { font-size: 0.7em; opacity: 0.8; margin-right: 0.35em; }
   .gap-fill { font-family: var(--font-jp); font-weight: 500; }
 
   /* The plain （　　） blank being asked about: an empty slot to fill in,
@@ -95,25 +104,14 @@
     color: var(--gap);
   }
 
-  /* Answered: the answer reads as part of the sentence, at full size and on
-     the baseline, tinted in the gap's color so it still stands out. */
-  /* inline-block, not flex: a flex box takes its baseline from its first
-     child, which pushed the box below the line. This way the answer's text
-     sits on the sentence's own baseline and the padding grows evenly around it. */
+  /* Answered: the answer reads as part of the sentence, tinted in the gap's
+     color so it still stands out. */
   .gap[data-active][data-filled] {
-    display: inline-block;
-    height: auto;
-    padding: 0 0.35em;
-    margin: 0 0.1em;
-    font-size: 1em;
-    line-height: 1.4;
-    vertical-align: baseline;
     border-style: solid;
     border-color: color-mix(in oklch, var(--gap) 45%, transparent);
     background: color-mix(in oklch, var(--gap) 12%, transparent);
     color: var(--gap);
   }
-  .gap[data-filled] .gap-num { font-size: 0.7em; margin-right: 0.35em; }
   /* A plain blank or ★ slot has no color of its own to keep: show the
      answer in the same green as the right choice, not the accent red,
      which would read as "wrong" right after a miss. */
