@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react'
+import { Furi } from '../components/JP'
 import { Link, useLocation, useNavigate, useSearchParams } from 'react-router-dom'
 import { Button, Chips, Layout, Pagination, ProgressBar } from '../components/Layout'
 import { usePage } from '../lib/usePage'
@@ -57,7 +58,7 @@ export function WordList({ level, words }: { level: Level; words: Word[] }) {
 
   return (
     <Layout back={{ to: `/${level.toLowerCase()}`, label: level }} title={`${level} Vocabulary list`}>
-      <p className="font-jp text-sm tracking-[0.3em] text-accent">語彙リスト</p>
+      <Furi as="p" text="語彙リスト" className="text-sm tracking-[0.3em] text-accent" />
       <h1 className="mt-3 text-3xl font-semibold tracking-tight">Vocabulary list</h1>
       <p className="mt-2 text-stone-500">
         {words.length} words from the JLPT {level} list. {detailed} have a full word page with example sentences.
@@ -67,7 +68,7 @@ export function WordList({ level, words }: { level: Level; words: Word[] }) {
       <div className="mt-6">
         <ProgressBar value={stats.known} max={stats.total} />
         <p className="mt-2 text-xs tabular-nums text-stone-400">
-          <span className="text-emerald-600 dark:text-emerald-400">{stats.known} learned</span>
+          <span className="text-emerald-700 dark:text-emerald-400">{stats.known} learned</span>
           {' · '}<span className="text-accent">{stats.learning} learning</span>
           {' · '}{stats.fresh} new
         </p>

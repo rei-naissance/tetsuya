@@ -3,7 +3,7 @@ import { Link, useLocation, useNavigate, useSearchParams } from 'react-router-do
 import { Actions, Button, buttonClass, Layout, Pagination, TextButton } from '../components/Layout'
 import { usePage } from '../lib/usePage'
 import { SetSizePicker } from './SectionPage'
-import { JP } from '../components/JP'
+import { Furi, JP } from '../components/JP'
 import { loadAttempts, progressStats } from '../lib/progress'
 import type { GrammarPattern, Level } from '../lib/types'
 import { useKeys } from '../lib/useKeys'
@@ -53,7 +53,7 @@ export function GrammarList({ level, patterns }: { level: Level; patterns: Gramm
 
   return (
     <Layout back={{ to: `/${level.toLowerCase()}`, label: level }} title={`${level} Grammar patterns`}>
-      <p className="font-jp text-sm tracking-[0.3em] text-accent">文型</p>
+      <Furi as="p" text="文型" className="text-sm tracking-[0.3em] text-accent" />
       <h1 className="mt-3 text-3xl font-semibold tracking-tight">Grammar patterns</h1>
       <p className="mt-2 text-stone-500">
         {patterns.length} JLPT {level} patterns, each with its meaning, how it's formed and example sentences.
@@ -105,7 +105,7 @@ export function GrammarList({ level, patterns }: { level: Level; patterns: Gramm
                       )}
                       aria-label={s.seen === 0 ? 'not practised' : s.wrong > 0 ? 'has mistakes' : 'all right'}
                     />
-                    <span className="font-jp text-lg">{p.pattern}</span>
+                    <JP text={p.patternRuby ?? p.pattern} className="text-lg" />
                     <span className="min-w-0 flex-1 truncate text-right text-sm text-stone-500">{p.title ?? p.meaning}</span>
                   </Link>
                 </li>
@@ -141,7 +141,7 @@ export function GrammarDetail({ level, patterns, pattern: p }: { level: Level; p
   return (
     <Layout back={{ to: `${base}${from}`, label: 'Patterns' }} title={`${index + 1} / ${patterns.length}`}>
       {p.chapter && <p className="text-xs font-medium uppercase tracking-widest text-stone-400">Chapter {p.chapter}</p>}
-      <h1 className="mt-2 font-jp text-4xl tracking-wide">{p.pattern}</h1>
+      <JP as="h1" text={p.patternRuby ?? p.pattern} className="mt-2 block text-4xl leading-tight tracking-wide" />
       {p.romaji && <p className="mt-2 text-stone-400">{p.romaji}</p>}
       <p className="mt-5 text-lg">{p.meaning}</p>
       {p.title && p.title !== p.meaning && <p className="mt-1 text-stone-500">{p.title}</p>}
@@ -157,7 +157,7 @@ export function GrammarDetail({ level, patterns, pattern: p }: { level: Level; p
 
       {p.sections.map((s) => (
         <Block key={s.label} title={s.label}>
-          {s.heading && <p className="font-medium">{s.heading}</p>}
+          {s.heading && <JP as="p" text={s.heading} className="font-sans font-medium" />}
           {s.text.map((t) => <JP key={t} as="p" text={t} className="mt-2 leading-relaxed text-stone-600 dark:text-stone-300" />)}
         </Block>
       ))}
@@ -216,14 +216,6 @@ export function GrammarDetail({ level, patterns, pattern: p }: { level: Level; p
         </Block>
       )}
 
-      <div className="mt-10 flex flex-wrap gap-x-6 gap-y-2 text-sm">
-        {p.sources.map((s) => (
-          <a key={s.url} href={s.url} target="_blank" rel="noreferrer" className="text-stone-500 underline-offset-4 hover:underline">
-            {s.name} ↗
-          </a>
-        ))}
-      </div>
-
       <nav className="mt-12 flex justify-between gap-4 border-t border-stone-200 pt-6 text-sm dark:border-stone-800">
         {prev ? <PatternNav p={prev} label="← Previous" onClick={() => go(prev)} /> : <span />}
         {next ? <PatternNav p={next} label="Next →" onClick={() => go(next)} right /> : <span />}
@@ -245,7 +237,7 @@ function PatternNav({ p, label, onClick, right }: { p: GrammarPattern; label: st
   return (
     <button onClick={onClick} className={cn('text-stone-500 hover:text-stone-900 dark:hover:text-stone-100', right && 'text-right')}>
       <span className="block text-xs text-stone-400">{label}</span>
-      <span className="font-jp text-base">{p.pattern}</span>
+      <JP text={p.patternRuby ?? p.pattern} className="text-base" />
     </button>
   )
 }

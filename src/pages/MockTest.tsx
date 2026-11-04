@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
+import { Furi } from '../components/JP'
 import { useNavigate } from 'react-router-dom'
 import { Actions, Button, Layout, ProgressBar, TextButton } from '../components/Layout'
 import { QuestionView } from '../components/QuestionView'
@@ -33,6 +34,8 @@ export function MockTest({ level, questions }: { level: Level; questions: Questi
   const [now, setNow] = useState(Date.now())
   const [result, setResult] = useState<MockResult | null>(null)
   const finishing = useRef(false)
+  // Finishing a paper early asks inline (a browser confirm() would freeze the timer display).
+  const [asking, setAsking] = useState(false)
 
   const paperIdx = useMemo(() => test.map((q, i) => (q.paper === paper ? i : -1)).filter((i) => i >= 0), [test, paper])
   const remaining = Math.max(0, Math.ceil((deadline - now) / 1000))
@@ -60,6 +63,7 @@ export function MockTest({ level, questions }: { level: Level; questions: Questi
     setDeadline(Date.now() + papers[p].minutes * 60_000)
     setNow(Date.now())
     finishing.current = false
+    setAsking(false)
     window.scrollTo(0, 0)
   }
 
@@ -89,12 +93,8 @@ export function MockTest({ level, questions }: { level: Level; questions: Questi
     else finish()
   }
 
-  const finishEarly = () => {
-    const open = paperIdx.filter((i) => answers[i] === null).length
-    const next = paper + 1 < papers.length ? `move on to ${papers[paper + 1].jp}` : 'submit the test'
-    const warn = open ? `${open} question${open > 1 ? 's are' : ' is'} unanswered. ` : ''
-    if (confirm(`${warn}Finish ${papers[paper].jp} and ${next}? You can't come back to this paper.`)) endPaper()
-  }
+  const finishEarly = () => setAsking(true)
+  const unanswered = paperIdx.filter((i) => answers[i] === null).length
 
   useEffect(() => {
     if (phase !== 'test') return
@@ -129,7 +129,7 @@ export function MockTest({ level, questions }: { level: Level; questions: Questi
     const minutes = papers.reduce((n, p) => n + p.minutes, 0)
     return (
       <Layout back={back} title={`${level} mock test`}>
-        <p className="font-jp text-sm tracking-[0.3em] text-accent">模擬試験</p>
+        <Furi as="p" text="模擬試験" className="text-sm tracking-[0.3em] text-accent" />
         <h1 className="mt-3 text-3xl font-semibold tracking-tight">{level} Mock test</h1>
         <p className="mt-3 text-stone-500">
           The official {level} layout: {total} questions in three timed papers, {minutes} minutes in all.
@@ -141,7 +141,7 @@ export function MockTest({ level, questions }: { level: Level; questions: Questi
           {papers.map((p, i) => (
             <section key={p.jp} className="rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
               <header className="flex items-baseline justify-between gap-4 border-b border-stone-200 px-5 py-3.5 dark:border-stone-800">
-                <span className="font-medium"><span className="font-jp">{p.jp}</span> <span className="ml-1 text-sm font-normal text-stone-400">{p.label}</span></span>
+                <span className="font-medium"><Furi text={p.jp} /> <span className="ml-1 text-sm font-normal text-stone-400">{p.label}</span></span>
                 <span className="shrink-0 text-sm tabular-nums text-stone-500">{p.minutes} min</span>
               </header>
               <ul className="divide-y divide-stone-100 text-sm dark:divide-stone-800/60">
@@ -149,8 +149,8 @@ export function MockTest({ level, questions }: { level: Level; questions: Questi
                   const s = preview.short.find((x) => x.paper === i && x.mondai === m)
                   return (
                     <li key={m.jp} className="flex items-baseline justify-between gap-4 px-5 py-2.5">
-                      <span><span className="font-jp">{m.jp}</span> <span className="ml-1 text-stone-400">{m.label}</span></span>
-                      <span className={cn('shrink-0 tabular-nums', s ? 'text-amber-600 dark:text-amber-400' : 'text-stone-500')}>
+                      <span><Furi text={m.jp} /> <span className="ml-1 text-stone-400">{m.label}</span></span>
+                      <span className={cn('shrink-0 tabular-nums', s ? 'text-amber-700 dark:text-amber-400' : 'text-stone-500')}>
                         {s ? `${s.got} of ${m.count}` : m.count}
                       </span>
                     </li>
@@ -191,7 +191,7 @@ export function MockTest({ level, questions }: { level: Level; questions: Questi
             return (
               <div key={s}>
                 <div className="mb-1.5 flex justify-between text-sm">
-                  <span>{SECTION_META[s].label} <span className="ml-1 font-jp text-stone-400">{SECTION_META[s].jp}</span></span>
+                  <span>{SECTION_META[s].label} <Furi text={SECTION_META[s].jp} className="ml-1 text-stone-400" /></span>
                   <span className="tabular-nums text-stone-500">{correct}/{total}</span>
                 </div>
                 <ProgressBar value={correct} max={total} />
@@ -213,7 +213,7 @@ export function MockTest({ level, questions }: { level: Level; questions: Questi
                 <details key={q.id} className="group rounded-2xl border border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-900">
                   <summary className="flex cursor-pointer list-none items-center justify-between gap-4 px-5 py-4">
                     <span className="truncate font-jp text-sm">
-                      <span className="mr-2 text-xs tracking-wider text-stone-400">{q.mondai}</span>
+                      <Furi text={q.mondai} className="mr-2 text-xs tracking-wider text-stone-400" />
                       {picked === null ? <span className="text-stone-400">Unanswered</span> : <>Correct: <b className="font-medium">{q.choices[q.answer]}</b></>}
                     </span>
                     <span className="text-stone-400 transition group-open:rotate-90" aria-hidden>›</span>
@@ -237,15 +237,15 @@ export function MockTest({ level, questions }: { level: Level; questions: Questi
   return (
     <Layout
       back={back}
-      title={<span><span className="tabular-nums text-stone-400">{pos + 1}/{paperIdx.length}</span> <span className="font-jp">{papers[paper].jp}</span></span>}
+      title={<span><span className="tabular-nums text-stone-400">{pos + 1}/{paperIdx.length}</span> <Furi text={papers[paper].jp} /></span>}
       right={
-        <span className={cn('font-mono text-xs tabular-nums', remaining <= 300 ? 'font-semibold text-rose-500' : 'text-stone-500')} title="Time left in this paper">
+        <span className={cn('font-mono text-xs tabular-nums', remaining <= 300 ? 'font-semibold text-rose-600' : 'text-stone-500')} title="Time left in this paper">
           {fmtTime(remaining)}
         </span>
       }
     >
       <ProgressBar value={answeredCount} max={paperIdx.length} />
-      <p className="mt-6 font-jp text-xs tracking-wider text-stone-400">{q.mondai}</p>
+      <Furi as="p" text={q.mondai} className="mt-6 text-xs tracking-wider text-stone-400" />
       <div className="mt-3">
         <QuestionView key={q.id} q={q} selected={answers[index]} reveal={false} onSelect={answer} autoPlay />
       </div>
@@ -256,6 +256,20 @@ export function MockTest({ level, questions }: { level: Level; questions: Questi
           ? <Button onClick={finishEarly}>{lastPaper ? 'Submit' : 'Finish paper'}</Button>
           : <Button variant={answers[index] === null ? 'secondary' : 'primary'} onClick={() => go(pos + 1)}>Next →</Button>}
       </Actions>
+
+      {asking && (
+        <div role="alertdialog" aria-label="Finish this paper?" className="mt-4 rounded-2xl border border-stone-200 bg-white p-5 dark:border-stone-800 dark:bg-stone-900">
+          <p className="font-medium">{paper + 1 < papers.length ? <>Finish <Furi text={papers[paper].jp} />?</> : 'Submit the test?'}</p>
+          <p className="mt-1 text-sm text-stone-500">
+            {unanswered > 0 && `${unanswered} question${unanswered > 1 ? 's are' : ' is'} unanswered. `}
+            {paper + 1 < papers.length ? <>You can't come back to this paper; <Furi text={papers[paper + 1].jp} /> starts next.</> : 'Your answers are scored straight away.'}
+          </p>
+          <Actions className="mt-4">
+            <Button autoFocus onClick={endPaper}>{paper + 1 < papers.length ? 'Finish paper' : 'Submit'}</Button>
+            <Button variant="ghost" onClick={() => setAsking(false)}>Keep going</Button>
+          </Actions>
+        </div>
+      )}
 
       <nav className="mt-12 border-t border-stone-200 pt-6 dark:border-stone-800" aria-label="Question navigator">
         <p className="mb-3 text-xs text-stone-400">
@@ -294,7 +308,7 @@ function ShortNote({ short }: { short: Shortfall[] }) {
     <p className="mt-4 rounded-xl border border-amber-300/60 bg-amber-50 px-4 py-3 text-sm text-amber-900 dark:border-amber-700/50 dark:bg-amber-950/30 dark:text-amber-200">
       This test doesn't have enough{' '}
       {short.map((s, i) => (
-        <span key={s.mondai.jp}>{i > 0 && (i === short.length - 1 ? ' or ' : ', ')}<span className="font-jp">{s.mondai.jp}</span></span>
+        <span key={s.mondai.jp}>{i > 0 && (i === short.length - 1 ? ' or ' : ', ')}<Furi text={s.mondai.jp} /></span>
       ))}{' '}
       questions, so it's shorter than the real one there. The time limits are the official ones.
     </p>

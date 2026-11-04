@@ -7,8 +7,10 @@ import type { Level, Section } from './lib/types'
 import { ALL_KINDS, KINDS, LEVELS, SECTIONS, SRS_SECTIONS } from './lib/types'
 import { useQuestions } from './lib/useQuestions'
 import { useWords } from './lib/words'
-import { useGrammar, useParticles } from './lib/learn'
+import { useGrammar, useKanji, useKanjiStrokes, useParticles } from './lib/learn'
+import { KanjiDetail, KanjiList, kanjiBase } from './pages/Kanji'
 import { Hero } from './pages/Hero'
+import { Credits } from './pages/Credits'
 import { LevelSelect } from './pages/LevelSelect'
 import { MockTest } from './pages/MockTest'
 import { ModeSelect } from './pages/ModeSelect'
@@ -30,6 +32,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Hero />} />
           <Route path="/levels" element={<LevelSelect />} />
+          <Route path="/credits" element={<Credits />} />
           <Route path="/:level" element={<WithLevel render={(level) => <ModeSelect level={level} />} />} />
           <Route path="/:level/study/:section" element={<WithLevel render={(level) => <SectionRoute level={level} />} />} />
           <Route path="/:level/study/:section/:kind" element={<WithLevel render={(level) => <Study level={level} />} />} />
@@ -39,6 +42,8 @@ export default function App() {
           <Route path="/:level/learn/grammar" element={<WithLevel render={(level) => <Grammar level={level} />} />} />
           <Route path="/:level/learn/grammar/:id" element={<WithLevel render={(level) => <Grammar level={level} />} />} />
           <Route path="/:level/learn/grammar/:id/drill" element={<WithLevel render={(level) => <Grammar level={level} drill />} />} />
+          <Route path="/:level/learn/kanji" element={<WithLevel render={(level) => <KanjiRoute level={level} />} />} />
+          <Route path="/:level/learn/kanji/:char" element={<WithLevel render={(level) => <KanjiRoute level={level} />} />} />
           <Route path="/:level/learn/particles" element={<WithLevel render={(level) => <Particles level={level} />} />} />
           <Route path="/:level/learn/particles/:id" element={<WithLevel render={(level) => <Particles level={level} />} />} />
           <Route path="/:level/learn/particles/:id/drill" element={<WithLevel render={(level) => <Particles level={level} drill />} />} />
@@ -138,6 +143,20 @@ function Grammar({ level, drill }: { level: Level; drill?: boolean }) {
       title={<span className="font-jp">{pattern ? pattern.pattern : 'All grammar patterns'}</span>}
     />
   )
+}
+
+/** The level's kanji, or one kanji (:char). */
+function KanjiRoute({ level }: { level: Level }) {
+  const { char } = useParams()
+  const data = useKanji(level)
+  const strokes = useKanjiStrokes()
+  if (data.status !== 'ready') return <Loading level={level} error={data.status === 'error' ? data.error : undefined} />
+  const list = data.data.kanji
+  if (!char) return <KanjiList level={level} kanji={list} />
+  const kanji = list.find((k) => k.char === char)
+  if (!kanji) return <Navigate to={kanjiBase(level)} replace />
+  const s = strokes.status === 'ready' ? strokes.data[char] ?? null : strokes.status === 'error' ? null : undefined
+  return <KanjiDetail key={char} level={level} list={list} kanji={kanji} strokes={s} />
 }
 
 /** Particle contrasts, one contrast (:id), or a drill (:id = a contrast, "all" or "bank"). */

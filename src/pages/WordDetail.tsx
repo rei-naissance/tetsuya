@@ -7,6 +7,9 @@ import { useKeys } from '../lib/useKeys'
 import { formatDelay, getCard, markKnown, saveCard } from '../lib/srs'
 import { resetWord, wordStatus } from '../lib/words'
 import { cn } from '../lib/cn'
+import { useKanji } from '../lib/learn'
+import { kanjiChars, kanjiPath } from '../lib/kanji'
+import { kanjiBase } from './Kanji'
 
 /** Everything known about one word, with prev/next through the list (← →). */
 export function WordDetail({ level, words, word }: { level: Level; words: Word[]; word: Word }) {
@@ -54,6 +57,8 @@ export function WordDetail({ level, words, word }: { level: Level; words: Word[]
       <p className="mt-6 text-lg">{word.meaning}</p>
       {word.fullMeaning && <p className="mt-1 text-stone-500">{word.fullMeaning}</p>}
 
+      <WordKanji level={level} word={word.word} />
+
       {word.examples.length > 0 && (
         <Block title="Example sentences">
           {word.examples.map((ex, i) => <Example key={i} ex={ex} />)}
@@ -69,7 +74,7 @@ export function WordDetail({ level, words, word }: { level: Level; words: Word[]
       {word.examples.length + word.inBank.length === 0 && (
         <p className="mt-10 rounded-xl border border-dashed border-stone-300 p-4 text-sm text-stone-500 dark:border-stone-700">
           No example sentences for this word yet.
-          {!word.url && ' The source list has no word page for it, so the reading was converted from romaji.'}
+          {!word.url && ' Its reading was converted from romaji.'}
         </p>
       )}
 
@@ -77,22 +82,22 @@ export function WordDetail({ level, words, word }: { level: Level; words: Word[]
         <Block title="Similar words">
           <div className="flex flex-wrap gap-2">
             {word.similar.map((s) => {
-              const w = findWord(s)
+              // `s` may carry furigana markup: match on the plain text.
+              const w = findWord(s.replace(/\{([^|}]+)\|[^}]+\}/g, '$1'))
               const cls = 'rounded-full border border-stone-200 px-3 py-1 font-jp text-sm dark:border-stone-800'
               return w ? (
-                <Link key={s} to={`${base}/${w.id}`} state={{ from }} className={cn(cls, 'hover:border-stone-900 dark:hover:border-stone-400')}>{s}</Link>
+                <Link key={s} to={`${base}/${w.id}`} state={{ from }} className={cn(cls, 'hover:border-stone-900 dark:hover:border-stone-400')}><JP text={s} /></Link>
               ) : (
-                <span key={s} className={cn(cls, 'text-stone-500')}>{s}</span>
+                <span key={s} className={cn(cls, 'text-stone-500')}><JP text={s} /></span>
               )
             })}
           </div>
         </Block>
       )}
 
-      {(word.conjugation || word.url) && (
-        <div className="mt-10 flex flex-wrap gap-x-6 gap-y-2 text-sm">
-          {word.conjugation && <a href={word.conjugation} target="_blank" rel="noreferrer" className="text-accent underline-offset-4 hover:underline">Conjugation chart ↗</a>}
-          {word.url && <a href={word.url} target="_blank" rel="noreferrer" className="text-stone-500 underline-offset-4 hover:underline">Word page on japanesetest4you ↗</a>}
+      {word.conjugation && (
+        <div className="mt-10 text-sm">
+          <a href={word.conjugation} target="_blank" rel="noreferrer" className="text-accent underline-offset-4 hover:underline">Conjugation chart ↗</a>
         </div>
       )}
 
@@ -115,7 +120,7 @@ function StatusToggle({ id }: { id: string }) {
         className={cn(
           'rounded-full px-2.5 py-0.5 text-xs font-medium',
           status === 'known' ? 'bg-emerald-100 text-emerald-700 dark:bg-emerald-950 dark:text-emerald-300'
-          : status === 'learning' ? 'bg-accent-soft text-accent dark:bg-accent/15'
+          : status === 'learning' ? 'bg-accent-soft text-accent dark:bg-accent/10'
           : 'bg-stone-100 text-stone-500 dark:bg-stone-800',
         )}
       >
@@ -127,6 +132,32 @@ function StatusToggle({ id }: { id: string }) {
       ) : (
         <TextButton onClick={() => setCard(saveCard(id, markKnown()))}>I already know this</TextButton>
       )}
+    </div>
+  )
+}
+
+/** The word's kanji, each linking to its kanji page. Nothing while the kanji list loads or for kana-only words. */
+function WordKanji({ level, word }: { level: Level; word: string }) {
+  const data = useKanji(level)
+  if (data.status !== 'ready') return null
+  const byChar = new Map(data.data.kanji.map((k) => [k.char, k]))
+  const chars = kanjiChars(word, (ch) => byChar.has(ch))
+  if (!chars.length) return null
+  return (
+    <div className="mt-6 flex flex-wrap gap-2">
+      {chars.map((ch) => {
+        const k = byChar.get(ch)!
+        return (
+          <Link
+            key={ch}
+            to={kanjiPath(kanjiBase(level), ch)}
+            className="flex items-center gap-3 rounded-xl border border-stone-200 bg-white py-1.5 pl-2 pr-3 transition hover:border-stone-900 dark:border-stone-800 dark:bg-stone-900 dark:hover:border-stone-400"
+          >
+            <span className="font-jp-serif text-2xl" lang="ja">{ch}</span>
+            <span className="max-w-40 truncate text-sm text-stone-500">{k.meanings.slice(0, 2).join(', ')}</span>
+          </Link>
+        )
+      })}
     </div>
   )
 }

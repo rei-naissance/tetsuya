@@ -7,6 +7,7 @@ A small, distraction-free web app for JLPT N4 and N3 practice. It has no backend
 - **Every section is split by JLPT question type** (問題), e.g. grammar → 文法形式の判断 / 文の組み立て (★) / 文章の文法, so you can drill one format at a time or all of them mixed.
 - **Learn** (a sandbox next to the question practice):
   - **Vocabulary list**: the full JLPT word list for the level, searchable by kanji, kana, romaji or English. Each word has a page with meaning, word type, example sentences and sentences from this app's questions. Mark words "learning" or "known" and drill them as flashcards.
+  - **Kanji**: every kanji in the level's word list, most-used first, searchable by kanji, reading (kana or romaji) or English. Each has a page with meanings, on and kun readings, an animated stroke order you can also step through, its parts and the level's words that use it. Word pages link to their kanji.
   - **Grammar patterns**: one page per pattern with meaning, formation, explanations, examples (with audio where the source has it) and the app's questions that use it, plus a drill that blanks the pattern out of its examples.
   - **Particles**: hand-written contrasts (に vs で, まで vs までに, には / での…) with explanations, example pairs and drills, plus a drill of the particle questions already in the exercises. **Draft: not yet checked by a teacher.**
 - **Mock tests** draw a randomized set from all five sections and score it at the end, with a per-section breakdown and a mistake review.
@@ -65,9 +66,11 @@ data/                       ← source exercises (jlpt_<level>_<section>_data.js
 scripts/
   build-data.mjs            ← converts data/ → public/data + public/media
   japanese.mjs              ← furigana (kuromoji) and JMdict glossary helpers
+  kanji.mjs                 ← KANJIDIC2 + KanjiVG → data/kanji.json
 public/                     ← static files; data/ and media/ inside it are generated and git-ignored
   data/n4.json, n3.json     ← question banks the app fetches at runtime
   data/n4-words.json, …     ← vocabulary lists for the word browser
+  data/n4-kanji.json, …     ← kanji pages; data/kanji-strokes.json holds their stroke paths
   data/n4-grammar.json, …   ← grammar patterns
   data/particles.json       ← particle contrasts
   favicon.ico, favicon.png, apple-touch-icon.png, icon-*.png, site.webmanifest, og-image.png
@@ -100,6 +103,7 @@ src/
     Practice.tsx            ← practice set (grammar, reading, listening)
     MockTest.tsx
     WordList.tsx  WordDetail.tsx  WordCards.tsx   ← Learn → vocabulary list
+    Kanji.tsx               ← Learn → kanji (list + kanji page with stroke order)
     Grammar.tsx             ← Learn → grammar patterns (list + pattern page)
     Particles.tsx           ← Learn → particles (list + contrast page)
   App.tsx                   ← routes
@@ -130,8 +134,12 @@ After answering, fill-in-the-blank questions show the completed sentence. Any gl
 These are added to every question at build time (`scripts/japanese.mjs`):
 
 - **Furigana.** The [kuromoji](https://github.com/takuyaa/kuromoji.js) tokenizer adds `{漢字|かな}` to every kanji word that has none. It skips the underlined word of a kanji question, and that word anywhere else in the sentence, and never touches kanji-question choices, so furigana can't give the answer away. A few readings kuromoji gets wrong are fixed in `READINGS` (日本 → にほん, この間 → このあいだ, 何 → なん before a counter).
-- **Word meanings.** The content words of each question are looked up in `data/dictionary.json`, a subset of [JMdict](https://www.edrdg.org/jmdict/j_jmdict.html) (© EDRDG, CC BY-SA 4.0; the app credits it under each word list). They're added after the exercise's own word list: up to 12 per question, 30 for a reading passage. To rebuild the subset, download `jmdict-eng-*.json` from [jmdict-simplified](https://github.com/scriptin/jmdict-simplified/releases) and run `npm run data -- --jmdict <file>`.
+- **Known readings win.** In a kanji-reading or spelling question the right reading of the tested word is part of the question, so it overrides the tokenizer's guess, which can't tell 通う from 通る in 通って. The explanation then shows {通|かよ}って, and the word list shows 通う, not 通る. If no dictionary entry fits the reading, the word is left out of the list rather than listed wrong.
+- **Whole sentences.** The sentence is read with its markup taken out, so a word cut by an underline (以**上**) is still read in context; an underline that cuts a word moves out to the word's edge (except in kanji questions, where it is exactly the tested word). App labels typed in the code (section names, question types, headings) get their readings from `src/lib/ruby.ts`.
+- **Word meanings.** The content words of each question are looked up in `data/dictionary.json`, a subset of [JMdict](https://www.edrdg.org/jmdict/j_jmdict.html) (© EDRDG, CC BY-SA 4.0; credited on the Credits page). They're added after the exercise's own word list: up to 12 per question, 30 for a reading passage. To rebuild the subset, download `jmdict-eng-*.json` from [jmdict-simplified](https://github.com/scriptin/jmdict-simplified/releases) and run `npm run data -- --jmdict <file>`.
 - **Translations.** `data/translations.json` maps each Japanese sentence (markup removed) to English: the filled-in sentence for fill-in-the-blank questions, both sides of paraphrase questions, the correct sentence for usage questions, and reading passages with their questions and choices. Kanji questions already carry English in their explanations, and listening has no transcripts to translate. The translations were written by Claude and haven't been checked by a translator. `npm run data -- --untranslated <file>` writes any sentences still missing (for new or changed questions).
+
+**Kanji word cards** (`kind: "words"`) are built from the exercise word lists. Their wrong choices are near misses of the right reading, the way the JLPT writes them (`misreadings` in `scripts/japanese.mjs`): voicing (こたえ → ごたえ), long vowels (こ ↔ こう, せ ↔ せい), a small っ in or out, きょ → き; only the part read off the kanji changes, and no wrong choice is another real reading in the deck. Vowel changes (まける → もける) are a fallback for short readings.
 
 **Question types.** Every question gets a `kind`, the JLPT question type it belongs to. The app groups practice by it (see `KINDS` in `src/lib/types.ts`):
 
@@ -152,6 +160,16 @@ Fix the source file and the question is picked up on the next run.
 `data/jlpt_<level>_vocab_list.json` comes from `scrape_vocab_list.py` (in the parent `scripts` folder). It scrapes the japanesetest4you JLPT vocabulary list, plus the word page for each entry that links to one. About half the entries have a page (N4: 287 of 536, N3: 824 of 1723). Those get kana, other spellings, word type, a fuller meaning, example sentences with romaji and English, similar words, and a link to a conjugation chart. The rest only have the list line, so their kana is converted from the romaji.
 
 The converter writes `public/data/<level>-words.json`. It also searches the question bank's complete sentences (no blanks or ★) for each word and keeps up to 3 as "In this app's questions". It matches verb and い-adjective stems (上がる finds 上がって), skips one-kanji words inside compounds (味 not in 興味), and skips sentences that belong to a longer list word (合う not in 間に合う). With those, 433 of the N4 words and 1141 of the N3 words have at least one example. Up to 8 page examples are kept per word, and the word is underlined in each one it can be found in.
+
+**Tatoeba sentences.** `data/tatoeba.json` adds example sentences with English from [Tatoeba](https://tatoeba.org) (CC BY 2.0 FR; most Japanese/English pairs come from the public-domain Tanaka Corpus) to every list word it can, after the word page's own examples, up to 10 per word. That gives sentences to the words without a word page (N4: 522 of 536 words now have examples, N3: 1686 of 1723). Tatoeba and its licence are credited on the Credits page (`/credits`, linked from every page's footer); each sentence keeps its Tatoeba id in the data. Words are matched through Tatoeba's Japanese indices, which list every word's dictionary form (通って is indexed as 通う), and homographs are told apart by reading (方 かた vs ほう). Short sentences whose other words are on the level's list, and ones Tatoeba marks as good examples, come first.
+
+To rebuild the subset, download `jpn_indices.tar.bz2`, `per_language/jpn/jpn_sentences.tsv.bz2` and `per_language/eng/eng_sentences.tsv.bz2` from [tatoeba.org/downloads](https://tatoeba.org/en/downloads), unpack them into one folder and run `npm run data -- --tatoeba <folder>` (`scripts/tatoeba.mjs`). The downloads aren't needed for a normal build.
+
+### Kanji (Learn)
+
+`data/kanji.json` is a subset of [KANJIDIC2](https://www.edrdg.org/wiki/index.php/KANJIDIC_Project) (© EDRDG, CC BY-SA 4.0) and [KanjiVG](https://kanjivg.tagaini.net) (© Ulrich Apel, CC BY-SA 3.0) for every kanji in the two word lists (headwords and other spellings). The converter writes `public/data/<level>-kanji.json`: the kanji in that level's headwords, sorted by KANJIDIC2's newspaper frequency rank (kanji outside the top 2,500 come last, by stroke count), each with the level's words written with it. N3 kanji that are also on the N4 list are flagged `earlier`, and the list can hide them. Stroke paths (rounded to 0.1, in KanjiVG's 109×109 box, in stroke order) and stroke-number positions go in `public/data/kanji-strokes.json`, which only the kanji page loads.
+
+To rebuild the subset, download `kanjidic2-en-*.json.tgz` from [jmdict-simplified](https://github.com/scriptin/jmdict-simplified/releases) and the `kanjivg-*-main.zip` release from [KanjiVG](https://github.com/KanjiVG/kanjivg/releases), unpack both and run `npm run data -- --kanjidic <kanjidic2-en.json> --kanjivg <kanjivg folder>/kanji` (`scripts/kanji.mjs`). The downloads aren't needed for a normal build.
 
 ### Grammar patterns (Learn)
 
@@ -279,6 +297,10 @@ Choices are shuffled every time a question is shown, unless `keepOrder` is set. 
 | Accent color, fonts | `@theme` block in `src/index.css` |
 | Buttons, action rows, pickers | The design-system block in `src/components/Layout.tsx` |
 
+## Credits
+
+Sources and licences are listed once, on the Credits page (`src/pages/Credits.tsx`, route `/credits`), which every page links to from its footer. Pages themselves don't carry source links or licence notes. Add a source there when you add data from somewhere new.
+
 ## Design system
 
 Every action uses the shared components in `src/components/Layout.tsx`, so buttons don't drift in size or style:
@@ -291,5 +313,15 @@ Every action uses the shared components in `src/components/Layout.tsx`, so butto
 | `Actions` | A row of actions, primary first: `align="center"` on end screens, `"start"` in cards, `"between"` for answer footers and Previous / Next |
 | `Chips` | The one single-choice picker (questions per set, word filters) |
 | `NumberField` | A typed number with quick picks (daily limits) |
+
+**Gaps.** Blanks in question text are drawn as one `Gap` badge (`src/components/JP.tsx`, parsing in `src/lib/gaps.ts`), whatever way the source wrote them:
+
+| Gap | Written as | Color |
+|---|---|---|
+| Numbered (reading, text grammar) | `[ 1 ]`, `「１」`, `「___１___」` | Its own hue per number, `--gap-1` … `--gap-5` in `src/index.css`, the same in the passage, the question and the English translation |
+| Blank (grammar form, vocabulary, sentence order) | `（　　）` | `--gap-0` (neutral) |
+| Star (sentence order) | `★` | The accent |
+
+The gap a question asks about is solid and the others are faded; once answered, it shows the right answer (the English choice in the translation, when there is one). `（１）` isn't a gap: in these passages it numbers list items. The tested word in kanji and vocabulary questions stays an accent underline. Every gap color passes 4.5:1 on its badge in both themes.
 
 Class names aren't merged, so a size or shape is never overridden with `className`; add a size to `buttonClass` instead. A few controls are purpose-built and stay their own: answer choices, the flashcard, the mock-test question grid, and the Previous / Next word links.

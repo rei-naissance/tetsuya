@@ -1,4 +1,5 @@
 import { useMemo, useState, type ReactNode } from 'react'
+import { Furi } from '../components/JP'
 import { useNavigate } from 'react-router-dom'
 import { Actions, Button, buttonClass, Layout, ProgressBar, TextButton } from '../components/Layout'
 import { StudyOptions } from '../components/StudyOptions'
@@ -20,7 +21,7 @@ export function kindTitle(section: Section, kind: string, mistakes = false) {
       {SECTION_META[section].label}
       {kind !== ALL_KINDS && meta && <> · {meta.label}</>}
       {mistakes && ' · mistakes'}
-      <span className="ml-1.5 font-jp text-stone-400">{meta && kind !== ALL_KINDS ? meta.jp : SECTION_META[section].jp}</span>
+      <Furi text={meta && kind !== ALL_KINDS ? meta.jp : SECTION_META[section].jp} className="ml-1.5 text-stone-400" />
     </span>
   )
 }
@@ -28,7 +29,7 @@ export function kindTitle(section: Section, kind: string, mistakes = false) {
 // Just the two grades most Anki users stick to; the scheduler still knows Hard and Easy.
 const GRADES: { grade: Grade; label: string; tone: string }[] = [
   { grade: 'again', label: 'Again', tone: 'text-rose-600 dark:text-rose-400' },
-  { grade: 'good', label: 'Good', tone: 'text-emerald-600 dark:text-emerald-400' },
+  { grade: 'good', label: 'Good', tone: 'text-emerald-700 dark:text-emerald-400' },
 ]
 
 /**
@@ -108,7 +109,7 @@ function ReviewSession({ level, section, kind, pool, aheadDays, onRestart }: {
     <Layout back={back} title={title} right={<SessionCounts counts={s.counts} />}>
       <ProgressBar value={Math.max(0, initial - left)} max={Math.max(initial, left)} />
       <div className="mt-8">
-        {s.isNew && <p className="mb-4 inline-block rounded-full bg-accent-soft px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wider text-accent dark:bg-accent/15">New</p>}
+        {s.isNew && <p className="mb-4 inline-block rounded-full bg-accent-soft px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wider text-accent dark:bg-accent/10">New</p>}
         <QuestionView key={`${q.id}-${turn}`} q={q} selected={selected} reveal={reveal} onSelect={choose} showSection={kind === ALL_KINDS} autoPlay />
       </div>
 
@@ -121,7 +122,7 @@ function ReviewSession({ level, section, kind, pool, aheadDays, onRestart }: {
         )}
         {reveal && !wasCorrect && (
           <Actions align="between">
-            <p className="text-sm text-rose-500">Not quite: back in {previewInterval(s.card, 'again')}.</p>
+            <p className="text-sm text-rose-600">Not quite: back in {previewInterval(s.card, 'again')}.</p>
             <Button onClick={() => grade('again')}>Continue <span aria-hidden>→</span></Button>
           </Actions>
         )}
@@ -154,9 +155,9 @@ export function GradeButtons({ card, onGrade }: { card: CardState; onGrade: (g: 
 export function SessionCounts({ counts }: { counts: { fresh: number; learning: number; review: number } }) {
   return (
     <span className="flex gap-2 text-xs tabular-nums" aria-label={`${counts.fresh} new, ${counts.learning} learning, ${counts.review} to review`}>
-      <span className="text-sky-600 dark:text-sky-400" title="New">{counts.fresh}</span>
-      <span className="text-rose-500" title="Learning">{counts.learning}</span>
-      <span className="text-emerald-600 dark:text-emerald-400" title="To review">{counts.review}</span>
+      <span className="text-sky-700 dark:text-sky-400" title="New">{counts.fresh}</span>
+      <span className="text-rose-700 dark:text-rose-400" title="Learning">{counts.learning}</span>
+      <span className="text-emerald-700 dark:text-emerald-400" title="To review">{counts.review}</span>
     </span>
   )
 }
@@ -164,7 +165,7 @@ export function SessionCounts({ counts }: { counts: { fresh: number; learning: n
 export function SessionDone({ tally, ids, children }: { tally: { reviewed: number; correct: number }; ids: string[]; children?: ReactNode }) {
   return (
     <div className="py-12 text-center">
-      <p className="font-jp text-5xl">{tally.reviewed ? 'お疲れさま' : '完了'}</p>
+      <Furi as="p" text={tally.reviewed ? 'お疲れさま' : '完了'} className="text-5xl" />
       <p className="mt-6 text-lg font-medium">{tally.reviewed ? 'Session complete' : 'All caught up'}</p>
       <p className="mt-1 text-stone-500">
         {tally.reviewed

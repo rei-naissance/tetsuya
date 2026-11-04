@@ -1,10 +1,11 @@
+import { Furi } from '../components/JP'
 import { ButtonLink, Layout } from '../components/Layout'
 
 export function Hero() {
   return (
     <Layout>
       <section className="flex min-h-[70vh] flex-col justify-center">
-        <p className="font-jp text-sm tracking-[0.3em] text-accent">日本語能力試験</p>
+        <Furi as="p" text="日本語能力試験" className="text-sm tracking-[0.3em] text-accent" />
         <h1 className="mt-5 text-4xl font-semibold leading-tight tracking-tight sm:text-6xl">
           Prepare for the JLPT,
           <br />
@@ -26,7 +27,7 @@ export function Hero() {
             ['模擬試験', 'Mock tests'],
           ].map(([jp, en]) => (
             <div key={en}>
-              <dt className="font-jp text-stone-900 dark:text-stone-100">{jp}</dt>
+              <dt className="text-stone-900 dark:text-stone-100"><Furi text={jp} /></dt>
               <dd className="mt-1 text-stone-500">{en}</dd>
             </div>
           ))}

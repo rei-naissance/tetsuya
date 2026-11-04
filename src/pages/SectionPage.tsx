@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react'
+import { Furi } from '../components/JP'
 import { useNavigate } from 'react-router-dom'
 import { Actions, Button, Chips, Layout, ProgressBar } from '../components/Layout'
 import { StudyOptions } from '../components/StudyOptions'
@@ -47,7 +48,7 @@ export function SectionPage({ level, section, questions }: { level: Level; secti
 
   return (
     <Layout back={{ to: `/${level.toLowerCase()}`, label: level }} title={`${level} ${SECTION_META[section].label}`}>
-      <p className="font-jp text-sm tracking-[0.3em] text-accent">{SECTION_META[section].jp}</p>
+      <Furi as="p" text={SECTION_META[section].jp} className="text-sm tracking-[0.3em] text-accent" />
       <h1 className="mt-3 text-3xl font-semibold tracking-tight">{SECTION_META[section].label}</h1>
       <p className="mt-2 text-stone-500">
         {srs
@@ -85,7 +86,7 @@ export function SectionPage({ level, section, questions }: { level: Level; secti
           >
             <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
               <p className="font-medium">
-                {meta.label} <span className="ml-1 font-jp text-sm text-stone-400">{meta.jp}</span>
+                {meta.label} <Furi text={meta.jp} className="ml-1 text-sm text-stone-400" />
               </p>
               <p className="text-sm tabular-nums text-stone-400">{count} questions</p>
             </div>
@@ -127,8 +128,8 @@ function PracticeProgress({ stats }: { stats: ProgressStats }) {
       <p className="mt-2 text-xs tabular-nums text-stone-400">
         {stats.seen === 0 ? 'Not started' : (
           <>
-            {stats.seen} of {stats.total} tried · <span className="text-emerald-600 dark:text-emerald-400">{stats.right} right</span>
-            {stats.wrong > 0 && <> · <span className="text-rose-500">{stats.wrong} to retry</span></>}
+            {stats.seen} of {stats.total} tried · <span className="text-emerald-700 dark:text-emerald-400">{stats.right} right</span>
+            {stats.wrong > 0 && <> · <span className="text-rose-600">{stats.wrong} to retry</span></>}
           </>
         )}
       </p>

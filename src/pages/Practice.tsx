@@ -111,7 +111,7 @@ export function Practice({ level, section, kind, pool, mode, back: backTo, title
       </div>
       <Actions align="between" className="mt-8 min-h-11">
         <p className="text-sm text-stone-400">
-          {reveal ? (selected === q.answer ? <span className="text-emerald-600">Correct</span> : <span className="text-rose-500">Not quite</span>) : 'Press 1–4 to answer'}
+          {reveal ? (selected === q.answer ? <span className="text-emerald-700">Correct</span> : <span className="text-rose-600">Not quite</span>) : 'Press 1–4 to answer'}
         </p>
         {reveal && <Button onClick={next}>{index + 1 === set.length ? 'Results' : 'Next'} <span aria-hidden>→</span></Button>}
       </Actions>

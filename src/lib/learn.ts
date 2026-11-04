@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import type { GrammarPattern, Level, ParticleContrast } from './types'
+import type { GrammarPattern, Kanji, KanjiStrokes, Level, ParticleContrast } from './types'
 
 /* Loading for the learn-mode files in public/data (grammar patterns, particles). */
 
@@ -46,3 +46,21 @@ export const useParticles = () => useData<ParticleData>('particles.json')
 
 export const useGrammar = (level: Level) =>
   useData<{ patterns: GrammarPattern[] }>(`${level.toLowerCase()}-grammar.json`)
+
+export const useKanji = (level: Level) =>
+  useData<{ kanji: Kanji[] }>(`${level.toLowerCase()}-kanji.json`)
+
+/** Stroke paths for every kanji page (both levels), kept apart so the kanji list doesn't wait for them. */
+export const useKanjiStrokes = () => useData<Record<string, KanjiStrokes>>('kanji-strokes.json')
+
+const LEARN_FILES = {
+  grammar: (level: Level) => `${level.toLowerCase()}-grammar.json`,
+  particles: () => 'particles.json',
+  kanji: (level: Level) => `${level.toLowerCase()}-kanji.json`,
+}
+
+/** Start downloading a learn page's data ahead of a likely click (hover, focus, touch). */
+export function prefetchLearn(page: keyof typeof LEARN_FILES, level: Level): void {
+  loadData(LEARN_FILES[page](level)).catch(() => {})
+  if (page === 'kanji') loadData('kanji-strokes.json').catch(() => {})
+}

@@ -1,5 +1,6 @@
 import type { Level, LevelData, Question, Section } from './types'
 import { ALL_KINDS, SECTIONS } from './types'
+import { loadWords } from './words'
 
 const cache = new Map<Level, Promise<Question[]>>()
 
@@ -50,4 +51,10 @@ function validate(questions: Question[]): Question[] {
     seen.add(q.id)
     return true
   })
+}
+
+/** Start downloading a level's question set and word list ahead of a likely click. */
+export function prefetchLevel(level: Level): void {
+  loadQuestions(level).catch(() => {})
+  loadWords(level).catch(() => {})
 }

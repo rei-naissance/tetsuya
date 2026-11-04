@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom'
+import { Furi } from '../components/JP'
 import { Layout } from '../components/Layout'
+import { prefetchLevel } from '../lib/data'
 import type { Level } from '../lib/types'
 import { LEVELS } from '../lib/types'
 
@@ -31,12 +33,15 @@ export function LevelSelect() {
           <Link
             key={level}
             to={`/${level.toLowerCase()}`}
+            onPointerEnter={() => prefetchLevel(level)}
+            onFocus={() => prefetchLevel(level)}
+            onTouchStart={() => prefetchLevel(level)}
             className={`group ${card} border-stone-200 bg-white transition hover:-translate-y-0.5 hover:border-stone-900 hover:shadow-xl hover:shadow-stone-900/5 dark:border-stone-800 dark:bg-stone-900 dark:hover:border-stone-400`}
           >
             <span className="text-6xl font-semibold tracking-tighter">{level}</span>
             <p className="mt-6 font-medium">{LEVEL_INFO[level].title}</p>
             <p className="mt-1 text-sm leading-relaxed text-stone-500">{LEVEL_INFO[level].desc}</p>
-            <span className="absolute right-8 top-8 text-stone-300 transition group-hover:translate-x-1 group-hover:text-accent" aria-hidden>
+            <span className="absolute right-8 top-8 text-stone-400 transition group-hover:translate-x-1 group-hover:text-accent" aria-hidden>
               →
             </span>
           </Link>
@@ -53,7 +58,7 @@ export function LevelSelect() {
         {COMING_TEXTBOOKS.map((c) => (
           <ComingSoon key={c.name} title={c.title} desc={c.desc}>
             <span className="text-3xl font-semibold tracking-tight">{c.name}</span>
-            <span className="mt-1 block font-jp text-sm text-stone-400">{c.jp}</span>
+            <Furi text={c.jp} className="mt-1 block text-sm text-stone-400" />
           </ComingSoon>
         ))}
       </div>
@@ -67,7 +72,7 @@ function ComingSoon({ title, desc, children }: { title: string; desc: string; ch
     <div aria-disabled="true" className={`${card} cursor-default border-dashed border-stone-300 bg-transparent text-stone-400 dark:border-stone-700 dark:text-stone-600`}>
       <div className="pr-28">{children}</div>
       <p className="mt-6 font-medium text-stone-500">{title}</p>
-      <p className="mt-1 text-sm leading-relaxed text-stone-400 dark:text-stone-500">{desc}</p>
+      <Furi as="p" text={desc} className="mt-1 font-sans text-sm leading-relaxed text-stone-400 dark:text-stone-500" />
       <span className="absolute right-6 top-7 rounded-full bg-stone-100 px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wider text-stone-500 dark:bg-stone-800 dark:text-stone-400">
         Coming soon
       </span>

@@ -2,7 +2,8 @@ import { useEffect, useRef, useState } from 'react'
 import type { Question } from '../lib/types'
 import { KINDS, SECTION_META } from '../lib/types'
 import { cn } from '../lib/cn'
-import { JP } from './JP'
+import { activeGap } from '../lib/gaps'
+import { EN, Furi, JP, type GapOptions } from './JP'
 
 const asset = (path: string) => (/^(https?:)?\//.test(path) ? path : import.meta.env.BASE_URL + path)
 
@@ -22,13 +23,18 @@ export function QuestionView({ q, selected, reveal, onSelect, showSection, autoP
 }) {
   const numbered = q.choices.every((c, i) => c === String(i + 1))
   const kind = KINDS[q.section].find((k) => k.id === q.kind)
+  // The gap this question asks about, highlighted everywhere it appears;
+  // once answered it shows the right answer (in English in the translation).
+  const active = activeGap(q.prompt, q.target)
+  const gapsJa: GapOptions = { active, fill: reveal ? q.choices[q.answer] : undefined }
+  const gapsEn: GapOptions = { active, fill: reveal ? q.en?.choices?.[q.answer] ?? q.choices[q.answer] : undefined }
   return (
     <div className="space-y-6">
       {showSection && (
         <p className="text-xs font-medium uppercase tracking-widest text-stone-400">
           {SECTION_META[q.section].label}
           {kind && <> · {kind.label}</>}
-          <span className="ml-1.5 font-jp normal-case">{kind?.jp ?? SECTION_META[q.section].jp}</span>
+          <Furi text={kind?.jp ?? SECTION_META[q.section].jp} className="ml-1.5 normal-case" />
         </p>
       )}
 
@@ -36,13 +42,14 @@ export function QuestionView({ q, selected, reveal, onSelect, showSection, autoP
         <JP
           as="div"
           text={q.passage}
+          gaps={gapsJa}
           className="max-h-[45vh] overflow-y-auto rounded-2xl border border-stone-200 bg-white p-5 text-[1.05rem] leading-[2.2] dark:border-stone-800 dark:bg-stone-900"
         />
       )}
       {reveal && q.en?.passage && (
         <details className="group -mt-3 text-sm text-stone-500">
           <summary className="cursor-pointer select-none hover:text-stone-900 dark:hover:text-stone-100">English translation of the passage</summary>
-          <p className="mt-2 whitespace-pre-line leading-relaxed">{q.en.passage}</p>
+          <EN text={q.en.passage} gaps={gapsEn} className="mt-2 leading-relaxed" />
         </details>
       )}
 
@@ -54,12 +61,12 @@ export function QuestionView({ q, selected, reveal, onSelect, showSection, autoP
       )}
 
       <div>
-        <JP as="p" text={q.prompt} className="text-base leading-[2.1] text-stone-600 dark:text-stone-300" />
-        {reveal && q.en?.prompt && <p className="text-sm text-stone-500">{q.en.prompt}</p>}
+        <JP as="p" text={q.prompt} gaps={{ active }} className="text-base leading-[2.1] text-stone-600 dark:text-stone-300" />
+        {reveal && q.en?.prompt && <EN text={q.en.prompt} gaps={{ active }} className="text-sm text-stone-500" />}
       </div>
 
       {q.target && (
-        <JP as="p" text={q.target} className="text-[1.6rem] leading-[2.2] tracking-wide sm:text-[1.85rem]" />
+        <JP as="p" text={q.target} gaps={gapsJa} className="text-[1.6rem] leading-[2.2] tracking-wide sm:text-[1.85rem]" />
       )}
 
       {numbered ? (
@@ -108,7 +115,7 @@ export function QuestionView({ q, selected, reveal, onSelect, showSection, autoP
       {reveal && (q.explanation || q.en?.sentence) && (
         <div className="rounded-xl bg-stone-100 px-4 py-3 text-base leading-loose text-stone-700 dark:bg-stone-900 dark:text-stone-300">
           {q.explanation && <JP text={q.explanation} />}
-          {q.en?.sentence && <p className="text-sm leading-relaxed text-stone-500">{q.en.sentence}</p>}
+          {q.en?.sentence && <EN text={q.en.sentence} className="text-sm leading-relaxed text-stone-500" />}
         </div>
       )}
 
@@ -129,9 +136,6 @@ export function QuestionView({ q, selected, reveal, onSelect, showSection, autoP
               </div>
             ))}
           </dl>
-          <p className="mt-3 text-xs text-stone-400">
-            Meanings from <a href="https://www.edrdg.org/jmdict/j_jmdict.html" target="_blank" rel="noreferrer" className="underline underline-offset-2">JMdict</a> (EDRDG, CC BY-SA 4.0) and the exercise word lists.
-          </p>
         </details>
       )}
     </div>

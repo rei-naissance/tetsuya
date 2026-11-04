@@ -106,7 +106,7 @@ function Session({ words, byId, deck, limits, aheadDays, back, onRestart, onAhea
         disabled={flipped}
         className="mt-8 block w-full rounded-3xl border border-stone-200 bg-white px-6 py-12 text-center transition enabled:hover:border-stone-400 dark:border-stone-800 dark:bg-stone-900"
       >
-        {s.isNew && <p className="mb-4 inline-block rounded-full bg-accent-soft px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wider text-accent dark:bg-accent/15">New</p>}
+        {s.isNew && <p className="mb-4 inline-block rounded-full bg-accent-soft px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wider text-accent dark:bg-accent/10">New</p>}
         <p lang="ja" className="font-jp text-5xl tracking-wide">{w.word}</p>
         {!flipped && <p className="mt-6 text-sm text-stone-400">Reading and meaning? Tap or press Space</p>}
         {flipped && (

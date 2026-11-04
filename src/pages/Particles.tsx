@@ -2,7 +2,7 @@ import { useMemo } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { Actions, Button, Layout, ProgressBar } from '../components/Layout'
 import { SetSizePicker } from './SectionPage'
-import { JP } from '../components/JP'
+import { Furi, JP } from '../components/JP'
 import type { ParticleData } from '../lib/learn'
 import { loadAttempts, progressStats, type ProgressStats } from '../lib/progress'
 import type { Level, ParticleContrast } from '../lib/types'
@@ -28,7 +28,7 @@ export function ParticleList({ level, data, bankCount }: { level: Level; data: P
 
   return (
     <Layout back={{ to: `/${level.toLowerCase()}`, label: level }} title={`${level} Particles`}>
-      <p className="font-jp text-sm tracking-[0.3em] text-accent">助詞</p>
+      <Furi as="p" text="助詞" className="text-sm tracking-[0.3em] text-accent" />
       <h1 className="mt-3 text-3xl font-semibold tracking-tight">Particles</h1>
       <p className="mt-2 text-stone-500">
         Particles taught side by side, the way they get confused: に vs で, まで vs までに, stacked particles like には and での.
@@ -75,7 +75,7 @@ export function ParticleDetail({ level, contrast }: { level: Level; contrast: Pa
     <Layout back={{ to: base, label: 'Particles' }} title={<JP text={contrast.title} />}>
       <div className="flex flex-wrap gap-2">
         {contrast.particles.map((p) => (
-          <span key={p} className="rounded-lg bg-accent-soft px-3 py-1 font-jp text-xl text-accent dark:bg-accent/15">{p}</span>
+          <span key={p} className="rounded-lg bg-accent-soft px-3 py-1 font-jp text-xl text-accent dark:bg-accent/10">{p}</span>
         ))}
       </div>
       <h1 className="mt-4 text-3xl font-semibold tracking-tight"><JP text={contrast.title} /></h1>
@@ -116,8 +116,8 @@ export function DrillProgress({ stats, className }: { stats: ProgressStats; clas
       <p className="mt-2 text-xs tabular-nums text-stone-400">
         {stats.seen === 0 ? 'Not started' : (
           <>
-            {stats.seen} of {stats.total} tried · <span className="text-emerald-600 dark:text-emerald-400">{stats.right} right</span>
-            {stats.wrong > 0 && <> · <span className="text-rose-500">{stats.wrong} to retry</span></>}
+            {stats.seen} of {stats.total} tried · <span className="text-emerald-700 dark:text-emerald-400">{stats.right} right</span>
+            {stats.wrong > 0 && <> · <span className="text-rose-600">{stats.wrong} to retry</span></>}
           </>
         )}
       </p>

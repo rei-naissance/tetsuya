@@ -50,6 +50,8 @@ export interface WordExample {
   ja: string
   romaji?: string
   en?: string
+  /** Tatoeba sentence id, for sentences from tatoeba.org (CC BY 2.0 FR): shown with a credit link. */
+  tatoeba?: number
 }
 
 /** One entry of the JLPT vocabulary list (learn mode). */
@@ -84,6 +86,8 @@ export interface GrammarPattern {
   id: string
   /** "～さ", "あまり～ない" */
   pattern: string
+  /** The pattern with furigana markup, for display. */
+  patternRuby?: string
   romaji?: string
   meaning: string
   /** One-line title and learning goal (japanesejlpt lessons). */
@@ -102,6 +106,36 @@ export interface GrammarPattern {
   drills: Question[]
   /** Sentences from this app's grammar questions whose answer is this pattern. */
   inBank: (WordExample & { qid: string })[]
+}
+
+/** One kanji used by a level's word list (learn mode), from KANJIDIC2 and KanjiVG. */
+export interface Kanji {
+  char: string
+  meanings: string[]
+  /** On'yomi in katakana. */
+  on: string[]
+  /** Kun'yomi; `okuri` is the okurigana written in kana after the kanji (あ + う for 会う). */
+  kun: { stem: string; okuri?: string }[]
+  strokes: number
+  /** School grade it's taught in: 1–6 elementary, 8 secondary, 9–10 for names. */
+  grade?: number
+  /** Rank among the 2,500 most used kanji in newspapers (1 = most used). */
+  freq?: number
+  /** KanjiVG's top-level parts, e.g. 人 and 云 for 会. */
+  parts?: string[]
+  /** The part that is the kanji's radical. */
+  radicalForm?: string
+  /** Also on an easier level's list (N4 kanji on the N3 list). */
+  earlier?: boolean
+  /** The level's list words written with it. */
+  words: { id: string; word: string; kana?: string; meaning: string }[]
+}
+
+/** KanjiVG strokes for one kanji, in a 109×109 box, in stroke order. */
+export interface KanjiStrokes {
+  paths: string[]
+  /** Where KanjiVG puts each stroke's number. */
+  numbers?: [number, number][]
 }
 
 /** A hand-written particle contrast (learn mode). */

@@ -16,10 +16,17 @@
  *                data/particles.json                       (hand-written → public/data/particles.json)
  *                data/dictionary.json                      (JMdict subset for the glossary, see --jmdict)
  *                data/translations.json                    (English for question sentences, by Japanese text)
+ *                data/tatoeba.json                         (example sentences for the word list, from Tatoeba)
+ *                data/kanji.json                           (KANJIDIC2 + KanjiVG subset → public/data/<level>-kanji.json
+ *                                                           and public/data/kanji-strokes.json)
  *
  * Every question gets furigana (kuromoji) and a glossary of its words.
  *   --jmdict <jmdict-eng.json>   rebuild data/dictionary.json from a jmdict-simplified release
  *   --untranslated <file>        write the sentences still missing from translations.json
+ *   --tatoeba <dir>              rebuild data/tatoeba.json (word example sentences) from Tatoeba exports
+ *   --kanjidic <kanjidic2-en.json> --kanjivg <kanji dir>
+ *                                rebuild data/kanji.json from a jmdict-simplified KANJIDIC2 release and
+ *                                the kanji/ folder of a KanjiVG main release
  *
  * Questions that can't be used as-is (no answer key, lost choices, missing
  * passage) are skipped and listed in the report this script prints.
@@ -28,7 +35,9 @@ import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { toHiragana } from 'wanakana'
-import { addFurigana, contentWords, loadTokenizer, lookupWord, makeDictionary } from './japanese.mjs'
+import { pickTatoeba } from './tatoeba.mjs'
+import { KANJI_NOTE, kanjiIn, makeKanjiData } from './kanji.mjs'
+import { addFurigana, contentWords, lemmaForReading, loadTokenizer, lookupWord, makeDictionary, misreadings, verbAlternates } from './japanese.mjs'
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const SRC = path.join(ROOT, 'data')
@@ -148,8 +157,11 @@ function buildKanjiDeck(level, words, report) {
 
   return cards.map((card) => {
     const rand = rng(`${level}:${card.word}`)
-    // Distractors: other readings of similar length, preferring ones that share
-    // the first or last kana with the answer so the choice isn't trivial.
+    // Distractors the way the JLPT writes them: near misses of the right
+    // reading (こたえ → ごたえ, こだえ, こうたえ), never another real reading.
+    const near = misreadings(card.word, card.reading, rand, 3, new Set(readings))
+    // Fallback for the odd word that can't make three: other readings of a
+    // similar length that share the first or last kana with the answer.
     const scored = readings
       .filter((r) => r !== card.reading)
       .map((r) => {
@@ -166,7 +178,7 @@ function buildKanjiDeck(level, words, report) {
       kind: 'words',
       prompt: PROMPTS[level].kanji,
       target: `**${card.word}**`,
-      choices: [card.reading, ...scored.slice(0, 3).map((s) => s.r)],
+      choices: [card.reading, ...near, ...scored.slice(0, 3 - near.length).map((s) => s.r)],
       answer: 0,
       explanation: `${card.word}（${card.reading}）— ${card.meaning}`,
     }
@@ -519,12 +531,28 @@ function bankSentences(questions) {
 }
 
 const MAX_EXAMPLES = 8
+/** Word pages show at most this many examples, the word page's own first, then Tatoeba's. */
+const MAX_WITH_TATOEBA = 10
+const TATOEBA_NOTE = 'Example sentences from Tatoeba (https://tatoeba.org), CC BY 2.0 FR; most Japanese/English pairs come from the '
+  + 'public-domain Tanaka Corpus. Keyed by word id, each with its Tatoeba sentence id. '
+  + 'Regenerate with: npm run data -- --tatoeba <dir with jpn_indices.csv, jpn_sentences.tsv, eng_sentences.tsv>'
+
+/** The word page's own examples, then Tatoeba's (as `tatoeba: <sentence id>`), without repeats. */
+function withTatoeba(own, extra) {
+  const have = new Set(own.map((x) => plain(x.ja)))
+  const added = extra
+    .filter((t) => !have.has(plain(t.ja)))
+    .slice(0, Math.max(0, MAX_WITH_TATOEBA - own.length))
+    .map((t) => ({ ja: t.ja, en: t.en, tatoeba: t.id }))
+  return [...own, ...added]
+}
 
 function buildWords(level, questions) {
   const list = readOptional(`jlpt_${level}_vocab_list.json`)
   const file = path.join(OUT_DATA, `${level}-words.json`)
   if (!list.length) return fs.rmSync(file, { force: true }), null
   const sentences = bankSentences(questions)
+  const tatoeba = readOptional('tatoeba.json').words ?? {}
   const headwords = list.flatMap((e) => e.word.replace(/\s+/g, '').split(/[/／]/))
   const ids = new Set()
   const words = list.map((e) => {
@@ -550,7 +578,10 @@ function buildWords(level, questions) {
       fullMeaning: d.meaning && d.meaning !== e.meaning ? d.meaning : undefined,
       type: type || undefined,
       spellings: spellings.length ? spellings : undefined,
-      examples: (d.examples ?? []).slice(0, MAX_EXAMPLES).map((x) => ({ ...x, ja: highlight(x.ja, forms) ?? x.ja })),
+      examples: withTatoeba(
+        (d.examples ?? []).slice(0, MAX_EXAMPLES).map((x) => ({ ...x, ja: highlight(x.ja, forms) ?? x.ja })),
+        tatoeba[id] ?? [],
+      ),
       similar: d.similar?.length ? d.similar : undefined,
       conjugation: d.conjugation,
       url: e.url ?? undefined,
@@ -560,7 +591,12 @@ function buildWords(level, questions) {
         .slice(0, 3),
     }
   })
-  const withRuby = words.map((w) => ({ ...w, examples: w.examples.map(rubyExample), inBank: w.inBank.map(rubyExample) }))
+  const withRuby = words.map((w) => ({
+    ...w,
+    similar: w.similar?.map((s) => addFurigana(tokenizer, s)),
+    examples: w.examples.map(rubyExample),
+    inBank: w.inBank.map(rubyExample),
+  }))
   fs.writeFileSync(file, JSON.stringify({ level: level.toUpperCase(), words: withRuby }))
   return {
     total: words.length,
@@ -604,9 +640,12 @@ function buildParticles(byLevel) {
   }))
   const bank = Object.fromEntries(byLevel.map(({ level, questions }) =>
     [level.toUpperCase(), questions.filter(isParticleQuestion).map((q) => q.id)]))
+  const ruby = (s) => addFurigana(tokenizer, s)
   const withRuby = contrasts.map((c) => ({
     ...c,
-    points: c.points.map((pt) => ({ ...pt, examples: pt.examples.map(rubyExample) })),
+    title: ruby(c.title),
+    summary: ruby(c.summary),
+    points: c.points.map((pt) => ({ ...pt, rule: ruby(pt.rule), examples: pt.examples.map(rubyExample) })),
     drills: c.drills.map(withFurigana),
   }))
   fs.writeFileSync(file, JSON.stringify({ note: src.note, contrasts: withRuby, bank }))
@@ -741,6 +780,14 @@ function assignBank(level, patterns, questions) {
   for (const p of patterns) p.inBank = found.get(p).slice(0, BANK_PER_PATTERN)
 }
 
+/**
+ * japanesejlpt ends most lessons with a card advertising its paid course
+ * ("6 more examples in the grammar path — free for a limited time."), which
+ * the scrape keeps as if it were an example.
+ */
+const TEASER = /grammar path|limited time|more examples in/i
+const isTeaser = (ex) => TEASER.test(`${ex.en ?? ''} ${ex.romaji ?? ''}`)
+
 function buildGrammar(level, questions) {
   const merged = mergeGrammar(level)
   const file = path.join(OUT_DATA, `${level}-grammar.json`)
@@ -759,7 +806,7 @@ function buildGrammar(level, questions) {
     ])].sort((a, b) => b.length - a.length)
     const siteExamples = site.flatMap((s) => s.page?.examples ?? []).slice(0, MAX_SITE_EXAMPLES)
     const examples = [
-      ...(lesson?.examples ?? []).map(({ section, ...ex }) => ex),
+      ...(lesson?.examples ?? []).filter((ex) => !isTeaser(ex)).map(({ section, ...ex }) => ex),
       ...siteExamples.map((ex) => ({ ...ex, ja: highlightPattern(ex.ja, pieces) })),
     ]
     const id = `${level}-g-${hashText(patternKey(pattern) + '|' + (lesson?.url ?? first.url ?? first.pattern))}`
@@ -772,7 +819,8 @@ function buildGrammar(level, questions) {
       goal: lesson?.goal,
       chapter: lesson?.chapter ?? undefined,
       formation,
-      notes: page.notes ?? [],
+      // Drop page furniture the scrape picked up as notes ("Click on image to view full size.").
+      notes: (page.notes ?? []).filter((n) => !/click on image|cliquez|view full size/i.test(n)),
       sections: lesson?.sections ?? [],
       examples,
       sources: [
@@ -818,8 +866,14 @@ function buildGrammar(level, questions) {
       .filter(Boolean)
   }
 
+  const ruby = (s) => addFurigana(tokenizer, s)
   const withRuby = patterns.map(({ pieces, ...p }) => ({
     ...p,
+    // The plain pattern stays for search and data/grammar-links.json.
+    patternRuby: ruby(p.pattern),
+    formation: p.formation.map(ruby),
+    notes: p.notes.map(ruby),
+    sections: p.sections.map((s) => ({ ...s, heading: ruby(s.heading), text: s.text.map(ruby) })),
     examples: p.examples.map(rubyExample),
     inBank: p.inBank.map(rubyExample),
     drills: p.drills.map(withFurigana),
@@ -845,6 +899,75 @@ function copyIfChanged(from, to) {
 }
 
 /* ------------------------------------------------------------------ */
+/* kanji pages                                                         */
+/* ------------------------------------------------------------------ */
+
+const KANJI_FILE = path.join(SRC, 'kanji.json')
+const STROKES_FILE = path.join(OUT_DATA, 'kanji-strokes.json')
+
+/**
+ * One page per kanji in a level's word list, with the list words that use it.
+ * The stroke paths go in their own file, shared by both levels, so the list
+ * page doesn't download them.
+ */
+function buildKanji() {
+  const words = Object.fromEntries(LEVELS.map((lv) => {
+    const file = path.join(OUT_DATA, `${lv}-words.json`)
+    return [lv, fs.existsSync(file) ? readJSON(file).words : []]
+  }))
+
+  // --kanjidic/--kanjivg: rebuild the committed subset for every kanji the lists use.
+  const kanjidic = argAfter('--kanjidic')
+  const kanjivg = argAfter('--kanjivg')
+  if (kanjidic || kanjivg) {
+    if (!kanjidic || !kanjivg) throw new Error('--kanjidic and --kanjivg go together')
+    const chars = new Set(Object.values(words).flat().flatMap((w) => kanjiIn([w.word, ...(w.spellings ?? [])].join(''))))
+    const { kanji, missing } = makeKanjiData(kanjidic, kanjivg, chars)
+    fs.writeFileSync(KANJI_FILE, JSON.stringify({ note: KANJI_NOTE, kanji }))
+    console.log(`Kanji: ${Object.keys(kanji).length} of ${chars.size} kanji → data/kanji.json`
+      + (missing.kanjidic.length ? ` (not in KANJIDIC2: ${missing.kanjidic.join('')})` : '')
+      + (missing.kanjivg.length ? ` (no KanjiVG strokes: ${missing.kanjivg.join('')})` : ''))
+  }
+
+  const all = readOptional('kanji.json').kanji ?? {}
+  if (!Object.keys(all).length) {
+    for (const lv of LEVELS) fs.rmSync(path.join(OUT_DATA, `${lv}-kanji.json`), { force: true })
+    fs.rmSync(STROKES_FILE, { force: true })
+    return null
+  }
+
+  const strokes = {}
+  for (const [ch, k] of Object.entries(all)) if (k.paths) strokes[ch] = { paths: k.paths, numbers: k.numbers }
+  fs.writeFileSync(STROKES_FILE, JSON.stringify(strokes))
+
+  // Headwords only: a kanji in a rare alternative spelling isn't one to learn at this level.
+  const levelChars = Object.fromEntries(LEVELS.map((lv) => [lv, new Set(words[lv].flatMap((w) => kanjiIn(w.word)))]))
+  const counts = {}
+  for (const [i, lv] of LEVELS.entries()) {
+    const earlier = LEVELS.slice(0, i).map((l) => levelChars[l])
+    const list = [...levelChars[lv]]
+      .filter((ch) => all[ch])
+      .map((ch) => {
+        const { paths, numbers, ...k } = all[ch]
+        return {
+          char: ch,
+          ...k,
+          // Learned at an easier level already (N4 kanji on the N3 list).
+          earlier: earlier.some((s) => s.has(ch)) || undefined,
+          words: words[lv]
+            .filter((w) => w.word.includes(ch))
+            .map((w) => ({ id: w.id, word: w.word, kana: w.kana, meaning: w.meaning })),
+        }
+      })
+      // Most-used kanji first (KANJIDIC2 newspaper frequency rank), then the rest by stroke count.
+      .sort((a, b) => (a.freq ?? 1e4) - (b.freq ?? 1e4) || a.strokes - b.strokes)
+    fs.writeFileSync(path.join(OUT_DATA, `${lv}-kanji.json`), JSON.stringify({ level: lv.toUpperCase(), kanji: list }))
+    counts[lv] = { total: list.length, earlier: list.filter((k) => k.earlier).length, missing: levelChars[lv].size - list.length }
+  }
+  return { counts, strokes: Object.keys(strokes).length }
+}
+
+/* ------------------------------------------------------------------ */
 /* furigana, glossary, translations                                    */
 /* ------------------------------------------------------------------ */
 
@@ -857,7 +980,9 @@ const rubyExample = (ex) => ({ ...ex, ja: addFurigana(tokenizer, ex.ja) })
 /** Furigana on every field; a kanji question keeps its tested word and choices bare. */
 function withFurigana(q) {
   const kanji = q.section === 'kanji'
-  const f = (s, opts) => (s ? addFurigana(tokenizer, s, opts) : s)
+  const k = knownReading(q)
+  const known = k ? [k] : []
+  const f = (s, opts) => (s ? addFurigana(tokenizer, s, { known, ...opts }) : s)
   return {
     ...q,
     prompt: f(q.prompt),
@@ -866,6 +991,19 @@ function withFurigana(q) {
     choices: kanji ? q.choices : q.choices.map((c) => f(c)),
     explanation: f(q.explanation),
   }
+}
+
+/**
+ * A kanji question's tested word with its right reading, taken from the
+ * question itself, so the tokenizer's guess can be overridden: it reads
+ * 通って as とおって (通る) when the answer is かよって (通う).
+ */
+function knownReading(q) {
+  if (q.section !== 'kanji' || (q.kind !== 'reading' && q.kind !== 'writing')) return null
+  const bold = plain((q.target ?? '').match(/\*\*(.+?)\*\*/)?.[1] ?? '')
+  const answer = plain(q.choices[q.answer] ?? '')
+  if (!bold || !answer) return null
+  return q.kind === 'reading' ? { surface: bold, reading: answer } : { surface: answer, reading: bold }
 }
 
 const GLOSS_MAX = 12
@@ -885,8 +1023,20 @@ const glossaryText = (q) =>
 function withGlossary(q, dict) {
   const have = new Set((q.glossary ?? []).map((g) => g.word))
   const added = []
-  for (const { lemma, reading } of contentWords(tokenizer, glossaryText(q))) {
-    const d = lookupWord(dict, lemma, reading)
+  // The tested word of a kanji question: use the dictionary form that fits
+  // its known reading, or leave it out rather than list the wrong word.
+  const k = knownReading(q)
+  const guessed = k && contentWords(tokenizer, k.surface)[0]?.lemma
+  const fixed = k && lemmaForReading(tokenizer, dict, k.surface, k.reading)
+  for (const word of contentWords(tokenizer, glossaryText(q))) {
+    let { lemma, reading } = word
+    let d
+    if (guessed && lemma === guessed) {
+      if (!fixed?.entry) continue
+      lemma = fixed.lemma
+      d = fixed.entry
+      reading = undefined
+    } else d = lookupWord(dict, lemma, reading)
     if (!d || have.has(lemma)) continue
     have.add(lemma)
     added.push({ word: lemma, reading: hasKanji(lemma) ? d.r ?? reading : undefined, meaning: d.m })
@@ -980,12 +1130,30 @@ function buildLevel(level) {
 const results = LEVELS.map(buildLevel)
 const particles = buildParticles(results)
 
+// --tatoeba <dir>: pick example sentences for every list word, save the
+// subset to data/tatoeba.json, then rebuild the word files with them.
+const tatoebaDir = argAfter('--tatoeba')
+if (tatoebaDir) {
+  const wordsByLevel = Object.fromEntries(LEVELS.map((lv) => {
+    const file = path.join(OUT_DATA, `${lv}-words.json`)
+    return [lv, fs.existsSync(file) ? readJSON(file).words : []]
+  }))
+  const picked = await pickTatoeba(tatoebaDir, wordsByLevel)
+  fs.writeFileSync(path.join(SRC, 'tatoeba.json'), JSON.stringify({ note: TATOEBA_NOTE, words: picked }))
+  console.log(`Tatoeba: sentences for ${Object.keys(picked).length} words → data/tatoeba.json`)
+  for (const r of results) r.words = buildWords(r.level, r.questions)
+}
+
+const kanji = buildKanji()
+
 // Questions are written last: the glossary and furigana go on after the word
 // and grammar pages have searched the plain sentences.
 const jmdict = argAfter('--jmdict')
 if (jmdict) {
+  // Alternates too (通る → 通う): the tested word of a kanji question may be
+  // a different verb than the tokenizer guessed.
   const lemmas = new Set(results.flatMap(({ questions }) =>
-    questions.flatMap((q) => contentWords(tokenizer, glossaryText(q)).map((w) => w.lemma))))
+    questions.flatMap((q) => contentWords(tokenizer, glossaryText(q)).flatMap((w) => [w.lemma, ...verbAlternates(w.lemma)]))))
   const dict = makeDictionary(jmdict, lemmas)
   fs.writeFileSync(DICT_FILE, JSON.stringify({ note: DICT_NOTE, words: dict }))
   console.log(`Dictionary: ${Object.keys(dict).length} of ${lemmas.size} words found in JMdict → data/dictionary.json`)
@@ -1008,6 +1176,9 @@ for (const { level, report, total, media, copied, words, patterns: grammar } of 
   else console.log(`  words          — no data/jlpt_${level}_vocab_list.json, word browser disabled`)
   if (grammar) console.log(`  patterns    ${String(grammar.total).padStart(4)} → public/data/${level}-grammar.json  (${grammar.lessons} with a lesson, ${grammar.drills} drills, ${grammar.noExamples} without examples)`)
   else console.log(`  patterns       — no grammar pattern files in data/`)
+  const kc = kanji?.counts[level]
+  if (kc) console.log(`  kanji pages ${String(kc.total).padStart(4)} → public/data/${level}-kanji.json  (${kc.earlier} also at an earlier level${kc.missing ? `, ${kc.missing} not in data/kanji.json` : ''})`)
+  else console.log(`  kanji pages    — no data/kanji.json, kanji pages disabled`)
   for (const sec of new Set([...Object.keys(report.kept), ...Object.keys(report.skipped)])) {
     const n = report.kept[sec] ?? 0
     const skipped = Object.entries(report.skipped[sec] ?? {}).map(([why, k]) => `${k} ${why}`).join(', ')

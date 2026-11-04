@@ -5,8 +5,106 @@
   --font-jp: "Noto Sans JP", "Hiragino Sans", "Yu Gothic", sans-serif;
   --font-jp-serif: "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif;
 
-  --color-accent: oklch(0.58 0.19 25);       /* vermilion, like a hanko stamp */
+  --color-accent: oklch(0.55 0.19 25);       /* vermilion, like a hanko stamp */
   --color-accent-soft: oklch(0.95 0.03 25);
+  /* The accent for fills behind white text (the logo): stays deep in dark mode. */
+  --color-hanko: oklch(0.55 0.19 25);
+
+  /* Muted text greys, tuned so they pass WCAG AA (4.5:1) on the page and on
+     cards: Tailwind's stone-400 is only 2.5:1 on a light background.
+     stone-500 is darkened too, to stay a step below. Dark mode below. */
+  --color-stone-400: oklch(0.54 0.011 56.3);
+  --color-stone-500: oklch(0.48 0.013 58.1);
+}
+
+/*
+ * Gap colors: each numbered gap in a passage gets its own hue, the same in
+ * the passage, its question and the translation (src/components/JP.tsx, Gap).
+ * --gap-0 is the plain blank （　　）; ★ uses the accent. Tuned for 4.5:1 text
+ * on the badge tint in both themes.
+ */
+:root {
+  --gap-0: oklch(0.48 0.013 58);
+  --gap-1: oklch(0.52 0.19 25);   /* vermilion */
+  --gap-2: oklch(0.5 0.16 255);   /* blue */
+  --gap-3: oklch(0.5 0.13 150);   /* green */
+  --gap-4: oklch(0.52 0.13 65);   /* amber */
+  --gap-5: oklch(0.5 0.17 305);   /* violet */
+  --gap-on: white;                /* text on a solid (active) gap */
+}
+
+/* Dark mode follows the system setting (Tailwind's default `dark:` variant). */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --gap-0: oklch(0.72 0.012 58);
+    --gap-1: oklch(0.74 0.15 25);
+    --gap-2: oklch(0.75 0.12 255);
+    --gap-3: oklch(0.76 0.13 150);
+    --gap-4: oklch(0.8 0.13 75);
+    --gap-5: oklch(0.75 0.14 305);
+    --gap-on: oklch(0.147 0.004 49.25);
+  }
+}
+
+@layer components {
+  .gap {
+    --gap: var(--gap-0);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.35em;
+    min-width: 1.7em;
+    height: 1.45em;
+    margin: 0 0.15em;
+    padding: 0 0.45em;
+    border: 1px solid color-mix(in oklch, var(--gap) 50%, transparent);
+    border-radius: 0.45em;
+    background: color-mix(in oklch, var(--gap) 10%, transparent);
+    color: var(--gap);
+    font-family: var(--font-sans);
+    font-size: 0.8em;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    line-height: 1;
+    vertical-align: 0.12em;
+    white-space: nowrap;
+    transition: opacity 150ms, background-color 150ms;
+  }
+  /* ★ is one of the slots in a sentence-order row, so it's as wide as the blanks beside it. */
+  .gap[data-kind='blank'], .gap[data-kind='star'] { min-width: 3.2em; }
+  .gap[data-kind='star'] { --gap: var(--color-accent); }
+  .gap[data-n='1'] { --gap: var(--gap-1); }
+  .gap[data-n='2'] { --gap: var(--gap-2); }
+  .gap[data-n='3'] { --gap: var(--gap-3); }
+  .gap[data-n='4'] { --gap: var(--gap-4); }
+  .gap[data-n='5'] { --gap: var(--gap-5); }
+  .gap[data-active] { background: var(--gap); border-color: var(--gap); color: var(--gap-on); }
+  .gap[data-muted] { opacity: 0.6; }
+  .gap-num { font-size: 0.85em; opacity: 0.8; }
+  .gap-fill { font-family: var(--font-jp); font-size: 1.15em; font-weight: 500; }
+
+  /* Kanji stroke order (src/pages/Kanji.tsx): each stroke draws itself in
+     turn. Paths use pathLength="1", so a dash of 1 is the whole stroke. */
+  .stroke-draw {
+    stroke-dasharray: 1;
+    stroke-dashoffset: 1;
+    animation: stroke-draw var(--stroke-time, 0.5s) ease-in-out var(--stroke-delay, 0s) forwards;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .stroke-draw { animation: none; stroke-dashoffset: 0; }
+  }
+}
+
+@keyframes stroke-draw {
+  to { stroke-dashoffset: 0; }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-accent: oklch(0.66 0.17 25);
+    --color-stone-400: oklch(0.709 0.01 56.259); /* Tailwind's own, 7.6:1 on stone-950 */
+    --color-stone-500: oklch(0.64 0.012 58);     /* 4.1 → 5.9:1 */
+  }
 }
 
 @layer base {

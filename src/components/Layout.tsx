@@ -25,7 +25,7 @@ export function Layout({ back, title, right, children, wide }: {
             </Link>
           ) : (
             <Link to="/" className="flex items-center gap-2 font-semibold tracking-tight">
-              <span className="grid size-7 place-items-center rounded-md bg-accent font-jp-serif text-sm text-white">鉄</span>
+              <span className="grid size-7 place-items-center rounded-md bg-hanko font-jp-serif text-sm text-white">鉄</span>
               Tetsuya
             </Link>
           )}
@@ -44,6 +44,10 @@ export function Layout({ back, title, right, children, wide }: {
         </div>
       </header>
       <main className={cn('mx-auto w-full flex-1 px-4 py-8 sm:px-6 sm:py-12', width)}>{children}</main>
+      {/* Sources and licences live on one page instead of on every page that uses them. */}
+      <footer className={cn('mx-auto w-full px-4 pb-8 text-center text-xs text-stone-400 sm:px-6', width)}>
+        <Link to="/credits" className="underline-offset-4 hover:text-stone-900 hover:underline dark:hover:text-stone-100">Credits and licences</Link>
+      </footer>
     </div>
   )
 }
@@ -92,7 +96,7 @@ type ButtonOwnProps = { variant?: ButtonVariant; size?: ButtonSize; count?: numb
 
 /** A number shown inside a button: "Drill all  84". */
 function Count({ n }: { n?: number }) {
-  return n === undefined ? null : <span className="tabular-nums opacity-60">{n}</span>
+  return n === undefined ? null : <span className="tabular-nums opacity-70">{n}</span>
 }
 
 export function Button({ variant, size, count, className, children, ...props }: ButtonHTMLAttributes<HTMLButtonElement> & ButtonOwnProps) {
@@ -125,6 +129,34 @@ export function TextButton({ tone = 'neutral', className, ...props }: ButtonHTML
         className,
       )}
     />
+  )
+}
+
+/**
+ * A TextButton that asks inline before acting, instead of the browser's
+ * confirm() dialog (which freezes the page while it waits, and shows up as a
+ * very slow interaction). Cancels itself after a few seconds.
+ */
+export function ConfirmTextButton({ question, confirmLabel, onConfirm, tone, children }: {
+  question: string
+  confirmLabel: string
+  onConfirm: () => void
+  tone?: 'neutral' | 'danger'
+  children: ReactNode
+}) {
+  const [asking, setAsking] = useState(false)
+  useEffect(() => {
+    if (!asking) return
+    const t = setTimeout(() => setAsking(false), 6000)
+    return () => clearTimeout(t)
+  }, [asking])
+  if (!asking) return <TextButton tone={tone} onClick={() => setAsking(true)}>{children}</TextButton>
+  return (
+    <div role="alertdialog" aria-label={question} className="flex flex-wrap items-center justify-center gap-3 text-sm">
+      <span className="text-stone-600 dark:text-stone-300">{question}</span>
+      <Button size="sm" autoFocus onClick={() => { setAsking(false); onConfirm() }}>{confirmLabel}</Button>
+      <Button size="sm" variant="ghost" onClick={() => setAsking(false)}>Cancel</Button>
+    </div>
   )
 }
 
