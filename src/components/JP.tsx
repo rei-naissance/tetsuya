@@ -79,9 +79,10 @@ function Gap({ gap, options }: { gap: GapMatch; options?: GapOptions }) {
       data-n={gap.kind === 'numbered' ? ((gap.n! - 1) % 5) + 1 : undefined}
       data-active={active || undefined}
       data-muted={muted || undefined}
+      data-filled={fill ? '' : undefined}
       aria-label={gap.kind === 'numbered' ? `gap ${gap.n}` : gap.kind === 'star' ? 'star slot' : 'blank'}
     >
-      {fill ? <><span className="gap-num">{label}</span><span lang="ja" className="gap-fill">{parse(fill)}</span></> : label}
+      {fill ? <>{label && <span className="gap-num">{label}</span>}<span lang="ja" className="gap-fill">{parse(fill)}</span></> : label}
     </span>
   )
 }
