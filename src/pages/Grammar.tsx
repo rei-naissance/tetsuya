@@ -210,6 +210,7 @@ export function GrammarDetail({ level, patterns, pattern: p }: { level: Level; p
               // The id in the tooltip is what data/grammar-links.json uses to hide or add a sentence.
               <div key={ex.qid} title={ex.qid}>
                 <JP as="p" text={ex.ja} className="text-lg leading-loose" />
+                {ex.en && <p className="text-sm text-stone-500">{ex.en}</p>}
               </div>
             ))}
           </div>

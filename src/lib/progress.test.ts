@@ -7,12 +7,17 @@ const tried = (lastCorrect: boolean, at = 1) => ({ seen: 1, correct: lastCorrect
 describe('pickSet', () => {
   const attempts: AttemptMap = { a: tried(true, 5), b: tried(false), c: tried(true, 1) }
 
-  it('serves unseen questions first, then mistakes, then the oldest right answers', () => {
+  it('picks unseen questions first, then mistakes, then the oldest right answers', () => {
     for (let i = 0; i < 20; i++) {
-      const ids = pickSet(qs, 6, 'next', attempts).map((q) => q.id)
-      expect(new Set(ids.slice(0, 3))).toEqual(new Set(['d', 'e', 'f']))
-      expect(ids.slice(3)).toEqual(['b', 'c', 'a'])
+      expect(new Set(pickSet(qs, 3, 'next', attempts).map((q) => q.id))).toEqual(new Set(['d', 'e', 'f']))
+      expect(new Set(pickSet(qs, 5, 'next', attempts).map((q) => q.id))).toEqual(new Set(['d', 'e', 'f', 'b', 'c']))
     }
+  })
+
+  it('shuffles the set it picked, so a restudy comes in a new order', () => {
+    const seenAll: AttemptMap = Object.fromEntries(qs.map((q, i) => [q.id, tried(true, i)]))
+    const orders = new Set(Array.from({ length: 30 }, () => pickSet(qs, 6, 'next', seenAll).map((q) => q.id).join('')))
+    expect(orders.size).toBeGreaterThan(1)
   })
 
   it('limits the set size', () => {

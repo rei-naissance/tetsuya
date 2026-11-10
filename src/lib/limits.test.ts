@@ -79,6 +79,18 @@ describe('daily limits', () => {
     expect(buildQueue(ids, reading, { ...limits, maxReviews: 0 }, {}, noon)).toHaveLength(5)
   })
 
+  it('keeps the most overdue reviews under the limit, in a shuffled order', () => {
+    const ids = ['a', 'b', 'c', 'd', 'e', 'f']
+    ids.forEach((id, i) => saveCard(id, review(noon - (10 - i) * HOUR))) // a is the most overdue
+    const orders = new Set<string>()
+    for (let i = 0; i < 30; i++) {
+      const q = buildQueue(ids, reading, limits, {}, noon)
+      expect(new Set(q)).toEqual(new Set(['a', 'b', 'c']))
+      orders.add(q.join(''))
+    }
+    expect(orders.size).toBeGreaterThan(1)
+  })
+
   it('review ahead takes graduated cards due soon, ignoring the limits', () => {
     saveCard('soon', review(noon + 2 * DAY))
     saveCard('later', review(noon + 10 * DAY))

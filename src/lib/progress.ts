@@ -67,11 +67,15 @@ export function pickSet<Q extends { id: string; group?: string }>(
     ? ranked.filter((g) => g.members.some((q) => rank(q) === 1))
     : ranked.sort((a, b) => a.rank - b.rank || (a.rank === 2 ? a.at - b.at : 0))
 
-  const out: Q[] = []
+  // The ranking decides WHICH questions make the set; the set itself comes in
+  // a fresh order, so a restudy isn't the last session replayed.
+  const chosen: Q[][] = []
+  let count = 0
   for (const { members } of pool) {
-    if (out.length >= n) break
-    if (out.length > 0 && out.length + members.length > n + 2) continue
-    out.push(...members)
+    if (count >= n) break
+    if (count > 0 && count + members.length > n + 2) continue
+    chosen.push(members)
+    count += members.length
   }
-  return out
+  return shuffle(chosen).flat()
 }

@@ -2,11 +2,88 @@
   "note": "Hand corrections for 'In this app's questions' on grammar pattern pages. Per level, key = the pattern exactly as the app shows it; 'hide' drops a question from that pattern, 'add' puts one first. Question ids show when you hover a sentence on the pattern page.",
   "n4": {
     "～らしいです (report)": {
-      "hide": ["n4-grammar-test4-q10", "n4-grammar-test23-q5"]
+      "hide": [
+        "n4-grammar-test4-q10",
+        "n4-grammar-test23-q5"
+      ]
     },
     "～らしい (typical)": {
-      "hide": ["n4-grammar-ex9-q9"]
+      "hide": [
+        "n4-grammar-ex9-q9"
+      ]
+    },
+    "～て・～くて・～で・～なくて (reason)": {
+      "hide": [
+        "n4-grammar-ex6-q2",
+        "n4-grammar-ex21-q10"
+      ]
+    },
+    "～そうです (hearsay)": {
+      "hide": [
+        "n4-grammar-ex6-q6",
+        "n4-grammar-test8-q6"
+      ]
+    },
+    "～ため・～ために (cause)": {
+      "hide": [
+        "n4-grammar-test9-q8",
+        "n4-grammar-test28-q3"
+      ]
+    },
+    "～のに (for doing)": {
+      "hide": [
+        "n4-grammar-ex1-q1",
+        "n4-grammar-ex7-q5"
+      ]
+    },
+    "～のに (although)": {
+      "hide": [
+        "n4-grammar-ex2-q1"
+      ]
+    },
+    "～でも (suggestion)": {
+      "hide": [
+        "n4-grammar-ex27-q4"
+      ]
+    },
+    "Question word + でも": {
+      "hide": [
+        "n4-grammar-ex11-q3",
+        "n4-grammar-test15-q3"
+      ]
+    },
+    "～間に": {
+      "hide": [
+        "n4-grammar-test15-q10"
+      ]
+    },
+    "～ても": {
+      "hide": [
+        "n4-grammar-ex7-q2",
+        "n4-grammar-ex25-q3"
+      ]
     }
   },
-  "n3": {}
+  "n3": {
+    "ことか": {
+      "hide": [
+        "n3-grammar-ex12-q10"
+      ]
+    },
+    "ほど～ない": {
+      "hide": [
+        "n3-grammar-ex9-q7"
+      ]
+    },
+    "ものだ": {
+      "hide": [
+        "n3-grammar-ex14-q4"
+      ]
+    },
+    "わりに": {
+      "hide": [
+        "n3-grammar-ex4-q10"
+      ]
+    }
+  }
 }

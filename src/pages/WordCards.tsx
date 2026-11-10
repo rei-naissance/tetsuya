@@ -9,7 +9,7 @@ import type { Level, Word } from '../lib/types'
 import { useKeys } from '../lib/useKeys'
 import { useSrsSession } from '../lib/useSrsSession'
 import { wordDeck, wordStats } from '../lib/words'
-import { GradeButtons, SessionCounts, SessionDone } from './Review'
+import { GradeButtons, KnownNotice, SessionCounts, SessionDone } from './Review'
 import { Example } from './WordDetail'
 
 /**
@@ -55,6 +55,8 @@ function Session({ words, byId, deck, limits, aheadDays, back, onRestart, onAhea
   const ids = useMemo(() => words.map((w) => w.id), [words])
   const s = useSrsSession(ids, deck, limits, { newOrder: true, aheadDays })
   const [flipped, setFlipped] = useState(false)
+  // "I already know this": the card flips to show the answer before it's put away.
+  const [known, setKnown] = useState(false)
   const [initial] = useState(s.counts.fresh + s.counts.learning + s.counts.review)
   const w = s.current ? byId.get(s.current) : undefined
 
@@ -62,10 +64,20 @@ function Session({ words, byId, deck, limits, aheadDays, back, onRestart, onAhea
     if (!flipped) return
     s.grade(g)
     setFlipped(false)
+    setKnown(false)
+  }
+  const confirmKnown = () => {
+    s.knowIt()
+    setFlipped(false)
+    setKnown(false)
   }
 
   useKeys((e) => {
     if (!w) return
+    if (known) {
+      if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); confirmKnown() }
+      return
+    }
     if (!flipped && (e.key === ' ' || e.key === 'Enter')) { e.preventDefault(); setFlipped(true); return }
     if (!flipped) return
     if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); grade('good') }
@@ -128,12 +140,14 @@ function Session({ words, byId, deck, limits, aheadDays, back, onRestart, onAhea
       )}
 
       <div className="mt-8 min-h-20">
-        {flipped ? (
+        {known ? (
+          <KnownNotice onContinue={confirmKnown} onStudy={() => grade('again')} />
+        ) : flipped ? (
           <GradeButtons card={s.card} onGrade={grade} />
         ) : (
           <Actions align="between">
             <p className="text-sm text-stone-400">Space to flip</p>
-            {s.isNew && <TextButton onClick={() => s.knowIt()}>I already know this</TextButton>}
+            {s.isNew && <TextButton onClick={() => { setKnown(true); setFlipped(true) }}>I already know this</TextButton>}
           </Actions>
         )}
       </div>

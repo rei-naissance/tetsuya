@@ -60,11 +60,15 @@ export function useSrsSession(ids: string[], deck: string, limits: Limits, opts:
   return { current, card, isNew, counts, grade, knowIt, tally, done: !current }
 }
 
-/** A learning card that's due, else the queue, else a learning card due soon. */
+/**
+ * A learning card that's due, else the queue, else a learning card due soon.
+ * When several learning cards are due at once, any of them: missed cards
+ * otherwise come back in exactly the order they were missed.
+ */
 function pickNext(queue: string[], learning: string[], now = Date.now()): string | undefined {
   const cards = loadCards()
-  const dueLearning = learning.find((id) => cards[id].due <= now)
-  if (dueLearning) return dueLearning
+  const dueLearning = learning.filter((id) => cards[id].due <= now)
+  if (dueLearning.length) return dueLearning[Math.floor(Math.random() * dueLearning.length)]
   if (queue.length) return queue[0]
   const soon = learning[0]
   // Steps are at most 10 minutes, so this always picks one up: the session

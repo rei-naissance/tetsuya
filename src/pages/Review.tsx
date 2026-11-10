@@ -57,6 +57,8 @@ function ReviewSession({ level, section, kind, pool, aheadDays, onRestart }: {
   const s = useSrsSession(ids, deck, limits, { aheadDays })
   const [turn, setTurn] = useState(0) // bumps every card, so a repeated card gets freshly shuffled choices
   const [selected, setSelected] = useState<number | null>(null)
+  // "I already know this": the answer is shown before the card is put away.
+  const [known, setKnown] = useState(false)
   const [initial] = useState(s.counts.fresh + s.counts.learning + s.counts.review)
 
   const q = useMemo(() => (s.current ? shuffleChoices(byId.get(s.current)!) : null), [s.current, turn, byId])
@@ -67,16 +69,33 @@ function ReviewSession({ level, section, kind, pool, aheadDays, onRestart }: {
     if (reveal || !q) return
     setSelected(i)
   }
+  const next = () => {
+    setSelected(null)
+    setKnown(false)
+    setTurn((t) => t + 1)
+  }
   const grade = (g: Grade) => {
     if (!reveal) return
     s.grade(g, wasCorrect)
-    setSelected(null)
-    setTurn((t) => t + 1)
+    next()
+  }
+  const knowIt = () => {
+    if (!q) return
+    setKnown(true)
+    setSelected(q.answer)
+  }
+  const confirmKnown = () => {
+    s.knowIt()
+    next()
   }
 
   useKeys((e) => {
     if (!q) return
     const n = Number(e.key)
+    if (known) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); confirmKnown() }
+      return
+    }
     if (!reveal) {
       if (n >= 1 && n <= q.choices.length) choose(n - 1)
       return
@@ -117,18 +136,35 @@ function ReviewSession({ level, section, kind, pool, aheadDays, onRestart }: {
         {!reveal && (
           <Actions align="between">
             <p className="text-sm text-stone-400">Press 1–4 to answer</p>
-            {s.isNew && <TextButton onClick={() => s.knowIt()}>I already know this</TextButton>}
+            {s.isNew && <TextButton onClick={knowIt}>I already know this</TextButton>}
           </Actions>
         )}
-        {reveal && !wasCorrect && (
+        {known && <KnownNotice onContinue={confirmKnown} onStudy={() => { s.grade('again', false); next() }} />}
+        {reveal && !known && !wasCorrect && (
           <Actions align="between">
             <p className="text-sm text-rose-600">Not quite: back in {previewInterval(s.card, 'again')}.</p>
             <Button onClick={() => grade('again')}>Continue <span aria-hidden>→</span></Button>
           </Actions>
         )}
-        {reveal && wasCorrect && <GradeButtons card={s.card} onGrade={grade} />}
+        {reveal && !known && wasCorrect && <GradeButtons card={s.card} onGrade={grade} />}
       </div>
     </Layout>
+  )
+}
+
+/**
+ * After "I already know this": the answer is on screen. Continue puts the
+ * card away for a month; if the answer was a surprise, study it like any new card.
+ */
+export function KnownNotice({ onContinue, onStudy }: { onContinue: () => void; onStudy: () => void }) {
+  return (
+    <Actions align="between">
+      <p className="text-sm text-stone-500">Marked as known: back in about a month.</p>
+      <div className="flex items-center gap-4">
+        <TextButton onClick={onStudy}>Study it after all</TextButton>
+        <Button onClick={onContinue}>Continue <span aria-hidden>→</span></Button>
+      </div>
+    </Actions>
   )
 }
 

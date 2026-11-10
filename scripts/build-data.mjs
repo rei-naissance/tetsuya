@@ -471,6 +471,9 @@ function convertKanjiTests(level, report) {
 /* vocabulary list → word browser (learn mode)                         */
 /* ------------------------------------------------------------------ */
 
+/** English for question sentences, by plain Japanese text (see withTranslation). */
+const TRANSLATIONS = readOptional('translations.json').texts ?? {}
+
 const plain = (s) => s.replace(/\{([^|}]+)\|[^}]+\}/g, '$1').replace(/\*\*/g, '')
 
 /**
@@ -494,17 +497,22 @@ function searchForms(word, spellings, kana, type) {
 // A one-kanji word only counts on its own, so 味 doesn't match inside 興味.
 // A one-kanji stem (合 of 合う) just needs kana after it: 性格合いません.
 const KANJI = /[一-龯㐀-䶿々]/
-function findForm(sentence, form, isStem) {
+/**
+ * Where `form` stands as a word of its own in `sentence`. A one-kanji form
+ * (味, or the stem 上 of 上る) must not touch another kanji on either side:
+ * otherwise it's part of a compound (興味, 屋上, 以上), not this word.
+ */
+function findForm(sentence, form) {
   for (let i = sentence.indexOf(form); i >= 0; i = sentence.indexOf(form, i + 1)) {
     if (form.length > 1) return i
-    if (!KANJI.test(sentence[i + 1] ?? '') && (isStem || !KANJI.test(sentence[i - 1] ?? ''))) return i
+    if (!KANJI.test(sentence[i + 1] ?? '') && !KANJI.test(sentence[i - 1] ?? '')) return i
   }
   return -1
 }
 
 function highlight(sentence, forms) {
   for (const f of forms) {
-    const i = findForm(sentence, f, forms.stems?.has(f))
+    const i = findForm(sentence, f)
     if (i >= 0) return `${sentence.slice(0, i)}**${f}**${sentence.slice(i + f.length)}`
   }
   return null
@@ -523,7 +531,7 @@ function bankSentences(questions) {
         const t = s.trim().replace(SPEAKER, '').replace(/^「|」$/g, '').trim()
         if (t.length < 8 || t.length > 80 || /[（(][\s　]*[)）]|★|_{2,}|[０-９]」|^[A-Za-z]/.test(t) || !hasKanji(t) || seen.has(t)) continue
         seen.add(t)
-        out.push({ ja: t, qid: q.id })
+        out.push({ ja: t, qid: q.id, en: TRANSLATIONS[t] ?? undefined })
       }
     }
   }
@@ -588,6 +596,8 @@ function buildWords(level, questions) {
       inBank: sentences
         .map((s) => ({ ...s, ja: highlight(s.ja, forms) }))
         .filter((s) => s.ja && !longer.some((h) => s.ja.replace(/\*\*/g, '').includes(/[ぁ-ん]$/.test(h) ? h.slice(0, -1) : h)))
+        // Sentences we have English for come first.
+        .sort((a, b) => (b.en ? 1 : 0) - (a.en ? 1 : 0))
         .slice(0, 3),
     }
   })
@@ -716,6 +726,63 @@ function alternativeKeys(pattern) {
 
 const BANK_PER_PATTERN = 3
 
+/** Do all of `parts` occur in `text`, one after another? */
+function inOrder(text, parts) {
+  let at = 0
+  for (const p of parts) {
+    const i = text.indexOf(p, at)
+    if (i < 0) return false
+    at = i + p.length
+  }
+  return true
+}
+
+/**
+ * What a question's answer is matched on: the pattern's own spellings. Each
+ * piece keeps the other parts of its spelling ("ば～ほど" → ば, ほど), which
+ * have to be in the sentence too. A te-form piece also matches with で
+ * (呼んでいただけませんか for ～ていただけませんか).
+ *
+ * Formation notes only add a phrase that is the pattern itself in context
+ * (のような for ～ような) or a form of its verb (いらっしゃいます for
+ * いらっしゃる): taken whole, they made generic bits like ます and ない match
+ * dozens of unrelated questions (～方's "ます-stem" made います a 方 question).
+ */
+function matchPieces(patternTexts, formation) {
+  const out = new Map()
+  const add = (text, parts) => { if (text && !out.has(text)) out.set(text, { text, parts }) }
+  for (const t of patternTexts) {
+    for (const alt of t.replace(/[(（][^)）]*[)）]/g, '').split(/[・/／]/)) {
+      const parts = alt.split(/[～〜~…]+/).map(patternKey).filter(Boolean)
+      if (!parts.length) continue
+      const multi = parts.length > 1 ? parts : []
+      for (const text of [...jaRuns(alt), ...alternativeKeys(alt)]) {
+        // One kana counts only as a suffix the pattern writes after ～ (～さ, ～ら, ～く).
+        if (text.length === 1 && !new RegExp(`[～〜]${text}(?![ぁ-ゟ])`).test(alt)) continue
+        add(text, multi)
+        if (text.startsWith('て') && text.length > 2) add('で' + text.slice(1), multi)
+      }
+    }
+  }
+  const own = [...out.keys()].filter((k) => k.length >= 2)
+  const stems = own.filter((k) => k.length >= 3 && /[うくぐすつぬぶむる]$/.test(k)).map((k) => k.slice(0, -1))
+  for (const run of formation.flatMap(jaRuns)) {
+    if (own.some((k) => run.includes(k)) || stems.some((st) => run.startsWith(st))) add(run, [])
+  }
+  return [...out.values()].sort((a, b) => b.text.length - a.text.length)
+}
+
+/**
+ * Can a one-kana suffix piece (さ, ら, く, に) be what this answer shows? Only
+ * at its end, after something (広さ, 僕ら, 早く, 急に), and not when the answer
+ * is a single adverb, verb or particle that happens to end in it (もし, 行く, から).
+ */
+function suffixFits(answer, kana) {
+  if (answer.length < 2 || !answer.endsWith(kana)) return false
+  const tokens = tokenizer.tokenize(answer)
+  return !(tokens.length === 1 && /^(副詞|動詞|助詞|接続詞|連体詞)$/.test(tokens[0].pos))
+}
+
 /** Does `piece` occur over the answer at [s, e) of `text`? It may cover the
  *  whole answer (all but its last character) or sit inside it, nearly as long. */
 function covers(text, piece, s, e) {
@@ -736,7 +803,7 @@ function covers(text, piece, s, e) {
  * blank. data/grammar-links.json can then hide or add questions by hand.
  */
 function assignBank(level, patterns, questions) {
-  const maxLen = Math.max(...patterns.flatMap((p) => p.pieces.map((x) => x.length)))
+  const maxLen = Math.max(...patterns.flatMap((p) => p.matchPieces.map((x) => x.text.length)))
   const blank = new RegExp(BLANK.source) // first blank only
   const found = new Map(patterns.map((p) => [p, []]))
   const byId = new Map()
@@ -753,14 +820,20 @@ function assignBank(level, patterns, questions) {
     const e = s + answer.length
     let best = 0
     let winners = []
+    const fits = (x) =>
+      covers(window, x.text, s, e)
+      && (x.text.length > 1 || suffixFits(answer, x.text))
+      // ば～ほど: every part has to be there, in order, not just ほど.
+      && inOrder(filled, x.parts)
     for (const p of patterns) {
       // pieces are longest first: the first that covers is this pattern's best
-      const piece = p.pieces.find((x) => x.length >= best && covers(window, x, s, e))
+      const piece = p.matchPieces.find((x) => x.text.length >= best && fits(x))
       if (!piece) continue
-      if (piece.length > best) { best = piece.length; winners = [p] }
+      if (piece.text.length > best) { best = piece.text.length; winners = [p] }
       else winners.push(p)
     }
-    const entry = { ja: `${target.slice(0, m.index)}**${answer}**${target.slice(m.index + m[0].length)}`, qid: q.id }
+    const ja = `${target.slice(0, m.index)}**${answer}**${target.slice(m.index + m[0].length)}`
+    const entry = { ja, qid: q.id, en: TRANSLATIONS[plain(ja)] ?? undefined }
     byId.set(q.id, entry)
     for (const p of winners) found.get(p).push(entry)
   }
@@ -804,6 +877,7 @@ function buildGrammar(level, questions) {
       ...site.flatMap((s) => [...jaRuns(s.pattern), ...alternativeKeys(s.pattern)]),
       ...formation.flatMap(jaRuns),
     ])].sort((a, b) => b.length - a.length)
+    const matching = matchPieces([pattern, ...site.map((s) => s.pattern)], formation)
     const siteExamples = site.flatMap((s) => s.page?.examples ?? []).slice(0, MAX_SITE_EXAMPLES)
     const examples = [
       ...(lesson?.examples ?? []).filter((ex) => !isTeaser(ex)).map(({ section, ...ex }) => ex),
@@ -830,6 +904,7 @@ function buildGrammar(level, questions) {
       inBank: [],
       drills: [],
       pieces,
+      matchPieces: matching,
     }
   })
   assignBank(level, patterns, grammarQs)
@@ -867,7 +942,7 @@ function buildGrammar(level, questions) {
   }
 
   const ruby = (s) => addFurigana(tokenizer, s)
-  const withRuby = patterns.map(({ pieces, ...p }) => ({
+  const withRuby = patterns.map(({ pieces, matchPieces, ...p }) => ({
     ...p,
     // The plain pattern stays for search and data/grammar-links.json.
     patternRuby: ruby(p.pattern),

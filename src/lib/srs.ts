@@ -292,23 +292,24 @@ export interface QueueOptions {
 }
 
 /**
- * Builds a session queue: due reviews first (most overdue first), up to the
- * day's review limit, then the day's remaining new cards. Cards in learning
- * steps are handled by the session as they come due.
+ * Builds a session queue: the day's due reviews, then the day's remaining new
+ * cards. When the review limit cuts the due cards, the most overdue ones make
+ * it in; the reviews are then shuffled, like Anki, since cards learned
+ * together come due together and would otherwise always replay in the order
+ * they were last answered. Cards in learning steps are handled by the session
+ * as they come due.
  */
 export function buildQueue(ids: string[], deck: string, limits: Limits = DEFAULT_LIMITS, opts: QueueOptions = {}, now = Date.now()): string[] {
   const cards = loadCards()
   const graduated = ids.filter((id) => cards[id] && !isLearning(cards[id]))
   if (opts.aheadDays) {
-    return graduated
-      .filter((id) => cards[id].due <= now + opts.aheadDays! * DAY)
-      .sort((a, b) => cards[a].due - cards[b].due)
+    return shuffle(graduated.filter((id) => cards[id].due <= now + opts.aheadDays! * DAY))
   }
   const t = today(deck, limits, now)
-  const due = graduated
+  const due = shuffle(graduated
     .filter((id) => cards[id].due <= now)
     .sort((a, b) => cards[a].due - cards[b].due)
-    .slice(0, t.reviewsLeft)
+    .slice(0, t.reviewsLeft))
   const unseen = ids.filter((id) => !cards[id])
   const fresh = (opts.newOrder ? unseen : shuffle(unseen)).slice(0, t.newLeft)
   return [...due, ...fresh]
