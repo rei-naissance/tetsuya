@@ -91,6 +91,23 @@ describe('daily limits', () => {
     expect(orders.size).toBeGreaterThan(1)
   })
 
+  it('takes new cards in list order but shows them shuffled among the reviews', () => {
+    const fresh = Array.from({ length: 12 }, (_, i) => `n${i}`)
+    saveCard('r1', review(noon - HOUR))
+    saveCard('r2', review(noon - HOUR))
+    const orders = new Set<string>()
+    let newFirst = 0
+    for (let i = 0; i < 40; i++) {
+      const q = buildQueue(['r1', 'r2', ...fresh], reading, limits, { newOrder: true }, noon)
+      // The first ten on the list (the daily limit), never the last two.
+      expect(new Set(q)).toEqual(new Set(['r1', 'r2', ...fresh.slice(0, 10)]))
+      orders.add(q.join())
+      if (q[0].startsWith('n')) newFirst++
+    }
+    expect(orders.size).toBeGreaterThan(30)
+    expect(newFirst).toBeGreaterThan(0)
+  })
+
   it('review ahead takes graduated cards due soon, ignoring the limits', () => {
     saveCard('soon', review(noon + 2 * DAY))
     saveCard('later', review(noon + 10 * DAY))

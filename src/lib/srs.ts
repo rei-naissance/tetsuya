@@ -285,19 +285,23 @@ export function deckStats(ids: string[], deck: string, limits: Limits = DEFAULT_
 }
 
 export interface QueueOptions {
-  /** Keep new cards in the given order (a word list) instead of shuffling them. */
+  /**
+   * Take new cards in the given order (a word list) instead of at random.
+   * Either way they're shown in a random order, mixed in with the reviews.
+   */
   newOrder?: boolean
   /** Review ahead: only graduated cards due within this many days, early, with no limits. */
   aheadDays?: number
 }
 
 /**
- * Builds a session queue: the day's due reviews, then the day's remaining new
- * cards. When the review limit cuts the due cards, the most overdue ones make
- * it in; the reviews are then shuffled, like Anki, since cards learned
+ * Builds a session queue: the day's due reviews and the day's remaining new
+ * cards, shuffled together. When the review limit cuts the due cards, the
+ * most overdue ones make it in. Everything is shuffled, since cards learned
  * together come due together and would otherwise always replay in the order
- * they were last answered. Cards in learning steps are handled by the session
- * as they come due.
+ * they were last answered, and a word list's new words would always come in
+ * list order (so one word gives away the next). Cards in learning steps are
+ * handled by the session as they come due.
  */
 export function buildQueue(ids: string[], deck: string, limits: Limits = DEFAULT_LIMITS, opts: QueueOptions = {}, now = Date.now()): string[] {
   const cards = loadCards()
@@ -312,7 +316,14 @@ export function buildQueue(ids: string[], deck: string, limits: Limits = DEFAULT
     .slice(0, t.reviewsLeft))
   const unseen = ids.filter((id) => !cards[id])
   const fresh = (opts.newOrder ? unseen : shuffle(unseen)).slice(0, t.newLeft)
-  return [...due, ...fresh]
+  return mixIn(due, shuffle(fresh))
+}
+
+/** `extra` dropped into `list` at random places. */
+function mixIn(list: string[], extra: string[]): string[] {
+  const out = [...list]
+  for (const id of extra) out.splice(Math.floor(Math.random() * (out.length + 1)), 0, id)
+  return out
 }
 
 /** Cards of this deck in learning steps, soonest first. */

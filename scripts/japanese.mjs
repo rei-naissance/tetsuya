@@ -15,12 +15,42 @@ const require = createRequire(import.meta.url)
 export function loadTokenizer() {
   const dicPath = path.join(path.dirname(require.resolve('kuromoji/package.json')), 'dict')
   return new Promise((resolve, reject) =>
-    kuromoji.builder({ dicPath }).build((err, t) => (err ? reject(err) : resolve(t))))
+    kuromoji.builder({ dicPath }).build((err, t) => {
+      if (err) return reject(err)
+      const tokenize = t.tokenize.bind(t)
+      resolve({ ...t, tokenize: (text) => mergeCounters(tokenize(text)) })
+    }))
+}
+
+// kuromoji reads 一人 as 一 (いち) + 人 (にん): it's ひとり, and 二人 ふたり,
+// unless part of a longer number (十一人 じゅういちにん).
+const PEOPLE = { 一人: 'ヒトリ', 二人: 'フタリ' }
+
+function mergeCounters(tokens) {
+  const out = []
+  for (let i = 0; i < tokens.length; i++) {
+    const t = tokens[i]
+    const n = tokens[i + 1]
+    const key = n ? t.surface_form + n.surface_form : ''
+    const prev = out.at(-1)
+    if (PEOPLE[key] && !(prev && prev.pos_detail_1 === '数')) {
+      out.push({ ...t, surface_form: key, basic_form: key, reading: PEOPLE[key], pronunciation: PEOPLE[key], pos_detail_1: '一般' })
+      i++
+    } else out.push(t)
+  }
+  return out
+}
+
+/** The tokenizer's reading of a whole word, in hiragana (kana in the word kept as written). */
+export function wordReading(tokenizer, word) {
+  const tokens = tokenizer.tokenize(word)
+  if (tokens.some((t) => KANJI.test(t.surface_form) && (!t.reading || t.reading === '*'))) return undefined
+  return tokens.map((t) => (KANJI.test(t.surface_form) ? hira(readingOf(t)) : t.surface_form)).join('')
 }
 
 const KANJI = /[一-龯㐀-䶿々〆ヶ]/
 const isKana = (c) => /[぀-ゟ゠-ヿー]/.test(c)
-const hira = (s) => toHiragana(s, { passRomaji: true })
+const hira = (s) => toHiragana(s, { passRomaji: true, convertLongVowelMark: false })
 
 /**
  * One token → markup. Kana around the kanji stays outside the ruby, and kana
@@ -376,9 +406,9 @@ function oneStep(kana, { vowels = false } = {}) {
 export function misreadings(word, reading, rand, n = 3, avoid = new Set()) {
   // Split off kana the word spells out, at either end.
   let a = 0
-  while (a < word.length && isKana(word[a]) && hira(word[a]) === reading[a]) a++
+  while (a < word.length && isKana(word[a]) && hira(word[a]) === hira(reading[a] ?? '')) a++
   let b = 0
-  while (b < word.length - a && isKana(word.at(-1 - b)) && hira(word.at(-1 - b)) === reading.at(-1 - b)) b++
+  while (b < word.length - a && isKana(word.at(-1 - b)) && hira(word.at(-1 - b)) === hira(reading.at(-1 - b) ?? '')) b++
   const pre = reading.slice(0, a)
   const core = reading.slice(a, reading.length - b)
   const post = reading.slice(reading.length - b)

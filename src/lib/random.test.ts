@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { sampleGrouped, shuffleChoices } from './random'
+import { drawDistractors, sampleGrouped, shuffleChoices } from './random'
 
 describe('shuffleChoices', () => {
   it('keeps the answer pointing at the same text', () => {
@@ -19,6 +19,45 @@ describe('shuffleChoices', () => {
   it('leaves keepOrder questions untouched', () => {
     const q = { choices: ['1', '2', '3', '4'], answer: 1, keepOrder: true }
     expect(shuffleChoices(q)).toBe(q)
+  })
+})
+
+describe('drawDistractors', () => {
+  const card = {
+    choices: ['こたえ', 'ごたえ', 'こだえ', 'こたい'],
+    answer: 0,
+    distractors: {
+      near: ['ごたえ', 'こだえ', 'こたい', 'こうたえ', 'こたえる'],
+      far: [['ごだえ'], ['こだい'], [], ['ごうたえ'], []],
+    },
+  }
+
+  it('keeps the answer and draws three different wrong choices from the pool', () => {
+    const pool = new Set([...card.distractors.near, ...card.distractors.far.flat()])
+    for (let i = 0; i < 100; i++) {
+      const q = shuffleChoices(card)
+      expect(q.choices[q.answer]).toBe('こたえ')
+      expect(new Set(q.choices).size).toBe(4)
+      q.choices.filter((c) => c !== 'こたえ').forEach((c) => expect(pool.has(c)).toBe(true))
+    }
+  })
+
+  it('varies the choices between showings, sometimes with a near miss of a near miss', () => {
+    const sets = new Set<string>()
+    let decoys = 0
+    for (let i = 0; i < 200; i++) {
+      const q = drawDistractors(card)
+      sets.add([...q.choices].sort().join())
+      if (q.choices.some((c) => card.distractors.far.flat().includes(c))) decoys++
+    }
+    expect(sets.size).toBeGreaterThan(3)
+    expect(decoys).toBeGreaterThan(50)
+    expect(decoys).toBeLessThan(200)
+  })
+
+  it('leaves questions without a pool alone', () => {
+    const q = { choices: ['a', 'b', 'c', 'd'], answer: 1 }
+    expect(drawDistractors(q)).toBe(q)
   })
 })
 

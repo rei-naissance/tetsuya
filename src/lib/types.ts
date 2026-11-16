@@ -35,6 +35,13 @@ export interface Question {
   keepOrder?: boolean
   /** Words from the question, shown after answering. */
   glossary?: GlossaryEntry[]
+  /**
+   * A pool of wrong choices to draw from each time (word cards): near misses
+   * of the answer, and for each of those, near misses of it.
+   */
+  distractors?: { near: string[]; far: string[][] }
+  /** The word a word card asks about. */
+  headword?: { word: string; reading: string; meaning: string }
   /** English, shown after answering. `choices` lines up with `choices` (null = none). */
   en?: { sentence?: string; passage?: string; prompt?: string; choices?: (string | null)[] }
 }

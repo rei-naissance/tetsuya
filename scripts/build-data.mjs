@@ -37,7 +37,8 @@ import { fileURLToPath } from 'node:url'
 import { toHiragana } from 'wanakana'
 import { pickTatoeba } from './tatoeba.mjs'
 import { KANJI_NOTE, kanjiIn, makeKanjiData } from './kanji.mjs'
-import { addFurigana, contentWords, lemmaForReading, loadTokenizer, lookupWord, makeDictionary, misreadings, verbAlternates } from './japanese.mjs'
+import { addFurigana, contentWords, lemmaForReading, loadTokenizer, lookupWord, makeDictionary, misreadings, verbAlternates, wordReading } from './japanese.mjs'
+import { makeReadingChecker, resolveReading } from './readings.mjs'
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const SRC = path.join(ROOT, 'data')
@@ -95,6 +96,28 @@ function rng(seedText) {
   }
 }
 
+/* Readings converted from romaji are checked against the kanji's own readings (scripts/readings.mjs). */
+const readingChecker = makeReadingChecker(readOptional('kanji.json').kanji ?? {})
+const earlyDictionary = readOptional('dictionary.json').words ?? {}
+/** Kana from the word lists' own word pages, by word. */
+const listKana = new Map()
+for (const lv of LEVELS) {
+  for (const e of readOptional(`jlpt_${lv}_vocab_list.json`)) {
+    if (!e.detail?.kana) continue
+    for (const w of e.word.replace(/\s+/g, '').split(/[/／]/)) if (!listKana.has(w)) listKana.set(w, e.detail.kana)
+  }
+}
+const readingFixes = new Map()
+
+/** `reading` for `word`, with romaji-conversion mistakes and source typos fixed. */
+function fixReading(word, reading) {
+  if (!reading || !hasKanji(word)) return reading
+  const others = [listKana.get(word), ...(earlyDictionary[word] ?? []).map((e) => e.r), wordReading(tokenizer, word)]
+  const r = resolveReading(readingChecker, word, reading, others)
+  if (r.why && r.reading !== reading) readingFixes.set(`${word} ${reading}`, `${r.reading} (${r.why})`)
+  return r.reading
+}
+
 function romajiToKana(romaji) {
   if (!romaji) return null
   // Keep n' (げんいん); any other apostrophe is noise ("ta'nin").
@@ -135,7 +158,7 @@ function parseListeningWords(exercise) {
 
 function toGlossEntry({ word, reading, meaning }) {
   const kana = romajiToKana(reading)
-  return { word: word.trim(), reading: kana ?? undefined, meaning: meaning.trim() }
+  return { word: word.trim(), reading: fixReading(word.trim(), kana) ?? undefined, meaning: meaning.trim() }
 }
 
 /** Words from the exercise's list that actually appear in the question. */
@@ -157,9 +180,16 @@ function buildKanjiDeck(level, words, report) {
 
   return cards.map((card) => {
     const rand = rng(`${level}:${card.word}`)
+    const avoid = new Set(readings)
     // Distractors the way the JLPT writes them: near misses of the right
     // reading (こたえ → ごたえ, こだえ, こうたえ), never another real reading.
-    const near = misreadings(card.word, card.reading, rand, 3, new Set(readings))
+    // A pool of them, drawn from afresh each time the card is shown.
+    const pool = misreadings(card.word, card.reading, rand, 6, avoid)
+    const near = pool.slice(0, 3)
+    // Near misses of a near miss (こたえ → ごたえ → ごだえ): with one of these
+    // in, the right answer is no longer always the one the others vary from.
+    const taken = new Set([card.reading, ...pool])
+    const far = pool.map((d) => misreadings(card.word, d, rand, 2, avoid).filter((x) => !taken.has(x)))
     // Fallback for the odd word that can't make three: other readings of a
     // similar length that share the first or last kana with the answer.
     const scored = readings
@@ -180,6 +210,8 @@ function buildKanjiDeck(level, words, report) {
       target: `**${card.word}**`,
       choices: [card.reading, ...near, ...scored.slice(0, 3 - near.length).map((s) => s.r)],
       answer: 0,
+      ...(pool.length >= 3 ? { distractors: { near: pool, far } } : {}),
+      headword: { word: card.word, reading: card.reading, meaning: card.meaning },
       explanation: `${card.word}（${card.reading}）— ${card.meaning}`,
     }
   })
@@ -568,7 +600,7 @@ function buildWords(level, questions) {
     // "王/王様" lists two words; the first is the headword.
     const [word, ...alsoWritten] = e.word.replace(/\s+/g, '').split(/[/／]/)
     const romaji = e.romaji?.split(/[/／]/)[0]
-    const kana = d.kana || (isKana(word) ? word : romajiToKana(romaji ?? ''))
+    const kana = isKana(word) ? word : fixReading(word, d.kana || romajiToKana(romaji ?? ''))
     const spellings = [...new Set([...alsoWritten, ...(d.kanji ?? [])])].filter((k) => k !== word)
     const type = d.type?.toLowerCase()
     const forms = searchForms(word, spellings, kana, type)
@@ -1074,7 +1106,10 @@ function withFurigana(q) {
  * 通って as とおって (通る) when the answer is かよって (通う).
  */
 function knownReading(q) {
-  if (q.section !== 'kanji' || (q.kind !== 'reading' && q.kind !== 'writing')) return null
+  if (q.section !== 'kanji') return null
+  // Word cards: the right reading is the first choice (before shuffling).
+  if (q.kind === 'words') return { surface: plain(q.headword?.word ?? ''), reading: q.choices[0] }
+  if (q.kind !== 'reading' && q.kind !== 'writing') return null
   const bold = plain((q.target ?? '').match(/\*\*(.+?)\*\*/)?.[1] ?? '')
   const answer = plain(q.choices[q.answer] ?? '')
   if (!bold || !answer) return null
@@ -1265,6 +1300,10 @@ if (particles) {
   const bank = Object.entries(particles.bank).map(([lv, ids]) => `${lv} ${ids.length}`).join(', ')
   console.log(`\nParticles: ${particles.contrasts} contrasts, ${particles.drills} drills → public/data/particles.json  (bank particle questions: ${bank})`)
 }
+
+console.log(`
+Readings: ${readingFixes.size} fixed (romaji conversion, source typos)${process.argv.includes('--readings') ? '' : '; list them with --readings'}`)
+if (process.argv.includes('--readings')) for (const [from, to] of readingFixes) console.log(`  ${from} → ${to}`)
 
 // `npm run data -- --skipped` lists every skipped question and why.
 if (process.argv.includes('--skipped')) {

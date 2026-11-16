@@ -7,9 +7,7 @@ import { useKeys } from '../lib/useKeys'
 import { formatDelay, getCard, markKnown, saveCard } from '../lib/srs'
 import { resetWord, wordStatus } from '../lib/words'
 import { cn } from '../lib/cn'
-import { useKanji } from '../lib/learn'
-import { kanjiChars, kanjiPath } from '../lib/kanji'
-import { kanjiBase } from './Kanji'
+import { WordKanji } from '../components/WordDefinition'
 
 /** Everything known about one word, with prev/next through the list (← →). */
 export function WordDetail({ level, words, word }: { level: Level; words: Word[]; word: Word }) {
@@ -57,7 +55,7 @@ export function WordDetail({ level, words, word }: { level: Level; words: Word[]
       <p className="mt-6 text-lg">{word.meaning}</p>
       {word.fullMeaning && <p className="mt-1 text-stone-500">{word.fullMeaning}</p>}
 
-      <WordKanji level={level} word={word.word} />
+      <WordKanji level={level} word={word.word} className="mt-6" />
 
       {word.examples.length > 0 && (
         <Block title="Example sentences">
@@ -132,32 +130,6 @@ function StatusToggle({ id }: { id: string }) {
       ) : (
         <TextButton onClick={() => setCard(saveCard(id, markKnown()))}>I already know this</TextButton>
       )}
-    </div>
-  )
-}
-
-/** The word's kanji, each linking to its kanji page. Nothing while the kanji list loads or for kana-only words. */
-function WordKanji({ level, word }: { level: Level; word: string }) {
-  const data = useKanji(level)
-  if (data.status !== 'ready') return null
-  const byChar = new Map(data.data.kanji.map((k) => [k.char, k]))
-  const chars = kanjiChars(word, (ch) => byChar.has(ch))
-  if (!chars.length) return null
-  return (
-    <div className="mt-6 flex flex-wrap gap-2">
-      {chars.map((ch) => {
-        const k = byChar.get(ch)!
-        return (
-          <Link
-            key={ch}
-            to={kanjiPath(kanjiBase(level), ch)}
-            className="flex items-center gap-3 rounded-xl border border-stone-200 bg-white py-1.5 pl-2 pr-3 transition hover:border-stone-900 dark:border-stone-800 dark:bg-stone-900 dark:hover:border-stone-400"
-          >
-            <span className="font-jp-serif text-2xl" lang="ja">{ch}</span>
-            <span className="max-w-40 truncate text-sm text-stone-500">{k.meanings.slice(0, 2).join(', ')}</span>
-          </Link>
-        )
-      })}
     </div>
   )
 }

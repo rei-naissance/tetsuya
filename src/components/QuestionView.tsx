@@ -4,6 +4,8 @@ import { KINDS, SECTION_META } from '../lib/types'
 import { cn } from '../lib/cn'
 import { activeGap } from '../lib/gaps'
 import { EN, Furi, JP, type GapOptions } from './JP'
+import { WordDefinition } from './WordDefinition'
+import { definitionTerm, questionLevel } from '../lib/definition'
 
 const asset = (path: string) => (/^(https?:)?\//.test(path) ? path : import.meta.env.BASE_URL + path)
 
@@ -28,6 +30,9 @@ export function QuestionView({ q, selected, reveal, onSelect, showSection, autoP
   const active = activeGap(q.prompt, q.target)
   const gapsJa: GapOptions = { active, fill: reveal ? q.choices[q.answer] : undefined }
   const gapsEn: GapOptions = { active, fill: reveal ? q.en?.choices?.[q.answer] ?? q.choices[q.answer] : undefined }
+  // Kanji and vocabulary: once answered, a definition card for the word asked about.
+  const term = reveal ? definitionTerm(q) : null
+  const glossary = q.glossary?.filter((g) => g.word !== term?.word)
   return (
     <div className="space-y-6">
       {showSection && (
@@ -112,21 +117,24 @@ export function QuestionView({ q, selected, reveal, onSelect, showSection, autoP
         </ol>
       )}
 
-      {reveal && (q.explanation || q.en?.sentence) && (
+      {term && <WordDefinition level={questionLevel(q)} term={term} newTab />}
+
+      {/* A word card's explanation just restates its word: the definition says it better. */}
+      {reveal && ((q.explanation && !q.headword) || q.en?.sentence) && (
         <div className="rounded-xl bg-stone-100 px-4 py-3 text-base leading-loose text-stone-700 dark:bg-stone-900 dark:text-stone-300">
-          {q.explanation && <JP text={q.explanation} />}
+          {q.explanation && !q.headword && <JP text={q.explanation} />}
           {q.en?.sentence && <EN text={q.en.sentence} className="text-sm leading-relaxed text-stone-500" />}
         </div>
       )}
 
-      {reveal && q.glossary && q.glossary.length > 0 && (
+      {reveal && glossary && glossary.length > 0 && (
         // Long lists (reading passages) start closed so the next button stays in view.
-        <details open={q.glossary.length <= 8} className="text-sm">
+        <details open={glossary.length <= 8} className="text-sm">
           <summary className="cursor-pointer select-none text-xs font-medium uppercase tracking-widest text-stone-400 hover:text-stone-600">
-            Words ({q.glossary.length})
+            Words ({glossary.length})
           </summary>
           <dl className="mt-3 grid gap-x-4 gap-y-1.5 sm:grid-cols-[auto_1fr]">
-            {q.glossary.map((g) => (
+            {glossary.map((g) => (
               <div key={g.word} className="contents">
                 <dt lang="ja" className="font-jp">
                   {g.word}

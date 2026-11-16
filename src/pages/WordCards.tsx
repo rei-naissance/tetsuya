@@ -1,8 +1,8 @@
 import { useMemo, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Actions, Button, Layout, ProgressBar, TextButton } from '../components/Layout'
-import { JP } from '../components/JP'
 import { StudyOptions } from '../components/StudyOptions'
+import { WordDefinition } from '../components/WordDefinition'
 import { usePrefs } from '../lib/prefs'
 import type { Limits } from '../lib/srs'
 import type { Level, Word } from '../lib/types'
@@ -14,8 +14,9 @@ import { Example } from './WordDetail'
 
 /**
  * Vocabulary flashcards with spaced repetition: see the word, recall its
- * reading and meaning, flip, then grade yourself. New words come in list
- * order, up to the daily limit; due words come back on their own schedule.
+ * reading and meaning, flip, then grade yourself. New words are the next
+ * ones on the list, up to the daily limit, shown in a random order among the
+ * due words.
  * With `aheadDays` it reviews words due soon, early.
  */
 export function WordCards({ level, words, aheadDays }: { level: Level; words: Word[]; aheadDays?: number }) {
@@ -29,6 +30,7 @@ export function WordCards({ level, words, aheadDays }: { level: Level; words: Wo
   return (
     <Session
       key={round}
+      level={level}
       words={words}
       byId={byId}
       deck={deck}
@@ -41,7 +43,8 @@ export function WordCards({ level, words, aheadDays }: { level: Level; words: Wo
   )
 }
 
-function Session({ words, byId, deck, limits, aheadDays, back, onRestart, onAhead }: {
+function Session({ level, words, byId, deck, limits, aheadDays, back, onRestart, onAhead }: {
+  level: Level
   words: Word[]
   byId: Map<string, Word>
   deck: string
@@ -113,30 +116,23 @@ function Session({ words, byId, deck, limits, aheadDays, back, onRestart, onAhea
     <Layout back={back} title={aheadDays ? 'Flashcards · ahead' : 'Flashcards'} right={<SessionCounts counts={s.counts} />}>
       <ProgressBar value={Math.max(0, initial - left)} max={Math.max(initial, left)} />
 
-      <button
-        onClick={() => setFlipped(true)}
-        disabled={flipped}
-        className="mt-8 block w-full rounded-3xl border border-stone-200 bg-white px-6 py-12 text-center transition enabled:hover:border-stone-400 dark:border-stone-800 dark:bg-stone-900"
-      >
-        {s.isNew && <p className="mb-4 inline-block rounded-full bg-accent-soft px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wider text-accent dark:bg-accent/10">New</p>}
-        <p lang="ja" className="font-jp text-5xl tracking-wide">{w.word}</p>
-        {!flipped && <p className="mt-6 text-sm text-stone-400">Reading and meaning? Tap or press Space</p>}
-        {flipped && (
-          <div className="mt-6 space-y-2">
-            {w.kana && <p lang="ja" className="font-jp text-xl text-stone-500">{w.kana}</p>}
-            <p className="text-lg">{w.meaning}</p>
-            {w.type && <p className="text-xs uppercase tracking-widest text-stone-400">{w.type}</p>}
-          </div>
-        )}
-      </button>
+      {flipped ? (
+        <WordDefinition level={level} word={w} size="lg" newTab className="mt-8 rounded-3xl" />
+      ) : (
+        <button
+          onClick={() => setFlipped(true)}
+          className="mt-8 block w-full rounded-3xl border border-stone-200 bg-white px-6 py-12 text-center transition hover:border-stone-400 dark:border-stone-800 dark:bg-stone-900"
+        >
+          {s.isNew && <p className="mb-4 inline-block rounded-full bg-accent-soft px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wider text-accent dark:bg-accent/10">New</p>}
+          <p lang="ja" className="font-jp text-5xl tracking-wide">{w.word}</p>
+          <p className="mt-6 text-sm text-stone-400">Reading and meaning? Tap or press Space</p>
+        </button>
+      )}
 
       {flipped && example && (
         <div className="mt-6 rounded-xl bg-stone-100 px-4 py-3 dark:bg-stone-900">
           <Example ex={example} />
         </div>
-      )}
-      {flipped && !example && w.spellings && (
-        <JP as="p" text={`Also written ${w.spellings.join('、')}`} className="mt-6 text-center text-sm text-stone-500" />
       )}
 
       <div className="mt-8 min-h-20">
