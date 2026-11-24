@@ -25,7 +25,9 @@ function searchPatterns(patterns: GrammarPattern[], query: string) {
     || `${p.meaning} ${p.title ?? ''}`.toLowerCase().includes(q))
 }
 
-/** Grammar patterns: N4 lessons grouped by chapter, then the rest of the list. */
+const chapterName = (p: GrammarPattern) => p.chapterTitle ? `Lesson ${p.chapter} · ${p.chapterTitle}` : `Chapter ${p.chapter}`
+
+/** Grammar patterns: lessons grouped by chapter, then the rest of the list. */
 export function GrammarList({ level, patterns }: { level: Level; patterns: GrammarPattern[] }) {
   const navigate = useNavigate()
   const location = useLocation()
@@ -42,7 +44,7 @@ export function GrammarList({ level, patterns }: { level: Level; patterns: Gramm
   const groups = useMemo(() => {
     const out: { title: string; items: GrammarPattern[] }[] = []
     for (const p of paged.items) {
-      const title = p.chapter ? `Chapter ${p.chapter}` : hasChapters ? 'More patterns' : 'Patterns'
+      const title = p.chapter ? chapterName(p) : hasChapters ? 'More patterns' : 'Patterns'
       const last = out[out.length - 1]
       if (last?.title === title) last.items.push(p)
       else out.push({ title, items: [p] })
@@ -140,7 +142,7 @@ export function GrammarDetail({ level, patterns, pattern: p }: { level: Level; p
 
   return (
     <Layout back={{ to: `${base}${from}`, label: 'Patterns' }} title={`${index + 1} / ${patterns.length}`}>
-      {p.chapter && <p className="text-xs font-medium uppercase tracking-widest text-stone-400">Chapter {p.chapter}</p>}
+      {p.chapter && <p className="text-xs font-medium uppercase tracking-widest text-stone-400">{chapterName(p)}</p>}
       <JP as="h1" text={p.patternRuby ?? p.pattern} className="mt-2 block text-4xl leading-tight tracking-wide" />
       {p.romaji && <p className="mt-2 text-stone-400">{p.romaji}</p>}
       <p className="mt-5 text-lg">{p.meaning}</p>
@@ -244,7 +246,7 @@ function PatternNav({ p, label, onClick, right }: { p: GrammarPattern; label: st
 }
 
 /** Plays a remote example recording; hidden if it fails to load. */
-function PlayButton({ src }: { src: string }) {
+export function PlayButton({ src }: { src: string }) {
   const [state, setState] = useState<'idle' | 'playing' | 'failed'>('idle')
   if (state === 'failed') return null
   const play = () => {

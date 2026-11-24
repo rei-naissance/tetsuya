@@ -1,5 +1,14 @@
 {
   "note": "Hand corrections for 'In this app's questions' on grammar pattern pages. Per level, key = the pattern exactly as the app shows it; 'hide' drops a question from that pattern, 'add' puts one first. Question ids show when you hover a sentence on the pattern page.",
+  "bunpro_note": "Which Bunpro point goes with which japanesejlpt lesson, where matching by the Japanese picks the wrong one. Per level, key = the lesson's pattern; value = the Bunpro slug (the end of its bunpro.jp URL), or null for none. Bunpro points not used here are listed as patterns of their own.",
+  "bunpro": {
+    "n4": {
+      "～ようです (inference)": "ようだ",
+      "～れる・～られる (honorific)": null,
+      "～しか～ない": "しか-ない",
+      "～て・～くて・～で・～なくて (reason)": "なくて"
+    }
+  },
   "n4": {
     "～らしいです (report)": {
       "hide": [

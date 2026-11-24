@@ -59,6 +59,8 @@ export interface WordExample {
   en?: string
   /** Tatoeba sentence id, for sentences from tatoeba.org (CC BY 2.0 FR): shown with a credit link. */
   tatoeba?: number
+  /** A recording of the sentence (Bunpro's), played from its site. */
+  audio?: string
 }
 
 /** One entry of the JLPT vocabulary list (learn mode). */
@@ -97,17 +99,19 @@ export interface GrammarPattern {
   patternRuby?: string
   romaji?: string
   meaning: string
-  /** One-line title and learning goal (japanesejlpt lessons). */
+  /** One-line title and learning goal (japanesejlpt lessons); `goal` is Bunpro's one-line summary otherwise. */
   title?: string
   goal?: string
-  /** japanesejlpt lesson chapter, for grouping. */
+  /** japanesejlpt lesson chapter (N4) or Bunpro lesson (N3), for grouping. */
   chapter?: number
+  /** Bunpro's lesson title ("Possibilities and Time Frames"). */
+  chapterTitle?: string
   formation: string[]
   notes: string[]
-  /** "Why it means that" / "How it is built" explanations. */
+  /** "Why it means that" / "How it is built" explanations, Bunpro's write-up. */
   sections: { label: string; heading: string; text: string[] }[]
   /** `ja` may contain furigana {漢字|かな} and the pattern as **…**. */
-  examples: (WordExample & { audio?: string })[]
+  examples: WordExample[]
   sources: { name: string; url: string }[]
   /** Fill-the-blank drills made from the examples. */
   drills: Question[]

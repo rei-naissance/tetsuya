@@ -8,6 +8,7 @@ import { formatDelay, getCard, markKnown, saveCard } from '../lib/srs'
 import { resetWord, wordStatus } from '../lib/words'
 import { cn } from '../lib/cn'
 import { WordKanji } from '../components/WordDefinition'
+import { PlayButton } from './Grammar'
 
 /** Everything known about one word, with prev/next through the list (← →). */
 export function WordDetail({ level, words, word }: { level: Level; words: Word[]; word: Word }) {
@@ -145,10 +146,13 @@ function Block({ title, children }: { title: string; children: React.ReactNode }
 
 export function Example({ ex }: { ex: WordExample }) {
   return (
-    <div>
-      <JP as="p" text={ex.ja} className="text-lg leading-loose" />
-      {ex.romaji && <p className="text-sm italic text-stone-400">{ex.romaji}</p>}
-      {ex.en && <p className="text-sm text-stone-500">{ex.en}</p>}
+    <div className="flex gap-3">
+      <div className="min-w-0 flex-1">
+        <JP as="p" text={ex.ja} className="text-lg leading-loose" />
+        {ex.romaji && <p className="text-sm italic text-stone-400">{ex.romaji}</p>}
+        {ex.en && <p className="text-sm text-stone-500">{ex.en}</p>}
+      </div>
+      {ex.audio && <PlayButton src={ex.audio} />}
     </div>
   )
 }

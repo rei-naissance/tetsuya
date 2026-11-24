@@ -12,6 +12,8 @@
  *                data/jlpt_<n4|n3>_vocab_list.json         (word browser → public/data/<level>-words.json)
  *                data/jlpt_<n4|n3>_grammar_patterns.json   (grammar patterns → public/data/<level>-grammar.json)
  *                data/jlpt_n4_grammar_lessons.json
+ *                data/jlpt_<n4|n3>_bunpro_grammar.json     (Bunpro grammar decks, folded into the patterns)
+ *                data/jlpt_<n4|n3>_bunpro_vocab.json       (Bunpro vocab decks, folded into the word list)
  *                data/grammar-links.json                   (hand corrections for "In this app's questions")
  *                data/particles.json                       (hand-written → public/data/particles.json)
  *                data/dictionary.json                      (JMdict subset for the glossary, see --jmdict)
@@ -587,8 +589,48 @@ function withTatoeba(own, extra) {
   return [...own, ...added]
 }
 
+/** A Bunpro meaning ("care-taking, house-sitting, house-watching, …") cut to its first few senses. */
+const shortMeaning = (m) => m.split(/,\s*/).slice(0, 4).join(', ')
+
+/**
+ * The word list with Bunpro's deck folded in. A Bunpro word that is already on
+ * the list (as its headword or another spelling) adds its example sentences to
+ * that entry; the rest are added at the end, in Bunpro's order.
+ */
+function withBunproWords(level, list) {
+  const bunpro = readOptional(`jlpt_${level}_bunpro_vocab.json`)
+  if (!bunpro.length) return list
+  const out = list.map((e) => ({ ...e, bunpro: [] }))
+  const byForm = new Map()
+  for (const e of out) {
+    const forms = [...e.word.replace(/\s+/g, '').split(/[/／]/), ...(e.detail?.kanji ?? [])]
+    for (const f of forms) if (!byForm.has(f)) byForm.set(f, e)
+  }
+  for (const b of bunpro) {
+    const word = b.word.replace(/[〜～]/g, '').trim()
+    if (!word || !b.meaning) continue
+    const e = byForm.get(word)
+    if (e) { e.bunpro.push(b); continue }
+    const added = {
+      word,
+      meaning: shortMeaning(b.meaning),
+      url: b.url,
+      detail: {
+        kana: b.kana && b.kana !== word ? b.kana : undefined,
+        type: b.type ?? undefined,
+        meaning: b.nuance ?? (b.meaning !== shortMeaning(b.meaning) ? b.meaning : undefined),
+        examples: [],
+      },
+      bunpro: [b],
+    }
+    out.push(added)
+    byForm.set(word, added)
+  }
+  return out
+}
+
 function buildWords(level, questions) {
-  const list = readOptional(`jlpt_${level}_vocab_list.json`)
+  const list = withBunproWords(level, readOptional(`jlpt_${level}_vocab_list.json`))
   const file = path.join(OUT_DATA, `${level}-words.json`)
   if (!list.length) return fs.rmSync(file, { force: true }), null
   const sentences = bankSentences(questions)
@@ -619,12 +661,16 @@ function buildWords(level, questions) {
       type: type || undefined,
       spellings: spellings.length ? spellings : undefined,
       examples: withTatoeba(
-        (d.examples ?? []).slice(0, MAX_EXAMPLES).map((x) => ({ ...x, ja: highlight(x.ja, forms) ?? x.ja })),
+        [
+          ...(d.examples ?? []).slice(0, MAX_EXAMPLES).map((x) => ({ ...x, ja: highlight(x.ja, forms) ?? x.ja })),
+          // Bunpro's sentences already mark the word.
+          ...(e.bunpro ?? []).flatMap((b) => b.examples).map(({ ja, en, audio }) => ({ ja, ...(en ? { en } : {}), ...(audio ? { audio } : {}) })),
+        ].slice(0, MAX_EXAMPLES),
         tatoeba[id] ?? [],
       ),
       similar: d.similar?.length ? d.similar : undefined,
       conjugation: d.conjugation,
-      url: e.url ?? undefined,
+      url: e.url ?? e.bunpro?.[0]?.url ?? undefined,
       inBank: sentences
         .map((s) => ({ ...s, ja: highlight(s.ja, forms) }))
         .filter((s) => s.ja && !longer.some((h) => s.ja.replace(/\*\*/g, '').includes(/[ぁ-ん]$/.test(h) ? h.slice(0, -1) : h)))
@@ -700,6 +746,21 @@ function buildParticles(byLevel) {
 
 const MAX_SITE_EXAMPLES = 10
 const DRILLS_PER_PATTERN = 6
+/** Bunpro has about 12 questions per point; the drill takes this many, in Bunpro's order. */
+const BUNPRO_DRILLS = 10
+/** Bunpro's sentences shown as examples: the write-up's, then this many of its questions, filled in. */
+const BUNPRO_QUESTION_EXAMPLES = 4
+
+/** A Bunpro point's example sentences, with the pattern marked and audio kept. */
+function bunproExamples(bp) {
+  if (!bp) return []
+  const fromQuestions = bp.questions.slice(0, BUNPRO_QUESTION_EXAMPLES)
+    .map((q) => ({ ja: q.ja.replace(/（[\s　]*）/, `**${q.answer}**`), en: q.en, audio: q.audio }))
+  const seen = new Set()
+  return [...bp.examples, ...fromQuestions]
+    .filter((ex) => ex.ja && !seen.has(plain(ex.ja)) && seen.add(plain(ex.ja)))
+    .map(({ ja, en, audio }) => ({ ja, ...(en ? { en } : {}), ...(audio ? { audio } : {}) }))
+}
 // Japanese runs of 2+ characters: the searchable pieces of "あまり～ない" or "Verb + 必要がある".
 const jaRuns = (s) => s.match(/[ぁ-ゟァ-ヿ一-龯々]{2,}/g) ?? []
 const patternKey = (s) => s.replace(/[^ぁ-ゟァ-ヿ一-龯々]/g, '')
@@ -713,15 +774,18 @@ function highlightPattern(ja, pieces) {
 }
 
 /**
- * Merges the two sites into one entry per pattern. japanesejlpt (N4) lessons
- * come first, in chapter order; japanesetest4you patterns with the same
- * Japanese (or the same romaji as a lesson's URL) are folded into them, and
- * the rest follow in list order.
+ * Merges the sources into one entry per pattern. japanesejlpt (N4) lessons
+ * come first, in chapter order. Bunpro points are folded into a lesson with
+ * the same Japanese; the rest follow in Bunpro's lesson order (for N3, where
+ * there are no japanesejlpt lessons, that is all of them). japanesetest4you
+ * patterns with the same Japanese (or the same romaji as a lesson's URL) are
+ * folded into those, and the rest follow in list order.
  */
 function mergeGrammar(level) {
   const site = readOptional(`jlpt_${level}_grammar_patterns.json`)
   const lessons = level === 'n4' ? readOptional('jlpt_n4_grammar_lessons.json') : []
-  const merged = lessons.map((l) => ({ lesson: l, site: [] }))
+  const bunpro = readOptional(`jlpt_${level}_bunpro_grammar.json`)
+  const merged = lessons.map((l) => ({ lesson: l, bunpro: [], site: [] }))
   const byKey = new Map()
   const byFirst = new Map()
   for (const m of merged) {
@@ -731,12 +795,35 @@ function mergeGrammar(level) {
     const first = slug.split('-')[0]
     byFirst.set(first, byFirst.has(first) ? null : m) // only when one lesson starts with it
   }
+  // Hand corrections first: data/grammar-links.json → bunpro → <level> → { "<lesson pattern>": slug | null }.
+  const fixed = readOptional('grammar-links.json').bunpro?.[level] ?? {}
+  const used = new Set()
+  for (const [name, slug] of Object.entries(fixed)) {
+    const m = merged.find((x) => x.lesson?.pattern === name)
+    if (!m) { console.warn(`  grammar-links.json: no ${level} lesson "${name}"`); continue }
+    m.fixedBunpro = true
+    if (slug === null) continue
+    const b = bunpro.find((x) => x.slug === slug)
+    if (!b) { console.warn(`  grammar-links.json: no ${level} Bunpro point "${slug}"`); continue }
+    m.bunpro.push(b)
+    used.add(b)
+  }
+  for (const b of bunpro) {
+    if (used.has(b)) continue
+    const keys = alternativeKeys(b.pattern)
+    // One kana (に, さ, ら) is too little to go on: に for frequency is not the に of ～く・～に.
+    const m = keys.filter((k) => k.length > 1).map((k) => byKey.get(k)).find((x) => x?.lesson && !x.fixedBunpro && !x.bunpro.length)
+    if (m) { m.bunpro.push(b); continue }
+    const own = { lesson: null, bunpro: [b], site: [] }
+    merged.push(own)
+    for (const k of keys) if (!byKey.has(k)) byKey.set(k, own)
+  }
   for (const s of site) {
     const m = alternativeKeys(s.pattern).map((k) => byKey.get(k)).find(Boolean)
       ?? byKey.get(romajiKey(s.romaji))
       ?? byFirst.get(romajiKey(s.romaji))
     if (m) m.site.push(s)
-    else merged.push({ lesson: null, site: [s] })
+    else merged.push({ lesson: null, bunpro: [], site: [s] })
   }
   return merged
 }
@@ -898,43 +985,58 @@ function buildGrammar(level, questions) {
   const file = path.join(OUT_DATA, `${level}-grammar.json`)
   if (!merged.length) return fs.rmSync(file, { force: true }), null
   const grammarQs = questions.filter((q) => q.section === 'grammar' && q.kind === 'form')
+  // N4 chapters are japanesejlpt's; Bunpro's lessons number the chapters only where there are none.
+  const hasLessons = merged.some((m) => m.lesson)
 
-  const patterns = merged.map(({ lesson, site }) => {
+  const patterns = merged.map(({ lesson, bunpro: [bp], site }) => {
     const first = site[0]
     const page = first?.page ?? {}
-    const pattern = lesson?.pattern ?? first.pattern
-    const formation = lesson?.formation?.length ? lesson.formation : page.formation ?? []
+    const pattern = lesson?.pattern ?? bp?.pattern ?? first.pattern
+    const formation = lesson?.formation?.length ? lesson.formation
+      : bp?.formation?.length ? bp.formation
+      : page.formation ?? []
+    const names = [pattern, ...(bp ? [bp.pattern] : []), ...site.map((s) => s.pattern)]
     const pieces = [...new Set([
-      ...jaRuns(pattern), ...alternativeKeys(pattern),
-      ...site.flatMap((s) => [...jaRuns(s.pattern), ...alternativeKeys(s.pattern)]),
+      ...names.flatMap((n) => [...jaRuns(n), ...alternativeKeys(n)]),
       ...formation.flatMap(jaRuns),
     ])].sort((a, b) => b.length - a.length)
-    const matching = matchPieces([pattern, ...site.map((s) => s.pattern)], formation)
+    const matching = matchPieces(names, formation)
     const siteExamples = site.flatMap((s) => s.page?.examples ?? []).slice(0, MAX_SITE_EXAMPLES)
     const examples = [
       ...(lesson?.examples ?? []).filter((ex) => !isTeaser(ex)).map(({ section, ...ex }) => ex),
+      ...bunproExamples(bp),
       ...siteExamples.map((ex) => ({ ...ex, ja: highlightPattern(ex.ja, pieces) })),
     ]
-    const id = `${level}-g-${hashText(patternKey(pattern) + '|' + (lesson?.url ?? first.url ?? first.pattern))}`
+    // Ids stay what they were before Bunpro was added, so drill progress is kept.
+    const idSource = lesson ? `${patternKey(lesson.pattern)}|${lesson.url}`
+      : first ? `${patternKey(first.pattern)}|${first.url ?? first.pattern}`
+      : `${patternKey(bp.pattern)}|${bp.url}`
+    const id = `${level}-g-${hashText(idSource)}`
+    // A japanesejlpt lesson keeps its own explanation; Bunpro's follows it, marked as Bunpro's.
+    const bpSections = (bp?.sections ?? []).map((s) => lesson ? { ...s, label: `${s.label} (Bunpro)` } : s)
     return {
       id,
       pattern,
       romaji: first?.romaji ?? undefined,
-      meaning: first?.meaning ?? page.meaning ?? lesson?.title ?? '',
+      meaning: (lesson ? first?.meaning ?? bp?.meaning : bp?.meaning ?? first?.meaning) ?? page.meaning ?? lesson?.title ?? '',
       title: lesson?.title,
-      goal: lesson?.goal,
-      chapter: lesson?.chapter ?? undefined,
+      // Bunpro's one-line summary goes under the meaning on the pattern page, not in the list.
+      goal: lesson?.goal ?? bp?.summary ?? undefined,
+      chapter: lesson?.chapter ?? (hasLessons ? undefined : bp?.chapter),
+      chapterTitle: hasLessons ? undefined : bp?.chapterTitle,
       formation,
       // Drop page furniture the scrape picked up as notes ("Click on image to view full size.").
       notes: (page.notes ?? []).filter((n) => !/click on image|cliquez|view full size/i.test(n)),
-      sections: lesson?.sections ?? [],
+      sections: [...(lesson?.sections ?? []), ...bpSections],
       examples,
       sources: [
         ...(lesson ? [{ name: 'japanesejlpt', url: lesson.url }] : []),
+        ...(bp ? [{ name: 'Bunpro', url: bp.url }] : []),
         ...site.filter((s) => s.url).map((s) => ({ name: 'japanesetest4you', url: s.url })),
       ],
       inBank: [],
       drills: [],
+      bunproQuestions: bp?.questions ?? [],
       pieces,
       matchPieces: matching,
     }
@@ -944,25 +1046,49 @@ function buildGrammar(level, questions) {
   // Drills: blank out the underlined part of an example; the wrong choices
   // are other patterns' underlined parts of a similar length.
   const answerOf = (ja) => plain(ja.match(/\*\*(.+?)\*\*/)?.[1] ?? '')
-  const pool = [...new Set(patterns.flatMap((p) => p.examples.map((e) => answerOf(e.ja))).filter((a) => a.length >= 1))]
+  const pool = [...new Set([
+    ...patterns.flatMap((p) => p.examples.map((e) => answerOf(e.ja))),
+    ...patterns.flatMap((p) => p.bunproQuestions.map((q) => q.answer)),
+  ].filter((a) => a.length >= 1))]
   for (const p of patterns) {
     const rand = rng(p.id)
-    const own = new Set(p.examples.map((e) => answerOf(e.ja)))
+    const own = new Set([...p.examples.map((e) => answerOf(e.ja)), ...p.bunproQuestions.map((q) => q.answer)])
+    // Look-alike wrong choices from other patterns: same first or last character (ても → てみる, でも), then similar length.
+    const lookAlikes = (answer, count, avoid = []) => {
+      const likeness = (a) => (a[0] === answer[0] ? 2 : 0) + (a.at(-1) === answer.at(-1) ? 1 : 0) - Math.abs(a.length - answer.length) / 2
+      const near = pool
+        .filter((a) => !own.has(a) && !avoid.includes(a) && !a.includes(answer) && !answer.includes(a) && Math.abs(a.length - answer.length) <= 2)
+        .map((a) => ({ a, score: likeness(a) + rand() }))
+        .sort((x, y) => y.score - x.score)
+        .slice(0, 8)
+        .map((x) => x.a)
+      const wrong = []
+      while (wrong.length < count && near.length) wrong.push(near.splice(Math.floor(rand() * near.length), 1)[0])
+      return wrong
+    }
+    // Bunpro's own questions come with wrong answers picked for them, and why each is wrong.
+    if (p.bunproQuestions.length) {
+      p.drills = p.bunproQuestions.slice(0, BUNPRO_DRILLS).map((q) => {
+        const wrong = q.wrong.slice(0, 3)
+        wrong.push(...lookAlikes(q.answer, 3 - wrong.length, wrong))
+        if (wrong.length < 3) return null
+        const choices = [q.answer, ...wrong]
+        const whyNot = wrong.filter((w) => q.why[w]).map((w) => `${w}: ${q.why[w]}`)
+        const question = blankQuestion(`${p.id}-b${q.id}`, level, q.ja, choices, 0, q.en)
+        return {
+          ...question,
+          explanation: [question.explanation, ...whyNot].join('\n'),
+          kind: 'pattern',
+        }
+      }).filter(Boolean)
+      continue
+    }
     p.drills = p.examples
       .filter((e) => answerOf(e.ja) && e.ja.match(/\*\*/g).length === 2)
       .slice(0, DRILLS_PER_PATTERN)
       .map((e, i) => {
         const answer = answerOf(e.ja)
-        // Prefer look-alikes: same first or last character (ても → てみる, でも), then similar length.
-        const likeness = (a) => (a[0] === answer[0] ? 2 : 0) + (a.at(-1) === answer.at(-1) ? 1 : 0) - Math.abs(a.length - answer.length) / 2
-        const near = pool
-          .filter((a) => !own.has(a) && !a.includes(answer) && !answer.includes(a) && Math.abs(a.length - answer.length) <= 2)
-          .map((a) => ({ a, score: likeness(a) + rand() }))
-          .sort((x, y) => y.score - x.score)
-          .slice(0, 8)
-          .map((x) => x.a)
-        const wrong = []
-        while (wrong.length < 3 && near.length) wrong.push(near.splice(Math.floor(rand() * near.length), 1)[0])
+        const wrong = lookAlikes(answer, 3)
         if (wrong.length < 3) return null
         const choices = [answer, ...wrong]
         return {
@@ -974,7 +1100,7 @@ function buildGrammar(level, questions) {
   }
 
   const ruby = (s) => addFurigana(tokenizer, s)
-  const withRuby = patterns.map(({ pieces, matchPieces, ...p }) => ({
+  const withRuby = patterns.map(({ pieces, matchPieces, bunproQuestions, ...p }) => ({
     ...p,
     // The plain pattern stays for search and data/grammar-links.json.
     patternRuby: ruby(p.pattern),
@@ -988,7 +1114,7 @@ function buildGrammar(level, questions) {
   fs.writeFileSync(file, JSON.stringify({ level: level.toUpperCase(), patterns: withRuby }))
   return {
     total: patterns.length,
-    lessons: patterns.filter((p) => p.title).length,
+    lessons: patterns.filter((p) => p.title || p.sources.some((x) => x.name === 'Bunpro')).length,
     drills: patterns.reduce((n, p) => n + p.drills.length, 0),
     noExamples: patterns.filter((p) => !p.examples.length).length,
   }
